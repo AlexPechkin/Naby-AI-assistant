@@ -4,6 +4,7 @@
   <a href="https://neuralaibaby.tech/download.html"><img alt="Latest release" src="https://img.shields.io/badge/release-2026.10.31.11%20·%2050-7c6cf0"></a>
   <img alt="Windows · macOS · Linux" src="https://img.shields.io/badge/Windows%20·%20macOS%20·%20Linux-supported-2bb3a3">
   <a href="professions"><img alt="140 professions" src="https://img.shields.io/badge/professions-140-e8a33d"></a>
+  <a href="https://boosty.to/neuroaibaby/donate"><img alt="Support on Boosty" src="https://img.shields.io/badge/Support%20on%20Boosty-Boosty-f15f2c"></a>
   <a href="LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-Naby%20%2B%20NPL--1.0-555"></a>
 </p>
 
@@ -60,6 +61,6 @@ The best submissions are checked by the author and shipped in the next Naby rele
 
 ## Links
 
-🌐 [Website](https://neuralaibaby.tech) · 💼 [Commercial license](https://neuralaibaby.tech/commercial.html) · ❤️ [Support the project](https://neuralaibaby.tech/donate.html) · 📜 [Patents](https://neuralaibaby.tech/patents.html) · ✉️ solpvo.tech@gmail.com
+🌐 [Website](https://neuralaibaby.tech) · 💼 [Commercial license](https://neuralaibaby.tech/commercial.html) · ❤️ [Support the project](https://boosty.to/neuroaibaby/donate) · 📜 [Patents](https://neuralaibaby.tech/patents.html) · ✉️ solpvo.tech@gmail.com
 
 <p align="center"><sub>© 2026 Aleksei Pechkin · Naby — short for NeyroAIBaby</sub></p>
