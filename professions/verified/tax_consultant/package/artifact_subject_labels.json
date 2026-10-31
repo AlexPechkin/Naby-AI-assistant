@@ -1,0 +1,2467 @@
+{
+  "Russian_tax_attributable_cap": [
+    "Выбранный предел российского налога на иностранный доход",
+    "Selected Russian tax attributable to foreign income cap",
+    "所选外国收入对应俄罗斯税上限"
+  ],
+  "VAT": [
+    "НДС",
+    "VAT",
+    "增值税"
+  ],
+  "VAT_amount": [
+    "Сумма НДС",
+    "VAT amount",
+    "增值税额"
+  ],
+  "VAT_due_before_selected_rounding": [
+    "НДС к уплате до выбранного округления",
+    "VAT due before selected rounding",
+    "所选舍入前应缴增值税"
+  ],
+  "VAT_period_matches_tax_span": [
+    "Совпадение периода НДС и охвата прямого налога",
+    "VAT period matches direct-tax span",
+    "增值税期间是否匹配直接税跨度"
+  ],
+  "acquired": [
+    "Дата приобретения",
+    "Acquisition date",
+    "购买日期"
+  ],
+  "act_record": [
+    "Запись об акте проверки",
+    "Audit act record",
+    "检查报告记录"
+  ],
+  "action": [
+    "Вид действия",
+    "Action kind",
+    "行动类别"
+  ],
+  "actual": [
+    "Предоставленное значение",
+    "Supplied value",
+    "所提供数值"
+  ],
+  "actual_FNS_balance_established": [
+    "Сальдо живого счёта ФНС установлено этим инструментом",
+    "Live FNS balance established by this tool",
+    "本工具是否确定实时税务账户余额"
+  ],
+  "actual_accrual_established": [
+    "Фактическое начисление установлено этим инструментом",
+    "Actual accrual established by this tool",
+    "本工具是否确定实际计征"
+  ],
+  "actual_exemption_granted": [
+    "Освобождение фактически предоставлено этим инструментом",
+    "Actual exemption granted by this tool",
+    "本工具是否实际授予免除"
+  ],
+  "additional_deductible_contributions": [
+    "Дополнительно учитываемые в расходах взносы",
+    "Additional deductible contributions",
+    "另计入可扣费用的保险费"
+  ],
+  "adjustments": [
+    "Корректировки",
+    "Adjustments",
+    "调整"
+  ],
+  "advance_id": [
+    "Идентификатор связанного аванса",
+    "Linked advance identifier",
+    "关联预收款标识"
+  ],
+  "after_selected_repeat_multiplier": [
+    "После выбранного множителя повторности",
+    "After selected repeat multiplier",
+    "应用所选重复违规系数后"
+  ],
+  "allocation_model": [
+    "Порядок распределения",
+    "Allocation model",
+    "分配方式"
+  ],
+  "allocations": [
+    "Распределения",
+    "Allocations",
+    "分配"
+  ],
+  "amount": [
+    "Сумма",
+    "Amount",
+    "金额"
+  ],
+  "amount_basis": [
+    "Вид исходной суммы",
+    "Amount basis",
+    "原金额类型"
+  ],
+  "analysis": [
+    "Анализ",
+    "Analysis",
+    "分析"
+  ],
+  "analysis_only": [
+    "Только аналитический результат",
+    "Analysis only",
+    "仅供分析"
+  ],
+  "anniversary_policy": [
+    "Правило отсутствующей даты годовщины",
+    "Missing-anniversary policy",
+    "周年日期缺失处理规则"
+  ],
+  "annual_potential_income": [
+    "Выбранный годовой потенциальный доход",
+    "Selected annual potential income",
+    "所选年度潜在收入"
+  ],
+  "appeal_draft": [
+    "Черновик обращения",
+    "Appeal draft",
+    "申诉草案"
+  ],
+  "appendices": [
+    "Приложения",
+    "Appendices",
+    "附件"
+  ],
+  "applicability_date": [
+    "Выбранная дата применимости",
+    "Selected applicability date",
+    "所选适用日期"
+  ],
+  "applied": [
+    "Применённая в расчёте сумма",
+    "Amount applied in calculation",
+    "计算中应用的金额"
+  ],
+  "applied_VAT": [
+    "Учтённый в расчёте НДС",
+    "VAT applied in calculation",
+    "计算中计入的增值税"
+  ],
+  "approval_status": [
+    "Статус предлагаемого положения",
+    "Proposed provision status",
+    "拟议条款状态"
+  ],
+  "arithmetic_precision": [
+    "Арифметика и точность отображения",
+    "Arithmetic and display precision",
+    "运算及显示精度"
+  ],
+  "as_of": [
+    "Предел доступной информации",
+    "Information cutoff",
+    "信息截止日期"
+  ],
+  "assisted_draft": [
+    "Вспомогательный черновик",
+    "Assisted draft",
+    "辅助草案"
+  ],
+  "assumptions": [
+    "Авторские допущения",
+    "Authored assumptions",
+    "作者假设"
+  ],
+  "attribution_model": [
+    "Основание отнесения налога",
+    "Tax attribution model",
+    "税额归属方式"
+  ],
+  "audit_kind": [
+    "Вид проверки",
+    "Audit kind",
+    "检查类别"
+  ],
+  "audit_record": [
+    "Запись о проверке",
+    "Audit record",
+    "检查记录"
+  ],
+  "authored_conclusion": [
+    "Авторский проект вывода",
+    "Authored draft conclusion",
+    "作者拟议结论"
+  ],
+  "authority_established": [
+    "Полномочие установлено этим инструментом",
+    "Authority established by this tool",
+    "本工具是否确认权限"
+  ],
+  "authorship": [
+    "Происхождение текста",
+    "Text authorship",
+    "文字来源性质"
+  ],
+  "automatic_regime_selected": [
+    "Автоматический выбор режима инструментом",
+    "Automatic regime selection by the tool",
+    "工具自动选择税制"
+  ],
+  "available_VAT": [
+    "Предоставленный незачтённый НДС аванса",
+    "Supplied unoffset advance VAT",
+    "所提供尚未冲抵的预收款增值税"
+  ],
+  "balance_basis": [
+    "Выбранное сальдо для сравнения",
+    "Selected balance basis",
+    "所选比较余额"
+  ],
+  "balance_interpretation": [
+    "Знак и смысл сальдо",
+    "Balance sign and interpretation",
+    "余额符号及含义"
+  ],
+  "bank_record": [
+    "Выбранные банковские сведения",
+    "Selected bank record",
+    "所选银行记录"
+  ],
+  "base_candidate_date": [
+    "Базовая условная дата",
+    "Base candidate date",
+    "基础候选日期"
+  ],
+  "base_conditional_fine": [
+    "Базовый условный штраф",
+    "Base conditional fine",
+    "基础有条件罚款"
+  ],
+  "basis": [
+    "Выбранное основание",
+    "Selected basis",
+    "所选依据"
+  ],
+  "branch_method": [
+    "Порядок по обособленным подразделениям",
+    "Separate-division procedure",
+    "分支机构处理程序"
+  ],
+  "brief": [
+    "Исходное обращение клиента",
+    "Client brief",
+    "客户原始请求"
+  ],
+  "business_purpose": [
+    "Предлагаемая деловая цель",
+    "Proposed business purpose",
+    "拟议商业目的"
+  ],
+  "buyer_type": [
+    "Вид покупателя",
+    "Buyer type",
+    "买方类型"
+  ],
+  "cadastral_floor": [
+    "Выбранный кадастровый минимум дохода",
+    "Selected cadastral income floor",
+    "所选地籍最低计税收入"
+  ],
+  "calculation": [
+    "Расчётная ветвь",
+    "Calculation branch",
+    "计算分支"
+  ],
+  "calculation_components": [
+    "Составляющие расчёта",
+    "Calculation components",
+    "计算组成项"
+  ],
+  "calculation_status": [
+    "Статус расчёта",
+    "Calculation status",
+    "计算状态"
+  ],
+  "calendar_days": [
+    "Календарные дни",
+    "Calendar days",
+    "日历天数"
+  ],
+  "calendar_holding_condition_met": [
+    "Выполнение выбранного календарного условия владения",
+    "Selected calendar holding condition met",
+    "是否满足所选日历持有条件"
+  ],
+  "calendar_legally_verified": [
+    "Правовая корректность календаря проверена этим инструментом",
+    "Calendar legally verified by this tool",
+    "本工具是否完成日历法律核验"
+  ],
+  "calendar_year_days": [
+    "Дни в соответствующем календарном году",
+    "Days in the relevant calendar year",
+    "对应日历年的天数"
+  ],
+  "candidate_after_proposed_adjustments": [
+    "Сценарное сальдо после предлагаемых корректировок",
+    "Scenario balance after proposed adjustments",
+    "拟议调整后的情景余额"
+  ],
+  "candidate_before_roll": [
+    "Условная дата до переноса",
+    "Candidate date before rolling",
+    "顺延前候选日期"
+  ],
+  "candidate_deadline": [
+    "Условная дата срока",
+    "Candidate deadline",
+    "候选截止日期"
+  ],
+  "cap": [
+    "Выбранный предел",
+    "Selected cap",
+    "所选上限"
+  ],
+  "cap_amount": [
+    "Предельная сумма",
+    "Cap amount",
+    "上限金额"
+  ],
+  "cap_ratio": [
+    "Выбранная предельная доля",
+    "Selected cap ratio",
+    "所选上限比例"
+  ],
+  "case": [
+    "Вид случая",
+    "Case kind",
+    "情形类别"
+  ],
+  "case_identity_authenticity_or_applicability_established": [
+    "Дело, подлинность или применимость установлены этим инструментом",
+    "Case identity, authenticity or applicability established by this tool",
+    "本工具是否确认案件身份、真实性或适用性"
+  ],
+  "case_number": [
+    "Номер дела из источника",
+    "Source case number",
+    "来源案号"
+  ],
+  "case_submitted": [
+    "Дело подано этим инструментом",
+    "Case submitted by this tool",
+    "本工具是否提交案件"
+  ],
+  "category": [
+    "Категория по предоставленным данным",
+    "Supplied category",
+    "所提供类别"
+  ],
+  "change_ids": [
+    "Идентификаторы записей об изменениях",
+    "Change-record identifiers",
+    "变更记录标识"
+  ],
+  "change_timing_scope": [
+    "Границы сопоставления даты изменения",
+    "Change-timing scope",
+    "变更日期比较范围"
+  ],
+  "changes": [
+    "Выбранные изменения",
+    "Selected changes",
+    "所选变更"
+  ],
+  "check": [
+    "Проверяемый вопрос",
+    "Review question",
+    "审查事项"
+  ],
+  "choices": [
+    "Выбранные положения политики",
+    "Selected policy provisions",
+    "所选政策条款"
+  ],
+  "circumstances": [
+    "Предоставленные обстоятельства",
+    "Supplied circumstances",
+    "所提供情节"
+  ],
+  "claim": [
+    "Черновик запроса или заявления",
+    "Draft inquiry or claim",
+    "查询或申请草案"
+  ],
+  "claimed": [
+    "Заявленная сумма",
+    "Claimed amount",
+    "申报金额"
+  ],
+  "classification": [
+    "Выбранная классификация",
+    "Selected classification",
+    "所选分类"
+  ],
+  "clause": [
+    "Пункт источника",
+    "Source clause",
+    "来源条款"
+  ],
+  "clause_topic_conflicts": [
+    "Несколько условий одной темы",
+    "Multiple clauses on one topic",
+    "同主题多条款"
+  ],
+  "clauses": [
+    "Условия договора",
+    "Contract clauses",
+    "合同条款"
+  ],
+  "client": [
+    "Данные клиента",
+    "Client information",
+    "客户资料"
+  ],
+  "client_context": [
+    "Контекст клиента из выбранных записей",
+    "Selected client context",
+    "所选客户背景"
+  ],
+  "client_right_or_eligibility_confirmed": [
+    "Право или допустимость для клиента подтверждены этим инструментом",
+    "Client right or eligibility confirmed by this tool",
+    "本工具是否确认客户权利或资格"
+  ],
+  "closing_advances": [
+    "Остатки выбранных авансов",
+    "Closing selected advances",
+    "所选预收款期末余额"
+  ],
+  "comparison": [
+    "Условие сравнения",
+    "Comparison condition",
+    "比较条件"
+  ],
+  "comparison_limitations": [
+    "Ограничения сравнения",
+    "Comparison limitations",
+    "比较限制"
+  ],
+  "comparison_operands": [
+    "Точные операнды сравнения",
+    "Exact comparison operands",
+    "精确比较操作数"
+  ],
+  "comparison_period_coverage_equal": [
+    "Равенство покрытия выбранных периодов",
+    "Selected period coverage is equal",
+    "所选期间覆盖是否相等"
+  ],
+  "comparison_span_equal": [
+    "Совпадение границ сравниваемых периодов",
+    "Comparison spans match",
+    "比较期间边界是否匹配"
+  ],
+  "complete_rule_chain_established": [
+    "Полная цепочка норм установлена этим инструментом",
+    "Complete rule chain established by this tool",
+    "本工具是否确认完整规范链"
+  ],
+  "condition_results": [
+    "Результаты предоставленных условий",
+    "Supplied condition results",
+    "所提供条件结果"
+  ],
+  "conditional_accrual_base": [
+    "Условная база начисления",
+    "Conditional accrual base",
+    "有条件计征基数"
+  ],
+  "conditional_after_mitigation": [
+    "Условная сумма после выбранного снижения",
+    "Conditional amount after selected mitigation",
+    "所选减轻后有条件金额"
+  ],
+  "conditional_after_selected_exemption": [
+    "Условная сумма после выбранной модели исключения",
+    "Conditional amount after selected exemption model",
+    "所选免除模型后有条件金额"
+  ],
+  "conditional_signed_accrual_total": [
+    "Условный итог начислений со знаком",
+    "Conditional signed accrual total",
+    "带符号有条件计征总额"
+  ],
+  "conditional_total": [
+    "Условный полный итог",
+    "Conditional complete total",
+    "有条件完整总额"
+  ],
+  "conditions": [
+    "Предоставленные условия отбора",
+    "Supplied selection conditions",
+    "所提供筛选条件"
+  ],
+  "conditions_review": [
+    "Анализ условий",
+    "Conditions review",
+    "条件分析"
+  ],
+  "consequences": [
+    "Предлагаемый анализ последствий",
+    "Proposed consequence analysis",
+    "拟议后果分析"
+  ],
+  "context": [
+    "Контекст задачи",
+    "Task context",
+    "任务背景"
+  ],
+  "contract_confidentiality_scope": [
+    "Граница договорной конфиденциальности",
+    "Contract confidentiality scope",
+    "合同保密范围"
+  ],
+  "contract_validity_established": [
+    "Действительность договора установлена этим инструментом",
+    "Contract validity established by this tool",
+    "本工具是否确认合同有效性"
+  ],
+  "contribution_base": [
+    "Выбранная база взносов",
+    "Selected contribution base",
+    "所选保险费基数"
+  ],
+  "contribution_rate": [
+    "Выбранная ставка взносов",
+    "Selected contribution rate",
+    "所选保险费率"
+  ],
+  "contributions": [
+    "Взносы",
+    "Contributions",
+    "保险费"
+  ],
+  "contributions_before_rounding": [
+    "Взносы до округления",
+    "Contributions before rounding",
+    "舍入前保险费"
+  ],
+  "contributions_cash": [
+    "Денежные затраты на взносы",
+    "Contribution cash outflow",
+    "保险费现金支出"
+  ],
+  "contributions_cash_total": [
+    "Итого денежные затраты на взносы",
+    "Total contribution cash outflow",
+    "保险费现金支出合计"
+  ],
+  "cost_method": [
+    "Выбранный способ уменьшения дохода",
+    "Selected income reduction method",
+    "所选收入扣减方式"
+  ],
+  "cost_or_deduction": [
+    "Расходы или фиксированный вычет по выбранному способу",
+    "Costs or fixed deduction under selected method",
+    "按所选方式的费用或固定扣除"
+  ],
+  "cost_scope_note": [
+    "Описание состава выбранных расходов",
+    "Selected expense scope description",
+    "所选费用范围说明"
+  ],
+  "count_start": [
+    "Правило начала отсчёта",
+    "Count-start rule",
+    "起算规则"
+  ],
+  "counterparties": [
+    "Предоставленные контрагенты",
+    "Supplied counterparties",
+    "所提供交易方"
+  ],
+  "counterparty_registry_checked": [
+    "Реестр контрагента проверен этим инструментом",
+    "Counterparty registry checked by this tool",
+    "本工具是否查询交易方登记"
+  ],
+  "court": [
+    "Суд из выбранной записи",
+    "Court in selected record",
+    "所选记录中的法院"
+  ],
+  "court_records": [
+    "Выбранные судебные записи",
+    "Selected court records",
+    "所选司法记录"
+  ],
+  "coverage_from": [
+    "Начало проверяемого интервала",
+    "Coverage start",
+    "覆盖起始日期"
+  ],
+  "coverage_status": [
+    "Покрытие предоставленными периодами",
+    "Supplied-period coverage",
+    "所提供期间的覆盖情况"
+  ],
+  "coverage_to": [
+    "Конец проверяемого интервала",
+    "Coverage end",
+    "覆盖结束日期"
+  ],
+  "covered_span": [
+    "Границы выбранных периодов",
+    "Selected period span",
+    "所选期间跨度"
+  ],
+  "credit_cap_ratio": [
+    "Выбранная предельная доля уменьшения налога",
+    "Selected tax-credit cap ratio",
+    "所选减税上限比例"
+  ],
+  "credit_closing": [
+    "Остаток уменьшающего кредита",
+    "Closing deduction credit",
+    "减税信用期末余额"
+  ],
+  "credit_opening": [
+    "Начальный уменьшающий кредит",
+    "Opening deduction credit",
+    "期初减税信用"
+  ],
+  "credit_reduction_rate": [
+    "Выбранная ставка уменьшения",
+    "Selected reduction rate",
+    "所选减免率"
+  ],
+  "credit_used": [
+    "Использованный в расчёте кредит",
+    "Credit used in calculation",
+    "计算中使用的信用额"
+  ],
+  "criteria_basis": [
+    "Основание выбранного критерия",
+    "Selected criterion basis",
+    "所选条件依据"
+  ],
+  "current_legal_applicability_verified": [
+    "Текущая правовая применимость проверена этим инструментом",
+    "Current legal applicability verified by this tool",
+    "本工具是否核验当前法律适用性"
+  ],
+  "current_legal_chain_established": [
+    "Действующая цепочка норм установлена этим инструментом",
+    "Current legal chain established by this tool",
+    "本工具是否确认现行规范链"
+  ],
+  "data_sent_external": [
+    "Данные отправлены наружу этим инструментом",
+    "Data sent externally by this tool",
+    "本工具是否向外发送资料"
+  ],
+  "date": [
+    "Дата",
+    "Date",
+    "日期"
+  ],
+  "date_source_reference": [
+    "Источник фактических дат редакции",
+    "Source for edition dates",
+    "版本事实日期来源"
+  ],
+  "days": [
+    "Дни по предоставленным данным",
+    "Supplied days",
+    "所提供天数"
+  ],
+  "deadline_from_record": [
+    "Срок из выбранной записи",
+    "Deadline from selected record",
+    "所选记录中的期限"
+  ],
+  "decision_date": [
+    "Дата судебного решения",
+    "Court decision date",
+    "裁判日期"
+  ],
+  "decision_record": [
+    "Запись о решении",
+    "Decision record",
+    "决定记录"
+  ],
+  "declaration_submitted": [
+    "Декларация подана этим инструментом",
+    "Return submitted by this tool",
+    "本工具是否提交申报"
+  ],
+  "declared_tax_payable": [
+    "Налог к уплате по предоставленной декларации",
+    "Tax payable on supplied declaration",
+    "所提供申报中的应缴税额"
+  ],
+  "deduction_pools": [
+    "Общие пулы выбранных вычетов",
+    "Selected deduction pools",
+    "所选扣除池"
+  ],
+  "deductions_applied": [
+    "Вычеты, применённые в расчёте",
+    "Deductions applied in calculation",
+    "计算中应用的扣除"
+  ],
+  "delta": [
+    "Изменение со знаком",
+    "Signed change",
+    "带符号变化"
+  ],
+  "denominator": [
+    "Знаменатель",
+    "Denominator",
+    "分母"
+  ],
+  "details": [
+    "Подробности расчёта",
+    "Calculation details",
+    "计算详情"
+  ],
+  "direct_exempt_input_vat": [
+    "Предоставленный входящий НДС исключительно необлагаемых операций",
+    "Supplied input VAT exclusively for exempt operations",
+    "所提供专用于免税业务的进项增值税"
+  ],
+  "direct_tax": [
+    "Выбранный прямой налог",
+    "Selected direct tax",
+    "所选直接税"
+  ],
+  "divisor": [
+    "Выбранный делитель снижения",
+    "Selected mitigation divisor",
+    "所选减轻除数"
+  ],
+  "document_id": [
+    "Идентификатор выбранной записи документа",
+    "Selected document-record identifier",
+    "所选文件记录标识"
+  ],
+  "document_identity": [
+    "Реквизиты и название источника",
+    "Source identity and title",
+    "来源名称及信息"
+  ],
+  "document_ids": [
+    "Идентификаторы выбранных документов",
+    "Selected document identifiers",
+    "所选文件标识"
+  ],
+  "document_kind": [
+    "Заявленный вид источника",
+    "Declared source kind",
+    "声明的来源类别"
+  ],
+  "document_metadata": [
+    "Сведения о выбранном источнике",
+    "Selected source metadata",
+    "所选来源信息"
+  ],
+  "documents": [
+    "Выбранные документы",
+    "Selected documents",
+    "所选文件"
+  ],
+  "documents_signed": [
+    "Документы подписаны этим инструментом",
+    "Documents signed by this tool",
+    "本工具是否签署文件"
+  ],
+  "domestic_advance_paid": [
+    "Предоставленные отечественные авансовые платежи",
+    "Supplied domestic advance tax paid",
+    "所提供国内预缴税款"
+  ],
+  "draft_action": [
+    "Предлагаемое действие",
+    "Proposed action",
+    "拟议行动"
+  ],
+  "draft_analysis": [
+    "Авторский проект анализа",
+    "Authored draft analysis",
+    "作者分析草案"
+  ],
+  "draft_notes": [
+    "Авторские заметки",
+    "Authored draft notes",
+    "作者草案说明"
+  ],
+  "draft_only": [
+    "Только черновик",
+    "Draft only",
+    "仅为草案"
+  ],
+  "draft_status": [
+    "Статус черновика",
+    "Draft status",
+    "草案状态"
+  ],
+  "draft_text": [
+    "Авторский текст черновика",
+    "Authored draft text",
+    "作者草案文字"
+  ],
+  "duration_unit": [
+    "Единица выбранного срока",
+    "Selected duration unit",
+    "所选时长单位"
+  ],
+  "edition": [
+    "Предоставленная редакция",
+    "Supplied edition",
+    "所提供版本"
+  ],
+  "effective_from": [
+    "Предоставленное начало действия",
+    "Supplied effective start",
+    "所提供生效起始日期"
+  ],
+  "effective_to": [
+    "Предоставленное окончание действия",
+    "Supplied effective end",
+    "所提供有效期结束日期"
+  ],
+  "eligibility_conditions": [
+    "Выбранные числовые условия допуска",
+    "Selected numerical eligibility conditions",
+    "所选数值资格条件"
+  ],
+  "eligibility_confirmed": [
+    "Право применения подтверждено этим инструментом",
+    "Eligibility confirmed by this tool",
+    "本工具是否确认适用资格"
+  ],
+  "eligibility_status": [
+    "Граница оценки допуска",
+    "Eligibility review scope",
+    "资格评估范围"
+  ],
+  "employees": [
+    "Предоставленная численность",
+    "Supplied headcount",
+    "所提供人数"
+  ],
+  "end": [
+    "Конец периода",
+    "Period end",
+    "期间结束"
+  ],
+  "end_date": [
+    "Дата окончания",
+    "End date",
+    "结束日期"
+  ],
+  "entity_type": [
+    "Тип лица",
+    "Entity type",
+    "主体类型"
+  ],
+  "entries": [
+    "Выбранные операции",
+    "Selected entries",
+    "所选交易"
+  ],
+  "episodes": [
+    "Эпизоды проверки",
+    "Audit episodes",
+    "检查争点"
+  ],
+  "event_date": [
+    "Фактическая дата исходного события",
+    "Actual trigger-event date",
+    "实际触发事件日期"
+  ],
+  "events": [
+    "События и условные сроки",
+    "Events and candidate deadlines",
+    "事项及候选期限"
+  ],
+  "evidence": [
+    "Выбранные подтверждающие материалы",
+    "Selected supporting material",
+    "所选支持材料"
+  ],
+  "evidence_gaps": [
+    "Пробелы и вопросы для проверки",
+    "Gaps and review questions",
+    "缺口及待查问题"
+  ],
+  "evidence_status": [
+    "Заявленная оценка материалов",
+    "Declared evidence classification",
+    "声明的证据分类"
+  ],
+  "exact_amount": [
+    "Сумма до выбранного округления",
+    "Amount before selected rounding",
+    "所选舍入前金额"
+  ],
+  "excerpt": [
+    "Оригинальная цитата",
+    "Original excerpt",
+    "原始引文"
+  ],
+  "exclusion_records": [
+    "Выбранные основания исключений",
+    "Selected exclusion records",
+    "所选排除依据记录"
+  ],
+  "exemption_basis": [
+    "Выбранное основание освобождения",
+    "Selected exemption basis",
+    "所选免除依据"
+  ],
+  "exemption_review": [
+    "Отдельная оценка возможного исключения",
+    "Separate potential exemption review",
+    "独立潜在免除分析"
+  ],
+  "exemption_treatment": [
+    "Выбранное обращение с освобождением",
+    "Selected exemption treatment",
+    "所选免税处理"
+  ],
+  "expected": [
+    "Выбранный критерий",
+    "Selected criterion",
+    "所选条件"
+  ],
+  "expense": [
+    "Выбранные расходы",
+    "Selected expenses",
+    "所选支出"
+  ],
+  "expenses_contribution_basis": [
+    "Учёт взносов в исходной сумме расходов",
+    "Contribution treatment in supplied expenses",
+    "原费用中的保险费处理"
+  ],
+  "extension": [
+    "Предоставленное продление",
+    "Supplied extension",
+    "所提供延期"
+  ],
+  "extension_or_refusal": [
+    "Авторские основания продления или отказа",
+    "Authored extension or refusal grounds",
+    "作者延期或拒绝理由"
+  ],
+  "external_actions": [
+    "Внешние действия этого инструмента",
+    "External actions by this tool",
+    "本工具外部操作"
+  ],
+  "facts": [
+    "Выбранные фактические записи",
+    "Selected factual records",
+    "所选事实记录"
+  ],
+  "fee": [
+    "Предоставленная цена услуги",
+    "Supplied service fee",
+    "所提供服务费"
+  ],
+  "field": [
+    "Проверяемое условие клиента",
+    "Client condition field",
+    "客户条件项目"
+  ],
+  "fields": [
+    "Поля предлагаемого регистра",
+    "Proposed register fields",
+    "拟议登记簿字段"
+  ],
+  "filing_performed": [
+    "Подача выполнена этим инструментом",
+    "Filing performed by this tool",
+    "本工具是否执行提交"
+  ],
+  "filing_review": [
+    "Оценка обязанности и сроков подачи",
+    "Filing obligation and date review",
+    "申报义务及期限分析"
+  ],
+  "final_conditional_amount": [
+    "Итог после выбранных стадий и исключения",
+    "Final amount after selected stages and exemption",
+    "所选阶段及免除后的最终金额"
+  ],
+  "fine": [
+    "Выбранный условный расчёт штрафа",
+    "Selected conditional fine calculation",
+    "所选有条件罚款计算"
+  ],
+  "foreign_tax_credit_applied": [
+    "Применённый в расчёте иностранный зачёт",
+    "Foreign tax credit applied in calculation",
+    "计算中应用的外国税抵免"
+  ],
+  "foreign_tax_credits": [
+    "Предоставленные иностранные зачёты",
+    "Supplied foreign tax credits",
+    "所提供外国税抵免"
+  ],
+  "foreign_trade": [
+    "Заявленное наличие ВЭД",
+    "Declared foreign-trade activity",
+    "声明的外贸业务情况"
+  ],
+  "form": [
+    "Предоставленная форма документа",
+    "Supplied document form",
+    "所提供文件形式"
+  ],
+  "from_date": [
+    "Начальная дата",
+    "Start date",
+    "起始日期"
+  ],
+  "function": [
+    "Выбранный сценарий работы",
+    "Selected workflow",
+    "所选工作流程"
+  ],
+  "gaps": [
+    "Ограничения и недостающие сведения",
+    "Limitations and missing information",
+    "限制及缺失资料"
+  ],
+  "general_provisions": [
+    "Предлагаемые общие положения",
+    "Proposed general provisions",
+    "拟议一般条款"
+  ],
+  "gross_amount": [
+    "Сумма с НДС",
+    "Amount including VAT",
+    "含增值税金额"
+  ],
+  "gross_income": [
+    "Признанный валовой налоговый доход, не обязательно денежная выручка",
+    "Recognized gross tax income, not necessarily cash proceeds",
+    "确认的总计税收入，不一定等于现金收入"
+  ],
+  "gross_payment": [
+    "Выбранная выплата до удержания",
+    "Selected gross payment",
+    "所选预扣前付款"
+  ],
+  "grounds": [
+    "Авторские основания обращения",
+    "Authored grounds",
+    "作者拟议理由"
+  ],
+  "group_id": [
+    "Идентификатор группы налоговой базы",
+    "Tax-base group identifier",
+    "税基组标识"
+  ],
+  "groups": [
+    "Выбранные группы налоговых баз",
+    "Selected tax-base groups",
+    "所选税基组"
+  ],
+  "history_group": [
+    "Предоставленная группа истории редакций",
+    "Supplied version-history group",
+    "所提供版本历史分组"
+  ],
+  "id": [
+    "Идентификатор записи",
+    "Record identifier",
+    "记录标识"
+  ],
+  "identifier": [
+    "Идентификатор из выбранной записи",
+    "Identifier from selected record",
+    "所选记录中的标识"
+  ],
+  "income": [
+    "Признанные доходы",
+    "Recognized income",
+    "确认收入"
+  ],
+  "incomes": [
+    "Записи о доходах",
+    "Income records",
+    "收入记录"
+  ],
+  "increment": [
+    "Выбранный шаг округления",
+    "Selected rounding increment",
+    "所选舍入步长"
+  ],
+  "inn": [
+    "ИНН из источника",
+    "Source INN",
+    "来源INN税号"
+  ],
+  "inn_format_or_checksum_matches": [
+    "Соответствие формата или контрольных цифр ИНН",
+    "INN format or checksum match",
+    "INN格式或校验位是否匹配"
+  ],
+  "input_VAT_deductibility_determined": [
+    "Право на вычет входящего НДС установлено этим инструментом",
+    "Input VAT deductibility established by this tool",
+    "本工具是否确认进项税抵扣资格"
+  ],
+  "input_sha256": [
+    "SHA256 входного предложения для воспроизводимости",
+    "Input proposal SHA256 for reproducibility",
+    "用于复现的输入提案SHA256"
+  ],
+  "inspector_position": [
+    "Выбранная позиция инспекции",
+    "Selected inspector position",
+    "所选税务机关立场"
+  ],
+  "interview_memo": [
+    "Черновик памятки к допросу",
+    "Draft interview guidance",
+    "询问说明草案"
+  ],
+  "inventory": [
+    "Опись материалов",
+    "Material inventory",
+    "材料清单"
+  ],
+  "issue": [
+    "Описание противоречия",
+    "Conflict description",
+    "冲突说明"
+  ],
+  "issued_at": [
+    "Фактическая дата выдачи",
+    "Actual issue date",
+    "实际签发日期"
+  ],
+  "jurisdiction": [
+    "Юрисдикция",
+    "Jurisdiction",
+    "司法辖区"
+  ],
+  "key_rate_ratio": [
+    "Выбранная ключевая ставка в долях",
+    "Selected key rate as a ratio",
+    "所选关键利率比例"
+  ],
+  "kind": [
+    "Заявленный вид записи",
+    "Declared record kind",
+    "声明的记录类别"
+  ],
+  "ledger": [
+    "Предоставленный журнал операций",
+    "Supplied transaction ledger",
+    "所提供交易日志"
+  ],
+  "legal_applicability_certified": [
+    "Правовая применимость удостоверена этим инструментом",
+    "Legal applicability certified by this tool",
+    "本工具是否认证法律适用性"
+  ],
+  "legal_applicability_established": [
+    "Правовая применимость установлена этим инструментом",
+    "Legal applicability established by this tool",
+    "本工具是否确认法律适用性"
+  ],
+  "legal_deadline_established": [
+    "Юридический срок установлен этим инструментом",
+    "Legal deadline established by this tool",
+    "本工具是否确认法定期限"
+  ],
+  "legal_eligibility_granted": [
+    "Право применения предоставлено этим инструментом",
+    "Legal eligibility granted by this tool",
+    "本工具是否授予法律资格"
+  ],
+  "legal_exemption_confirmed": [
+    "Освобождение подтверждено этим инструментом",
+    "Legal exemption confirmed by this tool",
+    "本工具是否确认法律免除"
+  ],
+  "legal_right_established": [
+    "Юридическое право установлено этим инструментом",
+    "Legal right established by this tool",
+    "本工具是否确认法律权利"
+  ],
+  "limit": [
+    "Выбранный предел сравнения",
+    "Selected comparison limit",
+    "所选比较限值"
+  ],
+  "lower": [
+    "Нижняя граница выбранной ступени",
+    "Selected band lower bound",
+    "所选税率段下界"
+  ],
+  "maximum_divisor": [
+    "Предоставленный максимальный делитель",
+    "Supplied maximum divisor",
+    "所提供最大除数"
+  ],
+  "mental_state": [
+    "Заявленная форма вины",
+    "Declared mental-state classification",
+    "声明的主观过错分类"
+  ],
+  "method": [
+    "Выбранный способ",
+    "Selected method",
+    "所选方式"
+  ],
+  "methodology_approved": [
+    "Методика утверждена этим инструментом",
+    "Methodology approved by this tool",
+    "本工具是否批准方法"
+  ],
+  "minimum": [
+    "Выбранная минимальная сумма",
+    "Selected minimum amount",
+    "所选最低金额"
+  ],
+  "minimum_divisor": [
+    "Предоставленный минимальный делитель",
+    "Supplied minimum divisor",
+    "所提供最小除数"
+  ],
+  "minimum_holding_anniversary": [
+    "Календарная граница выбранного срока владения",
+    "Selected holding-period anniversary",
+    "所选持有期日历边界"
+  ],
+  "minimum_holding_months": [
+    "Выбранный минимальный срок владения в месяцах",
+    "Selected minimum holding months",
+    "所选最低持有月数"
+  ],
+  "minimum_tax": [
+    "Минимальный налог по выбранному правилу",
+    "Minimum tax under selected rule",
+    "所选规则下的最低税"
+  ],
+  "missing_days_by_obligation": [
+    "Непредоставленные дни по обязательствам",
+    "Unprovided days by obligation",
+    "各义务缺失天数"
+  ],
+  "missing_selected_topics": [
+    "Недостающие выбранные условия проверки",
+    "Missing selected review topics",
+    "缺失的所选审查主题"
+  ],
+  "mitigation": [
+    "Выбранный сценарий снижения",
+    "Selected mitigation scenario",
+    "所选减轻情景"
+  ],
+  "mitigation_notes": [
+    "Авторские заметки о смягчении",
+    "Authored mitigation notes",
+    "作者减轻说明"
+  ],
+  "mode": [
+    "Режим работы инструмента",
+    "Tool mode",
+    "工具模式"
+  ],
+  "model": [
+    "Выбранная расчётная модель",
+    "Selected calculation model",
+    "所选计算模型"
+  ],
+  "model_certified": [
+    "Модель сертифицирована этим инструментом",
+    "Model certified by this tool",
+    "本工具是否认证模型"
+  ],
+  "monthly_rate": [
+    "Выбранная ставка за месяц в долях",
+    "Selected monthly rate as a ratio",
+    "所选月费率比例"
+  ],
+  "months": [
+    "Предоставленное число месяцев",
+    "Supplied months",
+    "所提供月数"
+  ],
+  "multiplier": [
+    "Выбранный множитель",
+    "Selected multiplier",
+    "所选乘数"
+  ],
+  "name": [
+    "Имя или наименование из источника",
+    "Source name",
+    "来源名称"
+  ],
+  "net_amount": [
+    "Сумма без НДС",
+    "Amount excluding VAT",
+    "不含增值税金额"
+  ],
+  "net_payment": [
+    "Выплата после выбранного удержания",
+    "Payment after selected withholding",
+    "所选预扣后的付款"
+  ],
+  "network_used": [
+    "Сеть использована этим инструментом",
+    "Network used by this tool",
+    "本工具是否使用网络"
+  ],
+  "norms": [
+    "Выбранные нормы",
+    "Selected rules",
+    "所选规范"
+  ],
+  "numerator": [
+    "Числитель",
+    "Numerator",
+    "分子"
+  ],
+  "objection": [
+    "Авторское возражение",
+    "Authored objection",
+    "作者异议"
+  ],
+  "obligation_id": [
+    "Идентификатор обязанности",
+    "Obligation identifier",
+    "义务标识"
+  ],
+  "observed_at": [
+    "Фактическая дата наблюдения",
+    "Actual observation date",
+    "实际观察日期"
+  ],
+  "observed_date": [
+    "Фактическая дата наблюдения",
+    "Actual observation date",
+    "实际观察日期"
+  ],
+  "official_declaration_XML_generated": [
+    "Официальный XML декларации сформирован этим инструментом",
+    "Official return XML generated by this tool",
+    "本工具是否生成官方申报XML"
+  ],
+  "ogrn": [
+    "ОГРН из источника",
+    "Source OGRN",
+    "来源OGRN登记号"
+  ],
+  "ogrn_format_or_checksum_matches": [
+    "Соответствие формата или контрольной цифры ОГРН",
+    "OGRN format or checksum match",
+    "OGRN格式或校验位是否匹配"
+  ],
+  "ogrnip": [
+    "ОГРНИП из источника",
+    "Source OGRNIP",
+    "来源OGRNIP个体经营者登记号"
+  ],
+  "ogrnip_format_or_checksum_matches": [
+    "Соответствие формата или контрольной цифры ОГРНИП",
+    "OGRNIP format or checksum match",
+    "OGRNIP格式或校验位是否匹配"
+  ],
+  "kpp": [
+    "КПП из источника",
+    "Source KPP",
+    "来源KPP登记代码"
+  ],
+  "kpp_format_or_checksum_matches": [
+    "Соответствие формата КПП",
+    "KPP format match",
+    "KPP格式是否匹配"
+  ],
+  "okved": [
+    "Коды ОКВЭД из источника",
+    "Source OKVED codes",
+    "来源OKVED业务代码"
+  ],
+  "opening_advances": [
+    "Предоставленные начальные остатки авансов",
+    "Supplied opening advance balances",
+    "所提供预收款期初余额"
+  ],
+  "opening_balance": [
+    "Предоставленное начальное сальдо",
+    "Supplied opening balance",
+    "所提供期初余额"
+  ],
+  "operator": [
+    "Выбранный оператор сравнения",
+    "Selected comparison operator",
+    "所选比较运算符"
+  ],
+  "other_exemption_conditions": [
+    "Заявленная оценка иных условий освобождения",
+    "Declared other exemption conditions",
+    "声明的其他免税条件"
+  ],
+  "outstanding_principal": [
+    "Предоставленный непогашенный остаток",
+    "Supplied outstanding principal",
+    "所提供未清偿本金"
+  ],
+  "owner": [
+    "Предоставленный ответственный",
+    "Supplied owner",
+    "所提供负责人"
+  ],
+  "parameters": [
+    "Выбранные параметры",
+    "Selected parameters",
+    "所选参数"
+  ],
+  "parties": [
+    "Предоставленные стороны",
+    "Supplied parties",
+    "所提供当事方"
+  ],
+  "patent_days": [
+    "Включённые дни патентного периода",
+    "Inclusive patent-period days",
+    "含端点的专利期天数"
+  ],
+  "path": [
+    "Указатель поля",
+    "Field pointer",
+    "字段指针"
+  ],
+  "payment_performed": [
+    "Оплата выполнена этим инструментом",
+    "Payment performed by this tool",
+    "本工具是否付款"
+  ],
+  "penalty_imposed": [
+    "Штраф назначен этим инструментом",
+    "Penalty imposed by this tool",
+    "本工具是否作出处罚"
+  ],
+  "penalty_ledger": [
+    "Условный журнал расчёта пеней",
+    "Conditional late-payment-interest ledger",
+    "有条件滞纳金计算日志"
+  ],
+  "per_document": [
+    "Выбранная сумма за документ",
+    "Selected amount per document",
+    "所选每份文件金额"
+  ],
+  "period": [
+    "Выбранный период",
+    "Selected period",
+    "所选期间"
+  ],
+  "period_end": [
+    "Окончание выбранного периода",
+    "Selected period end",
+    "所选期间结束"
+  ],
+  "period_kind": [
+    "Вид выбранного периода",
+    "Selected period kind",
+    "所选期间类型"
+  ],
+  "period_start": [
+    "Начало выбранного периода",
+    "Selected period start",
+    "所选期间起始"
+  ],
+  "periods": [
+    "Выбранные расчётные периоды",
+    "Selected calculation periods",
+    "所选计算期间"
+  ],
+  "physical_work_authorized": [
+    "Физические действия разрешены этим инструментом",
+    "Physical action authorized by this tool",
+    "本工具是否授权实体操作"
+  ],
+  "policy_period": [
+    "Период учётной политики",
+    "Accounting policy period",
+    "会计政策期间"
+  ],
+  "positive_VAT_due_separate_from_credit": [
+    "Положительный НДС к уплате отдельно от кредита",
+    "Positive VAT due separate from credit",
+    "与抵免分开的正应缴增值税"
+  ],
+  "potential_VAT_credit": [
+    "Потенциальный кредит НДС",
+    "Potential VAT credit",
+    "潜在增值税抵免"
+  ],
+  "potential_amount_due": [
+    "Потенциальная сумма к уплате",
+    "Potential amount due",
+    "潜在应缴金额"
+  ],
+  "potential_refund": [
+    "Потенциальная сумма к возврату",
+    "Potential refund",
+    "潜在退还金额"
+  ],
+  "power_ids": [
+    "Идентификаторы полномочий из выбранной записи",
+    "Power identifiers in selected record",
+    "所选记录中的权限标识"
+  ],
+  "power_review": [
+    "Сопоставление выбранных полномочий",
+    "Selected power-record review",
+    "所选授权记录比较"
+  ],
+  "pretrial_review": [
+    "Авторский анализ досудебной стадии",
+    "Authored pretrial-stage review",
+    "作者诉前程序分析"
+  ],
+  "previously_used": [
+    "Ранее использованная сумма по предоставленным данным",
+    "Supplied previously used amount",
+    "所提供此前使用金额"
+  ],
+  "price_basis": [
+    "Условие цены относительно НДС",
+    "Price VAT basis",
+    "价格增值税基础"
+  ],
+  "principal": [
+    "Доверитель из выбранной записи",
+    "Principal in selected power record",
+    "所选授权记录中的委托人"
+  ],
+  "professional_care_scope": [
+    "Оговорка о профессиональной заботливости",
+    "Professional-care boundary",
+    "专业谨慎责任说明"
+  ],
+  "property": [
+    "Выбранная продажа имущества",
+    "Selected property sale",
+    "所选财产出售"
+  ],
+  "proposed_action": [
+    "Предлагаемое действие клиента",
+    "Proposed client action",
+    "拟议客户行动"
+  ],
+  "proposed_adjustment_delta": [
+    "Изменение от предлагаемых корректировок",
+    "Proposed adjustment delta",
+    "拟议调整变化额"
+  ],
+  "proposed_follow_up": [
+    "Предлагаемый следующий шаг",
+    "Proposed follow-up",
+    "拟议后续步骤"
+  ],
+  "proposed_procedure": [
+    "Предлагаемый порядок",
+    "Proposed procedure",
+    "拟议程序"
+  ],
+  "prorating_model": [
+    "Условный способ пропорционального пересчёта",
+    "Conditional prorating model",
+    "有条件按比例折算方式"
+  ],
+  "provided": [
+    "Предоставленная запись",
+    "Supplied record",
+    "所提供记录"
+  ],
+  "provided_items": [
+    "Предоставляемые материалы",
+    "Materials being provided",
+    "拟提供材料"
+  ],
+  "provided_mental_state": [
+    "Предоставленная классификация формы вины",
+    "Supplied mental-state classification",
+    "所提供主观过错分类"
+  ],
+  "provided_period_conditional_total": [
+    "Условная сумма только по предоставленным периодам",
+    "Conditional total for supplied periods only",
+    "仅针对已提供期间的有条件合计"
+  ],
+  "provided_status": [
+    "Статус в предоставленной записи",
+    "Status in supplied record",
+    "所提供记录中的状态"
+  ],
+  "publication_date": [
+    "Дата опубликования по выбранной записи",
+    "Publication date in selected record",
+    "所选记录中的发布日期"
+  ],
+  "published": [
+    "Опубликовано этим инструментом",
+    "Published by this tool",
+    "本工具是否发布"
+  ],
+  "purpose": [
+    "Предлагаемое назначение",
+    "Proposed purpose",
+    "拟议用途"
+  ],
+  "quality_checks": [
+    "Выбранные вопросы контроля качества",
+    "Selected quality-review questions",
+    "所选质量审查事项"
+  ],
+  "quantum": [
+    "Выбранный шаг округления",
+    "Selected rounding quantum",
+    "所选舍入单位"
+  ],
+  "question": [
+    "Вопрос клиента",
+    "Client question",
+    "客户问题"
+  ],
+  "questions": [
+    "Вопросы для уточнения",
+    "Clarifying questions",
+    "待澄清问题"
+  ],
+  "rate": [
+    "Выбранная ставка в долях",
+    "Selected rate as a ratio",
+    "所选费率比例"
+  ],
+  "reason": [
+    "Предоставленное обоснование",
+    "Supplied rationale",
+    "所提供理由"
+  ],
+  "receipts": [
+    "Выбранные поступления",
+    "Selected receipts",
+    "所选收入款项"
+  ],
+  "received": [
+    "Фактическая дата получения дохода",
+    "Actual income receipt date",
+    "实际收入取得日期"
+  ],
+  "recipient": [
+    "Предлагаемый адресат",
+    "Proposed recipient",
+    "拟议收件方"
+  ],
+  "recognition_date": [
+    "Дата признания по выбранной записи",
+    "Recognition date in selected record",
+    "所选记录中的确认日期"
+  ],
+  "recognition_legality_established": [
+    "Законность признания установлена этим инструментом",
+    "Recognition legality established by this tool",
+    "本工具是否确认认定合法性"
+  ],
+  "recognition_method": [
+    "Выбранный метод признания",
+    "Selected recognition method",
+    "所选确认方法"
+  ],
+  "recognition_rationale": [
+    "Авторское обоснование признания",
+    "Authored recognition rationale",
+    "作者确认依据说明"
+  ],
+  "recognized_expenses": [
+    "Выбранные признанные расходы",
+    "Selected recognized expenses",
+    "所选确认费用"
+  ],
+  "recognized_sale_income": [
+    "Признанный доход продажи по выбранной модели",
+    "Recognized sale income under selected model",
+    "所选模型确认的出售收入"
+  ],
+  "reconstructed_balance": [
+    "Сальдо, восстановленное по выбранным записям",
+    "Balance reconstructed from selected records",
+    "依据所选记录重建的余额"
+  ],
+  "record": [
+    "Выбранная запись источника",
+    "Selected source record",
+    "所选来源记录"
+  ],
+  "record_identity": [
+    "Внешний идентификатор исходной записи",
+    "External source-record identity",
+    "外部来源记录标识"
+  ],
+  "record_kind": [
+    "Фактическая или плановая операция",
+    "Observed or planned entry",
+    "已观察或计划交易"
+  ],
+  "recorded_at": [
+    "Фактическая дата записи",
+    "Actual record date",
+    "实际记录日期"
+  ],
+  "refund_authorized": [
+    "Возврат разрешён этим инструментом",
+    "Refund authorized by this tool",
+    "本工具是否批准退款"
+  ],
+  "refund_interest": [
+    "Условный расчёт процентов за возврат",
+    "Conditional refund-interest calculation",
+    "有条件退款利息计算"
+  ],
+  "regime": [
+    "Предоставленный или выбранный налоговый режим",
+    "Supplied or selected tax regime",
+    "所提供或所选税制"
+  ],
+  "registers": [
+    "Предлагаемые налоговые регистры",
+    "Proposed tax registers",
+    "拟议税务登记簿"
+  ],
+  "registry_lookup_performed": [
+    "Реестр запрошен этим инструментом",
+    "Registry lookup performed by this tool",
+    "本工具是否查询登记"
+  ],
+  "registry_submitted": [
+    "Запись в реестр подана этим инструментом",
+    "Registry submission performed by this tool",
+    "本工具是否提交登记"
+  ],
+  "related_entry_id": [
+    "Связанная запись журнала",
+    "Related ledger entry",
+    "关联日志记录"
+  ],
+  "remaining_after_selected_allocations": [
+    "Остаток после выбранного распределения",
+    "Remaining after selected allocations",
+    "所选分配后的剩余额"
+  ],
+  "repeat": [
+    "Выбранная оценка повторности",
+    "Selected repeat-offence scenario",
+    "所选重复违规情景"
+  ],
+  "repeated_external_record_identities": [
+    "Повторяющиеся внешние идентификаторы",
+    "Repeated external record identities",
+    "重复外部记录标识"
+  ],
+  "replacement_duration": [
+    "Предоставленная заменяющая общая длительность",
+    "Supplied replacement total duration",
+    "所提供替代总时长"
+  ],
+  "report_certified": [
+    "Документ удостоверен этим инструментом",
+    "Report certified by this tool",
+    "本工具是否认证报告"
+  ],
+  "representation_date": [
+    "Выбранная дата представительства",
+    "Selected representation date",
+    "所选代理日期"
+  ],
+  "representation_performed": [
+    "Представительство выполнено этим инструментом",
+    "Representation performed by this tool",
+    "本工具是否执行代理"
+  ],
+  "representative": [
+    "Представитель из выбранной записи",
+    "Representative in selected record",
+    "所选记录中的代理人"
+  ],
+  "request_draft": [
+    "Авторский черновик запроса",
+    "Authored request draft",
+    "作者请求草案"
+  ],
+  "request_record": [
+    "Выбранное требование инспекции",
+    "Selected authority request",
+    "所选税务机关要求书"
+  ],
+  "request_reply": [
+    "Черновик ответа на требование",
+    "Draft reply to request",
+    "要求书回复草案"
+  ],
+  "request_scope_legality_established": [
+    "Законность предмета требования установлена этим инструментом",
+    "Request-scope legality established by this tool",
+    "本工具是否确认要求范围合法性"
+  ],
+  "requested_amount": [
+    "Предлагаемая сумма запроса",
+    "Proposed requested amount",
+    "拟请求金额"
+  ],
+  "requested_from": [
+    "Предлагаемая дата начала",
+    "Proposed start date",
+    "拟议起始日期"
+  ],
+  "requested_items": [
+    "Запрошенные материалы",
+    "Requested materials",
+    "所要求材料"
+  ],
+  "requested_power_ids": [
+    "Запрошенные идентификаторы полномочий",
+    "Requested power identifiers",
+    "所请求权限标识"
+  ],
+  "requests": [
+    "Авторские требования обращения",
+    "Authored requested relief",
+    "作者拟议请求事项"
+  ],
+  "required_inputs": [
+    "Нужные исходные сведения",
+    "Required input information",
+    "所需输入资料"
+  ],
+  "residency": [
+    "Выбранная оценка налогового резидентства",
+    "Selected tax-residency review",
+    "所选税务居民身份分析"
+  ],
+  "residency_legally_confirmed": [
+    "Резидентство подтверждено этим инструментом",
+    "Tax residency legally confirmed by this tool",
+    "本工具是否确认税务居民法律身份"
+  ],
+  "revenue": [
+    "Предоставленная выручка",
+    "Supplied revenue",
+    "所提供收入"
+  ],
+  "review_status": [
+    "Статус анализа записи",
+    "Record review status",
+    "记录分析状态"
+  ],
+  "rights_basis": [
+    "Выбранные нормы о правах",
+    "Selected rights provisions",
+    "所选权利规范"
+  ],
+  "risk_reviews": [
+    "Предлагаемый анализ налоговых рисков",
+    "Proposed tax-risk reviews",
+    "拟议税务风险分析"
+  ],
+  "role": [
+    "Роль события или стороны",
+    "Event or party role",
+    "事项或主体角色"
+  ],
+  "roll": [
+    "Правило переноса даты",
+    "Date-rolling rule",
+    "日期顺延规则"
+  ],
+  "rounded_amount": [
+    "Сумма после выбранного округления",
+    "Amount after selected rounding",
+    "所选舍入后金额"
+  ],
+  "rounding": [
+    "Выбранное правило округления",
+    "Selected rounding rule",
+    "所选舍入规则"
+  ],
+  "rule": [
+    "Выбранная норма или метод",
+    "Selected rule or method",
+    "所选规范或方法"
+  ],
+  "rule_temporal_status": [
+    "Дата относительно предоставленного окна нормы",
+    "Date against supplied rule window",
+    "日期与所提供规范有效区间的关系"
+  ],
+  "sale_price": [
+    "Предоставленная цена продажи",
+    "Supplied sale price",
+    "所提供售价"
+  ],
+  "scale_steps": [
+    "Расчёт по выбранным ступеням",
+    "Selected scale steps",
+    "所选阶梯计算"
+  ],
+  "scenarios": [
+    "Выбранные сценарии",
+    "Selected scenarios",
+    "所选情景"
+  ],
+  "scope": [
+    "Предоставленная область",
+    "Supplied scope",
+    "所提供范围"
+  ],
+  "scope_analysis": [
+    "Авторский анализ предмета",
+    "Authored scope analysis",
+    "作者范围分析"
+  ],
+  "scope_comparison": [
+    "Границы сопоставления полномочий",
+    "Power-comparison scope",
+    "权限比较范围"
+  ],
+  "selected_client_conditions_match": [
+    "Совпадение предоставленных условий клиента",
+    "Supplied client conditions match",
+    "所提供客户条件是否匹配"
+  ],
+  "selected_day_condition_met": [
+    "Выполнение выбранного условия по дням",
+    "Selected day-count condition met",
+    "是否满足所选天数条件"
+  ],
+  "selected_denominator_days": [
+    "Выбранный знаменатель в днях",
+    "Selected denominator days",
+    "所选分母天数"
+  ],
+  "selected_duration": [
+    "Выбранная общая длительность",
+    "Selected total duration",
+    "所选总时长"
+  ],
+  "selected_exclusions": [
+    "Предоставленные исключаемые суммы",
+    "Supplied excluded amounts",
+    "所提供排除金额"
+  ],
+  "selected_exempt_and_property_reduction": [
+    "Освобождения и уменьшения по выбранной модели имущества",
+    "Selected exempt and property reductions",
+    "所选免税及财产扣减"
+  ],
+  "selected_exemption": [
+    "Отдельная выбранная модель исключения",
+    "Separate selected exemption model",
+    "独立所选免除模型"
+  ],
+  "selected_filing_deadline": [
+    "Срок подачи из выбранной записи",
+    "Filing deadline from selected record",
+    "所选记录中的申报期限"
+  ],
+  "selected_ids_missing": [
+    "Запрошенные идентификаторы, отсутствующие в выбранной записи",
+    "Requested identifiers absent from selected record",
+    "所选记录中缺少的请求标识"
+  ],
+  "selected_mitigation_divisor": [
+    "Выбранный делитель уменьшения штрафа",
+    "Selected fine mitigation divisor",
+    "所选罚款减轻除数"
+  ],
+  "selected_numeric_condition_met": [
+    "Выполнение выбранного числового условия",
+    "Selected numeric condition met",
+    "是否满足所选数值条件"
+  ],
+  "selected_payment_deadline": [
+    "Срок оплаты из выбранной записи",
+    "Payment deadline from selected record",
+    "所选记录中的缴款期限"
+  ],
+  "selected_period_count": [
+    "Количество выбранных периодов",
+    "Selected period count",
+    "所选期间数量"
+  ],
+  "selected_positive_balance": [
+    "Положительная часть выбранного сальдо",
+    "Positive part of selected balance",
+    "所选余额的正数部分"
+  ],
+  "selected_rate": [
+    "Предоставленная ставка",
+    "Supplied rate",
+    "所提供费率"
+  ],
+  "selected_required_topics": [
+    "Выбранные обязательные темы проверки",
+    "Selected required review topics",
+    "所选必查主题"
+  ],
+  "selected_rule": [
+    "Выбранное основание расчёта",
+    "Selected calculation basis",
+    "所选计算依据"
+  ],
+  "selected_start_constraint": [
+    "Предоставленное условие даты начала",
+    "Supplied start-date constraint",
+    "所提供起始日期条件"
+  ],
+  "selected_status": [
+    "Статус по предоставленной классификации",
+    "Status by supplied classification",
+    "按所提供分类的状态"
+  ],
+  "selected_text": [
+    "Оригинальный выбранный текст",
+    "Original selected text",
+    "所选原文"
+  ],
+  "separate_accounting_waiver_determined": [
+    "Освобождение от раздельного учёта установлено этим инструментом",
+    "Separate-accounting waiver established by this tool",
+    "本工具是否确认免于分开核算"
+  ],
+  "service": [
+    "Предоставленные сведения о вручении",
+    "Supplied service evidence",
+    "所提供送达资料"
+  ],
+  "share": [
+    "Вычисленная доля",
+    "Computed share",
+    "计算比例"
+  ],
+  "signature_applied": [
+    "Подпись поставлена этим инструментом",
+    "Signature applied by this tool",
+    "本工具是否签名"
+  ],
+  "signature_validation_performed": [
+    "Подпись проверена этим инструментом",
+    "Signature validated by this tool",
+    "本工具是否验证签名"
+  ],
+  "signature_verified": [
+    "ЭП проверена этим инструментом",
+    "Electronic signature verified by this tool",
+    "本工具是否核验电子签名"
+  ],
+  "signed_VAT_after_selected_rounding": [
+    "Баланс НДС со знаком после выбранного округления",
+    "Signed VAT balance after selected rounding",
+    "所选舍入后带符号增值税余额"
+  ],
+  "signed_VAT_balance": [
+    "Баланс НДС со знаком",
+    "Signed VAT balance",
+    "带符号增值税余额"
+  ],
+  "signed_balance_effect": [
+    "Вклад в баланс со знаком",
+    "Signed balance effect",
+    "带符号余额影响"
+  ],
+  "signed_income_less_expense": [
+    "Доходы минус расходы со знаком",
+    "Signed income less expenses",
+    "带符号收入减费用"
+  ],
+  "signed_settlement": [
+    "Расчёт с бюджетом со знаком",
+    "Signed tax settlement",
+    "带符号税款结算"
+  ],
+  "sold": [
+    "Фактическая дата продажи",
+    "Actual sale date",
+    "实际出售日期"
+  ],
+  "source_conflicts": [
+    "Противоречия выбранных источников",
+    "Selected-source conflicts",
+    "所选来源冲突"
+  ],
+  "source_reference": [
+    "Идентификатор выбранного источника",
+    "Selected source identifier",
+    "所选来源标识"
+  ],
+  "source_references": [
+    "Идентификаторы выбранных источников",
+    "Selected source identifiers",
+    "所选来源标识列表"
+  ],
+  "source_semantics_established": [
+    "Смысл источника установлен этим инструментом",
+    "Source semantics established by this tool",
+    "本工具是否确认来源含义"
+  ],
+  "source_semantics_verified": [
+    "Смысл источника проверен этим инструментом",
+    "Source semantics verified by this tool",
+    "本工具是否核验来源含义"
+  ],
+  "stage": [
+    "Предоставленная процессуальная стадия",
+    "Supplied procedural stage",
+    "所提供程序阶段"
+  ],
+  "start": [
+    "Начало периода",
+    "Period start",
+    "期间起始"
+  ],
+  "start_date": [
+    "Дата начала",
+    "Start date",
+    "起始日期"
+  ],
+  "start_review": [
+    "Сопоставление предлагаемой даты начала",
+    "Proposed start-date review",
+    "拟议起始日期比较"
+  ],
+  "state": [
+    "Предоставленное состояние",
+    "Supplied state",
+    "所提供状态"
+  ],
+  "statement_balance": [
+    "Сальдо по выбранной выписке",
+    "Selected statement balance",
+    "所选对账单余额"
+  ],
+  "statement_minus_reconstructed": [
+    "Сальдо выписки минус восстановленное сальдо",
+    "Statement less reconstructed balance",
+    "对账余额减重建余额"
+  ],
+  "status": [
+    "Статус по выбранным данным",
+    "Status from selected data",
+    "所选资料状态"
+  ],
+  "status_record": [
+    "Выбранная запись о статусе",
+    "Selected status record",
+    "所选状态记录"
+  ],
+  "submission_performed": [
+    "Отправка выполнена этим инструментом",
+    "Submission performed by this tool",
+    "本工具是否执行发送"
+  ],
+  "summary": [
+    "Авторское резюме изменения",
+    "Authored change summary",
+    "作者变更摘要"
+  ],
+  "supersedes": [
+    "Предоставленные связи предыдущих редакций",
+    "Supplied previous-version links",
+    "所提供前序版本关系"
+  ],
+  "suspension_records": [
+    "Предоставленные приостановления",
+    "Supplied suspension records",
+    "所提供暂停记录"
+  ],
+  "tax": [
+    "Налог после выбранного округления",
+    "Tax after selected rounding",
+    "所选舍入后税额"
+  ],
+  "tax_authority_decision_verified": [
+    "Решение налогового органа проверено этим инструментом",
+    "Tax-authority decision verified by this tool",
+    "本工具是否核验税务机关决定"
+  ],
+  "tax_base": [
+    "Условная налоговая база",
+    "Conditional tax base",
+    "有条件税基"
+  ],
+  "tax_before_credit": [
+    "Налог до выбранного уменьшения",
+    "Tax before selected credit",
+    "所选减税前税额"
+  ],
+  "tax_before_credit_and_minimum": [
+    "Налог до уменьшения и минимального налога",
+    "Tax before credit and minimum tax",
+    "减税及最低税处理前税额"
+  ],
+  "tax_before_rounding": [
+    "Налог до выбранного округления",
+    "Tax before selected rounding",
+    "所选舍入前税额"
+  ],
+  "tax_credit_applied": [
+    "Применённое уменьшение налога",
+    "Tax credit applied",
+    "所应用减税额"
+  ],
+  "tax_total": [
+    "Итого выбранный налог",
+    "Selected tax total",
+    "所选税额合计"
+  ],
+  "tax_treatment": [
+    "Предлагаемое налоговое условие цены",
+    "Proposed tax treatment of price",
+    "拟议价格税务处理"
+  ],
+  "tax_year": [
+    "Выбранный налоговый год",
+    "Selected tax year",
+    "所选纳税年度"
+  ],
+  "taxable_after_selected_treatment": [
+    "Налогооблагаемая сумма после выбранного способа",
+    "Taxable amount after selected treatment",
+    "所选处理后应税金额"
+  ],
+  "taxable_before_group_deductions": [
+    "Налогооблагаемая сумма до групповых вычетов",
+    "Taxable amount before group deductions",
+    "组内扣除前应税金额"
+  ],
+  "taxable_slice": [
+    "Налогооблагаемая часть ступени",
+    "Taxable band slice",
+    "该税率段应税部分"
+  ],
+  "taxes_paid": [
+    "Налоги уплачены этим инструментом",
+    "Taxes paid by this tool",
+    "本工具是否缴税"
+  ],
+  "temporal_basis": [
+    "Выбранное основание временной применимости",
+    "Selected temporal applicability basis",
+    "所选时间适用依据"
+  ],
+  "temporal_state": [
+    "Заявленная оценка временной применимости",
+    "Declared temporal applicability state",
+    "声明的时间适用状态"
+  ],
+  "temporal_status": [
+    "Дата относительно предоставленной редакции",
+    "Date against supplied edition",
+    "日期与所提供版本的关系"
+  ],
+  "text": [
+    "Текст из выбранной записи или авторский текст по пометке",
+    "Selected or authored text as marked",
+    "按标记区分所选原文或作者文字"
+  ],
+  "threshold": [
+    "Выбранный порог",
+    "Selected threshold",
+    "所选门槛"
+  ],
+  "to_date": [
+    "Конечная дата",
+    "End date",
+    "结束日期"
+  ],
+  "topic": [
+    "Тема выбранной записи",
+    "Selected record topic",
+    "所选记录主题"
+  ],
+  "topic_comparison": [
+    "Сопоставление позиций по теме",
+    "Topic-position comparison",
+    "同主题立场比较"
+  ],
+  "transition_performed": [
+    "Переход режима выполнен этим инструментом",
+    "Regime transition performed by this tool",
+    "本工具是否执行税制转换"
+  ],
+  "transition_reviews": [
+    "Выбранные условия и действия перехода",
+    "Selected transition reviews",
+    "所选转换条件及行动分析"
+  ],
+  "treatment": [
+    "Выбранное обращение с суммой",
+    "Selected amount treatment",
+    "所选金额处理"
+  ],
+  "trigger": [
+    "Выбранное основание или исходное событие",
+    "Selected trigger",
+    "所选触发原因或事件"
+  ],
+  "unapplied": [
+    "Не применённая в расчёте сумма",
+    "Unapplied amount",
+    "计算中未应用金额"
+  ],
+  "uncapped_amount": [
+    "Сумма до ограничения",
+    "Uncapped amount",
+    "上限限制前金额"
+  ],
+  "uncapped_exact_total": [
+    "Итого до выбранного ограничения",
+    "Total before selected cap",
+    "所选上限前合计"
+  ],
+  "unconfirmed_VAT_credit": [
+    "Неподтверждённый кредит НДС",
+    "Unconfirmed VAT credit",
+    "未确认增值税抵免"
+  ],
+  "unit": [
+    "Единица измерения",
+    "Unit",
+    "单位"
+  ],
+  "unoffset_selected_VAT": [
+    "Незачтённый НДС выбранного аванса",
+    "Unoffset selected advance VAT",
+    "所选预收款未冲抵增值税"
+  ],
+  "unpaid_tax": [
+    "Предоставленная неуплаченная сумма налога",
+    "Supplied unpaid tax",
+    "所提供未缴税额"
+  ],
+  "unprovided_period_intervals": [
+    "Неохваченные выбранными периодами интервалы",
+    "Intervals not covered by selected periods",
+    "所选期间未覆盖的区间"
+  ],
+  "upper": [
+    "Верхняя граница выбранной ступени",
+    "Selected band upper bound",
+    "所选税率段上界"
+  ],
+  "valid_from": [
+    "Начало действия по выбранной записи",
+    "Validity start in selected record",
+    "所选记录中的有效期起始"
+  ],
+  "valid_to": [
+    "Окончание действия по выбранной записи",
+    "Validity end in selected record",
+    "所选记录中的有效期结束"
+  ],
+  "value": [
+    "Исходное значение",
+    "Original value",
+    "原始数值"
+  ],
+  "vat_cost_share": [
+    "Доля выбранных совокупных расходов",
+    "Selected aggregate expense share",
+    "所选总支出比例"
+  ],
+  "violated_rights": [
+    "Предлагаемый анализ нарушенных прав",
+    "Proposed affected-rights analysis",
+    "拟议权利受影响分析"
+  ],
+  "violation": [
+    "Выбранная запись о предполагаемом нарушении",
+    "Selected alleged-violation record",
+    "所选涉嫌违法记录"
+  ],
+  "violation_date": [
+    "Фактическая дата предполагаемого нарушения",
+    "Actual alleged-violation date",
+    "涉嫌违法的实际日期"
+  ],
+  "weekly_update_status": [
+    "Сведения о проверке обновления хостом",
+    "Host update-check status",
+    "主机更新核查信息"
+  ],
+  "window": [
+    "Выбранное окно дат",
+    "Selected date window",
+    "所选日期窗口"
+  ],
+  "withheld": [
+    "Предоставленный удержанный налог",
+    "Supplied tax withheld",
+    "所提供已预扣税款"
+  ],
+  "withholding": [
+    "Выбранный сценарий удержания и взносов",
+    "Selected withholding and contribution scenario",
+    "所选预扣及保险费情景"
+  ],
+  "within_declared_inclusive_window": [
+    "Попадание в предоставленное включительное окно дат",
+    "Within supplied inclusive date window",
+    "是否在所提供含边界日期区间内"
+  ],
+  "within_selected_positive_balance": [
+    "Сумма в пределах положительной части выбранного сальдо",
+    "Within positive part of selected balance",
+    "金额是否在所选余额正数部分以内"
+  ],
+  "within_selected_threshold": [
+    "Выполнение выбранного порогового сравнения",
+    "Selected threshold comparison met",
+    "是否满足所选门槛比较"
+  ],
+  "reference": [
+    "Ссылка на выбранную запись",
+    "Selected record reference",
+    "所选记录引用"
+  ],
+  "fact_id": [
+    "Идентификатор факта",
+    "Fact identifier",
+    "事实标识"
+  ],
+  "source_sha256": [
+    "SHA256 выбранного файла источника",
+    "Selected source-file SHA256",
+    "所选来源文件SHA256"
+  ],
+  "segment_id": [
+    "Идентификатор фрагмента источника",
+    "Source segment identifier",
+    "来源片段标识"
+  ],
+  "pointer": [
+    "Указатель входного поля",
+    "Input field pointer",
+    "输入字段指针"
+  ],
+  "quote": [
+    "Оригинальная цитата источника",
+    "Original source quote",
+    "来源原始引文"
+  ],
+  "rationale": [
+    "Обоснование предположения",
+    "Assumption rationale",
+    "假设依据"
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "questions": [
+    "Вопросы для подготовки данных",
+    "Input preparation questions",
+    "输入资料准备问题"
+  ],
+  "draft": [
+    "Предлагаемый план",
+    "Proposed plan",
+    "建议计划"
+  ],
+  "review": [
+    "Обзор предоставленных записей",
+    "Review of supplied records",
+    "所提供记录审查"
+  ],
+  "power_reset_clock": [
+    "Питание, сброс и тактирование",
+    "Power, reset and clock",
+    "电源、复位与时钟"
+  ],
+  "wiring_levels": [
+    "Подключение и электрические уровни",
+    "Wiring and electrical levels",
+    "接线与电平"
+  ],
+  "interface": [
+    "Интерфейс",
+    "Interface",
+    "接口"
+  ],
+  "firmware": [
+    "Логика прошивки",
+    "Firmware logic",
+    "固件逻辑"
+  ],
+  "provided": [
+    "Запись предоставлена",
+    "Record supplied",
+    "已提供记录"
+  ],
+  "missing": [
+    "Запись не предоставлена",
+    "Record not supplied",
+    "未提供记录"
+  ],
+  "unknown": [
+    "Содержание неизвестно",
+    "Content unknown",
+    "内容未知"
+  ],
+  "not_run": [
+    "В записи указано: не запускалось",
+    "Reported not run",
+    "记录为未运行"
+  ],
+  "passed": [
+    "В записи указано: пройдено",
+    "Reported passed",
+    "记录为通过"
+  ],
+  "failed": [
+    "В записи указано: не пройдено",
+    "Reported failed",
+    "记录为失败"
+  ],
+  "blocked": [
+    "В записи указано: заблокировано",
+    "Reported blocked",
+    "记录为阻塞"
+  ],
+  "skipped": [
+    "В записи указано: пропущено",
+    "Reported skipped",
+    "记录为跳过"
+  ],
+  "error": [
+    "В записи указана ошибка",
+    "Reported error",
+    "记录为错误"
+  ],
+  "build_only": [
+    "Только сборка; выполнение теста не засчитано",
+    "Build only; test execution not credited",
+    "仅构建；不计为测试执行"
+  ],
+  "unsupported_status": [
+    "Неподдерживаемый статус источника",
+    "Unsupported source status",
+    "不支持的来源状态"
+  ],
+  "unresolved": [
+    "Результат не установлен по выбранным записям",
+    "Outcome unresolved in selected records",
+    "所选记录中结果未确定"
+  ],
+  "monotonic": [
+    "Модель монотонных номеров",
+    "Monotonic sequence model",
+    "单调序号模型"
+  ],
+  "modulo_serial": [
+    "Явно выбранная модульная модель номеров",
+    "Explicit modulo serial model",
+    "明确选择的模序号模型"
+  ],
+  "relative_capture": [
+    "Относительное время выбранного захвата",
+    "Relative selected-capture time",
+    "所选采集的相对时间"
+  ],
+  "unix_epoch": [
+    "Предоставленное время от эпохи Unix",
+    "Supplied Unix-epoch time",
+    "已提供的Unix纪元时间"
+  ],
+  "first": [
+    "Первая выбранная запись",
+    "First selected record",
+    "首条所选记录"
+  ],
+  "forward": [
+    "Продвижение в выбранной модели",
+    "Forward in selected model",
+    "按所选模型前进"
+  ],
+  "duplicate": [
+    "Повтор номера",
+    "Repeated sequence number",
+    "重复序号"
+  ],
+  "duplicate_position": [
+    "Повтор уже сопоставленной позиции",
+    "Repeated mapped position",
+    "重复已映射位置"
+  ],
+  "late_or_duplicate": [
+    "Поздняя запись либо повтор",
+    "Late record or duplicate",
+    "延迟记录或重复"
+  ],
+  "late_or_large_forward_ambiguous": [
+    "В модели выбрана поздняя позиция; большой скачок требует отдельной проверки",
+    "Late position selected by model; a large forward jump needs separate review",
+    "模型选择延迟位置；大幅前跳需另行复核"
+  ],
+  "half_range_ambiguous": [
+    "Ровно половина пространства номеров: порядок неопределён",
+    "Exactly half the serial space: order undefined",
+    "恰为序号空间一半：顺序未定义"
+  ],
+  "conditional_half_range_unwrapping_not_unseen_wrap_or_loss_proof": [
+    "Условное разворачивание половинного диапазона; скрытые обороты и потеря не доказаны",
+    "Conditional half-range unwrapping; no proof of unseen wraps or loss",
+    "条件性半范围展开；不证明隐藏回绕或丢失"
+  ],
+  "request": [
+    "Запрос в предоставленном захвате",
+    "Request in supplied capture",
+    "所提供采集中的请求"
+  ],
+  "response": [
+    "Ответ в предоставленном захвате",
+    "Response in supplied capture",
+    "所提供采集中的响应"
+  ],
+  "invalid_hex": [
+    "Нельзя разобрать как ограниченный шестнадцатеричный кадр",
+    "Not parseable as bounded hexadecimal frame",
+    "无法解析为有界十六进制帧"
+  ],
+  "too_short": [
+    "Кадр короче минимальной структуры",
+    "Frame shorter than minimum structure",
+    "帧短于最小结构"
+  ],
+  "direction_not_selected": [
+    "Направление не выбрано; структура PDU не оценивается",
+    "Direction not selected; PDU shape not assessed",
+    "未选择方向；不评估PDU结构"
+  ],
+  "unsupported_function": [
+    "Функция вне поддержанного подмножества",
+    "Function outside supported subset",
+    "功能不在支持子集中"
+  ],
+  "supported_shape": [
+    "Форма соответствует поддержанному подмножеству",
+    "Shape matches supported subset",
+    "结构符合支持子集"
+  ],
+  "invalid_supported_shape": [
+    "Несоответствие в поддержанной форме",
+    "Mismatch in supported shape",
+    "支持结构中的不一致"
+  ],
+  "exception": [
+    "Предоставленный ответ с исключением",
+    "Supplied exception response",
+    "所提供的异常响应"
+  ],
+  "read_response": [
+    "Предоставленный ответ чтения",
+    "Supplied read response",
+    "所提供的读取响应"
+  ],
+  "read_request": [
+    "Предоставленный запрос чтения",
+    "Supplied read request",
+    "所提供的读取请求"
+  ],
+  "write_single": [
+    "Предоставленный кадр записи одного регистра",
+    "Supplied single-register-write frame",
+    "所提供的单寄存器写入帧"
+  ],
+  "write_multiple_request": [
+    "Предоставленный запрос записи регистров",
+    "Supplied multiple-register-write request",
+    "所提供的多寄存器写入请求"
+  ],
+  "write_multiple_response": [
+    "Предоставленный ответ записи регистров",
+    "Supplied multiple-register-write response",
+    "所提供的多寄存器写入响应"
+  ],
+  "checksum_only_not_protocol_or_physical_conformance": [
+    "Только контрольная сумма; соответствие протоколу и физическому уровню не удостоверяется",
+    "Checksum only; protocol and physical conformance not established",
+    "仅校验和；不确认协议及物理层符合性"
+  ],
+  "03_04_06_16_selected_exception_subset": [
+    "Подмножество функций 03, 04, 06, 16 и выбранных исключений",
+    "Functions03,04,06,16 and selected exception subset",
+    "功能03、04、06、16及所选异常子集"
+  ],
+  "classic_data": [
+    "Предоставленный классический кадр данных CAN",
+    "Supplied classic CAN data frame",
+    "所提供的经典CAN数据帧"
+  ],
+  "classic_remote": [
+    "Предоставленный удалённый запрос CAN",
+    "Supplied CAN remote request",
+    "所提供的CAN远程请求"
+  ],
+  "fd_data": [
+    "Предоставленный кадр данных CAN FD",
+    "Supplied CAN FD data frame",
+    "所提供的CAN FD数据帧"
+  ],
+  "error_record": [
+    "Запись ошибки; не обычный кадр данных",
+    "Error record; not an ordinary data frame",
+    "错误记录；不是普通数据帧"
+  ],
+  "standard": [
+    "Выбран 11-битный идентификатор",
+    "Selected11-bit identifier",
+    "已选择11位标识符"
+  ],
+  "extended": [
+    "Выбран 29-битный идентификатор",
+    "Selected29-bit identifier",
+    "已选择29位标识符"
+  ],
+  "dlc_code": [
+    "Предоставлен код DLC",
+    "DLC code supplied",
+    "已提供DLC代码"
+  ],
+  "payload_bytes": [
+    "Предоставлено число байтов полезной нагрузки",
+    "Payload byte count supplied",
+    "已提供有效载荷字节数"
+  ],
+  "prepared_CAN_metadata_not_wire_or_DBC_conformance": [
+    "Предоставленные метаданные CAN; соответствие линии и DBC не удостоверяется",
+    "Supplied CAN metadata; no wire or DBC conformance established",
+    "所提供的CAN元数据；不确认总线或DBC符合性"
+  ],
+  "logic_pulse": [
+    "Выбранное окно импульса",
+    "Selected pulse window",
+    "所选脉冲窗口"
+  ],
+  "setup": [
+    "Выбранное время установки",
+    "Selected setup time",
+    "所选建立时间"
+  ],
+  "hold": [
+    "Выбранное время удержания",
+    "Selected hold time",
+    "所选保持时间"
+  ],
+  "rtu_intercharacter_silence": [
+    "Выбранная межсимвольная пауза RTU",
+    "Selected RTU intercharacter silence",
+    "所选RTU字符间静默"
+  ],
+  "rtu_interframe_silence": [
+    "Выбранная межкадровая пауза RTU",
+    "Selected RTU interframe silence",
+    "所选RTU帧间静默"
+  ],
+  "hypothesis_not_established_cause": [
+    "Гипотеза; причина не установлена",
+    "Hypothesis; cause not established",
+    "假设；原因未确定"
+  ],
+  "proposed_not_executed": [
+    "Предложено; инструмент не выполнял",
+    "Proposed; not executed by tool",
+    "建议项；工具未执行"
+  ],
+  "unknown_selected_window": [
+    "Период выбранного основания неизвестен",
+    "Selected basis window unknown",
+    "所选依据的时间窗未知"
+  ],
+  "within_supplied_window": [
+    "В пределах предоставленного периода; применимость не удостоверена",
+    "Within supplied window; applicability not established",
+    "位于已提供时间窗内；适用性未确认"
+  ],
+  "outside_supplied_window": [
+    "Вне предоставленного периода",
+    "Outside supplied window",
+    "不在已提供时间窗内"
+  ],
+  "host_unit": [
+    "План модульного теста на хосте",
+    "Host unit-test plan",
+    "主机单元测试计划"
+  ],
+  "host_integration": [
+    "План интеграционного теста на хосте",
+    "Host integration-test plan",
+    "主机集成测试计划"
+  ],
+  "simulation": [
+    "Выбрана симуляционная среда",
+    "Simulation environment selected",
+    "已选择仿真环境"
+  ],
+  "HIL_plan": [
+    "План проверки HIL; выполнение не подразумевается",
+    "HIL test plan; execution not implied",
+    "HIL测试计划；不表示已执行"
+  ],
+  "host": [
+    "Предоставленная среда хоста",
+    "Supplied host environment",
+    "所提供的主机环境"
+  ],
+  "hardware_hil": [
+    "Предоставленная среда аппаратного HIL",
+    "Supplied hardware-HIL environment",
+    "所提供的硬件HIL环境"
+  ],
+  "normal": [
+    "Обычный сценарий",
+    "Normal scenario",
+    "正常场景"
+  ],
+  "boundary": [
+    "Граничный сценарий",
+    "Boundary scenario",
+    "边界场景"
+  ],
+  "peripheral_error": [
+    "Сценарий ошибки периферии",
+    "Peripheral-error scenario",
+    "外设错误场景"
+  ],
+  "power_loss": [
+    "Сценарий сбоя питания",
+    "Power-loss scenario",
+    "掉电场景"
+  ],
+  "recovery": [
+    "Сценарий восстановления",
+    "Recovery scenario",
+    "恢复场景"
+  ],
+  "twister_json": [
+    "Выбранный JSON отчёт Twister",
+    "Selected Twister JSON report",
+    "所选Twister JSON报告"
+  ],
+  "parsed_selected_Twister_profile": [
+    "Разобрано поддержанное подмножество отчёта Twister",
+    "Supported Twister report subset parsed",
+    "已解析所支持的Twister报告子集"
+  ],
+  "intrinsic_report_identity_before_selected_mapping": [
+    "Идентичность исходного отчёта до выбранного сопоставления",
+    "Intrinsic report identity before selected mapping",
+    "选择映射前的原始报告身份"
+  ],
+  "selected_mapping_not_intrinsic_Twister_requirement_revision": [
+    "Связь с версиями требований взята из выбранной таблицы сопоставления, а не из полей Twister",
+    "Requirement-version links come from selected mapping, not intrinsic Twister fields",
+    "需求版本关联来自所选映射，而非Twister固有字段"
+  ],
+  "selected_supplied_records_not_actual_testing_or_code_coverage": [
+    "Обзор выбранных записей; не фактический запуск тестов и не измерение покрытия кода",
+    "Selected-record review; not actual tests or code-coverage measurement",
+    "所选记录审查；不是实际测试或代码覆盖测量"
+  ],
+  "line": [
+    "Предоставленное покрытие строк",
+    "Supplied line coverage",
+    "所提供的行覆盖率"
+  ],
+  "branch": [
+    "Предоставленное покрытие ветвей",
+    "Supplied branch coverage",
+    "所提供的分支覆盖率"
+  ],
+  "undefined_zero_denominator": [
+    "Отношение не определено при нулевом знаменателе",
+    "Ratio undefined at zero denominator",
+    "分母为零时比率未定义"
+  ],
+  "provided_count_arithmetic_only": [
+    "Только арифметика предоставленных счётчиков",
+    "Supplied-count arithmetic only",
+    "仅计算所提供的计数"
+  ],
+  "proposed_methodology_not_accepted": [
+    "Проект методики; принятие не установлено",
+    "Proposed methodology; acceptance not established",
+    "方法草稿；尚未确认接受"
+  ],
+  "reported_open": [
+    "В записи дефект открыт",
+    "Defect reported open",
+    "记录中缺陷为未关闭"
+  ],
+  "reported_closed": [
+    "В записи дефект закрыт; источник требует проверки",
+    "Defect reported closed; source needs review",
+    "记录中缺陷为已关闭；来源需复核"
+  ],
+  "multiple_executions_need_explicit_selection": [
+    "Несколько записей: явно выберите относящийся результат",
+    "Multiple records: explicitly select the applicable result",
+    "存在多条记录：请明确选择适用结果"
+  ],
+  "selected_execution_not_found_for_case": [
+    "Выбранная запись не найдена для этого теста",
+    "Selected execution record not found for this case",
+    "未找到此用例所选的执行记录"
+  ],
+  "execution_not_supplied": [
+    "Запись выполнения не предоставлена",
+    "Execution record not supplied",
+    "未提供执行记录"
+  ],
+  "invalid_or_outside_bounded_JSON_profile": [
+    "JSON некорректен либо вне ограниченного профиля",
+    "JSON invalid or outside bounded profile",
+    "JSON无效或超出有界配置"
+  ],
+  "outside_bounded_JSON_profile": [
+    "Отчёт вне ограниченного профиля JSON",
+    "Report outside bounded JSON profile",
+    "报告超出有界JSON配置"
+  ],
+  "unsupported_Twister_report_structure": [
+    "Структура отчёта Twister не поддержана",
+    "Unsupported Twister report structure",
+    "不支持的Twister报告结构"
+  ],
+  "report_suite_limit": [
+    "Превышен предел наборов отчёта",
+    "Report suite limit exceeded",
+    "超出报告套件数量限制"
+  ],
+  "unsupported_Twister_suite_structure": [
+    "Структура набора Twister не поддержана",
+    "Unsupported Twister suite structure",
+    "不支持的Twister套件结构"
+  ],
+  "unsupported_Twister_case_structure": [
+    "Структура записи теста Twister не поддержана",
+    "Unsupported Twister case structure",
+    "不支持的Twister用例结构"
+  ],
+  "report_identity_missing": [
+    "Не хватает полей идентичности отчёта",
+    "Report identity fields missing",
+    "缺少报告身份字段"
+  ],
+  "report_identity_type": [
+    "Тип полей идентичности отчёта не поддержан",
+    "Unsupported report identity field type",
+    "不支持的报告身份字段类型"
+  ],
+  "supply_symptoms_board_firmware_connection": [
+    "Укажите симптомы, плату, версию прошивки и подключение",
+    "Supply symptoms, board, firmware version and connection",
+    "请提供症状、电路板、固件版本和连接方式"
+  ],
+  "select_actual_logs_protocol_direction_units": [
+    "Выберите реальные журналы, направление протокола, единицы и источник часов",
+    "Select actual logs, protocol direction, units and clock basis",
+    "请选择实际日志、协议方向、单位和时钟依据"
+  ],
+  "supply_clock_divider_model_if_UART_requested": [
+    "Для UART предоставьте частоту и выбранную модель делителя",
+    "For UART supply clock and selected divider model",
+    "如需UART分析，请提供时钟与所选分频模型"
+  ],
+  "separate_physical_observations_from_hypotheses": [
+    "Отделите наблюдения физического уровня от гипотез",
+    "Separate physical-layer observations from hypotheses",
+    "区分物理层观测与假设"
+  ],
+  "supply_versioned_requirements_and_test_scope": [
+    "Предоставьте версии требований и границы испытаний",
+    "Supply versioned requirements and test scope",
+    "请提供带版本的需求与测试范围"
+  ],
+  "separate_host_logic_doubles_simulation_and_HIL": [
+    "Разделите логику хоста, заглушки, симуляцию и план HIL",
+    "Separate host logic, doubles, simulation and HIL plan",
+    "区分主机逻辑、替身、仿真与HIL计划"
+  ],
+  "select_build_board_toolchain_and_actual_result_records": [
+    "Выберите сборку, плату, toolchain и фактические записи результатов",
+    "Select build, board, toolchain and actual result records",
+    "请选择构建、电路板、工具链及实际结果记录"
+  ],
+  "plan_boundary_peripheral_fault_power_loss_and_recovery_cases": [
+    "Спланируйте границы, ошибки периферии, сбои питания и восстановление",
+    "Plan boundary, peripheral fault, power-loss and recovery cases",
+    "请规划边界、外设故障、掉电与恢复用例"
+  ],
+  "FD_payload_length_not_encodable": [
+    "Длина полезной нагрузки не представима выбранным CAN FD DLC",
+    "Payload length not encodable by selected CAN FD DLC",
+    "所选CAN FD DLC无法表示有效载荷长度"
+  ],
+  "HIL_device_identity_not_supplied": [
+    "Идентичность HIL устройства не предоставлена",
+    "HIL device identity not supplied",
+    "未提供HIL设备身份"
+  ],
+  "actual_result_not_supplied": [
+    "Наблюдаемый результат теста не предоставлен",
+    "Observed test result not supplied",
+    "未提供测试观测结果"
+  ],
+  "board_firmware_context_not_supplied": [
+    "Контекст платы и прошивки не предоставлен",
+    "Board and firmware context not supplied",
+    "未提供电路板与固件上下文"
+  ],
+  "broadcast_not_supported_for_this_role": [
+    "Широковещательный адрес не поддержан для этой роли",
+    "Broadcast address unsupported for this role",
+    "此角色不支持广播地址"
+  ],
+  "broadcast_response_unexpected": [
+    "На широковещательный запрос предоставлен неожиданный ответ",
+    "Unexpected supplied response to broadcast request",
+    "广播请求出现非预期的所提供响应"
+  ],
+  "capture_date_not_supplied": [
+    "Дата захвата не предоставлена; точная дата измерения не подставляется",
+    "Capture date not supplied; exact observation date not imputed",
+    "未提供采集日期；不填补精确观测日期"
+  ],
+  "case_environment_mismatch": [
+    "Среда записи не совпадает с выбранным тестом",
+    "Record environment differs from selected case",
+    "记录环境与所选用例不一致"
+  ],
+  "case_pass_in_nonrunnable_suite": [
+    "В невыполняемом наборе указан passed; выполнение не засчитано",
+    "Case says passed in nonrunnable suite; execution not credited",
+    "不可运行套件中的用例标记通过；不计为执行"
+  ],
+  "case_revision_mismatch": [
+    "Версия теста не совпадает",
+    "Test-case revision mismatch",
+    "测试用例版本不一致"
+  ],
+  "classic_length_above_eight": [
+    "Длина превышает поддержанные восемь байтов классического CAN",
+    "Length exceeds supported eight-byte classic CAN profile",
+    "长度超过所支持的经典CAN八字节配置"
+  ],
+  "closed_defect_without_selected_evidence": [
+    "Для закрытого по записи дефекта нет выбранного свидетельства",
+    "No selected evidence for reported closed defect",
+    "记录为已关闭的缺陷缺少所选证据"
+  ],
+  "common_timestamp_basis_not_selected": [
+    "Общий источник и начало времени не выбраны; интервалы не оцениваются",
+    "Common clock and time origin not selected; intervals not assessed",
+    "未选择共同的时钟与时间原点；不评估时间间隔"
+  ],
+  "coverage_target_context_mismatch": [
+    "Контекст покрытия отличается от выбранной сборки",
+    "Coverage context differs from selected build",
+    "覆盖率上下文与所选构建不一致"
+  ],
+  "debug_observation_evidence_unresolved": [
+    "Свидетельство наблюдения отладки отсутствует либо неизвестно",
+    "Debug observation evidence missing or unknown",
+    "调试观测证据缺失或未知"
+  ],
+  "defect_unknown_case": [
+    "Дефект ссылается на неизвестный тест",
+    "Defect refers to unknown case",
+    "缺陷引用未知用例"
+  ],
+  "environment_tool_version_not_supplied": [
+    "Инструмент или его версия для среды не предоставлены",
+    "Environment tool or version not supplied",
+    "未提供环境工具或其版本"
+  ],
+  "exception_outside_selected_subset": [
+    "Исключение вне выбранного подмножества проверки",
+    "Exception outside selected review subset",
+    "异常不在所选审查子集中"
+  ],
+  "exception_response_not_normal_success": [
+    "Ответ содержит исключение; обычный успех не устанавливается",
+    "Exception response; normal success not established",
+    "响应包含异常；未确认正常成功"
+  ],
+  "exception_shape": [
+    "Форма ответа исключения не соответствует выбранному профилю",
+    "Exception response shape differs from selected profile",
+    "异常响应结构与所选配置不符"
+  ],
+  "execution_date_not_supplied": [
+    "Дата выполнения не предоставлена",
+    "Execution date not supplied",
+    "未提供执行日期"
+  ],
+  "execution_environment_context_mismatch": [
+    "Контекст выполнения не совпадает со средой",
+    "Execution context differs from environment",
+    "执行上下文与环境不一致"
+  ],
+  "execution_environment_not_supplied": [
+    "Среда для записи выполнения не предоставлена",
+    "Execution environment not supplied",
+    "未提供执行记录的环境"
+  ],
+  "execution_evidence_not_supplied": [
+    "Свидетельство выполнения не предоставлено",
+    "Execution evidence not supplied",
+    "未提供执行证据"
+  ],
+  "execution_record_unresolved": [
+    "Идентичность или свидетельство записи выполнения не согласованы",
+    "Execution identity or evidence unresolved",
+    "执行身份或证据尚未确定"
+  ],
+  "execution_requirement_links_mismatch": [
+    "Связи с требованиями в записи не совпадают",
+    "Execution requirement links differ",
+    "执行记录的需求关联不一致"
+  ],
+  "execution_requirement_revision_mismatch": [
+    "Версии требований в записи не совпадают с тестом",
+    "Execution requirement revisions differ from case",
+    "执行记录的需求版本与用例不一致"
+  ],
+  "execution_target_context_mismatch": [
+    "Контекст выполнения не совпадает с выбранной целью",
+    "Execution context differs from selected target",
+    "执行上下文与所选目标不一致"
+  ],
+  "execution_unknown_case": [
+    "Запись выполнения относится к неизвестному тесту",
+    "Execution refers to unknown case",
+    "执行记录引用未知用例"
+  ],
+  "external_case_not_mapped": [
+    "Внешний тест не сопоставлен с выбранным планом",
+    "External case not mapped to selected plan",
+    "外部用例未映射到所选计划"
+  ],
+  "external_decode_payload_mismatch": [
+    "Полезная нагрузка внешнего декодирования отличается от кадра",
+    "External decode payload differs from selected frame",
+    "外部解码有效载荷与所选帧不一致"
+  ],
+  "external_identity_mapping_evidence_not_supplied": [
+    "Свидетельство внешнего сопоставления идентичности не предоставлено",
+    "External identity mapping evidence not supplied",
+    "未提供外部身份映射证据"
+  ],
+  "fixed_length_PDU": [
+    "Длина PDU не соответствует поддержанному профилю",
+    "PDU length differs from supported profile",
+    "PDU长度与支持配置不符"
+  ],
+  "invalid_function_zero": [
+    "Код функции ноль недопустим",
+    "Function code zero is invalid",
+    "功能码零无效"
+  ],
+  "invalid_serial_address": [
+    "Адрес не соответствует выбранной роли RTU",
+    "Serial address differs from selected RTU role",
+    "串行地址与所选RTU角色不符"
+  ],
+  "method_published_after_selection_date": [
+    "Метод опубликован позже выбранной даты; нужна отдельная проверка",
+    "Method published after selected date; separate review needed",
+    "方法晚于所选日期发布；需另行复核"
+  ],
+  "payload_length_or_hex_mismatch": [
+    "Не совпадает длина либо формат полезной нагрузки",
+    "Payload length or hexadecimal format mismatch",
+    "有效载荷长度或十六进制格式不一致"
+  ],
+  "prepared_report_unusable": [
+    "Предоставленный отчёт не разобран в поддержанном профиле",
+    "Supplied report unusable in supported profile",
+    "所提供报告无法按支持配置解析"
+  ],
+  "read_response_byte_count": [
+    "Длина или число байтов ответа чтения не согласованы",
+    "Read-response length or byte count inconsistent",
+    "读取响应长度或字节数不一致"
+  ],
+  "record_timestamp_not_supplied": [
+    "Метка времени записи не предоставлена",
+    "Record timestamp not supplied",
+    "未提供记录时间戳"
+  ],
+  "register_address_quantity": [
+    "Адрес и количество регистров вне поддержанных границ",
+    "Register address or quantity outside supported bounds",
+    "寄存器地址或数量超出支持范围"
+  ],
+  "report_run_date_missing_or_mismatch": [
+    "Дата запуска в отчёте отсутствует либо не совпадает",
+    "Report run date missing or different",
+    "报告运行日期缺失或不一致"
+  ],
+  "report_run_identity_not_supplied": [
+    "Идентичность запуска в отчёте не предоставлена",
+    "Report run identity not supplied",
+    "未提供报告运行身份"
+  ],
+  "report_runnable_unknown": [
+    "Не установлено, предназначался ли набор для выполнения",
+    "Suite runnable state unknown",
+    "套件是否可运行尚不明确"
+  ],
+  "report_tool_version_mismatch": [
+    "Версия инструмента в отчёте не совпадает",
+    "Report tool version mismatch",
+    "报告工具版本不一致"
+  ],
+  "report_context_platform_mismatch": [
+    "Платформа отчёта не совпадает с контекстом",
+    "Report platform differs from context",
+    "报告平台与上下文不一致"
+  ],
+  "report_context_toolchain_mismatch": [
+    "Toolchain отчёта не совпадает с контекстом",
+    "Report toolchain differs from context",
+    "报告工具链与上下文不一致"
+  ],
+  "requirement_without_planned_case": [
+    "Для требования нет теста в выбранном плане",
+    "Requirement has no selected planned case",
+    "所选计划中需求没有对应测试用例"
+  ],
+  "response_address_or_function_mismatch": [
+    "Адрес или функция ответа не совпадают с запросом",
+    "Response address or function differs from request",
+    "响应地址或功能与请求不一致"
+  ],
+  "response_data_does_not_match_request": [
+    "Данные ответа не согласованы с запросом",
+    "Response data inconsistent with request",
+    "响应数据与请求不一致"
+  ],
+  "response_not_supplied": [
+    "Ответ не предоставлен; таймаут автоматически не устанавливается",
+    "Response not supplied; timeout not inferred",
+    "未提供响应；不自动认定超时"
+  ],
+  "response_timestamp_regression": [
+    "Предоставленный ответ имеет более раннюю метку времени",
+    "Supplied response timestamp precedes request",
+    "所提供响应的时间戳早于请求"
+  ],
+  "selected_method_window_unresolved": [
+    "Период выбранного метода не установлен полностью",
+    "Selected method window not fully established",
+    "所选方法的时间窗尚未完全确定"
+  ],
+  "selected_requirement_revision_mismatch": [
+    "Версия выбранного требования не совпадает с записью",
+    "Selected requirement revision differs from record",
+    "所选需求版本与记录不一致"
+  ],
+  "serial_order_model_conditional": [
+    "Порядок условен в выбранной модели счётчика",
+    "Ordering conditional on selected serial model",
+    "顺序取决于所选序号模型"
+  ],
+  "suite_not_completed_execution": [
+    "Набор не имеет статуса завершённого выполнения",
+    "Suite lacks completed-execution status",
+    "套件没有完成执行状态"
+  ],
+  "suite_not_runnable": [
+    "Набор не предназначен для выполнения",
+    "Suite not runnable",
+    "套件不可运行"
+  ],
+  "test_case_requirement_revision_mismatch": [
+    "Тест ссылается на другую версию требования",
+    "Case refers to another requirement revision",
+    "用例引用不同的需求版本"
+  ],
+  "test_case_unknown_requirement": [
+    "Тест ссылается на неизвестное требование",
+    "Case refers to unknown requirement",
+    "用例引用未知需求"
+  ],
+  "test_level_environment_mismatch": [
+    "Уровень теста не совпадает с видом среды",
+    "Test level differs from environment kind",
+    "测试级别与环境类型不一致"
+  ],
+  "timestamp_regression": [
+    "Метка времени уменьшается",
+    "Timestamp regresses",
+    "时间戳倒退"
+  ],
+  "timing_limits_not_selected": [
+    "Пределы времени не выбраны",
+    "Timing limits not selected",
+    "未选择时间限值"
+  ],
+  "timing_window_regression": [
+    "Конец временного окна раньше начала",
+    "Timing window ends before start",
+    "时间窗口结束早于开始"
+  ],
+  "transaction_direction_mismatch": [
+    "Направления запроса и ответа не согласованы",
+    "Transaction directions inconsistent",
+    "事务请求与响应方向不一致"
+  ],
+  "unknown_selected_requirement": [
+    "Выбранное требование не найдено",
+    "Selected requirement not found",
+    "未找到所选需求"
+  ],
+  "unsupported_execution_status": [
+    "Статус выполнения не поддержан",
+    "Execution status unsupported",
+    "不支持的执行状态"
+  ],
+  "unusable_crc_or_supported_shape": [
+    "CRC или поддержанная форма не позволяют сопоставить обмен",
+    "CRC or supported shape prevents transaction matching",
+    "CRC或支持结构不足以进行事务匹配"
+  ],
+  "write_multiple_quantity_or_byte_count": [
+    "Количество регистров или байтов записи не согласовано",
+    "Multiple-write register or byte count inconsistent",
+    "多寄存器写入的寄存器数或字节数不一致"
+  ],
+  "write_multiple_request_length": [
+    "Длина запроса записи регистров недостаточна",
+    "Multiple-register-write request too short",
+    "多寄存器写入请求过短"
+  ],
+  "report_environment_tool_version_mismatch": [
+    "Версия инструмента отчёта не совпадает с выбранной средой",
+    "Report tool version differs from selected environment",
+    "报告工具版本与所选环境不一致"
+  ],
+  "unsupported_Twister_case_text": [
+    "Поле reason или log не является допустимой ограниченной строкой либо null",
+    "Case reason or log is not a supported bounded string or null",
+    "用例reason或log不是所支持的有界字符串或null"
+  ],
+  "unsupported_Twister_status_type": [
+    "Тип статуса Twister не является строкой либо null",
+    "Twister status is not a string or null",
+    "Twister状态不是字符串或null"
+  ]
+}

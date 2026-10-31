@@ -1,0 +1,192 @@
+{
+  "draft": [
+    "Черновые материалы встроенного ПО для проверки ответственным специалистом",
+    "Embedded software drafts for responsible specialist review",
+    "供责任专家复核的嵌入式软件草稿"
+  ],
+  "synthetic_banner": [
+    "Синтетический пример формата. Записи не являются реальными сборками, аппаратными испытаниями, нормативными заключениями или утверждённым выпуском.",
+    "Synthetic format example. Records are not real builds, hardware tests, normative conclusions or an approved release.",
+    "合成格式示例。记录不是真实构建、硬件测试、规范结论或获准发布。"
+  ],
+  "source_note": [
+    "Исходные названия, записи, цитаты и авторские предложения сохранены на языке источника. Служебные подписи используют выбранный язык.",
+    "Original names, records, quotations and authored proposals retain their source language. Service labels use the selected language.",
+    "原始名称、记录、引文与作者建议保留来源语言。服务标签使用所选语言。"
+  ],
+  "unverified": [
+    "Совпадение фрагмента с выбранным файлом и проверка арифметики не удостоверяют подлинность, смысловое соответствие, актуальность полной цепочки норм, пригодность модели или официальное принятие результата.",
+    "Text occurrence in a selected file and arithmetic checks do not certify authenticity, semantic correspondence, the current full rule chain, model suitability or official acceptance.",
+    "所选文件中出现文本及算术校核不认证真实性、语义对应、完整规范链的现行性、模型适用性或正式接受。"
+  ],
+  "verification_scope": [
+    "Отсутствие подтверждения инструментом не означает, что человек не провёл отдельную проверку.",
+    "Lack of confirmation by the tool does not assert that a human performed no separate review.",
+    "工具未确认，不代表人员未进行单独复核。"
+  ],
+  "control_notice": [
+    "Управляющие символы источника показаны видимыми escape последовательностями; исходные записи сохранены в JSON и закрытом журнале источников.",
+    "Source control characters appear as visible escape sequences; original records remain in JSON and the private source record.",
+    "来源控制字符以可见转义序列显示；原始记录保留在JSON及私密来源记录中。"
+  ],
+  "precision_note": [
+    "Технические записи сохраняют точные предоставленные числа. Показанные разряды не доказывают такую точность измерения, WCET, тактирования или пригодность модели.",
+    "Technical records retain exact supplied numbers. Displayed digits do not establish that measurement, WCET or clock precision, or model suitability.",
+    "技术记录保留所提供精确数字。显示位数不证明测量、WCET、时钟具有该精度或模型适用性。"
+  ],
+  "assumption_banner": [
+    "Ввод содержит явные гипотетические допущения. Они не являются наблюдёнными фактами; их применимость требует отдельной проверки.",
+    "Inputs contain explicit hypothetical assumptions. They are not observed facts; their applicability requires separate review.",
+    "输入含明确的假设情景。它们并非观测事实，其适用性须单独复核。"
+  ],
+  "sources_unconfirmed": [
+    "В этом представлении нет числовых или дословных привязок ввода. Выбранные материалы и их происхождение следует смотреть в отдельном закрытом журнале источников.",
+    "This view has no numeric or literal input bindings. Review selected materials and their provenance in the separate private source record.",
+    "本视图无数值或原文输入绑定 请在独立私密来源记录中查看所选材料及其来源。"
+  ],
+  "assumptions": [
+    "Допущения",
+    "Assumptions",
+    "假设"
+  ],
+  "evidence": [
+    "Выбранные источники и проверка ввода",
+    "Selected sources and input checks",
+    "所选来源与输入校核"
+  ],
+  "field": [
+    "Показатель",
+    "Field",
+    "字段"
+  ],
+  "value": [
+    "Значение",
+    "Value",
+    "数值"
+  ],
+  "missing": [
+    "Не предоставлено",
+    "Not supplied",
+    "未提供"
+  ],
+  "none": [
+    "Нет записей в предоставленном наборе",
+    "No entries in the supplied set",
+    "所提供集合中无记录"
+  ],
+  "yes": [
+    "Да",
+    "Yes",
+    "是"
+  ],
+  "no": [
+    "Нет",
+    "No",
+    "否"
+  ],
+  "as_of": [
+    "Информация по состоянию на",
+    "Information as of",
+    "信息截止日期"
+  ],
+  "details": [
+    "Подробные записи",
+    "Detailed records",
+    "详细记录"
+  ],
+  "items": [
+    "Записи",
+    "Records",
+    "记录"
+  ],
+  "calculation": [
+    "Результаты и исходные условия",
+    "Results and input conditions",
+    "结果与输入条件"
+  ],
+  "page": [
+    "Страница",
+    "Page",
+    "页"
+  ],
+  "code_notice": [
+    "Текст показан инертно с переносом длинных строк. BOM при наличии обозначается как \\uFEFF, табуляция в PDF отображается отступом. Точные логические символы и переводы строк сохранены в JSON; для предоставленных исходных файлов дополнительно сохранён program_source_N.txt. Это логический UTF‑8 текст, а не утверждение об исходных байтах файла.",
+    "Text is inert and long lines wrap. A BOM is shown as \\uFEFF; PDF tabs appear as indentation. Exact logical characters and line endings remain in JSON; supplied source files additionally have program_source_N.txt. This is logical UTF-8 text, not a claim about original file bytes.",
+    "文本不可执行，长行自动换行。BOM显示为\\uFEFF，PDF中制表符显示为缩进。准确逻辑字符和换行保留于JSON；提供的源码文件另存program_source_N.txt。这是逻辑UTF-8文本，不是原始文件字节声明。"
+  ],
+  "original_record": [
+    "Оригинальная выбранная запись",
+    "Original selected record",
+    "原始所选记录"
+  ],
+  "code": [
+    "Исходный текст",
+    "Source text",
+    "源码"
+  ],
+  "tool_scope": [
+    "Область проверки инструментом",
+    "Scope of tool checks",
+    "工具校核范围"
+  ],
+  "section_empty": [
+    "В выбранной ветви нет данных для этого раздела",
+    "No data for this section in the selected branch",
+    "所选分支无本节数据"
+  ],
+  "scope_note": [
+    "Материалы не разрешают выпуск, прошивку, работу с ключами, подачу заявления или обновление устройства.",
+    "These materials authorize no release, flashing, key operation, filing or device update.",
+    "本材料不授权发布、烧录、密钥操作、申请提交或设备更新。"
+  ],
+  "summary": [
+    "Результат обзора",
+    "Review result",
+    "审查结果"
+  ],
+  "supplement": [
+    "Подробные записи соответствующего раздела",
+    "Detailed records for the relevant section",
+    "对应章节详细记录"
+  ],
+  "host_load_notice": [
+    "Доля загрузки относится к выбранной модели задач целевого МК. Она не измеряет нагрузку хоста NABY; соблюдение лимита30% мощности ПК здесь не проверялось.",
+    "Utilization concerns the selected target MCU task model. It does not measure NABY host load; compliance with the30% PC resource budget was not measured here.",
+    "利用率仅属于所选目标MCU任务模型，不测量NABY宿主负载；此处未测量是否满足PC资源30%预算。"
+  ],
+  "empty_text": [
+    "Предоставлен пустой текст с нулём символов",
+    "Provided empty text with zero characters",
+    "提供了零字符空文本"
+  ],
+  "source_text_bindings": [
+    "Привязки исходных текстов",
+    "Source text bindings",
+    "来源文本绑定"
+  ],
+  "empty_source_binding": [
+    "Выбран полный файл нулевой длины по хостовому снимку; нахождение непустой цитаты не заявляется",
+    "Complete zero length file selected from host snapshot; nonempty quote occurrence not claimed",
+    "按宿主快照选定完整零长度文件 不声称存在非空引文"
+  ],
+  "literal_source_binding": [
+    "Дословное нахождение в выбранном файле проверено; смысл и подлинность не удостоверены",
+    "Literal occurrence in selected file checked; meaning and authenticity not certified",
+    "已检查所选文件中的原文出现 不认证含义或真实性"
+  ],
+  "literal_binding_not_established": [
+    "В переданной записи нет подтверждения дословного нахождения; это не отрицает отдельную проверку человеком",
+    "Supplied record does not establish literal occurrence; this does not deny separate human review",
+    "所提供记录未确定原文出现 不否认人员单独复核"
+  ],
+  "whitespace_text": [
+    "Предоставлены только пробельные символы без обрезания. Ниже их видимое представление",
+    "Whitespace only text supplied without trimming. Visible representation follows",
+    "提供了仅含空白的文本且未修剪 下方为可见表示"
+  ],
+  "blank_source_binding": [
+    "Выбран полный пробельный файл по хостовому снимку и его UTF8 хешу; это не файл нулевой длины",
+    "Complete whitespace file selected from host snapshot and UTF8 hash; this is not a zero length file",
+    "按宿主快照及UTF8哈希选定完整空白文件 不是零长度文件"
+  ]
+}

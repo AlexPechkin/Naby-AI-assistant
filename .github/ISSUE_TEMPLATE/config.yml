@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Bug in Naby · Ошибка в Наби"
+    url: https://neuralaibaby.tech
+    about: "Use «Bug report» inside Naby — it sends a report without personal data · Кнопка «Отчёт об ошибке» в самом Наби"

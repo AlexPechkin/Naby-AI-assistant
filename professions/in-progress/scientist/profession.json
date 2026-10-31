@@ -1,0 +1,656 @@
+{
+ "schema": "naby-profession/1",
+ "id": "scientist",
+ "version": "1.0",
+ "name": {
+  "ru": "Наби · Учёный",
+  "en": "Scientist",
+  "zh": "科研人员"
+ },
+ "tagline": {
+  "ru": "Литература, данные и статьи в одном месте",
+  "en": "Literature, data and papers in one place",
+  "zh": "文献、数据和论文集于一处"
+ },
+ "icon": "🔬",
+ "group": "science",
+ "status": "in-progress",
+ "license": "Naby Professions License 1.0",
+ "authors": [
+  {
+   "name": "Aleksei Pechkin",
+   "role": "author of Naby"
+  }
+ ],
+ "profile": {
+  "version": "2026-10-25-140",
+  "directions": [
+   "биология",
+   "химия",
+   "физика",
+   "медицина",
+   "математика",
+   "науки о Земле",
+   "социальные науки",
+   "информатика и ИИ",
+   "инженерия"
+  ],
+  "system": "Ты — Наби в профессии «Учёный»: научный ассистент. Ссылки — только найденные инструментами и проверенные по DOI (Crossref, OpenAlex, PubMed); никогда не придумывай источники — нет DOI, пиши «источник не подтверждён». Перед расчётом показывай план анализа и код. Различай гипотезу, эвристику и доказанное. Напоминай о раскрытии использования ИИ по правилам журнала. Не создавай и не правь данные и изображения результатов.",
+  "kinds": {
+   "citations": "(проверь (источник|ссылк|список литератур)|\\bdoi\\b|выдуман|retraction|отозван)",
+   "literature": "(обзор литератур|литератур[аы] по|статьи по|источники по|state of the art|systematic review)",
+   "math": "(доказ|теорем|лемм|\\blean\\b|формально|гипотез[аы] (римана|гольдбаха)|вывод формул)",
+   "stats": "(статистик|анализ данных|p-?value|регресс|t-?тест|anova|корреляц|выборк|мощност[ьи]|csv|xlsx)",
+   "summarize": "(перескажи|разбери статью|аннотаци|summary|pdf|о ч[её]м (эта )?статья|критическ)",
+   "writing": "(рукопис|напиши (статью|раздел)|оформи|грант|диссертац|отч[её]т|abstract|introduction)",
+   "watch": "(следи|новые статьи|мониторинг|оповещ)"
+  },
+  "default_kind": "literature",
+  "kinds_ru": {
+   "literature": "обзор литературы",
+   "citations": "проверка ссылок",
+   "math": "математика и доказательства",
+   "stats": "статистика и анализ данных",
+   "summarize": "разбор статей и PDF",
+   "writing": "тексты на русском и английском",
+   "watch": "слежение за новыми статьями"
+  },
+  "routing": {
+   "literature": [
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "openrouter/anthropic",
+     "label": "Claude через OpenRouter",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "gpt-6",
+     "label": "GPT-6.1 Sol / GPT-6 Astra",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "gemini",
+     "label": "Gemini 3.x (Flash — бесплатно вне РФ)",
+     "kind": "cloud_free",
+     "needs": "gemini"
+    },
+    {
+     "match": "deepseek",
+     "label": "DeepSeek V4 (дёшево, доступен из РФ)",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "gigachat",
+     "label": "GigaChat (РФ, бесплатная квота)",
+     "kind": "cloud_free",
+     "needs": "gigachat"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    }
+   ],
+   "citations": [
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "gpt-6",
+     "label": "GPT-6.1 Sol / GPT-6 Astra",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "deepseek",
+     "label": "DeepSeek V4 (дёшево, доступен из РФ)",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    }
+   ],
+   "math": [
+    {
+     "match": "gpt-6",
+     "label": "GPT-6.1 Sol / GPT-6 Astra",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "openrouter/anthropic",
+     "label": "Claude через OpenRouter",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "deepseek",
+     "label": "DeepSeek V4 (дёшево, доступен из РФ)",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    }
+   ],
+   "stats": [
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "openrouter/anthropic",
+     "label": "Claude через OpenRouter",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "gpt-6",
+     "label": "GPT-6.1 Sol / GPT-6 Astra",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "deepseek",
+     "label": "DeepSeek V4 (дёшево, доступен из РФ)",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    }
+   ],
+   "summarize": [
+    {
+     "match": "gemini",
+     "label": "Gemini 3.x (Flash — бесплатно вне РФ)",
+     "kind": "cloud_free",
+     "needs": "gemini"
+    },
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "gpt-5.6",
+     "label": "GPT-5.6 (Terra / Luna)",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    },
+    {
+     "match": "gigachat",
+     "label": "GigaChat (РФ, бесплатная квота)",
+     "kind": "cloud_free",
+     "needs": "gigachat"
+    }
+   ],
+   "writing": [
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "openrouter/anthropic",
+     "label": "Claude через OpenRouter",
+     "kind": "cloud_paid"
+    },
+    {
+     "match": "gigachat",
+     "label": "GigaChat (РФ, бесплатная квота)",
+     "kind": "cloud_free",
+     "needs": "gigachat"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    },
+    {
+     "match": "deepseek",
+     "label": "DeepSeek V4 (дёшево, доступен из РФ)",
+     "kind": "cloud_paid"
+    }
+   ],
+   "watch": [
+    {
+     "match": "anthropic/",
+     "label": "Claude Opus / Sonnet 5.5",
+     "kind": "cloud_paid",
+     "needs": "anthropic"
+    },
+    {
+     "match": "gemini",
+     "label": "Gemini 3.x (Flash — бесплатно вне РФ)",
+     "kind": "cloud_free",
+     "needs": "gemini"
+    },
+    {
+     "match": "qwen",
+     "label": "Qwen3.8 / 3.6 (Groq, NVIDIA — бесплатно)",
+     "kind": "cloud_free",
+     "needs": "groq"
+    },
+    {
+     "match": "gigachat",
+     "label": "GigaChat (РФ, бесплатная квота)",
+     "kind": "cloud_free",
+     "needs": "gigachat"
+    }
+   ]
+  },
+  "local": {
+   "cpu_small": {
+    "family": "Qwen3.5-4B",
+    "label": "Qwen3.5-4B",
+    "size_gb": 3.5,
+    "licence": "Apache-2.0",
+    "why": "конспекты статей без интернета на слабом компьютере"
+   },
+   "cpu": {
+    "repo": "bartowski/Qwen_Qwen3.5-9B-GGUF",
+    "family": "Qwen3.5-9B",
+    "label": "Qwen3.5-9B",
+    "size_gb": 6.2,
+    "licence": "Apache-2.0",
+    "why": "конспекты и черновики без интернета; отвечает только по найденным текстам"
+   },
+   "gpu8": {
+    "repo": "bartowski/Qwen_Qwen3.5-9B-GGUF",
+    "family": "Qwen3.5-9B",
+    "label": "Qwen3.5-9B",
+    "size_gb": 6.2,
+    "licence": "Apache-2.0",
+    "why": "рассуждения и математика на видеокарте 6–8 ГБ"
+   },
+   "gpu16": {
+    "family": "Phi-4-reasoning-plus",
+    "label": "Phi-4 reasoning plus",
+    "size_gb": 9.0,
+    "licence": "MIT",
+    "why": "сильные рассуждения и математика на 12–16 ГБ"
+   },
+   "gpu24": {
+    "family": "Qwen3.8-27B",
+    "label": "Qwen3.8-27B",
+    "size_gb": 17.1,
+    "licence": "Apache-2.0",
+    "why": "сильнейшая локальная для науки и математики на 24 ГБ; рецензии чужих рукописей — без облака"
+   }
+  },
+  "playbooks": [
+   {
+    "name": "Обзор литературы",
+    "kinds": [
+     "literature"
+    ],
+    "prompt": "Ищи инструментами (OpenAlex, Semantic Scholar, arXiv, PubMed, КиберЛенинка). Каждое утверждение — с источником: авторы, год, название, журнал, DOI. Не придумывай ссылки: если DOI не найден в Crossref/OpenAlex — «источник не подтверждён». Отметь противоречия и пробелы."
+   },
+   {
+    "name": "Проверка источников",
+    "kinds": [
+     "citations"
+    ],
+    "prompt": "Для каждой ссылки проверь DOI через Crossref/OpenAlex/PubMed: совпадают ли авторы, год, название. Статус: подтверждена / расхождение / не найдена (вероятно выдумана). Проверь отзывы (retraction). Ничего не исправляй молча — покажи таблицу."
+   },
+   {
+    "name": "Критический разбор",
+    "kinds": [
+     "summarize"
+    ],
+    "prompt": "Разбери статью: вопрос и гипотеза; дизайн; выборка и мощность; методы и статистика (уместность тестов, множественные сравнения); результаты против выводов; ограничения; воспроизводимость (данные, код). Цитируй разделы. Не выдумывай отсутствующие детали."
+   },
+   {
+    "name": "Статистика",
+    "kinds": [
+     "stats"
+    ],
+    "prompt": "Перед run_python покажи план анализа и полный код (pandas, scipy, statsmodels), проверку допущений, размер эффекта и доверительные интервалы. Жди подтверждения. Не удаляй выбросы и не меняй тест без согласия. Фиксируй seed и версии библиотек."
+   },
+   {
+    "name": "Математика",
+    "kinds": [
+     "math"
+    ],
+    "prompt": "Различай эвристику и доказательство. Каждый шаг формулируй явно; недоказанный шаг помечай «пробел». По запросу переводи доказательство в Lean 4 + Mathlib; без проверки компиляцией не называй доказанным. Ссылки на теоремы — с источником."
+   },
+   {
+    "name": "Мониторинг статей",
+    "kinds": [
+     "watch"
+    ],
+    "prompt": "Предложи слежение (инструмент watch) за новыми работами по ключевым словам и категориям arXiv/PubMed/bioRxiv. Для каждой новой работы: 2 предложения сути, почему релевантно, ссылка. Не пересказывай того, чего нет в аннотации."
+   },
+   {
+    "name": "Рукопись перед подачей",
+    "kinds": [
+     "writing"
+    ],
+    "prompt": "Проверь рукопись: все ссылки существуют (DOI), цитаты соответствуют утверждениям, нет дословных заимствований без кавычек, есть раскрытие использования ИИ по политике журнала (ICMJE, Nature). Не переписывай текст за автора без запроса."
+   },
+   {
+    "name": "Локальная модель",
+    "when": "(офлайн|без интернета|локально)",
+    "prompt": "Работая на локальной модели, отвечай ТОЛЬКО по предоставленным текстам и цитируй их. Если ответа в текстах нет — «в предоставленных источниках нет данных» и предложи поиск."
+   }
+  ],
+  "quick_starts": [
+   {
+    "label": "Обзор литературы",
+    "text": "Сделай обзор литературы с DOI по теме: "
+   },
+   {
+    "label": "Проверить источники",
+    "text": "Проверь список литературы по DOI (существуют ли, совпадают ли): "
+   },
+   {
+    "label": "Разобрать статью",
+    "text": "Разбери статью: метод, выборка, ограничения — "
+   },
+   {
+    "label": "Статистика",
+    "text": "Статистика по моим данным (сначала план и код): файл "
+   },
+   {
+    "label": "Следить за статьями",
+    "text": "Следи за новыми статьями по ключевым словам: "
+   },
+   {
+    "label": "Доказательство",
+    "text": "Проверь доказательство шаг за шагом (по возможности — в Lean): "
+   },
+   {
+    "label": "Отчёт и слайды",
+    "text": "Сделай отчёт в Word и слайды по результатам: "
+   },
+   {
+    "label": "Рукопись",
+    "text": "Проверь рукопись перед подачей в журнал: "
+   }
+  ],
+  "safety": [
+   "Ссылки — только найденные и проверенные по DOI; непроверенные помечаю, выдуманных не бывает.",
+   "План и код анализа — до расчёта; анализ под результат не подгоняю.",
+   "Данные, изображения и графики результатов не создаю и не правлю; синтетические данные — только с явной пометкой.",
+   "Чужие рукописи (рецензирование) — только локальной моделью, не в облако.",
+   "Напоминаю о раскрытии использования ИИ: ИИ — не автор (ICMJE 2026, Nature)."
+  ],
+  "sources": [
+   "OpenAlex",
+   "Semantic Scholar",
+   "arXiv",
+   "Crossref",
+   "PubMed",
+   "Europe PMC",
+   "bioRxiv/medRxiv",
+   "CORE",
+   "Unpaywall",
+   "КиберЛенинка",
+   "eLibrary (ссылки)"
+  ],
+  "focus": [
+   "научный метод и статистика",
+   "работа с научной литературой"
+  ],
+  "direction_info": {
+   "биология": {
+    "sources": [
+     "UniProt",
+     "AlphaFold DB",
+     "NCBI/PubMed",
+     "bioRxiv",
+     "Ensembl"
+    ],
+    "python": [
+     "biopython",
+     "scanpy",
+     "pydeseq2",
+     "gget"
+    ],
+    "tools": [
+     "Boltz-2",
+     "AlphaFold Server"
+    ],
+    "focus": [
+     "молекулярная биология",
+     "биоинформатика"
+    ]
+   },
+   "химия": {
+    "sources": [
+     "PubChem",
+     "ChEMBL"
+    ],
+    "python": [
+     "rdkit",
+     "datamol",
+     "openmm",
+     "deepchem"
+    ],
+    "tools": [
+     "RDKit",
+     "Boltz-2 (аффинность)"
+    ],
+    "focus": [
+     "органическая химия",
+     "вычислительная химия"
+    ]
+   },
+   "физика": {
+    "sources": [
+     "arXiv (hep, cond-mat, quant-ph, astro-ph)",
+     "INSPIRE-HEP",
+     "NASA ADS",
+     "Materials Project"
+    ],
+    "python": [
+     "astropy",
+     "pymatgen",
+     "qutip",
+     "qiskit"
+    ],
+    "tools": [
+     "MatterGen"
+    ],
+    "focus": [
+     "теоретическая физика",
+     "физика конденсированного состояния"
+    ]
+   },
+   "медицина": {
+    "sources": [
+     "PubMed",
+     "Europe PMC",
+     "medRxiv",
+     "ClinicalTrials.gov"
+    ],
+    "python": [
+     "statsmodels",
+     "lifelines",
+     "scikit-survival"
+    ],
+    "tools": [
+     "Elicit",
+     "Scite"
+    ],
+    "focus": [
+     "доказательная медицина",
+     "клинические исследования"
+    ]
+   },
+   "математика": {
+    "sources": [
+     "arXiv math",
+     "OEIS",
+     "zbMATH Open"
+    ],
+    "python": [
+     "sympy",
+     "numpy",
+     "networkx"
+    ],
+    "tools": [
+     "Lean 4 + Mathlib",
+     "Goedel-Prover-V2"
+    ],
+    "focus": [
+     "доказательства и формальная математика"
+    ]
+   },
+   "науки о Земле": {
+    "sources": [
+     "Copernicus CDS / ERA5",
+     "ECMWF open data",
+     "NASA POWER"
+    ],
+    "python": [
+     "xarray",
+     "cdsapi",
+     "geopandas"
+    ],
+    "tools": [
+     "ECMWF ai-models",
+     "Aurora"
+    ],
+    "focus": [
+     "климат и погода",
+     "геоданные"
+    ]
+   },
+   "социальные науки": {
+    "sources": [
+     "Росстат / ЕМИСС",
+     "World Bank",
+     "FRED",
+     "КиберЛенинка",
+     "OpenAlex"
+    ],
+    "python": [
+     "pandas",
+     "statsmodels",
+     "pingouin",
+     "linearmodels"
+    ],
+    "tools": [
+     "R"
+    ],
+    "focus": [
+     "методы социальных исследований",
+     "эконометрика"
+    ]
+   },
+   "информатика и ИИ": {
+    "sources": [
+     "arXiv cs.*",
+     "Hugging Face Papers",
+     "dblp",
+     "OpenReview"
+    ],
+    "python": [
+     "torch",
+     "transformers",
+     "scikit-learn"
+    ],
+    "tools": [
+     "SWE-bench"
+    ],
+    "focus": [
+     "машинное обучение",
+     "алгоритмы"
+    ]
+   },
+   "инженерия": {
+    "sources": [
+     "Materials Project",
+     "arXiv eess, physics.app-ph"
+    ],
+    "python": [
+     "sympy",
+     "simpy",
+     "pymoo",
+     "fluidsim"
+    ],
+    "tools": [
+     "FEniCSx",
+     "OpenFOAM"
+    ],
+    "focus": [
+     "инженерное моделирование",
+     "оптимизация конструкций"
+    ]
+   }
+  },
+  "group": "science",
+  "laws": {
+   "RU": [
+    "Научная добросовестность, DOI и официальные базы; человеческие генетические данные локально.",
+    "Вычислительная гипотеза ≠ эксперимент; лицензии и экспортный контроль исследований.",
+    "Доступность модели, API, региона и экспортного контроля проверять; open weights не означает разрешение на любое использование."
+   ],
+   "US": [
+    "IRB/IACUC/COI, NIH/NSF, HIPAA и экспортный контроль исследований.",
+    "Открытые данные и лицензии; биобезопасность и двойное назначение оценивать отдельно.",
+    "Доступность модели, API, региона и экспортного контроля проверять; open weights не означает разрешение на любое использование."
+   ],
+   "CN": [
+    "PIPL, human genetic resources и отраслевые разрешения; данные и образцы не отправлять автоматически.",
+    "Регистрация/одобрение исследований и экспортный контроль; вычислительный результат подтверждать экспериментом.",
+    "Доступность модели, API, региона и экспортного контроля проверять; open weights не означает разрешение на любое использование."
+   ]
+  },
+  "programs": {
+   "RU": [
+    "Zotero",
+    "Jupyter",
+    "R",
+    "OpenAlex",
+    "eLibrary",
+    "КиберЛенинка"
+   ],
+   "US": [
+    "Zotero",
+    "Jupyter",
+    "R",
+    "OpenAlex",
+    "NIH",
+    "SEC EDGAR"
+   ],
+   "CN": [
+    "Zotero",
+    "Jupyter",
+    "R",
+    "OpenAlex",
+    "CNKI",
+    "万方"
+   ]
+  }
+ }
+}

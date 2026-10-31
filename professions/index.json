@@ -1,0 +1,1991 @@
+{
+ "schema": "naby-professions-index/1",
+ "groups": [
+  {
+   "id": "software",
+   "title": {
+    "ru": "Программная разработка и цифровая инфраструктура",
+    "en": "Software development and digital infrastructure",
+    "zh": "软件开发与数字基础设施"
+   },
+   "description": {
+    "ru": "Код, платформы, сети, цифровые системы, их безопасность и эксплуатация.",
+    "en": "Code, platforms, networks, digital systems, their security and operation.",
+    "zh": "代码、平台、网络、数字系统及其安全与运维。"
+   },
+   "base": "coder",
+   "members": [
+    "coder",
+    "prompt_engineer",
+    "ai_agent_engineer",
+    "llmops_engineer",
+    "cybersecurity",
+    "devsecops",
+    "devops",
+    "cloud_architect",
+    "qa_engineer",
+    "mobile_developer",
+    "game_developer",
+    "database_admin",
+    "system_admin",
+    "network_engineer",
+    "iot_engineer",
+    "ar_vr_developer"
+   ]
+  },
+  {
+   "id": "data_ai",
+   "title": {
+    "ru": "Данные, аналитика и машинное обучение",
+    "en": "Data, analytics and machine learning",
+    "zh": "数据、分析与机器学习"
+   },
+   "description": {
+    "ru": "Данные, метрики, статистические и ML-модели, аналитические и BI-продукты.",
+    "en": "Data, metrics, statistical and ML models, analytics and BI products.",
+    "zh": "数据、指标、统计与机器学习模型、分析与 BI 产品。"
+   },
+   "base": null,
+   "members": [
+    "ml_engineer",
+    "data_scientist",
+    "data_engineer",
+    "data_analyst",
+    "bi_engineer"
+   ]
+  },
+  {
+   "id": "science",
+   "title": {
+    "ru": "Наука и воспроизводимые исследования",
+    "en": "Science and reproducible research",
+    "zh": "科学与可复现研究"
+   },
+   "description": {
+    "ru": "Научный вопрос, литература, эксперимент, вычисления, проверка и публикация результатов.",
+    "en": "Research question, literature, experiment, computation, verification and publication.",
+    "zh": "科学问题、文献、实验、计算、验证与发表。"
+   },
+   "base": "scientist",
+   "members": [
+    "scientist",
+    "physicist",
+    "chemist",
+    "biologist",
+    "bioinformatician",
+    "mathematician",
+    "statistician",
+    "geologist",
+    "meteorologist",
+    "climate_scientist",
+    "ecologist",
+    "lab_automation"
+   ]
+  },
+  {
+   "id": "engineering",
+   "title": {
+    "ru": "Инженерия и производство",
+    "en": "Engineering and manufacturing",
+    "zh": "工程与制造"
+   },
+   "description": {
+    "ru": "Физические системы, материалы, технологические процессы, надёжность и безопасность производства.",
+    "en": "Physical systems, materials, processes, reliability and production safety.",
+    "zh": "物理系统、材料、工艺、可靠性与生产安全。"
+   },
+   "base": null,
+   "members": [
+    "mechanical_engineer",
+    "electrical_engineer",
+    "electronics_engineer",
+    "embedded_engineer",
+    "robotics_engineer",
+    "automation_engineer",
+    "industrial_engineer",
+    "manufacturing_engineer",
+    "quality_engineer",
+    "reliability_engineer",
+    "maintenance_engineer",
+    "materials_engineer",
+    "chemical_engineer",
+    "cnc_engineer",
+    "additive_manufacturing",
+    "welding_engineer"
+   ]
+  },
+  {
+   "id": "construction",
+   "title": {
+    "ru": "Строительство, архитектура и пространственные данные",
+    "en": "Construction, architecture and spatial data",
+    "zh": "建筑、规划与空间数据"
+   },
+   "description": {
+    "ru": "Здания, территории, городская среда, BIM, геодезия и пространственный анализ.",
+    "en": "Buildings, territories, urban environment, BIM, surveying and spatial analysis.",
+    "zh": "建筑、区域、城市环境、BIM、测绘与空间分析。"
+   },
+   "base": null,
+   "members": [
+    "civil_engineer",
+    "structural_engineer",
+    "construction_manager",
+    "bim_specialist",
+    "architect",
+    "surveyor",
+    "gis_specialist",
+    "urban_planner"
+   ]
+  },
+  {
+   "id": "energy",
+   "title": {
+    "ru": "Энергетика и инженерные сети",
+    "en": "Energy and utility networks",
+    "zh": "能源与公用网络"
+   },
+   "description": {
+    "ru": "Генерация, преобразование, распределение и эффективное использование энергии.",
+    "en": "Generation, conversion, distribution and efficient use of energy.",
+    "zh": "能源的生产、转换、分配与高效利用。"
+   },
+   "base": null,
+   "members": [
+    "energy_engineer",
+    "renewable_energy_engineer",
+    "power_grid_engineer"
+   ]
+  },
+  {
+   "id": "health",
+   "title": {
+    "ru": "Здравоохранение и клиническая помощь",
+    "en": "Healthcare and clinical care",
+    "zh": "医疗与临床护理"
+   },
+   "description": {
+    "ru": "Самостоятельные клинические, лабораторные, фармацевтические и реабилитационные роли; решения остаются за специалистами.",
+    "en": "Clinical, laboratory, pharmacy and rehabilitation roles; decisions stay with specialists.",
+    "zh": "临床、检验、药学与康复岗位；决策由专业人员作出。"
+   },
+   "base": "medic",
+   "members": [
+    "medic",
+    "pharmacist",
+    "radiologist",
+    "pathologist",
+    "medical_laboratory",
+    "nurse",
+    "psychologist",
+    "physiotherapist",
+    "nutritionist",
+    "veterinarian"
+   ]
+  },
+  {
+   "id": "education",
+   "title": {
+    "ru": "Образование и развитие",
+    "en": "Education and development",
+    "zh": "教育与培训"
+   },
+   "description": {
+    "ru": "Обучение, учебные материалы, оценка по рубрикам, адаптация и информационная поддержка.",
+    "en": "Teaching, learning materials, rubric-based assessment, adaptation and information support.",
+    "zh": "教学、教材、按量规评估、适配与信息支持。"
+   },
+   "base": "teacher",
+   "members": [
+    "teacher",
+    "instructional_designer",
+    "tutor",
+    "university_lecturer",
+    "special_education",
+    "corporate_trainer",
+    "librarian"
+   ]
+  },
+  {
+   "id": "legal",
+   "title": {
+    "ru": "Право и регуляторное соответствие",
+    "en": "Law and regulatory compliance",
+    "zh": "法律与合规"
+   },
+   "description": {
+    "ru": "Нормы и практика, договоры, споры, интеллектуальная собственность и compliance.",
+    "en": "Law and practice, contracts, disputes, intellectual property and compliance.",
+    "zh": "法规与实务、合同、争议、知识产权与合规。"
+   },
+   "base": "lawyer",
+   "members": [
+    "lawyer",
+    "patent_specialist",
+    "compliance_officer",
+    "data_protection_officer",
+    "contract_manager"
+   ]
+  },
+  {
+   "id": "finance",
+   "title": {
+    "ru": "Финансы, учёт и экономика",
+    "en": "Finance, accounting and economics",
+    "zh": "财务、会计与经济"
+   },
+   "description": {
+    "ru": "Деньги, учёт, отчётность, риски, оценка, закупки и экономические модели.",
+    "en": "Money, accounting, reporting, risk, valuation, procurement and economic models.",
+    "zh": "资金、会计、报表、风险、估值、采购与经济模型。"
+   },
+   "base": "finance",
+   "members": [
+    "finance",
+    "tax_consultant",
+    "auditor",
+    "accountant",
+    "financial_analyst",
+    "investment_analyst",
+    "risk_manager",
+    "actuary",
+    "economist",
+    "procurement",
+    "real_estate_appraiser"
+   ]
+  },
+  {
+   "id": "management",
+   "title": {
+    "ru": "Управление продуктами, проектами и людьми",
+    "en": "Product, project and people management",
+    "zh": "产品、项目与人员管理"
+   },
+   "description": {
+    "ru": "Продуктовые и проектные решения, бизнес-процессы, персонал и организационные изменения.",
+    "en": "Product and project decisions, business processes, people and organisational change.",
+    "zh": "产品与项目决策、业务流程、人员与组织变革。"
+   },
+   "base": null,
+   "members": [
+    "ai_product_manager",
+    "product_manager",
+    "project_manager",
+    "business_analyst",
+    "hr_manager",
+    "recruiter"
+   ]
+  },
+  {
+   "id": "marketing",
+   "title": {
+    "ru": "Маркетинг, коммуникации и продажи",
+    "en": "Marketing, communications and sales",
+    "zh": "营销、传播与销售"
+   },
+   "description": {
+    "ru": "Исследование рынка, позиционирование, кампании, репутация, продажи и интернет-торговля.",
+    "en": "Market research, positioning, campaigns, reputation, sales and e-commerce.",
+    "zh": "市场研究、定位、营销活动、声誉、销售与电商。"
+   },
+   "base": "marketer",
+   "members": [
+    "marketer",
+    "sales_manager",
+    "smm_manager",
+    "seo_specialist",
+    "pr_manager",
+    "market_researcher",
+    "ecommerce_manager"
+   ]
+  },
+  {
+   "id": "text",
+   "title": {
+    "ru": "Тексты, языки и редакционная работа",
+    "en": "Writing, languages and editing",
+    "zh": "文字、语言与编辑"
+   },
+   "description": {
+    "ru": "Авторство, редактура, перевод, контент и профессиональные отраслевые тексты.",
+    "en": "Writing, editing, translation, content and professional industry texts.",
+    "zh": "写作、编辑、翻译、内容与专业行业文本。"
+   },
+   "base": "author",
+   "members": [
+    "author",
+    "content_manager",
+    "translator",
+    "editor",
+    "medical_writer"
+   ]
+  },
+  {
+   "id": "design",
+   "title": {
+    "ru": "Дизайн и визуальное творчество",
+    "en": "Design and visual arts",
+    "zh": "设计与视觉创意"
+   },
+   "description": {
+    "ru": "Визуальные и пространственные концепции, изображения, анимация и исследование пользовательского опыта.",
+    "en": "Visual and spatial concepts, images, animation and user experience research.",
+    "zh": "视觉与空间概念、图像、动画与用户体验研究。"
+   },
+   "base": "designer",
+   "members": [
+    "designer",
+    "3d_artist",
+    "motion_designer",
+    "photographer",
+    "game_designer",
+    "animator",
+    "illustrator",
+    "ux_researcher"
+   ]
+  },
+  {
+   "id": "media",
+   "title": {
+    "ru": "Аудио, видео и медиапроизводство",
+    "en": "Audio, video and media production",
+    "zh": "音频、视频与媒体制作"
+   },
+   "description": {
+    "ru": "Производство, монтаж, звук, музыка, локализация и технический контроль медиа.",
+    "en": "Production, editing, sound, music, localisation and technical control of media.",
+    "zh": "制作、剪辑、声音、音乐、本地化与媒体技术把控。"
+   },
+   "base": "video",
+   "members": [
+    "video",
+    "sound_engineer",
+    "music_producer",
+    "filmmaker"
+   ]
+  },
+  {
+   "id": "logistics",
+   "title": {
+    "ru": "Транспорт, логистика и ВЭД",
+    "en": "Transport, logistics and foreign trade",
+    "zh": "运输、物流与外贸"
+   },
+   "description": {
+    "ru": "Потоки товаров, транспортное планирование, цепочки поставок, БПЛА и таможенные процессы.",
+    "en": "Goods flows, transport planning, supply chains, drones and customs.",
+    "zh": "货物流、运输规划、供应链、无人机与海关。"
+   },
+   "base": null,
+   "members": [
+    "logistics_manager",
+    "supply_chain_analyst",
+    "transport_planner",
+    "drone_operator",
+    "customs_specialist"
+   ]
+  },
+  {
+   "id": "agriculture",
+   "title": {
+    "ru": "Сельское и лесное хозяйство",
+    "en": "Agriculture and forestry",
+    "zh": "农业与林业"
+   },
+   "description": {
+    "ru": "Агрономия, хозяйственное управление, лесные ресурсы и устойчивость природных систем.",
+    "en": "Agronomy, farm management, forest resources and sustainability of natural systems.",
+    "zh": "农艺、农场管理、森林资源与自然系统的可持续性。"
+   },
+   "base": null,
+   "members": [
+    "agronomist",
+    "farm_manager",
+    "forester"
+   ]
+  },
+  {
+   "id": "public_service",
+   "title": {
+    "ru": "Социальная и публичная служба",
+    "en": "Social and public service",
+    "zh": "社会与公共服务"
+   },
+   "description": {
+    "ru": "Социальная поддержка, государственные услуги, гражданская защита и управление чрезвычайными ситуациями.",
+    "en": "Social support, public services, civil protection and emergency management.",
+    "zh": "社会支持、公共服务、民防与应急管理。"
+   },
+   "base": null,
+   "members": [
+    "social_worker",
+    "emergency_manager",
+    "public_administrator"
+   ]
+  },
+  {
+   "id": "service",
+   "title": {
+    "ru": "Клиентский сервис и административное обеспечение",
+    "en": "Customer service and administration",
+    "zh": "客户服务与行政支持"
+   },
+   "description": {
+    "ru": "Поддержка клиентов, документы, координация, мероприятия, поездки и эксплуатация объектов.",
+    "en": "Customer support, documents, coordination, events, travel and facility operation.",
+    "zh": "客户支持、文件、协调、活动、差旅与设施运营。"
+   },
+   "base": null,
+   "members": [
+    "customer_support",
+    "office_manager",
+    "personal_assistant",
+    "event_manager",
+    "travel_manager",
+    "facility_manager"
+   ]
+  }
+ ],
+ "professions": [
+  {
+   "id": "coder",
+   "status": "in-progress",
+   "icon": "💻",
+   "name": {
+    "ru": "Наби · Программист",
+    "en": "Developer",
+    "zh": "程序员"
+   },
+   "group": "software"
+  },
+  {
+   "id": "medic",
+   "status": "in-progress",
+   "icon": "🩺",
+   "name": {
+    "ru": "Наби · Медик",
+    "en": "Doctor",
+    "zh": "医生"
+   },
+   "group": "health"
+  },
+  {
+   "id": "scientist",
+   "status": "in-progress",
+   "icon": "🔬",
+   "name": {
+    "ru": "Наби · Учёный",
+    "en": "Scientist",
+    "zh": "科研人员"
+   },
+   "group": "science"
+  },
+  {
+   "id": "designer",
+   "status": "in-progress",
+   "icon": "🎨",
+   "name": {
+    "ru": "Наби · Дизайнер",
+    "en": "Designer",
+    "zh": "设计师"
+   },
+   "group": "design"
+  },
+  {
+   "id": "video",
+   "status": "in-progress",
+   "icon": "🎬",
+   "name": {
+    "ru": "Наби · Видеоинженер",
+    "en": "Video editor",
+    "zh": "视频工程师"
+   },
+   "group": "media"
+  },
+  {
+   "id": "marketer",
+   "status": "in-progress",
+   "icon": "📣",
+   "name": {
+    "ru": "Наби · Маркетолог",
+    "en": "Marketer",
+    "zh": "营销"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "lawyer",
+   "status": "in-progress",
+   "icon": "⚖️",
+   "name": {
+    "ru": "Наби · Юрист",
+    "en": "Lawyer",
+    "zh": "律师"
+   },
+   "group": "legal"
+  },
+  {
+   "id": "finance",
+   "status": "in-progress",
+   "icon": "💹",
+   "name": {
+    "ru": "Наби · Финансист",
+    "en": "Finance",
+    "zh": "财务"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "teacher",
+   "status": "in-progress",
+   "icon": "🎓",
+   "name": {
+    "ru": "Наби · Педагог",
+    "en": "Teacher",
+    "zh": "教师"
+   },
+   "group": "education"
+  },
+  {
+   "id": "author",
+   "status": "in-progress",
+   "icon": "✍️",
+   "name": {
+    "ru": "Наби · Автор",
+    "en": "Writer",
+    "zh": "作者"
+   },
+   "group": "text"
+  },
+  {
+   "id": "ml_engineer",
+   "status": "in-progress",
+   "icon": "🧠",
+   "name": {
+    "ru": "Наби · Инженер машинного обучения",
+    "en": "Machine learning engineer",
+    "zh": "机器学习工程师"
+   },
+   "group": "data_ai"
+  },
+  {
+   "id": "data_scientist",
+   "status": "in-progress",
+   "icon": "📊",
+   "name": {
+    "ru": "Наби · Специалист по данным",
+    "en": "Data scientist",
+    "zh": "数据科学家"
+   },
+   "group": "data_ai"
+  },
+  {
+   "id": "data_engineer",
+   "status": "in-progress",
+   "icon": "🛠️",
+   "name": {
+    "ru": "Наби · Инженер данных",
+    "en": "Data engineer",
+    "zh": "数据工程师"
+   },
+   "group": "data_ai"
+  },
+  {
+   "id": "data_analyst",
+   "status": "in-progress",
+   "icon": "📈",
+   "name": {
+    "ru": "Наби · Аналитик данных",
+    "en": "Data analyst",
+    "zh": "数据分析师"
+   },
+   "group": "data_ai"
+  },
+  {
+   "id": "bi_engineer",
+   "status": "in-progress",
+   "icon": "📊",
+   "name": {
+    "ru": "Наби · BI-инженер",
+    "en": "BI engineer",
+    "zh": "BI 工程师"
+   },
+   "group": "data_ai"
+  },
+  {
+   "id": "ai_product_manager",
+   "status": "in-progress",
+   "icon": "🧭",
+   "name": {
+    "ru": "Наби · Продакт-менеджер ИИ",
+    "en": "AI product manager",
+    "zh": "AI 产品经理"
+   },
+   "group": "management"
+  },
+  {
+   "id": "prompt_engineer",
+   "status": "in-progress",
+   "icon": "💬",
+   "name": {
+    "ru": "Наби · Инженер промптов",
+    "en": "Prompt engineer",
+    "zh": "提示词工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "ai_agent_engineer",
+   "status": "in-progress",
+   "icon": "🤖",
+   "name": {
+    "ru": "Наби · Инженер ИИ-агентов",
+    "en": "AI agent engineer",
+    "zh": "AI 智能体工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "llmops_engineer",
+   "status": "in-progress",
+   "icon": "⚙️",
+   "name": {
+    "ru": "Наби · LLMOps-инженер",
+    "en": "LLMOps engineer",
+    "zh": "LLMOps 工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "cybersecurity",
+   "status": "in-progress",
+   "icon": "🛡️",
+   "name": {
+    "ru": "Наби · Специалист по кибербезопасности",
+    "en": "Cybersecurity specialist",
+    "zh": "网络安全专家"
+   },
+   "group": "software"
+  },
+  {
+   "id": "devsecops",
+   "status": "in-progress",
+   "icon": "🔐",
+   "name": {
+    "ru": "Наби · DevSecOps-инженер",
+    "en": "DevSecOps engineer",
+    "zh": "DevSecOps 工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "devops",
+   "status": "in-progress",
+   "icon": "♾️",
+   "name": {
+    "ru": "Наби · DevOps-инженер",
+    "en": "DevOps engineer",
+    "zh": "DevOps 工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "cloud_architect",
+   "status": "in-progress",
+   "icon": "☁️",
+   "name": {
+    "ru": "Наби · Облачный архитектор",
+    "en": "Cloud architect",
+    "zh": "云架构师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "qa_engineer",
+   "status": "in-progress",
+   "icon": "🧪",
+   "name": {
+    "ru": "Наби · Инженер по качеству",
+    "en": "QA engineer",
+    "zh": "测试工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "mobile_developer",
+   "status": "in-progress",
+   "icon": "📱",
+   "name": {
+    "ru": "Наби · Мобильный разработчик",
+    "en": "Mobile developer",
+    "zh": "移动开发工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "game_developer",
+   "status": "in-progress",
+   "icon": "🎮",
+   "name": {
+    "ru": "Наби · Разработчик игр",
+    "en": "Game developer",
+    "zh": "游戏开发工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "database_admin",
+   "status": "in-progress",
+   "icon": "🗄️",
+   "name": {
+    "ru": "Наби · Администратор баз данных",
+    "en": "Database administrator",
+    "zh": "数据库管理员"
+   },
+   "group": "software"
+  },
+  {
+   "id": "system_admin",
+   "status": "in-progress",
+   "icon": "🖥️",
+   "name": {
+    "ru": "Наби · Системный администратор",
+    "en": "System administrator",
+    "zh": "系统管理员"
+   },
+   "group": "software"
+  },
+  {
+   "id": "network_engineer",
+   "status": "in-progress",
+   "icon": "🌐",
+   "name": {
+    "ru": "Наби · Сетевой инженер",
+    "en": "Network engineer",
+    "zh": "网络工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "iot_engineer",
+   "status": "in-progress",
+   "icon": "📡",
+   "name": {
+    "ru": "Наби · Инженер IoT",
+    "en": "IoT engineer",
+    "zh": "物联网工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "ar_vr_developer",
+   "status": "in-progress",
+   "icon": "🥽",
+   "name": {
+    "ru": "Наби · AR/VR-разработчик",
+    "en": "AR/VR developer",
+    "zh": "AR/VR 开发工程师"
+   },
+   "group": "software"
+  },
+  {
+   "id": "mechanical_engineer",
+   "status": "in-progress",
+   "icon": "⚙️",
+   "name": {
+    "ru": "Наби · Инженер-механик",
+    "en": "Mechanical engineer",
+    "zh": "机械工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "electrical_engineer",
+   "status": "in-progress",
+   "icon": "🔌",
+   "name": {
+    "ru": "Наби · Инженер-электрик",
+    "en": "Electrical engineer",
+    "zh": "电气工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "electronics_engineer",
+   "status": "in-progress",
+   "icon": "🔋",
+   "name": {
+    "ru": "Наби · Инженер-электронщик",
+    "en": "Electronics engineer",
+    "zh": "电子工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "embedded_engineer",
+   "status": "verified",
+   "icon": "🧩",
+   "name": {
+    "ru": "Наби · Инженер встраиваемых систем",
+    "en": "Embedded systems engineer",
+    "zh": "嵌入式工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "robotics_engineer",
+   "status": "in-progress",
+   "icon": "🦾",
+   "name": {
+    "ru": "Наби · Инженер-робототехник",
+    "en": "Robotics engineer",
+    "zh": "机器人工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "automation_engineer",
+   "status": "in-progress",
+   "icon": "🤖",
+   "name": {
+    "ru": "Наби · Инженер по автоматизации",
+    "en": "Automation engineer",
+    "zh": "自动化工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "industrial_engineer",
+   "status": "in-progress",
+   "icon": "🏭",
+   "name": {
+    "ru": "Наби · Инженер по организации производства",
+    "en": "Industrial engineer",
+    "zh": "工业工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "manufacturing_engineer",
+   "status": "in-progress",
+   "icon": "🏗️",
+   "name": {
+    "ru": "Наби · Инженер-технолог производства",
+    "en": "Manufacturing engineer",
+    "zh": "制造工艺工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "quality_engineer",
+   "status": "in-progress",
+   "icon": "✅",
+   "name": {
+    "ru": "Наби · Инженер по качеству",
+    "en": "Quality engineer",
+    "zh": "质量工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "reliability_engineer",
+   "status": "in-progress",
+   "icon": "📉",
+   "name": {
+    "ru": "Наби · Инженер по надёжности",
+    "en": "Reliability engineer",
+    "zh": "可靠性工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "maintenance_engineer",
+   "status": "in-progress",
+   "icon": "🔧",
+   "name": {
+    "ru": "Наби · Инженер по техническому обслуживанию",
+    "en": "Maintenance engineer",
+    "zh": "维护工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "materials_engineer",
+   "status": "in-progress",
+   "icon": "🧪",
+   "name": {
+    "ru": "Наби · Инженер-материаловед",
+    "en": "Materials engineer",
+    "zh": "材料工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "chemical_engineer",
+   "status": "in-progress",
+   "icon": "⚗️",
+   "name": {
+    "ru": "Наби · Инженер-химик-технолог",
+    "en": "Chemical process engineer",
+    "zh": "化工工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "civil_engineer",
+   "status": "in-progress",
+   "icon": "🏗️",
+   "name": {
+    "ru": "Наби · Инженер-строитель",
+    "en": "Civil engineer",
+    "zh": "土木工程师"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "structural_engineer",
+   "status": "verified",
+   "icon": "🧱",
+   "name": {
+    "ru": "Наби · Инженер-конструктор",
+    "en": "Structural engineer",
+    "zh": "结构工程师"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "physicist",
+   "status": "verified",
+   "icon": "⚛️",
+   "name": {
+    "ru": "Наби · Физик",
+    "en": "Physicist",
+    "zh": "物理学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "chemist",
+   "status": "in-progress",
+   "icon": "⚗️",
+   "name": {
+    "ru": "Наби · Химик",
+    "en": "Chemist",
+    "zh": "化学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "biologist",
+   "status": "in-progress",
+   "icon": "🧬",
+   "name": {
+    "ru": "Наби · Биолог",
+    "en": "Biologist",
+    "zh": "生物学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "bioinformatician",
+   "status": "in-progress",
+   "icon": "🧬",
+   "name": {
+    "ru": "Наби · Биоинформатик",
+    "en": "Bioinformatician",
+    "zh": "生物信息学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "mathematician",
+   "status": "in-progress",
+   "icon": "➗",
+   "name": {
+    "ru": "Наби · Математик",
+    "en": "Mathematician",
+    "zh": "数学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "statistician",
+   "status": "in-progress",
+   "icon": "📐",
+   "name": {
+    "ru": "Наби · Статистик",
+    "en": "Statistician",
+    "zh": "统计学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "geologist",
+   "status": "in-progress",
+   "icon": "🪨",
+   "name": {
+    "ru": "Наби · Геолог",
+    "en": "Geologist",
+    "zh": "地质学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "meteorologist",
+   "status": "in-progress",
+   "icon": "🌦️",
+   "name": {
+    "ru": "Наби · Метеоролог",
+    "en": "Meteorologist",
+    "zh": "气象学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "climate_scientist",
+   "status": "verified",
+   "icon": "🌍",
+   "name": {
+    "ru": "Наби · Климатолог",
+    "en": "Climate scientist",
+    "zh": "气候科学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "ecologist",
+   "status": "in-progress",
+   "icon": "🌿",
+   "name": {
+    "ru": "Наби · Эколог",
+    "en": "Ecologist",
+    "zh": "生态学家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "lab_automation",
+   "status": "in-progress",
+   "icon": "🧪",
+   "name": {
+    "ru": "Наби · Специалист по автоматизации лабораторий",
+    "en": "Lab automation specialist",
+    "zh": "实验室自动化专家"
+   },
+   "group": "science"
+  },
+  {
+   "id": "pharmacist",
+   "status": "verified",
+   "icon": "💊",
+   "name": {
+    "ru": "Наби · Фармацевт / клинический провизор",
+    "en": "Pharmacist / clinical pharmacist",
+    "zh": "药剂师 / 临床药师"
+   },
+   "group": "health"
+  },
+  {
+   "id": "radiologist",
+   "status": "in-progress",
+   "icon": "🩻",
+   "name": {
+    "ru": "Наби · Рентгенолог / радиолог",
+    "en": "Radiologist",
+    "zh": "放射科医生"
+   },
+   "group": "health"
+  },
+  {
+   "id": "pathologist",
+   "status": "in-progress",
+   "icon": "🔬",
+   "name": {
+    "ru": "Наби · Патологоанатом / цитолог",
+    "en": "Pathologist / cytologist",
+    "zh": "病理学家 / 细胞学家"
+   },
+   "group": "health"
+  },
+  {
+   "id": "medical_laboratory",
+   "status": "in-progress",
+   "icon": "🧫",
+   "name": {
+    "ru": "Наби · Специалист клинической лаборатории",
+    "en": "Clinical laboratory specialist",
+    "zh": "临床检验专家"
+   },
+   "group": "health"
+  },
+  {
+   "id": "nurse",
+   "status": "in-progress",
+   "icon": "🤝",
+   "name": {
+    "ru": "Наби · Медицинская сестра / брат",
+    "en": "Nurse",
+    "zh": "护士"
+   },
+   "group": "health"
+  },
+  {
+   "id": "psychologist",
+   "status": "in-progress",
+   "icon": "🧠",
+   "name": {
+    "ru": "Наби · Психолог / консультант",
+    "en": "Psychologist / counsellor",
+    "zh": "心理学家 / 咨询师"
+   },
+   "group": "health"
+  },
+  {
+   "id": "physiotherapist",
+   "status": "in-progress",
+   "icon": "🦵",
+   "name": {
+    "ru": "Наби · Физиотерапевт / реабилитолог",
+    "en": "Physiotherapist / rehabilitation specialist",
+    "zh": "物理治疗师 / 康复师"
+   },
+   "group": "health"
+  },
+  {
+   "id": "nutritionist",
+   "status": "in-progress",
+   "icon": "🥗",
+   "name": {
+    "ru": "Наби · Диетолог / нутрициолог",
+    "en": "Dietitian / nutritionist",
+    "zh": "营养师"
+   },
+   "group": "health"
+  },
+  {
+   "id": "veterinarian",
+   "status": "in-progress",
+   "icon": "🐾",
+   "name": {
+    "ru": "Наби · Ветеринар",
+    "en": "Veterinarian",
+    "zh": "兽医"
+   },
+   "group": "health"
+  },
+  {
+   "id": "social_worker",
+   "status": "in-progress",
+   "icon": "🫂",
+   "name": {
+    "ru": "Наби · Социальный работник",
+    "en": "Social worker",
+    "zh": "社会工作者"
+   },
+   "group": "public_service"
+  },
+  {
+   "id": "medical_writer",
+   "status": "in-progress",
+   "icon": "📝",
+   "name": {
+    "ru": "Наби · Медицинский писатель / редактор",
+    "en": "Medical writer / editor",
+    "zh": "医学写作 / 编辑"
+   },
+   "group": "text"
+  },
+  {
+   "id": "instructional_designer",
+   "status": "in-progress",
+   "icon": "🧩",
+   "name": {
+    "ru": "Наби · Методист / instructional designer",
+    "en": "Instructional designer",
+    "zh": "教学设计师"
+   },
+   "group": "education"
+  },
+  {
+   "id": "tutor",
+   "status": "in-progress",
+   "icon": "👨‍🏫",
+   "name": {
+    "ru": "Наби · Репетитор",
+    "en": "Tutor",
+    "zh": "家教 / 辅导老师"
+   },
+   "group": "education"
+  },
+  {
+   "id": "university_lecturer",
+   "status": "in-progress",
+   "icon": "🏛️",
+   "name": {
+    "ru": "Наби · Преподаватель вуза",
+    "en": "University lecturer",
+    "zh": "大学讲师"
+   },
+   "group": "education"
+  },
+  {
+   "id": "special_education",
+   "status": "in-progress",
+   "icon": "🧩",
+   "name": {
+    "ru": "Наби · Специальный педагог / дефектолог",
+    "en": "Special education teacher",
+    "zh": "特殊教育教师"
+   },
+   "group": "education"
+  },
+  {
+   "id": "corporate_trainer",
+   "status": "in-progress",
+   "icon": "🎯",
+   "name": {
+    "ru": "Наби · Корпоративный тренер",
+    "en": "Corporate trainer",
+    "zh": "企业培训师"
+   },
+   "group": "education"
+  },
+  {
+   "id": "librarian",
+   "status": "in-progress",
+   "icon": "📚",
+   "name": {
+    "ru": "Наби · Библиотекарь / информационный специалист",
+    "en": "Librarian / information specialist",
+    "zh": "图书馆员 / 信息专家"
+   },
+   "group": "education"
+  },
+  {
+   "id": "patent_specialist",
+   "status": "in-progress",
+   "icon": "💡",
+   "name": {
+    "ru": "Наби · Патентный специалист",
+    "en": "Patent specialist",
+    "zh": "专利专员"
+   },
+   "group": "legal"
+  },
+  {
+   "id": "compliance_officer",
+   "status": "in-progress",
+   "icon": "🛡️",
+   "name": {
+    "ru": "Наби · Комплаенс-офицер",
+    "en": "Compliance officer",
+    "zh": "合规官"
+   },
+   "group": "legal"
+  },
+  {
+   "id": "data_protection_officer",
+   "status": "in-progress",
+   "icon": "🔐",
+   "name": {
+    "ru": "Наби · Специалист по защите данных",
+    "en": "Data protection officer",
+    "zh": "数据保护官"
+   },
+   "group": "legal"
+  },
+  {
+   "id": "contract_manager",
+   "status": "in-progress",
+   "icon": "📑",
+   "name": {
+    "ru": "Наби · Контрактный менеджер",
+    "en": "Contract manager",
+    "zh": "合同经理"
+   },
+   "group": "legal"
+  },
+  {
+   "id": "tax_consultant",
+   "status": "verified",
+   "icon": "🧾",
+   "name": {
+    "ru": "Наби · Налоговый консультант",
+    "en": "Tax consultant",
+    "zh": "税务顾问"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "auditor",
+   "status": "in-progress",
+   "icon": "🔎",
+   "name": {
+    "ru": "Наби · Аудитор / внутренний контролёр",
+    "en": "Auditor / internal controller",
+    "zh": "审计师 / 内控专员"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "accountant",
+   "status": "in-progress",
+   "icon": "🧾",
+   "name": {
+    "ru": "Наби · Бухгалтер",
+    "en": "Accountant",
+    "zh": "会计"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "financial_analyst",
+   "status": "in-progress",
+   "icon": "📈",
+   "name": {
+    "ru": "Наби · Финансовый аналитик",
+    "en": "Financial analyst",
+    "zh": "财务分析师"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "investment_analyst",
+   "status": "verified",
+   "icon": "💹",
+   "name": {
+    "ru": "Наби · Инвестиционный аналитик",
+    "en": "Investment analyst",
+    "zh": "投资分析师"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "risk_manager",
+   "status": "in-progress",
+   "icon": "⚠️",
+   "name": {
+    "ru": "Наби · Риск-менеджер",
+    "en": "Risk manager",
+    "zh": "风险经理"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "actuary",
+   "status": "verified",
+   "icon": "📐",
+   "name": {
+    "ru": "Наби · Актуарий",
+    "en": "Actuary",
+    "zh": "精算师"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "economist",
+   "status": "in-progress",
+   "icon": "🌍",
+   "name": {
+    "ru": "Наби · Экономист",
+    "en": "Economist",
+    "zh": "经济学家"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "procurement",
+   "status": "in-progress",
+   "icon": "📦",
+   "name": {
+    "ru": "Наби · Специалист по закупкам",
+    "en": "Procurement specialist",
+    "zh": "采购专员"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "sales_manager",
+   "status": "in-progress",
+   "icon": "🤝",
+   "name": {
+    "ru": "Наби · Менеджер по продажам",
+    "en": "Sales manager",
+    "zh": "销售经理"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "product_manager",
+   "status": "in-progress",
+   "icon": "🧭",
+   "name": {
+    "ru": "Наби · Продуктовый менеджер",
+    "en": "Product manager",
+    "zh": "产品经理"
+   },
+   "group": "management"
+  },
+  {
+   "id": "project_manager",
+   "status": "in-progress",
+   "icon": "📅",
+   "name": {
+    "ru": "Наби · Руководитель проектов",
+    "en": "Project manager",
+    "zh": "项目经理"
+   },
+   "group": "management"
+  },
+  {
+   "id": "business_analyst",
+   "status": "in-progress",
+   "icon": "🔍",
+   "name": {
+    "ru": "Наби · Бизнес-аналитик",
+    "en": "Business analyst",
+    "zh": "业务分析师"
+   },
+   "group": "management"
+  },
+  {
+   "id": "smm_manager",
+   "status": "in-progress",
+   "icon": "📱",
+   "name": {
+    "ru": "Наби · SMM-менеджер",
+    "en": "Social media manager",
+    "zh": "社交媒体经理"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "seo_specialist",
+   "status": "in-progress",
+   "icon": "🔎",
+   "name": {
+    "ru": "Наби · SEO-специалист",
+    "en": "SEO specialist",
+    "zh": "SEO 专员"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "content_manager",
+   "status": "in-progress",
+   "icon": "🗂️",
+   "name": {
+    "ru": "Наби · Контент-менеджер",
+    "en": "Content manager",
+    "zh": "内容经理"
+   },
+   "group": "text"
+  },
+  {
+   "id": "pr_manager",
+   "status": "in-progress",
+   "icon": "📣",
+   "name": {
+    "ru": "Наби · PR-менеджер",
+    "en": "PR manager",
+    "zh": "公关经理"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "market_researcher",
+   "status": "in-progress",
+   "icon": "🔍",
+   "name": {
+    "ru": "Наби · Исследователь рынка",
+    "en": "Market researcher",
+    "zh": "市场研究员"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "ecommerce_manager",
+   "status": "in-progress",
+   "icon": "🛒",
+   "name": {
+    "ru": "Наби · Менеджер интернет-торговли",
+    "en": "E-commerce manager",
+    "zh": "电商经理"
+   },
+   "group": "marketing"
+  },
+  {
+   "id": "translator",
+   "status": "in-progress",
+   "icon": "🌐",
+   "name": {
+    "ru": "Наби · Переводчик / локализатор",
+    "en": "Translator / localizer",
+    "zh": "翻译 / 本地化专员"
+   },
+   "group": "text"
+  },
+  {
+   "id": "editor",
+   "status": "in-progress",
+   "icon": "✒️",
+   "name": {
+    "ru": "Наби · Редактор / корректор",
+    "en": "Editor / proofreader",
+    "zh": "编辑 / 校对"
+   },
+   "group": "text"
+  },
+  {
+   "id": "3d_artist",
+   "status": "in-progress",
+   "icon": "🧊",
+   "name": {
+    "ru": "Наби · 3D-художник / моделлер",
+    "en": "3D artist / modeller",
+    "zh": "3D 美术 / 建模师"
+   },
+   "group": "design"
+  },
+  {
+   "id": "motion_designer",
+   "status": "in-progress",
+   "icon": "🎞️",
+   "name": {
+    "ru": "Наби · Моушн-дизайнер",
+    "en": "Motion designer",
+    "zh": "动态设计师"
+   },
+   "group": "design"
+  },
+  {
+   "id": "sound_engineer",
+   "status": "in-progress",
+   "icon": "🎙️",
+   "name": {
+    "ru": "Наби · Звукорежиссёр",
+    "en": "Sound engineer",
+    "zh": "音频工程师"
+   },
+   "group": "media"
+  },
+  {
+   "id": "music_producer",
+   "status": "in-progress",
+   "icon": "🎵",
+   "name": {
+    "ru": "Наби · Музыкальный продюсер",
+    "en": "Music producer",
+    "zh": "音乐制作人"
+   },
+   "group": "media"
+  },
+  {
+   "id": "photographer",
+   "status": "in-progress",
+   "icon": "📷",
+   "name": {
+    "ru": "Наби · Фотограф / ретушёр",
+    "en": "Photographer / retoucher",
+    "zh": "摄影师 / 修图师"
+   },
+   "group": "design"
+  },
+  {
+   "id": "filmmaker",
+   "status": "in-progress",
+   "icon": "🎬",
+   "name": {
+    "ru": "Наби · Режиссёр / продюсер видео",
+    "en": "Filmmaker / video producer",
+    "zh": "导演 / 视频制片人"
+   },
+   "group": "media"
+  },
+  {
+   "id": "game_designer",
+   "status": "in-progress",
+   "icon": "🎲",
+   "name": {
+    "ru": "Наби · Гейм-дизайнер",
+    "en": "Game designer",
+    "zh": "游戏策划"
+   },
+   "group": "design"
+  },
+  {
+   "id": "animator",
+   "status": "in-progress",
+   "icon": "🎞️",
+   "name": {
+    "ru": "Наби · Аниматор",
+    "en": "Animator",
+    "zh": "动画师"
+   },
+   "group": "design"
+  },
+  {
+   "id": "illustrator",
+   "status": "in-progress",
+   "icon": "🖌️",
+   "name": {
+    "ru": "Наби · Иллюстратор",
+    "en": "Illustrator",
+    "zh": "插画师"
+   },
+   "group": "design"
+  },
+  {
+   "id": "ux_researcher",
+   "status": "in-progress",
+   "icon": "🧭",
+   "name": {
+    "ru": "Наби · UX-исследователь",
+    "en": "UX researcher",
+    "zh": "用户体验研究员"
+   },
+   "group": "design"
+  },
+  {
+   "id": "cnc_engineer",
+   "status": "in-progress",
+   "icon": "⚙️",
+   "name": {
+    "ru": "Наби · Инженер-технолог ЧПУ",
+    "en": "CNC process engineer",
+    "zh": "数控工艺工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "additive_manufacturing",
+   "status": "in-progress",
+   "icon": "🖨️",
+   "name": {
+    "ru": "Наби · Инженер аддитивного производства",
+    "en": "Additive manufacturing engineer",
+    "zh": "增材制造工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "welding_engineer",
+   "status": "in-progress",
+   "icon": "🔥",
+   "name": {
+    "ru": "Наби · Инженер-сварщик / технолог сварки",
+    "en": "Welding engineer",
+    "zh": "焊接工程师"
+   },
+   "group": "engineering"
+  },
+  {
+   "id": "construction_manager",
+   "status": "in-progress",
+   "icon": "🏗️",
+   "name": {
+    "ru": "Наби · Руководитель строительного проекта",
+    "en": "Construction project manager",
+    "zh": "建筑项目经理"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "bim_specialist",
+   "status": "in-progress",
+   "icon": "🏢",
+   "name": {
+    "ru": "Наби · BIM-специалист / координатор",
+    "en": "BIM specialist / coordinator",
+    "zh": "BIM 专员 / 协调员"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "architect",
+   "status": "in-progress",
+   "icon": "🏛️",
+   "name": {
+    "ru": "Наби · Архитектор",
+    "en": "Architect",
+    "zh": "建筑师"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "surveyor",
+   "status": "in-progress",
+   "icon": "📐",
+   "name": {
+    "ru": "Наби · Геодезист / картограф",
+    "en": "Surveyor / cartographer",
+    "zh": "测绘师 / 制图师"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "energy_engineer",
+   "status": "in-progress",
+   "icon": "⚡",
+   "name": {
+    "ru": "Наби · Энергетик",
+    "en": "Energy engineer",
+    "zh": "能源工程师"
+   },
+   "group": "energy"
+  },
+  {
+   "id": "renewable_energy_engineer",
+   "status": "in-progress",
+   "icon": "☀️",
+   "name": {
+    "ru": "Наби · Инженер возобновляемой энергетики",
+    "en": "Renewable energy engineer",
+    "zh": "可再生能源工程师"
+   },
+   "group": "energy"
+  },
+  {
+   "id": "power_grid_engineer",
+   "status": "in-progress",
+   "icon": "🔌",
+   "name": {
+    "ru": "Наби · Инженер электрических сетей",
+    "en": "Power grid engineer",
+    "zh": "电网工程师"
+   },
+   "group": "energy"
+  },
+  {
+   "id": "logistics_manager",
+   "status": "in-progress",
+   "icon": "🚚",
+   "name": {
+    "ru": "Наби · Логист / менеджер доставки",
+    "en": "Logistics manager",
+    "zh": "物流经理"
+   },
+   "group": "logistics"
+  },
+  {
+   "id": "supply_chain_analyst",
+   "status": "in-progress",
+   "icon": "🔗",
+   "name": {
+    "ru": "Наби · Аналитик цепочки поставок",
+    "en": "Supply chain analyst",
+    "zh": "供应链分析师"
+   },
+   "group": "logistics"
+  },
+  {
+   "id": "transport_planner",
+   "status": "in-progress",
+   "icon": "🚌",
+   "name": {
+    "ru": "Наби · Транспортный планировщик",
+    "en": "Transport planner",
+    "zh": "交通规划师"
+   },
+   "group": "logistics"
+  },
+  {
+   "id": "drone_operator",
+   "status": "in-progress",
+   "icon": "🛩️",
+   "name": {
+    "ru": "Наби · Оператор БПЛА / инженер БПЛА",
+    "en": "Drone operator / UAV engineer",
+    "zh": "无人机操作员 / 工程师"
+   },
+   "group": "logistics"
+  },
+  {
+   "id": "agronomist",
+   "status": "in-progress",
+   "icon": "🌾",
+   "name": {
+    "ru": "Наби · Агроном",
+    "en": "Agronomist",
+    "zh": "农艺师"
+   },
+   "group": "agriculture"
+  },
+  {
+   "id": "farm_manager",
+   "status": "in-progress",
+   "icon": "🚜",
+   "name": {
+    "ru": "Наби · Управляющий сельхозпредприятием",
+    "en": "Farm manager",
+    "zh": "农场经理"
+   },
+   "group": "agriculture"
+  },
+  {
+   "id": "forester",
+   "status": "in-progress",
+   "icon": "🌲",
+   "name": {
+    "ru": "Наби · Лесник / лесной инженер",
+    "en": "Forester",
+    "zh": "林务员 / 林业工程师"
+   },
+   "group": "agriculture"
+  },
+  {
+   "id": "gis_specialist",
+   "status": "in-progress",
+   "icon": "🗺️",
+   "name": {
+    "ru": "Наби · ГИС-специалист",
+    "en": "GIS specialist",
+    "zh": "GIS 专员"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "urban_planner",
+   "status": "in-progress",
+   "icon": "🏙️",
+   "name": {
+    "ru": "Наби · Градостроитель / городской планировщик",
+    "en": "Urban planner",
+    "zh": "城市规划师"
+   },
+   "group": "construction"
+  },
+  {
+   "id": "emergency_manager",
+   "status": "in-progress",
+   "icon": "🚨",
+   "name": {
+    "ru": "Наби · Специалист по гражданской защите и ЧС",
+    "en": "Civil protection / emergency manager",
+    "zh": "民防与应急管理专员"
+   },
+   "group": "public_service"
+  },
+  {
+   "id": "public_administrator",
+   "status": "in-progress",
+   "icon": "🏛️",
+   "name": {
+    "ru": "Наби · Государственный / муниципальный служащий",
+    "en": "Public administrator",
+    "zh": "公务员"
+   },
+   "group": "public_service"
+  },
+  {
+   "id": "customs_specialist",
+   "status": "verified",
+   "icon": "🛃",
+   "name": {
+    "ru": "Наби · Специалист по таможне и ВЭД",
+    "en": "Customs / foreign trade specialist",
+    "zh": "海关与外贸专员"
+   },
+   "group": "logistics"
+  },
+  {
+   "id": "hr_manager",
+   "status": "in-progress",
+   "icon": "👥",
+   "name": {
+    "ru": "Наби · HR-менеджер / специалист по персоналу",
+    "en": "HR manager",
+    "zh": "人力资源经理"
+   },
+   "group": "management"
+  },
+  {
+   "id": "recruiter",
+   "status": "in-progress",
+   "icon": "🤝",
+   "name": {
+    "ru": "Наби · Рекрутер / специалист по подбору",
+    "en": "Recruiter",
+    "zh": "招聘专员"
+   },
+   "group": "management"
+  },
+  {
+   "id": "customer_support",
+   "status": "in-progress",
+   "icon": "💬",
+   "name": {
+    "ru": "Наби · Специалист клиентской поддержки",
+    "en": "Customer support specialist",
+    "zh": "客户支持专员"
+   },
+   "group": "service"
+  },
+  {
+   "id": "office_manager",
+   "status": "in-progress",
+   "icon": "🗂️",
+   "name": {
+    "ru": "Наби · Офис-менеджер / администратор",
+    "en": "Office manager",
+    "zh": "办公室经理"
+   },
+   "group": "service"
+  },
+  {
+   "id": "personal_assistant",
+   "status": "in-progress",
+   "icon": "🗓️",
+   "name": {
+    "ru": "Наби · Личный / исполнительный ассистент",
+    "en": "Personal / executive assistant",
+    "zh": "私人 / 行政助理"
+   },
+   "group": "service"
+  },
+  {
+   "id": "event_manager",
+   "status": "in-progress",
+   "icon": "🎪",
+   "name": {
+    "ru": "Наби · Менеджер по организации мероприятий",
+    "en": "Event manager (forums, exhibitions, round tables)",
+    "zh": "会展活动经理（论坛、展览、圆桌会议）"
+   },
+   "group": "service"
+  },
+  {
+   "id": "travel_manager",
+   "status": "in-progress",
+   "icon": "✈️",
+   "name": {
+    "ru": "Наби · Тревел-менеджер",
+    "en": "Travel manager",
+    "zh": "差旅经理"
+   },
+   "group": "service"
+  },
+  {
+   "id": "real_estate_appraiser",
+   "status": "verified",
+   "icon": "🏠",
+   "name": {
+    "ru": "Наби · Оценщик недвижимости",
+    "en": "Real estate appraiser",
+    "zh": "房地产估价师"
+   },
+   "group": "finance"
+  },
+  {
+   "id": "facility_manager",
+   "status": "in-progress",
+   "icon": "🏢",
+   "name": {
+    "ru": "Наби · Фасилити-менеджер",
+    "en": "Facility manager",
+    "zh": "设施经理"
+   },
+   "group": "service"
+  }
+ ]
+}

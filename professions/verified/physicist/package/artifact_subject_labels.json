@@ -1,0 +1,2566 @@
+{
+  "fields": {
+    "function": [
+      "Функция",
+      "Function",
+      "功能"
+    ],
+    "as_of": [
+      "Дата анализа",
+      "Analysis date",
+      "分析日期"
+    ],
+    "jurisdiction": [
+      "Юрисдикция",
+      "Jurisdiction",
+      "司法辖区"
+    ],
+    "id": [
+      "Идентификатор",
+      "Identifier",
+      "标识符"
+    ],
+    "record_index": [
+      "Номер записи",
+      "Record number",
+      "记录序号"
+    ],
+    "name": [
+      "Наименование",
+      "Name",
+      "名称"
+    ],
+    "title": [
+      "Название",
+      "Title",
+      "标题"
+    ],
+    "type": [
+      "Тип",
+      "Type",
+      "类型"
+    ],
+    "kind": [
+      "Вид",
+      "Kind",
+      "类别"
+    ],
+    "status": [
+      "Состояние",
+      "Status",
+      "状态"
+    ],
+    "mode": [
+      "Режим",
+      "Mode",
+      "模式"
+    ],
+    "unit": [
+      "Единица",
+      "Unit",
+      "单位"
+    ],
+    "value": [
+      "Значение",
+      "Value",
+      "数值"
+    ],
+    "amount": [
+      "Количество",
+      "Quantity",
+      "数量"
+    ],
+    "date": [
+      "Дата",
+      "Date",
+      "日期"
+    ],
+    "source_reference": [
+      "Выбранный источник",
+      "Selected source",
+      "所选来源"
+    ],
+    "reference": [
+      "Ссылка на источник",
+      "Source reference",
+      "来源引用"
+    ],
+    "source_sha256": [
+      "Контрольная сумма источника SHA256",
+      "Source SHA256 digest",
+      "来源SHA256摘要"
+    ],
+    "segment_id": [
+      "Фрагмент источника",
+      "Source segment",
+      "来源片段"
+    ],
+    "quote": [
+      "Цитата источника",
+      "Source quotation",
+      "来源引文"
+    ],
+    "excerpt": [
+      "Выдержка источника",
+      "Source excerpt",
+      "来源摘录"
+    ],
+    "fact_id": [
+      "Идентификатор факта",
+      "Fact identifier",
+      "事实编号"
+    ],
+    "pointer": [
+      "Путь входного показателя",
+      "Input field path",
+      "输入字段路径"
+    ],
+    "rationale": [
+      "Основание",
+      "Rationale",
+      "依据"
+    ],
+    "input_sha256": [
+      "Контрольная сумма ввода SHA256",
+      "Input SHA256 digest",
+      "输入SHA256摘要"
+    ],
+    "source_semantics_verified": [
+      "Смысловая достоверность источника установлена",
+      "Source semantic validity established",
+      "已确定来源语义有效性"
+    ],
+    "current_legal_applicability_verified": [
+      "Текущая правовая применимость установлена",
+      "Current legal applicability established",
+      "已确定现行法律适用性"
+    ],
+    "assisted_draft": [
+      "Вспомогательный черновик",
+      "Assisted draft",
+      "辅助草稿"
+    ],
+    "analysis_only": [
+      "Только вспомогательный анализ",
+      "Assisted analysis only",
+      "仅辅助分析"
+    ],
+    "private": [
+      "Закрытые локальные сведения",
+      "Private local information",
+      "本地私密信息"
+    ],
+    "external_network_used": [
+      "Внешняя сеть использована",
+      "External network used",
+      "使用外部网络"
+    ],
+    "external_actions": [
+      "Внешние действия выполнены",
+      "External actions performed",
+      "执行外部操作"
+    ],
+    "equipment_controlled": [
+      "Оборудование управлялось инструментом",
+      "Equipment controlled by tool",
+      "工具控制设备"
+    ],
+    "equipment_control_performed": [
+      "Управление оборудованием выполнено",
+      "Equipment control performed",
+      "执行设备控制"
+    ],
+    "startup_authorized": [
+      "Запуск разрешён инструментом",
+      "Startup authorised by tool",
+      "工具授权启动"
+    ],
+    "signature_applied": [
+      "Подпись применена",
+      "Signature applied",
+      "已签名"
+    ],
+    "submission_performed": [
+      "Отправка выполнена",
+      "Submission performed",
+      "已提交"
+    ],
+    "publication_cleared": [
+      "Публикация разрешена инструментом",
+      "Publication cleared by tool",
+      "工具批准发表"
+    ],
+    "export_classification_made": [
+      "Экспортная классификация установлена инструментом",
+      "Export classification made by tool",
+      "工具认定出口分类"
+    ],
+    "export_classification_performed": [
+      "Экспортная классификация выполнена инструментом",
+      "Export classification performed by tool",
+      "工具执行出口分类"
+    ],
+    "evidence_gaps": [
+      "Недостающие сведения и вопросы",
+      "Evidence gaps and questions",
+      "证据缺口及问题"
+    ],
+    "notices": [
+      "Служебные пояснения",
+      "Review notices",
+      "审核说明"
+    ],
+    "assumptions": [
+      "Допущения",
+      "Assumptions",
+      "假设"
+    ],
+    "scope": [
+      "Область",
+      "Scope",
+      "范围"
+    ],
+    "edition": [
+      "Редакция",
+      "Edition",
+      "版本"
+    ],
+    "version": [
+      "Версия",
+      "Version",
+      "版本"
+    ],
+    "publication_date": [
+      "Дата публикации",
+      "Publication date",
+      "发布日期"
+    ],
+    "effective_date": [
+      "Начало действия по выбранным данным",
+      "Selected effective start date",
+      "所选生效日期"
+    ],
+    "effective_from": [
+      "Начало действия по выбранным данным",
+      "Selected effective start date",
+      "所选生效起点"
+    ],
+    "effective_to": [
+      "Окончание действия по выбранным данным",
+      "Selected effective end date",
+      "所选生效截止"
+    ],
+    "not_after": [
+      "Окончание выбранного периода",
+      "Selected period end",
+      "所选期间截止"
+    ],
+    "description": [
+      "Описание",
+      "Description",
+      "描述"
+    ],
+    "lower": [
+      "Нижняя граница",
+      "Lower bound",
+      "下限"
+    ],
+    "upper": [
+      "Верхняя граница",
+      "Upper bound",
+      "上限"
+    ],
+    "state": [
+      "Состояние сведений",
+      "Information state",
+      "资料状态"
+    ],
+    "semantic_status": [
+      "Смысловая проверка",
+      "Semantic review status",
+      "语义审核状态"
+    ],
+    "observation_date": [
+      "Дата наблюдения",
+      "Observation date",
+      "观察日期"
+    ],
+    "valid_to": [
+      "Срок по записи до",
+      "Supplied validity end",
+      "记录有效截止"
+    ],
+    "provided_period_ended": [
+      "Предоставленный срок закончился",
+      "Supplied period ended",
+      "所供期限已结束"
+    ],
+    "observation_after_valid_to": [
+      "Дата наблюдения позже указанного срока",
+      "Observation after supplied period end",
+      "观察晚于所供截止"
+    ],
+    "source_text": [
+      "Исходный текст",
+      "Source text",
+      "来源文本"
+    ],
+    "text": [
+      "Исходный текст",
+      "Source text",
+      "来源文本"
+    ],
+    "formula": [
+      "Формула",
+      "Formula",
+      "公式"
+    ],
+    "kg": [
+      "kg",
+      "kg",
+      "kg"
+    ],
+    "m": [
+      "m",
+      "m",
+      "m"
+    ],
+    "s": [
+      "s",
+      "s",
+      "s"
+    ],
+    "A": [
+      "A",
+      "A",
+      "A"
+    ],
+    "K": [
+      "K",
+      "K",
+      "K"
+    ],
+    "mol": [
+      "mol",
+      "mol",
+      "mol"
+    ],
+    "cd": [
+      "cd",
+      "cd",
+      "cd"
+    ],
+    "absolute_difference": [
+      "Абсолютное различие",
+      "Absolute difference",
+      "绝对差异"
+    ],
+    "absolute_tolerance": [
+      "Выбранный абсолютный допуск",
+      "Absolute tolerance",
+      "所选绝对允差"
+    ],
+    "absolute_tolerance_si": [
+      "Абсолютный допуск в СИ",
+      "Absolute tolerance si",
+      "SI绝对允差"
+    ],
+    "abstract": [
+      "Реферат или аннотация",
+      "Abstract",
+      "摘要"
+    ],
+    "acceptability": [
+      "Приемлемость по оценке специалиста",
+      "Acceptability",
+      "专业适宜性评估"
+    ],
+    "access_record": [
+      "Сведения о доступе",
+      "Access record",
+      "访问资料"
+    ],
+    "accuracy_basis": [
+      "Основание показателей точности",
+      "Accuracy basis",
+      "准确度依据"
+    ],
+    "accuracy_description": [
+      "Характеристики точности по источнику",
+      "Accuracy description",
+      "来源准确度特征"
+    ],
+    "action": [
+      "Действие",
+      "Action",
+      "措施"
+    ],
+    "activity": [
+      "Работа по плану",
+      "Activity",
+      "计划工作"
+    ],
+    "actual": [
+      "Расчётное или предоставленное значение",
+      "Actual",
+      "计算或所供值"
+    ],
+    "agreement_decision": [
+      "Решение о согласии методов",
+      "Agreement decision",
+      "方法一致性决定"
+    ],
+    "agreement_is_not_model_validation": [
+      "Согласие с эталоном не является подтверждением модели",
+      "Agreement is not model validation",
+      "符合参考不验证模型"
+    ],
+    "agreement_reference": [
+      "Выбранное соглашение",
+      "Agreement reference",
+      "所选协定"
+    ],
+    "agreement_review": [
+      "Сопоставление соглашений",
+      "Agreement review",
+      "协定比较"
+    ],
+    "applicability_limits": [
+      "Границы применимости",
+      "Applicability limits",
+      "适用限制"
+    ],
+    "arithmetic_precision_digits": [
+      "Рабочая точность десятичных вычислений",
+      "Arithmetic precision digits",
+      "十进制计算精度"
+    ],
+    "asymptotic_range_claimed": [
+      "Асимптотическая область заявлена во вводе",
+      "Asymptotic range claimed",
+      "输入声明渐近范围"
+    ],
+    "at_or_above_selected_review_threshold": [
+      "Выбранный порог проверки достигнут",
+      "At or above selected review threshold",
+      "达到所选审核阈值"
+    ],
+    "automatically_excluded_points": [
+      "Автоматически исключённые точки",
+      "Automatically excluded points",
+      "自动剔除点"
+    ],
+    "availability": [
+      "Фактическая доступность установки",
+      "Availability",
+      "实际装置可用性"
+    ],
+    "available": [
+      "Предоставленный ресурс",
+      "Available",
+      "所供资源"
+    ],
+    "available_minus_request": [
+      "Предоставленный ресурс минус запрос",
+      "Available minus request",
+      "资源减申请量"
+    ],
+    "axis": [
+      "Ось измельчения",
+      "Axis",
+      "细化轴"
+    ],
+    "background": [
+      "Фон и его оценка",
+      "Background",
+      "背景及评估"
+    ],
+    "benchmark": [
+      "Сравнение с эталоном",
+      "Benchmark",
+      "基准比较"
+    ],
+    "bias": [
+      "Среднее знаковое различие",
+      "Bias",
+      "平均有符号差异"
+    ],
+    "boundary_conditions": [
+      "Граничные условия",
+      "Boundary conditions",
+      "边界条件"
+    ],
+    "budget": [
+      "Бюджет неопределённости",
+      "Budget",
+      "不确定度预算"
+    ],
+    "budget_eligibility": [
+      "Допустимость расходов",
+      "Budget eligibility",
+      "费用适用性"
+    ],
+    "budget_review": [
+      "Сопоставление сметы",
+      "Budget review",
+      "预算比较"
+    ],
+    "calendar": [
+      "Выбранный календарь",
+      "Calendar",
+      "所选日历"
+    ],
+    "calendar_reference": [
+      "Источник календаря",
+      "Calendar reference",
+      "日历来源"
+    ],
+    "calibration": [
+      "Сведения о калибровке",
+      "Calibration",
+      "校准资料"
+    ],
+    "call": [
+      "Выбранный приём заявок",
+      "Call",
+      "所选征集"
+    ],
+    "call_id": [
+      "Идентификатор приёма заявок",
+      "Call id",
+      "征集编号"
+    ],
+    "candidate_deadline": [
+      "Условная крайняя дата",
+      "Candidate deadline",
+      "条件截止日期"
+    ],
+    "candidate_reviews": [
+      "Сопоставление установок",
+      "Candidate reviews",
+      "装置比较"
+    ],
+    "capability": [
+      "Заявленная характеристика установки",
+      "Capability",
+      "声明装置能力"
+    ],
+    "capability_review": [
+      "Сопоставление характеристик",
+      "Capability review",
+      "能力比较"
+    ],
+    "change_ratio": [
+      "Отношение изменений",
+      "Change ratio",
+      "变化比"
+    ],
+    "checks": [
+      "Выбранные сведения проверки",
+      "Checks",
+      "所选核查资料"
+    ],
+    "chi2": [
+      "χ²",
+      "χ²",
+      "χ²"
+    ],
+    "chi2_ndf": [
+      "χ² на число степеней свободы",
+      "χ² per degree of freedom",
+      "约化χ²"
+    ],
+    "claim_support": [
+      "Подтверждение содержания утверждения",
+      "Claim support",
+      "陈述支持情况"
+    ],
+    "classification": [
+      "Классификация уполномоченным лицом",
+      "Classification",
+      "授权人员分类"
+    ],
+    "coarse_id": [
+      "Идентификатор грубого уровня",
+      "Coarse id",
+      "粗层编号"
+    ],
+    "coarse_ratio": [
+      "Отношение шагов грубой пары",
+      "Coarse ratio",
+      "粗层步长比"
+    ],
+    "code": [
+      "Код расчёта",
+      "Code",
+      "计算代码"
+    ],
+    "combined_standard_uncertainty": [
+      "Суммарная стандартная неопределённость",
+      "Combined standard uncertainty",
+      "合成标准不确定度"
+    ],
+    "combined_variance": [
+      "Суммарная дисперсия",
+      "Combined variance",
+      "合成方差"
+    ],
+    "completion_status": [
+      "Состояние выполнения по проверке специалиста",
+      "Completion status",
+      "专业核查完成状态"
+    ],
+    "components": [
+      "Компоненты бюджета",
+      "Components",
+      "预算分量"
+    ],
+    "computed_rhs_si": [
+      "Вычисленная правая часть в СИ",
+      "Computed rhs si",
+      "SI计算右侧"
+    ],
+    "conditional_calculation": [
+      "Условный расчёт",
+      "Conditional calculation",
+      "条件计算"
+    ],
+    "conditional_on_selected_assumptions": [
+      "Зависит от выбранных предпосылок",
+      "Conditional on selected assumptions",
+      "取决于所选假设"
+    ],
+    "conditions": [
+      "Условия измерений",
+      "Conditions",
+      "测量条件"
+    ],
+    "consent_record": [
+      "Сведения о согласии",
+      "Consent record",
+      "同意资料"
+    ],
+    "constant_inventory": [
+      "Константы и их редакции",
+      "Constant inventory",
+      "常数及版本"
+    ],
+    "contributions": [
+      "Вклады участников",
+      "Contributions",
+      "贡献者工作"
+    ],
+    "contributor_review": [
+      "Сведения об участниках и согласиях",
+      "Contributor review",
+      "贡献者及同意资料"
+    ],
+    "control": [
+      "Контрольная запись",
+      "Control",
+      "控制记录"
+    ],
+    "control_basis": [
+      "Основание контрольных значений",
+      "Control basis",
+      "控制值依据"
+    ],
+    "control_points": [
+      "Контрольные точки",
+      "Control points",
+      "控制点"
+    ],
+    "control_standard_deviation": [
+      "Выбранное контрольное стандартное отклонение",
+      "Control standard deviation",
+      "所选控制标准差"
+    ],
+    "convergence_proven": [
+      "Сходимость доказана инструментом",
+      "Convergence proven",
+      "工具证明收敛"
+    ],
+    "correlation_matrix": [
+      "Матрица корреляций",
+      "Correlation matrix",
+      "相关矩阵"
+    ],
+    "correlation_source_reference": [
+      "Источник корреляций",
+      "Correlation source reference",
+      "相关性来源"
+    ],
+    "count_start": [
+      "Правило включения начального дня",
+      "Count start",
+      "起始日计入规则"
+    ],
+    "counted_dates": [
+      "Учтённые даты",
+      "Counted dates",
+      "已计日期"
+    ],
+    "coverage_factor": [
+      "Коэффициент охвата",
+      "Coverage factor",
+      "覆盖因子"
+    ],
+    "coverage_from": [
+      "Начало покрытия календаря",
+      "Coverage from",
+      "日历覆盖开始"
+    ],
+    "coverage_probability_not_inferred": [
+      "Вероятность охвата не выводилась",
+      "Coverage probability not inferred",
+      "未推断覆盖概率"
+    ],
+    "coverage_statement": [
+      "Заявление об охвате по вводу",
+      "Coverage statement",
+      "输入覆盖说明"
+    ],
+    "coverage_to": [
+      "Окончание покрытия календаря",
+      "Coverage to",
+      "日历覆盖结束"
+    ],
+    "cryogen": [
+      "Криоагент",
+      "Cryogen",
+      "低温介质"
+    ],
+    "data_code": [
+      "Данные и код",
+      "Data code",
+      "数据及代码"
+    ],
+    "days": [
+      "Дни календаря",
+      "Days",
+      "日历日期"
+    ],
+    "deadline": [
+      "Предоставленная крайняя дата",
+      "Deadline",
+      "所供截止日期"
+    ],
+    "deadline_basis": [
+      "Основание условного срока",
+      "Deadline basis",
+      "条件期限依据"
+    ],
+    "deadline_calculation": [
+      "Условный расчёт срока",
+      "Deadline calculation",
+      "条件期限计算"
+    ],
+    "deadline_interpretation": [
+      "Граница толкования срока",
+      "Deadline interpretation",
+      "期限解释范围"
+    ],
+    "decimal_order_of_magnitude": [
+      "Десятичный порядок величины",
+      "Decimal order of magnitude",
+      "十进制数量级"
+    ],
+    "deliverable": [
+      "Результат этапа по соглашению",
+      "Deliverable",
+      "协定阶段交付物"
+    ],
+    "destination": [
+      "Назначение передачи",
+      "Destination",
+      "转移目的地"
+    ],
+    "differences": [
+      "Знаковые различия",
+      "Differences",
+      "有符号差异"
+    ],
+    "dimension": [
+      "Размерность",
+      "Dimension",
+      "量纲"
+    ],
+    "dimension_consistent": [
+      "Размерности согласованы",
+      "Dimension consistent",
+      "量纲一致"
+    ],
+    "dimension_errors": [
+      "Выявленные ошибки размерности",
+      "Dimension errors",
+      "量纲错误"
+    ],
+    "dimensionless_parameters": [
+      "Безразмерные параметры",
+      "Dimensionless parameters",
+      "无量纲参数"
+    ],
+    "dimensions_consistent": [
+      "Размерности и целевые единицы согласованы",
+      "Dimensions consistent",
+      "量纲及目标单位一致"
+    ],
+    "distribution": [
+      "Выбранное распределение",
+      "Distribution",
+      "所选分布"
+    ],
+    "document_inventory": [
+      "Перечень выбранных документов",
+      "Document inventory",
+      "所选文件清单"
+    ],
+    "dose_estimate": [
+      "Предварительная оценка дозы",
+      "Dose estimate",
+      "初步剂量估计"
+    ],
+    "draft_method": [
+      "Проект методики",
+      "Draft method",
+      "方法草稿"
+    ],
+    "draft_sections": [
+      "Разделы авторского проекта",
+      "Draft sections",
+      "作者草稿章节"
+    ],
+    "due_date": [
+      "Дата по записи или условному расчёту",
+      "Due date",
+      "记录或条件计算日期"
+    ],
+    "duration": [
+      "Длительность",
+      "Duration",
+      "时长"
+    ],
+    "end_date": [
+      "Окончание периода",
+      "End date",
+      "期间结束"
+    ],
+    "end_use": [
+      "Конечное использование",
+      "End use",
+      "最终用途"
+    ],
+    "end_user": [
+      "Конечный пользователь",
+      "End user",
+      "最终用户"
+    ],
+    "engine": [
+      "Программа расчёта по вводу",
+      "Engine",
+      "输入计算程序"
+    ],
+    "engine_version": [
+      "Версия программы по вводу",
+      "Engine version",
+      "输入程序版本"
+    ],
+    "equation_id": [
+      "Идентификатор уравнения",
+      "Equation id",
+      "方程编号"
+    ],
+    "equations": [
+      "Уравнения",
+      "Equations",
+      "方程"
+    ],
+    "estimate": [
+      "Оценка величины",
+      "Estimate",
+      "量估计值"
+    ],
+    "estimated_fine_discretization_error": [
+      "Условная оценка ошибки тонкого уровня",
+      "Estimated fine discretization error",
+      "细层离散误差条件估计"
+    ],
+    "event_date": [
+      "Дата исходного события",
+      "Event date",
+      "触发事件日期"
+    ],
+    "event_generation_performed": [
+      "События сгенерированы инструментом",
+      "Event generation performed",
+      "工具已生成事件"
+    ],
+    "events": [
+      "Количество предоставленных событий",
+      "Events",
+      "所供事件数"
+    ],
+    "expanded_uncertainty": [
+      "Расширенная неопределённость",
+      "Expanded uncertainty",
+      "扩展不确定度"
+    ],
+    "expected_energy": [
+      "Энергия по идеальной модели",
+      "Expected energy",
+      "理想模型能量"
+    ],
+    "expected_order": [
+      "Выбранный ожидаемый порядок",
+      "Expected order",
+      "所选预期阶"
+    ],
+    "expected_order_extrapolated_value": [
+      "Экстраполяция при выбранном ожидаемом порядке",
+      "Expected order extrapolated value",
+      "所选预期阶外推"
+    ],
+    "expected_outcomes": [
+      "Ожидаемые результаты",
+      "Expected outcomes",
+      "预期结果"
+    ],
+    "expected_rhs_si": [
+      "Ожидаемая правая часть в СИ",
+      "Expected rhs si",
+      "SI预期右侧"
+    ],
+    "export_review": [
+      "Вопросы экспортного контроля",
+      "Export review",
+      "出口审核问题"
+    ],
+    "expression": [
+      "Выражение",
+      "Expression",
+      "表达式"
+    ],
+    "expression_trace": [
+      "Шаги вычисления выражения",
+      "Expression trace",
+      "表达式计算轨迹"
+    ],
+    "external_code_executed": [
+      "Внешний код выполнен",
+      "External code executed",
+      "已执行外部代码"
+    ],
+    "extrapolated_value": [
+      "Условное экстраполированное значение",
+      "Extrapolated value",
+      "条件外推值"
+    ],
+    "facility_id": [
+      "Идентификатор выбранной установки",
+      "Facility id",
+      "所选装置编号"
+    ],
+    "fine_id": [
+      "Идентификатор тонкого уровня",
+      "Fine id",
+      "细层编号"
+    ],
+    "fine_ratio": [
+      "Отношение шагов тонкой пары",
+      "Fine ratio",
+      "细层步长比"
+    ],
+    "fit": [
+      "Взвешенная линейная аппроксимация",
+      "Weighted linear fit",
+      "加权线性拟合"
+    ],
+    "fitted": [
+      "Значение по аппроксимации",
+      "Fitted",
+      "拟合值"
+    ],
+    "flagged": [
+      "Критерий пометки выполнен",
+      "Flagged",
+      "达到标记标准"
+    ],
+    "flagged_ids": [
+      "Идентификаторы помеченных точек",
+      "Flagged ids",
+      "标记点编号"
+    ],
+    "gaussian_errors": [
+      "Гауссовы ошибки заявлены во вводе",
+      "Gaussian errors",
+      "输入声明高斯误差"
+    ],
+    "geometry": [
+      "Геометрия",
+      "Geometry",
+      "几何"
+    ],
+    "geometry_factor": [
+      "Геометрический множитель модели",
+      "Geometry factor",
+      "模型几何因子"
+    ],
+    "grid_levels": [
+      "Предоставленные уровни сетки или шага",
+      "Grid levels",
+      "所供网格或步长层"
+    ],
+    "h": [
+      "Шаг",
+      "H",
+      "步长"
+    ],
+    "h_unit": [
+      "Единица шага",
+      "H unit",
+      "步长单位"
+    ],
+    "hazard_reviews": [
+      "Перечень опасностей и свидетельств",
+      "Hazard reviews",
+      "危险及证据清单"
+    ],
+    "heat_balance": [
+      "Идеализированный тепловой баланс",
+      "Heat balance",
+      "理想化热平衡"
+    ],
+    "human_review_required": [
+      "Требуется проверка специалистом",
+      "Human review required",
+      "须专业核查"
+    ],
+    "identifier": [
+      "DOI или arXiv идентификатор",
+      "Identifier",
+      "DOI或arXiv标识"
+    ],
+    "identity_status": [
+      "Проверка идентификатора в выбранных данных",
+      "Identity status",
+      "所选数据标识核查"
+    ],
+    "iid_assumption": [
+      "Независимость и одинаковое распределение заявлены",
+      "Iid assumption",
+      "声明独立同分布"
+    ],
+    "independent_errors": [
+      "Независимость ошибок заявлена",
+      "Independent errors",
+      "声明误差独立"
+    ],
+    "initial_conditions": [
+      "Начальные условия",
+      "Initial conditions",
+      "初始条件"
+    ],
+    "input_covariance_matrix": [
+      "Матрица входных ковариаций",
+      "Input covariance matrix",
+      "输入协方差矩阵"
+    ],
+    "input_covariance_units": [
+      "Единицы входных ковариаций",
+      "Input covariance units",
+      "输入协方差单位"
+    ],
+    "instruments": [
+      "Средства измерений",
+      "Instruments",
+      "测量仪器"
+    ],
+    "intercept": [
+      "Свободный член",
+      "Intercept",
+      "截距"
+    ],
+    "interpretation": [
+      "Граница интерпретации",
+      "Interpretation",
+      "解释范围"
+    ],
+    "is_dimensionless": [
+      "Параметр безразмерный",
+      "Is dimensionless",
+      "参数无量纲"
+    ],
+    "item_identification": [
+      "Идентификация передаваемого объекта",
+      "Item identification",
+      "转移对象识别"
+    ],
+    "items": [
+      "Позиции",
+      "Items",
+      "品项"
+    ],
+    "iterative_error_negligible": [
+      "Итерационная ошибка объявлена пренебрежимой",
+      "Iterative error negligible",
+      "声明迭代误差可忽略"
+    ],
+    "journal": [
+      "Целевой журнал",
+      "Journal",
+      "目标期刊"
+    ],
+    "journal_rows": [
+      "Предоставленные записи эксперимента",
+      "Journal rows",
+      "所供实验记录"
+    ],
+    "journal_template": [
+      "Поля журнала",
+      "Journal template",
+      "日志字段"
+    ],
+    "lag_one_sample_coefficient": [
+      "Выборочный коэффициент лага один",
+      "Lag one sample coefficient",
+      "样本一阶滞后系数"
+    ],
+    "laser_class": [
+      "Класс лазера по вводу",
+      "Laser class",
+      "输入激光等级"
+    ],
+    "level_ids": [
+      "Идентификаторы уровней",
+      "Level ids",
+      "层编号"
+    ],
+    "lhs": [
+      "Левая часть выражения",
+      "Left hand expression",
+      "表达式左侧"
+    ],
+    "lhs_dimension": [
+      "Размерность левой части",
+      "Left hand dimension",
+      "左侧量纲"
+    ],
+    "lhs_value_si": [
+      "Значение левой части в СИ",
+      "Left hand value in SI",
+      "SI左侧值"
+    ],
+    "license_record": [
+      "Сведения о лицензии или правах",
+      "License record",
+      "许可或权利资料"
+    ],
+    "likelihood_levels": [
+      "Выбранные уровни вероятности",
+      "Likelihood levels",
+      "所选可能性等级"
+    ],
+    "limit": [
+      "Выбранный предел",
+      "Limit",
+      "所选限值"
+    ],
+    "limiting_cases": [
+      "Конечные проверки предельных случаев",
+      "Limiting cases",
+      "极限情况有限核查"
+    ],
+    "limits_are_not_confidence_intervals": [
+      "Пределы согласия не являются доверительными интервалами",
+      "Limits are not confidence intervals",
+      "一致性界限不是置信区间"
+    ],
+    "list_coverage": [
+      "Охват выбранных контрольных списков",
+      "List coverage",
+      "所选控制清单覆盖"
+    ],
+    "loa_high": [
+      "Верхний предел согласия по модели",
+      "Loa high",
+      "模型一致性上限"
+    ],
+    "loa_low": [
+      "Нижний предел согласия по модели",
+      "Loa low",
+      "模型一致性下限"
+    ],
+    "materials": [
+      "Материалы",
+      "Materials",
+      "材料"
+    ],
+    "maximum": [
+      "Верхняя граница",
+      "Maximum",
+      "上限"
+    ],
+    "maximum_si": [
+      "Верхняя граница в СИ",
+      "Maximum si",
+      "SI上限"
+    ],
+    "mean": [
+      "Среднее",
+      "Mean",
+      "均值"
+    ],
+    "measurand": [
+      "Измеряемая величина",
+      "Measurand",
+      "被测量"
+    ],
+    "measurement": [
+      "Наблюдаемое измерение",
+      "Measurement",
+      "观察测量"
+    ],
+    "measurement_model": [
+      "Модель измерения",
+      "Measurement model",
+      "测量模型"
+    ],
+    "measurement_plan": [
+      "Предлагаемый план измерений",
+      "Measurement plan",
+      "拟议测量计划"
+    ],
+    "mechanism_not_proven_by_single_fit": [
+      "Одна совпавшая кривая не доказывает механизм",
+      "Mechanism not proven by single fit",
+      "符合单曲线不证明机制"
+    ],
+    "medium": [
+      "Среда в сосуде",
+      "Medium",
+      "容器介质"
+    ],
+    "method": [
+      "Метод",
+      "Method",
+      "方法"
+    ],
+    "method_comparison": [
+      "Сравнение парных методов",
+      "Method comparison",
+      "配对方法比较"
+    ],
+    "metrological_status": [
+      "Метрологический статус по проверке специалиста",
+      "Metrological status",
+      "专业核查计量状态"
+    ],
+    "milestone_review": [
+      "Сопоставление этапов",
+      "Milestone review",
+      "阶段比较"
+    ],
+    "minimum": [
+      "Нижняя граница",
+      "Minimum",
+      "下限"
+    ],
+    "minimum_si": [
+      "Нижняя граница в СИ",
+      "Minimum si",
+      "SI下限"
+    ],
+    "model": [
+      "Выбранная модель",
+      "Model",
+      "所选模型"
+    ],
+    "monte_carlo": [
+      "Анализ предоставленной выборки Монте Карло",
+      "Monte carlo",
+      "所供蒙特卡洛样本分析"
+    ],
+    "n": [
+      "Число наблюдений",
+      "N",
+      "观察数"
+    ],
+    "ndf": [
+      "Число степеней свободы",
+      "Degrees of freedom",
+      "自由度"
+    ],
+    "net_input_energy": [
+      "Входная энергия за вычетом потерь",
+      "Net input energy",
+      "扣损输入能量"
+    ],
+    "no_automatic_systematic_correction": [
+      "Автоматическая систематическая поправка не выполняется",
+      "No automatic systematic correction",
+      "不自动系统修正"
+    ],
+    "no_cluster_execution": [
+      "Кластер не запускался",
+      "No cluster execution",
+      "未启动集群"
+    ],
+    "no_solver_execution": [
+      "Решатель не запускался",
+      "No solver execution",
+      "未运行求解器"
+    ],
+    "no_symbolic_limit_proof": [
+      "Символический предел не доказывался",
+      "No symbolic limit proof",
+      "未证明符号极限"
+    ],
+    "no_unjustified_outlier_removal": [
+      "Необоснованное удаление точек не выполняется",
+      "No unjustified outlier removal",
+      "不无据剔除点"
+    ],
+    "nominal_deadline": [
+      "Условная дата до переноса",
+      "Nominal deadline",
+      "顺延前条件日期"
+    ],
+    "normal_assumption": [
+      "Выбранная предпосылка нормальности различий",
+      "Normal assumption",
+      "所选差异正态假设"
+    ],
+    "normalized_residual": [
+      "Нормированный остаток",
+      "Normalized residual",
+      "归一化残差"
+    ],
+    "normalized_residual_threshold": [
+      "Выбранный порог нормированного остатка",
+      "Normalized residual threshold",
+      "所选归一残差阈值"
+    ],
+    "objective": [
+      "Цель",
+      "Objective",
+      "目标"
+    ],
+    "observations": [
+      "Наблюдения",
+      "Observations",
+      "观察"
+    ],
+    "observed_controls": [
+      "Предоставленные наблюдения защитных мер",
+      "Observed controls",
+      "所供防护措施观察"
+    ],
+    "observed_order": [
+      "Условный наблюдаемый порядок",
+      "Observed order",
+      "条件观测阶"
+    ],
+    "opens": [
+      "Начало приёма по источнику",
+      "Opens",
+      "来源征集开始"
+    ],
+    "operator": [
+      "Оператор по записи",
+      "Operator",
+      "记录操作人"
+    ],
+    "order_minus_expected": [
+      "Наблюдаемый порядок минус ожидаемый",
+      "Order minus expected",
+      "观测阶减预期阶"
+    ],
+    "output_unit": [
+      "Единица выходной величины",
+      "Output unit",
+      "输出量单位"
+    ],
+    "overrides": [
+      "Выбранные изменения параметров",
+      "Overrides",
+      "所选参数替换"
+    ],
+    "owner": [
+      "Ответственный по вводу",
+      "Owner",
+      "输入责任人"
+    ],
+    "p_value_not_computed": [
+      "Значение p не вычислялось",
+      "P value not computed",
+      "未计算p值"
+    ],
+    "pair_means": [
+      "Средние пар",
+      "Pair means",
+      "配对均值"
+    ],
+    "parameter_covariance": [
+      "Ковариации параметров аппроксимации",
+      "Parameter covariance",
+      "拟合参数协方差"
+    ],
+    "parameter_covariance_order": [
+      "Порядок параметров матрицы",
+      "Parameter covariance order",
+      "矩阵参数顺序"
+    ],
+    "parameters": [
+      "Параметры",
+      "Parameters",
+      "参数"
+    ],
+    "past_due_date": [
+      "Предоставленная или условная дата прошла",
+      "Past due date",
+      "所供或条件日期已过"
+    ],
+    "personnel_role": [
+      "Роль персонала по вводу",
+      "Personnel role",
+      "输入人员角色"
+    ],
+    "physics_model_version": [
+      "Версия физической модели по вводу",
+      "Physics model version",
+      "输入物理模型版本"
+    ],
+    "planned_total": [
+      "Сумма плана",
+      "Planned total",
+      "计划合计"
+    ],
+    "power": [
+      "Мощность по вводу",
+      "Power",
+      "输入功率"
+    ],
+    "preliminary_results": [
+      "Предварительные результаты",
+      "Preliminary results",
+      "初步结果"
+    ],
+    "pressure": [
+      "Давление по вводу",
+      "Pressure",
+      "输入压力"
+    ],
+    "problem": [
+      "Постановка расчёта",
+      "Problem",
+      "计算问题"
+    ],
+    "processing": [
+      "План обработки",
+      "Processing",
+      "处理计划"
+    ],
+    "project_id": [
+      "Идентификатор проекта",
+      "Project id",
+      "项目编号"
+    ],
+    "propagation": [
+      "Модель распространения неопределённости",
+      "Propagation",
+      "不确定度传播模型"
+    ],
+    "proposal": [
+      "Проект заявки",
+      "Proposal",
+      "申请草稿"
+    ],
+    "proposed_controls": [
+      "Предлагаемые меры",
+      "Proposed controls",
+      "拟议措施"
+    ],
+    "proposed_method": [
+      "Предлагаемая методика",
+      "Proposed method",
+      "拟议方法"
+    ],
+    "proposed_work": [
+      "Предлагаемый порядок работ",
+      "Proposed work",
+      "拟议工作程序"
+    ],
+    "psd_method": [
+      "Метод проверки положительной полуопределённости",
+      "Positive semidefinite matrix check method",
+      "半正定核查方法"
+    ],
+    "purpose": [
+      "Назначение по вводу",
+      "Purpose",
+      "输入用途"
+    ],
+    "qc": [
+      "Контроль серии",
+      "Series control",
+      "序列控制"
+    ],
+    "quantity": [
+      "Величина",
+      "Quantity",
+      "物理量"
+    ],
+    "quantity_inventory": [
+      "Величины и единицы",
+      "Quantity inventory",
+      "物理量及单位"
+    ],
+    "quantity_kind": [
+      "Вид дозиметрической величины",
+      "Quantity kind",
+      "剂量量类型"
+    ],
+    "quantity_unit": [
+      "Единица рассматриваемой величины",
+      "Quantity unit",
+      "所评量单位"
+    ],
+    "quantum": [
+      "Шаг представления результата",
+      "Quantum",
+      "结果表达步进"
+    ],
+    "random_stream_recreated": [
+      "Случайный поток воспроизведён инструментом",
+      "Random stream recreated",
+      "工具重建随机流"
+    ],
+    "range": [
+      "Диапазон",
+      "Range",
+      "范围"
+    ],
+    "ratios_compatible": [
+      "Отношения шагов совместимы с выбранным допуском",
+      "Ratios compatible",
+      "步长比符合所选允差"
+    ],
+    "recipient": [
+      "Получатель",
+      "Recipient",
+      "接收方"
+    ],
+    "record": [
+      "Выбранная запись",
+      "Record",
+      "所选记录"
+    ],
+    "record_kind": [
+      "Вид величины",
+      "Record kind",
+      "量类别"
+    ],
+    "reference_is_zero": [
+      "Эталон равен нулю",
+      "Reference is zero",
+      "参考值为零"
+    ],
+    "reference_review": [
+      "Сопоставление библиографических сведений",
+      "Reference review",
+      "书目信息比较"
+    ],
+    "reference_value": [
+      "Выбранное эталонное значение",
+      "Reference value",
+      "所选参考值"
+    ],
+    "refinement": [
+      "Параметры измельчения",
+      "Refinement",
+      "细化参数"
+    ],
+    "refinement_pairs": [
+      "Попарные сравнения уровней",
+      "Refinement pairs",
+      "层配对比较"
+    ],
+    "refinement_ratio": [
+      "Отношение шагов",
+      "Refinement ratio",
+      "步长比"
+    ],
+    "relative_difference": [
+      "Относительное различие",
+      "Relative difference",
+      "相对差异"
+    ],
+    "relative_tolerance": [
+      "Выбранный относительный допуск",
+      "Relative tolerance",
+      "所选相对允差"
+    ],
+    "remaining": [
+      "Остаток по выбранным данным",
+      "Remaining",
+      "所选数据余量"
+    ],
+    "repeat_count": [
+      "Число повторов",
+      "Repeat count",
+      "重复数"
+    ],
+    "repeats": [
+      "Предоставленные повторы",
+      "Repeats",
+      "所供重复"
+    ],
+    "reported_result": [
+      "Обоснованное представление результата",
+      "Reported result",
+      "有依据的结果表达"
+    ],
+    "reporter_role": [
+      "Роль подающего по вводу",
+      "Reporter role",
+      "输入提交人角色"
+    ],
+    "reporting_gaps": [
+      "Вопросы представления результата",
+      "Reporting gaps",
+      "结果表达问题"
+    ],
+    "reporting_obligations": [
+      "Выбранные сведения об отчётности",
+      "Reporting obligations",
+      "所选报告义务资料"
+    ],
+    "reproducibility_scope": [
+      "Граница проверки воспроизводимости",
+      "Reproducibility scope",
+      "复现核查范围"
+    ],
+    "request_minus_plan": [
+      "Запрос минус план",
+      "Request minus plan",
+      "申请量减计划量"
+    ],
+    "requested": [
+      "Запрашиваемый ресурс",
+      "Requested",
+      "申请资源"
+    ],
+    "requirement": [
+      "Выбранное требование",
+      "Requirement",
+      "所选要求"
+    ],
+    "requirements": [
+      "Выбранные требования",
+      "Requirements",
+      "所选要求"
+    ],
+    "residual": [
+      "Знаковый остаток",
+      "Residual",
+      "有符号残差"
+    ],
+    "residual_si": [
+      "Знаковый остаток в СИ",
+      "Residual si",
+      "SI有符号残差"
+    ],
+    "residuals": [
+      "Остатки аппроксимации",
+      "Residuals",
+      "拟合残差"
+    ],
+    "responsible": [
+      "Ответственный по вводу",
+      "Responsible",
+      "输入责任人"
+    ],
+    "responsible_review": [
+      "Проверка ответственным",
+      "Responsible review",
+      "负责人审核"
+    ],
+    "results": [
+      "Результаты по выбранным данным",
+      "Results",
+      "所选数据结果"
+    ],
+    "review_records": [
+      "Сведения о рецензировании",
+      "Review records",
+      "审阅资料"
+    ],
+    "review_threshold": [
+      "Выбранный порог проверки",
+      "Review threshold",
+      "所选审核阈值"
+    ],
+    "rhs": [
+      "Правая часть выражения",
+      "Right hand expression",
+      "表达式右侧"
+    ],
+    "rhs_dimension": [
+      "Размерность правой части",
+      "Right hand dimension",
+      "右侧量纲"
+    ],
+    "rhs_value_si": [
+      "Значение правой части в СИ",
+      "Right hand value in SI",
+      "SI右侧值"
+    ],
+    "richardson_triplets": [
+      "Проверки троек Ричардсона",
+      "Richardson triplets",
+      "Richardson三层核查"
+    ],
+    "risk_score": [
+      "Оценка по выбранной матрице",
+      "Risk score",
+      "所选矩阵评分"
+    ],
+    "role": [
+      "Роль",
+      "Role",
+      "角色"
+    ],
+    "roll": [
+      "Правило переноса даты",
+      "Roll",
+      "日期顺延规则"
+    ],
+    "room": [
+      "Помещение по вводу",
+      "Room",
+      "输入场所"
+    ],
+    "room_volume": [
+      "Объём помещения по вводу",
+      "Room volume",
+      "输入房间体积"
+    ],
+    "safety_decision": [
+      "Решение о безопасности",
+      "Safety decision",
+      "安全决定"
+    ],
+    "same_model": [
+      "Одна модель заявлена для всех уровней",
+      "Same model",
+      "声明各层同一模型"
+    ],
+    "same_scheme": [
+      "Одна схема заявлена для всех уровней",
+      "Same scheme",
+      "声明各层同一格式"
+    ],
+    "sample": [
+      "Образец или выборка",
+      "Sample",
+      "样品或样本"
+    ],
+    "sample_safety": [
+      "Сведения о безопасности образцов",
+      "Sample safety",
+      "样品安全资料"
+    ],
+    "sample_sd": [
+      "Выборочное стандартное отклонение",
+      "Sample sd",
+      "样本标准差"
+    ],
+    "sample_standard_deviation": [
+      "Выборочное стандартное отклонение",
+      "Sample standard deviation",
+      "样本标准差"
+    ],
+    "sampling_assumption": [
+      "Предпосылка получения выборки",
+      "Sampling assumption",
+      "抽样假设"
+    ],
+    "scale_checks": [
+      "Проверки порядка величин",
+      "Scale checks",
+      "数量级核查"
+    ],
+    "scientific_case": [
+      "Научное обоснование",
+      "Scientific case",
+      "科学理由"
+    ],
+    "seed": [
+      "Предоставленное зерно генератора",
+      "Seed",
+      "所供随机种子"
+    ],
+    "selected_allowance": [
+      "Допуск из выбранных компонент",
+      "Selected allowance",
+      "所选分量允差"
+    ],
+    "selected_lists": [
+      "Выбранные контрольные списки",
+      "Selected lists",
+      "所选控制清单"
+    ],
+    "selected_ratio_tolerance": [
+      "Выбранный допуск отношений шагов",
+      "Selected ratio tolerance",
+      "所选步长比允差"
+    ],
+    "selected_risk_matrix": [
+      "Выбранная матрица риска",
+      "Selected risk matrix",
+      "所选风险矩阵"
+    ],
+    "selected_rule": [
+      "Выбранное правило",
+      "Selected rule",
+      "所选规则"
+    ],
+    "selected_rule_metadata": [
+      "Редакции и даты выбранных правил",
+      "Selected rule metadata",
+      "所选规则版本及日期"
+    ],
+    "sensitivities_symbolically_verified": [
+      "Чувствительности подтверждены символическим выводом",
+      "Sensitivities symbolically verified",
+      "符号推导验证灵敏度"
+    ],
+    "sensitivity": [
+      "Знаковый коэффициент чувствительности",
+      "Sensitivity",
+      "有符号灵敏度系数"
+    ],
+    "sensitivity_reference": [
+      "Источник коэффициента чувствительности",
+      "Sensitivity reference",
+      "灵敏度系数来源"
+    ],
+    "sensitivity_unit": [
+      "Единица чувствительности",
+      "Sensitivity unit",
+      "灵敏度单位"
+    ],
+    "serial_number": [
+      "Серийный номер прибора",
+      "Serial number",
+      "仪器序列号"
+    ],
+    "severity_levels": [
+      "Выбранные уровни тяжести",
+      "Severity levels",
+      "所选严重性等级"
+    ],
+    "shielding_not_modelled": [
+      "Экранирование не моделировалось",
+      "Shielding not modelled",
+      "未建模屏蔽"
+    ],
+    "shift_budget": [
+      "План и баланс ресурса",
+      "Shift budget",
+      "资源计划及平衡"
+    ],
+    "shifts": [
+      "План смен",
+      "Shifts",
+      "班次计划"
+    ],
+    "sigma": [
+      "Стандартная неопределённость y",
+      "Standard uncertainty of y",
+      "y标准不确定度"
+    ],
+    "sigma_mode": [
+      "Основание весов аппроксимации",
+      "Sigma mode",
+      "拟合权重依据"
+    ],
+    "signed_change": [
+      "Знаковое изменение",
+      "Signed change",
+      "有符号变化"
+    ],
+    "signed_contribution": [
+      "Знаковый вклад неопределённости",
+      "Signed contribution",
+      "有符号不确定度贡献"
+    ],
+    "signed_difference": [
+      "Знаковое различие",
+      "Signed difference",
+      "有符号差异"
+    ],
+    "signed_difference_si": [
+      "Знаковое различие в СИ",
+      "Signed difference si",
+      "SI有符号差异"
+    ],
+    "signed_output_covariance_matrix": [
+      "Знаковые выходные ковариации",
+      "Signed output covariance matrix",
+      "有符号输出协方差"
+    ],
+    "signed_residual": [
+      "Знаковая невязка",
+      "Signed residual",
+      "有符号残差"
+    ],
+    "slope": [
+      "Наклон аппроксимации",
+      "Slope",
+      "拟合斜率"
+    ],
+    "slope_unit": [
+      "Единица наклона",
+      "Slope unit",
+      "斜率单位"
+    ],
+    "snapshot_age_days": [
+      "Возраст выбранного снимка в днях",
+      "Snapshot age days",
+      "所选快照天数"
+    ],
+    "snapshot_date": [
+      "Дата выбранного снимка",
+      "Snapshot date",
+      "所选快照日期"
+    ],
+    "source": [
+      "Источник излучения по вводу",
+      "Supplied radiation source",
+      "输入辐射源"
+    ],
+    "stability_proven": [
+      "Стабильность доказана инструментом",
+      "Stability proven",
+      "工具证明稳定"
+    ],
+    "standard_error": [
+      "Стандартная ошибка среднего",
+      "Standard error",
+      "均值标准误"
+    ],
+    "standard_error_applicability_established": [
+      "Применимость модели стандартной ошибки установлена",
+      "Standard error applicability established",
+      "已确定标准误模型适用性"
+    ],
+    "standard_error_model": [
+      "Выбранная модель стандартной ошибки",
+      "Standard error model",
+      "所选标准误模型"
+    ],
+    "standard_error_of_mean": [
+      "Стандартная ошибка среднего",
+      "Standard error of mean",
+      "均值标准误"
+    ],
+    "standard_uncertainty": [
+      "Стандартная неопределённость",
+      "Standard uncertainty",
+      "标准不确定度"
+    ],
+    "standardized_difference": [
+      "Стандартизованное различие",
+      "Standardized difference",
+      "标准化差异"
+    ],
+    "start_date": [
+      "Начало периода",
+      "Start date",
+      "期间开始"
+    ],
+    "stop_criterion": [
+      "Предоставленный критерий остановки",
+      "Stop criterion",
+      "所供停止标准"
+    ],
+    "stored_energy": [
+      "Запасённая энергия по вводу",
+      "Stored energy",
+      "输入储能"
+    ],
+    "supported_expression_language": [
+      "Ограниченный язык выражений",
+      "Supported expression language",
+      "受限表达式语言"
+    ],
+    "symbol": [
+      "Обозначение величины",
+      "Symbol",
+      "量符号"
+    ],
+    "system": [
+      "Физическая система",
+      "System",
+      "物理系统"
+    ],
+    "systematics": [
+      "Систематические эффекты",
+      "Systematics",
+      "系统效应"
+    ],
+    "target": [
+      "Цель моделирования",
+      "Modelling objective",
+      "建模目标"
+    ],
+    "target_unit": [
+      "Выбранная целевая единица",
+      "Target unit",
+      "所选目标单位"
+    ],
+    "target_unit_compatible": [
+      "Целевая единица совместима",
+      "Target unit compatible",
+      "目标单位兼容"
+    ],
+    "task": [
+      "Научная задача",
+      "Task",
+      "科学任务"
+    ],
+    "temperature": [
+      "Температура по вводу",
+      "Temperature",
+      "输入温度"
+    ],
+    "threshold": [
+      "Выбранный порог",
+      "Threshold",
+      "所选阈值"
+    ],
+    "threshold_sigma": [
+      "Выбранный порог в стандартных отклонениях",
+      "Threshold sigma",
+      "所选标准差阈值"
+    ],
+    "total": [
+      "Итого по выбранным данным",
+      "Total from selected records",
+      "所选数据合计"
+    ],
+    "transfer_scope": [
+      "Область предполагаемой передачи",
+      "Transfer scope",
+      "拟议转移范围"
+    ],
+    "trend_per_observation_index": [
+      "Линейный тренд на индекс наблюдения",
+      "Trend per observation index",
+      "每观察序号线性趋势"
+    ],
+    "type_A_counted_only_once_per_component": [
+      "Тип A учтён один раз на компонент",
+      "Type A counted once per component",
+      "每分量A类仅计一次"
+    ],
+    "uncertainty": [
+      "Неопределённость",
+      "Uncertainty",
+      "不确定度"
+    ],
+    "uncertainty_significant_digits": [
+      "Выбранное число значащих цифр неопределённости",
+      "Uncertainty significant digits",
+      "所选不确定度有效位数"
+    ],
+    "uncertainty_value": [
+      "Значение неопределённости",
+      "Uncertainty value",
+      "不确定度值"
+    ],
+    "unequal_ratios_accepted_as_approximation": [
+      "Неравные отношения приняты как приближение",
+      "Unequal ratios accepted as approximation",
+      "不等比作为近似接受"
+    ],
+    "url": [
+      "Адрес выбранной страницы",
+      "Url",
+      "所选页面地址"
+    ],
+    "value_in_target_unit": [
+      "Значение в выбранной единице",
+      "Value in target unit",
+      "所选单位值"
+    ],
+    "value_si": [
+      "Значение в СИ",
+      "Value si",
+      "SI数值"
+    ],
+    "variance_contribution": [
+      "Вклад в дисперсию",
+      "Variance contribution",
+      "方差贡献"
+    ],
+    "verification": [
+      "Сведения о поверке",
+      "Verification",
+      "检定资料"
+    ],
+    "voltage": [
+      "Напряжение по вводу",
+      "Voltage",
+      "输入电压"
+    ],
+    "volume": [
+      "Объём по вводу",
+      "Volume",
+      "输入体积"
+    ],
+    "wavelength": [
+      "Длина волны по вводу",
+      "Wavelength",
+      "输入波长"
+    ],
+    "window_status": [
+      "Состояние по выбранным датам приёма",
+      "Window status",
+      "所选征集日期状态"
+    ],
+    "within_selected_range": [
+      "В выбранном диапазоне",
+      "Within selected range",
+      "在所选范围内"
+    ],
+    "within_selected_tolerance": [
+      "В пределах выбранного допуска",
+      "Within selected tolerance",
+      "在所选允差内"
+    ],
+    "working": [
+      "Рабочий день по календарю",
+      "Working",
+      "所选日历工作日"
+    ],
+    "x": [
+      "Величина x",
+      "X",
+      "量x"
+    ],
+    "x_uncertainty_and_correlated_y_errors_not_fitted": [
+      "Неопределённость x и коррелированные ошибки y не включены в fit",
+      "X uncertainty and correlated y errors not fitted",
+      "拟合未纳入x不确定度及y相关误差"
+    ],
+    "x_uncertainty_negligible": [
+      "Неопределённость x объявлена пренебрежимой",
+      "X uncertainty negligible",
+      "声明x不确定度可忽略"
+    ],
+    "x_unit": [
+      "Единица x",
+      "X unit",
+      "x单位"
+    ],
+    "y": [
+      "Величина y",
+      "Y",
+      "量y"
+    ],
+    "y_unit": [
+      "Единица y",
+      "Y unit",
+      "y单位"
+    ],
+    "declared_outputs": [
+      "Объявленные ненаблюдавшиеся выходы модели",
+      "Declared outputs",
+      "声明未观察模型输出"
+    ],
+    "lhs_observation_status": [
+      "Состояние наблюдения левой части",
+      "Lhs observation status",
+      "左侧观察状态"
+    ],
+    "numeric_comparison_performed": [
+      "Числовое сравнение сторон выполнено",
+      "Numeric comparison performed",
+      "已比较两侧数值"
+    ],
+    "observation_status": [
+      "Состояние наблюдения",
+      "Observation status",
+      "观察状态"
+    ],
+    "residual_status": [
+      "Основание вычисления остатка",
+      "Residual status",
+      "残差计算状态"
+    ],
+    "rhs_decimal_order_of_magnitude": [
+      "Десятичный порядок правой части",
+      "Rhs decimal order of magnitude",
+      "右侧十进制数量级"
+    ],
+    "time": [
+      "Время по исходной записи",
+      "Time",
+      "来源记录时间"
+    ],
+    "utc_offset": [
+      "Смещение UTC по исходной записи",
+      "Utc offset",
+      "来源记录UTC偏移"
+    ]
+  },
+  "tokens": {
+    "physical_model": [
+      "Физическая модель",
+      "Physical model",
+      "物理模型"
+    ],
+    "numerical_sim": [
+      "Проверка численного моделирования",
+      "Numerical modelling review",
+      "数值建模核查"
+    ],
+    "uncertainty": [
+      "Неопределённость и обработка данных",
+      "Uncertainty and data processing",
+      "不确定度及数据处理"
+    ],
+    "experiment_setup": [
+      "Подготовка эксперимента",
+      "Experiment preparation",
+      "实验准备"
+    ],
+    "radiation_safety": [
+      "Радиационная безопасность",
+      "Radiation safety",
+      "辐射安全"
+    ],
+    "lab_hazards": [
+      "Опасности установки",
+      "Facility hazards",
+      "装置危险"
+    ],
+    "facility_time": [
+      "Заявка на время установки",
+      "Facility time proposal",
+      "装置机时申请"
+    ],
+    "publication": [
+      "Подготовка рукописи",
+      "Manuscript preparation",
+      "稿件准备"
+    ],
+    "rd_reports": [
+      "Отчёт о научно исследовательской работе",
+      "Research and development report",
+      "研发报告"
+    ],
+    "refinement_review": [
+      "Проверка предоставленных уровней измельчения",
+      "Supplied refinement level review",
+      "所供细化层核查"
+    ],
+    "monte_carlo_review": [
+      "Проверка предоставленной выборки Монте Карло",
+      "Supplied Monte Carlo sample review",
+      "所供蒙特卡洛样本核查"
+    ],
+    "budget": [
+      "Бюджет неопределённости",
+      "Uncertainty budget",
+      "不确定度预算"
+    ],
+    "weighted_linear_fit": [
+      "Взвешенная линейная аппроксимация",
+      "Weighted linear fit",
+      "加权线性拟合"
+    ],
+    "comprehensive": [
+      "Совместный бюджет аппроксимация и контроль серии",
+      "Combined budget fit and series control",
+      "预算拟合及序列控制"
+    ],
+    "qc": [
+      "Контроль серии",
+      "Series control",
+      "序列控制"
+    ],
+    "bounded_arithmetic_sqrt_abs_exp_ln_no_eval_no_attributes_no_indexing": [
+      "Ограниченная арифметика sqrt abs exp ln без произвольного исполнения",
+      "Bounded arithmetic sqrt abs exp ln without arbitrary execution",
+      "受限算术sqrt abs exp ln不任意执行"
+    ],
+    "exact_rational_LDL_on_selected_decimal_correlations": [
+      "Точная рациональная проверка LDL по выбранным десятичным корреляциям",
+      "Exact rational LDL check on selected decimal correlations",
+      "所选十进制相关的精确有理LDL核查"
+    ],
+    "finite_selected_probe_not_a_symbolic_or_asymptotic_limit_proof": [
+      "Конечная выбранная подстановка не доказывает символический или асимптотический предел",
+      "A selected finite probe does not prove a symbolic or asymptotic limit",
+      "所选有限替换不证明符号或渐近极限"
+    ],
+    "first_order_linearized_GUM_with_supplied_signed_sensitivities": [
+      "Линеаризованное распространение GUM первого порядка с выбранными знаковыми чувствительностями",
+      "First order linearized GUM with supplied signed sensitivities",
+      "含所供有符号灵敏度的一阶线性GUM"
+    ],
+    "review_of_supplied_results_versions_and_seed_not_reexecution": [
+      "Проверка предоставленных результатов версий и зерна без повторного запуска",
+      "Review of supplied results versions and seed without reexecution",
+      "核查所供结果版本及种子不重运行"
+    ],
+    "selected_half_up_reporting_both_at_same_decimal_place": [
+      "Выбранное представление с округлением half up в одном десятичном разряде",
+      "Selected half up reporting at the same decimal place",
+      "所选半入舍入在同一十进制位表达"
+    ],
+    "selected_reference_not_estimated_from_this_series": [
+      "Выбранный независимый эталон не оценивался по этой серии",
+      "Selected independent reference not estimated from this series",
+      "所选独立参考不从本序列估计"
+    ],
+    "supplied_unweighted_iid_sample_mean_s_over_sqrt_N": [
+      "Стандартная ошибка s на корень N для выбранной невзвешенной независимой выборки",
+      "s over square root N standard error for supplied unweighted iid sample",
+      "所供不加权独立同分布样本的s除根号N标准误"
+    ],
+    "iid_sample_mean_s_over_sqrt_N_assumption_not_established": [
+      "Применимость независимой одинаково распределённой выборки не установлена",
+      "Applicability of iid sample mean standard error not established",
+      "未确定独立同分布样本均值标准误适用性"
+    ],
+    "conditional_richardson_estimate": [
+      "Условная оценка Ричардсона",
+      "Conditional Richardson estimate",
+      "条件Richardson估计"
+    ],
+    "noncontracting_changes_no_convergence_evidence": [
+      "Изменения не сокращаются доказательства сходимости нет",
+      "Changes do not contract and do not establish convergence",
+      "变化未缩小不证明收敛"
+    ],
+    "oscillatory_changes_no_monotone_richardson": [
+      "Знак изменений чередуется монотонная схема Ричардсона неприменима",
+      "Alternating changes do not support monotone Richardson extrapolation",
+      "交替变化不支持单调Richardson外推"
+    ],
+    "absolute_standard": [
+      "Абсолютные стандартные неопределённости y по вводу",
+      "Supplied absolute standard y uncertainties",
+      "所供y绝对标准不确定度"
+    ],
+    "normal_expanded": [
+      "Нормальное распределение с выбранным коэффициентом охвата",
+      "Normal distribution with selected coverage factor",
+      "含所选覆盖因子的正态分布"
+    ],
+    "repeat_mean": [
+      "Тип A для среднего по повторам",
+      "Type A for repeated-measurement mean",
+      "重复测量均值A类"
+    ],
+    "sample_mean": [
+      "Среднее предоставленной выборки",
+      "Supplied sample mean",
+      "所供样本均值"
+    ],
+    "si_defining": [
+      "Определяющая константа СИ по выбранной редакции",
+      "SI defining constant in selected edition",
+      "所选版本SI定义常数"
+    ],
+    "variable": [
+      "Входная переменная",
+      "Input variable",
+      "输入变量"
+    ],
+    "constant": [
+      "Выбранная константа",
+      "Selected constant",
+      "所选常数"
+    ],
+    "space": [
+      "Пространственная сетка",
+      "Spatial grid",
+      "空间网格"
+    ],
+    "time": [
+      "Временной шаг",
+      "Time step",
+      "时间步长"
+    ],
+    "parameter": [
+      "Шаг выбранного параметра",
+      "Selected parameter step",
+      "所选参数步长"
+    ],
+    "dimensionless": [
+      "Безразмерно",
+      "Dimensionless",
+      "无量纲"
+    ],
+    "not_computed": [
+      "Не вычислялось",
+      "Not computed",
+      "未计算"
+    ],
+    "observed_controls.0.unknown": [
+      "Состояние первого наблюдаемого средства защиты неизвестно",
+      "First observed protective control state is unknown",
+      "首个观察防护措施状态未知"
+    ],
+    "data_code.code1.license_record": [
+      "Не предоставлены права на выбранную версию кода",
+      "Rights for selected code version not supplied",
+      "未提供所选代码版本权利"
+    ],
+    "review_records.0": [
+      "Вопрос по первой записи рецензирования",
+      "First review record needs attention",
+      "首个审阅记录需关注"
+    ],
+    "export.end_use": [
+      "Не установлено конечное использование",
+      "End use not established",
+      "最终用途未确定"
+    ],
+    "export.end_user": [
+      "Не установлен конечный пользователь",
+      "End user not established",
+      "最终用户未确定"
+    ],
+    "export.item_identification": [
+      "Не завершена идентификация передаваемого объекта",
+      "Transfer item identification incomplete",
+      "转移对象识别未完成"
+    ],
+    "export.list_coverage": [
+      "Не установлен охват контрольных списков",
+      "Control list coverage not established",
+      "控制清单覆盖未确定"
+    ],
+    "addition_or_subtraction_dimension_mismatch": [
+      "Размерности слагаемых не совпадают",
+      "Addition or subtraction dimensions do not match",
+      "加减量纲不匹配"
+    ],
+    "dimensioned_exponent": [
+      "Показатель степени имеет размерность",
+      "Exponent has a physical dimension",
+      "指数有物理量纲"
+    ],
+    "transcendental_argument_must_be_dimensionless": [
+      "Аргумент трансцендентной функции должен быть безразмерным",
+      "Transcendental function argument must be dimensionless",
+      "超越函数参数须无量纲"
+    ],
+    "unequal_refinement_ratios_no_richardson": [
+      "Отношения измельчения несовместимы с выбранным допуском",
+      "Refinement ratios incompatible with selected tolerance",
+      "细化比不符所选允差"
+    ],
+    "identical_values_no_order_evidence": [
+      "Одинаковые значения не определяют порядок сходимости",
+      "Identical values do not establish convergence order",
+      "相同值不确定收敛阶"
+    ],
+    "zero_change_no_order_estimate": [
+      "Нулевое изменение не позволяет оценить порядок",
+      "Zero change does not permit an order estimate",
+      "零变化无法估计阶"
+    ],
+    "nonpositive_observed_order": [
+      "Наблюдаемый порядок неположителен",
+      "Observed order is nonpositive",
+      "观测阶非正"
+    ],
+    "contracting_changes_assumptions_not_established": [
+      "Изменения сокращаются но необходимые предпосылки не установлены",
+      "Changes contract but required assumptions are not established",
+      "变化缩小但必要假设未确定"
+    ],
+    "zero_expanded_uncertainty_no_rounding_basis": [
+      "Нулевая расширенная неопределённость не задаёт разряд округления",
+      "Zero expanded uncertainty provides no reporting precision basis",
+      "零扩展不确定度不确定表达精度"
+    ],
+    "not_observed": [
+      "Наблюдение не предоставлено",
+      "Observation not supplied",
+      "未提供观察"
+    ],
+    "declared_output": [
+      "Объявленный выход модели без измерения",
+      "Declared model output without observation",
+      "声明无观察的模型输出"
+    ],
+    "not_supplied_declared_output": [
+      "Числовое наблюдение выхода модели не предоставлено",
+      "Numerical model-output observation not supplied",
+      "未提供模型输出数值观察"
+    ],
+    "not_supplied_no_value_invented": [
+      "Наблюдение не предоставлено значение не выдумывалось",
+      "Observation not supplied and no value invented",
+      "未提供观察且未编造值"
+    ],
+    "not_computed_without_lhs_observation": [
+      "Не вычислялось без наблюдения левой части",
+      "Not computed without a left-hand observation",
+      "无左侧观察未计算"
+    ],
+    "codata_adjusted": [
+      "Согласованная константа выбранной редакции CODATA",
+      "Adjusted constant from selected CODATA edition",
+      "所选CODATA版本调整常数"
+    ],
+    "conventional": [
+      "Условно принятое значение по источнику",
+      "Conventional value from selected source",
+      "所选来源约定值"
+    ],
+    "local_measured": [
+      "Локально измеренное значение по источнику",
+      "Locally measured value from selected source",
+      "所选来源本地测量值"
+    ],
+    "mathematical": [
+      "Математическая константа",
+      "Mathematical constant",
+      "数学常数"
+    ],
+    "supplied_model_parameter": [
+      "Предоставленный параметр модели",
+      "Supplied model parameter",
+      "所供模型参数"
+    ],
+    "standard": [
+      "Предоставленная стандартная неопределённость",
+      "Supplied standard uncertainty",
+      "所供标准不确定度"
+    ],
+    "rectangular": [
+      "Прямоугольное распределение с выбранной полушириной",
+      "Rectangular distribution with selected half width",
+      "含所选半宽的矩形分布"
+    ],
+    "triangular": [
+      "Треугольное распределение с выбранной полушириной",
+      "Triangular distribution with selected half width",
+      "含所选半宽的三角分布"
+    ],
+    "provided_date_not_legally_validated": [
+      "Правовая применимость даты не установлена",
+      "Legal applicability of the date is not established",
+      "日期法律适用性尚未确定"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+name: Validate professions
+on:
+  pull_request:
+    paths: ["professions/**", "tools/validate.py"]
+  push:
+    branches: [main]
+    paths: ["professions/**", "tools/validate.py"]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check every profession (format, three languages, regexes, injected instructions, forbidden files)
+        run: python tools/validate.py professions

@@ -1,0 +1,337 @@
+{
+  "data_card": {
+    "title": [
+      "Карточка набора климатических данных",
+      "Climate dataset card",
+      "气候数据集说明"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Источник и версия",
+        "Source and version",
+        "来源与版本"
+      ],
+      [
+        "Переменные и единицы",
+        "Variables and units",
+        "变量与单位"
+      ],
+      [
+        "Сетка/станции",
+        "Grid and stations",
+        "网格与站点"
+      ],
+      [
+        "Период и полнота",
+        "Period and completeness",
+        "时段与完整性"
+      ],
+      [
+        "Ограничения и лицензия",
+        "Limitations and licence",
+        "限制与许可"
+      ]
+    ]
+  },
+  "climate_summary": {
+    "title": [
+      "Климатический обзор",
+      "Climate summary",
+      "气候综述"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Главное",
+        "Main findings",
+        "主要内容"
+      ],
+      [
+        "Температура",
+        "Temperature",
+        "气温"
+      ],
+      [
+        "Осадки",
+        "Precipitation",
+        "降水"
+      ],
+      [
+        "Экстремальные явления",
+        "Extreme events",
+        "极端事件"
+      ],
+      [
+        "Сравнение с нормой",
+        "Comparison with the baseline normal",
+        "与基准常态的比较"
+      ],
+      [
+        "Источники и неопределённость",
+        "Sources and uncertainty",
+        "来源与不确定性"
+      ]
+    ]
+  },
+  "trend_note": {
+    "title": [
+      "Анализ климатических трендов и экстремумов",
+      "Climate trend and extreme analysis",
+      "气候趋势与极值分析"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Данные и однородность",
+        "Data and homogeneity",
+        "数据与均一性"
+      ],
+      [
+        "Метод",
+        "Method",
+        "方法"
+      ],
+      [
+        "Тренды с интервалами",
+        "Trends with intervals",
+        "趋势与区间"
+      ],
+      [
+        "Индексы экстремумов",
+        "Extreme indices",
+        "极端指数"
+      ],
+      [
+        "Ограничения",
+        "Limitations",
+        "限制"
+      ]
+    ]
+  },
+  "scenario_note": {
+    "title": [
+      "Климатические сценарии и проекции",
+      "Climate scenarios and projections",
+      "气候情景与预估"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Сценарии и модели",
+        "Scenarios and models",
+        "情景与模型"
+      ],
+      [
+        "Коррекция смещений",
+        "Bias adjustment",
+        "偏差订正"
+      ],
+      [
+        "Изменения к горизонтам",
+        "Changes by planning horizon",
+        "各规划时段的变化"
+      ],
+      [
+        "Неопределённость",
+        "Uncertainty",
+        "不确定性"
+      ],
+      [
+        "Как использовать",
+        "How to use",
+        "使用说明"
+      ]
+    ]
+  },
+  "risk_assessment": {
+    "title": [
+      "Черновик оценки климатических рисков",
+      "Draft climate risk assessment",
+      "气候风险评估草稿"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Объект и горизонт",
+        "Object and horizon",
+        "对象与时段"
+      ],
+      [
+        "Опасности",
+        "Hazards",
+        "危险"
+      ],
+      [
+        "Экспозиция и уязвимость",
+        "Exposure and vulnerability",
+        "暴露度与脆弱性"
+      ],
+      [
+        "Матрица рисков",
+        "Risk matrix",
+        "风险矩阵"
+      ],
+      [
+        "Приоритеты",
+        "Priorities",
+        "优先事项"
+      ]
+    ]
+  },
+  "adaptation_plan": {
+    "title": [
+      "Черновик плана адаптации к изменению климата",
+      "Draft climate adaptation plan",
+      "气候适应计划草稿"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Риски",
+        "Risks",
+        "风险"
+      ],
+      [
+        "Меры",
+        "Measures",
+        "措施"
+      ],
+      [
+        "Ответственные и сроки",
+        "Owners and dates",
+        "负责人与期限"
+      ],
+      [
+        "Индикаторы",
+        "Indicators",
+        "指标"
+      ],
+      [
+        "Финансирование",
+        "Funding",
+        "资金"
+      ],
+      [
+        "Мониторинг",
+        "Monitoring",
+        "监测"
+      ]
+    ]
+  },
+  "ghg_report": {
+    "title": [
+      "Черновик отчёта о выбросах парниковых газов",
+      "Draft greenhouse gas inventory report",
+      "温室气体排放报告草稿"
+    ],
+    "format": "xlsx",
+    "sections": [
+      [
+        "Организация и год",
+        "Organisation and year",
+        "组织与年份"
+      ],
+      [
+        "Источники",
+        "Sources",
+        "来源"
+      ],
+      [
+        "Данные о деятельности",
+        "Activity data",
+        "活动数据"
+      ],
+      [
+        "Методики и коэффициенты",
+        "Methods and factors",
+        "方法与系数"
+      ],
+      [
+        "Выбросы по газам и CO2-экв",
+        "Gas emissions and CO2 equivalent",
+        "分气体排放量与二氧化碳当量"
+      ],
+      [
+        "Итог",
+        "Totals",
+        "汇总"
+      ]
+    ]
+  },
+  "project_concept": {
+    "title": [
+      "Черновик концепции климатического проекта",
+      "Draft climate project concept",
+      "气候项目概念草稿"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Описание",
+        "Description",
+        "说明"
+      ],
+      [
+        "Базовая линия",
+        "Baseline",
+        "基准线"
+      ],
+      [
+        "Проектный сценарий",
+        "Project scenario",
+        "项目情景"
+      ],
+      [
+        "Расчёт сокращений",
+        "Reduction calculation",
+        "减排量计算"
+      ],
+      [
+        "Мониторинг",
+        "Monitoring",
+        "监测"
+      ],
+      [
+        "Валидация и верификация",
+        "Validation and verification",
+        "审定与核查"
+      ],
+      [
+        "Экономика",
+        "Economics",
+        "经济分析"
+      ]
+    ]
+  },
+  "design_climate_note": {
+    "title": [
+      "Выбранные климатические параметры для проектирования",
+      "Selected climate parameters for design",
+      "设计所用的已选气候参数"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Пункт и станция",
+        "Location and station",
+        "地点与站点"
+      ],
+      [
+        "Параметры и значения",
+        "Parameters and values",
+        "参数与数值"
+      ],
+      [
+        "Нормативный документ и редакция",
+        "Normative document and edition",
+        "规范文件与版本"
+      ],
+      [
+        "Ограничения",
+        "Limitations",
+        "限制"
+      ]
+    ]
+  }
+}

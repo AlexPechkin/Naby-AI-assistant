@@ -1,0 +1,577 @@
+{
+  "conditional_selected_data_analysis": [
+    "Условный анализ выбранных данных",
+    "Conditional analysis of selected data",
+    "所选数据的条件性分析"
+  ],
+  "exact_finite_inputs_rational_predicates_decimal180_transcendentals": [
+    "Точные конечные входы и рациональные сравнения; приближённые функции и вывод180значащихцифр — это вычислительная точность",
+    "Exact finite inputs and rational predicates; approximate functions and180-digit output describe arithmetic precision",
+    "有限输入和有理数比较为精确；近似函数及180位输出仅描述计算精度"
+  ],
+  "questions": [
+    "Вопросы для выбора исходных данных",
+    "Questions to select input data",
+    "选择输入数据的问题"
+  ],
+  "review": [
+    "Проверка выбранного набора",
+    "Review selected dataset",
+    "审查所选数据集"
+  ],
+  "purpose_variable_period_resolution": [
+    "Уточнить задачу, переменную, период и разрешение",
+    "Clarify purpose, variable, period and resolution",
+    "明确目的、变量、时段和分辨率"
+  ],
+  "selected_station_grid_versions_units_calendar": [
+    "Выбрать станцию или сетку, версии, единицы и календарь",
+    "Select station/grid, versions, units and calendar",
+    "选择站点或网格、版本、单位及日历"
+  ],
+  "missing_quality_flags_station_moves_homogeneity": [
+    "Предоставить пропуски, флаги качества и сведения о переносах и однородности",
+    "Provide gaps, quality flags, station moves and homogeneity evidence",
+    "提供缺失、质量标志、站点迁移及均一性证据"
+  ],
+  "license_citation_update_date": [
+    "Выбрать лицензию, правила цитирования и дату версии",
+    "Select license, citation terms and version date",
+    "选择许可、引用要求和版本日期"
+  ],
+  "station": [
+    "Станционный ряд",
+    "Station series",
+    "站点序列"
+  ],
+  "reanalysis": [
+    "Реанализ",
+    "Reanalysis",
+    "再分析"
+  ],
+  "satellite": [
+    "Спутниковые данные",
+    "Satellite data",
+    "卫星数据"
+  ],
+  "model": [
+    "Модельный ряд",
+    "Model series",
+    "模式序列"
+  ],
+  "external_derived": [
+    "Предоставленный производный результат",
+    "Provided derived result",
+    "提供的派生结果"
+  ],
+  "gregorian": [
+    "Григорианский календарь",
+    "Gregorian calendar",
+    "公历"
+  ],
+  "365_day": [
+    "Календарь без високосного дня",
+    "365-day no-leap calendar",
+    "365天无闰日日历"
+  ],
+  "360_day": [
+    "Календарь360дней",
+    "360-day calendar",
+    "360天日历"
+  ],
+  "monthly": [
+    "Месячные значения",
+    "Monthly values",
+    "月值"
+  ],
+  "daily": [
+    "Суточные значения",
+    "Daily values",
+    "日值"
+  ],
+  "annual": [
+    "Год",
+    "Year",
+    "年"
+  ],
+  "valid": [
+    "Флаг поставщика: допустимое значение",
+    "Provider flag: valid",
+    "提供方标志：有效"
+  ],
+  "suspect": [
+    "Флаг поставщика: сомнительное",
+    "Provider flag: suspect",
+    "提供方标志：可疑"
+  ],
+  "missing": [
+    "Значение отсутствует",
+    "Missing value",
+    "值缺失"
+  ],
+  "unreviewed": [
+    "Качество не рассмотрено",
+    "Quality unreviewed",
+    "质量未审查"
+  ],
+  "standard_normal_candidate": [
+    "Кандидат стандартной30-летней нормы; официальный статус не установлен",
+    "Candidate30-year standard normal; official status not established",
+    "30年标准值候选；官方状态未确定"
+  ],
+  "selected_period_average": [
+    "Среднее за выбранный период",
+    "Selected-period average",
+    "所选时段平均值"
+  ],
+  "equal_month_mean": [
+    "Среднее с равными весами месяцев",
+    "Equal-month arithmetic mean",
+    "月份等权算术平均"
+  ],
+  "calendar_day_weighted_mean": [
+    "Среднее с весами по числу календарных дней",
+    "Mean weighted by calendar-day counts",
+    "按日历天数加权的平均值"
+  ],
+  "monthly_total_sum": [
+    "Сумма месячных накоплений",
+    "Sum of monthly totals",
+    "月累计量之和"
+  ],
+  "selected_completeness_met": [
+    "Выбранный критерий полноты выполнен",
+    "Selected completeness criterion met",
+    "满足所选完整性标准"
+  ],
+  "normal_unavailable_insufficient_years": [
+    "Норма не вычислялась: недостаточно допустимых лет",
+    "Normal unavailable: insufficient valid years",
+    "标准值不可得：有效年份不足"
+  ],
+  "computed": [
+    "Вычислено по выбранным данным",
+    "Computed from selected data",
+    "根据所选数据计算"
+  ],
+  "unavailable_missing_target_or_normal": [
+    "Не вычислялось: отсутствует целевое значение или норма",
+    "Unavailable: target value or normal missing",
+    "未计算：目标值或标准值缺失"
+  ],
+  "explicit_selected_comparison_years": [
+    "Только явно выбранные годы сравнения",
+    "Only explicitly selected comparison years",
+    "仅限明确选择的比较年份"
+  ],
+  "DJF": [
+    "Зима DJF: декабрь предыдущего года",
+    "DJF: December in previous year",
+    "DJF冬季：十二月属于上一年"
+  ],
+  "MAM": [
+    "Весна MAM",
+    "MAM spring",
+    "MAM春季"
+  ],
+  "JJA": [
+    "Лето JJA",
+    "JJA summer",
+    "JJA夏季"
+  ],
+  "SON": [
+    "Осень SON",
+    "SON autumn",
+    "SON秋季"
+  ],
+  "month": [
+    "Месяц",
+    "Month",
+    "月"
+  ],
+  "iid_assumed": [
+    "Независимость наблюдений принята как предположение",
+    "IID assumption selected",
+    "选定独立同分布假设"
+  ],
+  "hamed_rao_rank_variance": [
+    "Знаковая поправка дисперсии по ранговой автокорреляции Хамеда—Рао",
+    "Signed Hamed–Rao rank variance correction",
+    "Hamed–Rao秩自相关有符号方差修正"
+  ],
+  "tau_a_S_over_all_pairs": [
+    "Тау-а: сумма знаков, делённая на все пары",
+    "Tau-a: score divided by all pairs",
+    "Tau-a：符号统计量除以所有成对数"
+  ],
+  "conditional_asymptotic_test": [
+    "Условный асимптотический тест",
+    "Conditional asymptotic test",
+    "条件性渐近检验"
+  ],
+  "correction_unavailable_irregular_years": [
+    "Поправка недоступна: нерегулярные интервалы лет",
+    "Correction unavailable: irregular year spacing",
+    "修正不可得：年份间隔不规则"
+  ],
+  "rank_correlation_unavailable_constant_detrended_series": [
+    "После удаления тренда ранговая корреляция не определяется",
+    "Rank correlation undefined for constant detrended series",
+    "去趋势序列恒定，秩相关未定义"
+  ],
+  "nonpositive_variance_correction_unavailable": [
+    "Поправка не используется: неположительная скорректированная дисперсия",
+    "Correction unavailable: nonpositive corrected variance",
+    "修正不可用：修正方差非正"
+  ],
+  "constant_series_test_unavailable": [
+    "Постоянный ряд: наклон описан, тест не определяется",
+    "Constant series: descriptive slope, test unavailable",
+    "序列恒定：描述性斜率可得，检验不可得"
+  ],
+  "binary64_erfc_of_decimal_z_approximation": [
+    "Приближение через erfc в двойной точности; не точная вероятность",
+    "Binary64 erfc approximation; not an exact probability",
+    "双精度erfc近似；并非精确概率"
+  ],
+  "conservative_outward_sen_rank_normal_approximation": [
+    "Консервативный ранговый интервал Сена с внешним округлением рангов и нормальным приближением",
+    "Conservative outward Sen-rank interval using a normal approximation",
+    "采用正态近似、秩端点向外取整的保守Sen区间"
+  ],
+  "complete_selected_window": [
+    "Полное выбранное окно",
+    "Complete selected window",
+    "所选窗口完整"
+  ],
+  "observed_segments_only": [
+    "Только наблюдённые непрерывные фрагменты",
+    "Observed contiguous segments only",
+    "仅已观测连续片段"
+  ],
+  "reset_at_selected_window_no_gap_bridging": [
+    "Серии начинаются заново на границе окна; пропуски не соединяются",
+    "Runs reset at window boundary; gaps are not bridged",
+    "在窗口边界重置连续段；不跨越缺失日期"
+  ],
+  "undefined_no_wet_days": [
+    "Не определяется: влажных дней нет",
+    "Undefined: no wet days",
+    "未定义：无湿日"
+  ],
+  "unavailable_incomplete_or_insufficient_window": [
+    "Не вычислялось: неполное или слишком короткое окно",
+    "Unavailable: incomplete or insufficient window",
+    "不可得：窗口不完整或过短"
+  ],
+  "gumbel_l_moments": [
+    "Распределение Гумбеля по L-моментам",
+    "Gumbel L-moment fit",
+    "Gumbel分布L矩拟合"
+  ],
+  "selected_gev_parameters": [
+    "Квантили по предоставленным параметрам GEV",
+    "Quantiles from provided GEV parameters",
+    "根据提供的GEV参数计算分位数"
+  ],
+  "fitted_gumbel_l_moments": [
+    "Параметры Гумбеля оценены по выбранным максимумам",
+    "Gumbel parameters fitted to selected maxima",
+    "已根据所选最大值拟合Gumbel参数"
+  ],
+  "fit_unavailable_constant_blocks": [
+    "Оценка недоступна: постоянные максимумы блоков",
+    "Fit unavailable: constant block maxima",
+    "拟合不可得：分块最大值恒定"
+  ],
+  "selected_fit": [
+    "Выбранная внешняя оценка параметров",
+    "Selected external parameter fit",
+    "所选外部参数拟合"
+  ],
+  "GEV_xi_positive_heavy_tail_gumbel_xi_zero": [
+    "Параметр ξ>0 означает тяжёлый хвост; ξ=0 — Гумбель",
+    "GEV ξ>0 is heavy-tailed; ξ=0 is Gumbel",
+    "GEV中ξ>0为重尾；ξ=0为Gumbel"
+  ],
+  "delete_one_jackknife_normal_approximation": [
+    "Детерминированный джекнайф с удалением одного блока и нормальным приближением",
+    "Deterministic delete-one jackknife normal approximation",
+    "确定性的逐一删除分块刀切法正态近似"
+  ],
+  "provided_replicate_min_max_not_confidence_interval": [
+    "Минимум и максимум предоставленных реплик; это не доверительный интервал",
+    "Minimum/maximum of provided replicates; not a confidence interval",
+    "提供的重复样本最小和最大值；不是置信区间"
+  ],
+  "calibrate_and_project": [
+    "Калибровка, отдельная проверка и выбранные проекции",
+    "Calibration, separate validation and selected projections",
+    "校准、独立验证和所选预估"
+  ],
+  "external_results_review": [
+    "Разбор предоставленных результатов движка",
+    "Review provided engine results",
+    "审查提供的引擎结果"
+  ],
+  "additive_mean": [
+    "Аддитивная поправка среднего",
+    "Additive mean correction",
+    "平均值加性修正"
+  ],
+  "multiplicative_mean": [
+    "Мультипликативная поправка среднего",
+    "Multiplicative mean correction",
+    "平均值乘性修正"
+  ],
+  "equal_selected_months": [
+    "Равные веса выбранных месячных пар",
+    "Equal weights for selected monthly pairs",
+    "所选月配对数据等权"
+  ],
+  "require_complete": [
+    "Требуется полный выбранный ансамблевый состав",
+    "Require complete selected ensemble panel",
+    "要求完整的所选集合成员组合"
+  ],
+  "renormalize_visible_missing": [
+    "Перенормировать по имеющимся моделям, явно показать отсутствующие",
+    "Renormalize available models and show missing members",
+    "按可用模式重新归一化，并明确缺失成员"
+  ],
+  "selected_hierarchical_descriptive_moments_not_probabilities_or_causal_partition": [
+    "Описательные моменты выбранной иерархии; не вероятности и не причинное разложение",
+    "Selected hierarchical descriptive moments; not probabilities or a causal partition",
+    "所选层级的描述性矩；不是概率或因果分解"
+  ],
+  "gridded_or_derived_data_are_not_station_observations": [
+    "Сеточный или производный продукт не является станционным наблюдением",
+    "Gridded/derived products are not station observations",
+    "网格或派生产品不是站点观测"
+  ],
+  "homogeneity_not_established": [
+    "Однородность ряда не установлена этим расчётом",
+    "Series homogeneity not established by this calculation",
+    "本计算未确立序列均一性"
+  ],
+  "reuse_permission_not_established": [
+    "Право повторного использования не установлено этим расчётом",
+    "Reuse permission not established by this calculation",
+    "本计算未确立再利用许可"
+  ],
+  "records_outside_selected_period": [
+    "Есть записи вне выбранного периода",
+    "Records exist outside selected period",
+    "存在所选时段之外的记录"
+  ],
+  "duplicate_coordinates_excluded_pending_resolution": [
+    "Повторные даты исключены из показателей до разрешения конфликта",
+    "Duplicate coordinates excluded pending resolution",
+    "重复日期已排除，待解决"
+  ],
+  "selected_period_has_missing_or_unusable_records": [
+    "В выбранном периоде есть отсутствующие или непригодные для расчёта записи",
+    "Selected period has missing or unusable records",
+    "所选时段存在缺失或计算不可用记录"
+  ],
+  "selected_range_flags_require_review_no_automatic_deletion": [
+    "Выходы за выбранный диапазон требуют рассмотрения; записи не удалены",
+    "Selected range flags need review; observations were not deleted",
+    "超出所选范围的记录需审查；未自动删除"
+  ],
+  "some_monthly_normals_unavailable": [
+    "Для части месяцев норма недоступна",
+    "Some monthly normals are unavailable",
+    "部分月份标准值不可得"
+  ],
+  "monthly_provider_quality_not_recomputed_from_raw_daily_data": [
+    "Флаги месячного продукта приняты от поставщика; полнота суточных данных здесь не пересчитывалась",
+    "Monthly provider flags used; raw daily completeness not recomputed here",
+    "采用月产品提供方标志；此处未重新计算日数据完整性"
+  ],
+  "station_homogeneity_and_official_normal_status_not_established": [
+    "Однородность и официальный статус нормы этим расчётом не установлены",
+    "Homogeneity and official-normal status not established here",
+    "本计算未确立均一性及官方标准值状态"
+  ],
+  "percent_anomaly_undefined_zero_normal": [
+    "Процентная аномалия не определяется при нулевой норме",
+    "Percent anomaly undefined at zero normal",
+    "标准值为零时百分比距平未定义"
+  ],
+  "rank_comparison_incomplete_members_visible": [
+    "Часть выбранных лет сравнения недоступна и показана явно",
+    "Some selected comparison years are unavailable and shown",
+    "部分所选比较年份不可得，已明确列出"
+  ],
+  "index_lag_is_not_one_year_for_irregular_series": [
+    "Лаг по позиции не равен одному году при нерегулярном ряде",
+    "Index lag is not one year for irregular series",
+    "不规则序列的位置滞后不等于一年"
+  ],
+  "dependence_correction_not_estimable": [
+    "Поправка на зависимость не оценивается по выбранному ряду",
+    "Dependence correction not estimable from selected series",
+    "无法根据所选序列估计依赖性修正"
+  ],
+  "constant_series_no_test_variance": [
+    "У постоянного ряда отсутствует дисперсия тестового статистика",
+    "Constant series has no test-statistic variance",
+    "恒定序列无检验统计量方差"
+  ],
+  "asymptotic_p_underflow_not_reported_as_zero": [
+    "Слишком малая приближённая p-величина не представлена как точный ноль",
+    "Underflowed approximate p-value is not reported as exact zero",
+    "下溢的近似p值未报告为精确零"
+  ],
+  "small_sample_asymptotic_trend_inference": [
+    "Малая выборка ограничивает асимптотические выводы",
+    "Small sample limits asymptotic inference",
+    "小样本限制渐近推断"
+  ],
+  "trend_years_irregular_sen_uses_actual_year_distances": [
+    "Годы нерегулярны; наклон Сена использует фактические интервалы лет",
+    "Years are irregular; Sen slope uses actual year distances",
+    "年份不规则；Sen斜率采用实际年份间距"
+  ],
+  "daily_missing_dates_no_annual_or_complete_window_claim": [
+    "Пропуски дат исключают заявление полного окна или годового индекса",
+    "Missing dates prevent a complete-window or annual-index claim",
+    "缺失日期使完整窗口或年度指数的声明不成立"
+  ],
+  "jackknife_fit_degenerate_interval_unavailable": [
+    "Одна из оценок с удалением блока вырождена; интервал недоступен",
+    "A leave-one fit is degenerate; interval unavailable",
+    "逐一删除分块的某次拟合退化；区间不可得"
+  ],
+  "selected_gev_parameter_uncertainty_not_supplied": [
+    "Не предоставлены реплики для неопределённости выбранных параметров GEV",
+    "Replicates for selected GEV parameter uncertainty not supplied",
+    "未提供用于所选GEV参数不确定性的重复参数"
+  ],
+  "stationarity_annual_block_independence_and_tail_model_not_established": [
+    "Стационарность, независимость годовых блоков и хвостовая модель не установлены",
+    "Stationarity, annual-block independence and tail adequacy not established",
+    "未确立平稳性、年度分块独立性及尾部模型适用性"
+  ],
+  "external_engine_results_reviewed_not_recomputed": [
+    "Предоставленные результаты движка разобраны, но не пересчитаны",
+    "Provided engine results reviewed, not recomputed",
+    "已审查提供的引擎结果，未重新计算"
+  ],
+  "calibration_does_not_cover_all_calendar_months": [
+    "Калибровка не покрывает все календарные месяцы",
+    "Calibration does not cover all calendar months",
+    "校准未涵盖全部日历月份"
+  ],
+  "compact_calibration_is_not_a_30_year_climatology": [
+    "Компактная калибровка не является30-летней климатологией",
+    "Compact calibration is not a30-year climatology",
+    "简短校准并非30年气候态"
+  ],
+  "bias_adjustment_does_not_establish_spatial_downscaling_skill": [
+    "Поправка смещения не доказывает качество пространственного даунскейлинга",
+    "Bias adjustment does not establish spatial downscaling skill",
+    "偏差订正并不确立空间降尺度技能"
+  ],
+  "ensemble_weights_renormalized_over_visible_selected_models": [
+    "Веса перенормированы по доступным моделям; отсутствующие указаны",
+    "Weights renormalized over available models; missing members shown",
+    "已按可用模式重新归一化权重；列出了缺失成员"
+  ],
+  "internal_variability_not_quantified_from_single_or_incomplete_realizations": [
+    "Внутренняя изменчивость не определена по одной или неполным реализациям",
+    "Internal variability not quantified from single/incomplete realizations",
+    "无法由单个或不完整实现量化内部变率"
+  ],
+  "model_independence_and_projection_skill_not_established": [
+    "Независимость моделей и качество проекций не установлены",
+    "Model independence and projection skill not established",
+    "未确立模式独立性和预估技能"
+  ],
+  "FD": [
+    "Морозные дни: TN<0°C",
+    "Frost days: TN<0°C",
+    "霜冻日：TN<0°C"
+  ],
+  "SU": [
+    "Летние дни: TX>25°C",
+    "Summer days: TX>25°C",
+    "夏日：TX>25°C"
+  ],
+  "ID": [
+    "Ледяные дни: TX<0°C",
+    "Ice days: TX<0°C",
+    "冰日：TX<0°C"
+  ],
+  "TR": [
+    "Тропические ночи: TN>20°C",
+    "Tropical nights: TN>20°C",
+    "热带夜：TN>20°C"
+  ],
+  "TXx": [
+    "Максимум суточных TX",
+    "Maximum daily TX",
+    "日最高温TX最大值"
+  ],
+  "TNx": [
+    "Максимум суточных TN",
+    "Maximum daily TN",
+    "日最低温TN最大值"
+  ],
+  "TXn": [
+    "Минимум суточных TX",
+    "Minimum daily TX",
+    "日最高温TX最小值"
+  ],
+  "TNn": [
+    "Минимум суточных TN",
+    "Minimum daily TN",
+    "日最低温TN最小值"
+  ],
+  "DTR": [
+    "Средний суточный диапазон TX−TN",
+    "Mean daily TX−TN range",
+    "平均日较差TX−TN"
+  ],
+  "Rx1day": [
+    "Максимальные суточные осадки",
+    "Maximum one-day precipitation",
+    "最大1日降水量"
+  ],
+  "Rx5day": [
+    "Максимум за5последовательных суток",
+    "Maximum consecutive5-day precipitation",
+    "连续5日最大降水量"
+  ],
+  "SDII": [
+    "Средние осадки во влажный день",
+    "Mean wet-day precipitation",
+    "湿日平均降水量"
+  ],
+  "R10mm": [
+    "Дни с осадками≥10мм",
+    "Days with precipitation≥10mm",
+    "降水量≥10毫米的日数"
+  ],
+  "R20mm": [
+    "Дни с осадками≥20мм",
+    "Days with precipitation≥20mm",
+    "降水量≥20毫米的日数"
+  ],
+  "CDD": [
+    "Максимальная непрерывная серия сухих дней",
+    "Longest consecutive dry-day run",
+    "最长连续干旱日数"
+  ],
+  "CWD": [
+    "Максимальная непрерывная серия влажных дней",
+    "Longest consecutive wet-day run",
+    "最长连续湿润日数"
+  ],
+  "PRCPTOT": [
+    "Сумма осадков влажных дней",
+    "Total wet-day precipitation",
+    "湿日降水总量"
+  ]
+}

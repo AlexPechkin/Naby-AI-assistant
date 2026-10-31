@@ -1,0 +1,327 @@
+{
+  "selected_record_identity_matches": [
+    "Идентичность выбранной записи совпадает",
+    "Selected record identity matches",
+    "所选记录身份匹配"
+  ],
+  "reported_findings_require_triage": [
+    "Сообщённые находки требуют разбора",
+    "Reported findings require triage",
+    "报告发现需进一步研判"
+  ],
+  "no_findings_in_supplied_response_only": [
+    "В предоставленном ответе находок нет; безопасность не установлена",
+    "No findings in supplied response only; safety not established",
+    "仅所提供响应中无发现；未确定安全性"
+  ],
+  "more_selected_pages_required": [
+    "Нужны следующие страницы выбранного ответа",
+    "Further selected response pages are required",
+    "需要所选响应的后续页"
+  ],
+  "provided_response_has_no_next_page_token": [
+    "В предоставленном ответе нет токена следующей страницы",
+    "Supplied response has no next-page token",
+    "所提供响应无下一页令牌"
+  ],
+  "affected_records_require_review": [
+    "Записи о затронутых пакетах требуют проверки",
+    "Affected-package records require review",
+    "受影响软件包记录需审查"
+  ],
+  "affected_package_records_not_supplied": [
+    "Записи о затронутом пакете не предоставлены",
+    "Affected-package records not supplied",
+    "未提供受影响软件包记录"
+  ],
+  "different_affected_package": [
+    "В записи указан другой пакет",
+    "Record identifies a different package",
+    "记录指向另一软件包"
+  ],
+  "version_list_contains_selected_version": [
+    "Список версий содержит выбранную версию",
+    "Version list contains selected version",
+    "版本列表包含所选版本"
+  ],
+  "range_present_not_evaluated": [
+    "Диапазон указан; инструмент его не вычислял",
+    "Range supplied; tool did not evaluate it",
+    "已提供范围；工具未求值"
+  ],
+  "selected_version_not_in_provided_version_list": [
+    "Выбранной версии нет в предоставленном списке",
+    "Selected version absent from supplied list",
+    "所选版本不在所提供列表中"
+  ],
+  "provided_record_requires_review": [
+    "Предоставленная запись требует проверки",
+    "Supplied record requires review",
+    "所提供记录需审查"
+  ],
+  "proposal_without_execution_evidence": [
+    "Предложение без свидетельств выполнения",
+    "Proposal without execution evidence",
+    "提议无执行证据"
+  ],
+  "numeric_counter_comparison_not_hardware_rollback_protection": [
+    "Числовое сравнение счётчиков не доказывает аппаратную защиту от отката",
+    "Numeric counter comparison does not establish hardware rollback protection",
+    "计数器数值比较不证明硬件防回滚"
+  ],
+  "selected_ordinal_cell": [
+    "Категория по выбранной порядковой матрице",
+    "Category from selected ordinal matrix",
+    "所选序数矩阵中的类别"
+  ],
+  "selected_cell_missing": [
+    "Выбранная ячейка матрицы отсутствует",
+    "Selected matrix cell is missing",
+    "缺少所选矩阵单元"
+  ],
+  "ordinal_categories_not_probability_or_expected_loss": [
+    "Порядковые категории не являются вероятностью или ожидаемым ущербом",
+    "Ordinal categories are not probability or expected loss",
+    "序数类别不是概率或期望损失"
+  ],
+  "provided_utf8_content_hash_mismatch": [
+    "Хеш предоставленного UTF‑8 текста не совпадает",
+    "Provided UTF-8 content hash differs",
+    "所提供UTF-8文本哈希不匹配"
+  ],
+  "provided_logical_content_encoded_utf8_not_original_file_bytes": [
+    "Предоставленный текст в UTF‑8; не исходные байты файла",
+    "Provided logical content encoded UTF-8; not original file bytes",
+    "所提供逻辑文本的UTF-8编码；非原始文件字节"
+  ],
+  "selected_license_statement_not_legal_compatibility_conclusion": [
+    "Выбранное лицензионное указание; правовая совместимость не установлена",
+    "Selected license statement; legal compatibility not established",
+    "所选许可声明；未确定法律兼容性"
+  ],
+  "provided_rights_claims_not_ownership_determination": [
+    "Предоставленные сведения о правах; правообладание не установлено",
+    "Supplied rights claims; ownership not determined",
+    "所提供权利主张；未确定权属"
+  ],
+  "private_registration_draft_not_submitted": [
+    "Локальный черновик регистрации; не подан",
+    "Private registration draft; not submitted",
+    "本地登记草稿；未提交"
+  ],
+  "provided_digest_not_binary_rehashed": [
+    "Предоставленный хеш; двоичный файл повторно не хешировался",
+    "Provided digest; binary was not rehashed",
+    "所提供摘要；未重新计算二进制文件哈希"
+  ],
+  "not_checked": [
+    "Не проверялось инструментом",
+    "Not checked by tool",
+    "工具未检查"
+  ],
+  "no_matching_execution": [
+    "Нет записи выполнения с совпадающим контекстом",
+    "No execution record with matching context",
+    "无上下文匹配的执行记录"
+  ],
+  "conflicting_supplied_statuses": [
+    "Предоставленные статусы противоречат друг другу",
+    "Supplied statuses conflict",
+    "所提供状态相互冲突"
+  ],
+  "not_requested": [
+    "Ветвь не запрошена",
+    "Branch not requested",
+    "未请求该分支"
+  ],
+  "no_expected_tests_supplied": [
+    "Ожидаемые тесты не предоставлены",
+    "Expected tests not supplied",
+    "未提供预期测试"
+  ],
+  "supplied_records_compared_only": [
+    "Сопоставлены только предоставленные записи",
+    "Only supplied records compared",
+    "仅比对所提供记录"
+  ],
+  "unconstrained_supplied_dependency_schedule_not_release_authorization": [
+    "График по предоставленным зависимостям без ресурсных ограничений; не разрешение выпуска",
+    "Supplied dependency schedule without resource constraints; not release authorization",
+    "基于所提供依赖的无资源约束计划；非发布许可"
+  ],
+  "component_vulnerability_evidence_not_supplied": [
+    "Свидетельства по уязвимостям компонента не предоставлены",
+    "Component vulnerability evidence not supplied",
+    "未提供组件漏洞证据"
+  ],
+  "threat_model_not_supplied": [
+    "Модель угроз не предоставлена",
+    "Threat model not supplied",
+    "未提供威胁模型"
+  ],
+  "rights_basis_not_supplied": [
+    "Основание сведений о правах не предоставлено",
+    "Rights basis not supplied",
+    "未提供权利依据"
+  ],
+  "test_not_reported_passed_in_matching_context": [
+    "Нет согласованной записи успешного теста с нужным контекстом",
+    "No consistent reported pass in matching context",
+    "无上下文匹配且一致的通过记录"
+  ],
+  "executions_without_selected_expected_test": [
+    "Записи выполнения без выбранного ожидаемого теста",
+    "Execution records without selected expected test",
+    "执行记录无对应所选预期测试"
+  ],
+  "supply_threat_model_and_update_context": [
+    "Предоставьте модель угроз и условия обновления",
+    "Supply threat model and update context",
+    "请提供威胁模型和更新上下文"
+  ],
+  "select_dated_requirements_and_component_evidence": [
+    "Выберите датированные требования и сведения о компонентах",
+    "Select dated requirements and component evidence",
+    "选择有日期的要求与组件证据"
+  ],
+  "select_recipient_document_standard_and_requested_materials": [
+    "Укажите адресата, стандарт и нужные материалы",
+    "Select recipient, document standard and requested materials",
+    "选择接收方、文档标准和所需材料"
+  ],
+  "supply_selected_rights_and_license_context_without_secrets": [
+    "Предоставьте выбранные основания прав и лицензий без секретов",
+    "Supply selected rights and license context without secrets",
+    "提供所选权利与许可依据，不含秘密"
+  ],
+  "select_requested_notes_test_ledger_or_schedule": [
+    "Выберите заметки, реестр тестов или график",
+    "Select requested notes, test ledger or schedule",
+    "选择发布说明、测试台账或计划"
+  ],
+  "supply_exact_build_image_board_and_test_identity": [
+    "Укажите точные идентификаторы сборки, образа, платы и теста",
+    "Supply exact build, image, board and test identity",
+    "提供构建、镜像、电路板与测试的准确标识"
+  ],
+  "draft_security_review_no_certification_or_vulnerability_clearance": [
+    "Черновой обзор безопасности без сертификации и заключения об отсутствии уязвимостей",
+    "Draft security review without certification or vulnerability clearance",
+    "安全审查草稿，无认证或漏洞清除结论"
+  ],
+  "private_document_drafts_no_legal_conclusion_or_registration": [
+    "Локальные черновики документов без правового заключения или регистрации",
+    "Private document drafts without legal conclusion or registration",
+    "本地文档草稿，无法律结论或登记"
+  ],
+  "private_release_draft_no_signing_publication_or_field_update": [
+    "Локальный черновик выпуска без подписи, публикации или обновления устройств",
+    "Private release draft without signing, publication or field update",
+    "本地发布草稿，无签名、发布或设备更新"
+  ],
+  "supplied_tool_record_not_execution_or_clearance": [
+    "Предоставленная запись инструмента; не выполнение и не заключение о безопасности",
+    "Supplied tool record; not execution or security clearance",
+    "所提供工具记录；非执行或安全结论"
+  ],
+  "supplied_DAG_calculated": [
+    "Расчёт по предоставленному графу зависимостей",
+    "Supplied dependency graph calculated",
+    "已计算所提供依赖图"
+  ],
+  "empty_task_graph_no_duration_estimated": [
+    "Граф задач пуст; длительность не оценивалась",
+    "Task graph is empty; duration not estimated",
+    "任务图为空；未估计时长"
+  ],
+  "not_supplied_no_freshness_established": [
+    "Дата запроса не предоставлена; свежесть не установлена",
+    "Query date not supplied; freshness not established",
+    "未提供查询日期；未确定时效性"
+  ],
+  "static_analysis": [
+    "Статический анализ",
+    "Static analysis",
+    "静态分析"
+  ],
+  "dependency_scan": [
+    "Анализ зависимостей",
+    "Dependency scan",
+    "依赖扫描"
+  ],
+  "configuration_review": [
+    "Обзор конфигурации",
+    "Configuration review",
+    "配置审查"
+  ],
+  "findings": [
+    "Находки сообщены",
+    "Findings reported",
+    "报告发现"
+  ],
+  "no_findings": [
+    "По записи находок нет",
+    "No findings in supplied record",
+    "所提供记录无发现"
+  ],
+  "incomplete": [
+    "Неполный анализ по записи",
+    "Incomplete in supplied record",
+    "所提供记录分析不完整"
+  ],
+  "error": [
+    "Ошибка по записи",
+    "Error in supplied record",
+    "所提供记录报告错误"
+  ],
+  "passed": [
+    "Успех по предоставленной записи",
+    "Pass in supplied record",
+    "所提供记录报告通过"
+  ],
+  "failed": [
+    "Сбой по предоставленной записи",
+    "Failure in supplied record",
+    "所提供记录报告失败"
+  ],
+  "blocked": [
+    "Блокировка по предоставленной записи",
+    "Blocked in supplied record",
+    "所提供记录报告阻塞"
+  ],
+  "not_run": [
+    "Не выполнялся по предоставленной записи",
+    "Not run in supplied record",
+    "所提供记录中未运行"
+  ],
+  "build_only": [
+    "Только сборка по предоставленной записи",
+    "Build-only in supplied record",
+    "所提供记录仅构建"
+  ],
+  "reported_passed_matching_context": [
+    "Успех сообщён; контекст совпадает",
+    "Pass reported; context matches",
+    "报告通过；上下文匹配"
+  ],
+  "reported_failed_matching_context": [
+    "Сбой сообщён; контекст совпадает",
+    "Failure reported; context matches",
+    "报告失败；上下文匹配"
+  ],
+  "reported_blocked_matching_context": [
+    "Блокировка сообщена; контекст совпадает",
+    "Blocked reported; context matches",
+    "报告阻塞；上下文匹配"
+  ],
+  "reported_not_run_matching_context": [
+    "Не выполнялся по записи; контекст совпадает",
+    "Not run in supplied record; context matches",
+    "所提供记录中未运行；上下文匹配"
+  ],
+  "reported_build_only_matching_context": [
+    "Только сборка по записи; контекст совпадает",
+    "Build-only in supplied record; context matches",
+    "所提供记录仅构建；上下文匹配"
+  ]
+}

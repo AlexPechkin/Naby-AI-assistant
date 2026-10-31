@@ -1,0 +1,2836 @@
+{
+  "fields": {
+    "function": [
+      "Функция",
+      "Function",
+      "功能"
+    ],
+    "as_of": [
+      "Дата анализа",
+      "Analysis date",
+      "分析日期"
+    ],
+    "jurisdiction": [
+      "Юрисдикция",
+      "Jurisdiction",
+      "司法辖区"
+    ],
+    "valuation_date": [
+      "Дата оценивания",
+      "Valuation date",
+      "评估日"
+    ],
+    "data_scope": [
+      "Состав данных",
+      "Data scope",
+      "数据范围"
+    ],
+    "currency": [
+      "Валюта",
+      "Currency",
+      "币种"
+    ],
+    "id": [
+      "Идентификатор",
+      "Identifier",
+      "标识符"
+    ],
+    "record_index": [
+      "Номер записи",
+      "Record number",
+      "记录序号"
+    ],
+    "name": [
+      "Наименование",
+      "Name",
+      "名称"
+    ],
+    "title": [
+      "Название",
+      "Title",
+      "标题"
+    ],
+    "type": [
+      "Тип",
+      "Type",
+      "类型"
+    ],
+    "kind": [
+      "Вид",
+      "Kind",
+      "类别"
+    ],
+    "status": [
+      "Состояние",
+      "Status",
+      "状态"
+    ],
+    "mode": [
+      "Режим",
+      "Mode",
+      "模式"
+    ],
+    "unit": [
+      "Единица",
+      "Unit",
+      "单位"
+    ],
+    "value": [
+      "Значение",
+      "Value",
+      "数值"
+    ],
+    "amount": [
+      "Сумма",
+      "Amount",
+      "金额"
+    ],
+    "date": [
+      "Дата",
+      "Date",
+      "日期"
+    ],
+    "source_reference": [
+      "Выбранный источник",
+      "Selected source",
+      "所选来源"
+    ],
+    "reference": [
+      "Ссылка на источник",
+      "Source reference",
+      "来源引用"
+    ],
+    "source_sha256": [
+      "Контрольная сумма источника SHA256",
+      "Source SHA256 digest",
+      "来源SHA256摘要"
+    ],
+    "segment_id": [
+      "Фрагмент источника",
+      "Source segment",
+      "来源片段"
+    ],
+    "quote": [
+      "Цитата источника",
+      "Source quotation",
+      "来源引文"
+    ],
+    "excerpt": [
+      "Выдержка источника",
+      "Source excerpt",
+      "来源摘录"
+    ],
+    "fact_id": [
+      "Идентификатор факта",
+      "Fact identifier",
+      "事实编号"
+    ],
+    "pointer": [
+      "Путь входного показателя",
+      "Input field path",
+      "输入字段路径"
+    ],
+    "rationale": [
+      "Основание",
+      "Rationale",
+      "依据"
+    ],
+    "input_sha256": [
+      "Контрольная сумма ввода SHA256",
+      "Input SHA256 digest",
+      "输入SHA256摘要"
+    ],
+    "source_semantics_verified": [
+      "Смысловая достоверность источника установлена",
+      "Source semantic validity established",
+      "已确定来源语义有效性"
+    ],
+    "current_legal_applicability_verified": [
+      "Текущая правовая применимость установлена",
+      "Current legal applicability established",
+      "已确定现行法律适用性"
+    ],
+    "assisted_draft": [
+      "Вспомогательный черновик",
+      "Assisted draft",
+      "辅助草稿"
+    ],
+    "analysis_only": [
+      "Только вспомогательный анализ",
+      "Assisted analysis only",
+      "仅辅助分析"
+    ],
+    "private": [
+      "Закрытые локальные сведения",
+      "Private local information",
+      "本地私密信息"
+    ],
+    "external_network_used": [
+      "Внешняя сеть использована",
+      "External network used",
+      "使用外部网络"
+    ],
+    "external_actions": [
+      "Внешние действия выполнены",
+      "External actions performed",
+      "执行外部操作"
+    ],
+    "tariffs_applied": [
+      "Тарифы введены в действие",
+      "Tariffs applied",
+      "费率已实施"
+    ],
+    "reserves_approved": [
+      "Резервы утверждены",
+      "Reserves approved",
+      "准备金已批准"
+    ],
+    "accounting_policy_approved": [
+      "Учётная политика утверждена",
+      "Accounting policy approved",
+      "会计政策已批准"
+    ],
+    "signature_applied": [
+      "Подпись применена",
+      "Signature applied",
+      "已签名"
+    ],
+    "report_submitted": [
+      "Отчёт отправлен",
+      "Report submitted",
+      "报告已提交"
+    ],
+    "professional_status_granted": [
+      "Профессиональный статус присвоен",
+      "Professional status granted",
+      "已授予专业资格"
+    ],
+    "evidence_gaps": [
+      "Недостающие сведения и вопросы",
+      "Evidence gaps and questions",
+      "证据缺口及问题"
+    ],
+    "notices": [
+      "Пояснения к результату",
+      "Result notices",
+      "结果说明"
+    ],
+    "assumptions": [
+      "Предположения",
+      "Assumptions",
+      "假设"
+    ],
+    "source_metadata": [
+      "Сведения об источнике",
+      "Source metadata",
+      "来源元数据"
+    ],
+    "selected_rule_metadata": [
+      "Сведения о выбранном правиле",
+      "Selected rule metadata",
+      "所选规则元数据"
+    ],
+    "document_identity": [
+      "Идентичность документа",
+      "Document identity",
+      "文件身份"
+    ],
+    "edition": [
+      "Редакция",
+      "Edition",
+      "版本"
+    ],
+    "publication_date": [
+      "Дата публикации",
+      "Publication date",
+      "发布日期"
+    ],
+    "effective_from": [
+      "Начало действия",
+      "Effective from",
+      "生效开始"
+    ],
+    "effective_to": [
+      "Окончание действия",
+      "Effective to",
+      "生效结束"
+    ],
+    "effective_date": [
+      "Дата начала действия",
+      "Effective date",
+      "生效日期"
+    ],
+    "not_after": [
+      "Известная конечная дата действия",
+      "Known effective end date",
+      "已知生效结束日"
+    ],
+    "retrospective_policy": [
+      "Подход к ретроспективной интерпретации",
+      "Retrospective interpretation policy",
+      "追溯解释政策"
+    ],
+    "period_start": [
+      "Начало периода",
+      "Period start",
+      "期间开始"
+    ],
+    "period_end": [
+      "Окончание периода",
+      "Period end",
+      "期间结束"
+    ],
+    "cutoff_date": [
+      "Дата среза",
+      "Cutoff date",
+      "截止日"
+    ],
+    "period": [
+      "Период",
+      "Period",
+      "期间"
+    ],
+    "year": [
+      "Год",
+      "Year",
+      "年份"
+    ],
+    "version": [
+      "Версия",
+      "Version",
+      "版本"
+    ],
+    "method": [
+      "Метод",
+      "Method",
+      "方法"
+    ],
+    "description": [
+      "Описание",
+      "Description",
+      "描述"
+    ],
+    "notes": [
+      "Замечания",
+      "Notes",
+      "备注"
+    ],
+    "limitations": [
+      "Ограничения",
+      "Limitations",
+      "限制"
+    ],
+    "scope": [
+      "Область проверки",
+      "Review scope",
+      "核查范围"
+    ],
+    "required": [
+      "Подтверждение контекста обязательно",
+      "Context confirmation required",
+      "须确认上下文"
+    ],
+    "received": [
+      "Подтверждение от вызывающего приложения получено",
+      "Calling-application confirmation received",
+      "已收到调用应用确认"
+    ],
+    "source": [
+      "Основание подтверждения",
+      "Confirmation source",
+      "确认依据"
+    ],
+    "contract_signature_established": [
+      "Юридическая подпись договора установлена",
+      "Contract signature established",
+      "已认定合同法律签署"
+    ],
+    "source_authenticity_established": [
+      "Подлинность источников установлена",
+      "Source authenticity established",
+      "已认定来源真实性"
+    ],
+    "legal_authority_established": [
+      "Правовые полномочия установлены",
+      "Legal authority established",
+      "已认定法律权限"
+    ],
+    "selected_document_count": [
+      "Число выбранных документов",
+      "Selected document count",
+      "所选文件数"
+    ],
+    "responsible": [
+      "Ответственный",
+      "Responsible person",
+      "责任人"
+    ],
+    "customer": [
+      "Заказчик",
+      "Customer",
+      "委托方"
+    ],
+    "executor": [
+      "Исполнитель",
+      "Practitioner",
+      "执行方"
+    ],
+    "objective": [
+      "Цель",
+      "Objective",
+      "目的"
+    ],
+    "object": [
+      "Объект оценивания",
+      "Valuation object",
+      "评估对象"
+    ],
+    "use": [
+      "Использование",
+      "Use",
+      "用途"
+    ],
+    "proposed": [
+      "Предложено",
+      "Proposed",
+      "拟议"
+    ],
+    "corrections": [
+      "Предлагаемые исправления",
+      "Proposed corrections",
+      "拟议修正"
+    ],
+    "sensitivity": [
+      "Чувствительность",
+      "Sensitivity",
+      "敏感性"
+    ],
+    "uncertainty": [
+      "Неопределённость",
+      "Uncertainty",
+      "不确定性"
+    ],
+    "results": [
+      "Результаты",
+      "Results",
+      "结果"
+    ],
+    "sources": [
+      "Источники",
+      "Sources",
+      "来源"
+    ],
+    "formula": [
+      "Формула",
+      "Formula",
+      "公式"
+    ],
+    "base": [
+      "База",
+      "Base",
+      "基础"
+    ],
+    "total": [
+      "Итого",
+      "Total",
+      "合计"
+    ],
+    "count": [
+      "Количество",
+      "Count",
+      "数量"
+    ],
+    "ratio": [
+      "Доля",
+      "Ratio",
+      "比例"
+    ],
+    "selected": [
+      "Выбрано",
+      "Selected",
+      "所选"
+    ],
+    "start_date": [
+      "Дата начала",
+      "Start date",
+      "开始日期"
+    ],
+    "end_date": [
+      "Дата окончания",
+      "End date",
+      "结束日期"
+    ],
+    "due_date": [
+      "Дата по записи или условному расчёту",
+      "Recorded or conditional due date",
+      "记录或条件计算到期日"
+    ],
+    "required_fields": [
+      "Обязательные поля",
+      "Required fields",
+      "必需字段"
+    ],
+    "field": [
+      "Поле",
+      "Field",
+      "字段"
+    ],
+    "record": [
+      "Запись",
+      "Record",
+      "记录"
+    ],
+    "records": [
+      "Записи",
+      "Records",
+      "记录"
+    ],
+    "error": [
+      "Ошибка",
+      "Error",
+      "错误"
+    ],
+    "gap": [
+      "Пробел",
+      "Gap",
+      "缺口"
+    ],
+    "topic": [
+      "Тема",
+      "Topic",
+      "主题"
+    ],
+    "evidence": [
+      "Предоставленные сведения",
+      "Supplied evidence",
+      "所供证据"
+    ],
+    "comparison": [
+      "Сопоставление",
+      "Comparison",
+      "比较"
+    ],
+    "reference_value": [
+      "Значение для сравнения",
+      "Reference value",
+      "比较值"
+    ],
+    "actual": [
+      "Предоставленное значение",
+      "Supplied value",
+      "提供值"
+    ],
+    "value_unit": [
+      "Единица значения",
+      "Value unit",
+      "数值单位"
+    ],
+    "arithmetic_precision_digits": [
+      "Число значащих цифр арифметики",
+      "Arithmetic precision digits",
+      "算术有效位数"
+    ],
+    "human_review_required": [
+      "Требуется профессиональная проверка",
+      "Professional review required",
+      "须专业核查"
+    ],
+    "IAS19_or_NPF_or_insurance_compliance_not_established": [
+      "Соответствие IAS 19 и требованиям НПФ или страхования не установлено",
+      "IAS 19, pension-fund or insurance compliance not established",
+      "未认定IAS 19、养老基金或保险合规"
+    ],
+    "IBNR": [
+      "Произошедшие незаявленные убытки IBNR",
+      "Incurred but not reported IBNR",
+      "已发生未报告赔款IBNR"
+    ],
+    "RBNS": [
+      "Заявленные неоплаченные убытки RBNS",
+      "Reported but not settled RBNS",
+      "已报未决赔款RBNS"
+    ],
+    "K": [
+      "Выбранный параметр кредибильности K",
+      "Selected credibility parameter K",
+      "所选可信度参数K"
+    ],
+    "Mack_estimate_not_performed": [
+      "Оценка по Маку не выполнялась",
+      "Mack estimate not performed",
+      "未执行Mack估计"
+    ],
+    "accounting_policy_adopted": [
+      "Учётная политика принята",
+      "Accounting policy adopted",
+      "已采纳会计政策"
+    ],
+    "accounting_reconciliation": [
+      "Сверка с бухгалтерским контролем",
+      "Accounting control reconciliation",
+      "会计控制勾稽"
+    ],
+    "acquisition_expense": [
+      "Расходы на привлечение",
+      "Acquisition expense",
+      "获取费用"
+    ],
+    "acquisition_policy": [
+      "Выбранный учёт расходов на привлечение",
+      "Selected acquisition accounting policy",
+      "所选获取费用政策"
+    ],
+    "active_probability_end": [
+      "Вероятность действующего состояния на конец года",
+      "Active probability at year end",
+      "年末有效状态概率"
+    ],
+    "active_probability_start": [
+      "Вероятность действующего состояния на начало года",
+      "Active probability at year start",
+      "年初有效状态概率"
+    ],
+    "actuary": [
+      "Предоставленные сведения об актуарии",
+      "Supplied actuary details",
+      "所供精算师资料"
+    ],
+    "addition_per_policy_year": [
+      "Надбавка на договоро год",
+      "Loading per policy year",
+      "每保单年附加"
+    ],
+    "admin_ratio": [
+      "Доля административных расходов",
+      "Administrative expense share",
+      "管理费用比例"
+    ],
+    "age": [
+      "Возраст в годах",
+      "Age in years",
+      "年龄年数"
+    ],
+    "age_months": [
+      "Срок развития в месяцах",
+      "Development age in months",
+      "发展月龄"
+    ],
+    "aggregation_basis": [
+      "Выбранная база агрегирования",
+      "Selected aggregation basis",
+      "所选汇总基础"
+    ],
+    "allowed_values": [
+      "Значения в выбранной таблице",
+      "Values in selected table",
+      "所选表数值"
+    ],
+    "alternative": [
+      "Альтернативное предположение",
+      "Alternative assumption",
+      "替代假设"
+    ],
+    "amount_basis": [
+      "База суммы",
+      "Amount basis",
+      "金额基础"
+    ],
+    "annual_severity_trend": [
+      "Годовой тренд размера убытка",
+      "Annual severity trend",
+      "年度赔款严重度趋势"
+    ],
+    "annual_trend_delta": [
+      "Изменение годового тренда",
+      "Annual trend change",
+      "年度趋势变化"
+    ],
+    "approval_granted": [
+      "Утверждение предоставлено инструментом",
+      "Approval granted by tool",
+      "工具已批准"
+    ],
+    "assessment_sections": [
+      "Предоставленные разделы оценивания",
+      "Supplied assessment sections",
+      "所供评估章节"
+    ],
+    "assets": [
+      "Активы",
+      "Assets",
+      "资产"
+    ],
+    "assets_total": [
+      "Всего активов",
+      "Total assets",
+      "资产总额"
+    ],
+    "assumption_metadata": [
+      "Основания предположений",
+      "Assumption metadata",
+      "假设依据"
+    ],
+    "assumption_reviews": [
+      "Проекты предположений и их основания",
+      "Proposed assumptions and bases",
+      "拟议假设及依据"
+    ],
+    "attained_age": [
+      "Достигнутый возраст",
+      "Attained age",
+      "到达年龄"
+    ],
+    "attributed_accrued_annual_pension": [
+      "Годовая пенсия за накопленный стаж",
+      "Annual pension attributed to accrued service",
+      "归属累计服务的年养老金"
+    ],
+    "attribution": [
+      "Выбранное распределение по стажу",
+      "Selected service attribution",
+      "所选服务归属"
+    ],
+    "average_claim": [
+      "Средний размер убытка",
+      "Average claim severity",
+      "平均赔款严重度"
+    ],
+    "average_claim_status": [
+      "Определённость среднего размера убытка",
+      "Average claim definition status",
+      "平均赔款定义状态"
+    ],
+    "balance_sheet": [
+      "Предоставленный баланс",
+      "Supplied balance sheet",
+      "所供资产负债表"
+    ],
+    "base_balance_sheet": [
+      "Исходный баланс",
+      "Baseline balance sheet",
+      "基础资产负债表"
+    ],
+    "base_required_capital": [
+      "Исходное выбранное требование к капиталу",
+      "Baseline selected capital requirement",
+      "基础所选资本要求"
+    ],
+    "base_within_selected_corridor": [
+      "Базовая ставка в выбранном коридоре",
+      "Base rate within selected corridor",
+      "基本费率在所选区间内"
+    ],
+    "basis": [
+      "База оценивания",
+      "Valuation basis",
+      "评估基础"
+    ],
+    "below_selected_claim_count": [
+      "Число убытков ниже выбранного порога",
+      "Claim count below selected threshold",
+      "赔案件数低于所选阈值"
+    ],
+    "below_selected_minimum": [
+      "Ниже выбранного минимума",
+      "Below selected minimum",
+      "低于所选最低值"
+    ],
+    "benefit_eligible": [
+      "Год входит в выбранный период выплат",
+      "Year within selected benefit period",
+      "年份属于所选给付期间"
+    ],
+    "benefit_present_value": [
+      "Приведённая стоимость выплат",
+      "Benefit present value",
+      "给付现值"
+    ],
+    "benefit_present_value_per_life": [
+      "Приведённая стоимость выплат на участника",
+      "Benefit present value per life",
+      "每人给付现值"
+    ],
+    "benefit_timing": [
+      "Момент выплаты",
+      "Benefit timing",
+      "给付时点"
+    ],
+    "calculation": [
+      "Условный расчёт даты",
+      "Conditional date calculation",
+      "条件日期计算"
+    ],
+    "calendar_reference": [
+      "Источник классификации календаря",
+      "Calendar classification source",
+      "日历分类来源"
+    ],
+    "candidate_deadline": [
+      "Условная крайняя дата",
+      "Conditional candidate deadline",
+      "条件候选截止日"
+    ],
+    "capital": [
+      "Разность активов и всех обязательств",
+      "Assets less all liabilities",
+      "资产减全部负债"
+    ],
+    "capital_change": [
+      "Изменение условного капитала",
+      "Conditional capital change",
+      "条件资本变化"
+    ],
+    "cashflow_review": [
+      "Предоставленные денежные потоки и их оценка",
+      "Supplied cash flows and valuation",
+      "所供现金流及估值"
+    ],
+    "category": [
+      "Выбранная категория",
+      "Selected category",
+      "所选类别"
+    ],
+    "cells": [
+      "Наблюдаемые ячейки треугольника",
+      "Observed triangle cells",
+      "已观察三角形单元"
+    ],
+    "change": [
+      "Изменение к базовой оценке",
+      "Change from baseline",
+      "较基础评估变化"
+    ],
+    "change_in_loss_component": [
+      "Изменение компонента убытка",
+      "Loss component change",
+      "亏损组成变化"
+    ],
+    "change_sign": [
+      "Соглашение о знаке изменения",
+      "Change sign convention",
+      "变化符号约定"
+    ],
+    "changes": [
+      "Предоставленные изменения",
+      "Supplied changes",
+      "所供变化"
+    ],
+    "claims": [
+      "Оценка убытков",
+      "Claims valuation",
+      "赔款评估"
+    ],
+    "claims_count": [
+      "Число убытков",
+      "Claim count",
+      "赔案件数"
+    ],
+    "claims_total": [
+      "Сумма убытков",
+      "Total claims",
+      "赔款总额"
+    ],
+    "clause_reviews": [
+      "Сопоставление предоставленных условий",
+      "Supplied clause review",
+      "所供条款核查"
+    ],
+    "client": [
+      "Заказчик",
+      "Customer",
+      "委托方"
+    ],
+    "closing_csm": [
+      "CSM на конец периода",
+      "Closing CSM",
+      "期末CSM"
+    ],
+    "closing_loss_component": [
+      "Компонент убытка на конец периода",
+      "Closing loss component",
+      "期末亏损组成"
+    ],
+    "closing_lrc_excluding_loss_component": [
+      "LRC на конец без компонента убытка",
+      "Closing LRC excluding loss component",
+      "期末LRC不含亏损组成"
+    ],
+    "codes": [
+      "Выявленные замечания",
+      "Findings",
+      "发现事项"
+    ],
+    "coefficient_product": [
+      "Произведение коэффициентов",
+      "Coefficient product",
+      "系数乘积"
+    ],
+    "coefficients": [
+      "Выбранные коэффициенты",
+      "Selected coefficients",
+      "所选系数"
+    ],
+    "cohort": [
+      "Годовая когорта",
+      "Annual cohort",
+      "年度组"
+    ],
+    "collectability_and_treaty_response_not_established": [
+      "Взыскуемость и покрытие перестрахованием не установлены",
+      "Collectability and treaty response not established",
+      "未认定可回收性及再保险响应"
+    ],
+    "comment": [
+      "Комментарий",
+      "Comment",
+      "评论"
+    ],
+    "commission_ratio": [
+      "Доля комиссии",
+      "Commission share",
+      "佣金比例"
+    ],
+    "compounding": [
+      "Соглашение о начислении ставки",
+      "Compounding convention",
+      "计息约定"
+    ],
+    "conditional_capital": [
+      "Условный капитал после сценария",
+      "Conditional stressed capital",
+      "条件压力后资本"
+    ],
+    "conditional_capital_ratio": [
+      "Условное отношение капитала к требованию",
+      "Conditional capital requirement ratio",
+      "条件资本要求比率"
+    ],
+    "conditional_ratio": [
+      "Условное отношение к требованию",
+      "Conditional requirement ratio",
+      "条件要求比率"
+    ],
+    "confidence_interval": [
+      "Статистический доверительный интервал",
+      "Statistical confidence interval",
+      "统计置信区间"
+    ],
+    "contradictions": [
+      "Различающиеся предоставленные формулировки",
+      "Conflicting supplied wording",
+      "所供冲突措辞"
+    ],
+    "control_amount": [
+      "Контрольная сумма",
+      "Control amount",
+      "控制金额"
+    ],
+    "control_value": [
+      "Контрольное значение",
+      "Control value",
+      "控制值"
+    ],
+    "corridor": [
+      "Выбранный тарифный коридор",
+      "Selected tariff corridor",
+      "所选费率区间"
+    ],
+    "count_start": [
+      "Правило включения начального дня",
+      "Start-day counting rule",
+      "起始日计数规则"
+    ],
+    "counted_dates": [
+      "Учтённые даты",
+      "Counted dates",
+      "计入日期"
+    ],
+    "credibility": [
+      "Выбранная модель кредибильности",
+      "Selected credibility model",
+      "所选可信度模型"
+    ],
+    "csm": [
+      "Маржа за предусмотренные договором услуги CSM",
+      "Contractual service margin CSM",
+      "合同服务边际CSM"
+    ],
+    "csm_before_service_release": [
+      "CSM до высвобождения за услуги",
+      "CSM before service release",
+      "服务释放前CSM"
+    ],
+    "csm_released": [
+      "CSM отнесённая на услуги периода",
+      "CSM released for current service",
+      "本期服务释放CSM"
+    ],
+    "csm_rollforward": [
+      "Движение CSM",
+      "CSM rollforward",
+      "CSM变动"
+    ],
+    "cumulative_factor": [
+      "Накопленный коэффициент развития",
+      "Cumulative development factor",
+      "累计发展因子"
+    ],
+    "cumulative_factors": [
+      "Накопленные коэффициенты развития",
+      "Cumulative development factors",
+      "累计发展因子"
+    ],
+    "current_unpaid": [
+      "Текущая оценка неоплаченных убытков",
+      "Current unpaid claim estimate",
+      "当前未付赔款估计"
+    ],
+    "data_responsibility": [
+      "Ответственность за данные",
+      "Data responsibility",
+      "数据责任"
+    ],
+    "data_review": [
+      "Проверка данных по предоставленному тексту",
+      "Supplied data review",
+      "所供数据核查"
+    ],
+    "dataset_reviews": [
+      "Проверки наборов данных",
+      "Dataset reviews",
+      "数据集核查"
+    ],
+    "day_interval": [
+      "Интервал дней",
+      "Day interval",
+      "计日区间"
+    ],
+    "death_probability": [
+      "Вероятность смерти в году",
+      "Death probability during year",
+      "年度死亡概率"
+    ],
+    "deductible": [
+      "Франшиза",
+      "Deductible",
+      "免赔额"
+    ],
+    "deferral_years": [
+      "Отсрочка в годах",
+      "Deferral years",
+      "递延年数"
+    ],
+    "delivery_date": [
+      "Предложенная дата передачи результата",
+      "Proposed delivery date",
+      "拟议交付日"
+    ],
+    "delta": [
+      "Предоставленное изменение",
+      "Supplied delta",
+      "所供变动"
+    ],
+    "denominator": [
+      "Знаменатель",
+      "Denominator",
+      "分母"
+    ],
+    "denominator_basis": [
+      "База знаменателя",
+      "Denominator basis",
+      "分母基础"
+    ],
+    "development_age": [
+      "Срок развития",
+      "Development age",
+      "发展龄期"
+    ],
+    "development_factors": [
+      "Коэффициенты развития",
+      "Development factors",
+      "发展因子"
+    ],
+    "difference": [
+      "Разность",
+      "Difference",
+      "差额"
+    ],
+    "direct_cost": [
+      "Прямые расходы сценария",
+      "Scenario direct cost",
+      "情景直接费用"
+    ],
+    "discount_curve": [
+      "Выбранная кривая дисконтирования",
+      "Selected discount curve",
+      "所选折现曲线"
+    ],
+    "discount_curve_metadata": [
+      "Источник кривой дисконтирования",
+      "Discount curve source metadata",
+      "折现曲线来源"
+    ],
+    "discount_factor": [
+      "Предоставленный дисконтирующий множитель",
+      "Supplied discount factor",
+      "提供的折现因子"
+    ],
+    "discount_factor_end": [
+      "Дисконтирующий множитель на конец года",
+      "Year-end discount factor",
+      "年末折现因子"
+    ],
+    "discount_factor_start": [
+      "Дисконтирующий множитель на начало года",
+      "Year-start discount factor",
+      "年初折现因子"
+    ],
+    "discount_rate_delta": [
+      "Изменение ставки дисконтирования",
+      "Discount rate change",
+      "折现率变化"
+    ],
+    "draft_task": [
+      "Проект актуарного задания",
+      "Draft actuarial engagement",
+      "精算任务草稿"
+    ],
+    "duplicate_excess_rows": [
+      "Избыточные строки по ключам дубликатов",
+      "Excess duplicate-key rows",
+      "重复键多余行"
+    ],
+    "duplicate_groups": [
+      "Группы повторяющихся ключей",
+      "Duplicate-key groups",
+      "重复键组"
+    ],
+    "earned_exposure": [
+      "Заработанная экспозиция",
+      "Earned exposure",
+      "已赚风险暴露"
+    ],
+    "earned_premium": [
+      "Заработанная премия",
+      "Earned premium",
+      "已赚保费"
+    ],
+    "earning_pattern": [
+      "Выбранная модель заработанности премии",
+      "Selected premium earning pattern",
+      "所选保费赚取模式"
+    ],
+    "eligibility": [
+      "Применимость требований",
+      "Eligibility",
+      "资格适用性"
+    ],
+    "eligibility_basis": [
+      "Предоставленное основание применимости",
+      "Supplied eligibility basis",
+      "所供适用依据"
+    ],
+    "eligibility_conclusion": [
+      "Вывод о применимости",
+      "Eligibility conclusion",
+      "适用性结论"
+    ],
+    "eligible_record_count": [
+      "Число записей без выявленных структурных замечаний",
+      "Records without detected structural findings",
+      "未发现结构问题的记录数"
+    ],
+    "employer_benefit_attribution": [
+      "Распределение пенсионной выплаты по стажу",
+      "Employer benefit service attribution",
+      "雇主给付服务归属"
+    ],
+    "engagement_status": [
+      "Состояние подтверждения контекста задания",
+      "Engagement context status",
+      "任务上下文状态"
+    ],
+    "entity_share_of_underlying_items": [
+      "Доля организации в базовых статьях",
+      "Entity share of underlying items",
+      "机构基础项目份额"
+    ],
+    "expense_present_value": [
+      "Приведённая стоимость расходов",
+      "Expense present value",
+      "费用现值"
+    ],
+    "expense_present_value_per_life": [
+      "Приведённая стоимость расходов на участника",
+      "Expense present value per life",
+      "每人费用现值"
+    ],
+    "experience_end": [
+      "Окончание периода опыта",
+      "Experience period end",
+      "经验期间结束"
+    ],
+    "experience_loss_cost": [
+      "Стоимость убытков по опыту на договоро год",
+      "Experience loss cost per policy year",
+      "每保单年经验损失成本"
+    ],
+    "experience_rows": [
+      "Периоды предоставленного опыта",
+      "Supplied experience periods",
+      "所供经验期间"
+    ],
+    "experience_start": [
+      "Начало периода опыта",
+      "Experience period start",
+      "经验期间开始"
+    ],
+    "exposure": [
+      "Экспозиция",
+      "Exposure",
+      "风险暴露"
+    ],
+    "exposure_reconciliation": [
+      "Сверка экспозиции",
+      "Exposure reconciliation",
+      "风险暴露勾稽"
+    ],
+    "exposure_unit": [
+      "Единица экспозиции",
+      "Exposure unit",
+      "风险暴露单位"
+    ],
+    "external_code_executed": [
+      "Внешний код исполнялся",
+      "External code executed",
+      "已执行外部代码"
+    ],
+    "factor": [
+      "Множитель",
+      "Factor",
+      "因子"
+    ],
+    "favourable_development": [
+      "Благоприятное развитие по выбранной базе",
+      "Favourable development on selected basis",
+      "所选基础有利发展"
+    ],
+    "fee_basis": [
+      "Основание выбранной переменной платы",
+      "Selected variable fee basis",
+      "所选可变费用依据"
+    ],
+    "fixed_expense_per_policy_year": [
+      "Постоянные расходы на договоро год",
+      "Fixed expense per policy year",
+      "每保单年固定费用"
+    ],
+    "frequency": [
+      "Частота убытков на договоро год",
+      "Claim frequency per policy year",
+      "每保单年赔案频率"
+    ],
+    "from_age": [
+      "Начальный срок развития",
+      "Development age from",
+      "发展起始龄期"
+    ],
+    "fulfilment_cashflows": [
+      "Денежные потоки выполнения договоров",
+      "Fulfilment cash flows",
+      "履约现金流"
+    ],
+    "future_service_change": [
+      "Изменение будущих услуг",
+      "Future service change",
+      "未来服务变化"
+    ],
+    "fx_csm_change": [
+      "Валютное изменение CSM",
+      "CSM currency translation change",
+      "CSM汇兑变化"
+    ],
+    "fx_loss_change": [
+      "Валютное изменение компонента убытка",
+      "Loss component currency change",
+      "亏损组成汇兑变化"
+    ],
+    "gmm_initial": [
+      "Условная первоначальная оценка GMM",
+      "Conditional initial GMM measurement",
+      "条件初始GMM计量"
+    ],
+    "gross_net": [
+      "База до или после перестрахования",
+      "Gross or net reinsurance basis",
+      "再保险前后基础"
+    ],
+    "gross_premium_per_policy_year": [
+      "Брутто премия на договоро год",
+      "Gross premium per policy year",
+      "每保单年毛保费"
+    ],
+    "gross_unpaid": [
+      "Неоплаченные убытки до перестрахования",
+      "Gross unpaid claims",
+      "再保险前未付赔款"
+    ],
+    "group_reviews": [
+      "Проверки групп договоров",
+      "Contract group reviews",
+      "合同组核查"
+    ],
+    "horizon_years": [
+      "Горизонт в годах",
+      "Horizon years",
+      "期限年数"
+    ],
+    "identical_dedup_candidate_amount": [
+      "Сумма после предлагаемого удаления идентичных строк",
+      "Candidate amount after identical deduplication",
+      "拟去除相同行后的金额"
+    ],
+    "identical_rows": [
+      "Строки полностью идентичны",
+      "Rows fully identical",
+      "行完全相同"
+    ],
+    "inflow": [
+      "Приток",
+      "Inflow",
+      "流入"
+    ],
+    "initial_csm": [
+      "Первоначальная CSM",
+      "Initial CSM",
+      "初始CSM"
+    ],
+    "initial_net_carrying_liability": [
+      "Первоначальное чистое балансовое обязательство",
+      "Initial net carrying liability",
+      "初始净账面负债"
+    ],
+    "initial_onerous_loss": [
+      "Первоначальный убыток обременительной группы",
+      "Initial onerous group loss",
+      "初始亏损合同组损失"
+    ],
+    "input_basis": [
+      "База исходных сумм",
+      "Input amount basis",
+      "输入金额基础"
+    ],
+    "insurance_class": [
+      "Вид страхования",
+      "Insurance class",
+      "保险类别"
+    ],
+    "insured_sum_rate": [
+      "Годовая доля брутто премии от страховой суммы",
+      "Annual gross premium to sum insured ratio",
+      "年度毛保费与保额比率"
+    ],
+    "insured_sum_rate_unit": [
+      "Единица годовой ставки от страховой суммы",
+      "Annual sum-insured rate unit",
+      "年度保额费率单位"
+    ],
+    "interest_accretion": [
+      "Предоставленное начисление процентов",
+      "Supplied interest accretion",
+      "所供利息累积"
+    ],
+    "item_id": [
+      "Идентификатор статьи",
+      "Item identifier",
+      "项目编号"
+    ],
+    "key": [
+      "Ключ сопоставления",
+      "Matching key",
+      "匹配键"
+    ],
+    "lapse_model": [
+      "Выбранная модель расторжения или выбытия",
+      "Selected lapse or withdrawal model",
+      "所选退保或退出模型"
+    ],
+    "lapse_probability": [
+      "Вероятность выбытия в году",
+      "Withdrawal probability during year",
+      "年度退出概率"
+    ],
+    "legal_applicability": [
+      "Правовая применимость",
+      "Legal applicability",
+      "法律适用性"
+    ],
+    "liabilities": [
+      "Все обязательства",
+      "All liabilities",
+      "全部负债"
+    ],
+    "liabilities_total": [
+      "Итого всех обязательств",
+      "Total liabilities",
+      "负债总额"
+    ],
+    "liability_basis": [
+      "База состава обязательств",
+      "Liability perimeter basis",
+      "负债范围基础"
+    ],
+    "limit": [
+      "Лимит",
+      "Limit",
+      "限额"
+    ],
+    "loads": [
+      "Нагрузка в премии",
+      "Premium loads",
+      "保费加载"
+    ],
+    "local_id": [
+      "Локальный идентификатор",
+      "Local identifier",
+      "本地编号"
+    ],
+    "loss_basis": [
+      "База убытков",
+      "Loss basis",
+      "损失基础"
+    ],
+    "loss_component_before_service_allocation": [
+      "Компонент убытка до распределения на услуги",
+      "Loss component before service allocation",
+      "服务分摊前亏损组成"
+    ],
+    "loss_cost_date": [
+      "Дата стоимости убытка",
+      "Loss cost date",
+      "损失成本日期"
+    ],
+    "loss_reversal": [
+      "Восстановление ранее признанного убытка",
+      "Loss reversal",
+      "亏损转回"
+    ],
+    "loss_test": [
+      "Предоставленная проверка обременительности",
+      "Supplied onerous loss test",
+      "所供亏损测试"
+    ],
+    "lrc_including_loss_component": [
+      "LRC с компонентом убытка",
+      "LRC including loss component",
+      "含亏损组成的LRC"
+    ],
+    "matches_proposed_literal": [
+      "Формулировка совпадает с проектом дословно",
+      "Wording matches proposal literally",
+      "措辞与提案逐字一致"
+    ],
+    "maximum": [
+      "Максимум",
+      "Maximum",
+      "上限"
+    ],
+    "maximum_inclusive": [
+      "Верхняя граница включается",
+      "Upper bound inclusive",
+      "含上限"
+    ],
+    "metadata": [
+      "Сведения об источнике",
+      "Source metadata",
+      "来源元数据"
+    ],
+    "method_change_note": [
+      "Пояснение изменения метода",
+      "Method change note",
+      "方法变化说明"
+    ],
+    "method_comparison": [
+      "Сопоставление методов",
+      "Method comparison",
+      "方法比较"
+    ],
+    "methods": [
+      "Предоставленные методы",
+      "Supplied methods",
+      "所供方法"
+    ],
+    "minimum": [
+      "Минимум",
+      "Minimum",
+      "下限"
+    ],
+    "minimum_claims": [
+      "Выбранное минимальное число убытков",
+      "Selected minimum claim count",
+      "所选最低赔案件数"
+    ],
+    "minimum_inclusive": [
+      "Нижняя граница включается",
+      "Lower bound inclusive",
+      "含下限"
+    ],
+    "missing_clause_topics": [
+      "Темы без предоставленного условия",
+      "Topics without supplied clauses",
+      "未提供条款主题"
+    ],
+    "missing_field_counts": [
+      "Количество пропусков по полям",
+      "Missing field counts",
+      "字段缺失数"
+    ],
+    "model": [
+      "Выбранная модель",
+      "Selected model",
+      "所选模型"
+    ],
+    "model_parameters_estimated_from_data": [
+      "Параметры модели оценены из данных",
+      "Model parameters estimated from data",
+      "模型参数从数据估计"
+    ],
+    "model_scope": [
+      "Область применённой модели",
+      "Applied model scope",
+      "所用模型范围"
+    ],
+    "mortality_adjustment": [
+      "Выбранная поправка смертности",
+      "Selected mortality adjustment",
+      "所选死亡率调整"
+    ],
+    "mortality_multiplier": [
+      "Множитель смертности сценария",
+      "Scenario mortality multiplier",
+      "情景死亡率乘数"
+    ],
+    "mortality_projection": [
+      "Модель возрастных вероятностей смерти",
+      "Age-specific mortality projection",
+      "年龄死亡率模型"
+    ],
+    "mortality_tables": [
+      "Выбранные таблицы смертности",
+      "Selected mortality tables",
+      "所选死亡率表"
+    ],
+    "movements": [
+      "Предоставленные движения",
+      "Supplied movements",
+      "所供变动"
+    ],
+    "net_loss_cost": [
+      "Стоимость риска после выбранной кредибильности",
+      "Loss cost after selected credibility",
+      "所选可信度后的损失成本"
+    ],
+    "net_unpaid": [
+      "Неоплаченные убытки после перестрахования",
+      "Net unpaid claims",
+      "再保险后未付赔款"
+    ],
+    "new_loss_recognition": [
+      "Новое признание убытка",
+      "New loss recognition",
+      "新增亏损确认"
+    ],
+    "nominal_deadline": [
+      "Условная дата до переноса",
+      "Conditional unrolled date",
+      "条件未顺延日期"
+    ],
+    "nonvarying_fcf": [
+      "Неизменяемая часть FCF по выбранной базе",
+      "Selected nonvarying FCF",
+      "所选不变履约现金流"
+    ],
+    "number_of_lives": [
+      "Число участников в группе",
+      "Number of lives in group",
+      "组内人数"
+    ],
+    "numerator": [
+      "Числитель",
+      "Numerator",
+      "分子"
+    ],
+    "numeric_comparison": [
+      "Арифметическое сравнение с выбранным минимумом",
+      "Arithmetic comparison with selected minimum",
+      "与所选最低值算术比较"
+    ],
+    "observation_date": [
+      "Дата наблюдения",
+      "Observation date",
+      "观察日"
+    ],
+    "observed_factor": [
+      "Коэффициент по наблюдаемым парам",
+      "Observed paired development factor",
+      "观察配对发展因子"
+    ],
+    "observed_value": [
+      "Предоставленное наблюдаемое значение",
+      "Supplied observed value",
+      "所供观察值"
+    ],
+    "occurrence_date": [
+      "Дата события",
+      "Occurrence date",
+      "事故日期"
+    ],
+    "opening_csm": [
+      "CSM на начало периода",
+      "Opening CSM",
+      "期初CSM"
+    ],
+    "opening_lrc_excluding_loss_component": [
+      "LRC на начало без компонента убытка",
+      "Opening LRC excluding loss component",
+      "期初LRC不含亏损组成"
+    ],
+    "organization": [
+      "Организация",
+      "Organisation",
+      "机构"
+    ],
+    "organization_type": [
+      "Тип организации",
+      "Organisation type",
+      "机构类型"
+    ],
+    "origin_end_date": [
+      "Конец периода возникновения",
+      "Origin period end",
+      "事故期间结束"
+    ],
+    "origin_id": [
+      "Период возникновения",
+      "Origin period identifier",
+      "事故期间编号"
+    ],
+    "osago_review": [
+      "Проверка выбранных параметров ОСАГО",
+      "Selected OSAGO parameter review",
+      "所选OSAGO参数核查"
+    ],
+    "other_premium_caps_and_applicability_not_established": [
+      "Прочие пределы премии и применимость не установлены",
+      "Other premium caps and applicability not established",
+      "未认定其他保费上限及适用性"
+    ],
+    "outflow": [
+      "Отток",
+      "Outflow",
+      "流出"
+    ],
+    "overdue_at_as_of": [
+      "Предоставленная или условная дата прошла к дате анализа",
+      "Provided or conditional date passed at analysis date",
+      "提供或条件日期在分析日已过"
+    ],
+    "paa": [
+      "Условная ведомость PAA",
+      "Conditional PAA ledger",
+      "条件PAA台账"
+    ],
+    "paid": [
+      "Накопленные выплаты",
+      "Cumulative paid claims",
+      "累计已付赔款"
+    ],
+    "paid_since_previous": [
+      "Изменение выплат с прошлой оценки",
+      "Paid change since previous valuation",
+      "前次评估后已付变化"
+    ],
+    "paired_origins": [
+      "Число сопоставимых периодов",
+      "Number of paired origins",
+      "配对事故期间数"
+    ],
+    "participant_results": [
+      "Результаты по обезличенным участникам",
+      "De-identified participant results",
+      "去标识参与者结果"
+    ],
+    "payment_timing": [
+      "Момент выплаты",
+      "Payment timing",
+      "给付时点"
+    ],
+    "payment_years": [
+      "Продолжительность выплат в годах",
+      "Payment years",
+      "给付年数"
+    ],
+    "perimeter": [
+      "Периметр данных",
+      "Data perimeter",
+      "数据边界"
+    ],
+    "personal_data_local_only": [
+      "Персональные данные только локально",
+      "Personal data local only",
+      "个人数据仅本地"
+    ],
+    "points": [
+      "Точки кривой",
+      "Curve points",
+      "曲线点"
+    ],
+    "population": [
+      "Население или выборка таблицы",
+      "Table population",
+      "表人口范围"
+    ],
+    "population_scope": [
+      "Пригодность охвата населения по источнику",
+      "Source population scope",
+      "来源人口范围"
+    ],
+    "portfolio": [
+      "Портфель",
+      "Portfolio",
+      "组合"
+    ],
+    "positive_unpaid_base": [
+      "Положительная база неоплаченных убытков",
+      "Positive unpaid-claims base",
+      "正未付赔款基础"
+    ],
+    "practice_status": [
+      "Профессиональный статус",
+      "Practice status",
+      "执业状态"
+    ],
+    "premium": [
+      "Премия",
+      "Premium",
+      "保费"
+    ],
+    "premium_basis": [
+      "База премии",
+      "Premium basis",
+      "保费基础"
+    ],
+    "premium_factor_product_draft": [
+      "Проект произведения базовой ставки и коэффициентов",
+      "Draft base-rate and coefficient product",
+      "基本费率及系数乘积草稿"
+    ],
+    "premium_present_value": [
+      "Приведённая стоимость будущих премий",
+      "Future premium present value",
+      "未来保费现值"
+    ],
+    "premium_present_value_per_life": [
+      "Приведённая стоимость премий на участника",
+      "Premium present value per life",
+      "每人保费现值"
+    ],
+    "premium_reserving_basis": [
+      "База премии для резервирования",
+      "Premium reserving basis",
+      "准备金保费基础"
+    ],
+    "premium_unit": [
+      "Единица брутто премии",
+      "Gross premium unit",
+      "毛保费单位"
+    ],
+    "present_value": [
+      "Приведённая стоимость",
+      "Present value",
+      "现值"
+    ],
+    "present_value_basis": [
+      "База приведённой стоимости",
+      "Present value basis",
+      "现值基础"
+    ],
+    "present_value_outflow_minus_inflow": [
+      "Приведённая стоимость оттоков за вычетом притоков",
+      "Present value of outflows less inflows",
+      "流出减流入现值"
+    ],
+    "previous_method": [
+      "Метод прошлой оценки",
+      "Previous valuation method",
+      "前次评估方法"
+    ],
+    "prior_ELR": [
+      "Априорная доля убытков к премии",
+      "Prior expected loss ratio",
+      "先验预期赔付率"
+    ],
+    "prior_expected_ultimate": [
+      "Априорный ожидаемый конечный убыток",
+      "Prior expected ultimate claim",
+      "先验预期最终赔款"
+    ],
+    "prior_loss_cost": [
+      "Априорная стоимость убытков",
+      "Prior loss cost",
+      "先验损失成本"
+    ],
+    "prior_paid": [
+      "Выплаты на прошлую дату",
+      "Paid at previous date",
+      "前期已付"
+    ],
+    "prior_period": [
+      "Предыдущая оценка",
+      "Prior valuation",
+      "前期评估"
+    ],
+    "prior_unpaid": [
+      "Прошлая оценка неоплаченных убытков",
+      "Prior unpaid estimate",
+      "前期未付估计"
+    ],
+    "probabilities": [
+      "Вероятности",
+      "Probabilities",
+      "概率"
+    ],
+    "probability": [
+      "Вероятность",
+      "Probability",
+      "概率"
+    ],
+    "profit_ratio": [
+      "Доля прибыли",
+      "Profit share",
+      "利润比例"
+    ],
+    "profitability": [
+      "Предоставленная категория прибыльности",
+      "Supplied profitability category",
+      "所供盈利类别"
+    ],
+    "projected_retirement_salary": [
+      "Прогнозная зарплата к выходу на пенсию",
+      "Projected retirement salary",
+      "预计退休薪资"
+    ],
+    "projection_rows": [
+      "Годовой расчёт вероятностей и выплат",
+      "Annual probability and benefit projection",
+      "年度概率及给付推算"
+    ],
+    "proposal_insurer_decision_only": [
+      "Окончательное решение принимает страховщик",
+      "Insurer retains final decision",
+      "最终决定由保险公司作出"
+    ],
+    "proposed_corrections": [
+      "Предлагаемые исправления",
+      "Proposed corrections",
+      "拟议修正"
+    ],
+    "proposed_value": [
+      "Предлагаемое значение",
+      "Proposed value",
+      "拟议值"
+    ],
+    "provided_date": [
+      "Предоставленная дата",
+      "Provided date",
+      "提供日期"
+    ],
+    "provided_recoverable_total": [
+      "Сумма предоставленных перестраховочных возмещений",
+      "Total supplied reinsurance recoverables",
+      "所供再保险可收回总额"
+    ],
+    "provided_recoverables": [
+      "Предоставленные перестраховочные возмещения",
+      "Supplied reinsurance recoverables",
+      "所供再保险可收回款"
+    ],
+    "provided_values": [
+      "Предоставленные варианты значения",
+      "Supplied value variants",
+      "所供值版本"
+    ],
+    "purpose": [
+      "Цель",
+      "Purpose",
+      "目的"
+    ],
+    "pv_outflow_minus_inflow": [
+      "Приведённая стоимость чистого оттока",
+      "Present value of net outflow",
+      "净流出现值"
+    ],
+    "q_death": [
+      "Условная вероятность смерти в году",
+      "Conditional annual death probability",
+      "条件年度死亡概率"
+    ],
+    "q_lapse": [
+      "Условная вероятность выбытия в году",
+      "Conditional annual withdrawal probability",
+      "条件年度退出概率"
+    ],
+    "qualified_status_granted": [
+      "Квалификационный статус присвоен",
+      "Qualified status granted",
+      "已授予资格"
+    ],
+    "qx": [
+      "Возрастная вероятность смерти qx",
+      "Age-specific death probability qx",
+      "年龄死亡概率qx"
+    ],
+    "qx_multiplier": [
+      "Выбранный множитель qx",
+      "Selected qx multiplier",
+      "所选qx乘数"
+    ],
+    "rate": [
+      "Ставка в долях",
+      "Rate as ratio",
+      "比例利率"
+    ],
+    "raw_eligible_amount": [
+      "Сумма по структурно допустимым исходным строкам",
+      "Raw structurally eligible amount",
+      "原始结构合格行金额"
+    ],
+    "raw_eligible_exposure": [
+      "Экспозиция по структурно допустимым исходным строкам",
+      "Raw structurally eligible exposure",
+      "原始结构合格行暴露"
+    ],
+    "record_count": [
+      "Число записей",
+      "Record count",
+      "记录数"
+    ],
+    "records_changed": [
+      "Исходные записи изменены",
+      "Source records changed",
+      "已修改原始记录"
+    ],
+    "reference_date": [
+      "Дата выбранной базы",
+      "Selected reference date",
+      "所选基准日"
+    ],
+    "registry_identifier": [
+      "Предоставленный реестровый идентификатор",
+      "Supplied register identifier",
+      "所供登记编号"
+    ],
+    "regulatory_reconciliation": [
+      "Предоставленная сверка с локальными резервами",
+      "Supplied local-reserve reconciliation",
+      "所供本地准备金勾稽"
+    ],
+    "regulatory_reserve_compliance_not_established": [
+      "Нормативное соответствие резервов не установлено",
+      "Regulatory reserve compliance not established",
+      "未认定准备金监管合规"
+    ],
+    "regulatory_reserve_equivalence_not_established": [
+      "Эквивалентность нормативному резерву не установлена",
+      "Regulatory reserve equivalence not established",
+      "未认定等同监管准备金"
+    ],
+    "reinsurance_assets": [
+      "Перестраховочные активы",
+      "Reinsurance assets",
+      "再保险资产"
+    ],
+    "reinsurance_review": [
+      "Предоставленные суммы перестрахования",
+      "Supplied reinsurance amount review",
+      "所供再保险金额核查"
+    ],
+    "reliability": [
+      "Сопоставление с выбранным порогом данных",
+      "Comparison with selected data threshold",
+      "与所选数据阈值比较"
+    ],
+    "remaining_fcf": [
+      "Предоставленные FCF оставшегося покрытия",
+      "Supplied remaining-coverage FCF",
+      "所供剩余保障履约现金流"
+    ],
+    "reported": [
+      "Накопленные заявленные убытки включая выплаты",
+      "Cumulative reported claims including paid",
+      "含已付的累计已报赔款"
+    ],
+    "reported_date": [
+      "Дата заявления",
+      "Notification date",
+      "报案日期"
+    ],
+    "reporting_deadline": [
+      "Предоставленный или условный срок представления",
+      "Provided or conditional reporting deadline",
+      "提供或条件报告期限"
+    ],
+    "required_capital": [
+      "Выбранное требование к капиталу",
+      "Selected required capital",
+      "所选资本要求"
+    ],
+    "requirement_reviews": [
+      "Сопоставление выбранных требований и сведений",
+      "Selected requirement and evidence reviews",
+      "所选要求与证据核查"
+    ],
+    "reserve_reconciliation_difference": [
+      "Разность резервов и предоставленного итога",
+      "Reserve reconciliation difference",
+      "准备金勾稽差额"
+    ],
+    "reserve_selection_requires_insurer_and_actuary_review": [
+      "Выбор резерва требует решения страховщика и актуария",
+      "Reserve selection requires insurer and actuary review",
+      "准备金选择须保险公司及精算师核查"
+    ],
+    "reserves_subset": [
+      "Резервы как часть всех обязательств",
+      "Reserves as subset of all liabilities",
+      "准备金为全部负债子集"
+    ],
+    "result_usage": [
+      "Разрешённое использование результатов",
+      "Permitted result use",
+      "结果许可用途"
+    ],
+    "risk_adjustment": [
+      "Предоставленная рисковая поправка",
+      "Supplied risk adjustment",
+      "提供的风险调整"
+    ],
+    "risk_loading": [
+      "Выбранная рисковая надбавка",
+      "Selected risk loading",
+      "所选风险附加"
+    ],
+    "role": [
+      "Выбранная роль",
+      "Selected role",
+      "所选角色"
+    ],
+    "roll": [
+      "Правило переноса даты",
+      "Date rolling rule",
+      "日期顺延规则"
+    ],
+    "row_index": [
+      "Индекс исходной строки начиная с нуля",
+      "Source row index starting at zero",
+      "从零起的原始行索引"
+    ],
+    "row_indices": [
+      "Индексы исходных строк начиная с нуля",
+      "Source row indices starting at zero",
+      "从零起的原始行索引"
+    ],
+    "row_issues": [
+      "Замечания к исходным строкам",
+      "Source row findings",
+      "原始行问题"
+    ],
+    "rows": [
+      "Строки расчёта",
+      "Calculation rows",
+      "计算行"
+    ],
+    "runoff": [
+      "Проверка развития прошлой оценки",
+      "Prior valuation run off review",
+      "前期评估径流核查"
+    ],
+    "scenario_reviews": [
+      "Расчёт выбранных сценариев",
+      "Selected scenario calculations",
+      "所选情景计算"
+    ],
+    "scope_match": [
+      "Состав и период совпадают",
+      "Scope and period match",
+      "范围及期间一致"
+    ],
+    "selected_amount": [
+      "Сумма по выбранной базе",
+      "Amount on selected basis",
+      "所选基础金额"
+    ],
+    "selected_base_rate": [
+      "Выбранная базовая ставка",
+      "Selected base rate",
+      "所选基本费率"
+    ],
+    "selected_contract": [
+      "Предоставленный проект договора",
+      "Supplied contract draft",
+      "所供合同草稿"
+    ],
+    "selected_exposure": [
+      "Экспозиция по выбранной базе",
+      "Exposure on selected basis",
+      "所选基础暴露"
+    ],
+    "selected_factor": [
+      "Выбранный коэффициент",
+      "Selected factor",
+      "所选因子"
+    ],
+    "selected_minimum": [
+      "Выбранный минимум",
+      "Selected minimum",
+      "所选最低值"
+    ],
+    "selected_requirements": [
+      "Выбранные требования",
+      "Selected requirements",
+      "所选要求"
+    ],
+    "selected_reserves": [
+      "Оценки по явно выбранным методам",
+      "Estimates using explicitly selected methods",
+      "明确所选方法估计"
+    ],
+    "selected_rule": [
+      "Выбранное датированное правило",
+      "Selected dated rule",
+      "所选有日期规则"
+    ],
+    "selected_table_arithmetic_matches": [
+      "Арифметика соответствует выбранным таблицам",
+      "Arithmetic matches selected tables",
+      "算术符合所选表"
+    ],
+    "selected_threshold_not_legal_or_statistical_proof": [
+      "Выбранный порог не доказывает правовую или статистическую достаточность",
+      "Selected threshold is not legal or statistical proof",
+      "所选阈值不证明法律或统计充分性"
+    ],
+    "selected_unpaid": [
+      "Неоплаченные убытки по выбранным методам",
+      "Unpaid claims using selected methods",
+      "所选方法未付赔款"
+    ],
+    "selected_value_in_selected_table": [
+      "Значение присутствует в выбранной таблице",
+      "Selected value present in selected table",
+      "所选值在所选表中"
+    ],
+    "selected_variable_fee": [
+      "Переменная плата по выбранной базе",
+      "Selected variable fee",
+      "所选可变费用"
+    ],
+    "selection_basis": [
+      "Основание выбора",
+      "Selection basis",
+      "选择依据"
+    ],
+    "selection_rationale": [
+      "Обоснование выбора",
+      "Selection rationale",
+      "选择理由"
+    ],
+    "semantic_status": [
+      "Смысловая проверка",
+      "Semantic review status",
+      "语义核查状态"
+    ],
+    "settlement_expenses": [
+      "Расходы на урегулирование",
+      "Claim settlement expenses",
+      "理赔费用"
+    ],
+    "sex": [
+      "Пол по предоставленным сведениям",
+      "Sex in supplied records",
+      "所供记录性别"
+    ],
+    "side": [
+      "Сторона изменения баланса",
+      "Balance change side",
+      "资产负债变化侧"
+    ],
+    "sign_convention": [
+      "Соглашение о знаке",
+      "Sign convention",
+      "符号约定"
+    ],
+    "signed_lrc_change": [
+      "Изменение LRC со знаком",
+      "Signed LRC change",
+      "带符号LRC变化"
+    ],
+    "snapshot_date": [
+      "Дата предоставленного снимка",
+      "Supplied snapshot date",
+      "所供快照日期"
+    ],
+    "solvency_conclusion": [
+      "Вывод о платёжеспособности",
+      "Solvency conclusion",
+      "偿付能力结论"
+    ],
+    "source_edition": [
+      "Редакция источника",
+      "Source edition",
+      "来源版本"
+    ],
+    "source_publication_date": [
+      "Дата публикации источника",
+      "Source publication date",
+      "来源发布日期"
+    ],
+    "state": [
+      "Состояние предоставленных сведений",
+      "Supplied record state",
+      "所供记录状态"
+    ],
+    "statement": [
+      "Предоставленное описание неопределённости",
+      "Supplied uncertainty statement",
+      "所供不确定性说明"
+    ],
+    "statistical_confidence_level_not_inferred": [
+      "Статистический доверительный уровень не выводился",
+      "Statistical confidence level not inferred",
+      "未推断统计置信水平"
+    ],
+    "statistical_standard_error": [
+      "Статистическая стандартная ошибка",
+      "Statistical standard error",
+      "统计标准误差"
+    ],
+    "stressed_all_liabilities": [
+      "Все обязательства после сценария",
+      "All stressed liabilities",
+      "压力后全部负债"
+    ],
+    "stressed_assets_before_direct_cost": [
+      "Активы после сценария до прямых расходов",
+      "Stressed assets before direct cost",
+      "直接费用前压力资产"
+    ],
+    "stressed_reinsurance_assets": [
+      "Перестраховочные активы после сценария",
+      "Stressed reinsurance assets",
+      "压力后再保险资产"
+    ],
+    "stressed_required_capital": [
+      "Выбранное требование к капиталу после сценария",
+      "Stressed selected capital requirement",
+      "压力后所选资本要求"
+    ],
+    "subject_id": [
+      "Обезличенный идентификатор проверяемого лица",
+      "Pseudonymous subject identifier",
+      "去标识核查对象编号"
+    ],
+    "submission_performed": [
+      "Представление выполнено",
+      "Submission performed",
+      "已提交"
+    ],
+    "table_id": [
+      "Идентификатор таблицы",
+      "Table identifier",
+      "表编号"
+    ],
+    "tail_scenarios": [
+      "Явные сценарии хвоста",
+      "Explicit tail scenarios",
+      "明确尾部情景"
+    ],
+    "target_cost_date": [
+      "Дата приведения стоимости убытков",
+      "Target loss cost date",
+      "损失成本目标日"
+    ],
+    "to_age": [
+      "Конечный срок развития",
+      "Development age to",
+      "发展结束龄期"
+    ],
+    "total_days": [
+      "Всего дней покрытия",
+      "Total coverage days",
+      "保障总日数"
+    ],
+    "total_premium_fraction": [
+      "Суммарная доля нагрузки в премии",
+      "Total premium load share",
+      "保费加载总比例"
+    ],
+    "total_projected_annual_pension": [
+      "Полная прогнозная годовая пенсия",
+      "Total projected annual pension",
+      "预计年养老金总额"
+    ],
+    "total_with_settlement_expenses": [
+      "Итого с расходами на урегулирование",
+      "Total including settlement expenses",
+      "含理赔费用合计"
+    ],
+    "transition_note": [
+      "Предоставленная записка о переходе",
+      "Supplied transition note",
+      "所供过渡说明"
+    ],
+    "trend_convention": [
+      "Соглашение о времени тренда",
+      "Trend time convention",
+      "趋势计时约定"
+    ],
+    "trend_factor": [
+      "Множитель тренда",
+      "Trend factor",
+      "趋势因子"
+    ],
+    "trend_years": [
+      "Число лет тренда",
+      "Trend years",
+      "趋势年数"
+    ],
+    "trended_claims_total": [
+      "Сумма убытков после выбранного тренда",
+      "Claims total after selected trend",
+      "所选趋势后赔款总额"
+    ],
+    "triangle_rows": [
+      "Накопленные треугольники убытков",
+      "Cumulative claim triangles",
+      "累计赔款三角形"
+    ],
+    "ultimate": [
+      "Оценка конечного убытка",
+      "Ultimate claim estimate",
+      "最终赔款估计"
+    ],
+    "unaddressed_topics": [
+      "Темы без предоставленных требований",
+      "Topics without supplied requirements",
+      "未提供要求主题"
+    ],
+    "unearned_days": [
+      "Незаработанные дни покрытия",
+      "Unearned coverage days",
+      "未赚保障日数"
+    ],
+    "unearned_premium": [
+      "Незаработанная премия",
+      "Unearned premium",
+      "未到期保费"
+    ],
+    "unearned_share": [
+      "Незаработанная доля премии",
+      "Unearned premium share",
+      "未赚保费比例"
+    ],
+    "unpaid": [
+      "Все неоплаченные убытки",
+      "Total unpaid claims",
+      "未付赔款总额"
+    ],
+    "valid_to": [
+      "Предоставленная конечная дата сведений",
+      "Supplied record end date",
+      "所供记录结束日"
+    ],
+    "valuation_boundary": [
+      "Граница заработанности на дату оценки",
+      "Valuation earning boundary",
+      "评估赚取边界"
+    ],
+    "vfa_review": [
+      "Ограниченная проверка выбранной платы VFA",
+      "Bounded VFA fee review",
+      "有限VFA费用核查"
+    ],
+    "weight": [
+      "Вес собственного опыта",
+      "Own-experience weight",
+      "自身经验权重"
+    ],
+    "base_conditional_ratio": [
+      "Исходное условное отношение капитала к требованию",
+      "Baseline conditional capital requirement ratio",
+      "基础条件资本要求比率"
+    ],
+    "coverage_current": [
+      "Предоставленные единицы услуг текущего периода",
+      "Supplied current coverage units",
+      "所供本期服务单位"
+    ],
+    "coverage_future": [
+      "Предоставленные единицы будущих услуг",
+      "Supplied future coverage units",
+      "所供未来服务单位"
+    ],
+    "fx_mode": [
+      "Выбранный режим валютных изменений",
+      "Selected currency translation mode",
+      "所选汇兑变动模式"
+    ],
+    "loss_component_service_allocation": [
+      "Предоставленное распределение компонента убытка на услуги",
+      "Supplied loss component service allocation",
+      "所供亏损组成服务分摊"
+    ],
+    "opening_loss_component": [
+      "Компонент убытка на начало периода",
+      "Opening loss component",
+      "期初亏损组成"
+    ],
+    "reported_reserves": [
+      "Предоставленный контрольный итог резервов",
+      "Supplied reported reserve control total",
+      "所供准备金控制总额"
+    ],
+    "risk_basis": [
+      "Основание рисковой поправки",
+      "Risk adjustment basis",
+      "风险调整依据"
+    ],
+    "frequency_unit": [
+      "Единица частоты убытков",
+      "Claim frequency unit",
+      "赔案频率单位"
+    ],
+    "trended_average_claim": [
+      "Средний размер убытка после выбранного тренда",
+      "Average claim after selected trend",
+      "所选趋势后平均赔款"
+    ],
+    "claim_development_not_estimated": [
+      "Развитие убытков до конечной величины не оценивалось",
+      "Claim development to ultimate not estimated",
+      "未估计最终赔款发展"
+    ],
+    "publication_after_valuation": [
+      "Источник опубликован после даты оценивания",
+      "Source published after valuation date",
+      "来源于评估日后发布"
+    ],
+    "publication_cutoff": [
+      "Предельная дата публикации источника",
+      "Source publication cutoff",
+      "来源发布截止日"
+    ],
+    "effective_observation_cutoff": [
+      "Предельная дата наблюдений и применимости",
+      "Observation and effective-date cutoff",
+      "观察及适用截止日"
+    ],
+    "financing": [
+      "Предоставленное финансовое движение",
+      "Supplied financing movement",
+      "所供融资变动"
+    ],
+    "recommendations": [
+      "Предоставленные рекомендации",
+      "Supplied recommendations",
+      "所供建议"
+    ],
+    "triangle_age_date_convention": [
+      "Соглашение о календарных датах развития",
+      "Triangle development date convention",
+      "三角形发展日期约定"
+    ],
+    "reference_sum_insured_per_policy": [
+      "Представительская или средняя страховая сумма на один полис",
+      "Representative or average sum insured per policy",
+      "单一保单代表或平均保额"
+    ],
+    "stressed_reserves_subset": [
+      "Резервы как часть обязательств после сценария",
+      "Stressed reserves as a liability subset",
+      "压力后负债中的准备金子集"
+    ],
+    "paired_origin_count_below_two": [
+      "Для наблюдаемого коэффициента доступно менее двух парных периодов возникновения",
+      "Fewer than two paired origin periods are available for the observed factor",
+      "观察因子可用的配对事故期间少于两个"
+    ]
+  },
+  "tokens": {
+    "host_only_argument": [
+      "Контекст передан приложением отдельно от предложения модели",
+      "Context supplied by application separately from model proposal",
+      "上下文由应用单独于模型提案提供"
+    ],
+    "host_context_absent": [
+      "Контекст подтверждения не передан приложением",
+      "Confirmation context not supplied by application",
+      "应用未提供确认上下文"
+    ],
+    "review_gap": [
+      "Пробел для профессиональной проверки",
+      "Professional review gap",
+      "专业核查缺口"
+    ],
+    "selected_retroactive_interpretation": [
+      "Явно выбранная ретроспективная интерпретация",
+      "Explicitly selected retrospective interpretation",
+      "明确所选追溯解释"
+    ],
+    "experience": [
+      "Расчёт по предоставленному опыту",
+      "Supplied experience calculation",
+      "所供经验计算"
+    ],
+    "osago_review": [
+      "Проверка выбранных параметров ОСАГО",
+      "Selected OSAGO parameter review",
+      "所选OSAGO参数核查"
+    ],
+    "claims": [
+      "Оценка убытков",
+      "Claims valuation",
+      "赔款评估"
+    ],
+    "unearned_premium": [
+      "Незаработанная премия",
+      "Unearned premium",
+      "未到期保费"
+    ],
+    "comprehensive": [
+      "Совмещённая оценка выбранных частей",
+      "Combined selected component review",
+      "所选组成综合评估"
+    ],
+    "term_life": [
+      "Срочное страхование жизни",
+      "Term life insurance",
+      "定期寿险"
+    ],
+    "annuity": [
+      "Аннуитет по выбранной модели",
+      "Selected annuity model",
+      "所选年金模型"
+    ],
+    "employer_pension": [
+      "Пенсионный план работодателя",
+      "Employer pension plan",
+      "雇主养老金计划"
+    ],
+    "gross": [
+      "До перестрахования",
+      "Gross of reinsurance",
+      "再保险前"
+    ],
+    "net": [
+      "После перестрахования",
+      "Net of reinsurance",
+      "再保险后"
+    ],
+    "paid": [
+      "Накопленные выплаты",
+      "Cumulative paid claims",
+      "累计已付赔款"
+    ],
+    "reported": [
+      "Накопленные заявленные убытки включая выплаты",
+      "Cumulative reported claims including paid",
+      "含已付的累计已报赔款"
+    ],
+    "chain_ladder": [
+      "Цепная лестница",
+      "Chain ladder",
+      "链梯法"
+    ],
+    "bornhuetter_ferguson": [
+      "Метод Борнхюттера Фергюсона",
+      "Bornhuetter Ferguson method",
+      "Bornhuetter Ferguson法"
+    ],
+    "defined": [
+      "Определено для предоставленных данных",
+      "Defined for supplied data",
+      "对所供数据已定义"
+    ],
+    "undefined_zero_claim_count": [
+      "Не определено при нулевом числе убытков",
+      "Undefined with zero claim count",
+      "赔案件数为零时未定义"
+    ],
+    "not_estimated": [
+      "Не оценивалось из данных",
+      "Not estimated from data",
+      "未从数据估计"
+    ],
+    "buhlmann_straub_selected_K": [
+      "Модель Бюльмана Штрауба с явно выбранным K",
+      "Buhlmann Straub model with selected K",
+      "采用所选K的Buhlmann Straub模型"
+    ],
+    "selected_ratio_of_blended_loss_cost": [
+      "Явная доля стоимости риска после кредибильности",
+      "Selected ratio of credibility-adjusted loss cost",
+      "所选可信度调整损失成本比例"
+    ],
+    "gross_premium": [
+      "Доля от полной брутто премии",
+      "Fraction of full gross premium",
+      "完整毛保费比例"
+    ],
+    "actual_365_fixed": [
+      "Фактические дни с фиксированным знаменателем 365",
+      "Actual days with fixed 365 denominator",
+      "实际天数固定365分母"
+    ],
+    "covered_losses_after_policy_terms": [
+      "Убытки после применения выбранных условий покрытия",
+      "Covered losses after selected policy terms",
+      "所选保单条款后承保损失"
+    ],
+    "losses_excluding_settlement_expenses": [
+      "Убытки без расходов на урегулирование",
+      "Losses excluding settlement expenses",
+      "不含理赔费用损失"
+    ],
+    "explicit_override": [
+      "Явно выбранный коэффициент",
+      "Explicit selected factor",
+      "明确所选因子"
+    ],
+    "volume_weighted_observed": [
+      "Отношение сумм по наблюдаемым парам",
+      "Volume-weighted observed factor",
+      "观察配对金额加权因子"
+    ],
+    "computed_conditional": [
+      "Условная арифметическая оценка",
+      "Conditional arithmetic estimate",
+      "条件算术估计"
+    ],
+    "BF_nonnegative_unemerged_fraction_not_satisfied": [
+      "Для BF не выполнено условие неотрицательной неразвившейся доли",
+      "BF nonnegative unemerged-fraction condition not satisfied",
+      "BF非负未发展比例条件不满足"
+    ],
+    "selected_ratio_of_positive_unpaid": [
+      "Выбранная доля положительных неоплаченных убытков",
+      "Selected ratio of positive unpaid claims",
+      "所选正未付赔款比例"
+    ],
+    "selected_amount": [
+      "Явно выбранная сумма",
+      "Explicit selected amount",
+      "明确所选金额"
+    ],
+    "none_selected": [
+      "Явно выбрано отсутствие этого компонента",
+      "Component explicitly not selected",
+      "明确未选此组成"
+    ],
+    "uniform_actual_days": [
+      "Равномерно по фактическим дням",
+      "Uniform actual-day earning",
+      "按实际天数均匀赚取"
+    ],
+    "end_of_day": [
+      "На конец даты оценивания",
+      "At end of valuation date",
+      "评估日结束时"
+    ],
+    "start_inclusive_end_exclusive": [
+      "Начало включено окончание исключено",
+      "Start inclusive end exclusive",
+      "含开始不含结束"
+    ],
+    "net_of_selected_acquisition_expense": [
+      "За вычетом выбранных расходов на привлечение",
+      "Net of selected acquisition expense",
+      "扣除所选获取费用"
+    ],
+    "prior_unpaid_minus_actual_paid_change_minus_current_unpaid": [
+      "Прошлая оценка минус изменение выплат минус текущая оценка",
+      "Prior unpaid less paid change less current unpaid",
+      "前期未付减已付变化减当前未付"
+    ],
+    "annual_effective_zero": [
+      "Годовые эффективные нулевые ставки",
+      "Annual effective zero rates",
+      "年度有效零息利率"
+    ],
+    "beginning_of_year": [
+      "В начале года",
+      "Beginning of year",
+      "年初"
+    ],
+    "end_of_year": [
+      "В конце года",
+      "End of year",
+      "年末"
+    ],
+    "male": [
+      "Мужской",
+      "Male",
+      "男性"
+    ],
+    "female": [
+      "Женский",
+      "Female",
+      "女性"
+    ],
+    "unisex": [
+      "Без разделения по полу",
+      "Unisex",
+      "不分性别"
+    ],
+    "competing_decrements": [
+      "Явные конкурирующие вероятности смерти и выбытия",
+      "Explicit competing death and withdrawal decrements",
+      "明确竞争死亡及退出概率"
+    ],
+    "selected_static_age_specific_qx_no_automatic_improvement": [
+      "Выбранные статические возрастные qx без автоматического улучшения смертности",
+      "Selected static age-specific qx without automatic mortality improvement",
+      "所选静态年龄qx无自动死亡率改善"
+    ],
+    "benefits_plus_selected_expenses_minus_selected_future_premiums": [
+      "Выплаты плюс выбранные расходы минус выбранные будущие премии",
+      "Benefits plus selected expenses less selected future premiums",
+      "给付加所选费用减所选未来保费"
+    ],
+    "conditional_expected_benefit_cashflows": [
+      "Условные ожидаемые выплаты по выбранной модели",
+      "Conditional expected benefit cash flows",
+      "所选模型条件预期给付现金流"
+    ],
+    "linear_service_only_no_additional_vesting_or_benefit_cap_model": [
+      "Линейное распределение по стажу без дополнительных условий вестинга и лимитов выплат",
+      "Linear service attribution without additional vesting or benefit caps",
+      "线性服务归属不含其他归属条件及给付限额"
+    ],
+    "credibility_not_estimated": [
+      "Кредибильность не оценивалась из данных",
+      "Credibility not estimated from data",
+      "未从数据估计可信度"
+    ],
+    "selected_K_model_applicability_not_established": [
+      "Применимость выбранной модели с параметром K не установлена",
+      "Selected K-model applicability not established",
+      "未认定所选K模型适用性"
+    ],
+    "current_complete_CBR_amendment_chain_and_category_applicability_not_established": [
+      "Полнота текущих изменений Банка России и применимость категории не установлены",
+      "Complete current Bank of Russia amendment chain and category applicability not established",
+      "未认定当前央行修订链完整性及类别适用性"
+    ],
+    "runoff_not_supplied": [
+      "Данные для проверки развития прошлой оценки не предоставлены",
+      "Prior valuation run off data not supplied",
+      "未提供前期评估径流数据"
+    ],
+    "deterministic_method_and_tail_uncertainty_not_a_statistical_interval": [
+      "Детерминированная оценка и сценарии хвоста не являются статистическим интервалом",
+      "Deterministic estimate and tail scenarios are not a statistical interval",
+      "确定性估计及尾部情景不是统计区间"
+    ],
+    "mortality_population_fit_curve_market_basis_and_model_adequacy_not_established": [
+      "Пригодность населения таблицы смертности рыночной базы кривой и модели не установлена",
+      "Mortality population fit, curve market basis and model adequacy not established",
+      "未认定死亡率人口匹配、曲线市场依据及模型充分性"
+    ],
+    "no_automatic_mortality_extrapolation_or_unselected_stresses": [
+      "Экстраполяция смертности и невыбранные шоки автоматически не выполнялись",
+      "No automatic mortality extrapolation or unselected stresses",
+      "未自动外推死亡率或执行未选冲击"
+    ],
+    "BF_prior_not_supplied": [
+      "Оценка BF не вычислена без предоставленного априорного основания",
+      "BF not calculated without supplied prior basis",
+      "缺少所供先验依据未计算BF"
+    ],
+    "ultimate_claim_development_and_coverage_match_not_established": [
+      "Развитие до конечного убытка и сопоставимость покрытия не установлены",
+      "Ultimate claim development and coverage comparability not established",
+      "未认定最终赔款发展及保障可比性"
+    ],
+    "data_assumptions": [
+      "Данные и актуарные предположения",
+      "Data and actuarial assumptions",
+      "数据及精算假设"
+    ],
+    "actuarial_task": [
+      "Актуарное задание",
+      "Actuarial engagement",
+      "精算任务"
+    ],
+    "tariff": [
+      "Страховой тариф",
+      "Insurance tariff",
+      "保险费率"
+    ],
+    "reserves": [
+      "Страховые резервы",
+      "Insurance reserves",
+      "保险准备金"
+    ],
+    "life_pension": [
+      "Страхование жизни и пенсионные обязательства",
+      "Life insurance and pension obligations",
+      "寿险及养老金义务"
+    ],
+    "mandatory_assessment": [
+      "Обязательное актуарное оценивание",
+      "Mandatory actuarial valuation",
+      "法定精算评估"
+    ],
+    "ifrs17": [
+      "Оценка по МСФО 17",
+      "IFRS 17 measurement",
+      "IFRS 17计量"
+    ],
+    "solvency_stress": [
+      "Условный стресс тест страховщика",
+      "Conditional insurer stress review",
+      "条件保险公司压力核查"
+    ],
+    "actuary_status": [
+      "Проверка выбранных сведений о статусе актуария",
+      "Selected actuary status evidence review",
+      "所选精算师资格证据核查"
+    ],
+    "calendar_month_end_preserved_otherwise_day_clamped": [
+      "Календарные месяцы с сохранением конца месяца иначе ограничение днём целевого месяца",
+      "Calendar months preserving month end otherwise clamping to target month day",
+      "日历月保留月末否则限制为目标月日期"
+    ],
+    "single_experience_period_not_long_history": [
+      "Предоставлен один период опыта это не многолетняя история",
+      "Only one experience period supplied not a long history",
+      "仅提供一个经验期间并非多年历史"
+    ],
+    "branch_not_requested": [
+      "Не запрошено в выбранном режиме",
+      "Not requested in selected mode",
+      "所选模式未请求"
+    ],
+    "no_missing_required_fields_detected": [
+      "Пропуски выбранных обязательных полей не выявлены",
+      "No missing selected required fields detected",
+      "未发现所选必需字段缺失"
+    ],
+    "not_computed_conflicting_duplicates": [
+      "Не вычислено из за противоречивых записей с совпадающими ключами",
+      "Not calculated because duplicate keys have conflicting records",
+      "重复键记录冲突因此未计算"
+    ]
+  }
+}

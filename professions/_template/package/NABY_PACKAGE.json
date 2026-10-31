@@ -1,0 +1,11 @@
+{
+ "schema": 2,
+ "profession_id": "<id из professions_140_data>",
+ "module": "naby_<профессия>",
+ "entrypoint": "naby_<профессия>.service.run",
+ "base": "profbase>=1",
+ "tool_names_to_preserve": ["<профессия>_workflow_service", "<профессия>_source_read"],
+ "jurisdiction": "RU",
+ "artifact_dependencies": ["python-docx", "openpyxl", "reportlab"],
+ "files_sha256": {}
+}

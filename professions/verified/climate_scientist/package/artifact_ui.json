@@ -1,0 +1,112 @@
+{
+  "draft": [
+    "Климатический анализ и тексты для проверки ответственным специалистом",
+    "Climate analysis and text for responsible specialist review",
+    "供责任专家复核的气候分析与文本"
+  ],
+  "synthetic_banner": [
+    "Синтетический пример формата. Эти записи не являются реальными климатическими наблюдениями, нормативными параметрами или утверждённой отчётностью.",
+    "Synthetic format example. These records are not real climate observations, normative parameters or approved reporting.",
+    "合成格式示例。这些记录不是真实气候观测、规范参数或获批报告。"
+  ],
+  "source_note": [
+    "Исходные названия, записи, цитаты и авторские предложения сохранены на языке источника. Служебные подписи используют выбранный язык.",
+    "Original names, records, quotations and authored proposals retain their source language. Service labels use the selected language.",
+    "原始名称、记录、引文与作者建议保留来源语言。服务标签使用所选语言。"
+  ],
+  "unverified": [
+    "Совпадение фрагмента с выбранным файлом и проверка арифметики не удостоверяют подлинность, смысловое соответствие, актуальность полной цепочки норм, пригодность модели или официальное принятие результата.",
+    "Text occurrence in a selected file and arithmetic checks do not certify authenticity, semantic correspondence, the current full rule chain, model suitability or official acceptance.",
+    "所选文件中出现文本及算术校核不认证真实性、语义对应、完整规范链的现行性、模型适用性或正式接受。"
+  ],
+  "verification_scope": [
+    "Отсутствие подтверждения инструментом не означает, что человек не провёл отдельную проверку.",
+    "Lack of confirmation by the tool does not assert that a human performed no separate review.",
+    "工具未确认，不代表人员未进行单独复核。"
+  ],
+  "control_notice": [
+    "Управляющие символы источника показаны видимыми escape последовательностями; исходные записи сохранены в JSON и закрытом журнале источников.",
+    "Source control characters appear as visible escape sequences; original records remain in JSON and the private source record.",
+    "来源控制字符以可见转义序列显示；原始记录保留在JSON及私密来源记录中。"
+  ],
+  "precision_note": [
+    "Технические таблицы сохраняют точные числовые записи. Показанные разряды не означают такую точность измерений, прогноза или применимость выбранной модели.",
+    "Technical tables retain exact numeric records. Displayed digits do not imply that measurement or projection precision, or model applicability.",
+    "技术表保留精确数值记录。显示位数不代表测量或预估具有该精度，也不代表所选模型适用。"
+  ],
+  "assumption_banner": [
+    "Ввод содержит явные гипотетические допущения. Они не являются наблюдёнными фактами; их применимость требует отдельной проверки.",
+    "Inputs contain explicit hypothetical assumptions. They are not observed facts; their applicability requires separate review.",
+    "输入含明确的假设情景。它们并非观测事实，其适用性须单独复核。"
+  ],
+  "sources_unconfirmed": [
+    "В этом представлении нет привязанных фактов; проверьте выбранные исходные документы и закрытый журнал источников.",
+    "No bound facts are supplied in this view; review selected documents and the private source record.",
+    "本视图未提供绑定事实；请核查所选文件及私密来源记录。"
+  ],
+  "assumptions": [
+    "Допущения",
+    "Assumptions",
+    "假设"
+  ],
+  "evidence": [
+    "Выбранные источники и проверка ввода",
+    "Selected sources and input checks",
+    "所选来源与输入校核"
+  ],
+  "field": [
+    "Показатель",
+    "Field",
+    "字段"
+  ],
+  "value": [
+    "Значение",
+    "Value",
+    "数值"
+  ],
+  "missing": [
+    "Не предоставлено",
+    "Not supplied",
+    "未提供"
+  ],
+  "none": [
+    "Нет записей в предоставленном наборе",
+    "No entries in the supplied set",
+    "所提供集合中无记录"
+  ],
+  "yes": [
+    "Да",
+    "Yes",
+    "是"
+  ],
+  "no": [
+    "Нет",
+    "No",
+    "否"
+  ],
+  "as_of": [
+    "Информация по состоянию на",
+    "Information as of",
+    "信息截止日期"
+  ],
+  "details": [
+    "Подробные записи",
+    "Detailed records",
+    "详细记录"
+  ],
+  "items": [
+    "Записи",
+    "Records",
+    "记录"
+  ],
+  "calculation": [
+    "Результаты и исходные условия",
+    "Results and input conditions",
+    "结果与输入条件"
+  ],
+  "page": [
+    "Страница",
+    "Page",
+    "页"
+  ]
+}

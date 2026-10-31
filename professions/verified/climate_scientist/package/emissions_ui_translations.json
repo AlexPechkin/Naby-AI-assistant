@@ -1,0 +1,542 @@
+{
+  "questions": [
+    "Вопросы для подготовки данных",
+    "Input preparation questions",
+    "资料准备问题"
+  ],
+  "calculate_selected": [
+    "Расчёт по выбранным данным",
+    "Calculate selected inputs",
+    "按所选输入计算"
+  ],
+  "inventory_inputs_required": [
+    "Нужны исходные данные инвентаризации",
+    "Inventory inputs required",
+    "需要清单输入资料"
+  ],
+  "RU_direct_draft": [
+    "Черновой учёт выбранных прямых выбросов РФ",
+    "Selected Russian direct-emission draft",
+    "俄罗斯所选直接排放草稿"
+  ],
+  "GHGP_corporate_selected_gross": [
+    "Выбранный корпоративный учёт валовых потоков ПГ",
+    "Selected corporate gross GHG accounting",
+    "所选企业温室气体总流量核算"
+  ],
+  "operational_control": [
+    "Выбрана граница операционного контроля",
+    "Operational-control boundary supplied",
+    "已提供运营控制边界"
+  ],
+  "financial_control": [
+    "Выбрана граница финансового контроля",
+    "Financial-control boundary supplied",
+    "已提供财务控制边界"
+  ],
+  "equity_share": [
+    "Выбрана граница долевого участия",
+    "Equity-share boundary supplied",
+    "已提供股权比例边界"
+  ],
+  "selected_RU_direct_perimeter": [
+    "Выбран периметр прямых выбросов РФ",
+    "Russian direct-emission perimeter supplied",
+    "已提供俄罗斯直接排放范围"
+  ],
+  "activity_factor": [
+    "Деятельность × массовый коэффициент выбросов",
+    "Activity × mass emission factor",
+    "活动量乘以质量排放因子"
+  ],
+  "combustion_energy": [
+    "Топливо × низшая теплота сгорания × энергетический коэффициент",
+    "Fuel × net calorific value × energy emission factor",
+    "燃料量乘以低位热值及能源排放因子"
+  ],
+  "measured_mass": [
+    "Предоставленная масса газа",
+    "Supplied gas mass",
+    "已提供的气体质量"
+  ],
+  "activity_CO2e_factor": [
+    "Деятельность × коэффициент уже в CO2e",
+    "Activity × already-CO2e factor",
+    "活动量乘以已折算CO2e因子"
+  ],
+  "provided_CO2e": [
+    "Предоставленная величина уже в CO2e",
+    "Supplied already-CO2e amount",
+    "已提供的CO2e折算量"
+  ],
+  "aggregate_CO2e_basis": [
+    "Выбранное основание уже рассчитанного CO2e",
+    "Selected already-CO2e basis",
+    "所选已折算CO2e依据"
+  ],
+  "gas_disaggregation_not_supplied": [
+    "Разбивка по отдельным газам не предоставлена",
+    "Gas disaggregation not supplied",
+    "未提供按气体分项的数据"
+  ],
+  "gas_mass_supplied": [
+    "Предоставлена масса отдельного газа",
+    "Individual gas mass supplied",
+    "已提供单种气体质量"
+  ],
+  "provided_for_all_selected_records": [
+    "Разбивка по газам предоставлена для всех выбранных записей",
+    "Gas disaggregation supplied for all selected records",
+    "所有所选记录均提供了气体分项"
+  ],
+  "partial_gas_disaggregation": [
+    "Разбивка по газам имеется только для части записей",
+    "Gas disaggregation supplied for part of the records",
+    "仅部分记录提供了气体分项"
+  ],
+  "combined_on_supplied_basis_identifiers": [
+    "Объединено по совпадающим предоставленным идентификаторам основания",
+    "Combined on matching supplied basis identifiers",
+    "按相同的已提供依据标识合并"
+  ],
+  "not_combined_incompatible_or_unknown_basis": [
+    "Не объединено: основания различны или неизвестны",
+    "Not combined: basis differs or is unknown",
+    "未合并：依据不同或未知"
+  ],
+  "aggregate_CO2e_basis_metadata_unresolved": [
+    "Метаданные основания CO2e не установлены; совместимый итог не формируется",
+    "CO2e basis metadata unresolved; no compatible total",
+    "CO2e依据资料未确定；不生成可比合计"
+  ],
+  "aggregate_CO2e_horizon_not_100": [
+    "Указанный горизонт уже рассчитанного CO2e отличается от 100 лет",
+    "Supplied already-CO2e horizon differs from 100 years",
+    "所提供的CO2e折算时间范围不是100年"
+  ],
+  "aggregate_CO2e_gas_disaggregation_not_supplied": [
+    "Для уже рассчитанного CO2e массы отдельных газов не предоставлены",
+    "Individual gas masses not supplied for already-CO2e inputs",
+    "已折算CO2e输入未提供单种气体质量"
+  ],
+  "scope_totals_not_combined_incompatible_or_unknown_CO2e_basis": [
+    "Итоги Scope не объединены из-за разных или неизвестных оснований CO2e",
+    "Scope totals not combined due to differing or unknown CO2e bases",
+    "由于CO2e依据不同或未知，未合并各范围合计"
+  ],
+  "numeric_threshold_comparisons_do_not_determine_legal_status": [
+    "Числовое сравнение с порогом не устанавливает правовой статус",
+    "Numeric threshold comparisons do not determine legal status",
+    "阈值数值比较不确定法律身份"
+  ],
+  "quantification_method": [
+    "Выбранная методика количественного определения",
+    "Selected quantification method",
+    "所选量化方法"
+  ],
+  "GWP_table": [
+    "Выбранная таблица потенциалов глобального потепления",
+    "Selected global warming potential table",
+    "所选全球增温潜势表"
+  ],
+  "emission": [
+    "Выброс",
+    "Emission",
+    "排放"
+  ],
+  "removal": [
+    "Поглощение, показанное отдельно",
+    "Removal reported separately",
+    "单独列报的清除量"
+  ],
+  "fossil": [
+    "Указано ископаемое происхождение углерода",
+    "Fossil carbon origin supplied",
+    "已提供化石碳来源"
+  ],
+  "biogenic": [
+    "Указано биогенное происхождение углерода",
+    "Biogenic carbon origin supplied",
+    "已提供生物源碳来源"
+  ],
+  "other": [
+    "Иная выбранная категория",
+    "Other selected category",
+    "其他所选类别"
+  ],
+  "not_applicable": [
+    "Указана неприменимость; основание требует проверки",
+    "Nonapplicability supplied; basis needs review",
+    "已提供不适用说明；依据须复核"
+  ],
+  "RU_direct": [
+    "Выбранные прямые выбросы РФ",
+    "Selected Russian direct emissions",
+    "所选俄罗斯直接排放"
+  ],
+  "scope1": [
+    "Прямые выбросы Scope 1",
+    "Scope 1 direct emissions",
+    "范围1直接排放"
+  ],
+  "scope2_location": [
+    "Scope 2 по местоположению",
+    "Scope 2 location-based",
+    "范围2地域法"
+  ],
+  "scope2_market": [
+    "Scope 2 по рыночному методу",
+    "Scope 2 market-based",
+    "范围2市场法"
+  ],
+  "scope3": [
+    "Иные косвенные выбросы Scope 3",
+    "Scope 3 other indirect emissions",
+    "范围3其他间接排放"
+  ],
+  "biogenic_CO2": [
+    "Биогенный CO2 отдельно от выбранных Scope",
+    "Biogenic CO2 separate from selected scopes",
+    "在所选范围之外单独列报的生物源CO2"
+  ],
+  "included_in_factor": [
+    "Окисление уже учтено в коэффициенте",
+    "Oxidation already included in factor",
+    "因子已包含氧化处理"
+  ],
+  "separate_multiplier": [
+    "Отдельно заданный множитель окисления",
+    "Explicit separate oxidation multiplier",
+    "明确单列的氧化乘数"
+  ],
+  "regulated_organization_criteria": [
+    "Выбранные критерии регулируемой организации",
+    "Selected regulated-organization criteria",
+    "所选受监管组织判定条件"
+  ],
+  "provided": [
+    "Запись предоставлена; смысл не удостоверен",
+    "Record supplied; semantics not established",
+    "已提供记录；语义未核实"
+  ],
+  "missing": [
+    "Запись отсутствует в предоставленном наборе",
+    "Record missing from supplied set",
+    "提供的集合中缺少记录"
+  ],
+  "unknown": [
+    "Неизвестно по предоставленным данным",
+    "Unknown from supplied data",
+    "根据所提供资料无法确定"
+  ],
+  "not_established": [
+    "Не установлено инструментом",
+    "Not established by tool",
+    "本工具未予确定"
+  ],
+  "reporting_deadline": [
+    "Выбранное основание срока отчётности",
+    "Selected reporting deadline basis",
+    "所选报告期限依据"
+  ],
+  "provided_date": [
+    "Предоставленная дата",
+    "Provided date",
+    "已提供日期"
+  ],
+  "annual_month_day": [
+    "Годовой срок по явно выбранным месяцу и дню",
+    "Annual deadline using explicitly selected month and day",
+    "按明确选定月日计算的年度期限"
+  ],
+  "on_or_before": [
+    "Не позднее выбранной даты включительно",
+    "On or before selected date, inclusive",
+    "不晚于所选日期，含当日"
+  ],
+  "before_exclusive": [
+    "До выбранной даты, исключая её",
+    "Before selected date, exclusive",
+    "在所选日期之前，不含当日"
+  ],
+  "none": [
+    "Не выбрано",
+    "None selected",
+    "未选择"
+  ],
+  "next_working_day": [
+    "Следующий рабочий день по полному выбранному календарю",
+    "Next working day in complete selected calendar",
+    "按完整所选日历顺延至下个工作日"
+  ],
+  "working": [
+    "День указан рабочим",
+    "Day classified working",
+    "该日被标注为工作日"
+  ],
+  "nonworking": [
+    "День указан нерабочим",
+    "Day classified nonworking",
+    "该日被标注为非工作日"
+  ],
+  "project_quantification": [
+    "Выбранное основание количественного расчёта проекта",
+    "Selected project quantification basis",
+    "所选项目量化依据"
+  ],
+  "emissions": [
+    "Выбран компонент выбросов",
+    "Emission component selected",
+    "已选择排放组成部分"
+  ],
+  "removals": [
+    "Выбран компонент поглощений",
+    "Removal component selected",
+    "已选择清除组成部分"
+  ],
+  "included_in_project_emissions": [
+    "Высвобождение уже включено в выбросы проекта",
+    "Reversal already included in project emissions",
+    "逆转释放已计入项目排放"
+  ],
+  "separate_adjustment": [
+    "Отдельная поправка на высвобождение",
+    "Separate reversal adjustment",
+    "单列逆转释放调整"
+  ],
+  "not_determined_by_arithmetic": [
+    "Количество зачётных единиц арифметикой не определяется",
+    "Creditable units not determined by arithmetic",
+    "算术计算不确定可签发单位数量"
+  ],
+  "additionality_criterion": [
+    "Выбранное требование дополнительности",
+    "Selected additionality criterion",
+    "所选额外性条件"
+  ],
+  "duplicate_supplied_registry_claim_identity": [
+    "Совпали идентификаторы требования в предоставленных записях реестра",
+    "Supplied registry claim identifiers coincide",
+    "所提供登记主张的标识重复"
+  ],
+  "overlapping_supplied_claim_perimeter_and_period": [
+    "Пересекаются предоставленные периметр и период требований",
+    "Supplied claim perimeter and periods overlap",
+    "所提供主张的范围及期间重叠"
+  ],
+  "validation": [
+    "Предоставленная запись о валидации",
+    "Supplied validation record",
+    "已提供的审定记录"
+  ],
+  "verification": [
+    "Предоставленная запись о верификации",
+    "Supplied verification record",
+    "已提供的核查记录"
+  ],
+  "registry_entry": [
+    "Предоставленная запись реестра",
+    "Supplied registry entry record",
+    "已提供的登记记录"
+  ],
+  "methodology_status": [
+    "Предоставленная запись о статусе методологии",
+    "Supplied methodology-status record",
+    "已提供的方法学状态记录"
+  ],
+  "project_economics": [
+    "Выбранное основание экономики проекта",
+    "Selected project economics basis",
+    "所选项目经济分析依据"
+  ],
+  "observed_record": [
+    "Предоставленная фактическая запись",
+    "Supplied observed record",
+    "已提供的实测记录"
+  ],
+  "provided_projection": [
+    "Предоставленный прогнозный поток",
+    "Supplied projected cashflow",
+    "已提供的预测现金流"
+  ],
+  "not_requested": [
+    "Ветвь не запрошена",
+    "Branch not requested",
+    "未请求该分支"
+  ],
+  "conventional_unique_investment": [
+    "IRR для обычной инвестиции с единственным корнем",
+    "IRR for conventional investment with unique root",
+    "适用于唯一根常规投资的内部收益率"
+  ],
+  "undefined_no_sign_change": [
+    "IRR не определена: нет смены знака ненулевых потоков",
+    "IRR undefined: no sign change in nonzero cashflows",
+    "非零现金流无符号变化，内部收益率未定义"
+  ],
+  "unsupported_nonconventional_cashflows": [
+    "Для неконвенциональных потоков единственная IRR не выбирается",
+    "Unique IRR not selected for nonconventional cashflows",
+    "非常规现金流不选取唯一内部收益率"
+  ],
+  "unique_root_outside_fixed_search_interval": [
+    "Единственный корень вне ограниченного интервала поиска",
+    "Unique root outside bounded search interval",
+    "唯一根位于有限搜索区间之外"
+  ],
+  "computed_unique_conventional": [
+    "Получена ограниченная оценка единственной IRR обычной инвестиции",
+    "Bounded estimate of unique conventional-investment IRR computed",
+    "已计算常规投资唯一内部收益率的有限区间估计"
+  ],
+  "not_determined_no_issuance_promise": [
+    "Количество углеродных единиц не определяется; выпуск не обещан",
+    "Carbon unit quantity not determined; issuance not promised",
+    "未确定碳单位数量；不承诺签发"
+  ],
+  "scopes_reported_separately_no_dual_scope2_sum": [
+    "Scope показаны отдельно; два метода Scope 2 не суммируются",
+    "Scopes separate; dual Scope 2 methods not summed",
+    "各范围分别列报；范围2两种方法不相加"
+  ],
+  "selected_source_arithmetic_not_official_inventory_or_full_method371": [
+    "Арифметика выбранных данных; не официальный кадастр и не полная реализация методики 371",
+    "Selected-input arithmetic; not official inventory or complete method 371",
+    "所选输入的算术计算；不是正式清单或完整371方法"
+  ],
+  "selected_net_flux_components_only_no_automatic_baseline_or_credit_eligibility": [
+    "Только выбранные компоненты баланса; базовая линия и право на единицы автоматически не устанавливаются",
+    "Selected net-flux components only; no automatic baseline or credit eligibility",
+    "仅核算所选净流量组成；不自动认定基准线或碳单位资格"
+  ],
+  "selected_basis_window_unresolved": [
+    "Период применимости выбранного основания не установлен",
+    "Selected basis applicability window unresolved",
+    "所选依据的适用期尚未确定"
+  ],
+  "basis_published_after_selected_date": [
+    "Основание опубликовано после выбранной даты; нужна отдельная проверка",
+    "Basis published after selected date; separate review needed",
+    "依据晚于所选日期发布；需要另行复核"
+  ],
+  "selected_record_unresolved": [
+    "Выбранная запись отсутствует или её содержание неизвестно",
+    "Selected record missing or unknown",
+    "所选记录缺失或内容未知"
+  ],
+  "annual_record_not_comparable": [
+    "Годовая запись не сопоставима по выбранным идентификаторам",
+    "Annual record not comparable on selected identifiers",
+    "年度记录按所选标识不可比较"
+  ],
+  "annual_emissions_amount_unresolved": [
+    "Годовой объём выбросов неизвестен; ноль не подставляется",
+    "Annual emissions amount unknown; zero not imputed",
+    "年度排放量未知；不填补为零"
+  ],
+  "annual_emissions_history_not_supplied": [
+    "История годовых выбросов не предоставлена",
+    "Annual emissions history not supplied",
+    "未提供年度排放历史"
+  ],
+  "exclusion_completeness_not_established": [
+    "Полнота перечня исключений не установлена",
+    "Exclusion-list completeness not established",
+    "未确定排除项清单完整性"
+  ],
+  "data_quality_controls_not_supplied": [
+    "Записи контроля качества исходных данных не предоставлены",
+    "Input data-quality control records not supplied",
+    "未提供输入数据质量控制记录"
+  ],
+  "inventory_completeness_and_uncertainty_not_established": [
+    "Полнота инвентаризации и неопределённость не установлены",
+    "Inventory completeness and uncertainty not established",
+    "未确定清单完整性及不确定性"
+  ],
+  "scope2_instrument_quality_and_factor_applicability_not_established": [
+    "Качество инструментов Scope 2 и применимость коэффициентов не установлены",
+    "Scope 2 instrument quality and factor applicability not established",
+    "未确定范围2凭证质量及因子适用性"
+  ],
+  "project_quantification_not_supplied": [
+    "Количественные данные проекта не предоставлены",
+    "Project quantification inputs not supplied",
+    "未提供项目量化输入"
+  ],
+  "additionality_evidence_not_supplied": [
+    "Данные для проверки дополнительности не предоставлены",
+    "Additionality evidence not supplied",
+    "未提供额外性证据"
+  ],
+  "double_counting_records_not_supplied": [
+    "Записи для проверки двойного учёта не предоставлены",
+    "Double-counting review records not supplied",
+    "未提供重复计算审查记录"
+  ],
+  "monitoring_measurements_not_supplied": [
+    "Измерения для записи мониторинга не предоставлены",
+    "Monitoring measurements not supplied",
+    "未提供监测测量记录"
+  ],
+  "monitoring_plan_not_supplied": [
+    "План мониторинга не предоставлен",
+    "Monitoring plan not supplied",
+    "未提供监测计划"
+  ],
+  "project_baseline_methodology_additionality_and_credit_eligibility_not_established": [
+    "Базовая линия, методология, дополнительность и право на единицы инструментом не устанавливаются",
+    "Project baseline, methodology, additionality and credit eligibility not established by tool",
+    "本工具未认定项目基准线、方法学、额外性及碳单位资格"
+  ],
+  "organization_activities_and_reporting_period": [
+    "Укажите организацию, деятельность и отчётный период",
+    "Supply organization, activities and reporting period",
+    "请提供组织、活动及报告期间"
+  ],
+  "selected_boundary_sites_and_categories": [
+    "Укажите выбранные границы, площадки и категории источников",
+    "Supply selected boundaries, sites and source categories",
+    "请提供所选边界、场地及排放源类别"
+  ],
+  "prior_year_emissions_perimeter_GWP_and_coverage": [
+    "Предоставьте выбросы прошлых лет с границами, GWP и охватом",
+    "Supply prior-year emissions with perimeter, GWP and coverage",
+    "请提供往年排放量及其边界、增温潜势和覆盖范围"
+  ],
+  "activity_records_and_exact_units": [
+    "Предоставьте данные о деятельности с точными единицами",
+    "Supply activity records with exact units",
+    "请提供活动记录及准确单位"
+  ],
+  "selected_method_factor_and_oxidation_treatment": [
+    "Укажите методику, коэффициенты и обработку окисления",
+    "Supply method, factors and oxidation treatment",
+    "请提供方法、因子及氧化处理方式"
+  ],
+  "gas_species_and_selected_GWP100_set": [
+    "Уточните: масса газа с GWP100 или уже CO2e; для CO2e укажите известные метаданные",
+    "Specify gas mass with GWP100 or already-CO2e inputs and known basis metadata",
+    "请明确为气体质量及百年增温潜势，或已折算CO2e及其已知依据资料"
+  ],
+  "dated_reporting_criteria_and_deadline_basis": [
+    "Предоставьте датированные критерии отчётности и основание срока",
+    "Supply dated reporting criteria and deadline basis",
+    "请提供带日期的报告判定条件及期限依据"
+  ],
+  "quality_controls_exclusions_and_uncertainty": [
+    "Предоставьте контроль качества, исключения и неопределённость",
+    "Supply quality controls, exclusions and uncertainty",
+    "请提供质量控制、排除项及不确定性"
+  ],
+  "not_combined_horizon_not_100_for_selected_summary": [
+    "Плоская сводка GWP100 не сформирована: выбранный горизонт не 100 лет; суммы по основанию сохранены",
+    "Flat GWP100 summary not formed: selected horizon is not 100 years; basis-specific subtotals retained",
+    "未生成百年增温潜势平面汇总：所选时间范围不是100年；保留依据内小计"
+  ],
+  "scope_totals_horizon_not_100_for_selected_summary": [
+    "Горизонт выбранного общего основания не 100 лет для этой сводки; это не означает несопоставимость записей между собой",
+    "The selected common basis horizon is not 100 years for this summary; this does not imply that its records are mutually incomparable",
+    "本汇总所选共同依据的时间范围不是100年；这不表示其记录彼此不可比"
+  ]
+}

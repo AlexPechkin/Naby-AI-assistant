@@ -1,0 +1,512 @@
+{
+  "analysis_only": [
+    "Только локальный анализ",
+    "Local analysis only",
+    "仅本地分析"
+  ],
+  "review_by_pharmacist": [
+    "Требуется рассмотрение уполномоченным фармацевтическим специалистом",
+    "Review by the responsible pharmacy professional is required",
+    "需要由负责的药学专业人员审核"
+  ],
+  "no_online_check": [
+    "Фактическая онлайн-проверка не выполнялась",
+    "No actual online check was performed",
+    "未进行实际在线核查"
+  ],
+  "crypto_not_checked": [
+    "Криптографическая часть не проверена",
+    "Cryptographic content was not checked",
+    "未核验加密内容"
+  ],
+  "not_checked": [
+    "Не проверено",
+    "Not checked",
+    "未核验"
+  ],
+  "not_assessed": [
+    "Не оценено",
+    "Not assessed",
+    "未评估"
+  ],
+  "unknown": [
+    "Неизвестно",
+    "Unknown",
+    "未知"
+  ],
+  "provided": [
+    "Предоставлено",
+    "Provided",
+    "已提供"
+  ],
+  "missing": [
+    "Отсутствует",
+    "Missing",
+    "缺失"
+  ],
+  "not_applicable": [
+    "Указано как неприменимое",
+    "Supplied as not applicable",
+    "提供的信息标为不适用"
+  ],
+  "ru_medicine_gs1_full": [
+    "Ограниченный полный формат GS1 для лекарств РФ",
+    "Limited full GS1 layout for medicines in Russia",
+    "俄罗斯药品的有限完整GS1格式"
+  ],
+  "unsupported_structure": [
+    "Структура не распознана в поддерживаемом формате",
+    "Structure is outside the supported layout",
+    "结构不属于受支持的格式"
+  ],
+  "structure_recognized": [
+    "Распознана структура; подлинность не установлена",
+    "Structure recognized; authenticity is not established",
+    "已识别结构；未确定真实性"
+  ],
+  "matches": [
+    "Арифметическое совпадение",
+    "Arithmetic match",
+    "算术匹配"
+  ],
+  "mismatch": [
+    "Арифметическое расхождение",
+    "Arithmetic mismatch",
+    "算术不匹配"
+  ],
+  "duplicate_codes": [
+    "Повтор кода или идентификатора упаковки",
+    "Duplicate code or package identifier",
+    "代码或包装标识重复"
+  ],
+  "code_structure_issue": [
+    "Структура кода или контрольная цифра требует проверки",
+    "Code structure or check digit requires review",
+    "代码结构或校验位需要审核"
+  ],
+  "status_missing": [
+    "Статус кода не предоставлен",
+    "Code status was not provided",
+    "未提供代码状态"
+  ],
+  "missing_codes": [
+    "Коды из ожидаемой поставки отсутствуют в факте",
+    "Expected codes are missing from actual records",
+    "实际记录缺少预期代码"
+  ],
+  "extra_codes": [
+    "Фактические коды превышают ожидаемые",
+    "Actual codes exceed expected records",
+    "实际代码超出预期记录"
+  ],
+  "series_mismatch": [
+    "Расхождение серий",
+    "Batch mismatch",
+    "批号不匹配"
+  ],
+  "status_mismatch": [
+    "Расхождение предоставленных статусов",
+    "Supplied statuses differ",
+    "提供的状态不一致"
+  ],
+  "same_identifier_different_payload": [
+    "Один идентификатор упаковки содержит разные данные кода",
+    "The same package identifier has different code payloads",
+    "同一包装标识包含不同的代码数据"
+  ],
+  "within_supplied_range": [
+    "Наблюдения в предоставленном диапазоне; пригодность не установлена",
+    "Observations are within the supplied range; suitability is not established",
+    "观测值在所提供范围内；未确定适用性"
+  ],
+  "excursion_observed": [
+    "Наблюдается выход за предоставленный диапазон температуры",
+    "An excursion outside the supplied temperature range is observed",
+    "观测到温度超出所提供范围"
+  ],
+  "withdrawal_match": [
+    "Найдено совпадение в выбранном снимке решений",
+    "A match was found in the selected decision snapshot",
+    "在所选决定快照中发现匹配项"
+  ],
+  "not_found_in_selected_snapshot": [
+    "В выбранном снимке не найдено; безопасность не установлена",
+    "Not found in the selected snapshot; safety is not established",
+    "在所选快照中未找到；未确定安全性"
+  ],
+  "source_only_no_safety_conclusion": [
+    "Результат ограничен выбранными данными и не подтверждает безопасность серии",
+    "The result is limited to selected data and does not establish batch safety",
+    "结果仅限所选数据，不能证明该批次安全"
+  ],
+  "present": [
+    "Точный фрагмент присутствует в выбранном тексте",
+    "The exact excerpt occurs in the selected text",
+    "所选文本中存在该准确摘录"
+  ],
+  "duplicate_ingredient": [
+    "Повтор действующего вещества, в том числе в комбинации",
+    "An active ingredient is duplicated, including in a combination product",
+    "活性成分重复，包括复方制剂中的重复"
+  ],
+  "documented_interaction": [
+    "В выбранной инструкции приведен фрагмент о взаимодействии; смысл требует оценки",
+    "The selected instruction contains an interaction excerpt; its meaning requires assessment",
+    "所选说明书包含相互作用摘录；其含义需要评估"
+  ],
+  "no_interaction_data_not_no_risk": [
+    "Отсутствие выбранных данных о взаимодействии не означает отсутствия риска",
+    "Missing selected interaction data does not mean there is no risk",
+    "缺少所选相互作用数据并不意味着没有风险"
+  ],
+  "causality_not_assessed": [
+    "Причинно-следственная связь не устанавливалась",
+    "Causality was not assessed",
+    "未评估因果关系"
+  ],
+  "draft_not_submitted": [
+    "Подготовлен локальный черновик; сообщение не отправлено",
+    "A local draft was prepared; the report was not submitted",
+    "已准备本地草稿；尚未提交报告"
+  ],
+  "selected_rule_only": [
+    "Расчёт только по выбранному правилу; применимость не удостоверена",
+    "Calculated only from the selected rule; applicability is not established",
+    "仅按所选规则计算；未确定适用性"
+  ],
+  "minimum_case_incomplete": [
+    "Минимальные сведения о случае неполны",
+    "Minimum case information is incomplete",
+    "最低病例信息不完整"
+  ],
+  "chronology_conflict": [
+    "Обнаружено противоречие хронологии",
+    "A chronology conflict was found",
+    "发现时间顺序冲突"
+  ],
+  "onset": [
+    "Начало реакции",
+    "Reaction onset",
+    "反应开始"
+  ],
+  "drug_start": [
+    "Начало применения подозреваемого препарата",
+    "Suspected drug start",
+    "开始使用疑似药品"
+  ],
+  "drug_stop": [
+    "Прекращение применения подозреваемого препарата",
+    "Suspected drug stop",
+    "停止使用疑似药品"
+  ],
+  "drug_stop_before_start": [
+    "Дата отмены раньше даты начала применения",
+    "Drug stop precedes drug start",
+    "停药日期早于开始用药日期"
+  ],
+  "onset_before_drug_start": [
+    "Реакция указана раньше начала применения",
+    "Reported reaction onset precedes drug start",
+    "所报告反应开始日期早于开始用药日期"
+  ],
+  "awareness_before_onset": [
+    "Осведомленность указана раньше начала реакции",
+    "Awareness is reported before reaction onset",
+    "所报告获知日期早于反应开始日期"
+  ],
+  "death": [
+    "Указан летальный исход",
+    "Death reported",
+    "报告死亡"
+  ],
+  "life_threatening": [
+    "Указана угроза жизни",
+    "Life-threatening event reported",
+    "报告危及生命的事件"
+  ],
+  "hospitalization": [
+    "Указана госпитализация",
+    "Hospitalization reported",
+    "报告住院"
+  ],
+  "disability": [
+    "Указана инвалидизация",
+    "Disability reported",
+    "报告致残"
+  ],
+  "congenital_anomaly": [
+    "Указана врождённая аномалия",
+    "Congenital anomaly reported",
+    "报告先天异常"
+  ],
+  "other_medically_important": [
+    "Указано иное медицински важное состояние",
+    "Other medically important event reported",
+    "报告其他重要医学事件"
+  ],
+  "none_reported": [
+    "Критерии серьёзности не сообщены",
+    "No seriousness criteria were reported",
+    "未报告严重性标准"
+  ],
+  "calendar": [
+    "Календарные дни по выбранному правилу",
+    "Calendar days under the selected rule",
+    "所选规则中的自然日"
+  ],
+  "working": [
+    "Рабочие дни по выбранному календарю",
+    "Working days under the selected calendar",
+    "按所选日历的工作日"
+  ],
+  "awareness": [
+    "Дата осведомленности",
+    "Awareness date",
+    "获知日期"
+  ],
+  "any_suspected": [
+    "Любой предполагаемый случай в выбранной области",
+    "Any suspected case within the selected scope",
+    "所选范围内的任何疑似病例"
+  ],
+  "serious": [
+    "Случай с указанным критерием серьёзности",
+    "A case with a supplied seriousness criterion",
+    "带有所提供严重性标准的病例"
+  ],
+  "fatal_or_life_threatening": [
+    "Указан летальный исход или угроза жизни",
+    "Death or a life-threatening event reported",
+    "报告死亡或危及生命的事件"
+  ],
+  "excerpt_present_not_compliance": [
+    "Наличие фрагмента не подтверждает соблюдение требования",
+    "An excerpt occurrence does not establish compliance",
+    "存在摘录并不能证明符合要求"
+  ],
+  "missing_control": [
+    "Не представлен документ для выбранного контроля",
+    "No document was supplied for the selected control",
+    "未提供所选控制要求的文件"
+  ],
+  "corrective_action_due": [
+    "Требуется рассмотреть срок корректирующего действия",
+    "Review the corrective action deadline",
+    "需要审核纠正措施期限"
+  ],
+  "acceptance": [
+    "Приёмка",
+    "Acceptance",
+    "验收"
+  ],
+  "sale": [
+    "Продажа: только анализ данных",
+    "Sale: data analysis only",
+    "销售：仅分析数据"
+  ],
+  "write_off": [
+    "Списание: только анализ данных",
+    "Write-off: data analysis only",
+    "报废：仅分析数据"
+  ],
+  "return": [
+    "Возврат: только анализ данных",
+    "Return: data analysis only",
+    "退货：仅分析数据"
+  ],
+  "discrepancy": [
+    "Разбор расхождений",
+    "Discrepancy analysis",
+    "差异分析"
+  ],
+  "indications": [
+    "Показания из выбранной инструкции",
+    "Indications from the selected instruction",
+    "所选说明书中的适应症"
+  ],
+  "contraindications": [
+    "Противопоказания из выбранной инструкции",
+    "Contraindications from the selected instruction",
+    "所选说明书中的禁忌症"
+  ],
+  "interactions": [
+    "Взаимодействия из выбранной инструкции",
+    "Interactions from the selected instruction",
+    "所选说明书中的相互作用"
+  ],
+  "dispensing": [
+    "Условия отпуска из выбранной инструкции",
+    "Dispensing conditions from the selected instruction",
+    "所选说明书中的调配条件"
+  ],
+  "storage": [
+    "Хранение",
+    "Storage",
+    "储存"
+  ],
+  "warnings": [
+    "Предупреждения из выбранной инструкции",
+    "Warnings from the selected instruction",
+    "所选说明书中的警示"
+  ],
+  "quality_system": [
+    "Система качества",
+    "Quality system",
+    "质量体系"
+  ],
+  "personnel": [
+    "Персонал и обучение",
+    "Personnel and training",
+    "人员与培训"
+  ],
+  "information": [
+    "Информирование",
+    "Information provision",
+    "信息提供"
+  ],
+  "complaints": [
+    "Жалобы и обращения",
+    "Complaints and inquiries",
+    "投诉与咨询"
+  ],
+  "withdrawal": [
+    "Изъятие и отзыв",
+    "Withdrawal and recall",
+    "撤回与召回"
+  ],
+  "documentation": [
+    "Документы и записи",
+    "Documents and records",
+    "文件与记录"
+  ],
+  "self_inspection": [
+    "Самоинспекция",
+    "Self-inspection",
+    "自查"
+  ],
+  "capa": [
+    "Корректирующие и предупреждающие действия",
+    "Corrective and preventive actions",
+    "纠正与预防措施"
+  ],
+  "patient": [
+    "Пациент: локальный идентификатор",
+    "Patient: local identifier",
+    "患者：本地标识"
+  ],
+  "reporter": [
+    "Сообщивший: локальный идентификатор",
+    "Reporter: local identifier",
+    "报告者：本地标识"
+  ],
+  "suspected_drug": [
+    "Подозреваемый лекарственный препарат",
+    "Suspected medicinal product",
+    "疑似药品"
+  ],
+  "reaction": [
+    "Нежелательная реакция",
+    "Adverse reaction",
+    "不良反应"
+  ],
+  "series": [
+    "Серия",
+    "Batch",
+    "批号"
+  ],
+  "onset_date": [
+    "Дата начала реакции",
+    "Reaction onset date",
+    "反应开始日期"
+  ],
+  "drug_start_date": [
+    "Дата начала применения",
+    "Drug start date",
+    "开始用药日期"
+  ],
+  "drug_stop_date": [
+    "Дата прекращения применения",
+    "Drug stop date",
+    "停止用药日期"
+  ],
+  "outcome": [
+    "Исход",
+    "Outcome",
+    "转归"
+  ],
+  "seriousness": [
+    "Критерии серьёзности",
+    "Seriousness criteria",
+    "严重性标准"
+  ],
+  "reporting_rule": [
+    "Выбранное правило сообщения",
+    "Selected reporting rule",
+    "所选报告规则"
+  ],
+  "selected_form": [
+    "Выбранная форма сообщения",
+    "Selected report form",
+    "所选报告表格"
+  ],
+  "description": [
+    "Описание",
+    "Description",
+    "描述"
+  ],
+  "packaging": [
+    "Упаковка",
+    "Packaging",
+    "包装"
+  ],
+  "marking": [
+    "Маркировка",
+    "Labeling",
+    "标签"
+  ],
+  "documents": [
+    "Сопроводительные документы",
+    "Accompanying documents",
+    "随附文件"
+  ],
+  "transport": [
+    "Условия транспортировки",
+    "Transport conditions",
+    "运输条件"
+  ],
+  "end_of_day": [
+    "До конца указанного дня",
+    "Through the end of the labeled day",
+    "截至所标日期结束"
+  ],
+  "end_of_month": [
+    "До конца указанного месяца",
+    "Through the end of the labeled month",
+    "截至所标月份结束"
+  ],
+  "exclusive_instant": [
+    "Исключительная граница срока: точный момент",
+    "Exclusive expiry boundary: exact instant",
+    "有效期的排他性边界：准确时刻"
+  ],
+  "unresolved": [
+    "Смысл маркировки срока не установлен",
+    "Expiry label semantics are unresolved",
+    "有效期标签的含义尚未确定"
+  ],
+  "expiry_semantics": [
+    "Требуется уточнить смысл маркировки срока годности",
+    "Clarify the expiry label semantics",
+    "需要澄清有效期标签的含义"
+  ],
+  "responsible": [
+    "Ответственный: требуется указание локального специалиста",
+    "Responsible person: specify the local professional",
+    "负责人：需指定本地专业人员"
+  ],
+  "proposed_not_approved": [
+    "Предложенный черновик; документ не утверждён",
+    "Proposed draft; the document is not approved",
+    "建议草稿；文件未经批准"
+  ]
+}

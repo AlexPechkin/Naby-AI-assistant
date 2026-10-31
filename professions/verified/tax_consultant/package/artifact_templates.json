@@ -1,0 +1,477 @@
+{
+  "change_memo": {
+    "format": "docx",
+    "title": [
+      "Обзор изменений налогового законодательства для клиента",
+      "Tax change memo for the client",
+      "客户税法变更备忘录"
+    ],
+    "sections": [
+      [
+        "Что меняется",
+        "What changes",
+        "变更内容"
+      ],
+      [
+        "Норма и дата вступления",
+        "Rule and effective date",
+        "依据及生效日期"
+      ],
+      [
+        "Кого касается",
+        "Client scope",
+        "涉及客户的范围"
+      ],
+      [
+        "Что сделать",
+        "Proposed actions",
+        "拟议行动"
+      ],
+      [
+        "Источник",
+        "Source",
+        "来源"
+      ],
+      [
+        "Что проверить",
+        "Items requiring review",
+        "待核查事项"
+      ]
+    ]
+  },
+  "regime_comparison": {
+    "format": "xlsx",
+    "title": [
+      "Сравнение налоговых режимов",
+      "Comparison of selected tax regimes",
+      "所选税制比较"
+    ],
+    "sections": [
+      [
+        "Исходные данные",
+        "Input information",
+        "输入资料"
+      ],
+      [
+        "ОСНО",
+        "General tax regime",
+        "一般税制"
+      ],
+      [
+        "УСН с НДС 5/7 %",
+        "Simplified regime with VAT5/7%",
+        "增值税5/7%的简化税制"
+      ],
+      [
+        "УСН с НДС 22 %",
+        "Simplified regime with VAT22%",
+        "增值税22%的简化税制"
+      ],
+      [
+        "ПСН/АУСН",
+        "Patent and automated simplified regimes",
+        "专利及自动化简化税制"
+      ],
+      [
+        "Допущения",
+        "Assumptions",
+        "假设"
+      ],
+      [
+        "Вывод",
+        "Conclusion",
+        "结论"
+      ]
+    ]
+  },
+  "tax_opinion": {
+    "format": "docx",
+    "title": [
+      "Налоговое заключение по сделке",
+      "Draft tax opinion on a transaction",
+      "交易税务意见草案"
+    ],
+    "sections": [
+      [
+        "Вопрос",
+        "Question",
+        "问题"
+      ],
+      [
+        "Факты и допущения",
+        "Facts and assumptions",
+        "事实及假设"
+      ],
+      [
+        "Применимые нормы",
+        "Selected rules",
+        "所选依据"
+      ],
+      [
+        "Анализ",
+        "Analysis",
+        "分析"
+      ],
+      [
+        "Риски по ст. 54.1",
+        "Article54.1 risks",
+        "第54.1条风险"
+      ],
+      [
+        "Вывод",
+        "Conclusion",
+        "结论"
+      ],
+      [
+        "Оговорки",
+        "Reservations",
+        "限制说明"
+      ]
+    ]
+  },
+  "audit_roadmap": {
+    "format": "xlsx",
+    "title": [
+      "Карта сопровождения налоговой проверки",
+      "Tax audit support roadmap",
+      "税务检查协助计划"
+    ],
+    "sections": [
+      [
+        "Мероприятие",
+        "Event",
+        "事项"
+      ],
+      [
+        "Норма НК",
+        "Tax Code basis",
+        "税法依据"
+      ],
+      [
+        "Дата получения",
+        "Receipt date",
+        "收到日期"
+      ],
+      [
+        "Срок",
+        "Candidate deadline",
+        "候选期限"
+      ],
+      [
+        "Ответственный",
+        "Owner",
+        "负责人"
+      ],
+      [
+        "Статус",
+        "Status",
+        "状态"
+      ]
+    ]
+  },
+  "request_reply": {
+    "format": "docx",
+    "title": [
+      "Ответ на требование о представлении документов",
+      "Draft reply to a document request",
+      "文件要求回复草案"
+    ],
+    "sections": [
+      [
+        "Реквизиты требования",
+        "Request identifiers",
+        "要求书信息"
+      ],
+      [
+        "Перечень запрошенного",
+        "Requested documents",
+        "所要求文件"
+      ],
+      [
+        "Что предоставляется",
+        "Documents being provided",
+        "拟提供文件"
+      ],
+      [
+        "Основания отказа/ходатайство о продлении",
+        "Refusal grounds or extension request",
+        "拒绝理由或延期申请"
+      ],
+      [
+        "Опись",
+        "Inventory",
+        "清单"
+      ]
+    ]
+  },
+  "objections": {
+    "format": "docx",
+    "title": [
+      "Возражения на акт налоговой проверки",
+      "Draft objections to a tax audit act",
+      "税务检查报告异议草案"
+    ],
+    "sections": [
+      [
+        "Реквизиты акта",
+        "Act identifiers",
+        "报告信息"
+      ],
+      [
+        "Эпизод: позиция инспекции",
+        "Episode and inspector position",
+        "争点及税务机关立场"
+      ],
+      [
+        "Возражение и норма",
+        "Objection and selected rule",
+        "异议及所选依据"
+      ],
+      [
+        "Доказательства",
+        "Evidence",
+        "证据"
+      ],
+      [
+        "Судебная практика",
+        "Court practice",
+        "司法实践"
+      ],
+      [
+        "Смягчающие обстоятельства",
+        "Mitigating circumstances",
+        "减轻情节"
+      ],
+      [
+        "Просительная часть",
+        "Requested relief",
+        "请求事项"
+      ]
+    ]
+  },
+  "appeal": {
+    "format": "docx",
+    "title": [
+      "Апелляционная жалоба в вышестоящий налоговый орган",
+      "Draft administrative tax appeal",
+      "税务行政上诉草案"
+    ],
+    "sections": [
+      [
+        "Решение и дата вручения",
+        "Decision and service date",
+        "决定及送达日期"
+      ],
+      [
+        "Нарушенные права",
+        "Rights affected",
+        "受影响权利"
+      ],
+      [
+        "Основания",
+        "Grounds",
+        "理由"
+      ],
+      [
+        "Требования",
+        "Requests",
+        "请求"
+      ],
+      [
+        "Приложения",
+        "Appendices",
+        "附件"
+      ]
+    ]
+  },
+  "mitigation_letter": {
+    "format": "docx",
+    "title": [
+      "Ходатайство о смягчающих обстоятельствах",
+      "Draft request for mitigation",
+      "减罚申请草案"
+    ],
+    "sections": [
+      [
+        "Нарушение",
+        "Alleged violation",
+        "涉嫌违法行为"
+      ],
+      [
+        "Обстоятельства",
+        "Circumstances",
+        "情节"
+      ],
+      [
+        "Доказательства",
+        "Evidence",
+        "证据"
+      ],
+      [
+        "Просьба о снижении",
+        "Proposed reduction request",
+        "拟议减罚请求"
+      ]
+    ]
+  },
+  "ndfl_3_draft": {
+    "format": "xlsx",
+    "title": [
+      "Черновик 3-НДФЛ и перечень документов",
+      "Draft personal income tax calculation and document list",
+      "个人所得税计算草案及资料清单"
+    ],
+    "sections": [
+      [
+        "Доходы по источникам",
+        "Income by source",
+        "按来源列示收入"
+      ],
+      [
+        "Освобождения",
+        "Exemptions",
+        "免税"
+      ],
+      [
+        "Вычеты",
+        "Deductions",
+        "扣除"
+      ],
+      [
+        "Расчёт по шкале",
+        "Selected scale calculation",
+        "所选阶梯计算"
+      ],
+      [
+        "К уплате/возврату",
+        "Potential amount due or refund",
+        "潜在应缴或退还金额"
+      ],
+      [
+        "Документы",
+        "Documents",
+        "文件"
+      ]
+    ]
+  },
+  "tax_policy": {
+    "format": "docx",
+    "title": [
+      "Налоговая учётная политика",
+      "Draft tax accounting policy",
+      "税务会计政策草案"
+    ],
+    "sections": [
+      [
+        "Общие положения",
+        "General provisions",
+        "一般规定"
+      ],
+      [
+        "Доходы и расходы",
+        "Income and expenses",
+        "收入和支出"
+      ],
+      [
+        "Амортизация",
+        "Depreciation",
+        "折旧"
+      ],
+      [
+        "Резервы",
+        "Provisions",
+        "准备金"
+      ],
+      [
+        "НДС и раздельный учёт",
+        "VAT and separate accounting",
+        "增值税及分开核算"
+      ],
+      [
+        "Регистры",
+        "Registers",
+        "登记簿"
+      ],
+      [
+        "Обособленные подразделения",
+        "Separate divisions",
+        "分支机构"
+      ]
+    ]
+  },
+  "ens_claim": {
+    "format": "docx",
+    "title": [
+      "Заявление о зачёте/возврате положительного сальдо ЕНС",
+      "Draft ENS offset or refund request",
+      "ENS抵销或退款申请草案"
+    ],
+    "sections": [
+      [
+        "Сумма",
+        "Amount",
+        "金额"
+      ],
+      [
+        "Основание",
+        "Basis",
+        "依据"
+      ],
+      [
+        "Реквизиты счёта (для возврата)",
+        "Bank details for a refund",
+        "退款银行信息"
+      ],
+      [
+        "Подпись",
+        "Signature",
+        "签字"
+      ]
+    ]
+  },
+  "engagement_letter": {
+    "format": "docx",
+    "title": [
+      "Договор на налоговое консультирование",
+      "Draft tax consulting engagement",
+      "税务顾问服务合同草案"
+    ],
+    "sections": [
+      [
+        "Предмет и результат",
+        "Scope and deliverable",
+        "服务范围及成果"
+      ],
+      [
+        "Исходные данные",
+        "Input information",
+        "输入资料"
+      ],
+      [
+        "Сроки",
+        "Timing",
+        "期限"
+      ],
+      [
+        "Цена",
+        "Price",
+        "价格"
+      ],
+      [
+        "Конфиденциальность",
+        "Confidentiality",
+        "保密"
+      ],
+      [
+        "Ограничение ответственности",
+        "Liability",
+        "责任"
+      ],
+      [
+        "Доверенность",
+        "Power of attorney",
+        "授权委托书"
+      ]
+    ]
+  }
+}

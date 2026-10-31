@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "profession_id": "actuary",
+ "module": "naby_actuary",
+ "entrypoint": "naby_actuary.service.run",
+ "tool_names_to_preserve": [
+  "actuary_workflow_service",
+  "actuary_source_read"
+ ],
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [
+  "actuary: source_boundary_V1 package/naby_actuary/binding.py 1416437d403d→8cf34c5d978e"
+ ],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": [
+  "python-docx",
+  "openpyxl",
+  "reportlab"
+ ],
+ "files_sha256": {
+  "scenarios.py": "559929f907ee244e42d468b8bf08b7b333e04e3c8781ba6addbf0d5399d6e5e4",
+  "service.py": "906d6b4d0a191c76b42b681f7e07b2a5340f43a8af768c9356afd5b471e1c8c3",
+  "calculations.py": "35c9830b4730d1aee661bd732e9324c739f6882dda4992aa9ad9621a69ed18d7",
+  "artifact_subject_labels.json": "baa91339a4a3f173550f7469d52aff3de620bfcf39a17066228fbbd58f0f8987",
+  "evidence.py": "c02194042050a877b513d0b228139ef81655be5f76ee92fd7dc99f8299a52fe2",
+  "artifacts.py": "ccb8225c7c51168a59cb41fa7204c2a09321c7749c7167096d9f65641228f1c9",
+  "__init__.py": "e063c26521dcdcad0438c971c595eb22d3291d1d46fd6bc59e85af66e65b6947",
+  "scenarios_ui_translations.json": "b35694b656e61ec5b5ad1c9c7589e722ec3bab9796f2b99b4e0a47acf96afec2",
+  "core.py": "bcac98bb3f55e315da126be773143406b1d9d2669faabf99b59c9b1fa26d7624",
+  "binding.py": "8cf34c5d978e06470016732ab2502d06172f37d3fa0689f0d8ff34baf0843799",
+  "artifact_labels.py": "4abf3627bfb3942d9ea21672c49f05137a2450a5bc0bb26ef485cedcb520afbf",
+  "engagement.py": "79b0ef6bb58b4ac46a53e1c94fe4def7ef0a6fcc6132096db0f0b446fd754e23",
+  "artifact_formatting.py": "12acd2e82cba69f5272e7311ca428c525e97c0918cf1a25494e6fe47be6b7828",
+  "prompts.json": "00dc1d66d29bb59f280f24ad1ee7bf49bf323953894c9304f500aabb08f1af49"
+ }
+}

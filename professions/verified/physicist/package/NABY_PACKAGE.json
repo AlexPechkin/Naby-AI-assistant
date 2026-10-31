@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "profession_id": "physicist",
+ "module": "naby_physicist",
+ "entrypoint": "naby_physicist.service.run",
+ "tool_names_to_preserve": [
+  "physicist_workflow_service",
+  "physicist_source_read"
+ ],
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [
+  "physicist: source_boundary_V1 package/naby_physicist/binding.py 0fddffce7501→009dc959f483"
+ ],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": [
+  "python-docx",
+  "openpyxl",
+  "reportlab"
+ ],
+ "files_sha256": {
+  "scenarios.py": "84660ac9f2fd3293904a8e0705d32d336c20d479d850e2fc8352928b35c660c7",
+  "service.py": "43904d6a9b6dd0c892405c84f1a77e425fa32a471a5e0f7fbfa7a5df26650be4",
+  "calculations.py": "7e4c316e195c94618f14c63d1972314381d00e976612fe7edb12bf1cc8c4b48e",
+  "artifact_subject_labels.json": "5e7bd6249c64af29ba6fab256b0b7d44530f5e9c068de2d587a9f882a535ee7f",
+  "evidence.py": "55ae82551e8ac91d01c2e825931d70dc67928ba4773482fba9b799d51adfeef4",
+  "artifacts.py": "bccb8407ae340b867bf357762f78f21aec515e1f392d506ba2fed24186223c46",
+  "__init__.py": "67ca846489c9a931e4feda0a4f46c146879331ac3871dd05598a22c552e14176",
+  "scenarios_ui_translations.json": "d5beb4be1d743142b1e7e3b2e01e381679f36cfeeebaf859d9b88ee1dbfd9d54",
+  "core.py": "e3fba7c816a14ee75bb33ccce4e4acfb55a271d6d04258af02affe8a121a17f0",
+  "binding.py": "009dc959f483238594b70e846e4d2935ee70e13091532455788e44ac9a1f0dce",
+  "artifact_labels.py": "8957dee637dbdc5e0d7053ad816821080d7b6ea393f284ea587f06fcfa008963",
+  "artifact_formatting.py": "f6ba82c3d933f7bb4c0b0d2ae9d11c66a5eaa86602fe49925d5eaf32cf2e7f06",
+  "prompts.json": "02cfd159c99f616c69af7ab8ce6208929f1d12b8e20bc0139dddf435c7a154bc"
+ }
+}

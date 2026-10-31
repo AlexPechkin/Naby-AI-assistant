@@ -1,0 +1,377 @@
+{
+  "draft": [
+    "Частный черновик налогового консультирования",
+    "Private tax consulting draft",
+    "私人税务咨询草案"
+  ],
+  "source_note": [
+    "Имена, реквизиты и цитаты источников сохранены в оригинале.",
+    "Names, identifiers and quotations retain original source wording.",
+    "姓名、标识及引文保留来源原文。"
+  ],
+  "unverified": [
+    "Буквальное совпадение и привязка файла не удостоверяют смысл, подлинность, полную цепочку поправок или правовую применимость.",
+    "Literal occurrence and file alignment do not establish meaning, authenticity, complete amendments or legal applicability.",
+    "逐字出现及文件匹配不证明含义、真实性、完整修订链或法律适用性。"
+  ],
+  "control_notice": [
+    "Недопустимые для формата управляющие символы отображаются как явные escape-последовательности; исходные строки сохранены в JSON.",
+    "Format-illegal control characters are displayed as explicit escapes; original strings remain in JSON.",
+    "格式不允许的控制字符显示为明确转义；JSON中保留原字符串。"
+  ],
+  "verification_scope": [
+    "Здесь не выполнены вход в ЛК, подача, оплата, подпись, представительство, проверка реестра или предоставление налогового права.",
+    "No account login, filing, payment, signature, representation, registry lookup or tax-right grant is performed here.",
+    "此处不执行账户登录、提交、付款、签名、代理、登记查询或税务资格授予。"
+  ],
+  "precision_note": [
+    "Денежные итоги выражены в RUB, ставки — в долях, если отдельная единица не указана явно. Исходные числа сохранены без сокращения. Условия сравниваются по точной рациональной арифметике; периодические производные дроби показаны с точностью Decimal180. Юридическое округление применяется только в явно выбранной ветви.",
+    "Monetary results are in RUB and rates are ratios unless another unit is explicit. Original numbers are retained without abbreviation. Predicates use exact rational arithmetic; recurring derived fractions are displayed at Decimal180 precision. Legal rounding applies only in an explicitly selected branch.",
+    "未另行注明单位时，货币结果为RUB，费率为比例。原数值不缩减；条件使用精确有理数比较，循环派生小数按Decimal180精度显示。法律舍入仅在明确选定分支应用。"
+  ],
+  "synthetic_banner": [
+    "Иллюстративный синтетический пример: не документы реального клиента и не подтверждение действующего закона.",
+    "Illustrative synthetic example: not a real client record or a current-law certificate.",
+    "合成示例：不是实际客户记录，也不证明现行法律。"
+  ],
+  "assumption_banner": [
+    "Часть значений — явные предположения, отдельно от наблюдаемых фактов.",
+    "Some values are explicit assumptions, separate from observed facts.",
+    "部分数值是明确假设，与观察事实分开。"
+  ],
+  "as_of": [
+    "Дата доступной информации",
+    "Information cutoff",
+    "信息截止日期"
+  ],
+  "missing": [
+    "Не предоставлено",
+    "Not supplied",
+    "未提供"
+  ],
+  "none": [
+    "Записи в выбранной области не выбраны",
+    "No records selected in this scope",
+    "此范围内未选择记录"
+  ],
+  "yes": [
+    "Да",
+    "Yes",
+    "是"
+  ],
+  "no": [
+    "Нет",
+    "No",
+    "否"
+  ],
+  "details": [
+    "Сведения",
+    "Details",
+    "详情"
+  ],
+  "items": [
+    "Записи",
+    "Records",
+    "记录"
+  ],
+  "value": [
+    "Значение",
+    "Value",
+    "值"
+  ],
+  "field": [
+    "Показатель",
+    "Field",
+    "项目"
+  ],
+  "page": [
+    "Страница",
+    "Page",
+    "页"
+  ],
+  "assumptions": [
+    "Явные предположения",
+    "Explicit assumptions",
+    "明确假设"
+  ],
+  "evidence": [
+    "Выбранные источники и привязки",
+    "Selected sources and bindings",
+    "所选来源及绑定"
+  ],
+  "sources_unconfirmed": [
+    "Журнал выбранных источников этому вызову не передан.",
+    "No selected-source review log was supplied to this call.",
+    "本次调用未提供所选来源审查日志。"
+  ],
+  "source_text_bindings": [
+    "Привязки исходного текста",
+    "Source-text bindings",
+    "来源文本绑定"
+  ],
+  "empty_source_binding": [
+    "Выбран полный пустой файл; наличие цитаты не удостоверено",
+    "Complete empty file selected; no quote occurrence established",
+    "选取完整空文件；未确认引文出现"
+  ],
+  "blank_source_binding": [
+    "Выбран полный файл из пробельных символов; наличие цитаты не удостоверено",
+    "Complete whitespace-only file selected; no quote occurrence established",
+    "选取完整空白字符文件；未确认引文出现"
+  ],
+  "literal_source_binding": [
+    "По переданному журналу исходный текст найден в выбранном файле",
+    "Supplied log reports literal text occurrence in the selected file",
+    "所提供日志报告在所选文件中找到原文"
+  ],
+  "literal_binding_not_established": [
+    "Буквальная привязка по переданному журналу не установлена",
+    "Literal binding is not established by the supplied log",
+    "所提供日志未确认逐字绑定"
+  ],
+  "date_equivalence_binding": [
+    "Установлена календарная эквивалентность даты по переданному журналу",
+    "Supplied log establishes calendar-date equivalence",
+    "所提供日志确认日历日期等价"
+  ],
+  "date_binding_note": [
+    "Оригинальное написание даты сохранено. Позиции — символьные смещения внутри фрагмента, правая граница не включена. Нормализация не удостоверяет контекст, смысл или правовую применимость.",
+    "Original date spelling is retained. Positions are character offsets within the segment, with an exclusive end. Normalization does not establish context, meaning or legal applicability.",
+    "保留原始日期写法；位置是片段内字符偏移，结束位置不含在内。规范化不证明上下文、含义或法律适用性。"
+  ],
+  "source_date_token": [
+    "Оригинальная дата и положение",
+    "Original date and position",
+    "原日期及位置"
+  ],
+  "normalized_date": [
+    "Календарная дата ISO",
+    "Calendar date in ISO form",
+    "ISO形式的日历日期"
+  ],
+  "calculation": [
+    "Результат и подробности",
+    "Results and details",
+    "结果及详情"
+  ],
+  "not_requested": [
+    "Ветвь не выбрана",
+    "Branch not selected",
+    "未选择该分支"
+  ],
+  "not_computed": [
+    "Не вычислено по выбранным данным",
+    "Not computed from selected data",
+    "未依据所选资料计算"
+  ],
+  "unknown": [
+    "Не установлено",
+    "Not established",
+    "未确定"
+  ],
+  "undefined": [
+    "Математически не определено",
+    "Mathematically undefined",
+    "数学上未定义"
+  ],
+  "open_upper": [
+    "Верхняя граница в выбранной шкале открыта",
+    "Open upper bound in the selected scale",
+    "所选阶梯无上限"
+  ],
+  "rounding_not_selected": [
+    "Округление не выбрано; см. сумму до округления",
+    "Rounding not selected; see the amount before rounding",
+    "未选择舍入；参见舍入前金额"
+  ],
+  "periods_not_summed": [
+    "Не суммируется: охват НДС и прямого налога различается",
+    "Not summed: VAT and direct-tax coverage differ",
+    "不合并：增值税与直接税覆盖期间不同"
+  ],
+  "expenses_not_used": [
+    "Расходы не используются в выбранной модели",
+    "Expenses are not used by the selected model",
+    "所选模型不使用费用"
+  ],
+  "VAT_only_not_derived": [
+    "Не выводится из отдельно предоставленной суммы НДС",
+    "Not derived from a separately supplied VAT amount",
+    "不能从单独提供的增值税额推导"
+  ],
+  "incomplete_accrual": [
+    "Полный итог не определён: есть непредоставленные периоды",
+    "Complete total is unknown: some periods were not supplied",
+    "完整总额未知：部分期间未提供"
+  ],
+  "exemption_temporal_unknown": [
+    "Итог после исключения не определён: временная применимость не установлена",
+    "After-exemption result unknown: temporal applicability not established",
+    "免除后结果未知：未确定时间适用性"
+  ],
+  "no_missing_selected_days": [
+    "По выбранным обязательствам непредоставленные дни не выявлены",
+    "No missing days found for the selected obligations",
+    "所选义务中未发现缺失日期"
+  ],
+  "no_obligations_selected": [
+    "Обязательства для проверки покрытия не выбраны",
+    "No obligations selected for coverage review",
+    "未选择用于覆盖检查的义务"
+  ],
+  "service_not_needed": [
+    "Запись вручения не используется для выбранного вида исходного события",
+    "Service record is not used for the selected trigger kind",
+    "所选触发事件类别不使用送达记录"
+  ],
+  "automatic_choice_not_made": [
+    "Инструмент не выбирает налоговый режим автоматически",
+    "The tool does not select a tax regime automatically",
+    "工具不自动选择税制"
+  ],
+  "unselected_original_section": [
+    "Для этого раздела данные или ветвь не выбраны; это не вывод о юридической неприменимости.",
+    "No data or branch selected for this section; this does not establish legal inapplicability.",
+    "此章节未选择资料或分支，不代表确认法律上不适用。"
+  ],
+  "signature_draft": [
+    "Место подписи уполномоченного лица. Инструмент не подписывает и не подаёт документ.",
+    "Signature place for an authorized person. The tool does not sign or file.",
+    "有权人员签字位置；工具不签名或提交。"
+  ],
+  "tool_scope": [
+    "Границы выполненного инструментом",
+    "Scope of this tool",
+    "本工具执行范围"
+  ],
+  "other_USN": [
+    "УСН — иная выбранная ставка или без ветви НДС",
+    "Simplified regime: another selected rate or no VAT branch",
+    "简化税制：其他所选税率或无增值税分支"
+  ],
+  "NPD": [
+    "НПД — выбранный сценарий",
+    "Professional income tax: selected scenario",
+    "职业收入税：所选情景"
+  ],
+  "comparison_summary": [
+    "Сводка выбранных сценариев",
+    "Selected scenario summary",
+    "所选情景汇总"
+  ],
+  "records_summary": [
+    "Сводка выбранных записей",
+    "Selected record summary",
+    "所选记录汇总"
+  ],
+  "original_section_notice": [
+    "Названия разделов сохранены из исходного паспорта; указанные в них ставки не являются автоматически выбранной нормой.",
+    "Original passport section headings are retained; rates appearing in those headings are not automatically selected legal rules.",
+    "保留原职业说明章节名称；标题中的税率不是自动选定法律规则。"
+  ],
+  "obligation": [
+    "Обязательство",
+    "Obligation",
+    "义务"
+  ],
+  "continuation": [
+    "Продолжение",
+    "Continuation",
+    "续"
+  ],
+  "not_used": [
+    "Не используется в выбранном расчёте",
+    "Not used in the selected calculation",
+    "所选计算不使用"
+  ],
+  "comparison_unselected": [
+    "Сравнение не выбрано",
+    "Comparison not selected",
+    "未选择比较"
+  ],
+  "not_assessed_questions": [
+    "В режиме вопросов не оценивалось",
+    "Not assessed in questions mode",
+    "提问模式未进行评估"
+  ],
+  "no_additional_issues": [
+    "Дополнительных замечаний в выполненном анализе не сформировано",
+    "No additional issues generated in the performed analysis",
+    "已执行分析未生成其他问题说明"
+  ],
+  "no_unprovided_between_periods": [
+    "Между выбранными периодами не выявлено неохваченных интервалов",
+    "No uncovered intervals found between selected periods",
+    "所选期间之间未发现未覆盖区间"
+  ],
+  "no_missing_review_topics": [
+    "Пропущенных тем среди выбранных для проверки не выявлено",
+    "No missing topics among those selected for review",
+    "所选审查主题中未发现缺项"
+  ],
+  "review_topics_not_selected": [
+    "Темы для проверки полноты не выбраны",
+    "Topics for completeness review were not selected",
+    "未选择完整性审查主题"
+  ],
+  "no_source_conflict_records": [
+    "Записи о противоречиях источников не предоставлены; отсутствие противоречий не удостоверено",
+    "No source-conflict records supplied; absence of conflicts is not certified",
+    "未提供来源冲突记录；未确认不存在冲突"
+  ],
+  "no_duplicate_clause_topics": [
+    "Повторяющихся тем среди выбранных условий не выявлено",
+    "No repeated topics found among selected clauses",
+    "所选条款中未发现重复主题"
+  ],
+  "clauses_not_selected": [
+    "Условия для сопоставления не выбраны",
+    "Clauses for comparison were not selected",
+    "未选择用于比较的条款"
+  ],
+  "no_repeated_external_ids": [
+    "Повторений внешних идентификаторов среди выбранных операций не выявлено",
+    "No repeated external identifiers found among selected entries",
+    "所选交易中未发现重复外部标识"
+  ],
+  "ledger_entries_not_selected": [
+    "Операции для сопоставления идентификаторов не выбраны",
+    "Entries for identifier comparison were not selected",
+    "未选择用于标识比较的交易"
+  ],
+  "selected_power_ids_present": [
+    "Все запрошенные идентификаторы есть в выбранной записи; юридическое полномочие не удостоверено",
+    "All requested identifiers occur in the selected record; legal authority is not certified",
+    "所选记录中包含全部请求标识；未确认法律权限"
+  ],
+  "power_comparison_not_selected": [
+    "Полномочия для сопоставления не выбраны",
+    "Powers for comparison were not selected",
+    "未选择用于比较的权限"
+  ],
+  "income_date_in_property": [
+    "Отдельная дата поступления не предоставлена; выбранный условный сценарий использует событие продажи",
+    "Separate cash receipt date was not supplied; the selected conditional property-sale scenario uses the sale event",
+    "未提供单独收款日期；所选有条件财产出售情景使用出售事件"
+  ],
+  "property_exemption_basis_separate": [
+    "Отдельное основание этой строки не используется; основание имущественной ветви приведено отдельно",
+    "This row does not use a separate exemption basis; the property branch basis is shown separately",
+    "本行不使用单独免税依据；财产分支依据另列"
+  ],
+  "deduction_only_deadline_not_selected": [
+    "Обязательный срок подачи или оплаты для обращения только за вычетом здесь не выбран",
+    "A mandatory filing or payment deadline was not selected for this deduction-only request",
+    "本次仅申请扣除的请求未选择强制申报或缴款期限"
+  ],
+  "no_multiple_selected_positions": [
+    "Нескольких выбранных позиций с одинаковой темой не выявлено",
+    "No multiple selected positions with the same topic found",
+    "未发现同一主题的多个所选立场"
+  ],
+  "change_comparison_not_performed": [
+    "Сравнение не выполнялось: записи изменений не выбраны",
+    "Comparison was not performed: change records were not selected",
+    "未进行比较：未选择变更记录"
+  ]
+}

@@ -1,0 +1,3170 @@
+{
+  "fields": {
+    "ISR_contexts": [
+      "Контексты обработчиков прерываний",
+      "ISR contexts",
+      "中断处理上下文"
+    ],
+    "PDU_scope": [
+      "Область проверки блока данных протокола",
+      "PDU scope",
+      "协议数据单元检查范围"
+    ],
+    "RU_ECB_OS_constraints": [
+      "Ограничения по российской ЭКБ и ОС",
+      "RU ECB OS constraints",
+      "俄罗斯元器件及操作系统约束"
+    ],
+    "above_selected_gap": [
+      "Превышен выбранный интервал",
+      "above selected gap",
+      "超过所选间隔"
+    ],
+    "absolute_error_ratio": [
+      "Модуль относительной ошибки",
+      "absolute error ratio",
+      "相对误差绝对值"
+    ],
+    "absolute_relative_error": [
+      "Модуль относительной ошибки",
+      "absolute relative error",
+      "相对误差绝对值"
+    ],
+    "abstract": [
+      "Реферат",
+      "abstract",
+      "摘要"
+    ],
+    "accounted_mode_time_s": [
+      "Сумма заданных длительностей режимов в секундах",
+      "accounted mode time s",
+      "所给模式时长之和 秒"
+    ],
+    "action": [
+      "Предлагаемое действие",
+      "action",
+      "拟议操作"
+    ],
+    "actual_baud": [
+      "Расчётная скорость в битах в секунду",
+      "actual baud",
+      "计算波特率 位每秒"
+    ],
+    "actual_payload_bytes": [
+      "Число байтов предоставленной полезной нагрузки",
+      "actual payload bytes",
+      "所提供有效载荷字节数"
+    ],
+    "actual_result": [
+      "Предоставленный фактический результат",
+      "actual result",
+      "所提供实际结果"
+    ],
+    "address": [
+      "Адрес",
+      "address",
+      "地址"
+    ],
+    "address_space": [
+      "Адресное пространство",
+      "address space",
+      "地址空间"
+    ],
+    "affected_record_reviews": [
+      "Обзор записей о затронутых пакетах",
+      "affected record reviews",
+      "受影响软件包记录审查"
+    ],
+    "affected_record_states": [
+      "Состояния записей о затронутых пакетах",
+      "affected record states",
+      "受影响软件包记录状态"
+    ],
+    "after_position": [
+      "Позиция после события",
+      "after position",
+      "事件后位置"
+    ],
+    "all_declared_capacity_sums_fit": [
+      "Все суммы заявленных объёмов укладываются в выбранную ёмкость",
+      "all declared capacity sums fit",
+      "全部声明容量之和在所选限值内"
+    ],
+    "all_linked_planned_cases_have_consistent_reported_pass": [
+      "Все связанные плановые случаи имеют согласованные сообщения об успехе",
+      "all linked planned cases have consistent reported pass",
+      "全部关联计划用例均有一致通过记录"
+    ],
+    "all_planned_cases_have_consistent_reported_pass": [
+      "Все плановые случаи имеют согласованные сообщения об успехе",
+      "all planned cases have consistent reported pass",
+      "全部计划用例均有一致通过记录"
+    ],
+    "allocation_overlaps": [
+      "Пересечения выделенных диапазонов",
+      "allocation overlaps",
+      "分配范围重叠"
+    ],
+    "allocations": [
+      "Выделенные области памяти",
+      "allocations",
+      "内存分配"
+    ],
+    "analysis": [
+      "Анализ",
+      "Analysis",
+      "分析"
+    ],
+    "analysis_kind": [
+      "Вид анализа",
+      "analysis kind",
+      "分析类型"
+    ],
+    "analysis_only": [
+      "Только аналитическая помощь",
+      "analysis only",
+      "仅分析辅助"
+    ],
+    "applicability_established": [
+      "Применимость установлена этим инструментом",
+      "applicability established",
+      "本工具确定适用性"
+    ],
+    "arbitration_id": [
+      "Идентификатор арбитража",
+      "arbitration id",
+      "仲裁标识符"
+    ],
+    "architecture_is_draft": [
+      "Архитектура является черновиком",
+      "architecture is draft",
+      "架构为草稿"
+    ],
+    "arithmetic_precision": [
+      "Область точности арифметики",
+      "arithmetic precision",
+      "算术精度范围"
+    ],
+    "arrival_us": [
+      "Время прихода в микросекундах",
+      "arrival us",
+      "到达时间 微秒"
+    ],
+    "as_of": [
+      "Информация по состоянию на",
+      "as of",
+      "信息截止日期"
+    ],
+    "assets": [
+      "Активы",
+      "assets",
+      "资产"
+    ],
+    "assisted_draft": [
+      "Черновик при помощи инструмента",
+      "assisted draft",
+      "工具辅助草稿"
+    ],
+    "assumptions": [
+      "Допущения",
+      "assumptions",
+      "假设"
+    ],
+    "attack_paths": [
+      "Пути воздействия",
+      "attack paths",
+      "攻击路径"
+    ],
+    "authors": [
+      "Авторы",
+      "authors",
+      "作者"
+    ],
+    "available": [
+      "Предоставленная доступная величина",
+      "available",
+      "所提供可用量"
+    ],
+    "average_power_W": [
+      "Расчётная средняя мощность в ваттах",
+      "average power W",
+      "计算平均功率 瓦"
+    ],
+    "base_function": [
+      "Базовая функция протокола",
+      "base function",
+      "协议基本功能"
+    ],
+    "basis": [
+      "Выбранное основание",
+      "basis",
+      "所选依据"
+    ],
+    "battery": [
+      "Условная модель батареи",
+      "battery",
+      "条件电池模型"
+    ],
+    "before": [
+      "Предыдущее значение",
+      "before",
+      "先前值"
+    ],
+    "before_position": [
+      "Позиция до события",
+      "before position",
+      "事件前位置"
+    ],
+    "bits": [
+      "Разрядность в битах",
+      "bits",
+      "位宽"
+    ],
+    "blocking_budget_us": [
+      "Бюджет блокировки в микросекундах",
+      "blocking budget us",
+      "阻塞预算 微秒"
+    ],
+    "board_revision": [
+      "Ревизия платы",
+      "board revision",
+      "电路板修订"
+    ],
+    "branch": [
+      "Ветка разработки",
+      "branch",
+      "开发分支"
+    ],
+    "build_id": [
+      "Идентификатор сборки",
+      "build id",
+      "构建标识符"
+    ],
+    "builds": [
+      "Предоставленные сборки",
+      "builds",
+      "所提供构建"
+    ],
+    "byte_count": [
+      "Число байтов",
+      "byte count",
+      "字节数"
+    ],
+    "bytes": [
+      "Размер в байтах",
+      "bytes",
+      "字节大小"
+    ],
+    "c_draft": [
+      "Инертный черновик кода C",
+      "c draft",
+      "不可执行C代码草稿"
+    ],
+    "calendar_dates_computed": [
+      "Календарные даты рассчитаны этим инструментом",
+      "calendar dates computed",
+      "本工具计算日历日期"
+    ],
+    "can": [
+      "Обзор CAN",
+      "can",
+      "CAN审查"
+    ],
+    "candidate_counter": [
+      "Предоставленный счётчик нового образа",
+      "candidate counter",
+      "所提供新镜像计数器"
+    ],
+    "candidate_not_below_stored": [
+      "Предоставленный счётчик не ниже сохранённого",
+      "candidate not below stored",
+      "所提供计数器不低于存储值"
+    ],
+    "capacity": [
+      "Выбранная ёмкость",
+      "capacity",
+      "所选容量"
+    ],
+    "capacity_bytes": [
+      "Выбранная ёмкость в байтах",
+      "capacity bytes",
+      "所选容量 字节"
+    ],
+    "capacity_only_within_selected_limit": [
+      "Только сумма объёмов в пределах выбранной ёмкости",
+      "capacity only within selected limit",
+      "仅容量和在所选限值内"
+    ],
+    "case_count": [
+      "Число выбранных случаев",
+      "case count",
+      "所选用例数"
+    ],
+    "case_id": [
+      "Идентификатор случая",
+      "case id",
+      "用例标识符"
+    ],
+    "case_ids": [
+      "Идентификаторы случаев",
+      "case ids",
+      "用例标识符列表"
+    ],
+    "case_records": [
+      "Сопоставление случаев и записей",
+      "case records",
+      "用例与记录比对"
+    ],
+    "case_revision": [
+      "Ревизия случая",
+      "case revision",
+      "用例修订"
+    ],
+    "cells": [
+      "Ячейки выбранной матрицы",
+      "cells",
+      "所选矩阵单元"
+    ],
+    "certification_established": [
+      "Сертификация установлена этим инструментом",
+      "certification established",
+      "本工具确定认证"
+    ],
+    "changes": [
+      "Изменения",
+      "changes",
+      "变更"
+    ],
+    "channel": [
+      "Канал обновления",
+      "channel",
+      "更新渠道"
+    ],
+    "characteristics": [
+      "Характеристики",
+      "characteristics",
+      "特性"
+    ],
+    "clock_alignment_established": [
+      "Общая шкала часов установлена этим инструментом",
+      "clock alignment established",
+      "本工具确定共同时间基准"
+    ],
+    "clock_bounds": [
+      "Выбранный диапазон частоты",
+      "clock bounds",
+      "所选时钟频率范围"
+    ],
+    "clock_hz": [
+      "Частота в герцах",
+      "clock hz",
+      "频率 赫兹"
+    ],
+    "clock_id": [
+      "Идентификатор часов",
+      "clock id",
+      "时钟标识符"
+    ],
+    "column": [
+      "Столбец",
+      "column",
+      "列"
+    ],
+    "compared_fields": [
+      "Сопоставленные поля",
+      "compared fields",
+      "已比对字段"
+    ],
+    "compatibility": [
+      "Совместимость",
+      "compatibility",
+      "兼容性"
+    ],
+    "compiler": [
+      "Предоставленный компилятор",
+      "compiler",
+      "所提供编译器"
+    ],
+    "component": [
+      "Компонент",
+      "component",
+      "组件"
+    ],
+    "component_id": [
+      "Идентификатор компонента",
+      "component id",
+      "组件标识符"
+    ],
+    "component_vulnerability_clearance_established": [
+      "Отсутствие уязвимостей установлено этим инструментом",
+      "component vulnerability clearance established",
+      "本工具确定无组件漏洞"
+    ],
+    "components": [
+      "Сторонние компоненты",
+      "components",
+      "第三方组件"
+    ],
+    "computed_crc_hex": [
+      "Рассчитанная CRC в шестнадцатеричном виде",
+      "computed crc hex",
+      "计算CRC 十六进制"
+    ],
+    "configuration_sha256": [
+      "Предоставленный SHA256 конфигурации",
+      "configuration sha256",
+      "所提供配置SHA256"
+    ],
+    "connection": [
+      "Описание подключения",
+      "connection",
+      "连接说明"
+    ],
+    "constraint_checks": [
+      "Проверка выбранных ограничений контекста",
+      "constraint checks",
+      "所选上下文约束检查"
+    ],
+    "content": [
+      "Предоставленный полный текст",
+      "content",
+      "所提供完整文本"
+    ],
+    "context": [
+      "Предоставленный контекст",
+      "context",
+      "所提供上下文"
+    ],
+    "context_differences": [
+      "Различия контекста",
+      "context differences",
+      "上下文差异"
+    ],
+    "context_mismatches": [
+      "Несовпадения контекста",
+      "context mismatches",
+      "上下文不匹配"
+    ],
+    "control": [
+      "Мера защиты",
+      "control",
+      "安全控制"
+    ],
+    "corner": [
+      "Выбранный расчётный угол",
+      "corner",
+      "所选分析角"
+    ],
+    "count": [
+      "Число",
+      "count",
+      "数量"
+    ],
+    "counter": [
+      "Арифметика счётчика",
+      "counter",
+      "计数器算术"
+    ],
+    "counter_basis": [
+      "Выбранное основание счётчика",
+      "counter basis",
+      "所选计数器依据"
+    ],
+    "counter_comparison": [
+      "Числовое сравнение счётчиков",
+      "counter comparison",
+      "计数器数值比较"
+    ],
+    "counts_as_reported_pass": [
+      "Засчитывается как согласованная запись успеха",
+      "counts as reported pass",
+      "计作一致的报告通过"
+    ],
+    "coverage": [
+      "Выбранные сведения о покрытии",
+      "coverage",
+      "所选覆盖信息"
+    ],
+    "coverage_or_MISRA_conformance_established": [
+      "Покрытие или соответствие MISRA установлено этим инструментом",
+      "coverage or MISRA conformance established",
+      "本工具确定覆盖或MISRA符合性"
+    ],
+    "covered": [
+      "Предоставленное число покрытых элементов",
+      "covered",
+      "所提供已覆盖元素数"
+    ],
+    "crc_matches": [
+      "Рассчитанная CRC совпадает с предоставленной",
+      "crc matches",
+      "计算CRC与所提供值一致"
+    ],
+    "crc_scope": [
+      "Область проверки CRC",
+      "crc scope",
+      "CRC检查范围"
+    ],
+    "critical_in_supplied_DAG": [
+      "Критическая задача в предоставленном графе",
+      "critical in supplied DAG",
+      "所提供图中的关键任务"
+    ],
+    "current_legal_applicability_verified": [
+      "Правовая применимость проверена этим инструментом",
+      "current legal applicability verified",
+      "本工具核验法律适用性"
+    ],
+    "current_mA": [
+      "Ток в миллиамперах",
+      "current mA",
+      "电流 毫安"
+    ],
+    "current_normative_chain_established": [
+      "Полная действующая цепочка норм установлена инструментом",
+      "current normative chain established",
+      "本工具确定完整现行规范链"
+    ],
+    "database_semantics_established": [
+      "Семантика базы декодирования установлена инструментом",
+      "database semantics established",
+      "本工具确定解码数据库语义"
+    ],
+    "database_sha256": [
+      "Предоставленный SHA256 базы",
+      "database sha256",
+      "所提供数据库SHA256"
+    ],
+    "datasheet": [
+      "Выбранный технический документ",
+      "datasheet",
+      "所选数据手册"
+    ],
+    "date": [
+      "Предоставленная дата",
+      "date",
+      "所提供日期"
+    ],
+    "deadline_us": [
+      "Выбранный дедлайн в микросекундах",
+      "deadline us",
+      "所选截止时间 微秒"
+    ],
+    "debug_interface": [
+      "Предложение по отладочному интерфейсу",
+      "debug interface",
+      "调试接口提议"
+    ],
+    "decision_scope": [
+      "Область выводов",
+      "decision scope",
+      "结论范围"
+    ],
+    "declared_energy_J": [
+      "Энергия по заданным величинам в джоулях",
+      "declared energy J",
+      "按给定量计算能量 焦耳"
+    ],
+    "declared_mode_durations_sum_to_window": [
+      "Сумма заданных длительностей равна окну",
+      "declared mode durations sum to window",
+      "给定模式时长之和等于窗口"
+    ],
+    "declared_sum_bytes": [
+      "Сумма заявленных объёмов в байтах",
+      "declared sum bytes",
+      "声明容量之和 字节"
+    ],
+    "decode_recomputed": [
+      "Декодирование повторено этим инструментом",
+      "decode recomputed",
+      "本工具重新解码"
+    ],
+    "decoded": [
+      "Предоставленная расшифровка",
+      "decoded",
+      "所提供解码"
+    ],
+    "decoded_exports": [
+      "Предоставленные выгрузки декодирования",
+      "decoded exports",
+      "所提供解码导出"
+    ],
+    "defects": [
+      "Предоставленные дефекты",
+      "defects",
+      "所提供缺陷"
+    ],
+    "dependencies": [
+      "Зависимости модулей",
+      "dependencies",
+      "模块依赖"
+    ],
+    "depends_on": [
+      "Зависит от задач",
+      "depends on",
+      "依赖任务"
+    ],
+    "deposited_material_ids": [
+      "Идентификаторы депонируемых материалов",
+      "deposited material ids",
+      "存档材料标识符"
+    ],
+    "description": [
+      "Описание",
+      "description",
+      "说明"
+    ],
+    "description_semantics_established": [
+      "Смысл описания установлен этим инструментом",
+      "description semantics established",
+      "本工具确定说明语义"
+    ],
+    "device": [
+      "Устройство",
+      "device",
+      "设备"
+    ],
+    "device_commands_sent": [
+      "Команды устройству отправлены этим инструментом",
+      "device commands sent",
+      "本工具发送设备命令"
+    ],
+    "device_connected": [
+      "Устройство подключено этим инструментом",
+      "device connected",
+      "本工具连接设备"
+    ],
+    "device_functions": [
+      "Функции устройства",
+      "device functions",
+      "设备功能"
+    ],
+    "device_programmed": [
+      "Устройство прошито этим инструментом",
+      "device programmed",
+      "本工具烧录设备"
+    ],
+    "device_success_established": [
+      "Успех работы устройства установлен инструментом",
+      "device success established",
+      "本工具确定设备成功运行"
+    ],
+    "diagnostics": [
+      "Предоставленные диагностические сообщения",
+      "diagnostics",
+      "所提供诊断信息"
+    ],
+    "difference": [
+      "Разность",
+      "difference",
+      "差值"
+    ],
+    "direction": [
+      "Направление",
+      "direction",
+      "方向"
+    ],
+    "distribution_context": [
+      "Контекст распространения ПО",
+      "distribution context",
+      "软件传播上下文"
+    ],
+    "divider": [
+      "Эффективный делитель",
+      "divider",
+      "有效分频系数"
+    ],
+    "document_basis": [
+      "Выбранная основа документа",
+      "document basis",
+      "所选文档依据"
+    ],
+    "document_identity": [
+      "Обозначение выбранного документа",
+      "document identity",
+      "所选文档标识"
+    ],
+    "draft_interpretation": [
+      "Границы чернового предложения",
+      "draft interpretation",
+      "草稿提议边界"
+    ],
+    "duplicate_of_ids": [
+      "Повторы записей",
+      "duplicate of ids",
+      "重复记录标识符"
+    ],
+    "duration": [
+      "Предоставленная длительность",
+      "duration",
+      "所提供时长"
+    ],
+    "duration_partition_model": [
+      "Допущение о длительностях режимов",
+      "duration partition model",
+      "模式时长假设"
+    ],
+    "duration_s": [
+      "Длительность в секундах",
+      "duration s",
+      "时长 秒"
+    ],
+    "dut": [
+      "Предоставленный идентификатор испытуемого устройства",
+      "dut",
+      "所提供被测设备标识符"
+    ],
+    "earliest_finish": [
+      "Раннее окончание в днях графика",
+      "earliest finish",
+      "计划最早完成 天"
+    ],
+    "earliest_start": [
+      "Раннее начало в днях графика",
+      "earliest start",
+      "计划最早开始 天"
+    ],
+    "ecosystem": [
+      "Экосистема пакета",
+      "ecosystem",
+      "软件包生态系统"
+    ],
+    "edition": [
+      "Предоставленная редакция",
+      "edition",
+      "所提供版本"
+    ],
+    "effective_from": [
+      "Начало действия по выбранным сведениям",
+      "effective from",
+      "所选信息中的生效起日"
+    ],
+    "effective_to": [
+      "Окончание действия по выбранным сведениям",
+      "effective to",
+      "所选信息中的生效止日"
+    ],
+    "elapsed_s_under_single_modulus_model": [
+      "Время в секундах при выбранной модели одного модуля",
+      "elapsed s under single modulus model",
+      "单模数模型下经过时间 秒"
+    ],
+    "employment_basis": [
+      "Выбранный трудовой документ",
+      "employment basis",
+      "所选劳动关系依据"
+    ],
+    "encoding_note": [
+      "Сведения о кодировке",
+      "encoding note",
+      "编码说明"
+    ],
+    "end": [
+      "Окончание",
+      "end",
+      "结束"
+    ],
+    "energy_J": [
+      "Энергия в джоулях",
+      "energy J",
+      "能量 焦耳"
+    ],
+    "engine_executed_here": [
+      "Внешний движок выполнен здесь",
+      "engine executed here",
+      "此处执行外部引擎"
+    ],
+    "entry_criteria": [
+      "Предлагаемые входные критерии",
+      "entry criteria",
+      "拟议进入标准"
+    ],
+    "environment_id": [
+      "Идентификатор среды",
+      "environment id",
+      "环境标识符"
+    ],
+    "environments": [
+      "Выбранные или предлагаемые среды",
+      "environments",
+      "所选或拟议环境"
+    ],
+    "error_handling": [
+      "Предлагаемая обработка ошибок",
+      "error handling",
+      "拟议错误处理"
+    ],
+    "evidence": [
+      "Выбранное свидетельство",
+      "evidence",
+      "所选证据"
+    ],
+    "evidence_gaps": [
+      "Пробелы выбранных сведений",
+      "evidence gaps",
+      "所选资料缺口"
+    ],
+    "evidence_refs": [
+      "Ссылки на выбранные свидетельства",
+      "evidence refs",
+      "所选证据引用"
+    ],
+    "evidence_state": [
+      "Состояние свидетельств",
+      "evidence state",
+      "证据状态"
+    ],
+    "exception_code": [
+      "Код исключения",
+      "exception code",
+      "异常码"
+    ],
+    "excerpt": [
+      "Дословный выбранный фрагмент",
+      "excerpt",
+      "所选原文片段"
+    ],
+    "excerpt_truncated": [
+      "Показанный фрагмент сокращён и имеет полный оригинал отдельно",
+      "excerpt truncated",
+      "显示片段已缩短 完整原文另存"
+    ],
+    "execution_budget_us": [
+      "Бюджет выполнения в микросекундах",
+      "execution budget us",
+      "执行预算 微秒"
+    ],
+    "execution_date": [
+      "Предоставленная дата выполнения",
+      "execution date",
+      "所提供执行日期"
+    ],
+    "execution_id": [
+      "Идентификатор записи выполнения",
+      "execution id",
+      "执行记录标识符"
+    ],
+    "execution_note": [
+      "Пояснение к записи выполнения",
+      "execution note",
+      "执行记录说明"
+    ],
+    "execution_performed_here": [
+      "Выполнение произведено этим инструментом",
+      "execution performed here",
+      "本工具执行"
+    ],
+    "execution_record_ids": [
+      "Идентификаторы записей выполнения",
+      "execution record ids",
+      "执行记录标识符列表"
+    ],
+    "execution_reviews": [
+      "Обзор записей выполнения",
+      "execution reviews",
+      "执行记录审查"
+    ],
+    "executions": [
+      "Предоставленные записи выполнения",
+      "executions",
+      "所提供执行记录"
+    ],
+    "exit_criteria": [
+      "Предлагаемые выходные критерии",
+      "exit criteria",
+      "拟议退出标准"
+    ],
+    "expected": [
+      "Предлагаемый ожидаемый результат",
+      "expected",
+      "拟议预期结果"
+    ],
+    "expected_behavior": [
+      "Предоставленное ожидаемое поведение",
+      "expected behavior",
+      "所提供预期行为"
+    ],
+    "expected_context_constraints": [
+      "Выбранные ожидаемые ограничения контекста",
+      "expected context constraints",
+      "所选预期上下文约束"
+    ],
+    "expected_observation": [
+      "Предлагаемое ожидаемое наблюдение",
+      "expected observation",
+      "拟议预期观察"
+    ],
+    "expected_payload_bytes": [
+      "Ожидаемый размер полезной нагрузки в байтах",
+      "expected payload bytes",
+      "预期有效载荷大小 字节"
+    ],
+    "expected_tests": [
+      "Выбранные ожидаемые тесты",
+      "expected tests",
+      "所选预期测试"
+    ],
+    "explanation": [
+      "Авторское объяснение гипотезы",
+      "explanation",
+      "作者假设解释"
+    ],
+    "external_actions": [
+      "Внешние действия выполнены инструментом",
+      "external actions",
+      "工具执行外部操作"
+    ],
+    "external_identity": [
+      "Идентификаторы внешней записи",
+      "external identity",
+      "外部记录标识符"
+    ],
+    "features": [
+      "Предоставленные признаки поддержки",
+      "features",
+      "所提供支持特性"
+    ],
+    "field_update_started": [
+      "Обновление устройств запущено инструментом",
+      "field update started",
+      "工具启动现场设备更新"
+    ],
+    "fields_without_selected_expected_constraint": [
+      "Поля без выбранного ожидаемого ограничения",
+      "fields without selected expected constraint",
+      "无所选预期约束的字段"
+    ],
+    "file_id": [
+      "Идентификатор исходного файла",
+      "file id",
+      "源文件标识符"
+    ],
+    "files": [
+      "Предоставленные файлы",
+      "files",
+      "所提供文件"
+    ],
+    "findings": [
+      "Найденные кандидаты или предоставленные сообщения",
+      "findings",
+      "候选发现或所提供信息"
+    ],
+    "firmware_flashed": [
+      "Прошивка выполнена этим инструментом",
+      "firmware flashed",
+      "本工具烧录固件"
+    ],
+    "firmware_version": [
+      "Предоставленная версия прошивки",
+      "firmware version",
+      "所提供固件版本"
+    ],
+    "fixes": [
+      "Исправления",
+      "fixes",
+      "修复"
+    ],
+    "forbidden_transitions": [
+      "Предлагаемые запрещённые переходы",
+      "forbidden transitions",
+      "拟议禁止转换"
+    ],
+    "format": [
+      "Явный формат записи",
+      "format",
+      "记录的明确格式"
+    ],
+    "formula": [
+      "Выбранная формула",
+      "formula",
+      "所选公式"
+    ],
+    "fpga": [
+      "Предоставленные сведения о ПЛИС",
+      "fpga",
+      "所提供FPGA信息"
+    ],
+    "frame_id": [
+      "Идентификатор кадра",
+      "frame id",
+      "帧标识符"
+    ],
+    "frame_type": [
+      "Тип кадра",
+      "frame type",
+      "帧类型"
+    ],
+    "frames": [
+      "Предоставленные кадры",
+      "frames",
+      "所提供帧"
+    ],
+    "free_from_declared_sum_bytes": [
+      "Остаток ёмкости по заявленной сумме в байтах",
+      "free from declared sum bytes",
+      "按声明容量和计算剩余 字节"
+    ],
+    "from": [
+      "Исходное состояние",
+      "from",
+      "起始状态"
+    ],
+    "function": [
+      "Функция",
+      "Function",
+      "功能"
+    ],
+    "general": [
+      "Общие сведения",
+      "general",
+      "基本信息"
+    ],
+    "goal": [
+      "Цель",
+      "goal",
+      "目的"
+    ],
+    "guard": [
+      "Предлагаемое условие перехода",
+      "guard",
+      "拟议转换条件"
+    ],
+    "hardware_clock_measured_here": [
+      "Аппаратная частота измерена этим инструментом",
+      "hardware clock measured here",
+      "本工具测量硬件时钟"
+    ],
+    "hardware_or_WCET_validation_performed": [
+      "Аппаратура или WCET проверены этим инструментом",
+      "hardware or WCET validation performed",
+      "本工具验证硬件或WCET"
+    ],
+    "hardware_test_performed": [
+      "Аппаратный тест выполнен этим инструментом",
+      "hardware test performed",
+      "本工具执行硬件测试"
+    ],
+    "hardware_timing_measured_here": [
+      "Аппаратные интервалы измерены этим инструментом",
+      "hardware timing measured here",
+      "本工具测量硬件时序"
+    ],
+    "hash_scope": [
+      "Область хеша",
+      "hash scope",
+      "哈希范围"
+    ],
+    "hash_status": [
+      "Состояние проверки хеша",
+      "hash status",
+      "哈希检查状态"
+    ],
+    "hazard": [
+      "Предоставленная опасность",
+      "hazard",
+      "所提供危险"
+    ],
+    "hex": [
+      "Исходная шестнадцатеричная запись",
+      "hex",
+      "原始十六进制记录"
+    ],
+    "hil_executed": [
+      "HIL выполнен этим инструментом",
+      "hil executed",
+      "本工具执行HIL"
+    ],
+    "hil_executed_here": [
+      "HIL выполнен здесь",
+      "hil executed here",
+      "此处执行HIL"
+    ],
+    "hypotheses": [
+      "Неподтверждённые гипотезы",
+      "hypotheses",
+      "尚未证实的假设"
+    ],
+    "id": [
+      "Идентификатор",
+      "id",
+      "标识符"
+    ],
+    "ideal_energy_limited_life_s": [
+      "Идеальная длительность по энергии в секундах",
+      "ideal energy limited life s",
+      "理想能量受限时长 秒"
+    ],
+    "identifier": [
+      "Предоставленный идентификатор",
+      "identifier",
+      "所提供标识符"
+    ],
+    "identifier_format": [
+      "Формат идентификатора",
+      "identifier format",
+      "标识符格式"
+    ],
+    "identity_and_evidence_consistent": [
+      "Идентификаторы и наличие свидетельств согласованы по схеме",
+      "identity and evidence consistent",
+      "标识符与证据存在性按模式一致"
+    ],
+    "identity_origin": [
+      "Происхождение связи идентификаторов",
+      "identity origin",
+      "标识符映射来源"
+    ],
+    "identity_status": [
+      "Состояние сопоставления идентификаторов",
+      "identity status",
+      "标识符比对状态"
+    ],
+    "image_authentication": [
+      "Предлагаемая аутентификация образа",
+      "image authentication",
+      "拟议镜像认证"
+    ],
+    "image_context": [
+      "Предоставленный контекст образа",
+      "image context",
+      "所提供镜像上下文"
+    ],
+    "image_id": [
+      "Идентификатор образа",
+      "image id",
+      "镜像标识符"
+    ],
+    "image_sha256": [
+      "Предоставленный SHA256 образа",
+      "image sha256",
+      "所提供镜像SHA256"
+    ],
+    "images": [
+      "Предоставленные образы",
+      "images",
+      "所提供镜像"
+    ],
+    "impact": [
+      "Порядковая категория последствий",
+      "impact",
+      "后果序数类别"
+    ],
+    "impact_id": [
+      "Идентификатор категории последствий",
+      "impact id",
+      "后果类别标识符"
+    ],
+    "impact_ids": [
+      "Идентификаторы категорий последствий",
+      "impact ids",
+      "后果类别标识符列表"
+    ],
+    "increment": [
+      "Приращение счётчика",
+      "increment",
+      "计数器增量"
+    ],
+    "independent_confirmation_established": [
+      "Независимое подтверждение получено этим инструментом",
+      "independent confirmation established",
+      "本工具获得独立确认"
+    ],
+    "initialization": [
+      "Предоставленный способ инициализации",
+      "initialization",
+      "所提供初始化方式"
+    ],
+    "initialization_image_checks": [
+      "Сопоставление RAM и загружаемых образов",
+      "initialization image checks",
+      "RAM与加载镜像比对"
+    ],
+    "input_sha256": [
+      "SHA256 снимка входной задачи",
+      "input sha256",
+      "输入任务快照SHA256"
+    ],
+    "inputs": [
+      "Предлагаемые входные данные",
+      "inputs",
+      "拟议输入"
+    ],
+    "inputs_outputs": [
+      "Входные и выходные данные",
+      "inputs outputs",
+      "输入与输出"
+    ],
+    "inside_selected_region": [
+      "Предоставленный диапазон внутри выбранного региона",
+      "inside selected region",
+      "所提供范围在所选区域内"
+    ],
+    "instrumentation_executed_here": [
+      "Инструментирование выполнено здесь",
+      "instrumentation executed here",
+      "此处执行插桩"
+    ],
+    "integer_promotion_and_target_types_established": [
+      "Правила продвижения и типы целевой платформы установлены инструментом",
+      "integer promotion and target types established",
+      "本工具确定整数提升规则及目标类型"
+    ],
+    "interarrival_s": [
+      "Интервал между записями в секундах",
+      "interarrival s",
+      "记录间隔 秒"
+    ],
+    "interfaces": [
+      "Интерфейсы",
+      "interfaces",
+      "接口"
+    ],
+    "interpretation": [
+      "Границы интерпретации",
+      "interpretation",
+      "解释边界"
+    ],
+    "interrupt_response_times_assessed": [
+      "Время реакции прерываний оценено инструментом",
+      "interrupt response times assessed",
+      "工具评估中断响应时间"
+    ],
+    "interrupts": [
+      "Предоставленные прерывания",
+      "interrupts",
+      "所提供中断"
+    ],
+    "invocation": [
+      "Обращение к программе",
+      "invocation",
+      "程序调用"
+    ],
+    "issues": [
+      "Выявленные несогласованности",
+      "issues",
+      "发现的不一致"
+    ],
+    "items": [
+      "Записи",
+      "items",
+      "记录"
+    ],
+    "iteration_count": [
+      "Число итераций модели",
+      "iteration count",
+      "模型迭代次数"
+    ],
+    "iteration_resource_limit": [
+      "Предел итераций инструмента",
+      "iteration resource limit",
+      "工具迭代限值"
+    ],
+    "jurisdiction": [
+      "Выбранная юрисдикция",
+      "jurisdiction",
+      "所选司法辖区"
+    ],
+    "key_storage_reference": [
+      "Ссылка на слот хранения ключа без материала",
+      "key storage reference",
+      "密钥存储槽引用 不含密钥材料"
+    ],
+    "keys_processed": [
+      "Ключевой материал обрабатывался инструментом",
+      "keys processed",
+      "工具处理密钥材料"
+    ],
+    "kind": [
+      "Вид",
+      "kind",
+      "类型"
+    ],
+    "label": [
+      "Предоставленная подпись",
+      "label",
+      "所提供标签"
+    ],
+    "language": [
+      "Язык исходного текста",
+      "language",
+      "源码语言"
+    ],
+    "last_iterate_us": [
+      "Последнее приближение в микросекундах",
+      "last iterate us",
+      "上次迭代值 微秒"
+    ],
+    "latest_finish": [
+      "Позднее окончание в днях графика",
+      "latest finish",
+      "计划最迟完成 天"
+    ],
+    "latest_start": [
+      "Позднее начало в днях графика",
+      "latest start",
+      "计划最迟开始 天"
+    ],
+    "layer": [
+      "Уровень проверки",
+      "layer",
+      "检查层级"
+    ],
+    "length": [
+      "Предоставленная длина",
+      "length",
+      "所提供长度"
+    ],
+    "length_kind": [
+      "Трактовка длины",
+      "length kind",
+      "长度语义"
+    ],
+    "level": [
+      "Уровень теста",
+      "level",
+      "测试层级"
+    ],
+    "license_expression": [
+      "Выбранное лицензионное выражение",
+      "license expression",
+      "所选许可表达式"
+    ],
+    "license_graph_resolution_performed": [
+      "Лицензионный граф разрешён этим инструментом",
+      "license graph resolution performed",
+      "本工具解析许可图"
+    ],
+    "license_interpretation_performed": [
+      "Лицензия юридически интерпретирована инструментом",
+      "license interpretation performed",
+      "工具作出许可法律解释"
+    ],
+    "license_records": [
+      "Выбранные лицензионные записи",
+      "license records",
+      "所选许可记录"
+    ],
+    "likelihood": [
+      "Порядковая категория вероятности",
+      "likelihood",
+      "可能性序数类别"
+    ],
+    "likelihood_id": [
+      "Идентификатор категории вероятности",
+      "likelihood id",
+      "可能性类别标识符"
+    ],
+    "likelihood_ids": [
+      "Идентификаторы категорий вероятности",
+      "likelihood ids",
+      "可能性类别标识符列表"
+    ],
+    "limit_excerpt": [
+      "Выбранный текст основания ограничения",
+      "limit excerpt",
+      "所选限值依据原文"
+    ],
+    "limit_source_reference": [
+      "Ссылка на выбранное ограничение",
+      "limit source reference",
+      "所选限值来源引用"
+    ],
+    "limitations": [
+      "Ограничения",
+      "limitations",
+      "限制"
+    ],
+    "line": [
+      "Номер строки",
+      "line",
+      "行号"
+    ],
+    "load_image_id": [
+      "Идентификатор загружаемого образа",
+      "load image id",
+      "加载镜像标识符"
+    ],
+    "locations": [
+      "Места диагностических сообщений",
+      "locations",
+      "诊断位置"
+    ],
+    "logical_UTF8_bytes": [
+      "Размер логического текста в UTF8 байтах",
+      "logical UTF8 bytes",
+      "逻辑文本UTF8字节数"
+    ],
+    "logical_utf8_sha256": [
+      "SHA256 предоставленного логического текста UTF8",
+      "logical utf8 sha256",
+      "所提供逻辑文本UTF8的SHA256"
+    ],
+    "loss_established": [
+      "Физическая потеря установлена этим инструментом",
+      "loss established",
+      "本工具确定实际丢失"
+    ],
+    "map_provenance": [
+      "Происхождение выбранных сведений о памяти",
+      "map provenance",
+      "所选内存资料来源"
+    ],
+    "mapping_complete_under_selected_model": [
+      "Отображение полно в выбранной модели",
+      "mapping complete under selected model",
+      "映射在所选模型内完整"
+    ],
+    "mapping_evidence": [
+      "Выбранное основание связи идентификаторов",
+      "mapping evidence",
+      "所选标识符映射依据"
+    ],
+    "margin": [
+      "Запас по выбранным величинам",
+      "margin",
+      "所选数值余量"
+    ],
+    "matches_selected_logical_text": [
+      "Совпадает с выбранным логическим текстом",
+      "matches selected logical text",
+      "与所选逻辑文本一致"
+    ],
+    "matching_execution_ids": [
+      "Записи выполнения с совпавшими ограничениями",
+      "matching execution ids",
+      "约束匹配的执行记录"
+    ],
+    "mathematical_wrap_count": [
+      "Математическое число переполнений",
+      "mathematical wrap count",
+      "数学回绕次数"
+    ],
+    "matrix": [
+      "Выбранная порядковая матрица",
+      "matrix",
+      "所选序数矩阵"
+    ],
+    "max_latency": [
+      "Выбранная максимальная задержка",
+      "max latency",
+      "所选最大延迟"
+    ],
+    "max_nonnegative_interarrival_s": [
+      "Максимальный неотрицательный интервал в секундах",
+      "max nonnegative interarrival s",
+      "最大非负记录间隔 秒"
+    ],
+    "maximum": [
+      "Выбранный максимум",
+      "maximum",
+      "所选最大值"
+    ],
+    "maximum_clock_hz": [
+      "Выбранная максимальная частота в герцах",
+      "maximum clock hz",
+      "所选最大时钟频率 赫兹"
+    ],
+    "mcu": [
+      "Предоставленная модель микроконтроллера",
+      "mcu",
+      "所提供微控制器型号"
+    ],
+    "measured_WCET_established": [
+      "Измеренное WCET установлено этим инструментом",
+      "measured WCET established",
+      "本工具确定实测WCET"
+    ],
+    "memory": [
+      "Выбранный бюджет памяти",
+      "memory",
+      "所选内存预算"
+    ],
+    "message": [
+      "Предоставленное сообщение",
+      "message",
+      "所提供消息"
+    ],
+    "messages": [
+      "Сообщения программы",
+      "messages",
+      "程序消息"
+    ],
+    "method": [
+      "Предлагаемый метод",
+      "method",
+      "拟议方法"
+    ],
+    "methodology": [
+      "Черновая методика",
+      "methodology",
+      "方法草稿"
+    ],
+    "methodology_approved": [
+      "Методика утверждена этим инструментом",
+      "methodology approved",
+      "本工具批准方法"
+    ],
+    "metric": [
+      "Выбранный показатель покрытия",
+      "metric",
+      "所选覆盖指标"
+    ],
+    "minimum": [
+      "Выбранный минимум",
+      "minimum",
+      "所选最小值"
+    ],
+    "minimum_clock_hz": [
+      "Выбранная минимальная частота в герцах",
+      "minimum clock hz",
+      "所选最小时钟频率 赫兹"
+    ],
+    "minimum_interarrival_us": [
+      "Минимальный интервал прерываний в микросекундах",
+      "minimum interarrival us",
+      "中断最小间隔 微秒"
+    ],
+    "mismatched_fields": [
+      "Несовпавшие поля",
+      "mismatched fields",
+      "不匹配字段"
+    ],
+    "missing_candidate_count": [
+      "Число кандидатных пропусков",
+      "missing candidate count",
+      "候选缺口数"
+    ],
+    "missing_candidates": [
+      "Кандидатные пропуски последовательности",
+      "missing candidates",
+      "序列候选缺口"
+    ],
+    "missing_fields": [
+      "Недостающие поля",
+      "missing fields",
+      "缺失字段"
+    ],
+    "mitigation": [
+      "Предлагаемая мера снижения риска",
+      "mitigation",
+      "拟议风险缓解措施"
+    ],
+    "modbus": [
+      "Обзор Modbus",
+      "modbus",
+      "Modbus审查"
+    ],
+    "mode": [
+      "Выбранный режим",
+      "mode",
+      "所选模式"
+    ],
+    "mode_average_current_mA_excluding_transitions": [
+      "Средний ток режимов без переходов в миллиамперах",
+      "mode average current mA excluding transitions",
+      "不含转换的模式平均电流 毫安"
+    ],
+    "model": [
+      "Выбранная расчётная модель",
+      "model",
+      "所选计算模型"
+    ],
+    "model_all_task_deadlines_met": [
+      "Все дедлайны выполняются в выбранной модели",
+      "model all task deadlines met",
+      "全部任务在所选模型内满足截止期"
+    ],
+    "model_certified": [
+      "Модель сертифицирована этим инструментом",
+      "model certified",
+      "本工具认证模型"
+    ],
+    "model_deadline_met": [
+      "Дедлайн выполняется в выбранной модели",
+      "model deadline met",
+      "所选模型内满足截止期"
+    ],
+    "model_excerpt": [
+      "Выбранное описание модели",
+      "model excerpt",
+      "所选模型原文"
+    ],
+    "model_source_reference": [
+      "Источник выбранной модели",
+      "model source reference",
+      "所选模型来源"
+    ],
+    "modes": [
+      "Заданные режимы питания",
+      "modes",
+      "所给电源模式"
+    ],
+    "modular_delta": [
+      "Разность по модулю",
+      "modular delta",
+      "模差"
+    ],
+    "modules": [
+      "Предлагаемые модули",
+      "modules",
+      "拟议模块"
+    ],
+    "name": [
+      "Исходное название",
+      "name",
+      "原始名称"
+    ],
+    "next_checks": [
+      "Предлагаемые следующие проверки",
+      "next checks",
+      "建议后续检查"
+    ],
+    "next_iterate_us": [
+      "Следующее приближение в микросекундах",
+      "next iterate us",
+      "下次迭代值 微秒"
+    ],
+    "next_iterate_deadline_margin_us": [
+      "Запас до дедлайна по следующей итерации в микросекундах",
+      "next iterate deadline margin us",
+      "下次迭代的截止期余量 微秒"
+    ],
+    "nonnegative_supplied_path_slack": [
+      "Запас предоставленного временного пути неотрицателен",
+      "nonnegative supplied path slack",
+      "所提供时序路径余量非负"
+    ],
+    "note": [
+      "Предоставленное пояснение",
+      "note",
+      "所提供说明"
+    ],
+    "notes": [
+      "Предоставленные заметки",
+      "notes",
+      "所提供备注"
+    ],
+    "now": [
+      "Текущее предоставленное значение",
+      "now",
+      "当前所提供值"
+    ],
+    "object": [
+      "Объект",
+      "object",
+      "对象"
+    ],
+    "observations": [
+      "Предоставленные наблюдения",
+      "observations",
+      "所提供观察"
+    ],
+    "observed_date": [
+      "Явно предоставленная дата наблюдения",
+      "observed date",
+      "明确提供的观察日期"
+    ],
+    "order": [
+      "Предлагаемый порядок",
+      "order",
+      "拟议顺序"
+    ],
+    "origin": [
+      "Предоставленное начало или происхождение",
+      "origin",
+      "所提供起点或来源"
+    ],
+    "overflow": [
+      "Арифметическое переполнение",
+      "overflow",
+      "算术溢出"
+    ],
+    "oversampling": [
+      "Явный коэффициент передискретизации",
+      "oversampling",
+      "明确过采样系数"
+    ],
+    "owner": [
+      "Предложенный или указанный ответственный",
+      "owner",
+      "拟议或所指责任人"
+    ],
+    "pagination_status": [
+      "Состояние страниц предоставленного ответа",
+      "pagination status",
+      "所提供响应分页状态"
+    ],
+    "parse_status": [
+      "Состояние разбора выбранной записи",
+      "parse status",
+      "所选记录解析状态"
+    ],
+    "path": [
+      "Инертная метка пути",
+      "path",
+      "不可执行路径标签"
+    ],
+    "path_label": [
+      "Инертная метка пути",
+      "path label",
+      "不可执行路径标签"
+    ],
+    "paths": [
+      "Предоставленные временные пути",
+      "paths",
+      "所提供时序路径"
+    ],
+    "payload": [
+      "Предоставленная полезная нагрузка",
+      "payload",
+      "所提供有效载荷"
+    ],
+    "payload_hex": [
+      "Полезная нагрузка в исходном hex",
+      "payload hex",
+      "原始十六进制有效载荷"
+    ],
+    "payload_matches_selected_frame": [
+      "Полезная нагрузка совпадает с выбранным кадром",
+      "payload matches selected frame",
+      "有效载荷与所选帧一致"
+    ],
+    "per_transition_energy_J": [
+      "Энергия одного перехода в джоулях",
+      "per transition energy J",
+      "单次转换能量 焦耳"
+    ],
+    "period_us": [
+      "Выбранный период в микросекундах",
+      "period us",
+      "所选周期 微秒"
+    ],
+    "physical_lifetime_established": [
+      "Физический срок службы установлен инструментом",
+      "physical lifetime established",
+      "工具确定实际寿命"
+    ],
+    "physical_mode_partition_established": [
+      "Фактическое разбиение времени на режимы установлено инструментом",
+      "physical mode partition established",
+      "工具确定实际模式时间分区"
+    ],
+    "physical_work_authorized": [
+      "Физические действия разрешены этим инструментом",
+      "physical work authorized",
+      "本工具授权物理操作"
+    ],
+    "planned_requirement_ratio": [
+      "Доля выбранных требований с плановыми случаями",
+      "planned requirement ratio",
+      "含计划用例的所选需求比例"
+    ],
+    "platform": [
+      "Предоставленная платформа",
+      "platform",
+      "所提供平台"
+    ],
+    "platform_candidates": [
+      "Выбранные кандидаты платформ",
+      "platform candidates",
+      "所选平台候选"
+    ],
+    "power": [
+      "Условная энергетическая модель",
+      "power",
+      "条件能量模型"
+    ],
+    "power_strategy": [
+      "Предлагаемая стратегия питания",
+      "power strategy",
+      "拟议电源策略"
+    ],
+    "preconditions": [
+      "Предлагаемые предусловия",
+      "preconditions",
+      "拟议前提"
+    ],
+    "prepared_reports": [
+      "Предоставленные отчёты готовых инструментов",
+      "prepared reports",
+      "所提供现成工具报告"
+    ],
+    "priority": [
+      "Выбранная порядковая приоритетность",
+      "priority",
+      "所选序数优先级"
+    ],
+    "priority_convention": [
+      "Смысл рангов приоритета",
+      "priority convention",
+      "优先级排序含义"
+    ],
+    "priority_label": [
+      "Исходная категория приоритета",
+      "priority label",
+      "原始优先类别"
+    ],
+    "priority_rank": [
+      "Выбранный ранг приоритета",
+      "priority rank",
+      "所选优先级排序"
+    ],
+    "problems": [
+      "Несогласованности записи",
+      "problems",
+      "记录不一致"
+    ],
+    "program_name": [
+      "Предоставленное название программы",
+      "program name",
+      "所提供程序名称"
+    ],
+    "program_sections": [
+      "Авторские разделы программы",
+      "program sections",
+      "作者编写的程序章节"
+    ],
+    "proposal": [
+      "Авторское предложение",
+      "proposal",
+      "作者提议"
+    ],
+    "proposed_case": [
+      "Предлагаемый тестовый случай",
+      "proposed case",
+      "拟议测试用例"
+    ],
+    "protocol_conformance_established": [
+      "Соответствие протоколу установлено этим инструментом",
+      "protocol conformance established",
+      "本工具确定协议符合性"
+    ],
+    "provenance": [
+      "Выбранные сведения о происхождении",
+      "provenance",
+      "所选来源信息"
+    ],
+    "provided": [
+      "Предоставленная запись",
+      "provided",
+      "所提供记录"
+    ],
+    "provided_code_coverage": [
+      "Предоставленные показатели покрытия кода",
+      "provided code coverage",
+      "所提供代码覆盖指标"
+    ],
+    "provided_utf8_content_sha256": [
+      "SHA256 предоставленного логического текста UTF8",
+      "provided utf8 content sha256",
+      "所提供逻辑文本UTF8的SHA256"
+    ],
+    "provider": [
+      "Явный формат источника уязвимостей",
+      "provider",
+      "漏洞来源的明确格式"
+    ],
+    "publication_date": [
+      "Предоставленная дата публикации",
+      "publication date",
+      "所提供发布日期"
+    ],
+    "published": [
+      "Публикация выполнена этим инструментом",
+      "published",
+      "本工具发布"
+    ],
+    "purpose": [
+      "Назначение или цель",
+      "purpose",
+      "用途或目的"
+    ],
+    "quantity": [
+      "Предоставленное количество",
+      "quantity",
+      "所提供数量"
+    ],
+    "queried_at": [
+      "Предоставленная дата запроса",
+      "queried at",
+      "所提供查询日期"
+    ],
+    "query_json": [
+      "Оригинал выбранного запроса JSON",
+      "query json",
+      "所选原始JSON查询"
+    ],
+    "questions": [
+      "Вопросы для подготовки данных",
+      "questions",
+      "输入准备问题"
+    ],
+    "ratio_status": [
+      "Состояние вычисления отношения",
+      "ratio status",
+      "比值计算状态"
+    ],
+    "rationale": [
+      "Предоставленное обоснование",
+      "rationale",
+      "所提供依据说明"
+    ],
+    "raw_difference_s": [
+      "Сырая знаковая разность времени в секундах",
+      "raw difference s",
+      "原始有符号时间差 秒"
+    ],
+    "raw_status": [
+      "Исходный статус записи",
+      "raw status",
+      "原始记录状态"
+    ],
+    "raw_suite_status": [
+      "Исходный статус набора",
+      "raw suite status",
+      "原始测试套件状态"
+    ],
+    "raw_sum": [
+      "Точная математическая сумма до ограничения",
+      "raw sum",
+      "限幅前精确数学和"
+    ],
+    "real_elapsed_or_wrap_count_established": [
+      "Реальное время или число оборотов установлены инструментом",
+      "real elapsed or wrap count established",
+      "工具确定实际时间或回绕次数"
+    ],
+    "recipient": [
+      "Адресат",
+      "recipient",
+      "接收方"
+    ],
+    "record_id": [
+      "Идентификатор записи",
+      "record id",
+      "记录标识符"
+    ],
+    "record_json": [
+      "Оригинальная выбранная запись JSON",
+      "record json",
+      "原始所选JSON记录"
+    ],
+    "records": [
+      "Предоставленные записи",
+      "records",
+      "所提供记录"
+    ],
+    "recovery": [
+      "Предлагаемое восстановление",
+      "recovery",
+      "拟议恢复方案"
+    ],
+    "region_id": [
+      "Идентификатор региона памяти",
+      "region id",
+      "内存区域标识符"
+    ],
+    "region_overlaps": [
+      "Пересечения регионов памяти",
+      "region overlaps",
+      "内存区域重叠"
+    ],
+    "regions": [
+      "Выбранные регионы памяти",
+      "regions",
+      "所选内存区域"
+    ],
+    "register_address": [
+      "Предоставленный адрес регистра",
+      "register address",
+      "所提供寄存器地址"
+    ],
+    "register_count": [
+      "Число регистров",
+      "register count",
+      "寄存器数量"
+    ],
+    "register_encoding_or_link_reliability_established": [
+      "Кодировка регистра или надёжность связи установлены инструментом",
+      "register encoding or link reliability established",
+      "工具确定寄存器编码或链路可靠性"
+    ],
+    "register_semantics_established": [
+      "Смысл регистров установлен инструментом",
+      "register semantics established",
+      "工具确定寄存器语义"
+    ],
+    "register_value": [
+      "Предоставленное значение регистра",
+      "register value",
+      "所提供寄存器值"
+    ],
+    "registers": [
+      "Предоставленные регистры",
+      "registers",
+      "所提供寄存器"
+    ],
+    "registration": [
+      "Черновик регистрации",
+      "registration",
+      "登记草稿"
+    ],
+    "registry_submitted": [
+      "Подача в реестр выполнена инструментом",
+      "registry submitted",
+      "工具向登记系统提交"
+    ],
+    "report_certified": [
+      "Отчёт заверен этим инструментом",
+      "report certified",
+      "本工具认证报告"
+    ],
+    "report_id": [
+      "Идентификатор выбранного отчёта",
+      "report id",
+      "所选报告标识符"
+    ],
+    "report_pointer": [
+      "Указатель записи в выбранном отчёте",
+      "report pointer",
+      "所选报告中的记录指针"
+    ],
+    "reported_count": [
+      "Число записей в предоставленном ответе",
+      "reported count",
+      "所提供响应记录数"
+    ],
+    "reported_pass": [
+      "Согласованный сообщённый успех",
+      "reported pass",
+      "一致的报告通过"
+    ],
+    "reported_pass_requirement_ratio": [
+      "Доля требований с согласованными сообщениями об успехе",
+      "reported pass requirement ratio",
+      "具有一致通过记录的需求比例"
+    ],
+    "reported_status": [
+      "Сообщённый или нормализованный статус",
+      "reported status",
+      "报告或归一状态"
+    ],
+    "reported_vulnerability_ids": [
+      "Идентификаторы в предоставленном ответе об уязвимостях",
+      "reported vulnerability ids",
+      "所提供漏洞响应中的标识符"
+    ],
+    "request_id": [
+      "Идентификатор выбранного запроса",
+      "request id",
+      "所选请求标识符"
+    ],
+    "request_response_fields_match": [
+      "Поля выбранных запроса и ответа совпадают",
+      "request response fields match",
+      "所选请求与响应字段一致"
+    ],
+    "requested_baud": [
+      "Требуемая скорость в битах в секунду",
+      "requested baud",
+      "所需波特率 位每秒"
+    ],
+    "required": [
+      "Выбранная требуемая величина",
+      "required",
+      "所选所需量"
+    ],
+    "required_us": [
+      "Требуемое время в микросекундах",
+      "required us",
+      "所需时间 微秒"
+    ],
+    "requirement": [
+      "Выбранное требование",
+      "requirement",
+      "所选需求"
+    ],
+    "requirement_count": [
+      "Число выбранных требований",
+      "requirement count",
+      "所选需求数"
+    ],
+    "requirement_ids": [
+      "Идентификаторы требований",
+      "requirement ids",
+      "需求标识符列表"
+    ],
+    "requirement_revisions": [
+      "Предоставленные ревизии требований",
+      "requirement revisions",
+      "所提供需求修订"
+    ],
+    "requirements": [
+      "Выбранные требования",
+      "requirements",
+      "所选需求"
+    ],
+    "requirements_with_consistent_reported_pass": [
+      "Требования с согласованными сообщениями об успехе",
+      "requirements with consistent reported pass",
+      "具有一致通过记录的需求"
+    ],
+    "requirements_with_planned_cases": [
+      "Требования с плановыми случаями",
+      "requirements with planned cases",
+      "含计划用例的需求"
+    ],
+    "reset_state": [
+      "Предлагаемое состояние сброса",
+      "reset state",
+      "拟议复位状态"
+    ],
+    "resource_comparisons": [
+      "Сравнение выбранных ресурсов",
+      "resource comparisons",
+      "所选资源比对"
+    ],
+    "resource_constraints_modelled": [
+      "Ресурсные ограничения учтены инструментом",
+      "resource constraints modelled",
+      "工具建模资源约束"
+    ],
+    "resources": [
+      "Выбранные или предлагаемые ресурсы",
+      "resources",
+      "所选或拟议资源"
+    ],
+    "response": [
+      "Предоставленный ответ",
+      "response",
+      "所提供响应"
+    ],
+    "response_id": [
+      "Идентификатор выбранного ответа",
+      "response id",
+      "所选响应标识符"
+    ],
+    "response_json": [
+      "Оригинал выбранного ответа JSON",
+      "response json",
+      "所选原始JSON响应"
+    ],
+    "response_latency_s": [
+      "Задержка ответа в секундах",
+      "response latency s",
+      "响应延迟 秒"
+    ],
+    "response_time_us": [
+      "Время реакции выбранной модели в микросекундах",
+      "response time us",
+      "所选模型响应时间 微秒"
+    ],
+    "responsibility": [
+      "Предлагаемая ответственность модуля",
+      "responsibility",
+      "拟议模块职责"
+    ],
+    "result": [
+      "Результат выбранной ветви",
+      "result",
+      "所选分支结果"
+    ],
+    "review": [
+      "Обзор выбранных материалов",
+      "review",
+      "所选材料审查"
+    ],
+    "review_is_not_compilation_or_MISRA_certification": [
+      "Обзор не является компиляцией или подтверждением MISRA",
+      "review is not compilation or MISRA certification",
+      "审查不等于编译或MISRA认证"
+    ],
+    "review_records": [
+      "Предоставленные записи обзора",
+      "review records",
+      "所提供审查记录"
+    ],
+    "review_status": [
+      "Состояние обзора",
+      "review status",
+      "审查状态"
+    ],
+    "revision": [
+      "Предоставленная ревизия",
+      "revision",
+      "所提供修订"
+    ],
+    "right_holder": [
+      "Указанный правообладатель без установления прав",
+      "right holder",
+      "所指权利人 不确定权属"
+    ],
+    "rights": [
+      "Предоставленные сведения о правах",
+      "rights",
+      "所提供权利信息"
+    ],
+    "risk_matrix": [
+      "Выбранная порядковая матрица рисков",
+      "risk matrix",
+      "所选序数风险矩阵"
+    ],
+    "risks": [
+      "Предоставленные риски и предложения",
+      "risks",
+      "所提供风险及提议"
+    ],
+    "rollback": [
+      "Предлагаемый откат",
+      "rollback",
+      "拟议回滚方案"
+    ],
+    "root_cause_established": [
+      "Причина установлена этим инструментом",
+      "root cause established",
+      "本工具确定根因"
+    ],
+    "rospatent_submitted": [
+      "Подача в Роспатент выполнена инструментом",
+      "rospatent submitted",
+      "工具向俄罗斯专利局提交"
+    ],
+    "rule": [
+      "Правило предоставленного инструмента",
+      "rule",
+      "所提供工具规则"
+    ],
+    "run_date": [
+      "Предоставленная дата запуска",
+      "run date",
+      "所提供运行日期"
+    ],
+    "run_id": [
+      "Предоставленный идентификатор запуска",
+      "run id",
+      "所提供运行标识符"
+    ],
+    "run_source_reference": [
+      "Источник предоставленной даты запуска",
+      "run source reference",
+      "所提供运行日期来源"
+    ],
+    "runtime_choice": [
+      "Предлагаемый выбор среды выполнения",
+      "runtime choice",
+      "拟议运行环境选择"
+    ],
+    "runtime_id": [
+      "Идентификатор области выполнения",
+      "runtime id",
+      "运行区域标识符"
+    ],
+    "safety_established": [
+      "Безопасность установлена этим инструментом",
+      "safety established",
+      "本工具确定安全性"
+    ],
+    "same_size_plain_copy": [
+      "Размеры выбранной простой копии совпадают",
+      "same size plain copy",
+      "所选直接复制大小一致"
+    ],
+    "saturated": [
+      "Применено математическое насыщение",
+      "saturated",
+      "已应用数学饱和"
+    ],
+    "sbom_extract": [
+      "Выбранная запись состава ПО",
+      "sbom extract",
+      "所选软件物料记录"
+    ],
+    "sbom_extract_review": [
+      "Обзор выбранной записи состава ПО",
+      "sbom extract review",
+      "所选软件物料记录审查"
+    ],
+    "scan_executed": [
+      "Сканирование выполнено этим инструментом",
+      "scan executed",
+      "本工具执行扫描"
+    ],
+    "schedule": [
+      "Условный график зависимостей",
+      "schedule",
+      "条件依赖计划"
+    ],
+    "schedule_status": [
+      "Состояние расчёта графика",
+      "schedule status",
+      "计划计算状态"
+    ],
+    "schema_validation_performed": [
+      "Полная проверка схемы выполнена инструментом",
+      "schema validation performed",
+      "工具执行完整模式验证"
+    ],
+    "scope": [
+      "Область выбранных сведений",
+      "scope",
+      "所选信息范围"
+    ],
+    "security": [
+      "Предлагаемые меры безопасности",
+      "security",
+      "拟议安全措施"
+    ],
+    "security_controls": [
+      "Предложения и записи мер защиты",
+      "security controls",
+      "安全控制提议及记录"
+    ],
+    "selected_ISR_bodies_found": [
+      "Найденные тела явно выбранных ISR",
+      "selected ISR bodies found",
+      "找到明确所选ISR函数体"
+    ],
+    "selected_ISR_functions": [
+      "Явно выбранные имена ISR",
+      "selected ISR functions",
+      "明确所选ISR名称"
+    ],
+    "selected_available_energy_J": [
+      "Выбранная условно доступная энергия в джоулях",
+      "selected available energy J",
+      "所选条件可用能量 焦耳"
+    ],
+    "selected_basis": [
+      "Выбранное основание",
+      "selected basis",
+      "所选依据"
+    ],
+    "selected_category": [
+      "Категория выбранной ячейки",
+      "selected category",
+      "所选单元类别"
+    ],
+    "selected_count_ratio": [
+      "Отношение предоставленных чисел",
+      "selected count ratio",
+      "所提供计数比值"
+    ],
+    "selected_gap_s": [
+      "Выбранный предельный интервал в секундах",
+      "selected gap s",
+      "所选间隔限值 秒"
+    ],
+    "selected_limits_s": [
+      "Выбранные пределы времени в секундах",
+      "selected limits s",
+      "所选时间限值 秒"
+    ],
+    "selected_maximum_elapsed": [
+      "Выбранная граница истинного интервала в отсчётах",
+      "selected maximum elapsed",
+      "所选真实间隔计数界限"
+    ],
+    "selected_record_id": [
+      "Явно выбранная запись",
+      "selected record id",
+      "明确所选记录"
+    ],
+    "selected_reported_pass_case_count": [
+      "Число случаев с согласованным выбранным сообщением об успехе",
+      "selected reported pass case count",
+      "具有一致所选通过记录的用例数"
+    ],
+    "selected_source_line": [
+      "Строка совпавшей выбранной версии исходника",
+      "selected source line",
+      "匹配所选源码版本中的行"
+    ],
+    "selected_tolerance_ratio": [
+      "Выбранный допуск в долях",
+      "selected tolerance ratio",
+      "所选比例容差"
+    ],
+    "selected_utilization_limit": [
+      "Выбранный предел доли загрузки",
+      "selected utilization limit",
+      "所选利用率限值"
+    ],
+    "selected_utilization_margin": [
+      "Точный запас до выбранного предела загрузки",
+      "selected utilization margin",
+      "到所选利用率限值的精确余量"
+    ],
+    "selected_window_status": [
+      "Положение в предоставленном временном окне",
+      "selected window status",
+      "在所提供有效期中的状态"
+    ],
+    "selection_date": [
+      "Предоставленная дата выбора применения",
+      "selection date",
+      "所提供适用选择日期"
+    ],
+    "selection_issue": [
+      "Проблема выбора записи",
+      "selection issue",
+      "记录选择问题"
+    ],
+    "selection_status": [
+      "Состояние предложения выбора",
+      "selection status",
+      "选择提议状态"
+    ],
+    "sequence": [
+      "Предоставленный порядковый номер",
+      "sequence",
+      "所提供序号"
+    ],
+    "sequence_model": [
+      "Выбранная модель последовательности",
+      "sequence model",
+      "所选序列模型"
+    ],
+    "sequence_status": [
+      "Состояние сопоставления последовательности",
+      "sequence status",
+      "序列比对状态"
+    ],
+    "serial_modulus": [
+      "Выбранный модуль последовательности",
+      "serial modulus",
+      "所选序列模数"
+    ],
+    "serial_scope": [
+      "Область порядковой арифметики",
+      "serial scope",
+      "序号算术范围"
+    ],
+    "severity": [
+      "Серьёзность по предоставленной записи",
+      "severity",
+      "所提供记录中的严重性"
+    ],
+    "sha256": [
+      "Предоставленный SHA256",
+      "sha256",
+      "所提供SHA256"
+    ],
+    "shape_issues": [
+      "Несогласованности структуры выбранного кадра",
+      "shape issues",
+      "所选帧结构不一致"
+    ],
+    "shape_status": [
+      "Состояние проверки структуры",
+      "shape status",
+      "结构检查状态"
+    ],
+    "signals": [
+      "Предоставленные сигналы",
+      "signals",
+      "所提供信号"
+    ],
+    "signature_applied": [
+      "Подпись применена этим инструментом",
+      "signature applied",
+      "本工具应用签名"
+    ],
+    "signature_status": [
+      "Состояние проверки подписи инструментом",
+      "signature status",
+      "工具签名检查状态"
+    ],
+    "signature_verified": [
+      "Подпись проверена этим инструментом",
+      "signature verified",
+      "本工具验证签名"
+    ],
+    "signed_error_percent": [
+      "Знаковая относительная ошибка в процентах",
+      "signed error percent",
+      "有符号相对误差 百分数"
+    ],
+    "signed_error_ratio": [
+      "Знаковая относительная ошибка в долях",
+      "signed error ratio",
+      "有符号相对误差 比例"
+    ],
+    "signed_relative_error": [
+      "Знаковая относительная ошибка",
+      "signed relative error",
+      "有符号相对误差"
+    ],
+    "size_bytes": [
+      "Предоставленный размер в байтах",
+      "size bytes",
+      "所提供大小 字节"
+    ],
+    "slack": [
+      "Резерв времени в днях графика",
+      "slack",
+      "计划时间余量 天"
+    ],
+    "slack_us": [
+      "Запас времени в микросекундах",
+      "slack us",
+      "时序余量 微秒"
+    ],
+    "software_version": [
+      "Предоставленная версия ПО",
+      "software version",
+      "所提供软件版本"
+    ],
+    "source_compiled": [
+      "Исходник скомпилирован этим инструментом",
+      "source compiled",
+      "本工具编译源码"
+    ],
+    "source_files": [
+      "Предоставленные исходные тексты",
+      "source files",
+      "所提供源码"
+    ],
+    "source_identity_matches_selected": [
+      "Идентичность исходника совпадает с выбранной",
+      "source identity matches selected",
+      "源码身份与所选一致"
+    ],
+    "source_identity_reviews": [
+      "Сопоставление идентичности исходников",
+      "source identity reviews",
+      "源码身份比对"
+    ],
+    "source_line_excerpt": [
+      "Фрагмент исходной строки",
+      "source line excerpt",
+      "源码行片段"
+    ],
+    "source_reference": [
+      "Идентификатор выбранного источника",
+      "source reference",
+      "所选来源标识符"
+    ],
+    "source_semantics_established": [
+      "Семантика источника установлена инструментом",
+      "source semantics established",
+      "工具确定来源语义"
+    ],
+    "source_semantics_verified": [
+      "Семантика источника проверена инструментом",
+      "source semantics verified",
+      "工具核验来源语义"
+    ],
+    "source_sha256": [
+      "SHA256 выбранного исходного файла",
+      "source sha256",
+      "所选源文件SHA256"
+    ],
+    "stack_high_water_or_aliasing_established": [
+      "Предел стека или алиасы установлены инструментом",
+      "stack high water or aliasing established",
+      "工具确定栈高水位或别名"
+    ],
+    "start": [
+      "Начало",
+      "start",
+      "开始"
+    ],
+    "start_address": [
+      "Предоставленный начальный адрес",
+      "start address",
+      "所提供起始地址"
+    ],
+    "state": [
+      "Предоставленное или нормализованное состояние",
+      "state",
+      "所提供或归一状态"
+    ],
+    "state_machine": [
+      "Предлагаемый автомат состояний",
+      "state machine",
+      "拟议状态机"
+    ],
+    "states": [
+      "Предлагаемые состояния",
+      "states",
+      "拟议状态"
+    ],
+    "static_analyzer_executed": [
+      "Статический анализатор выполнен инструментом",
+      "static analyzer executed",
+      "工具执行静态分析器"
+    ],
+    "status": [
+      "Предоставленный или нормализованный статус",
+      "status",
+      "所提供或归一状态"
+    ],
+    "steps": [
+      "Предлагаемые шаги",
+      "steps",
+      "拟议步骤"
+    ],
+    "stored_counter": [
+      "Предоставленный сохранённый счётчик",
+      "stored counter",
+      "所提供存储计数器"
+    ],
+    "structural_fields_match": [
+      "Структурные поля выбранных записей совпадают",
+      "structural fields match",
+      "所选记录结构字段一致"
+    ],
+    "structure": [
+      "Логическая структура",
+      "structure",
+      "逻辑结构"
+    ],
+    "submission_performed": [
+      "Отправка выполнена этим инструментом",
+      "submission performed",
+      "本工具执行提交"
+    ],
+    "suite": [
+      "Предоставленный набор тестов",
+      "suite",
+      "所提供测试套件"
+    ],
+    "supported_shape": [
+      "Поддержанное подмножество структуры",
+      "supported shape",
+      "所支持结构子集"
+    ],
+    "symptoms": [
+      "Предоставленные симптомы",
+      "symptoms",
+      "所提供症状"
+    ],
+    "synthesis_or_simulation_executed": [
+      "Синтез или симуляция выполнены инструментом",
+      "synthesis or simulation executed",
+      "工具执行综合或仿真"
+    ],
+    "tag": [
+      "Предоставленный тег",
+      "tag",
+      "所提供标签"
+    ],
+    "target": [
+      "Выбранный целевой контекст",
+      "target",
+      "所选目标上下文"
+    ],
+    "target_context_matches": [
+      "Контекст совпадает с выбранной целью",
+      "target context matches",
+      "上下文与所选目标一致"
+    ],
+    "tasks": [
+      "Заданные задачи",
+      "tasks",
+      "所给任务"
+    ],
+    "technical_means": [
+      "Технические средства",
+      "technical means",
+      "技术设备"
+    ],
+    "telemetry": [
+      "Предоставленная телеметрия",
+      "telemetry",
+      "所提供遥测"
+    ],
+    "test_cases": [
+      "Предлагаемые тестовые случаи",
+      "test cases",
+      "拟议测试用例"
+    ],
+    "test_id": [
+      "Идентификатор теста",
+      "test id",
+      "测试标识符"
+    ],
+    "test_ledger_status": [
+      "Состояние обзора записей тестов",
+      "test ledger status",
+      "测试记录审查状态"
+    ],
+    "test_reviews": [
+      "Сопоставление выбранных записей тестов",
+      "test reviews",
+      "所选测试记录比对"
+    ],
+    "test_revision": [
+      "Предоставленная ревизия теста",
+      "test revision",
+      "所提供测试修订"
+    ],
+    "tests_executed_here": [
+      "Тесты выполнены этим инструментом",
+      "tests executed here",
+      "本工具执行测试"
+    ],
+    "text": [
+      "Дословный предоставленный текст",
+      "text",
+      "所提供原文"
+    ],
+    "threat_model": [
+      "Модель угроз",
+      "threat model",
+      "威胁模型"
+    ],
+    "time_basis": [
+      "Выбранная общая шкала времени",
+      "time basis",
+      "所选共同时间基准"
+    ],
+    "timestamp": [
+      "Предоставленная отметка времени",
+      "timestamp",
+      "所提供时间戳"
+    ],
+    "timestamp_s": [
+      "Отметка времени в секундах выбранной шкалы",
+      "timestamp s",
+      "所选基准时间戳 秒"
+    ],
+    "timing": [
+      "Условная временная модель",
+      "timing",
+      "条件时序模型"
+    ],
+    "timing_constraints_completeness_established": [
+      "Полнота временных ограничений установлена инструментом",
+      "timing constraints completeness established",
+      "工具确定时序约束完整性"
+    ],
+    "timing_windows": [
+      "Выбранные временные окна",
+      "timing windows",
+      "所选时间窗口"
+    ],
+    "to": [
+      "Целевое состояние",
+      "to",
+      "目标状态"
+    ],
+    "tolerance": [
+      "Явно выбранный допуск",
+      "tolerance",
+      "明确所选容差"
+    ],
+    "tool": [
+      "Предоставленное название инструмента",
+      "tool",
+      "所提供工具名称"
+    ],
+    "tool_executed": [
+      "Инструмент выполнен здесь",
+      "tool executed",
+      "此处运行工具"
+    ],
+    "tool_invoked_here": [
+      "Инструмент вызван здесь",
+      "tool invoked here",
+      "此处调用工具"
+    ],
+    "tool_reports": [
+      "Предоставленные отчёты инструментов",
+      "tool reports",
+      "所提供工具报告"
+    ],
+    "tool_version": [
+      "Предоставленная версия инструмента",
+      "tool version",
+      "所提供工具版本"
+    ],
+    "toolchain": [
+      "Предоставленный набор средств сборки",
+      "toolchain",
+      "所提供构建工具链"
+    ],
+    "toolchain_executed": [
+      "Средства сборки выполнены здесь",
+      "toolchain executed",
+      "此处执行构建工具链"
+    ],
+    "toolchain_version": [
+      "Предоставленная версия средств сборки",
+      "toolchain version",
+      "所提供工具链版本"
+    ],
+    "topic": [
+      "Тема обзора",
+      "topic",
+      "审查主题"
+    ],
+    "total": [
+      "Предоставленное общее число",
+      "total",
+      "所提供总数"
+    ],
+    "total_demand_ratio": [
+      "Сумма долей заданных бюджетов выполнения",
+      "total demand ratio",
+      "给定执行预算利用率之和"
+    ],
+    "total_duration_days": [
+      "Условная длительность графика в днях",
+      "total duration days",
+      "条件计划总时长 天"
+    ],
+    "total_energy_J": [
+      "Энергия выбранной записи в джоулях",
+      "total energy J",
+      "所选记录能量 焦耳"
+    ],
+    "tradeoffs": [
+      "Предложенные компромиссы",
+      "tradeoffs",
+      "拟议权衡"
+    ],
+    "transactions": [
+      "Выбранные запросы и ответы",
+      "transactions",
+      "所选事务请求及响应"
+    ],
+    "transition_conflicts": [
+      "Конфликты предлагаемых переходов",
+      "transition conflicts",
+      "拟议转换冲突"
+    ],
+    "transition_energy_basis": [
+      "Способ учёта энергии переходов",
+      "transition energy basis",
+      "转换能量计入方式"
+    ],
+    "transitions": [
+      "Предоставленные или предлагаемые переходы",
+      "transitions",
+      "所提供或拟议转换"
+    ],
+    "trust_boundary": [
+      "Предлагаемая граница доверия",
+      "trust boundary",
+      "拟议信任边界"
+    ],
+    "uart": [
+      "Условная модель UART",
+      "uart",
+      "条件UART模型"
+    ],
+    "unaccounted_time_s": [
+      "Разность окна и суммы длительностей в секундах",
+      "unaccounted time s",
+      "窗口与时长和之差 秒"
+    ],
+    "unambiguous_under_selected_bound": [
+      "Однозначно при выбранной границе интервала",
+      "unambiguous under selected bound",
+      "在所选间隔界限内无歧义"
+    ],
+    "unit": [
+      "Исходное написание единицы",
+      "unit",
+      "原始单位拼写"
+    ],
+    "unmatched_execution_ids": [
+      "Записи без выбранного ожидаемого теста",
+      "unmatched execution ids",
+      "无所选预期测试的执行记录"
+    ],
+    "unresolved_questions": [
+      "Неразрешённые вопросы",
+      "unresolved questions",
+      "未决问题"
+    ],
+    "unwrapped_position": [
+      "Условная развёрнутая позиция",
+      "unwrapped position",
+      "条件展开位置"
+    ],
+    "update": [
+      "Предлагаемое обновление",
+      "update",
+      "拟议更新方案"
+    ],
+    "update_plan": [
+      "Предлагаемый план обновления",
+      "update plan",
+      "拟议更新计划"
+    ],
+    "used": [
+      "Предоставленная использованная величина",
+      "used",
+      "所提供已用量"
+    ],
+    "utf8_content_bytes": [
+      "Число байтов предоставленного логического текста UTF8",
+      "utf8 content bytes",
+      "所提供逻辑文本UTF8字节数"
+    ],
+    "utilization": [
+      "Расчётная доля использования",
+      "utilization",
+      "计算利用率"
+    ],
+    "utilization_ratio": [
+      "Расчётная доля использования",
+      "utilization ratio",
+      "计算利用率"
+    ],
+    "value": [
+      "Точная предоставленная величина",
+      "value",
+      "所提供精确值"
+    ],
+    "version": [
+      "Исходная версия",
+      "version",
+      "原始版本"
+    ],
+    "version_range_evaluation_performed": [
+      "Диапазон версий вычислен инструментом",
+      "version range evaluation performed",
+      "工具求解版本范围"
+    ],
+    "voltage_V": [
+      "Напряжение в вольтах",
+      "voltage V",
+      "电压 伏"
+    ],
+    "vulnerability_queries": [
+      "Выбранные запросы и ответы об уязвимостях",
+      "vulnerability queries",
+      "所选漏洞查询及响应"
+    ],
+    "watchdog": [
+      "Предлагаемый сторожевой контроль",
+      "watchdog",
+      "拟议看门狗控制"
+    ],
+    "watchdog_note": [
+      "Авторское пояснение о watchdog",
+      "watchdog note",
+      "作者看门狗说明"
+    ],
+    "window_s": [
+      "Выбранное окно в секундах",
+      "window s",
+      "所选窗口 秒"
+    ],
+    "wire_CRC_available": [
+      "В предоставленном экспорте есть CRC линии",
+      "wire CRC available",
+      "所提供导出含线路CRC"
+    ],
+    "wire_CRC_matches": [
+      "CRC линии сопоставлена инструментом",
+      "wire CRC matches",
+      "工具比对线路CRC"
+    ],
+    "wire_timing_checked": [
+      "Физический тайминг проверен инструментом",
+      "wire timing checked",
+      "工具检查物理时序"
+    ],
+    "within_selected_capacity": [
+      "В пределах выбранной ёмкости",
+      "within selected capacity",
+      "在所选容量内"
+    ],
+    "within_selected_latency": [
+      "В пределах выбранной задержки",
+      "within selected latency",
+      "在所选延迟限值内"
+    ],
+    "within_selected_limits": [
+      "В пределах выбранных ограничений",
+      "within selected limits",
+      "在所选限值内"
+    ],
+    "within_selected_tolerance": [
+      "В пределах выбранного допуска",
+      "within selected tolerance",
+      "在所选容差内"
+    ],
+    "within_selected_utilization_limit": [
+      "В пределах выбранного ограничения доли загрузки",
+      "within selected utilization limit",
+      "在所选利用率限值内"
+    ],
+    "within_supplied_capacity": [
+      "В пределах предоставленной ёмкости",
+      "within supplied capacity",
+      "在所提供容量内"
+    ],
+    "worst_absolute_error_ratio": [
+      "Максимальный модуль относительной ошибки",
+      "worst absolute error ratio",
+      "最大相对误差绝对值"
+    ],
+    "original_bytes_sha256": [
+      "Предоставленный SHA256 исходных байтов файла без повторного хеширования",
+      "original bytes sha256",
+      "所提供原始文件字节SHA256 未重新哈希"
+    ],
+    "assignment_basis": [
+      "Выбранное основание передачи прав",
+      "assignment basis",
+      "所选权利转让依据"
+    ],
+    "contract_notes": [
+      "Предоставленные пояснения к договору",
+      "contract notes",
+      "所提供合同说明"
+    ],
+    "selected_obligations": [
+      "Выбранные лицензионные положения для проверки",
+      "selected obligations",
+      "供审查的所选许可条款"
+    ],
+    "application_notes": [
+      "Предоставленные пояснения к черновику заявки",
+      "application notes",
+      "所提供申请草稿说明"
+    ],
+    "finding_ids": [
+      "Идентификаторы предоставленных находок",
+      "finding ids",
+      "所提供发现标识符"
+    ],
+    "clause": [
+      "Пункт выбранного документа",
+      "clause",
+      "所选文档条款"
+    ],
+    "test_environment": [
+      "Предоставленная тестовая среда",
+      "test environment",
+      "所提供测试环境"
+    ],
+    "fact_id": [
+      "Идентификатор выбранного факта",
+      "fact id",
+      "所选事实标识符"
+    ],
+    "reference": [
+      "Ссылка на выбранный источник",
+      "reference",
+      "所选来源引用"
+    ],
+    "segment_id": [
+      "Идентификатор исходного фрагмента",
+      "segment id",
+      "来源片段标识符"
+    ],
+    "pointer": [
+      "Путь поля в технической записи",
+      "pointer",
+      "技术记录字段路径"
+    ],
+    "quote": [
+      "Дословная выбранная цитата",
+      "quote",
+      "所选原文引文"
+    ],
+    "operation": [
+      "Явная операция преобразования",
+      "operation",
+      "明确换算操作"
+    ],
+    "source_value": [
+      "Исходное значение",
+      "source value",
+      "来源值"
+    ],
+    "source_unit": [
+      "Исходная единица",
+      "source unit",
+      "来源单位"
+    ],
+    "derived_value": [
+      "Полученное значение",
+      "derived value",
+      "换算结果值"
+    ],
+    "derived_unit": [
+      "Полученная единица",
+      "derived unit",
+      "换算结果单位"
+    ],
+    "fact_count": [
+      "Число выбранных фактов",
+      "fact count",
+      "所选事实数"
+    ],
+    "source_references": [
+      "Идентификаторы выбранных источников",
+      "source references",
+      "所选来源标识符列表"
+    ],
+    "compared": [
+      "Сопоставленные сведения",
+      "compared",
+      "已比对信息"
+    ],
+    "first_id": [
+      "Идентификатор первой записи",
+      "first id",
+      "第一记录标识符"
+    ],
+    "second_id": [
+      "Идентификатор второй записи",
+      "second id",
+      "第二记录标识符"
+    ],
+    "overlap_bytes": [
+      "Пересечение в байтах",
+      "overlap bytes",
+      "重叠大小 字节"
+    ],
+    "first": [
+      "Первая выбранная запись",
+      "first",
+      "第一所选记录"
+    ],
+    "second": [
+      "Вторая выбранная запись",
+      "second",
+      "第二所选记录"
+    ],
+    "from_state": [
+      "Исходное предлагаемое состояние",
+      "from state",
+      "拟议起始状态"
+    ],
+    "to_state": [
+      "Целевое предлагаемое состояние",
+      "to state",
+      "拟议目标状态"
+    ],
+    "location": [
+      "Место сообщения",
+      "location",
+      "消息位置"
+    ],
+    "query_date_source_reference": [
+      "Источник фактической даты выбранного запроса",
+      "query date source reference",
+      "所选查询实际日期来源"
+    ],
+    "query_time_status": [
+      "Состояние сведений о дате запроса",
+      "query time status",
+      "查询日期信息状态"
+    ],
+    "version_source_reference": [
+      "Отдельный источник предоставленной версии файла",
+      "version source reference",
+      "所提供文件版本的独立来源"
+    ]
+  },
+  "tokens": {}
+}

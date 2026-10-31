@@ -1,0 +1,562 @@
+{
+  "questions": [
+    "Уточнение задачи",
+    "Clarify the task",
+    "澄清任务"
+  ],
+  "draft": [
+    "Проект",
+    "Draft",
+    "草案"
+  ],
+  "review": [
+    "Проверка предоставленных материалов",
+    "Review supplied material",
+    "审查所提供材料"
+  ],
+  "fp_preemptive_constrained_single_core": [
+    "Одноядерная вытесняющая модель с различными фиксированными приоритетами и D≤T",
+    "Single-core preemptive distinct fixed-priority model with D≤T",
+    "单核可抢占固定不同优先级模型，D≤T"
+  ],
+  "utilization_only": [
+    "Только заявленная загрузка",
+    "Declared utilization only",
+    "仅声明的利用率"
+  ],
+  "fixed_point_found": [
+    "Найдена неподвижная точка выбранной модели",
+    "Selected-model fixed point found",
+    "已找到所选模型的不动点"
+  ],
+  "selected_deadline_exceeded": [
+    "Превышен выбранный срок в модели",
+    "Selected model deadline exceeded",
+    "模型中超出所选截止期限"
+  ],
+  "iteration_limit_reached": [
+    "Достигнут предел итераций; результат не установлен",
+    "Iteration limit reached; result unresolved",
+    "达到迭代次数上限；结果未确定"
+  ],
+  "RTA_model_or_parameters_unsupported": [
+    "Модель времени отклика или её параметры не поддержаны",
+    "Response-time model or parameters unsupported",
+    "不支持该响应时间模型或参数"
+  ],
+  "lower_rank_higher_priority_not_vendor_numeric_priority": [
+    "Меньший ранг означает больший приоритет; это не числовой приоритет конкретной RTOS",
+    "Lower rank means higher priority; not vendor RTOS numeric priority",
+    "较小的等级表示较高优先级；并非厂商RTOS的数值优先级"
+  ],
+  "one_processor": [
+    "Один процессор",
+    "One processor",
+    "单个处理器"
+  ],
+  "independent_periodic_or_sporadic_jobs": [
+    "Независимые периодические или спорадические задания",
+    "Independent periodic or sporadic jobs",
+    "相互独立的周期或偶发作业"
+  ],
+  "preemptive_distinct_fixed_task_priorities": [
+    "Вытесняющие задачи с различными фиксированными приоритетами",
+    "Preemptive tasks with distinct fixed priorities",
+    "可抢占任务且固定优先级各不相同"
+  ],
+  "all_supplied_interrupts_preempt_tasks": [
+    "Все выбранные прерывания вытесняют задачи",
+    "All selected interrupts preempt tasks",
+    "所有选定中断均可抢占任务"
+  ],
+  "supplied_blocking_budget_only": [
+    "Учтён только явно заданный бюджет блокировки",
+    "Only explicitly supplied blocking budget included",
+    "仅计入明确提供的阻塞预算"
+  ],
+  "no_release_jitter_self_suspension_or_unmodeled_overheads": [
+    "Джиттер выпуска, самоприостановка и неучтённые накладные расходы исключены моделью",
+    "Model excludes release jitter, self-suspension and unmodeled overheads",
+    "模型不包含释放抖动、自挂起和未建模开销"
+  ],
+  "declared_execution_over_selected_interarrival_only": [
+    "Только отношение заявленного времени выполнения к выбранному периоду",
+    "Declared execution divided by selected interarrival only",
+    "仅为声明执行时间与所选到达间隔之比"
+  ],
+  "missing_explicit_RTA_parameters": [
+    "Не заданы необходимые явные параметры времени отклика",
+    "Explicit response-time parameters missing",
+    "缺少明确的响应时间参数"
+  ],
+  "arbitrary_deadline_not_supported": [
+    "Срок D>T не поддержан этой моделью времени отклика",
+    "Deadline D>T unsupported by this response-time model",
+    "该响应时间模型不支持D>T的截止期限"
+  ],
+  "equal_priority_scheduling_not_supported": [
+    "Планирование равноприоритетных задач не поддержано",
+    "Equal-priority scheduling unsupported",
+    "不支持相同优先级的调度"
+  ],
+  "RTA_iteration_resource_limit": [
+    "Неподвижная точка не установлена в пределах ресурса итераций",
+    "Fixed point unresolved within iteration resource limit",
+    "在迭代资源上限内未确定不动点"
+  ],
+  "execution_blocking_and_interrupt_bounds_not_established": [
+    "Фактические границы выполнения, блокировки и прерываний не установлены",
+    "Actual execution, blocking and interrupt bounds not established",
+    "未确定实际执行、阻塞和中断时间界限"
+  ],
+  "flash": [
+    "Память программ",
+    "Flash memory",
+    "闪存"
+  ],
+  "ram": [
+    "Оперативная память",
+    "RAM",
+    "随机存取存储器"
+  ],
+  "other": [
+    "Иной выбранный тип",
+    "Other selected type",
+    "其他所选类型"
+  ],
+  "section": [
+    "Секция",
+    "Section",
+    "段"
+  ],
+  "stack": [
+    "Стек",
+    "Stack",
+    "栈"
+  ],
+  "heap": [
+    "Куча",
+    "Heap",
+    "堆"
+  ],
+  "reserve": [
+    "Явно заданный резерв",
+    "Explicit reserve",
+    "明确预留量"
+  ],
+  "load_image": [
+    "Загрузочный образ инициализированных данных",
+    "Initialized-data load image",
+    "初始化数据的加载映像"
+  ],
+  "zeroed": [
+    "Нулевая инициализация",
+    "Zero initialized",
+    "零初始化"
+  ],
+  "copied_plain": [
+    "Прямое копирование отдельного образа",
+    "Plain copy from separate image",
+    "从独立映像直接复制"
+  ],
+  "execute_in_place": [
+    "Исполнение по месту",
+    "Execute in place",
+    "原地执行"
+  ],
+  "not_applicable": [
+    "Явно отмечено как неприменимое",
+    "Explicitly not applicable",
+    "明确标记为不适用"
+  ],
+  "unknown": [
+    "Неизвестно по выбранным данным",
+    "Unknown from selected data",
+    "根据所选数据未知"
+  ],
+  "allocation_layout_not_assessed_missing_address": [
+    "Адрес не задан; размещение не проверено",
+    "Address missing; layout not assessed",
+    "缺少地址；未评估布局"
+  ],
+  "allocation_outside_selected_region": [
+    "Диапазон выделения выходит за выбранную область",
+    "Allocation outside selected region",
+    "分配范围超出所选区域"
+  ],
+  "initialized_RAM_image_unresolved_or_size_mismatch": [
+    "Образ инициализированной RAM не указан или размеры не совпадают",
+    "Initialized RAM image unresolved or size mismatch",
+    "未确定已初始化RAM的映像或大小不匹配"
+  ],
+  "selected_memory_ranges_overlap": [
+    "Выбранные диапазоны памяти перекрываются",
+    "Selected memory ranges overlap",
+    "所选内存范围存在重叠"
+  ],
+  "declared_allocations_only_not_full_linker_or_physical_map_validation": [
+    "Только объявленные выделения; полная карта линкера и физические псевдонимы не проверены",
+    "Declared allocations only; not full linker/physical map validation",
+    "仅审查声明的分配；并非完整链接器或物理内存映射验证"
+  ],
+  "additional_to_mode_energy": [
+    "Дополнительная энергия сверх энергии режимов",
+    "Additional energy beyond mode energy",
+    "模式能耗之外的额外能量"
+  ],
+  "supplied_durations_assumed_disjoint_when_sum_matches": [
+    "При совпадении суммы длительностей с окном модель предполагает неперекрывающиеся режимы",
+    "When duration sum matches window, model assumes disjoint modes",
+    "当持续时间总和等于窗口时，模型假设各模式互不重叠"
+  ],
+  "power_window_not_fully_and_uniquely_accounted": [
+    "Сумма выбранных длительностей не равна окну; средняя мощность не вычислена",
+    "Selected durations do not sum to window; mean power not computed",
+    "所选持续时间总和不等于窗口；未计算平均功率"
+  ],
+  "ideal_battery_life_undefined_zero_power": [
+    "При нулевой мощности конечное время по энергетической модели не определено",
+    "No finite energy-model lifetime at zero power",
+    "零功率下无法确定有限的能量模型寿命"
+  ],
+  "selected_duty_cycle_energy_model_not_measured_power_or_battery_guarantee": [
+    "Энергетическая модель выбранного цикла; не измерение мощности и не гарантия срока батареи",
+    "Selected duty-cycle energy model; not measured power or battery guarantee",
+    "所选占空比能量模型；并非实测功率或电池寿命保证"
+  ],
+  "mcu": [
+    "Микроконтроллер",
+    "Microcontroller",
+    "微控制器"
+  ],
+  "fpga": [
+    "ПЛИС",
+    "FPGA",
+    "现场可编程门阵列"
+  ],
+  "mixed": [
+    "Смешанный вариант",
+    "Mixed candidate",
+    "混合方案"
+  ],
+  "provided_support": [
+    "В предоставленной записи заявлена поддержка",
+    "Support stated in supplied record",
+    "提供的记录中声明支持"
+  ],
+  "provided_no_support": [
+    "В предоставленной записи заявлено отсутствие поддержки",
+    "No support stated in supplied record",
+    "提供的记录中声明不支持"
+  ],
+  "candidate_feature_evidence_not_supplied": [
+    "Подтверждающий фрагмент свойства кандидата не предоставлен",
+    "Candidate feature evidence fragment not supplied",
+    "未提供候选方案特性的证据片段"
+  ],
+  "candidate_comparison_not_platform_selection_or_RU_ECB_clearance": [
+    "Сравнение кандидата; не выбор платформы и не подтверждение реестрового статуса",
+    "Candidate comparison; not platform selection or RU register clearance",
+    "候选方案比较；并非平台选定或俄罗斯名录资格确认"
+  ],
+  "setup": [
+    "Проверка setup",
+    "Setup analysis",
+    "建立时间分析"
+  ],
+  "hold": [
+    "Проверка hold",
+    "Hold analysis",
+    "保持时间分析"
+  ],
+  "supplied_STA_arrival_required_and_utilization_only": [
+    "Только выбранные координаты STA и использование ресурсов",
+    "Selected STA coordinates and resource use only",
+    "仅审查所选静态时序坐标和资源使用量"
+  ],
+  "selected_basis": [
+    "Выбранное основание",
+    "Selected basis",
+    "所选依据"
+  ],
+  "authored_proposal": [
+    "Авторский проект",
+    "Authored proposal",
+    "编写的提案"
+  ],
+  "selected_risk_cell_missing": [
+    "Ячейка выбранной матрицы риска не задана",
+    "Selected risk-matrix cell missing",
+    "缺少所选风险矩阵单元格"
+  ],
+  "selected_ordinal_lookup_not_probability_or_physical_loss": [
+    "Выбранная порядковая матрица; не вероятность и не физический ущерб",
+    "Selected ordinal lookup; not probability or physical loss",
+    "所选序数查找表；并非概率或实际损失"
+  ],
+  "authored_architecture_proposal_not_hardware_behavior": [
+    "Проект архитектуры; фактическое поведение оборудования не установлено",
+    "Authored architecture proposal; actual hardware behavior not established",
+    "编写的架构提案；未确定硬件实际行为"
+  ],
+  "proposal_context_missing": [
+    "Соответствующая часть проекта ещё не задана",
+    "Relevant proposal context not supplied",
+    "尚未提供相应提案内容"
+  ],
+  "proposed_transition_conflicts": [
+    "Переход одновременно разрешён и запрещён в проекте",
+    "Transition both allowed and forbidden in proposal",
+    "提案中同一状态转换同时被允许和禁止"
+  ],
+  "device_functions_interfaces_latency_power_data_safety_RU_ECB_OS": [
+    "Уточнить функции, интерфейсы, задержки, питание, данные, безопасность и ограничения по компонентам и ОС",
+    "Clarify functions, interfaces, latency, power, data, safety and component/OS constraints",
+    "明确功能、接口、延迟、功耗、数据、安全及器件和操作系统限制"
+  ],
+  "select_actual_datasheets_and_runtime_model": [
+    "Выбрать реальные спецификации и модель выполнения",
+    "Select actual datasheets and execution model",
+    "选择实际数据手册和执行模型"
+  ],
+  "supply_only_selected_timing_memory_power_or_FPGA_evidence": [
+    "Предоставить данные только для нужных ветвей времени, памяти, питания или ПЛИС",
+    "Supply evidence only for selected timing, memory, power or FPGA branches",
+    "仅为选定的时序、内存、功耗或FPGA分支提供证据"
+  ],
+  "unsigned_add": [
+    "Сложение беззнакового счётчика",
+    "Unsigned counter addition",
+    "无符号计数器加法"
+  ],
+  "elapsed_modulo": [
+    "Разность счётчика по модулю",
+    "Counter difference modulo width",
+    "按位宽取模的计数器差值"
+  ],
+  "wrap": [
+    "Переполнение по модулю",
+    "Modular wrap",
+    "模回绕"
+  ],
+  "saturate": [
+    "Насыщение на максимуме",
+    "Saturate at maximum",
+    "在最大值饱和"
+  ],
+  "authored_inert_C99_template_not_compiled_or_existing_source": [
+    "Инертный шаблон C99; не компилировался и не является исходным файлом пользователя",
+    "Inert authored C99 template; not compiled or an existing user source",
+    "编写的惰性C99模板；未编译，也并非用户现有源代码"
+  ],
+  "counter_elapsed_wrap_ambiguity_or_bound_conflict": [
+    "Фактический интервал неоднозначен либо противоречит выбранной границе",
+    "Actual elapsed ambiguous or inconsistent with selected bound",
+    "实际经过时间存在歧义或与所选界限冲突"
+  ],
+  "clock_divided_by_explicit_oversampling_and_effective_divider": [
+    "Частота делится на явно выбранные передискретизацию и эффективный делитель",
+    "Clock divided by explicit oversampling and effective divider",
+    "时钟频率除以明确的过采样率与有效分频值"
+  ],
+  "point_clock_outside_selected_bounds": [
+    "Точечная частота вне выбранного диапазона",
+    "Point clock outside selected bounds",
+    "点时钟频率超出所选范围"
+  ],
+  "c": [
+    "C",
+    "C",
+    "C"
+  ],
+  "cpp": [
+    "C++",
+    "C++",
+    "C++"
+  ],
+  "unbounded_string_API": [
+    "Кандидат: вызов строкового API без явной границы",
+    "Candidate: string API without explicit bound",
+    "候选问题：未显式限定长度的字符串API"
+  ],
+  "selected_ISR_blocking_or_nonreentrant_call": [
+    "Кандидат: блокирующий или нереентерабельный вызов в выбранном ISR",
+    "Candidate: blocking or non-reentrant call in selected ISR",
+    "候选问题：所选ISR中的阻塞或不可重入调用"
+  ],
+  "narrow_cast_before_addition": [
+    "Кандидат: сужение типа перед сложением",
+    "Candidate: narrowing cast before addition",
+    "候选问题：加法前的窄化类型转换"
+  ],
+  "lexical_candidate_not_proven_defect": [
+    "Лексический кандидат для проверки; дефект не доказан",
+    "Lexical review candidate; defect not proven",
+    "词法审查候选项；尚未证明为缺陷"
+  ],
+  "lexical_language_not_supported": [
+    "Язык не поддержан лексической проверкой",
+    "Language unsupported by lexical aid",
+    "词法辅助检查不支持该语言"
+  ],
+  "selected_ISR_body_not_resolved": [
+    "Тело выбранного ISR не найдено этим лексическим методом",
+    "Selected ISR body unresolved by lexical aid",
+    "该词法辅助方法未找到所选ISR主体"
+  ],
+  "no_preprocessor_or_macro_expansion": [
+    "Препроцессор и макросы не раскрываются",
+    "No preprocessing or macro expansion",
+    "不进行预处理或宏展开"
+  ],
+  "no_full_control_flow_or_alias_analysis": [
+    "Полный анализ потока управления и псевдонимов не выполняется",
+    "No full control-flow or alias analysis",
+    "不执行完整控制流或别名分析"
+  ],
+  "volatile_does_not_establish_atomicity_or_memory_order": [
+    "volatile не подтверждает атомарность и порядок памяти",
+    "volatile does not establish atomicity or memory ordering",
+    "volatile并不证明原子性或内存顺序"
+  ],
+  "empty_pattern_result_is_not_clean_code_or_MISRA_conformance": [
+    "Отсутствие найденных шаблонов не подтверждает чистоту кода и соответствие MISRA",
+    "No matched patterns does not establish clean code or MISRA conformance",
+    "未匹配到模式并不证明代码无缺陷或符合MISRA"
+  ],
+  "cppcheck_xml_v2": [
+    "Предоставленный отчёт Cppcheck XML v2",
+    "Supplied Cppcheck XML v2 report",
+    "提供的Cppcheck XML v2报告"
+  ],
+  "prepared_compiler_diagnostics": [
+    "Подготовленные выбранные сообщения компилятора",
+    "Prepared selected compiler diagnostics",
+    "整理后的所选编译器诊断"
+  ],
+  "provided_complete": [
+    "Предоставлено как полный выбранный результат; полнота не подтверждена инструментом",
+    "Supplied as a complete selected result; completeness not independently established",
+    "作为完整的所选结果提供；未独立确认完整性"
+  ],
+  "provided_partial": [
+    "Предоставлен частичный результат",
+    "Partial result supplied",
+    "已提供部分结果"
+  ],
+  "provided_failed": [
+    "Предоставлена запись о неудачном запуске",
+    "Failed-run record supplied",
+    "已提供运行失败记录"
+  ],
+  "not_run": [
+    "По предоставленным данным инструмент не запускался",
+    "Tool not run according to supplied record",
+    "根据所提供记录工具未运行"
+  ],
+  "tool_report_source_identity_unresolved_or_mismatch": [
+    "Версия исходника отчёта не выбрана или её логический хеш не совпадает",
+    "Report source identity unresolved or logical hash mismatch",
+    "未确定报告的源代码版本或逻辑哈希不匹配"
+  ],
+  "provided_tool_not_run": [
+    "Результата запуска нет; фиктивная дата не требуется",
+    "No tool result; no fictional run date required",
+    "没有工具运行结果；无需虚构运行日期"
+  ],
+  "tool_diagnostic_source_line_not_selected_or_resolved": [
+    "Соответствующая строка той же версии исходника не установлена",
+    "Corresponding line of the same source version unresolved",
+    "未确定同一源代码版本中的对应行"
+  ],
+  "provided_tool_result_partial_or_failed": [
+    "Выбранный результат частичный или запуск завершился неудачно",
+    "Selected result partial or run failed",
+    "所选结果为部分结果或运行失败"
+  ],
+  "shared_variables_volatile_atomicity": [
+    "Общие переменные, volatile и атомарность",
+    "Shared variables, volatile and atomicity",
+    "共享变量、volatile与原子性"
+  ],
+  "timer_overflow": [
+    "Переполнение таймера или счётчика",
+    "Timer or counter overflow",
+    "定时器或计数器溢出"
+  ],
+  "buffer_bounds": [
+    "Границы буферов",
+    "Buffer bounds",
+    "缓冲区边界"
+  ],
+  "ISR_blocking": [
+    "Блокировки внутри ISR",
+    "Blocking inside ISR",
+    "ISR内的阻塞"
+  ],
+  "peripheral_error_handling": [
+    "Обработка ошибок периферии",
+    "Peripheral error handling",
+    "外设错误处理"
+  ],
+  "watchdog": [
+    "Сторожевой таймер и условия обслуживания",
+    "Watchdog and servicing conditions",
+    "看门狗及喂狗条件"
+  ],
+  "state_machine": [
+    "Автомат состояний",
+    "State machine",
+    "状态机"
+  ],
+  "selected_coding_rules": [
+    "Выбранные правила кодирования",
+    "Selected coding rules",
+    "所选编码规则"
+  ],
+  "provided_finding": [
+    "В предоставленном обзоре отмечена проблема",
+    "Finding stated in supplied review",
+    "提供的审查中报告了问题"
+  ],
+  "provided_no_finding": [
+    "В предоставленном обзоре проблемы не отмечены; независимого подтверждения нет",
+    "No finding stated in supplied review; not independently confirmed",
+    "提供的审查中未报告问题；未独立确认"
+  ],
+  "code_review_topic_unresolved": [
+    "Тема проверки не раскрыта в выбранных материалах",
+    "Review topic unresolved in selected material",
+    "所选材料中未解决该审查主题"
+  ],
+  "target_and_compiler_context_not_supplied": [
+    "Контекст целевой платформы и компилятора не предоставлен",
+    "Target and compiler context not supplied",
+    "未提供目标平台和编译器背景"
+  ],
+  "select_source_fragment_target_compiler_and_expected_behavior": [
+    "Выбрать фрагмент исходника, цель, компилятор и ожидаемое поведение",
+    "Select source fragment, target, compiler and expected behavior",
+    "选择源代码片段、目标、编译器和预期行为"
+  ],
+  "select_only_needed_counter_UART_or_provided_analyzer_branch": [
+    "Выбрать только нужные ветви счётчика, UART или готового отчёта анализатора",
+    "Select only needed counter, UART or supplied analyzer-report branches",
+    "仅选择所需的计数器、UART或所提供分析器报告分支"
+  ],
+  "supply_ISR_shared_variable_buffer_error_watchdog_context": [
+    "Уточнить ISR, общие переменные, буферы, ошибки и сторожевой таймер",
+    "Clarify ISR, shared variables, buffers, errors and watchdog context",
+    "明确ISR、共享变量、缓冲区、错误及看门狗背景"
+  ],
+  "exact_finite_rational_predicates_Decimal180_display_not_measurement_precision": [
+    "Точные конечные рациональные вычисления; вывод до180значащих цифр не означает точности измерения",
+    "Exact finite rational arithmetic; display up to180digits is not measurement precision",
+    "精确有限有理数运算；最多180位显示并不代表测量精度"
+  ],
+  "utilization_comparison_uses_unrounded_operands": [
+    "Для сравнения использованы неокруглённые отношения; отрицательный запас сохранён отдельно",
+    "Comparison uses unrounded ratios; negative margin is retained separately",
+    "比较采用未舍入的比值；负裕量单独保留"
+  ]
+}

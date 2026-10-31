@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "profession_id": "real_estate_appraiser",
+ "module": "naby_real_estate",
+ "entrypoint": "naby_real_estate.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [
+  "real_estate_appraiser: authority_aliases_V1 package/naby_real_estate/core.py 40b82316eb68→8da77ef59f93",
+  "real_estate_appraiser: source_boundary_V1 package/naby_real_estate/binding.py 14d4146add89→6757bc5483fa"
+ ],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "common.py": "65bab9ab049c379f5a5e0675a313a289937b12b6309d77d85f3ff7408af7a7e0",
+  "assignment_gate.py": "ea85741ce092d750c4e5289e541dee94260a4dc4ada574dcb7b10d6af1cbb3ac",
+  "scenarios.py": "699ce85cf20f0f99801092c4be18c04b6bade6f7f39c2dda6213c1100eaa5795",
+  "service.py": "cf005a9efae3c2cd3ec0dc8ef58268bef945d9cfc677410621a4e9a380791cd1",
+  "calculations.py": "1c2543457ad72ab6ff038d5b74d0972698f88d1bdd6924f1751f818aae1e90e2",
+  "artifacts.py": "30ac5d6d14714b487b5077908c49768a9f3a5b49d554046e81956795f19c2341",
+  "__init__.py": "2e58e0425f4743a4dbebe406c011d8cc1ea92ea26599d1bed1b7223b132525d8",
+  "core.py": "ea0ed52e067076c2eb6ef1cb4030c8b65a0595b976df75d01c97c2338a5733de",
+  "binding.py": "6757bc5483fa6cc5b58103be7e95b4da1c5e98740ac0b7f4850f3aa601542818",
+  "artifact_labels.py": "decb5fde6a3adf703780ee45803877b18ec1de10de9470f04882ffadb57b67b7",
+  "artifact_formatting.py": "487a4795dd5cb14b6acadd877ceff571b431fbae82329a5a4d2ea3ccd769659d",
+  "prompts.json": "a51d1898477cc55701b9c31c1d5eae30bd0848baa09b44536d21a3eb65aa47f7"
+ }
+}

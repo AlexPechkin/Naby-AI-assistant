@@ -1,0 +1,557 @@
+{
+  "questions": [
+    "Сбор исходных данных",
+    "Collect required inputs",
+    "收集所需资料"
+  ],
+  "comparison": [
+    "Условное сравнение режимов",
+    "Conditional regime comparison",
+    "附条件的税制比较"
+  ],
+  "analysis": [
+    "Проект анализа сделки",
+    "Draft transaction analysis",
+    "交易分析草稿"
+  ],
+  "draft_calculation": [
+    "Расчётный проект",
+    "Calculation draft",
+    "计算草稿"
+  ],
+  "conditional_selected_source_draft": [
+    "Условный проект по выбранным источникам",
+    "Conditional draft from selected sources",
+    "基于所选来源的附条件草稿"
+  ],
+  "regime_choice": [
+    "Выбор налогового режима",
+    "Tax regime choice",
+    "税制选择"
+  ],
+  "transaction_structuring": [
+    "Налоговый анализ сделки",
+    "Transaction tax analysis",
+    "交易税务分析"
+  ],
+  "individual_3ndfl": [
+    "Проект расчёта 3-НДФЛ",
+    "Personal income tax draft",
+    "个人所得税申报计算草稿"
+  ],
+  "OSNO_organization": [
+    "ОСНО: организация, выбранная ставка прибыли",
+    "General regime: organization, selected profit rate",
+    "一般税制：组织及所选利润税率"
+  ],
+  "OSNO_individual": [
+    "ОСНО: ИП, выбранная шкала НДФЛ",
+    "General regime: individual entrepreneur, selected PIT scale",
+    "一般税制：个体经营者及所选个税税率表"
+  ],
+  "USN_income": [
+    "УСН: доходы",
+    "Simplified regime: income",
+    "简化税制：收入"
+  ],
+  "USN_expense": [
+    "УСН: доходы минус расходы",
+    "Simplified regime: income less expenses",
+    "简化税制：收入减支出"
+  ],
+  "PSN": [
+    "Патент: выбранные условия",
+    "Patent regime: selected conditions",
+    "专利税制：所选条件"
+  ],
+  "AUSN_income": [
+    "АУСН: доходы за месяц",
+    "Automated simplified regime: monthly income",
+    "自动简化税制：月收入"
+  ],
+  "AUSN_expense": [
+    "АУСН: доходы минус расходы за месяц",
+    "Automated simplified regime: monthly income less expenses",
+    "自动简化税制：月收入减支出"
+  ],
+  "NPD": [
+    "НПД: выбранные месячные поступления",
+    "Professional income tax: selected monthly receipts",
+    "职业收入税：所选月度收入"
+  ],
+  "organization": [
+    "Организация",
+    "Organization",
+    "组织"
+  ],
+  "individual_entrepreneur": [
+    "Индивидуальный предприниматель",
+    "Individual entrepreneur",
+    "个体经营者"
+  ],
+  "individual": [
+    "Физическое лицо",
+    "Individual",
+    "自然人"
+  ],
+  "organization_or_IP": [
+    "Организация или ИП",
+    "Organization or individual entrepreneur",
+    "组织或个体经营者"
+  ],
+  "calendar_year": [
+    "Полный календарный год",
+    "Full calendar year",
+    "完整日历年"
+  ],
+  "calendar_month": [
+    "Полный календарный месяц",
+    "Full calendar month",
+    "完整日历月"
+  ],
+  "patent_period": [
+    "Выбранный период патента",
+    "Selected patent period",
+    "所选专利期间"
+  ],
+  "reporting_period": [
+    "Выбранный отчётный период",
+    "Selected reporting period",
+    "所选报告期间"
+  ],
+  "excludes_all_contributions": [
+    "Расходы не включают перечисленные взносы",
+    "Expenses exclude listed contributions",
+    "费用不含所列缴费"
+  ],
+  "includes_deductible_contributions": [
+    "В расходах уже учтены вычитаемые взносы",
+    "Deductible contributions already included in expenses",
+    "可扣除缴费已计入费用"
+  ],
+  "not_used_in_selected_model": [
+    "Состав расходов не используется выбранной моделью",
+    "Expense composition not used in selected model",
+    "所选模型不使用费用构成"
+  ],
+  "employer": [
+    "Взносы работодателя",
+    "Employer contributions",
+    "雇主缴费"
+  ],
+  "self": [
+    "Взносы за себя",
+    "Self contributions",
+    "个人缴费"
+  ],
+  "injury": [
+    "Взносы на травматизм",
+    "Occupational injury contributions",
+    "工伤缴费"
+  ],
+  "other": [
+    "Иной выбранный вид",
+    "Other selected category",
+    "其他所选类别"
+  ],
+  "deductible_expense": [
+    "Учёт как вычитаемый расход",
+    "Deductible expense treatment",
+    "作为可扣除费用"
+  ],
+  "tax_credit": [
+    "Уменьшение выбранного налога",
+    "Selected tax credit",
+    "抵减所选税额"
+  ],
+  "not_deductible": [
+    "Без уменьшения базы или налога",
+    "No reduction of tax base or tax",
+    "不抵减税基或税额"
+  ],
+  "net": [
+    "Сумма без НДС",
+    "Amount excluding VAT",
+    "不含增值税金额"
+  ],
+  "gross": [
+    "Сумма с НДС",
+    "Amount including VAT",
+    "含增值税金额"
+  ],
+  "vat_only": [
+    "Предоставленная сумма самого НДС",
+    "Provided VAT amount only",
+    "仅提供的增值税额"
+  ],
+  "supply": [
+    "Отгрузка по выбранной записи",
+    "Supply in selected ledger",
+    "所选记录中的供货"
+  ],
+  "advance_receipt": [
+    "Получение аванса",
+    "Advance receipt",
+    "收到预付款"
+  ],
+  "advance_offset": [
+    "Зачёт НДС выбранного аванса",
+    "Offset of selected advance VAT",
+    "抵扣所选预付款增值税"
+  ],
+  "purchase": [
+    "Приобретение и выбранная доля вычета",
+    "Purchase and selected deductible fraction",
+    "采购及所选可抵扣比例"
+  ],
+  "restore": [
+    "Восстановление НДС",
+    "VAT restoration",
+    "增值税转回"
+  ],
+  "observed": [
+    "Предоставленная фактическая запись",
+    "Provided actual record",
+    "提供的实际记录"
+  ],
+  "planned": [
+    "Явная плановая гипотеза",
+    "Explicit planned hypothesis",
+    "明确的计划假设"
+  ],
+  "selected_ledger_not_tax_return_or_cash_refund": [
+    "Выбранный регистр; не декларация и не разрешение возврата",
+    "Selected ledger; not a return or refund authorization",
+    "所选台账；并非申报表或退税授权"
+  ],
+  "selected_conditions_not_legal_eligibility": [
+    "Проверены лишь выбранные числовые условия; право не установлено",
+    "Only selected numeric conditions tested; eligibility not established",
+    "仅检验所选数值条件；资格未确定"
+  ],
+  "selected_accrual_entries": [
+    "Выбранные записи по начислению",
+    "Selected accrual entries",
+    "所选权责发生制记录"
+  ],
+  "selected_cash_entries": [
+    "Выбранные записи по оплате",
+    "Selected cash-basis entries",
+    "所选收付实现制记录"
+  ],
+  "income": [
+    "Доход",
+    "Income",
+    "收入"
+  ],
+  "expense": [
+    "Расход",
+    "Expense",
+    "费用"
+  ],
+  "selected_flat_withholding_and_contribution_scenario_not_worker_classification": [
+    "Выбранный сценарий удержания и взносов; статус работника не определён",
+    "Selected flat withholding/contribution scenario; worker status not determined",
+    "所选固定税率扣缴及缴费情景；未确定劳动者身份"
+  ],
+  "business_purpose": [
+    "Деловая цель",
+    "Business purpose",
+    "商业目的"
+  ],
+  "actual_performer": [
+    "Фактический исполнитель",
+    "Actual performer",
+    "实际履约方"
+  ],
+  "related_parties": [
+    "Взаимозависимость",
+    "Related parties",
+    "关联方"
+  ],
+  "splitting": [
+    "Риски дробления",
+    "Business splitting risks",
+    "业务拆分风险"
+  ],
+  "controlled_transaction": [
+    "Контролируемая сделка",
+    "Controlled transaction",
+    "受控交易"
+  ],
+  "supported": [
+    "Заявлено подтверждение выбранными материалами",
+    "Declared supported by selected materials",
+    "声明由所选材料支持"
+  ],
+  "contradicted": [
+    "Заявлено противоречие выбранным материалам",
+    "Declared contradicted by selected materials",
+    "声明与所选材料矛盾"
+  ],
+  "unknown": [
+    "Не установлено по выбранным данным",
+    "Unknown from selected data",
+    "无法根据所选资料确定"
+  ],
+  "resident": [
+    "Выбран статус резидента",
+    "Selected resident classification",
+    "所选税收居民分类"
+  ],
+  "nonresident": [
+    "Выбран статус нерезидента",
+    "Selected nonresident classification",
+    "所选非税收居民分类"
+  ],
+  "special_category": [
+    "Выбрана специальная категория",
+    "Selected special category",
+    "所选特殊类别"
+  ],
+  "taxable": [
+    "Включён в выбранную облагаемую базу",
+    "Included in selected taxable base",
+    "计入所选应税税基"
+  ],
+  "selected_exempt": [
+    "Выбрано освобождение по указанному основанию",
+    "Selected exemption under stated basis",
+    "按所列依据选择免税处理"
+  ],
+  "property_sale": [
+    "Выбранная продажа имущества",
+    "Selected property sale",
+    "所选财产出售"
+  ],
+  "apply_selected_exemption": [
+    "Условно применить выбранное освобождение",
+    "Conditionally apply selected exemption",
+    "附条件适用所选免税处理"
+  ],
+  "not_applied": [
+    "Освобождение не применено",
+    "Exemption not applied",
+    "未适用免税处理"
+  ],
+  "end_of_month_clamp": [
+    "Отсутствующая дата годовщины: последний день месяца",
+    "Missing anniversary date: last day of month",
+    "不存在的周年日期按月末处理"
+  ],
+  "reject_missing_anniversary": [
+    "Отклонить отсутствующую календарную годовщину",
+    "Reject missing calendar anniversary",
+    "拒绝不存在的日历周年日期"
+  ],
+  "documented_expenses": [
+    "Предоставленные документированные расходы",
+    "Provided documented expenses",
+    "提供的有凭证费用"
+  ],
+  "fixed_deduction": [
+    "Выбранный фиксированный вычет",
+    "Selected fixed deduction",
+    "所选固定扣除额"
+  ],
+  "none": [
+    "Не выбран этот способ уменьшения",
+    "This reduction method not selected",
+    "未选择此减项方法"
+  ],
+  "provided_order_not_optimized_or_eligibility_granted": [
+    "Распределение в предоставленном порядке; без оптимизации и признания права",
+    "Allocation in provided order; no optimization or eligibility grant",
+    "按提供顺序分配；未优化或认定资格"
+  ],
+  "provided_prepared_foreign_income_cap_not_entire_group_tax_automatically": [
+    "Предоставленный расчётный предел по иностранному доходу; не весь налог группы автоматически",
+    "Provided prepared foreign-income cap; not automatically the entire group tax",
+    "所提供的境外收入计算限额；不自动使用整组税额"
+  ],
+  "required_filing": [
+    "Выбран случай обязательной подачи",
+    "Selected mandatory-filing case",
+    "所选必须申报情形"
+  ],
+  "deduction_only": [
+    "Выбран случай только получения вычета",
+    "Selected deduction-only case",
+    "所选仅申请扣除情形"
+  ],
+  "half_up": [
+    "Округление половины от нуля",
+    "Round half away from zero",
+    "五入时远离零"
+  ],
+  "half_even": [
+    "Округление половины к чётному",
+    "Round half to even",
+    "五入时取偶数"
+  ],
+  "down": [
+    "Отбрасывание дробной части к нулю",
+    "Truncate toward zero",
+    "向零截断"
+  ],
+  "inclusive_actual_days_over_actual_calendar_year": [
+    "Фактические дни включая обе даты / дни календарного года",
+    "Actual inclusive days divided by calendar-year days",
+    "含首尾实际天数除以日历年天数"
+  ],
+  "law": [
+    "Выбран нормативный закон",
+    "Selected enacted-law classification",
+    "所选已颁法律分类"
+  ],
+  "regional_law": [
+    "Выбран региональный закон",
+    "Selected regional-law classification",
+    "所选地区法律分类"
+  ],
+  "official_explanation": [
+    "Выбрано официальное разъяснение",
+    "Selected official explanation",
+    "所选官方说明"
+  ],
+  "letter": [
+    "Выбрано письмо",
+    "Selected letter",
+    "所选函件"
+  ],
+  "contract": [
+    "Выбран договор",
+    "Selected contract",
+    "所选合同"
+  ],
+  "hypothesis": [
+    "Явная гипотеза, не действующая норма",
+    "Explicit hypothesis, not current law",
+    "明确假设，并非现行法律"
+  ],
+  "selected_method": [
+    "Выбранный расчётный метод",
+    "Selected calculation method",
+    "所选计算方法"
+  ],
+  "selected_basis_is_not_enacted_tax_law_proof": [
+    "Выбранное основание не доказывает действующую законодательную норму",
+    "Selected basis does not prove enacted current tax law",
+    "所选依据不能证明现行税法"
+  ],
+  "rule_published_after_tax_period_selected_historical_interpretation_requires_review": [
+    "Публикация после налогового периода: проверить выбранное историческое толкование",
+    "Publication after tax period: review selected historical interpretation",
+    "发布时间晚于纳税期间：须复核所选历史解释"
+  ],
+  "planned_transaction_is_conditional_hypothesis": [
+    "Плановая операция остаётся условной гипотезой",
+    "Planned transaction remains a conditional hypothesis",
+    "计划交易仍为附条件假设"
+  ],
+  "NPD_credit_opening_after_unprovided_months_not_reconciled": [
+    "Остаток вычета НПД после непредоставленных месяцев не сверен",
+    "NPD opening credit after unprovided months not reconciled",
+    "未提供月份之后的职业收入税扣除余额未核对"
+  ],
+  "selected_residency_status_differs_from_day_test_review_special_rules": [
+    "Выбранный статус отличается от теста дней: проверить специальные правила",
+    "Selected residence status differs from day test: review special rules",
+    "所选居民身份与天数测试不同：须复核特殊规则"
+  ],
+  "deduction_previously_used_exceeds_selected_cap": [
+    "Предыдущий вычет превышает выбранный предел",
+    "Prior deduction exceeds selected cap",
+    "以前扣除额超过所选上限"
+  ],
+  "only_selected_tax_bases_and_periods": [
+    "Сравнение ограничено выбранными базами и периодами",
+    "Comparison limited to selected bases and periods",
+    "比较仅限所选税基和期间"
+  ],
+  "VAT_credit_not_assumed_refunded": [
+    "Кредитовый НДС не считается автоматически возвращённым",
+    "VAT credit is not assumed refunded",
+    "不假定增值税贷方余额已退还"
+  ],
+  "VAT_and_direct_tax_periods_differ_not_summed": [
+    "Периоды НДС и прямого налога различаются: общий итог не вычислен",
+    "VAT and direct-tax periods differ: combined total not computed",
+    "增值税与直接税期间不同：未计算合计"
+  ],
+  "other_taxes_and_transition_costs_not_automatically_included": [
+    "Прочие налоги и затраты перехода автоматически не включены",
+    "Other taxes and transition costs not automatically included",
+    "其他税费和转换成本未自动计入"
+  ],
+  "different_period_spans_not_directly_comparable": [
+    "Разные интервалы: прямое сравнение требует оговорки",
+    "Different spans require qualification before direct comparison",
+    "期间跨度不同，直接比较须附说明"
+  ],
+  "different_selected_period_sets_require_comparison_review": [
+    "Разные наборы периодов требуют проверки сопоставимости",
+    "Different selected period sets require comparability review",
+    "所选期间集合不同，须复核可比性"
+  ],
+  "entity_region_activity_and_period": [
+    "Тип лица, регион, деятельность и период",
+    "Entity type, region, activity and period",
+    "主体类型、地区、业务和期间"
+  ],
+  "recognized_revenue_expense_and_contribution_composition": [
+    "Признанные доходы, расходы и состав взносов",
+    "Recognized income, expenses and contribution composition",
+    "已确认收入、费用和缴费构成"
+  ],
+  "selected_rates_thresholds_eligibility_and_transition_rules": [
+    "Выбранные ставки, пороги, условия и правила перехода",
+    "Selected rates, thresholds, eligibility and transition rules",
+    "所选税率、阈值、资格和转换规则"
+  ],
+  "VAT_buyer_and_input_deduction_scenarios": [
+    "Сценарии НДС, покупателей и входящих вычетов",
+    "VAT, buyer and input-deduction scenarios",
+    "增值税、买方和进项抵扣情景"
+  ],
+  "question_and_business_purpose": [
+    "Вопрос и деловая цель",
+    "Question and business purpose",
+    "问题和商业目的"
+  ],
+  "actual_parties_performance_documents_and_dates": [
+    "Фактические стороны, исполнение, документы и даты",
+    "Actual parties, performance, documents and dates",
+    "实际当事方、履约、文件和日期"
+  ],
+  "selected_recognition_VAT_and_direct_tax_rules": [
+    "Выбранные правила признания, НДС и прямого налога",
+    "Selected recognition, VAT and direct-tax rules",
+    "所选确认、增值税和直接税规则"
+  ],
+  "related_party_splitting_and_controlled_transaction_evidence": [
+    "Доказательства взаимозависимости, дробления и контролируемых сделок",
+    "Related-party, splitting and controlled-transaction evidence",
+    "关联、拆分和受控交易证据"
+  ],
+  "tax_year_income_sources_and_residency_window": [
+    "Налоговый год, источники дохода и окно резидентства",
+    "Tax year, income sources and residence window",
+    "纳税年度、收入来源和居民身份窗口"
+  ],
+  "selected_group_scales_exemptions_and_deduction_pools": [
+    "Выбранные групповые шкалы, освобождения и общие пределы вычетов",
+    "Selected group scales, exemptions and shared deduction pools",
+    "所选分类税率表、免税处理和共享扣除额度"
+  ],
+  "withheld_domestic_and_foreign_tax_documents": [
+    "Документы об удержаниях, российских и иностранных платежах",
+    "Withheld, domestic and foreign tax documents",
+    "扣缴、境内和境外税款文件"
+  ],
+  "property_holding_and_selected_deadline_rules": [
+    "Владение имуществом и выбранные правила сроков",
+    "Property holding and selected deadline rules",
+    "财产持有和所选期限规则"
+  ]
+}

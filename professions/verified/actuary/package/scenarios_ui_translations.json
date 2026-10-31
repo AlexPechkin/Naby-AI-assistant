@@ -1,0 +1,697 @@
+{
+  "not_assessed": [
+    "Не оценено",
+    "Not assessed",
+    "未评估"
+  ],
+  "not_calculated": [
+    "Не рассчитывалось",
+    "Not calculated",
+    "未计算"
+  ],
+  "not_determined": [
+    "Не определяется инструментом",
+    "Not determined by the tool",
+    "本工具不作判定"
+  ],
+  "provided": [
+    "Предоставленная запись",
+    "Supplied record",
+    "所提供的记录"
+  ],
+  "missing": [
+    "Отсутствует",
+    "Missing",
+    "缺失"
+  ],
+  "unknown": [
+    "Неизвестно",
+    "Unknown",
+    "未知"
+  ],
+  "not_applicable": [
+    "Предоставлено как неприменимое; основание требует рассмотрения",
+    "Supplied as not applicable; the basis requires review",
+    "标记为不适用；依据需要审核"
+  ],
+  "proposed_assumption_not_adopted": [
+    "Предложенное допущение; принятие не выполнялось",
+    "Proposed assumption; no adoption was performed",
+    "建议假设；尚未采纳"
+  ],
+  "local_pseudonymous_data_only": [
+    "Обезличенные данные обрабатываются локально",
+    "Pseudonymous data are processed locally",
+    "去标识化数据仅在本地处理"
+  ],
+  "candidate_dedup_is_not_data_mutation": [
+    "Показан вариант удаления точных повторов; исходные записи не изменены",
+    "An identical-duplicate removal candidate is shown; original records were not changed",
+    "展示完全重复记录的去重候选方案；原始记录未更改"
+  ],
+  "source_occurrence_not_semantics": [
+    "Наличие фрагмента не подтверждает его смысл или истинность",
+    "Text occurrence does not establish meaning or truth",
+    "文本出现不能证明含义或真实性"
+  ],
+  "raw_eligible": [
+    "Все строки, прошедшие выбранные проверки",
+    "All rows passing the selected checks",
+    "通过所选检查的所有记录"
+  ],
+  "remove_identical_duplicates": [
+    "Вариант после удаления только точных повторов",
+    "Candidate after removing identical duplicates only",
+    "仅删除完全重复项后的候选结果"
+  ],
+  "conflicting_duplicate_keys": [
+    "Одинаковые ключи содержат разные данные; выбор строки не сделан",
+    "Duplicate keys contain different data; no row was chosen",
+    "重复键包含不同数据；尚未选择记录"
+  ],
+  "accounting_control_scope_mismatch": [
+    "Область или период бухгалтерского контроля не совпадает",
+    "The accounting control scope or period does not match",
+    "会计控制的范围或期间不匹配"
+  ],
+  "accounting_control": [
+    "Выбранный бухгалтерский контроль",
+    "Selected accounting control",
+    "所选会计控制"
+  ],
+  "exposure_control": [
+    "Выбранный контроль экспозиции",
+    "Selected exposure control",
+    "所选风险暴露控制"
+  ],
+  "dataset_exposure_unit_missing": [
+    "Единица экспозиции набора не выбрана",
+    "Dataset exposure unit has not been selected",
+    "尚未选择数据集的风险暴露单位"
+  ],
+  "exposure_unit_mismatch": [
+    "Единицы экспозиции различаются",
+    "Exposure units differ",
+    "风险暴露单位不一致"
+  ],
+  "event_outside_selected_period": [
+    "Событие вне выбранного периода",
+    "Event is outside the selected period",
+    "事件不在所选期间内"
+  ],
+  "reported_before_occurrence": [
+    "Дата заявления раньше события",
+    "Reporting date precedes occurrence",
+    "报案日期早于事故日期"
+  ],
+  "payment_before_occurrence": [
+    "Дата выплаты раньше события",
+    "Payment date precedes occurrence",
+    "赔付日期早于事故日期"
+  ],
+  "coverage_end_before_start": [
+    "Окончание покрытия раньше начала",
+    "Coverage end precedes start",
+    "保障结束日期早于开始日期"
+  ],
+  "currency_outside_selected_perimeter": [
+    "Валюта строки вне выбранного состава",
+    "Row currency is outside the selected perimeter",
+    "记录币种不在所选范围内"
+  ],
+  "amount_unit_outside_selected_currency": [
+    "Единица суммы отличается от выбранной валюты",
+    "Amount unit differs from the selected currency",
+    "金额单位与所选币种不同"
+  ],
+  "record_perimeter_mismatch": [
+    "Строка относится к другому составу данных",
+    "The row belongs to a different data perimeter",
+    "该记录属于其他数据范围"
+  ],
+  "dedup_key_incomplete": [
+    "Ключ проверки повторов неполон",
+    "Duplicate-detection key is incomplete",
+    "重复检查键不完整"
+  ],
+  "draft_contract_not_agreement": [
+    "Проект задания не подтверждает согласование договора",
+    "A task draft does not establish agreement",
+    "任务草稿不能证明已达成协议"
+  ],
+  "literal_clause_match_not_legal_clearance": [
+    "Совпадение текста условия не является юридическим заключением",
+    "Literal clause matching is not legal clearance",
+    "条款文本匹配不构成法律确认"
+  ],
+  "host_scope_confirmation_required_for_valuation": [
+    "Для оценивания требуется подтверждение даты и состава данных через хост",
+    "Valuation requires host confirmation of date and data scope",
+    "估值需要由宿主确认日期和数据范围"
+  ],
+  "contract_valuation_or_data_scope_mismatch": [
+    "Дата или состав выбранного договора отличается от задания",
+    "Selected contract date or data scope differs from the task",
+    "所选合同的日期或数据范围与任务不同"
+  ],
+  "selected_contract": [
+    "Выбранный существующий договор",
+    "Selected existing contract",
+    "所选现有合同"
+  ],
+  "selected_requirements": [
+    "Выбранные редакции требований",
+    "Selected requirement editions",
+    "所选要求版本"
+  ],
+  "client": [
+    "Заказчик",
+    "Client",
+    "委托人"
+  ],
+  "executor": [
+    "Исполнитель",
+    "Executor",
+    "执行方"
+  ],
+  "purpose": [
+    "Цель",
+    "Purpose",
+    "目的"
+  ],
+  "object": [
+    "Объект оценивания",
+    "Valuation object",
+    "估值对象"
+  ],
+  "valuation_date": [
+    "Дата оценивания",
+    "Valuation date",
+    "估值日期"
+  ],
+  "data_scope": [
+    "Идентификатор состава данных",
+    "Data-scope identifier",
+    "数据范围标识"
+  ],
+  "data_responsibility": [
+    "Ответственность за данные",
+    "Data responsibility",
+    "数据责任"
+  ],
+  "limitations": [
+    "Ограничения",
+    "Limitations",
+    "限制"
+  ],
+  "result_usage": [
+    "Использование результата",
+    "Result usage",
+    "结果用途"
+  ],
+  "delivery_date": [
+    "Дата представления",
+    "Delivery date",
+    "交付日期"
+  ],
+  "all_liabilities_including_reserves": [
+    "Все обязательства, включая резервы",
+    "All liabilities including reserves",
+    "包括准备金在内的全部负债"
+  ],
+  "general": [
+    "Прочие активы",
+    "General assets",
+    "一般资产"
+  ],
+  "reinsurance": [
+    "Перестраховочные активы",
+    "Reinsurance assets",
+    "再保险资产"
+  ],
+  "reserve": [
+    "Резерв как часть обязательств",
+    "Reserve as part of liabilities",
+    "作为负债组成部分的准备金"
+  ],
+  "other": [
+    "Иная категория",
+    "Other category",
+    "其他类别"
+  ],
+  "reserves_are_subset_of_all_liabilities": [
+    "Резервы включены в общую сумму обязательств и повторно не вычитаются",
+    "Reserves are included in all liabilities and are not deducted twice",
+    "准备金已计入全部负债，不重复扣减"
+  ],
+  "conditional_ratio_not_regulatory_solvency": [
+    "Условное отношение не является нормативным выводом о платёжеспособности",
+    "The conditional ratio is not a regulatory solvency conclusion",
+    "条件比率不构成监管偿付能力结论"
+  ],
+  "draft_conclusion_requires_responsible_actuary": [
+    "Черновик заключения требует рассмотрения ответственным актуарием",
+    "The draft conclusion requires review by the responsible actuary",
+    "结论草稿需要责任精算师审核"
+  ],
+  "zero_required_capital_ratio_undefined": [
+    "При нулевой выбранной потребности отношение не определено",
+    "The ratio is undefined for a zero selected requirement",
+    "所选资本要求为零时，比率未定义"
+  ],
+  "prior_period": [
+    "Предыдущий период",
+    "Prior period",
+    "前期"
+  ],
+  "reported_reserves": [
+    "Предоставленная сумма резервов",
+    "Supplied reserve amount",
+    "所提供的准备金金额"
+  ],
+  "required_capital": [
+    "Выбранная потребность в капитале",
+    "Selected capital requirement",
+    "所选资本要求"
+  ],
+  "actuary_identity": [
+    "Сведения о личности актуария не предоставлены",
+    "Actuary identity information was not supplied",
+    "未提供精算师身份信息"
+  ],
+  "actuary_identity_record": [
+    "Запись об идентификации актуария не предоставлена",
+    "Actuary identity record was not supplied",
+    "未提供精算师身份记录"
+  ],
+  "data_review": [
+    "Проверка данных",
+    "Data review",
+    "数据审核"
+  ],
+  "assumptions": [
+    "Предположения",
+    "Assumptions",
+    "假设"
+  ],
+  "methods": [
+    "Методы",
+    "Methods",
+    "方法"
+  ],
+  "recommendations": [
+    "Рекомендации для рассмотрения",
+    "Recommendations for review",
+    "供审核的建议"
+  ],
+  "calendar_days": [
+    "Календарные дни по выбранному правилу",
+    "Calendar days under the selected rule",
+    "所选规则中的自然日"
+  ],
+  "business_days": [
+    "Рабочие дни по полному выбранному календарю",
+    "Business days under the complete selected calendar",
+    "按完整所选日历的工作日"
+  ],
+  "include_event": [
+    "Включая день события",
+    "Including the event day",
+    "包括事件当天"
+  ],
+  "next_day": [
+    "Отсчёт со следующего дня",
+    "Counting from the next day",
+    "从次日开始计算"
+  ],
+  "none": [
+    "Без переноса",
+    "No roll",
+    "不顺延"
+  ],
+  "next_working_day": [
+    "Перенос вперёд до выбранного рабочего дня",
+    "Roll forward to a selected working day",
+    "顺延至所选工作日"
+  ],
+  "conditional_accounting_arithmetic_not_ifrs_compliance": [
+    "Условная учётная арифметика не подтверждает соответствие МСФО",
+    "Conditional accounting arithmetic does not establish IFRS compliance",
+    "条件会计计算不能证明符合国际财务报告准则"
+  ],
+  "positive_is_net_outflow_liability": [
+    "Положительное значение означает чистый отток и обязательство",
+    "Positive means net outflow and liability",
+    "正值表示净流出及负债"
+  ],
+  "no_policy_approval_or_automatic_posting": [
+    "Учётная политика не принимается; проводки не выполняются",
+    "No accounting policy adoption or automatic posting is performed",
+    "不采纳会计政策，也不自动记账"
+  ],
+  "GMM": [
+    "Общая модель: выбранный ограниченный расчёт",
+    "General model: selected bounded calculation",
+    "通用计量模型：所选有限计算"
+  ],
+  "PAA": [
+    "Отдельная модель распределения премии",
+    "Separate premium allocation approach",
+    "独立的保费分配法"
+  ],
+  "VFA_REVIEW": [
+    "Ограниченный анализ выбранного переменного вознаграждения",
+    "Bounded selected variable-fee review",
+    "对所选浮动收费的有限审核"
+  ],
+  "onerous": [
+    "Предоставленная группа обременительных договоров",
+    "Supplied onerous-contract group",
+    "所提供的亏损合同组"
+  ],
+  "no_significant_possibility": [
+    "Предоставленная группа без значительной вероятности стать обременительной",
+    "Supplied group with no significant possibility of becoming onerous",
+    "所提供的不太可能转为亏损的合同组"
+  ],
+  "nonfinancial": [
+    "Нефинансовый риск",
+    "Non-financial risk",
+    "非金融风险"
+  ],
+  "issued_no_prior_recognised_assets_or_initial_settlements": [
+    "Выбранная исходная модель выпущенных договоров без ранее признанных активов и первоначальных расчётов",
+    "Selected issued-contract initial model without prior recognised assets or initial settlements",
+    "所选签发合同初始模型，不含先前确认资产或初始结算"
+  ],
+  "positive_future_service_change_is_adverse": [
+    "Положительное изменение будущих услуг означает ухудшение потоков",
+    "A positive future-service change means an adverse cash-flow change",
+    "未来服务变动为正表示现金流恶化"
+  ],
+  "selected_movements_no_new_contracts_or_full_fcf_reconciliation": [
+    "Выбранные движения CSM; новые договоры и полная сверка потоков не рассчитываются",
+    "Selected CSM movements; new contracts and full cash-flow reconciliation are not calculated",
+    "所选合同服务边际变动；不计算新增合同或完整现金流勾稽"
+  ],
+  "provided_adjustments": [
+    "Предоставленные корректировки валютного пересчёта",
+    "Supplied currency translation adjustments",
+    "所提供的外币折算调整"
+  ],
+  "no_currency_translation_selected": [
+    "Выбран сценарий без валютного пересчёта",
+    "A scenario without currency translation was selected",
+    "所选情景不进行外币折算"
+  ],
+  "loss_component_service_allocation": [
+    "Распределение компонента убытка на оказанные услуги не предоставлено",
+    "Loss-component allocation to services was not supplied",
+    "未提供向已提供服务分摊的亏损组成部分"
+  ],
+  "declared_profitability_differs_from_initial_arithmetic": [
+    "Предоставленная группа прибыльности отличается от первоначальной арифметики",
+    "Supplied profitability grouping differs from initial arithmetic",
+    "所提供的盈利分组与初始计算结果不同"
+  ],
+  "capitalise": [
+    "Выбранная капитализация расходов привлечения",
+    "Selected acquisition-cost capitalisation",
+    "所选获取成本资本化"
+  ],
+  "expense_as_incurred_selected": [
+    "Выбрано признание расходов привлечения при возникновении",
+    "Acquisition costs are selected for expense as incurred",
+    "所选获取成本发生时计入费用"
+  ],
+  "premium_received": [
+    "Полученные премии",
+    "Premiums received",
+    "收到的保费"
+  ],
+  "acquisition_paid": [
+    "Оплаченные расходы привлечения",
+    "Acquisition cash flows paid",
+    "支付的获取现金流"
+  ],
+  "acquisition_amortisation": [
+    "Амортизация расходов привлечения",
+    "Acquisition-cost amortisation",
+    "获取成本摊销"
+  ],
+  "insurance_revenue": [
+    "Выбранная страховая выручка",
+    "Selected insurance revenue",
+    "所选保险收入"
+  ],
+  "investment_component_paid": [
+    "Выплаченный инвестиционный компонент",
+    "Investment component paid",
+    "支付的投资成分"
+  ],
+  "financing": [
+    "Выбранная финансовая корректировка",
+    "Selected financing adjustment",
+    "所选融资调整"
+  ],
+  "fx": [
+    "Выбранная валютная корректировка",
+    "Selected currency adjustment",
+    "所选汇率调整"
+  ],
+  "paa_onerous_loss_test": [
+    "Проверка убытка по PAA не предоставлена",
+    "PAA onerous-loss test was not supplied",
+    "未提供保费分配法亏损测试"
+  ],
+  "supplied_remaining_fcf_and_lrc_excluding_loss_component": [
+    "Предоставленные оставшиеся потоки и LRC без компонента убытка",
+    "Supplied remaining cash flows and LRC excluding the loss component",
+    "所提供的剩余现金流及不含亏损组成部分的剩余保障负债"
+  ],
+  "included_in_nonvarying_fcf": [
+    "Поправка на нефинансовый риск включена в предоставленные неизменяющиеся потоки",
+    "Non-financial risk adjustment is included in supplied non-varying cash flows",
+    "非金融风险调整已包含在所提供的不随基础项目变化的现金流中"
+  ],
+  "selected_B104_fee_arithmetic_only_no_options_guarantees_or_full_VFA_measurement": [
+    "Только выбранная арифметика вознаграждения B104; опционы, гарантии и полная VFA-оценка не моделируются",
+    "Selected B104 fee arithmetic only; options, guarantees and full VFA measurement are not modelled",
+    "仅计算所选B104收费；不建模期权、保证或完整浮动收费法计量"
+  ],
+  "regulatory_reconciliation": [
+    "Сверка с регуляторной оценкой",
+    "Regulatory valuation reconciliation",
+    "监管估值勾稽"
+  ],
+  "selected_deltas_not_automatic_lapse_factor": [
+    "Изменения взяты из выбранной оценки; автоматический множитель расторжений не применяется",
+    "Changes come from a selected valuation; no automatic lapse multiplier is applied",
+    "变动取自所选估值；不采用自动退保倍数"
+  ],
+  "asset_changes": [
+    "Изменения активов",
+    "Asset changes",
+    "资产变动"
+  ],
+  "liability_changes": [
+    "Изменения обязательств",
+    "Liability changes",
+    "负债变动"
+  ],
+  "selected_registry_snapshot_not_live_lookup": [
+    "Выбранный снимок реестра не является фактическим текущим поиском",
+    "The selected registry snapshot is not an actual live lookup",
+    "所选登记册快照不构成实际实时查询"
+  ],
+  "provided_record_does_not_grant_practice_right": [
+    "Предоставленная запись не предоставляет право практики",
+    "A supplied record does not grant a practice right",
+    "所提供记录不授予执业权利"
+  ],
+  "no_fixed_eternal_experience_threshold": [
+    "Порог стажа берётся из выбранного требования, без постоянного значения по памяти",
+    "Experience threshold comes from the selected requirement, without a permanent remembered value",
+    "经验门槛来自所选要求，不使用永久记忆中的固定值"
+  ],
+  "sro": [
+    "Членство в СРО: предоставленные сведения",
+    "SRO membership: supplied records",
+    "自律组织成员资格：所提供记录"
+  ],
+  "attestation": [
+    "Аттестация: предоставленные сведения",
+    "Attestation: supplied records",
+    "资格认证：所提供记录"
+  ],
+  "registry": [
+    "Реестр: предоставленные сведения",
+    "Registry: supplied records",
+    "登记册：所提供记录"
+  ],
+  "experience": [
+    "Подтверждающие записи стажа",
+    "Experience records",
+    "工作经验记录"
+  ],
+  "cpd": [
+    "Повышение квалификации",
+    "Continuing professional development",
+    "持续专业发展"
+  ],
+  "independence": [
+    "Независимость и конфликты",
+    "Independence and conflicts",
+    "独立性及利益冲突"
+  ],
+  "restrictions": [
+    "Ограничения: предоставленные сведения",
+    "Restrictions: supplied records",
+    "限制：所提供记录"
+  ],
+  "education": [
+    "Образование: предоставленные сведения",
+    "Education: supplied records",
+    "教育背景：所提供记录"
+  ],
+  "evidence_missing": [
+    "Подтверждающая запись отсутствует",
+    "Supporting record is missing",
+    "缺少支持记录"
+  ],
+  "evidence_unknown": [
+    "Подтверждающая запись неизвестна",
+    "Supporting record is unknown",
+    "支持记录未知"
+  ],
+  "evidence_not_applicable": [
+    "Запись указана как неприменимая; требуется рассмотрение",
+    "Record is supplied as not applicable; review is required",
+    "记录标记为不适用；需要审核"
+  ],
+  "evidence_subject_mismatch": [
+    "Запись относится к другому лицу",
+    "The record relates to another person",
+    "记录涉及其他人员"
+  ],
+  "evidence_scope_mismatch": [
+    "Область записи не совпадает",
+    "Evidence scope does not match",
+    "证据范围不匹配"
+  ],
+  "snapshot_after_valuation_date": [
+    "Снимок позже даты оценивания; ретроспективный смысл не установлен",
+    "Snapshot is later than valuation; retrospective meaning is not established",
+    "快照晚于估值日期；尚未确定追溯含义"
+  ],
+  "provided_period_not_started": [
+    "Предоставленный период ещё не начался на дату оценивания",
+    "The supplied period had not started at valuation",
+    "所提供期间在估值日尚未开始"
+  ],
+  "provided_period_ended": [
+    "Предоставленный период закончился до даты оценивания",
+    "The supplied period ended before valuation",
+    "所提供期间在估值日之前已结束"
+  ],
+  "snapshot_date": [
+    "Дата снимка",
+    "Snapshot date",
+    "快照日期"
+  ],
+  "subject_id": [
+    "Идентификатор лица",
+    "Subject identifier",
+    "人员标识"
+  ],
+  "after_cutoff": [
+    "После выбранного среза данных",
+    "After the selected data cutoff",
+    "晚于所选数据截止日期"
+  ],
+  "occurrence_date": [
+    "Дата наступления события",
+    "Occurrence date",
+    "事故发生日期"
+  ],
+  "reported_date": [
+    "Дата заявления",
+    "Reporting date",
+    "报案日期"
+  ],
+  "payment_date": [
+    "Дата выплаты",
+    "Payment date",
+    "赔付日期"
+  ],
+  "start_date": [
+    "Дата начала",
+    "Start date",
+    "开始日期"
+  ],
+  "end_date": [
+    "Дата окончания",
+    "End date",
+    "结束日期"
+  ],
+  "exposure": [
+    "Экспозиция",
+    "Exposure",
+    "风险暴露"
+  ],
+  "amount": [
+    "Сумма",
+    "Amount",
+    "金额"
+  ],
+  "currency": [
+    "Валюта",
+    "Currency",
+    "币种"
+  ],
+  "perimeter": [
+    "Состав данных",
+    "Data perimeter",
+    "数据范围"
+  ],
+  "record_id": [
+    "Идентификатор строки",
+    "Record identifier",
+    "记录标识"
+  ],
+  "contract_id": [
+    "Идентификатор договора",
+    "Contract identifier",
+    "合同标识"
+  ],
+  "claim_id": [
+    "Идентификатор убытка",
+    "Claim identifier",
+    "赔案标识"
+  ],
+  "source_edition": [
+    "Редакция источника",
+    "Source edition",
+    "来源版本"
+  ],
+  "source_publication_date": [
+    "Дата публикации источника",
+    "Source publication date",
+    "来源发布日期"
+  ],
+  "population_scope": [
+    "Область популяции",
+    "Population scope",
+    "人群范围"
+  ],
+  "reserves_subset_reinsurance_assets_and_other_liabilities_separate": [
+    "Подмножество резервов, перестраховочные активы и прочие обязательства показаны раздельно",
+    "Reserve subset, reinsurance assets and other liabilities are shown separately",
+    "准备金子集、再保险资产及其他负债分别列示"
+  ],
+  "reserve_gross_net_basis_not_established": [
+    "Брутто/нетто база резервов в предоставленном балансе не установлена",
+    "Gross/net reserve basis is not established for the supplied ledger",
+    "所供余额的准备金毛额或净额基础尚未确定"
+  ]
+}

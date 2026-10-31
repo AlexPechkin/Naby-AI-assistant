@@ -1,0 +1,3 @@
+© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+Naby Document Sans: static weight 400 derivative of Noto Sans SC; renamed for bundled document rendering. Original license SIL OFL 1.1 retained.

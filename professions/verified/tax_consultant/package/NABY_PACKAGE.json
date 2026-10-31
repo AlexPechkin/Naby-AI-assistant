@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "profession_id": "tax_consultant",
+ "module": "naby_tax_consultant",
+ "entrypoint": "naby_tax_consultant.service.run(function,proposal_json,documents,language=ru,review=preview|calculate)",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "artifact_ui.json": "ab52ef8df134716ddc0df765489d23bbabb6e63f78bf0a94f768e512fc195284",
+  "tax_models_ui_translations.json": "98865a0ab145437b2493500d2329a7ebcbd7dd489161aeb67d85ed5e41455bc7",
+  "practice_ui_translations.json": "d7ea73374532e3a08ecd58311a5f6180cfeec899732bf464b6d896193c106845",
+  "service.py": "098a1051111a474feb3eb3fab893c52a7b64b29799252f0b20a16eea1ce808ae",
+  "tax_procedure.py": "4daf1432c6b861ead9823b273eb2e75a582c243aa69d2b937b9f007465e8e517",
+  "artifact_subject_labels.json": "d3b9c1c00a333ed29d5861df59846867367bbef37c662da5637f8540d2516fb4",
+  "privacy.py": "0f300954b8bb7c34fcc61eaa0a25b9b2b393c7958cdb88bb673fde69af3c9d50",
+  "evidence.py": "507f19a46b45ee6fe4c5a96cd674fa3db6896ad56d123c771ed8dee5a63f9df9",
+  "artifact_templates.json": "dc84e57c0d7bab0a7047832155cc1da7f53d65dea1c5c93f4cd0da9d2ec9bf56",
+  "artifacts.py": "83bb1a7f25195126d44b3a8f845acfd0d21bc59bc8914e0b1350aa6b65dc4fb0",
+  "__init__.py": "a3900eaea00a4efa4ee22ed51c2f5dd164173bfb6f114c40af3a871f63f8da00",
+  "core.py": "0b8fad12d0244ae7d0f06c6d6025c4537ee8050fe95bc903776329e160cfabc6",
+  "tax_procedure_ui_translations.json": "fecd5b70a828052ed3917952cd9309ff4a4c1c129cd6e7dde52484c40aa75682",
+  "binding.py": "4c4194ccc92a08fb49b939f2753c2b2475f783fdcc19669c074bd6efd3c3a014",
+  "artifact_labels.py": "0fff760bd2388e310fc2923af58f0219e3c453be5b48400fa9c9202b7d3fb32d",
+  "date_source.py": "3fc18ddd08dced02e66f21c9ef442b4aae17b1f7478b2cccfeaadc2c6da72f2a",
+  "artifact_formatting.py": "df8b8418e47424b122ea31f185aa33a6522cdf26f21872425e22c8b79851d205",
+  "prompts.json": "99555a5395c4f6a6c95c8d5d23beb652fdca136e92449f79d7a1f31cc19cf134",
+  "tax_models.py": "cf0eaf26d7f937ed0dba3d02eb19b874d2f07548b365bb53af1c0fbe6a30ea14",
+  "tax_practice.py": "403cc2eb1a43c46a6eafacedd320a8d6b40928316712ea7ccbd97cbd89015ca9"
+ }
+}

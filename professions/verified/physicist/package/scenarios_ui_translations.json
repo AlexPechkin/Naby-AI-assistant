@@ -1,0 +1,662 @@
+{
+  "not_assessed": [
+    "Не оценено",
+    "Not assessed",
+    "未评估"
+  ],
+  "draft_for_responsible_review": [
+    "Черновик для рассмотрения ответственным специалистом",
+    "Draft for review by the responsible specialist",
+    "供负责人审核的草稿"
+  ],
+  "metrology_not_checked_online": [
+    "Фактическая проверка сведений Аршина не выполнялась",
+    "No actual online Arshin record check was performed",
+    "未实际在线核查阿尔申记录"
+  ],
+  "optional_calculations_not_required_for_plan": [
+    "План эксперимента не требует заполнения необязательных расчётов",
+    "The experiment plan does not require optional calculations",
+    "实验计划无需填写可选计算"
+  ],
+  "normal_differences_assumed_not_tested": [
+    "Нормальность разностей принята как допущение и не проверялась",
+    "Normal differences are assumed and have not been tested",
+    "假设差值服从正态分布，尚未检验"
+  ],
+  "constant_cp_no_phase_change": [
+    "Модель постоянной теплоёмкости без фазового перехода",
+    "Constant heat capacity model without phase change",
+    "恒定热容且无相变的模型"
+  ],
+  "preliminary_dose_not_safety_decision": [
+    "Предварительная оценка дозы не устанавливает безопасность",
+    "A preliminary dose estimate does not establish safety",
+    "初步剂量估算不能确定安全性"
+  ],
+  "no_startup_or_interlock_authorization": [
+    "Пуск установки и исправность блокировок не разрешались и не удостоверялись",
+    "Equipment startup and interlock functionality were not authorized or established",
+    "未授权设备启动，也未确认联锁装置功能"
+  ],
+  "measured_at_location": [
+    "Мощность дозы задана в месте оценки; поправка расстояния не применяется",
+    "Dose rate is supplied at the assessment location; no distance correction is applied",
+    "剂量率在评估位置给出，不进行距离修正"
+  ],
+  "point_source_reference": [
+    "Предположение точечного закрытого источника с явным опорным расстоянием",
+    "Sealed point-source approximation with an explicit reference distance",
+    "具有明确参考距离的密封点源近似"
+  ],
+  "ambient_dose_equivalent": [
+    "Амбиентный эквивалент дозы по выбранным данным",
+    "Ambient dose equivalent from the selected data",
+    "基于所选数据的周围剂量当量"
+  ],
+  "personal_dose_equivalent": [
+    "Индивидуальный эквивалент дозы по выбранным данным",
+    "Personal dose equivalent from the selected data",
+    "基于所选数据的个人剂量当量"
+  ],
+  "effective_dose_model": [
+    "Модель эффективной дозы, предоставленная для анализа",
+    "Effective dose model supplied for analysis",
+    "为分析提供的有效剂量模型"
+  ],
+  "proposed_not_observed": [
+    "Предложенная мера; выполнение не наблюдалось",
+    "Proposed control; implementation was not observed",
+    "建议的控制措施；未观察到实施"
+  ],
+  "proposed_controls_are_not_observed_controls": [
+    "Предложенные меры отделены от наблюдений об их выполнении",
+    "Proposed controls are separated from observations of implementation",
+    "建议措施与实施观察记录分开"
+  ],
+  "ppe_selection_requires_specialist": [
+    "Подбор СИЗ требует рассмотрения профильным специалистом",
+    "PPE selection requires review by a qualified specialist",
+    "个人防护装备的选择需要专业人员审核"
+  ],
+  "severity_times_likelihood": [
+    "Выбранная модель: тяжесть, умноженная на вероятность",
+    "Selected model: severity multiplied by likelihood",
+    "所选模型：严重程度乘以可能性"
+  ],
+  "missing_capability": [
+    "Нет выбранных данных о требуемой возможности",
+    "No selected data describe the required capability",
+    "没有描述所需能力的选定数据"
+  ],
+  "unit_mismatch": [
+    "Единицы различаются; автоматическое сопоставление не выполнено",
+    "Units differ; automatic matching was not performed",
+    "单位不同，未进行自动匹配"
+  ],
+  "range_covered": [
+    "Предоставленный диапазон охватывает требуемый; доступность не установлена",
+    "The supplied range covers the requirement; availability is not established",
+    "所提供范围覆盖需求；尚未确定可用性"
+  ],
+  "range_not_covered": [
+    "Предоставленный диапазон не охватывает требуемый",
+    "The supplied range does not cover the requirement",
+    "所提供范围未覆盖需求"
+  ],
+  "scope_mismatch": [
+    "Область применения не совпадает",
+    "Scope does not match",
+    "适用范围不匹配"
+  ],
+  "not_open": [
+    "По предоставленным датам приём ещё не начался",
+    "The supplied dates indicate that the call has not opened",
+    "根据提供的日期，征集尚未开始"
+  ],
+  "past_deadline": [
+    "Предоставленная дата окончания прошла",
+    "The supplied deadline has passed",
+    "所提供的截止日期已过"
+  ],
+  "within_supplied_dates": [
+    "Дата анализа входит в предоставленное окно приёма",
+    "The analysis date falls within the supplied call window",
+    "分析日期位于所提供的申请时间范围内"
+  ],
+  "capability_range_is_not_actual_availability": [
+    "Описание возможностей не подтверждает фактическую доступность установки",
+    "A capability description does not establish actual facility availability",
+    "能力描述不能证明设施实际可用"
+  ],
+  "draft_not_submitted": [
+    "Локальный черновик; подача не выполнялась",
+    "Local draft; no submission was performed",
+    "本地草稿；尚未提交"
+  ],
+  "selected_metadata_occurrence_only": [
+    "Идентификатор найден в выбранных метаданных; подлинность не установлена",
+    "The identifier occurs in selected metadata; authenticity is not established",
+    "标识符出现在所选元数据中；尚未确认真实性"
+  ],
+  "citation_occurrence_is_not_claim_support": [
+    "Наличие цитаты не доказывает научное утверждение",
+    "A citation occurrence does not establish scientific claim support",
+    "引文的存在不能证明科学论断得到支持"
+  ],
+  "author_license_export_review_required": [
+    "Требуется рассмотрение авторства, лицензии и ограничений передачи",
+    "Authorship, license and transfer restrictions require review",
+    "需要审核作者身份、许可证和传输限制"
+  ],
+  "provided_date_not_legally_validated": [
+    "Предоставленная дата; её юридическое толкование не подтверждено",
+    "Supplied date; its legal interpretation has not been established",
+    "所提供的日期；尚未确认其法律解释"
+  ],
+  "required_before_transfer": [
+    "Требуется рассмотрение ответственным специалистом до передачи",
+    "Review by the responsible specialist is required before transfer",
+    "传输前需要负责人审核"
+  ],
+  "not_performed": [
+    "Не выполнялось",
+    "Not performed",
+    "未执行"
+  ],
+  "selected_reporting_dates_not_universal_deadlines": [
+    "Даты отчётности относятся к выбранным данным и не являются общими сроками",
+    "Reporting dates relate to the selected data and are not universal deadlines",
+    "报告日期仅适用于所选数据，并非通用期限"
+  ],
+  "export_scope_cannot_be_cleared_by_model_flag": [
+    "Флаг модели не освобождает от проверки области и списков экспортного контроля",
+    "A model flag does not exempt scope and export-list review",
+    "模型标记不能免除范围和出口管制清单审查"
+  ],
+  "provided": [
+    "Предоставленная запись",
+    "Supplied record",
+    "所提供的记录"
+  ],
+  "missing": [
+    "Отсутствует",
+    "Missing",
+    "缺失"
+  ],
+  "unknown": [
+    "Неизвестно",
+    "Unknown",
+    "未知"
+  ],
+  "not_applicable": [
+    "Предоставлено как неприменимое; основание требует рассмотрения",
+    "Supplied as not applicable; the basis requires review",
+    "标记为不适用；依据需要审核"
+  ],
+  "laser": [
+    "Лазер",
+    "Laser",
+    "激光"
+  ],
+  "cryo": [
+    "Криогенная система",
+    "Cryogenic system",
+    "低温系统"
+  ],
+  "high_voltage": [
+    "Высокое напряжение",
+    "High voltage",
+    "高电压"
+  ],
+  "pressure": [
+    "Оборудование под давлением",
+    "Pressure equipment",
+    "压力设备"
+  ],
+  "sealed_point": [
+    "Закрытый источник с предоставленным точечным приближением",
+    "Sealed source with a supplied point approximation",
+    "具有所提供点源近似的密封源"
+  ],
+  "sealed_extended": [
+    "Протяжённый закрытый источник",
+    "Extended sealed source",
+    "扩展密封源"
+  ],
+  "open_radionuclide": [
+    "Открытый радионуклидный источник",
+    "Open radionuclide source",
+    "开放放射性核素源"
+  ],
+  "xray": [
+    "Рентгеновская установка",
+    "X-ray equipment",
+    "X射线设备"
+  ],
+  "accelerator": [
+    "Ускоритель",
+    "Accelerator",
+    "加速器"
+  ],
+  "other": [
+    "Другой тип; область требует уточнения",
+    "Other type; scope requires clarification",
+    "其他类型；范围需要澄清"
+  ],
+  "instruments": [
+    "Средства измерений",
+    "Measuring instruments",
+    "测量仪器"
+  ],
+  "measurement_plan": [
+    "План измерений",
+    "Measurement plan",
+    "测量计划"
+  ],
+  "range": [
+    "Диапазон",
+    "Range",
+    "范围"
+  ],
+  "repeats": [
+    "Число повторов",
+    "Number of repeats",
+    "重复次数"
+  ],
+  "control_points": [
+    "Контрольные точки",
+    "Control points",
+    "控制点"
+  ],
+  "background": [
+    "Фон",
+    "Background",
+    "背景"
+  ],
+  "conditions": [
+    "Условия",
+    "Conditions",
+    "条件"
+  ],
+  "processing": [
+    "Обработка",
+    "Processing",
+    "处理"
+  ],
+  "accuracy_basis": [
+    "Основание показателей точности",
+    "Accuracy basis",
+    "准确度依据"
+  ],
+  "serial_number": [
+    "Заводской номер",
+    "Serial number",
+    "序列号"
+  ],
+  "accuracy_description": [
+    "Характеристика точности",
+    "Accuracy description",
+    "准确度描述"
+  ],
+  "verification": [
+    "Предоставленные сведения о поверке",
+    "Supplied verification record",
+    "所提供的检定记录"
+  ],
+  "calibration": [
+    "Предоставленные сведения о калибровке",
+    "Supplied calibration record",
+    "所提供的校准记录"
+  ],
+  "provided_period_ended": [
+    "Предоставленный срок действия истёк",
+    "The supplied validity period has ended",
+    "所提供的有效期已结束"
+  ],
+  "observation_after_valid_to": [
+    "Дата наблюдения позже предоставленного срока действия",
+    "Observation date is later than the supplied validity end",
+    "观察日期晚于所提供的有效期结束日期"
+  ],
+  "verification_provided_period_ended": [
+    "Истёк предоставленный срок поверки",
+    "The supplied verification period has ended",
+    "所提供的检定有效期已结束"
+  ],
+  "calibration_provided_period_ended": [
+    "Истёк предоставленный срок калибровки",
+    "The supplied calibration period has ended",
+    "所提供的校准有效期已结束"
+  ],
+  "organization_permissions": [
+    "Документы организации для выбранной области",
+    "Organization documents for the selected scope",
+    "所选范围的机构文件"
+  ],
+  "personnel_training": [
+    "Подготовка и полномочия персонала",
+    "Personnel training and responsibilities",
+    "人员培训与职责"
+  ],
+  "dosimetry": [
+    "Дозиметрический контроль",
+    "Dosimetry",
+    "剂量监测"
+  ],
+  "source_inventory": [
+    "Учёт источников",
+    "Source inventory",
+    "源清单"
+  ],
+  "storage": [
+    "Хранение",
+    "Storage",
+    "储存"
+  ],
+  "emergency_plan": [
+    "План действий при аварии",
+    "Emergency plan",
+    "应急计划"
+  ],
+  "radiation_control": [
+    "Радиационный контроль",
+    "Radiation monitoring",
+    "辐射监测"
+  ],
+  "selected_rules": [
+    "Выбранные редакции правил",
+    "Selected rule editions",
+    "所选规则版本"
+  ],
+  "pulse_regime": [
+    "Импульсный режим",
+    "Pulse regime",
+    "脉冲模式"
+  ],
+  "beam_path": [
+    "Оптический тракт",
+    "Beam path",
+    "光路"
+  ],
+  "eye_protection_basis": [
+    "Основание выбора защиты глаз",
+    "Eye-protection selection basis",
+    "眼部防护选择依据"
+  ],
+  "ventilation": [
+    "Сведения о вентиляции",
+    "Ventilation records",
+    "通风记录"
+  ],
+  "oxygen_monitor": [
+    "Сведения о контроле кислорода",
+    "Oxygen-monitoring records",
+    "氧气监测记录"
+  ],
+  "relief_path": [
+    "Путь сброса давления",
+    "Pressure relief path",
+    "泄压路径"
+  ],
+  "isolation": [
+    "Сведения об изоляции и отключении",
+    "Isolation and disconnection records",
+    "隔离与断开记录"
+  ],
+  "discharge_procedure": [
+    "Порядок разряда накопленной энергии",
+    "Stored-energy discharge procedure",
+    "储能放电程序"
+  ],
+  "personnel_role": [
+    "Ответственная роль персонала",
+    "Responsible personnel role",
+    "负责人员角色"
+  ],
+  "inspection_record": [
+    "Запись освидетельствования",
+    "Inspection record",
+    "检验记录"
+  ],
+  "relief_device": [
+    "Сведения о предохранительном устройстве",
+    "Relief-device records",
+    "泄压装置记录"
+  ],
+  "observed_controls": [
+    "Наблюдения о мерах защиты",
+    "Observed control records",
+    "已观察的控制措施记录"
+  ],
+  "responsible": [
+    "Ответственный специалист",
+    "Responsible specialist",
+    "负责的专业人员"
+  ],
+  "proposal": [
+    "Черновик заявки",
+    "Draft proposal",
+    "申请草稿"
+  ],
+  "facilities": [
+    "Выбранные установки",
+    "Selected facilities",
+    "所选设施"
+  ],
+  "shift_budget": [
+    "Бюджет времени",
+    "Time budget",
+    "时间预算"
+  ],
+  "call": [
+    "Выбранный приём заявок",
+    "Selected call",
+    "所选征集"
+  ],
+  "sample_safety": [
+    "Сведения об опасностях образцов",
+    "Sample hazard information",
+    "样品危险信息"
+  ],
+  "preliminary_results": [
+    "Предварительные результаты",
+    "Preliminary results",
+    "初步结果"
+  ],
+  "expected_outcomes": [
+    "Ожидаемые результаты",
+    "Expected outcomes",
+    "预期成果"
+  ],
+  "facility_id": [
+    "Выбранная установка",
+    "Selected facility",
+    "所选设施"
+  ],
+  "references": [
+    "Библиографические источники",
+    "Bibliographic references",
+    "参考文献"
+  ],
+  "results": [
+    "Результаты с неопределённостями",
+    "Results with uncertainties",
+    "带不确定度的结果"
+  ],
+  "contributors": [
+    "Соавторы и вклад",
+    "Contributors and contributions",
+    "作者及贡献"
+  ],
+  "license_record": [
+    "Предоставленные сведения о лицензии",
+    "Supplied license record",
+    "所提供的许可证记录"
+  ],
+  "data_code": [
+    "Версии и доступ к данным и коду",
+    "Data and code versions and access",
+    "数据与代码的版本和访问"
+  ],
+  "systematics": [
+    "Систематические эффекты",
+    "Systematic effects",
+    "系统效应"
+  ],
+  "review_records": [
+    "Записи внутреннего рассмотрения",
+    "Internal review records",
+    "内部审核记录"
+  ],
+  "budget": [
+    "Смета",
+    "Budget",
+    "预算"
+  ],
+  "milestones": [
+    "Этапы",
+    "Milestones",
+    "里程碑"
+  ],
+  "agreements": [
+    "Соглашения",
+    "Agreements",
+    "协议"
+  ],
+  "reporting_obligations": [
+    "Выбранные обязательства отчётности",
+    "Selected reporting obligations",
+    "所选报告义务"
+  ],
+  "export_scope_and_lists": [
+    "Область передачи и выбранные контрольные списки",
+    "Transfer scope and selected control lists",
+    "传输范围与所选管制清单"
+  ],
+  "destination": [
+    "Страна и место назначения",
+    "Destination",
+    "目的地"
+  ],
+  "end_user": [
+    "Конечный пользователь",
+    "End user",
+    "最终用户"
+  ],
+  "end_use": [
+    "Конечное использование",
+    "End use",
+    "最终用途"
+  ],
+  "item_identification": [
+    "Идентификация передаваемых объектов",
+    "Identification of transferred items",
+    "传输对象的识别"
+  ],
+  "list_coverage": [
+    "Охват контрольных списков",
+    "Control-list coverage",
+    "管制清单覆盖范围"
+  ],
+  "selected_lists": [
+    "Выбранные редакции контрольных списков",
+    "Selected control-list editions",
+    "所选管制清单版本"
+  ],
+  "date": [
+    "Дата",
+    "Date",
+    "日期"
+  ],
+  "settings": [
+    "Параметры установки",
+    "Setup parameters",
+    "设备参数"
+  ],
+  "sample": [
+    "Образец",
+    "Sample",
+    "样品"
+  ],
+  "measurement": [
+    "Измерение",
+    "Measurement",
+    "测量"
+  ],
+  "unit": [
+    "Единица",
+    "Unit",
+    "单位"
+  ],
+  "operator": [
+    "Оператор",
+    "Operator",
+    "操作人员"
+  ],
+  "notes": [
+    "Замечания",
+    "Notes",
+    "备注"
+  ],
+  "independent_homoscedastic_pairs_assumed_not_tested": [
+    "Независимость пар и постоянство разброса приняты как допущения и не проверялись",
+    "Pair independence and constant scatter are assumed and have not been tested",
+    "假设配对观测独立且离散程度恒定，尚未检验"
+  ],
+  "conditional_selected_rule": [
+    "Условный расчёт по выбранному правилу; юридическая применимость не подтверждена",
+    "Conditional calculation under the selected rule; legal applicability is not established",
+    "按所选规则进行条件计算；尚未确认法律适用性"
+  ],
+  "provided_date": [
+    "Дата предоставлена; её нормативное основание требует рассмотрения",
+    "Date supplied; its regulatory basis requires review",
+    "所提供的日期；其规范依据需要审核"
+  ],
+  "calendar_days": [
+    "Календарные дни по выбранному правилу",
+    "Calendar days under the selected rule",
+    "所选规则中的自然日"
+  ],
+  "business_days": [
+    "Рабочие дни по полностью выбранному календарю",
+    "Business days under the complete selected calendar",
+    "按完整所选日历的工作日"
+  ],
+  "include_event": [
+    "Включая день события",
+    "Including the event day",
+    "包括事件当天"
+  ],
+  "next_day": [
+    "Отсчёт со следующего дня",
+    "Counting from the next day",
+    "从次日开始计算"
+  ],
+  "none": [
+    "Без переноса даты",
+    "No date roll",
+    "不调整日期"
+  ],
+  "next_working_day": [
+    "Перенос вперёд до выбранного рабочего дня",
+    "Roll forward to a selected working day",
+    "顺延至所选工作日"
+  ],
+  "time": [
+    "Время наблюдения",
+    "Observation time",
+    "观察时间"
+  ],
+  "utc_offset": [
+    "Явно предоставленное смещение UTC",
+    "Explicitly supplied UTC offset",
+    "明确提供的UTC偏移"
+  ],
+  "time_and_offset": [
+    "Время и смещение UTC не предоставлены; часовой пояс не угадан",
+    "Time and UTC offset were not supplied; no timezone was inferred",
+    "未提供时间和UTC偏移；未推断时区"
+  ]
+}

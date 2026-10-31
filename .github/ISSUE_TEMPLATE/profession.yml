@@ -1,0 +1,26 @@
+name: "🧩 New or improved profession · Новая или улучшенная профессия"
+description: "Send a link to your profession on GitHub · Пришлите ссылку на свою профессию"
+labels: ["profession"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: "Link to the profession folder on GitHub · Ссылка на папку профессии"
+      placeholder: "https://github.com/you/naby-professions/tree/main/lawyer"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What you made or changed · Что сделано или изменено"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checks · Проверки"
+      options:
+        - label: "`python tools/validate.py` passes · проверка проходит"
+          required: true
+        - label: "I agree to section 4 of the Naby Professions License · Согласен с разделом 4 Лицензии профессий Наби"
+          required: true

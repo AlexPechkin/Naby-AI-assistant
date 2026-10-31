@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "profession_id": "pharmacist",
+ "module": "naby_pharmacist",
+ "entrypoint": "naby_pharmacist.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [
+  "pharmacist: source_boundary_V1 package/naby_pharmacist/binding.py 86633cffefd3→fc45cae506a2"
+ ],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "scenarios.py": "a7228b8ffd8e894c128718b4c205088473972e81ea3cef4de91af7afcab9338a",
+  "service.py": "933a4c08b3626b7b4a5e63a689478ce038f6309d96ecdec3fe03bedc86d78ed3",
+  "calculations.py": "1baf12b1d45f5a01f58c99aef359c3c4f4798164f90b66b0a82412be393ef157",
+  "artifact_labels_extra.py": "ef4b0c7166e9c93f42c3f4a5ea775a364bdc79fc3b8241485347825d56e892c6",
+  "artifact_subject_labels.json": "f80cc0083cde196751ac5053ddb543fbc01474812ebddc7cd4222e4842dd4891",
+  "artifacts.py": "6826b97de242c68408014d209acff96a56c13cc3678dbfe3ee31bcf194ea9a41",
+  "__init__.py": "bc99377b0ddbc2ff25870afca29f368c73433478c54fae9a85e9462f55573277",
+  "scenarios_ui_translations.json": "feb37c5bd02f28f0e09a774c636b3304ab0109fd0134bd65a61a6541f045ae62",
+  "core.py": "acc68c526c1bd0ff059cf9c5c91d401c22f73763090a1b966a31a1b8391c7be5",
+  "binding.py": "fc45cae506a21d1f875f1f29de5433ddbfdb2d50da0c3d6e225264445062a054",
+  "artifact_labels.py": "e598266236f05fbf2a17e1dd8dc9cfea7b1c52e3a61e8f4d7c1ddc3fe2f87a16",
+  "storage_artifacts.py": "7d9a41a837e80182664b3397c0e722e58eeef3740602c654813b40358e08cb80",
+  "artifact_formatting.py": "acd3b0a21f4e4878a4e06127c667f989b7e96e271995920457f3cc28c5b7661d",
+  "prompts.json": "32c6cc12d6b5b0737cc5b8765099119f8cb28ffe675e632b066be156d5b3cb39"
+ }
+}

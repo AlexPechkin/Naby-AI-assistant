@@ -1,0 +1,2975 @@
+{
+  "fields": {
+    "id": [
+      "Идентификатор",
+      "Identifier",
+      "标识"
+    ],
+    "value": [
+      "Значение",
+      "Value",
+      "数值"
+    ],
+    "unit": [
+      "Единица",
+      "Unit",
+      "单位"
+    ],
+    "name": [
+      "Наименование",
+      "Name",
+      "名称"
+    ],
+    "title": [
+      "Название",
+      "Title",
+      "标题"
+    ],
+    "description": [
+      "Описание",
+      "Description",
+      "说明"
+    ],
+    "type": [
+      "Тип",
+      "Type",
+      "类型"
+    ],
+    "kind": [
+      "Вид",
+      "Kind",
+      "类别"
+    ],
+    "status": [
+      "Состояние проверки",
+      "Review state",
+      "核查状态"
+    ],
+    "mode": [
+      "Режим",
+      "Mode",
+      "模式"
+    ],
+    "date": [
+      "Дата записи",
+      "Record date",
+      "记录日期"
+    ],
+    "as_of": [
+      "Дата информационного среза",
+      "Information cutoff date",
+      "信息截止日期"
+    ],
+    "jurisdiction": [
+      "Юрисдикция",
+      "Jurisdiction",
+      "司法辖区"
+    ],
+    "source_reference": [
+      "Ссылка на выбранный факт",
+      "Selected fact reference",
+      "选定事实引用"
+    ],
+    "source_sha256": [
+      "SHA256 источника",
+      "Source SHA256",
+      "来源SHA256"
+    ],
+    "fact_id": [
+      "Идентификатор факта",
+      "Fact identifier",
+      "事实标识"
+    ],
+    "segment_id": [
+      "Идентификатор фрагмента",
+      "Segment identifier",
+      "片段标识"
+    ],
+    "pointer": [
+      "Путь входного значения",
+      "Input value path",
+      "输入值路径"
+    ],
+    "reference": [
+      "Источник",
+      "Reference",
+      "来源"
+    ],
+    "quote": [
+      "Исходная цитата",
+      "Source quotation",
+      "来源引文"
+    ],
+    "excerpt": [
+      "Исходный фрагмент",
+      "Source excerpt",
+      "来源片段"
+    ],
+    "edition": [
+      "Выбранная редакция",
+      "Selected edition",
+      "选定版本"
+    ],
+    "clause": [
+      "Выбранный пункт",
+      "Selected clause",
+      "选定条款"
+    ],
+    "publication_date": [
+      "Дата публикации",
+      "Publication date",
+      "发布日期"
+    ],
+    "effective_from": [
+      "Предоставленное начало действия",
+      "Supplied effective start",
+      "提供的生效起始日"
+    ],
+    "effective_to": [
+      "Предоставленное окончание действия",
+      "Supplied effective end",
+      "提供的失效日期"
+    ],
+    "observed_date": [
+      "Дата наблюдения",
+      "Observation date",
+      "观察日期"
+    ],
+    "reference_date": [
+      "Дата исходных сведений",
+      "Input reference date",
+      "原始资料日期"
+    ],
+    "effective_date": [
+      "Дата фактических исходных сведений",
+      "Effective observation date",
+      "实际原始资料日期"
+    ],
+    "concrete_modulus_key": [
+      "Обозначение выбранного модуля бетона",
+      "Selected concrete modulus symbol",
+      "选定混凝土模量符号"
+    ],
+    "modulus_unit": [
+      "Единица модуля",
+      "Modulus unit",
+      "模量单位"
+    ],
+    "selected_concrete_modulus": [
+      "Выбранный модуль бетона",
+      "Selected concrete modulus",
+      "选定混凝土模量"
+    ],
+    "run_date": [
+      "Дата предоставленного расчёта",
+      "Supplied run date",
+      "所提供计算的日期"
+    ],
+    "due": [
+      "Предоставленный срок",
+      "Supplied due date",
+      "提供的期限"
+    ],
+    "overdue_at_as_of": [
+      "Предоставленная дата уже прошла на дату среза",
+      "Supplied date precedes the information cutoff",
+      "提供的日期早于信息截止日"
+    ],
+    "interpretation": [
+      "Предел толкования",
+      "Interpretation scope",
+      "解释范围"
+    ],
+    "object": [
+      "Объект",
+      "Object",
+      "对象"
+    ],
+    "object_id": [
+      "Идентификатор объекта",
+      "Object identifier",
+      "对象标识"
+    ],
+    "element_id": [
+      "Идентификатор элемента",
+      "Element identifier",
+      "构件标识"
+    ],
+    "structure_id": [
+      "Идентификатор конструкции",
+      "Structure identifier",
+      "结构标识"
+    ],
+    "structure_class": [
+      "Предоставленный класс сооружения",
+      "Supplied structure class",
+      "提供的结构等级"
+    ],
+    "purpose": [
+      "Назначение",
+      "Purpose",
+      "用途"
+    ],
+    "goal": [
+      "Цель обследования",
+      "Inspection purpose",
+      "检查目的"
+    ],
+    "site": [
+      "Площадка",
+      "Site",
+      "场地"
+    ],
+    "address_or_region": [
+      "Адрес или район",
+      "Address or region",
+      "地址或区域"
+    ],
+    "snow_region": [
+      "Предоставленный снеговой район",
+      "Supplied snow region",
+      "提供的雪荷载分区"
+    ],
+    "wind_region": [
+      "Предоставленный ветровой район",
+      "Supplied wind region",
+      "提供的风荷载分区"
+    ],
+    "ice_region": [
+      "Предоставленный гололёдный район",
+      "Supplied ice region",
+      "提供的覆冰分区"
+    ],
+    "terrain": [
+      "Тип местности",
+      "Terrain type",
+      "地形类别"
+    ],
+    "seismicity_description": [
+      "Предоставленные сведения о сейсмичности",
+      "Supplied seismicity description",
+      "提供的地震情况说明"
+    ],
+    "standards": [
+      "Выбранные нормативные документы",
+      "Selected standards",
+      "选定规范文件"
+    ],
+    "selected_requirements": [
+      "Выбранные датированные требования",
+      "Selected dated requirements",
+      "选定的有日期要求"
+    ],
+    "document_identity": [
+      "Наименование и реквизиты документа",
+      "Document identity",
+      "文件名称与标识"
+    ],
+    "selected_applicability_date": [
+      "Выбранная дата применимости",
+      "Selected applicability date",
+      "选定适用日期"
+    ],
+    "selected_date_within_supplied_window": [
+      "Выбранная дата внутри предоставленного периода",
+      "Selected date is within supplied window",
+      "所选日期在提供的有效期内"
+    ],
+    "publication_after_selected_date": [
+      "Публикация позже выбранной даты",
+      "Publication follows selected date",
+      "发布日期晚于所选日期"
+    ],
+    "legal_applicability_established": [
+      "Правовая применимость установлена инструментом",
+      "Legal applicability established by tool",
+      "工具已确定法律适用性"
+    ],
+    "evidence_gaps": [
+      "Вопросы и ограничения исходных данных",
+      "Input gaps and limitations",
+      "原始数据缺项与限制"
+    ],
+    "rationale": [
+      "Обоснование",
+      "Rationale",
+      "理由"
+    ],
+    "reason": [
+      "Причина",
+      "Reason",
+      "原因"
+    ],
+    "scope": [
+      "Область сравнения",
+      "Comparison scope",
+      "比较范围"
+    ],
+    "scope_id": [
+      "Идентификатор области",
+      "Scope identifier",
+      "范围标识"
+    ],
+    "component": [
+      "Компонент в выбранных осях",
+      "Component in selected axes",
+      "所选坐标系中的分量"
+    ],
+    "axes": [
+      "Оси",
+      "Axes",
+      "坐标轴"
+    ],
+    "sign_convention": [
+      "Предоставленное правило знаков",
+      "Supplied sign convention",
+      "提供的符号约定"
+    ],
+    "geometry_basis": [
+      "Основа геометрии для сравнения",
+      "Geometry comparison basis",
+      "几何比较依据"
+    ],
+    "boundary_basis": [
+      "Основа граничных условий",
+      "Boundary-condition basis",
+      "边界条件依据"
+    ],
+    "stiffness_basis": [
+      "Основа жёсткостей",
+      "Stiffness basis",
+      "刚度依据"
+    ],
+    "load_basis": [
+      "Основа нагрузок",
+      "Load basis",
+      "荷载依据"
+    ],
+    "combination": [
+      "Сочетание",
+      "Combination",
+      "组合"
+    ],
+    "combination_id": [
+      "Идентификатор сочетания",
+      "Combination identifier",
+      "组合标识"
+    ],
+    "limit_state": [
+      "Предельное состояние",
+      "Limit state",
+      "极限状态"
+    ],
+    "location": [
+      "Место или сечение",
+      "Location or section",
+      "位置或截面"
+    ],
+    "metric": [
+      "Сравниваемая величина",
+      "Compared metric",
+      "比较量"
+    ],
+    "load_table": [
+      "Исходные нагрузки",
+      "Input actions",
+      "原始荷载"
+    ],
+    "action_id": [
+      "Идентификатор нагрузки",
+      "Action identifier",
+      "荷载标识"
+    ],
+    "origin": [
+      "Происхождение нагрузки",
+      "Action origin",
+      "荷载来源类别"
+    ],
+    "basis": [
+      "Основа вычисления",
+      "Calculation basis",
+      "计算依据"
+    ],
+    "exclusive_group": [
+      "Группа взаимоисключающих нагрузок",
+      "Mutually exclusive action group",
+      "互斥荷载组"
+    ],
+    "normative_value": [
+      "Нормативное значение",
+      "Characteristic value",
+      "标准值"
+    ],
+    "derivation": [
+      "Вывод значения",
+      "Value derivation",
+      "数值推导"
+    ],
+    "formula": [
+      "Формула",
+      "Formula",
+      "公式"
+    ],
+    "parameters": [
+      "Предоставленные параметры",
+      "Supplied parameters",
+      "提供的参数"
+    ],
+    "combinations": [
+      "Выбранные сочетания",
+      "Selected combinations",
+      "选定组合"
+    ],
+    "leading_action_id": [
+      "Идентификатор ведущей нагрузки",
+      "Leading action identifier",
+      "主导荷载标识"
+    ],
+    "gamma_n": [
+      "Выбранный коэффициент ответственности gamma n",
+      "Selected consequence factor gamma n",
+      "选定后果系数gamma n"
+    ],
+    "gamma_f": [
+      "Выбранный коэффициент нагрузки gamma f",
+      "Selected action factor gamma f",
+      "选定荷载系数gamma f"
+    ],
+    "psi": [
+      "Выбранный коэффициент сочетания psi",
+      "Selected combination factor psi",
+      "选定组合系数psi"
+    ],
+    "selection_basis": [
+      "Основание выбора сочетания",
+      "Combination selection basis",
+      "组合选择依据"
+    ],
+    "terms": [
+      "Слагаемые сочетания",
+      "Combination terms",
+      "组合分项"
+    ],
+    "role": [
+      "Указанная роль",
+      "Supplied role",
+      "提供的角色"
+    ],
+    "design_value": [
+      "Значение с gamma f для этого сочетания",
+      "Value with gamma f for this combination",
+      "该组合采用gamma f后的数值"
+    ],
+    "contribution": [
+      "Вклад с gamma f psi и gamma n",
+      "Contribution with gamma f psi and gamma n",
+      "含gamma f、psi和gamma n的贡献值"
+    ],
+    "totals_by_scope": [
+      "Итоги по области единице и компоненту",
+      "Totals by scope unit and component",
+      "按范围单位及分量汇总"
+    ],
+    "envelopes": [
+      "Огибающие выбранных нагрузок",
+      "Selected action envelopes",
+      "选定荷载包络"
+    ],
+    "minimum": [
+      "Минимум",
+      "Minimum",
+      "最小值"
+    ],
+    "maximum": [
+      "Максимум",
+      "Maximum",
+      "最大值"
+    ],
+    "minimum_combination_ids": [
+      "Сочетания с минимумом",
+      "Combinations attaining minimum",
+      "达到最小值的组合"
+    ],
+    "maximum_combination_ids": [
+      "Сочетания с максимумом",
+      "Combinations attaining maximum",
+      "达到最大值的组合"
+    ],
+    "unused_action_ids": [
+      "Нагрузки вне выбранных сочетаний",
+      "Actions unused by selected combinations",
+      "未用于所选组合的荷载"
+    ],
+    "thickness_m": [
+      "Толщина м",
+      "Thickness m",
+      "厚度m"
+    ],
+    "specific_weight_kN_m3": [
+      "Удельный вес кН на м³",
+      "Specific weight kN per m³",
+      "重度kN每m³"
+    ],
+    "direction_sign": [
+      "Предоставленный знак направления",
+      "Supplied direction sign",
+      "提供的方向符号"
+    ],
+    "ground_snow_kPa": [
+      "Предоставленный вес снегового покрова кПа",
+      "Supplied ground snow pressure kPa",
+      "提供的地面雪压kPa"
+    ],
+    "shape_coefficient": [
+      "Предоставленный коэффициент формы",
+      "Supplied shape coefficient",
+      "提供的形状系数"
+    ],
+    "exposure_coefficient": [
+      "Предоставленный коэффициент сноса",
+      "Supplied exposure coefficient",
+      "提供的暴露系数"
+    ],
+    "thermal_coefficient": [
+      "Предоставленный термический коэффициент",
+      "Supplied thermal coefficient",
+      "提供的热系数"
+    ],
+    "base_pressure_kPa": [
+      "Предоставленное базовое давление кПа",
+      "Supplied base pressure kPa",
+      "提供的基本风压kPa"
+    ],
+    "height_coefficient": [
+      "Предоставленный высотный коэффициент",
+      "Supplied height coefficient",
+      "提供的高度系数"
+    ],
+    "aerodynamic_coefficient": [
+      "Предоставленный аэродинамический коэффициент",
+      "Supplied aerodynamic coefficient",
+      "提供的空气动力系数"
+    ],
+    "selected_effective_multiplier": [
+      "Выбранный эффективный множитель",
+      "Selected effective multiplier",
+      "选定有效乘数"
+    ],
+    "multiplier_basis": [
+      "Основание эффективного множителя",
+      "Effective multiplier basis",
+      "有效乘数依据"
+    ],
+    "model_review": [
+      "Проверка предоставленной модели",
+      "Supplied model review",
+      "所提供模型核查"
+    ],
+    "model_review_status": [
+      "Режим проверки модели",
+      "Model review branch state",
+      "模型核查分支状态"
+    ],
+    "context": [
+      "Предоставленный контекст",
+      "Supplied context",
+      "提供的背景"
+    ],
+    "program": [
+      "Программа или план работ",
+      "Program or work plan",
+      "软件或工作方案"
+    ],
+    "version": [
+      "Версия",
+      "Version",
+      "版本"
+    ],
+    "axes_description": [
+      "Описание системы осей",
+      "Axis-system description",
+      "坐标系说明"
+    ],
+    "axes_basis": [
+      "Основа глобальных осей",
+      "Global axis basis",
+      "全局坐标系依据"
+    ],
+    "topology_scope": [
+      "Область предоставленного графа",
+      "Supplied graph scope",
+      "提供的图拓扑范围"
+    ],
+    "foundation_model": [
+      "Модель основания",
+      "Foundation model",
+      "地基模型"
+    ],
+    "boundary_conditions": [
+      "Граничные условия",
+      "Boundary conditions",
+      "边界条件"
+    ],
+    "topology_review": [
+      "Диагностика предоставленного графа",
+      "Supplied graph diagnostics",
+      "提供的图拓扑诊断"
+    ],
+    "nodes": [
+      "Предоставленные узлы",
+      "Supplied nodes",
+      "提供的节点"
+    ],
+    "node_id": [
+      "Идентификатор узла",
+      "Node identifier",
+      "节点标识"
+    ],
+    "node_ids": [
+      "Идентификаторы узлов",
+      "Node identifiers",
+      "节点标识列表"
+    ],
+    "position_m": [
+      "Координаты м",
+      "Position m",
+      "坐标m"
+    ],
+    "elements": [
+      "Предоставленные конечные элементы",
+      "Supplied finite elements",
+      "提供的有限元单元"
+    ],
+    "supports": [
+      "Предоставленные опоры",
+      "Supplied supports",
+      "提供的支座"
+    ],
+    "restrained_dofs": [
+      "Предоставленные закреплённые степени свободы",
+      "Supplied restrained degrees of freedom",
+      "提供的约束自由度"
+    ],
+    "compression_positive_direction": [
+      "Предоставленное положительное направление сжатия",
+      "Supplied compression-positive direction",
+      "提供的受压正方向"
+    ],
+    "coordinate_tolerance_m": [
+      "Выбранный координатный допуск м",
+      "Selected coordinate tolerance m",
+      "选定坐标容差m"
+    ],
+    "isolated_node_ids": [
+      "Узлы вне предоставленных связей элементов",
+      "Nodes unused by supplied element connectivity",
+      "未用于所提供单元连接的节点"
+    ],
+    "unknown_connectivity": [
+      "Ссылки элементов на отсутствующие узлы",
+      "Elements referring to absent nodes",
+      "单元对缺失节点的引用"
+    ],
+    "unknown_node_ids": [
+      "Отсутствующие идентификаторы узлов",
+      "Missing node identifiers",
+      "缺失节点标识"
+    ],
+    "zero_extent_element_ids": [
+      "Элементы с совпадающими узлами в допуске",
+      "Elements with coincident nodes within tolerance",
+      "节点在容差内重合的单元"
+    ],
+    "connected_components": [
+      "Компоненты предоставленного графа",
+      "Supplied graph components",
+      "提供的图拓扑分量"
+    ],
+    "has_supplied_restrained_dof": [
+      "В компоненте есть предоставленное закрепление",
+      "Component has a supplied restraint",
+      "该分量有已提供约束"
+    ],
+    "coincident_node_pairs": [
+      "Пары узлов в координатном допуске",
+      "Node pairs within coordinate tolerance",
+      "坐标容差内的节点对"
+    ],
+    "kinematic_stability_established": [
+      "Кинематическая устойчивость установлена инструментом",
+      "Kinematic stability established by tool",
+      "工具已确定运动学稳定性"
+    ],
+    "ties_and_contact_equivalence_reviewed": [
+      "Полная проверка связей и контакта выполнена инструментом",
+      "Full tie and contact review performed by tool",
+      "工具已执行完整连接与接触复核"
+    ],
+    "stiffness_review": [
+      "Предоставленные жёсткости",
+      "Supplied stiffness records",
+      "提供的刚度记录"
+    ],
+    "quantity": [
+      "Физическая величина",
+      "Physical quantity",
+      "物理量"
+    ],
+    "zero_interpretation": [
+      "Предоставленное толкование нуля",
+      "Supplied zero interpretation",
+      "提供的零值解释"
+    ],
+    "negative_value_review": [
+      "Предоставленная величина отрицательна",
+      "Supplied value is negative",
+      "提供值为负"
+    ],
+    "zero_value_review": [
+      "Нулевая величина требует рассмотрения",
+      "Zero value requires review",
+      "零值需要复核"
+    ],
+    "equilibrium_checks": [
+      "Проверки равновесия",
+      "Equilibrium checks",
+      "平衡校核"
+    ],
+    "equilibrium_basis": [
+      "Основа статического равновесия",
+      "Static equilibrium basis",
+      "静力平衡依据"
+    ],
+    "reference_point_m": [
+      "Точка приведения моментов м",
+      "Moment reference point m",
+      "力矩参考点m"
+    ],
+    "applied_resultants": [
+      "Предоставленные внешние равнодействующие",
+      "Supplied applied resultants",
+      "提供的外荷载合力记录"
+    ],
+    "reaction_resultants": [
+      "Предоставленные реакции",
+      "Supplied reaction resultants",
+      "提供的反力记录"
+    ],
+    "resultant_id": [
+      "Идентификатор равнодействующей",
+      "Resultant identifier",
+      "合力标识"
+    ],
+    "force_kN": [
+      "Сила кН",
+      "Force kN",
+      "力kN"
+    ],
+    "couple_kNm": [
+      "Пара сил кН м",
+      "Couple kN m",
+      "力偶kN m"
+    ],
+    "moment_about_reference_kNm": [
+      "Момент относительно выбранной точки кН м",
+      "Moment about selected reference kN m",
+      "关于所选参考点的力矩kN m"
+    ],
+    "applied_force_kN": [
+      "Сумма внешних сил кН",
+      "Total applied force kN",
+      "外力总和kN"
+    ],
+    "reaction_force_kN": [
+      "Сумма реакций кН",
+      "Total reaction force kN",
+      "反力总和kN"
+    ],
+    "applied_moment_kNm": [
+      "Момент внешних сил кН м",
+      "Applied moment kN m",
+      "外力矩kN m"
+    ],
+    "reaction_moment_kNm": [
+      "Момент реакций кН м",
+      "Reaction moment kN m",
+      "反力矩kN m"
+    ],
+    "force_residual_kN": [
+      "Невязка сил кН",
+      "Force residual kN",
+      "力不平衡量kN"
+    ],
+    "moment_residual_kNm": [
+      "Невязка моментов кН м",
+      "Moment residual kN m",
+      "力矩不平衡量kN m"
+    ],
+    "force_tolerance_kN": [
+      "Выбранный допуск силы кН",
+      "Selected force tolerance kN",
+      "选定力容差kN"
+    ],
+    "moment_tolerance_kNm": [
+      "Выбранный допуск момента кН м",
+      "Selected moment tolerance kN m",
+      "选定力矩容差kN m"
+    ],
+    "component_within_selected_tolerance": [
+      "Компоненты в выбранных допусках",
+      "Components within selected tolerances",
+      "分量在选定容差内"
+    ],
+    "all_six_within_selected_tolerance": [
+      "Все шесть невязок в выбранных допусках",
+      "All six residuals within selected tolerances",
+      "六个不平衡量均在选定容差内"
+    ],
+    "support_compression_reviews": [
+      "Проекции реакций на выбранное направление сжатия",
+      "Reaction projections on selected compression direction",
+      "反力在选定受压方向上的投影"
+    ],
+    "projected_compression_kN": [
+      "Проекция со знаком сжатия кН",
+      "Compression-positive projection kN",
+      "受压为正的投影kN"
+    ],
+    "tension_candidate": [
+      "Реакция противоположна выбранному направлению сжатия",
+      "Reaction opposes selected compression-positive direction",
+      "反力与选定受压正方向相反"
+    ],
+    "case_id": [
+      "Идентификатор расчётного случая",
+      "Calculation case identifier",
+      "计算工况标识"
+    ],
+    "mesh_review": [
+      "Предоставленное исследование сетки",
+      "Supplied mesh study",
+      "提供的网格研究"
+    ],
+    "mesh_review_status": [
+      "Режим исследования сетки",
+      "Mesh-study branch state",
+      "网格研究分支状态"
+    ],
+    "runs": [
+      "Предоставленные расчёты",
+      "Supplied runs",
+      "提供的计算记录"
+    ],
+    "characteristic_size_m": [
+      "Характерный размер сетки м",
+      "Characteristic mesh size m",
+      "网格特征尺寸m"
+    ],
+    "element_count": [
+      "Количество элементов",
+      "Element count",
+      "单元数量"
+    ],
+    "steps": [
+      "Сравнения сеток",
+      "Mesh comparisons",
+      "网格比较"
+    ],
+    "coarse_run_id": [
+      "Расчёт на более крупной сетке",
+      "Coarser mesh run",
+      "较粗网格计算"
+    ],
+    "fine_run_id": [
+      "Расчёт на более мелкой сетке",
+      "Finer mesh run",
+      "较细网格计算"
+    ],
+    "size_ratio": [
+      "Отношение размеров сеток",
+      "Mesh-size ratio",
+      "网格尺寸比"
+    ],
+    "signed_change": [
+      "Изменение со знаком",
+      "Signed change",
+      "带符号变化"
+    ],
+    "absolute_change": [
+      "Абсолютное изменение",
+      "Absolute change",
+      "绝对变化"
+    ],
+    "relative_change": [
+      "Относительное изменение",
+      "Relative change",
+      "相对变化"
+    ],
+    "absolute_tolerance": [
+      "Выбранный абсолютный допуск",
+      "Selected absolute tolerance",
+      "选定绝对容差"
+    ],
+    "relative_tolerance": [
+      "Выбранный относительный допуск",
+      "Selected relative tolerance",
+      "选定相对容差"
+    ],
+    "relative_denominator_floor": [
+      "Выбранный минимум знаменателя",
+      "Selected denominator floor",
+      "选定分母下限"
+    ],
+    "comparison_basis": [
+      "Основа сравнения",
+      "Comparison basis",
+      "比较依据"
+    ],
+    "tolerance_rule": [
+      "Правило объединения допусков",
+      "Tolerance combination rule",
+      "容差组合规则"
+    ],
+    "absolute_comparison": [
+      "Проверка абсолютного допуска",
+      "Absolute tolerance comparison",
+      "绝对容差比较"
+    ],
+    "relative_comparison": [
+      "Проверка относительного допуска",
+      "Relative tolerance comparison",
+      "相对容差比较"
+    ],
+    "relative_comparison_operands": [
+      "Неокруглённые операнды сравнения относительного изменения",
+      "Unrounded operands of relative-change comparison",
+      "相对变化比较的未舍入操作数"
+    ],
+    "denominator_scale": [
+      "Знаменатель сравнения в единице выбранной величины",
+      "Comparison denominator in selected metric unit",
+      "以选定物理量单位表示的比较分母"
+    ],
+    "threshold_product": [
+      "Неокруглённое произведение относительного допуска и знаменателя",
+      "Unrounded relative tolerance times denominator",
+      "未舍入相对容差与分母的乘积"
+    ],
+    "last_change_within_selected_tolerance": [
+      "Последнее изменение в выбранном допуске",
+      "Last change within selected tolerance",
+      "最后一次变化在选定容差内"
+    ],
+    "last_change_not_larger_than_previous": [
+      "Последнее изменение не больше предыдущего",
+      "Last change not larger than previous",
+      "最后一次变化不大于前一次"
+    ],
+    "asymptotic_convergence_or_error_bound_established": [
+      "Асимптотическая сходимость или граница ошибки установлена инструментом",
+      "Asymptotic convergence or error bound established by tool",
+      "工具已确定渐近收敛或误差界"
+    ],
+    "independent_beam": [
+      "Ограниченная аналитическая проверка простой балки",
+      "Bounded analytical simple-beam check",
+      "有限范围简支梁解析校核"
+    ],
+    "independent_beam_status": [
+      "Режим аналитической проверки балки",
+      "Analytical beam-check branch state",
+      "梁解析校核分支状态"
+    ],
+    "span_m": [
+      "Пролёт м",
+      "Span m",
+      "跨度m"
+    ],
+    "uniform_load_kN_m": [
+      "Равномерная нагрузка кН на м",
+      "Uniform load kN per m",
+      "均布荷载kN每m"
+    ],
+    "EI_kN_m2": [
+      "Изгибная жёсткость EI кН м²",
+      "Flexural stiffness EI kN m²",
+      "抗弯刚度EI kN m²"
+    ],
+    "load_axis": [
+      "Предоставленная поперечная ось нагрузки",
+      "Supplied transverse load axis",
+      "提供的横向荷载轴"
+    ],
+    "model": [
+      "Условная расчётная модель",
+      "Conditional calculation model",
+      "条件计算模型"
+    ],
+    "total_applied_kN": [
+      "Суммарная нагрузка кН",
+      "Total applied load kN",
+      "外荷载总和kN"
+    ],
+    "reaction_left_kN": [
+      "Левая реакция кН",
+      "Left reaction kN",
+      "左支反力kN"
+    ],
+    "reaction_right_kN": [
+      "Правая реакция кН",
+      "Right reaction kN",
+      "右支反力kN"
+    ],
+    "midspan_sagging_moment_kNm": [
+      "Момент в середине пролёта кН м",
+      "Midspan sagging moment kN m",
+      "跨中正弯矩kN m"
+    ],
+    "midspan_displacement_m": [
+      "Перемещение середины пролёта м",
+      "Midspan displacement m",
+      "跨中位移m"
+    ],
+    "shear_deformation_and_second_order_included": [
+      "Сдвиговые деформации и второй порядок учтены",
+      "Shear deformation and second order included",
+      "已计入剪切变形及二阶效应"
+    ],
+    "comparisons": [
+      "Предоставленные сравнения",
+      "Supplied comparisons",
+      "提供的比较"
+    ],
+    "observed_value": [
+      "Предоставленное значение результата",
+      "Supplied result value",
+      "提供的结果值"
+    ],
+    "analytical_value": [
+      "Аналитическое значение",
+      "Analytical value",
+      "解析值"
+    ],
+    "difference": [
+      "Разность",
+      "Difference",
+      "差值"
+    ],
+    "within_selected_tolerance": [
+      "В пределах выбранного допуска",
+      "Within selected tolerance",
+      "在选定容差内"
+    ],
+    "normative_applicability_established": [
+      "Нормативная применимость установлена инструментом",
+      "Normative applicability established by tool",
+      "工具已确定规范适用性"
+    ],
+    "applicability_established": [
+      "Применимость установлена инструментом",
+      "Applicability established by tool",
+      "工具已确定适用性"
+    ],
+    "stage": [
+      "Выбранная стадия",
+      "Selected stage",
+      "所选阶段"
+    ],
+    "content_items": [
+      "Исходные материалы и предложения",
+      "Source content and proposals",
+      "来源材料及建议"
+    ],
+    "section": [
+      "Раздел",
+      "Section",
+      "章节"
+    ],
+    "sections": [
+      "Материалы исходных разделов",
+      "Original section content",
+      "原始章节材料"
+    ],
+    "authorship": [
+      "Происхождение текста",
+      "Text authorship",
+      "文本来源性质"
+    ],
+    "text": [
+      "Текст",
+      "Text",
+      "文本"
+    ],
+    "requirement_ids": [
+      "Идентификаторы выбранных требований",
+      "Selected requirement identifiers",
+      "选定要求标识"
+    ],
+    "requirement_id": [
+      "Идентификатор выбранного требования",
+      "Selected requirement identifier",
+      "选定要求标识"
+    ],
+    "requirement_review": [
+      "Связи выбранных требований",
+      "Selected requirement mapping",
+      "选定要求关联"
+    ],
+    "content_ids": [
+      "Идентификаторы исходных материалов",
+      "Source content identifiers",
+      "来源材料标识"
+    ],
+    "proposed_content_ids": [
+      "Идентификаторы предложенных текстов",
+      "Proposed-content identifiers",
+      "建议文本标识"
+    ],
+    "checklist_ids": [
+      "Идентификаторы пунктов проверки",
+      "Checklist item identifiers",
+      "检查项标识"
+    ],
+    "sheets": [
+      "Предоставленные листы",
+      "Supplied sheets",
+      "提供的图纸"
+    ],
+    "sheet_id": [
+      "Идентификатор листа",
+      "Sheet identifier",
+      "图纸标识"
+    ],
+    "mark": [
+      "Марка комплекта",
+      "Drawing-set designation",
+      "图纸专业代号"
+    ],
+    "revision": [
+      "Предоставленная редакция",
+      "Supplied revision",
+      "提供的修订版"
+    ],
+    "links": [
+      "Связи листов",
+      "Sheet links",
+      "图纸关联"
+    ],
+    "target_id": [
+      "Целевой идентификатор",
+      "Target identifier",
+      "目标标识"
+    ],
+    "expected_revision": [
+      "Ожидаемая редакция по ссылке",
+      "Revision expected by link",
+      "引用所要求的修订版"
+    ],
+    "specification_ids": [
+      "Идентификаторы спецификаций",
+      "Specification identifiers",
+      "明细表标识"
+    ],
+    "detail_ids": [
+      "Идентификаторы узлов",
+      "Detail identifiers",
+      "节点详图标识"
+    ],
+    "stamp_record": [
+      "Предоставленная основная надпись",
+      "Supplied title-block record",
+      "提供的图签记录"
+    ],
+    "items": [
+      "Позиции",
+      "Items",
+      "明细项"
+    ],
+    "link_checks": [
+      "Проверки связей и редакций",
+      "Link and revision checks",
+      "关联与版本校核"
+    ],
+    "revisions": [
+      "Предоставленные записи изменений",
+      "Supplied revision records",
+      "提供的变更记录"
+    ],
+    "document_id": [
+      "Идентификатор документа",
+      "Document identifier",
+      "文件标识"
+    ],
+    "from_revision": [
+      "Исходная редакция",
+      "Original revision",
+      "原修订版"
+    ],
+    "to_revision": [
+      "Целевая редакция",
+      "Target revision",
+      "目标修订版"
+    ],
+    "affected_ids": [
+      "Связанные изменяемые документы",
+      "Affected linked document identifiers",
+      "受影响关联文件标识"
+    ],
+    "supersedes_id": [
+      "Идентификатор предыдущей записи изменения",
+      "Superseded revision-record identifier",
+      "被替代变更记录标识"
+    ],
+    "checklist": [
+      "Проверка оформления",
+      "Documentation checklist",
+      "文件编制检查"
+    ],
+    "category": [
+      "Категория пункта проверки",
+      "Checklist category",
+      "检查项类别"
+    ],
+    "evidence_ids": [
+      "Идентификаторы подтверждающих записей",
+      "Supporting record identifiers",
+      "支持记录标识"
+    ],
+    "missing_evidence_ids": [
+      "Отсутствующие подтверждающие записи",
+      "Missing supporting record identifiers",
+      "缺失支持记录标识"
+    ],
+    "ambiguous_evidence_ids": [
+      "Неоднозначные ссылки на подтверждающие записи",
+      "Ambiguous supporting-record references",
+      "不明确的支持记录引用"
+    ],
+    "ambiguous_record_ids": [
+      "Неоднозначные идентификаторы записей",
+      "Ambiguous record identifiers",
+      "不明确的记录标识"
+    ],
+    "review_note": [
+      "Пояснение к проверке",
+      "Review note",
+      "复核说明"
+    ],
+    "applicability": [
+      "Предоставленная применимость",
+      "Supplied applicability",
+      "提供的适用性"
+    ],
+    "access": [
+      "Условия доступа",
+      "Access conditions",
+      "进入条件"
+    ],
+    "construction_year": [
+      "Предоставленный год постройки",
+      "Supplied construction year",
+      "提供的建造年份"
+    ],
+    "archive_records": [
+      "Архивные документы",
+      "Archive records",
+      "档案文件"
+    ],
+    "structures": [
+      "Конструкции",
+      "Structures",
+      "结构"
+    ],
+    "target": [
+      "Целевой объект работы",
+      "Work target",
+      "工作对象"
+    ],
+    "proposed_work": [
+      "Предлагаемая работа",
+      "Proposed work",
+      "建议工作"
+    ],
+    "work_performed_by_tool": [
+      "Работа выполнена инструментом",
+      "Work performed by tool",
+      "工作已由工具执行"
+    ],
+    "defects": [
+      "Предоставленные дефекты",
+      "Supplied defects",
+      "提供的缺陷"
+    ],
+    "urgency": [
+      "Предоставленные сведения о срочности",
+      "Supplied urgency information",
+      "提供的紧急程度信息"
+    ],
+    "urgency_basis": [
+      "Основание сообщения о срочности",
+      "Reported urgency basis",
+      "报告紧急情况的依据"
+    ],
+    "measurements": [
+      "Предоставленные измерения",
+      "Supplied measurements",
+      "提供的测量"
+    ],
+    "method": [
+      "Метод",
+      "Method",
+      "方法"
+    ],
+    "instrument": [
+      "Предоставленный прибор",
+      "Supplied instrument",
+      "提供的仪器"
+    ],
+    "uncertainty": [
+      "Предоставленная неопределённость измерения",
+      "Supplied measurement uncertainty",
+      "提供的测量不确定度"
+    ],
+    "photo_ids": [
+      "Идентификаторы метаданных фото",
+      "Photo-metadata identifiers",
+      "照片元数据标识"
+    ],
+    "cause_hypothesis": [
+      "Предоставленная гипотеза причины",
+      "Supplied cause hypothesis",
+      "提供的原因假设"
+    ],
+    "hazard_description": [
+      "Предоставленное описание опасности",
+      "Supplied hazard description",
+      "提供的危险说明"
+    ],
+    "owner": [
+      "Ответственный за рассмотрение",
+      "Responsible review owner",
+      "负责复核人员"
+    ],
+    "proposed_actions": [
+      "Предлагаемые действия для рассмотрения",
+      "Proposed actions for review",
+      "供复核的建议措施"
+    ],
+    "immediate_human_escalation": [
+      "Нужна немедленная передача ответственному человеку",
+      "Immediate escalation to responsible person required",
+      "须立即告知负责人"
+    ],
+    "safety_established": [
+      "Безопасность установлена инструментом",
+      "Safety established by tool",
+      "工具已确定安全性"
+    ],
+    "cause_established": [
+      "Причина установлена инструментом",
+      "Cause established by tool",
+      "工具已确定原因"
+    ],
+    "risk_register": [
+      "Реестр явно сообщённых срочных признаков",
+      "Register of explicitly reported urgent signs",
+      "明确报告的紧急迹象记录"
+    ],
+    "escalation_instruction": [
+      "Действие при срочных признаках",
+      "Action for urgent signs",
+      "紧急迹象处置提示"
+    ],
+    "temporary_measures": [
+      "Предел полномочий по временным мерам",
+      "Temporary-measure authority boundary",
+      "临时措施权限边界"
+    ],
+    "immediate_escalation_required": [
+      "Нужна немедленная передача человеку",
+      "Immediate human escalation required",
+      "须立即告知人员"
+    ],
+    "photos": [
+      "Предоставленные метаданные фото",
+      "Supplied photo metadata",
+      "提供的照片元数据"
+    ],
+    "captured_at": [
+      "Предоставленное время съёмки с часовым смещением",
+      "Supplied capture time with offset",
+      "提供的含时区偏移拍摄时间"
+    ],
+    "caption": [
+      "Исходная подпись фото",
+      "Source photo caption",
+      "照片原始说明"
+    ],
+    "local_identifier": [
+      "Локальный идентификатор без пути",
+      "Local basename identifier",
+      "本地无路径标识"
+    ],
+    "image_content_examined": [
+      "Изображение изучено инструментом",
+      "Image pixels examined by tool",
+      "工具已检查图像像素"
+    ],
+    "test_results": [
+      "Предоставленные результаты испытаний",
+      "Supplied test results",
+      "提供的试验结果"
+    ],
+    "verification_calculation": [
+      "Предоставленный поверочный расчёт",
+      "Supplied verification calculation",
+      "提供的复核计算"
+    ],
+    "verification_calculation_performed": [
+      "Поверочный расчёт выполнен инструментом",
+      "Verification calculation performed by tool",
+      "工具已执行复核计算"
+    ],
+    "category_review": [
+      "Предоставленные сведения о категории состояния",
+      "Supplied condition-category records",
+      "提供的状态类别资料"
+    ],
+    "selected_record": [
+      "Выбранная исходная запись",
+      "Selected source record",
+      "选定来源记录"
+    ],
+    "assignment_performed": [
+      "Категория присвоена инструментом",
+      "Category assigned by tool",
+      "工具已评定类别"
+    ],
+    "author": [
+      "Предоставленный автор записи",
+      "Supplied record author",
+      "提供的记录作者"
+    ],
+    "recommendations": [
+      "Предлагаемые рекомендации",
+      "Proposed recommendations",
+      "建议事项"
+    ],
+    "comments": [
+      "Предоставленные замечания экспертизы",
+      "Supplied expert comments",
+      "提供的审查意见"
+    ],
+    "proposed_response": [
+      "Проект ответа",
+      "Proposed response",
+      "答复草稿"
+    ],
+    "disposition": [
+      "Предлагаемый способ обработки",
+      "Proposed disposition",
+      "建议处理方式"
+    ],
+    "proposed_changes": [
+      "Предлагаемые изменения",
+      "Proposed changes",
+      "建议变更"
+    ],
+    "supplied_revision": [
+      "Фактически предоставленная метка редакции",
+      "Actually supplied revision label",
+      "实际提供的修订标识"
+    ],
+    "change_evidence_status": [
+      "Сопоставление предоставленной метки редакции",
+      "Supplied revision-label comparison",
+      "所提供修订标识比较"
+    ],
+    "content_change_verified": [
+      "Содержание изменения проверено инструментом",
+      "Change content verified by tool",
+      "工具已验证变更内容"
+    ],
+    "expert_comment_closed": [
+      "Замечание закрыто инструментом",
+      "Expert comment closed by tool",
+      "工具已关闭审查意见"
+    ],
+    "response_authorship": [
+      "Статус авторства ответа",
+      "Response authorship state",
+      "答复作者性质"
+    ],
+    "supplied_documents": [
+      "Предоставленные документы",
+      "Supplied documents",
+      "提供的文件"
+    ],
+    "second_run": [
+      "Сравнение предоставленных результатов второго расчёта",
+      "Comparison of supplied second-run results",
+      "提供的第二次计算结果比较"
+    ],
+    "second_run_status": [
+      "Режим сравнения второго расчёта",
+      "Second-run comparison branch state",
+      "第二次计算比较分支状态"
+    ],
+    "primary_run": [
+      "Первый предоставленный расчёт",
+      "First supplied run",
+      "首个提供的计算"
+    ],
+    "secondary_run": [
+      "Второй предоставленный расчёт",
+      "Second supplied run",
+      "第二个提供的计算"
+    ],
+    "model_revision": [
+      "Предоставленная редакция модели",
+      "Supplied model revision",
+      "提供的模型修订版"
+    ],
+    "primary": [
+      "Первый результат",
+      "First result",
+      "首个结果"
+    ],
+    "secondary": [
+      "Второй результат",
+      "Second result",
+      "第二个结果"
+    ],
+    "tolerance": [
+      "Выбранный допуск",
+      "Selected tolerance",
+      "选定容差"
+    ],
+    "comparison_performed": [
+      "Числовое сравнение выполнено",
+      "Numerical comparison performed",
+      "已执行数值比较"
+    ],
+    "comparability_gaps": [
+      "Причины несопоставимости",
+      "Comparability gaps",
+      "不可比原因"
+    ],
+    "signed_difference": [
+      "Разность второго и первого со знаком",
+      "Signed second minus first difference",
+      "第二值减第一值的带符号差值"
+    ],
+    "absolute_difference": [
+      "Абсолютная разность",
+      "Absolute difference",
+      "绝对差值"
+    ],
+    "numerical_agreement_not_model_validation": [
+      "Числовое согласие не является верификацией модели",
+      "Numerical agreement is not model validation",
+      "数值一致不等于模型验证"
+    ],
+    "independent_verification_established": [
+      "Независимая верификация установлена инструментом",
+      "Independent verification established by tool",
+      "工具已确定独立验证"
+    ],
+    "distinct_program_names_supplied": [
+      "Предоставлены разные названия программ",
+      "Distinct program names supplied",
+      "提供了不同软件名称"
+    ],
+    "decision_log": [
+      "Журнал предоставленных и предлагаемых решений",
+      "Supplied and proposed decision log",
+      "已提供及建议的决策记录"
+    ],
+    "issue_id": [
+      "Идентификатор вопроса",
+      "Issue identifier",
+      "问题标识"
+    ],
+    "decision_text": [
+      "Текст записи решения",
+      "Decision-record text",
+      "决策记录文本"
+    ],
+    "state": [
+      "Предоставленная запись или предложение",
+      "Supplied record or proposal",
+      "已提供记录或建议"
+    ],
+    "authority_established": [
+      "Полномочия установлены инструментом",
+      "Authority established by tool",
+      "工具已确定权限"
+    ],
+    "scientific_support": [
+      "Предлагаемое научно техническое сопровождение",
+      "Proposed scientific and technical support",
+      "建议的科研技术支持"
+    ],
+    "request": [
+      "Предоставленный запрос стройки",
+      "Supplied site request",
+      "提供的现场请求"
+    ],
+    "issue_history": [
+      "История вопроса",
+      "Issue history",
+      "问题历史"
+    ],
+    "event_text": [
+      "Текст предоставленного события",
+      "Supplied event text",
+      "提供的事件文本"
+    ],
+    "design_records": [
+      "Предоставленные проектные записи",
+      "Supplied design records",
+      "提供的设计记录"
+    ],
+    "design_record_id": [
+      "Связанная проектная запись",
+      "Linked design record",
+      "关联设计记录"
+    ],
+    "observations": [
+      "Предоставленные фактические наблюдения",
+      "Supplied actual observations",
+      "提供的实际观察"
+    ],
+    "reported_relation": [
+      "Предоставленное соотношение с проектом",
+      "Reported relationship to design",
+      "报告的与设计关系"
+    ],
+    "design_conformity_verified": [
+      "Соответствие проекту проверено инструментом",
+      "Design conformity verified by tool",
+      "工具已验证设计符合性"
+    ],
+    "substitution_review": [
+      "Рассмотрение предложенной замены",
+      "Proposed substitution review",
+      "建议替代方案复核"
+    ],
+    "substitution_status": [
+      "Режим рассмотрения замены",
+      "Substitution review branch state",
+      "替代方案复核分支状态"
+    ],
+    "strength_indicator": [
+      "Ограниченный показатель As Rs",
+      "Bounded As Rs indicator",
+      "有限范围As Rs指标"
+    ],
+    "indicator_status": [
+      "Режим вычисления показателя",
+      "Indicator calculation branch state",
+      "指标计算分支状态"
+    ],
+    "original": [
+      "Предоставленный исходный вариант",
+      "Supplied original option",
+      "提供的原方案"
+    ],
+    "proposed": [
+      "Предложенный вариант",
+      "Proposed option",
+      "建议方案"
+    ],
+    "area": [
+      "Предоставленная площадь",
+      "Supplied area",
+      "提供的面积"
+    ],
+    "design_strength": [
+      "Предоставленное расчётное сопротивление",
+      "Supplied design strength",
+      "提供的设计强度"
+    ],
+    "original_As_Rs_kN": [
+      "Исходное As Rs кН",
+      "Original As Rs kN",
+      "原方案As Rs kN"
+    ],
+    "proposed_As_Rs_kN": [
+      "Предложенное As Rs кН",
+      "Proposed As Rs kN",
+      "建议方案As Rs kN"
+    ],
+    "ratio": [
+      "Отношение",
+      "Ratio",
+      "比值"
+    ],
+    "anchorage_review": [
+      "Предоставленные сведения об анкеровке",
+      "Supplied anchorage review",
+      "提供的锚固复核资料"
+    ],
+    "adequacy_or_equivalence_established": [
+      "Достаточность или равнопрочность установлена инструментом",
+      "Adequacy or equivalence established by tool",
+      "工具已确定充分性或等强性"
+    ],
+    "rd_changes": [
+      "Предлагаемые изменения рабочей документации",
+      "Proposed working-document changes",
+      "建议施工图文件变更"
+    ],
+    "current_revision": [
+      "Предоставленная текущая редакция",
+      "Supplied current revision",
+      "提供的当前修订版"
+    ],
+    "selected_design_revision": [
+      "Редакция выбранной проектной записи того же документа",
+      "Revision of selected design record of the same document",
+      "同一文件选定设计记录的修订版"
+    ],
+    "current_revision_matches_selected": [
+      "Указанная текущая редакция совпадает с выбранной записью того же документа",
+      "Stated current revision matches selected record of the same document",
+      "所述当前修订版与同一文件的选定记录一致"
+    ],
+    "proposed_revision": [
+      "Предлагаемая редакция",
+      "Proposed revision",
+      "建议修订版"
+    ],
+    "change_issued": [
+      "Изменение выпущено инструментом",
+      "Change issued by tool",
+      "工具已签发变更"
+    ],
+    "required_checks": [
+      "Предоставленный перечень необходимых проверок",
+      "Supplied required-check list",
+      "提供的所需校核清单"
+    ],
+    "draft_response": [
+      "Черновик ответа",
+      "Response draft",
+      "答复草稿"
+    ],
+    "responsible_signature_status": [
+      "Состояние подписи ответственного",
+      "Responsible signature state",
+      "负责人签署状态"
+    ],
+    "input_sha256": [
+      "SHA256 исходного задания",
+      "Input task SHA256",
+      "原始任务SHA256"
+    ],
+    "analysis_only": [
+      "Только вспомогательный анализ",
+      "Assisted analysis only",
+      "仅辅助分析"
+    ],
+    "assisted_draft": [
+      "Вспомогательный черновик",
+      "Assisted draft",
+      "辅助草稿"
+    ],
+    "draft_only": [
+      "Только черновик",
+      "Draft only",
+      "仅为草稿"
+    ],
+    "source_semantics_verified": [
+      "Семантика источников проверена инструментом",
+      "Source semantics verified by tool",
+      "工具已验证来源语义"
+    ],
+    "current_legal_applicability_verified": [
+      "Текущая правовая применимость проверена инструментом",
+      "Current legal applicability verified by tool",
+      "工具已验证当前法律适用性"
+    ],
+    "external_actions": [
+      "Внешние действия выполнены",
+      "External actions performed",
+      "已执行外部操作"
+    ],
+    "design_approved": [
+      "Проект утверждён инструментом",
+      "Design approved by tool",
+      "工具已批准设计"
+    ],
+    "design_approval": [
+      "Проектное одобрение выдано инструментом",
+      "Design approval granted by tool",
+      "工具已给予设计批准"
+    ],
+    "model_certified": [
+      "Модель сертифицирована инструментом",
+      "Model certified by tool",
+      "工具已认证模型"
+    ],
+    "fitness_for_use_certified": [
+      "Пригодность к эксплуатации подтверждена инструментом",
+      "Fitness for use certified by tool",
+      "工具已确认使用适用性"
+    ],
+    "technical_category_assigned": [
+      "Категория состояния присвоена инструментом",
+      "Technical category assigned by tool",
+      "工具已评定技术状态类别"
+    ],
+    "drawings_issued": [
+      "Чертежи выпущены инструментом",
+      "Drawings issued by tool",
+      "工具已签发图纸"
+    ],
+    "signature_applied": [
+      "Подпись выполнена инструментом",
+      "Signature applied by tool",
+      "工具已签署"
+    ],
+    "submission_performed": [
+      "Отправка выполнена инструментом",
+      "Submission performed by tool",
+      "工具已提交"
+    ],
+    "physical_work_authorized": [
+      "Физические работы разрешены инструментом",
+      "Physical work authorised by tool",
+      "工具已授权现场作业"
+    ],
+    "graphical_content_generated": [
+      "Графическая часть создана инструментом",
+      "Graphical content generated by tool",
+      "工具已生成图纸内容"
+    ],
+    "design_compliance_established": [
+      "Соответствие проекта установлено инструментом",
+      "Design compliance established by tool",
+      "工具已确定设计符合性"
+    ],
+    "solver_executed": [
+      "Внешний расчётчик запущен",
+      "Solver executed",
+      "已运行求解器"
+    ],
+    "snow_wind_regional_lookup_performed": [
+      "Районные значения снега и ветра выбраны инструментом",
+      "Snow and wind regional lookup performed",
+      "工具已查询雪风分区数值"
+    ],
+    "special_action_generation_performed": [
+      "Особые нагрузки сформированы инструментом",
+      "Special actions generated by tool",
+      "工具已生成特殊荷载"
+    ],
+    "combination_generation_performed": [
+      "Сочетания сформированы инструментом",
+      "Combinations generated by tool",
+      "工具已生成组合"
+    ],
+    "A": [
+      "Площадь сечения A мм²",
+      "Section area A mm²",
+      "截面面积A mm²"
+    ],
+    "B": [
+      "Ширина подошвы B м",
+      "Base width B m",
+      "底面宽度B m"
+    ],
+    "L": [
+      "Длина подошвы L м",
+      "Base length L m",
+      "底面长度L m"
+    ],
+    "b": [
+      "Ширина сечения b мм",
+      "Section width b mm",
+      "截面宽度b mm"
+    ],
+    "h": [
+      "Высота сечения h мм",
+      "Section depth h mm",
+      "截面高度h mm"
+    ],
+    "tf": [
+      "Толщина полки tf мм",
+      "Flange thickness tf mm",
+      "翼缘厚度tf mm"
+    ],
+    "tw": [
+      "Толщина стенки tw мм",
+      "Web thickness tw mm",
+      "腹板厚度tw mm"
+    ],
+    "Ix": [
+      "Момент инерции Ix мм⁴",
+      "Second moment Ix mm⁴",
+      "惯性矩Ix mm⁴"
+    ],
+    "Iy": [
+      "Момент инерции Iy мм⁴",
+      "Second moment Iy mm⁴",
+      "惯性矩Iy mm⁴"
+    ],
+    "Wx": [
+      "Момент сопротивления Wx в единицах модели",
+      "Section modulus Wx in model units",
+      "模型单位的截面模量Wx"
+    ],
+    "Wy": [
+      "Момент сопротивления Wy в единицах модели",
+      "Section modulus Wy in model units",
+      "模型单位的截面模量Wy"
+    ],
+    "Sx": [
+      "Статический момент Sx мм³",
+      "First moment Sx mm³",
+      "面积一阶矩Sx mm³"
+    ],
+    "shear_width": [
+      "Ширина для среза мм",
+      "Shear width mm",
+      "剪切宽度mm"
+    ],
+    "N": [
+      "Продольная сила N",
+      "Axial force N",
+      "轴力N"
+    ],
+    "Mx": [
+      "Момент Mx",
+      "Moment Mx",
+      "弯矩Mx"
+    ],
+    "My": [
+      "Момент My",
+      "Moment My",
+      "弯矩My"
+    ],
+    "Vy": [
+      "Поперечная сила Vy",
+      "Shear force Vy",
+      "剪力Vy"
+    ],
+    "E": [
+      "Предоставленный модуль E МПа",
+      "Supplied modulus E MPa",
+      "提供的模量E MPa"
+    ],
+    "Eb": [
+      "Предоставленный модуль бетона Eb МПа",
+      "Supplied concrete modulus Eb MPa",
+      "提供的混凝土模量Eb MPa"
+    ],
+    "Eb_red": [
+      "Выбранный приведённый модуль бетона Eb red МПа",
+      "Selected reduced concrete modulus Eb red MPa",
+      "选定混凝土折减模量Eb red MPa"
+    ],
+    "Es": [
+      "Предоставленный модуль арматуры Es МПа",
+      "Supplied reinforcement modulus Es MPa",
+      "提供的钢筋模量Es MPa"
+    ],
+    "EI": [
+      "Изгибная жёсткость EI Н мм²",
+      "Flexural stiffness EI N mm²",
+      "抗弯刚度EI N mm²"
+    ],
+    "E_effective": [
+      "Выбранный эффективный модуль МПа",
+      "Selected effective modulus MPa",
+      "选定有效模量MPa"
+    ],
+    "E_primary": [
+      "Модуль первичного нагружения МПа",
+      "Primary loading modulus MPa",
+      "初次加载模量MPa"
+    ],
+    "E_reload": [
+      "Модуль повторного нагружения МПа",
+      "Reload modulus MPa",
+      "再加载模量MPa"
+    ],
+    "Rb": [
+      "Предоставленное сопротивление бетона Rb МПа",
+      "Supplied concrete strength Rb MPa",
+      "提供的混凝土强度Rb MPa"
+    ],
+    "Rs": [
+      "Предоставленное сопротивление арматуры Rs МПа",
+      "Supplied reinforcement strength Rs MPa",
+      "提供的钢筋强度Rs MPa"
+    ],
+    "Rs_ser": [
+      "Выбранный предел напряжения арматуры Rs ser МПа",
+      "Selected reinforcement stress limit Rs ser MPa",
+      "选定钢筋应力限值Rs ser MPa"
+    ],
+    "Ry": [
+      "Предоставленное сопротивление стали Ry МПа",
+      "Supplied steel strength Ry MPa",
+      "提供的钢强度Ry MPa"
+    ],
+    "R_bending": [
+      "Предоставленное сопротивление изгибу МПа",
+      "Supplied bending strength MPa",
+      "提供的抗弯强度MPa"
+    ],
+    "R_compression": [
+      "Предоставленное сопротивление сжатию МПа",
+      "Supplied compression strength MPa",
+      "提供的抗压强度MPa"
+    ],
+    "R_shear": [
+      "Предоставленное сопротивление срезу МПа",
+      "Supplied shear strength MPa",
+      "提供的抗剪强度MPa"
+    ],
+    "R_tension": [
+      "Предоставленное сопротивление растяжению МПа",
+      "Supplied tension strength MPa",
+      "提供的抗拉强度MPa"
+    ],
+    "gamma_c": [
+      "Выбранный коэффициент условий работы",
+      "Selected working-condition factor",
+      "选定工作条件系数"
+    ],
+    "function": [
+      "Функция инструмента",
+      "Tool function",
+      "工具功能"
+    ],
+    "private": [
+      "Частный локальный результат",
+      "Private local result",
+      "私密本地结果"
+    ],
+    "member_id": [
+      "Идентификатор элемента",
+      "Member identifier",
+      "构件标识"
+    ],
+    "material": [
+      "Материал",
+      "Material",
+      "材料"
+    ],
+    "material_class": [
+      "Предоставленный класс материала",
+      "Supplied material class",
+      "提供的材料等级"
+    ],
+    "force_basis": [
+      "Предоставленная конвенция усилий",
+      "Supplied force convention",
+      "提供的内力约定"
+    ],
+    "model_basis": [
+      "Выбранное основание расчётной модели",
+      "Selected calculation model basis",
+      "选定计算模型依据"
+    ],
+    "stability_basis": [
+      "Выбранное основание модели устойчивости",
+      "Selected stability model basis",
+      "选定稳定模型依据"
+    ],
+    "masonry_basis": [
+      "Выбранное основание расчёта кладки",
+      "Selected masonry model basis",
+      "选定砌体模型依据"
+    ],
+    "selected_section": [
+      "Предоставленное сечение",
+      "Supplied section",
+      "提供的截面"
+    ],
+    "section_properties": [
+      "Вычисленные геометрические характеристики",
+      "Computed section properties",
+      "计算所得截面特性"
+    ],
+    "selected_material_properties": [
+      "Предоставленные характеристики материала",
+      "Supplied material properties",
+      "提供的材料特性"
+    ],
+    "reinforcement": [
+      "Предоставленное армирование",
+      "Supplied reinforcement",
+      "提供的配筋"
+    ],
+    "top": [
+      "Верхняя грань",
+      "Top face",
+      "上侧"
+    ],
+    "bottom": [
+      "Нижняя грань",
+      "Bottom face",
+      "下侧"
+    ],
+    "xi_limit": [
+      "Выбранный предел относительной высоты сжатой зоны",
+      "Selected compression-depth ratio limit",
+      "选定相对受压区高度限值"
+    ],
+    "effective_depth": [
+      "Рабочая высота мм",
+      "Effective depth mm",
+      "有效高度mm"
+    ],
+    "combination_reviews": [
+      "Проверки предоставленных сочетаний",
+      "Supplied combination checks",
+      "所提供组合校核"
+    ],
+    "provided_forces": [
+      "Предоставленные усилия",
+      "Supplied forces",
+      "提供的内力"
+    ],
+    "checks": [
+      "Выбранные проверки",
+      "Selected checks",
+      "选定校核"
+    ],
+    "demand": [
+      "Проверяемая величина",
+      "Checked quantity",
+      "被校核量"
+    ],
+    "capacity": [
+      "Условная несущая величина или предел",
+      "Conditional capacity or limit",
+      "条件承载值或限值"
+    ],
+    "utilization": [
+      "Отношение потребности к выбранному пределу",
+      "Demand to selected limit ratio",
+      "需求与选定限值之比"
+    ],
+    "within_selected_limit": [
+      "Проверяемая величина не превышает выбранный предел",
+      "Checked quantity does not exceed selected limit",
+      "被校核量不超过选定限值"
+    ],
+    "flexure": [
+      "Изгиб",
+      "Flexure",
+      "抗弯"
+    ],
+    "shear": [
+      "Срез",
+      "Shear",
+      "抗剪"
+    ],
+    "stability": [
+      "Выбранная проверка устойчивости",
+      "Selected stability check",
+      "选定稳定校核"
+    ],
+    "axial_strength": [
+      "Центральная прочность",
+      "Axial strength",
+      "轴向强度"
+    ],
+    "eccentric_compression": [
+      "Внецентренное сжатие",
+      "Eccentric compression",
+      "偏心受压"
+    ],
+    "tension_face": [
+      "Растянутая грань по выбранному моменту",
+      "Tension face for selected moment",
+      "所选弯矩对应的受拉侧"
+    ],
+    "rebar_area": [
+      "Площадь арматуры мм²",
+      "Reinforcement area mm²",
+      "钢筋面积mm²"
+    ],
+    "compression_depth": [
+      "Высота сжатой зоны мм",
+      "Compression depth mm",
+      "受压区高度mm"
+    ],
+    "xi": [
+      "Относительная высота сжатой зоны",
+      "Compression-depth ratio",
+      "相对受压区高度"
+    ],
+    "selected_xi_limit": [
+      "Выбранный предел xi",
+      "Selected xi limit",
+      "选定xi限值"
+    ],
+    "section_moduli": [
+      "Моменты сопротивления сечения",
+      "Section moduli",
+      "截面模量"
+    ],
+    "directions": [
+      "Проверки по осям",
+      "Directional checks",
+      "分轴校核"
+    ],
+    "axis": [
+      "Ось",
+      "Axis",
+      "坐标轴"
+    ],
+    "effective_length": [
+      "Расчётная длина мм",
+      "Effective length mm",
+      "计算长度mm"
+    ],
+    "slenderness": [
+      "Геометрическая гибкость",
+      "Geometric slenderness",
+      "几何长细比"
+    ],
+    "normalized_slenderness": [
+      "Условная гибкость по выбранной модели стали",
+      "Normalised slenderness for selected steel model",
+      "选定钢模型的正则化长细比"
+    ],
+    "phi": [
+      "Вычисленный коэффициент phi",
+      "Computed factor phi",
+      "计算系数phi"
+    ],
+    "phi_regime": [
+      "Фактически выбранная ветвь формулы phi",
+      "Actual selected phi formula branch",
+      "实际选定phi公式分支"
+    ],
+    "eccentricity": [
+      "Эксцентриситет мм",
+      "Eccentricity mm",
+      "偏心距mm"
+    ],
+    "compressed_depth": [
+      "Высота сжатой части мм",
+      "Compressed depth mm",
+      "受压高度mm"
+    ],
+    "compressed_area": [
+      "Площадь сжатой части мм²",
+      "Compressed area mm²",
+      "受压面积mm²"
+    ],
+    "phi_compressed": [
+      "Коэффициент phi сжатой части",
+      "Compressed-part phi",
+      "受压部分phi系数"
+    ],
+    "phi_mean": [
+      "Средний коэффициент phi",
+      "Mean phi",
+      "平均phi系数"
+    ],
+    "mg": [
+      "Коэффициент длительной нагрузки mg",
+      "Long-term factor mg",
+      "长期作用系数mg"
+    ],
+    "omega": [
+      "Выбранный коэффициент omega",
+      "Selected factor omega",
+      "选定系数omega"
+    ],
+    "serviceability": [
+      "Выбранные проверки эксплуатационных пределов",
+      "Selected serviceability checks",
+      "选定正常使用校核"
+    ],
+    "deflection": [
+      "Прогиб",
+      "Deflection",
+      "挠度"
+    ],
+    "crack": [
+      "Трещины",
+      "Crack review",
+      "裂缝校核"
+    ],
+    "signed_deflection": [
+      "Прогиб со знаком мм",
+      "Signed deflection mm",
+      "带符号挠度mm"
+    ],
+    "cracked_section": [
+      "Параметры полностью треснувшего приведённого сечения",
+      "Fully cracked transformed-section properties",
+      "完全开裂换算截面特性"
+    ],
+    "face": [
+      "Грань",
+      "Face",
+      "截面侧"
+    ],
+    "neutral_axis": [
+      "Глубина нейтральной оси мм",
+      "Neutral-axis depth mm",
+      "中和轴深度mm"
+    ],
+    "transformed_cracked_inertia": [
+      "Приведённый момент инерции треснувшего сечения мм⁴",
+      "Transformed cracked inertia mm⁴",
+      "开裂换算惯性矩mm⁴"
+    ],
+    "steel_stress": [
+      "Вычисленное напряжение арматуры МПа",
+      "Computed reinforcement stress MPa",
+      "计算钢筋应力MPa"
+    ],
+    "steel_stress_check": [
+      "Проверка напряжения арматуры",
+      "Reinforcement stress check",
+      "钢筋应力校核"
+    ],
+    "selected_spacing": [
+      "Предоставленный шаг для формулы мм",
+      "Supplied formula spacing mm",
+      "公式所用间距mm"
+    ],
+    "spacing": [
+      "Предоставленный шаг мм",
+      "Supplied spacing mm",
+      "提供的间距mm"
+    ],
+    "coefficient_product": [
+      "Произведение выбранных коэффициентов",
+      "Product of selected factors",
+      "选定系数乘积"
+    ],
+    "moment": [
+      "Предоставленный момент",
+      "Supplied moment",
+      "提供的弯矩"
+    ],
+    "phi_duration": [
+      "Выбранный коэффициент длительности",
+      "Selected duration factor",
+      "选定持续时间系数"
+    ],
+    "phi_profile": [
+      "Выбранный коэффициент профиля",
+      "Selected profile factor",
+      "选定型式系数"
+    ],
+    "phi_loading": [
+      "Выбранный коэффициент нагружения",
+      "Selected loading factor",
+      "选定加载系数"
+    ],
+    "psi_s": [
+      "Выбранный коэффициент psi s",
+      "Selected factor psi s",
+      "选定系数psi s"
+    ],
+    "provided": [
+      "Предоставленные исходные записи",
+      "Supplied input records",
+      "提供的原始记录"
+    ],
+    "provided_period_ended": [
+      "Предоставленный период завершился до даты среза",
+      "Supplied period ended before cutoff",
+      "提供的有效期在截止日前结束"
+    ],
+    "legal_applicability": [
+      "Предел правовой применимости",
+      "Legal applicability state",
+      "法律适用性状态"
+    ],
+    "exclusions": [
+      "Невыполненные проверки и границы модели",
+      "Excluded checks and model boundaries",
+      "未执行校核与模型边界"
+    ],
+    "source_semantics_established": [
+      "Семантика источника установлена инструментом",
+      "Source semantics established by tool",
+      "工具已确定来源语义"
+    ],
+    "current_normative_chain_established": [
+      "Текущая нормативная цепочка установлена инструментом",
+      "Current normative chain established by tool",
+      "工具已确定当前规范修订链"
+    ],
+    "design_approval_granted": [
+      "Проектное одобрение выдано инструментом",
+      "Design approval granted by tool",
+      "工具已给予设计批准"
+    ],
+    "safety_conclusion_made": [
+      "Заключение о безопасности выдано инструментом",
+      "Safety conclusion made by tool",
+      "工具已给出安全结论"
+    ],
+    "records_changed": [
+      "Исходные записи изменены инструментом",
+      "Source records changed by tool",
+      "工具已修改原始记录"
+    ],
+    "external_network_used": [
+      "Внешняя сеть использована",
+      "External network used",
+      "已使用外部网络"
+    ],
+    "external_solver_executed": [
+      "Внешний решатель запущен",
+      "External solver executed",
+      "已运行外部求解器"
+    ],
+    "exposure": [
+      "Условия эксплуатации",
+      "Exposure conditions",
+      "使用环境"
+    ],
+    "fire": [
+      "Огнестойкость и пожарный контекст",
+      "Fire context",
+      "防火背景"
+    ],
+    "dynamic": [
+      "Динамические воздействия",
+      "Dynamic actions",
+      "动力作用"
+    ],
+    "aggressive_environment": [
+      "Агрессивная среда",
+      "Aggressive environment",
+      "侵蚀环境"
+    ],
+    "note": [
+      "Предоставленное пояснение",
+      "Supplied note",
+      "提供的说明"
+    ],
+    "meaning": [
+      "Смысл отсутствующей записи",
+      "Meaning of absent record",
+      "缺失记录的含义"
+    ],
+    "site_id": [
+      "Идентификатор участка",
+      "Site identifier",
+      "场地标识"
+    ],
+    "igi": [
+      "Предоставленный отчёт ИГИ",
+      "Supplied geological survey",
+      "提供的工程地质勘察报告"
+    ],
+    "report_id": [
+      "Идентификатор отчёта",
+      "Report identifier",
+      "报告标识"
+    ],
+    "report_date": [
+      "Дата отчёта",
+      "Report date",
+      "报告日期"
+    ],
+    "boreholes": [
+      "Предоставленные скважины",
+      "Supplied boreholes",
+      "提供的钻孔"
+    ],
+    "depth": [
+      "Глубина с единицей исходных данных",
+      "Depth in supplied unit",
+      "按提供单位表示的深度"
+    ],
+    "soil_units": [
+      "Предоставленные инженерно геологические элементы",
+      "Supplied geological soil units",
+      "提供的工程地质土单元"
+    ],
+    "cohesion": [
+      "Предоставленное сцепление",
+      "Supplied cohesion",
+      "提供的黏聚力"
+    ],
+    "friction_angle": [
+      "Предоставленный угол внутреннего трения",
+      "Supplied friction angle",
+      "提供的内摩擦角"
+    ],
+    "gamma_effective": [
+      "Предоставленный эффективный удельный вес",
+      "Supplied effective specific weight",
+      "提供的有效重度"
+    ],
+    "groundwater": [
+      "Подземные воды",
+      "Groundwater",
+      "地下水"
+    ],
+    "frost": [
+      "Промерзание и пучение",
+      "Frost and heave",
+      "冻胀"
+    ],
+    "specific_soils": [
+      "Особые грунты",
+      "Specific soils",
+      "特殊土"
+    ],
+    "neighbours": [
+      "Окружающая застройка",
+      "Neighbouring buildings",
+      "邻近建筑"
+    ],
+    "excavation": [
+      "Выемка и котлован",
+      "Excavation",
+      "开挖与基坑"
+    ],
+    "monitoring": [
+      "Мониторинг",
+      "Monitoring",
+      "监测"
+    ],
+    "option_reviews": [
+      "Рассмотренные варианты и действительные фундаменты",
+      "Reviewed options and actual foundations",
+      "已审查方案及实际基础"
+    ],
+    "bearing": [
+      "Условное расчётное сопротивление основания",
+      "Conditional soil bearing resistance",
+      "条件地基设计承载值"
+    ],
+    "resistance": [
+      "Вычисленное сопротивление",
+      "Computed resistance",
+      "计算承载值"
+    ],
+    "kz": [
+      "Коэффициент ширины kz",
+      "Width factor kz",
+      "宽度系数kz"
+    ],
+    "selected_width": [
+      "Выбранная ширина подошвы м",
+      "Selected base width m",
+      "选定底面宽度m"
+    ],
+    "maximum_pressure_factor": [
+      "Выбранный множитель максимального давления",
+      "Selected maximum-pressure factor",
+      "选定最大压力乘数"
+    ],
+    "soil_below": [
+      "Идентификатор ИГЭ под подошвой",
+      "Soil unit below base",
+      "底面以下土单元标识"
+    ],
+    "soil_above": [
+      "Идентификатор ИГЭ над подошвой",
+      "Soil unit above base",
+      "底面以上土单元标识"
+    ],
+    "burial_depth": [
+      "Предоставленная глубина заложения",
+      "Supplied burial depth",
+      "提供的埋深"
+    ],
+    "gamma_c1": [
+      "Выбранный коэффициент gamma c1",
+      "Selected factor gamma c1",
+      "选定系数gamma c1"
+    ],
+    "gamma_c2": [
+      "Выбранный коэффициент gamma c2",
+      "Selected factor gamma c2",
+      "选定系数gamma c2"
+    ],
+    "k": [
+      "Выбранный коэффициент k",
+      "Selected factor k",
+      "选定系数k"
+    ],
+    "M_gamma": [
+      "Выбранный коэффициент M gamma",
+      "Selected factor M gamma",
+      "选定系数M gamma"
+    ],
+    "M_q": [
+      "Выбранный коэффициент M q",
+      "Selected factor M q",
+      "选定系数M q"
+    ],
+    "M_c": [
+      "Выбранный коэффициент M c",
+      "Selected factor M c",
+      "选定系数M c"
+    ],
+    "coefficient_friction_angle": [
+      "Угол выбранных коэффициентов",
+      "Friction angle for selected coefficients",
+      "选定系数对应内摩擦角"
+    ],
+    "load_reviews": [
+      "Проверки выбранных нагрузок",
+      "Selected load checks",
+      "选定荷载校核"
+    ],
+    "downward_N_including_selfweight": [
+      "Предоставленная сила вниз включая собственный вес",
+      "Supplied downward force including self weight",
+      "提供的含自重向下力"
+    ],
+    "upward_water": [
+      "Предоставленная сила воды вверх",
+      "Supplied upward water force",
+      "提供的向上水力"
+    ],
+    "net_downward_force": [
+      "Итоговая сила вниз кН",
+      "Net downward force kN",
+      "净向下力kN"
+    ],
+    "contact": [
+      "Условная модель контакта подошвы",
+      "Conditional base contact model",
+      "条件底面接触模型"
+    ],
+    "base_area": [
+      "Номинальная площадь подошвы м²",
+      "Nominal base area m²",
+      "名义底面面积m²"
+    ],
+    "pressure_unit": [
+      "Единица давления",
+      "Pressure unit",
+      "压力单位"
+    ],
+    "length_unit": [
+      "Единица длины",
+      "Length unit",
+      "长度单位"
+    ],
+    "moment_about_x": [
+      "Момент относительно x кН м",
+      "Moment about x kN m",
+      "关于x轴力矩kN m"
+    ],
+    "moment_about_y": [
+      "Момент относительно y кН м",
+      "Moment about y kN m",
+      "关于y轴力矩kN m"
+    ],
+    "eccentricity_x": [
+      "Эксцентриситет по x м",
+      "Eccentricity x m",
+      "x偏心距m"
+    ],
+    "eccentricity_y": [
+      "Эксцентриситет по y м",
+      "Eccentricity y m",
+      "y偏心距m"
+    ],
+    "linear_full_base_average": [
+      "Среднее линейное давление по полной подошве кПа",
+      "Linear full-base average pressure kPa",
+      "全底面线性平均压力kPa"
+    ],
+    "linear_full_base_corners": [
+      "Линейные давления в углах полной подошвы кПа",
+      "Linear full-base corner pressures kPa",
+      "全底面角点线性压力kPa"
+    ],
+    "linear_full_base_pressure": [
+      "Линейная гипотеза по полной подошве",
+      "Linear full-base pressure assumption",
+      "全底面线性压力假设"
+    ],
+    "minimum_pressure": [
+      "Минимальное давление контакта кПа",
+      "Minimum contact pressure kPa",
+      "最小接触压力kPa"
+    ],
+    "maximum_pressure": [
+      "Максимальное давление контакта кПа",
+      "Maximum contact pressure kPa",
+      "最大接触压力kPa"
+    ],
+    "average_contact_pressure": [
+      "Среднее давление по сжатой части кПа",
+      "Compressed-contact average pressure kPa",
+      "受压接触区平均压力kPa"
+    ],
+    "contact_fraction": [
+      "Доля сжатой площади",
+      "Compressed contact fraction",
+      "受压接触面积比例"
+    ],
+    "compressed_axis": [
+      "Ось сжатой зоны",
+      "Compressed-contact axis",
+      "受压接触区方向"
+    ],
+    "compressed_length": [
+      "Длина сжатой части м",
+      "Compressed-contact length m",
+      "受压接触区长度m"
+    ],
+    "compressed_width": [
+      "Ширина сжатой части м",
+      "Compressed-contact width m",
+      "受压接触区宽度m"
+    ],
+    "compression_side": [
+      "Сторона сжатия",
+      "Compression side",
+      "受压侧"
+    ],
+    "bearing_comparison": [
+      "Условное сравнение давления и сопротивления",
+      "Conditional pressure/resistance comparison",
+      "条件压力承载值比较"
+    ],
+    "full_base_average_check": [
+      "Проверка среднего по полной номинальной подошве",
+      "Full nominal base average check",
+      "全名义底面平均值校核"
+    ],
+    "maximum_contact_check": [
+      "Проверка максимального контактного давления",
+      "Maximum contact pressure check",
+      "最大接触压力校核"
+    ],
+    "settlement": [
+      "Выбранный послойный расчёт осадки",
+      "Selected layer settlement calculation",
+      "选定分层沉降计算"
+    ],
+    "load_case_id": [
+      "Идентификатор сопоставленного случая нагрузки",
+      "Matched load-case identifier",
+      "匹配荷载工况标识"
+    ],
+    "profile_location": [
+      "Положение профиля расчёта осадки",
+      "Settlement profile location",
+      "沉降计算剖面位置"
+    ],
+    "layers": [
+      "Предоставленные слои",
+      "Supplied layers",
+      "提供的土层"
+    ],
+    "soil_unit_id": [
+      "Идентификатор ИГЭ",
+      "Soil unit identifier",
+      "工程地质土单元标识"
+    ],
+    "thickness": [
+      "Предоставленная толщина",
+      "Supplied thickness",
+      "提供的厚度"
+    ],
+    "stress_external": [
+      "Предоставленное среднее внешнее напряжение",
+      "Supplied average external stress",
+      "提供的平均外加应力"
+    ],
+    "stress_excavation": [
+      "Предоставленное среднее напряжение от выемки",
+      "Supplied average excavation stress",
+      "提供的平均开挖应力"
+    ],
+    "beta": [
+      "Выбранный коэффициент beta",
+      "Selected factor beta",
+      "选定系数beta"
+    ],
+    "limit": [
+      "Выбранный предел",
+      "Selected limit",
+      "选定限值"
+    ],
+    "top_depth": [
+      "Глубина верха слоя м",
+      "Layer top depth m",
+      "层顶深度m"
+    ],
+    "bottom_depth": [
+      "Глубина низа слоя м",
+      "Layer bottom depth m",
+      "层底深度m"
+    ],
+    "primary_settlement_mm": [
+      "Слагаемое первичного нагружения мм",
+      "Primary-loading settlement component mm",
+      "初次加载沉降分量mm"
+    ],
+    "reload_settlement_mm": [
+      "Слагаемое повторного нагружения мм",
+      "Reload settlement component mm",
+      "再加载沉降分量mm"
+    ],
+    "settlement_mm": [
+      "Осадка слоя мм",
+      "Layer settlement mm",
+      "层沉降mm"
+    ],
+    "covered_depth": [
+      "Предоставленная сжимаемая глубина м",
+      "Supplied compressible depth m",
+      "提供的压缩层深度m"
+    ],
+    "differential_settlement": [
+      "Двухточечная относительная осадка",
+      "Two-point relative settlement",
+      "两点相对沉降"
+    ],
+    "foundation_a": [
+      "Идентификатор первого действительного фундамента",
+      "First actual foundation identifier",
+      "首个实际基础标识"
+    ],
+    "foundation_b": [
+      "Идентификатор второго действительного фундамента",
+      "Second actual foundation identifier",
+      "第二个实际基础标识"
+    ],
+    "signed_settlement_difference_mm": [
+      "Разность осадок со знаком мм",
+      "Signed settlement difference mm",
+      "带符号沉降差mm"
+    ],
+    "pile_id": [
+      "Идентификатор сваи",
+      "Pile identifier",
+      "桩标识"
+    ],
+    "loading_mode": [
+      "Предоставленное направление испытания сваи",
+      "Supplied pile loading mode",
+      "提供的桩试验加载方向"
+    ],
+    "selected_Fu_n": [
+      "Предоставленное характеристическое сопротивление кН",
+      "Supplied characteristic resistance kN",
+      "提供的特征承载值kN"
+    ],
+    "derived_Fd": [
+      "Вычисленное расчётное сопротивление сваи кН",
+      "Derived pile design resistance kN",
+      "推导桩设计承载值kN"
+    ],
+    "allowable_axial_load": [
+      "Условная допускаемая осевая нагрузка кН",
+      "Conditional allowable axial load kN",
+      "条件允许轴向荷载kN"
+    ],
+    "resistance_unit": [
+      "Единица сопротивления",
+      "Resistance unit",
+      "承载值单位"
+    ],
+    "characteristic_basis": [
+      "Предоставленное основание характеристического сопротивления",
+      "Supplied characteristic-resistance basis",
+      "提供的特征承载值依据"
+    ],
+    "characteristic_resistance_status": [
+      "Состояние определения характеристики",
+      "Characteristic-resistance determination state",
+      "特征承载值确定状态"
+    ],
+    "test_records": [
+      "Предоставленные протоколы испытаний",
+      "Supplied test records",
+      "提供的试验记录"
+    ],
+    "test_record_count": [
+      "Количество предоставленных протоколов",
+      "Supplied test-record count",
+      "已提供试验记录数量"
+    ],
+    "test_date": [
+      "Дата испытания",
+      "Test date",
+      "试验日期"
+    ],
+    "partial_ultimate_resistance": [
+      "Предоставленное частное предельное сопротивление",
+      "Supplied partial ultimate resistance",
+      "提供的单项极限承载值"
+    ],
+    "questions": [
+      "Вопросы по исходным данным",
+      "Input questions",
+      "原始资料问题"
+    ],
+    "no_soil_parameters_invented": [
+      "Параметры грунта инструментом не выдуманы",
+      "No soil parameters invented by tool",
+      "工具未编造土参数"
+    ],
+    "foundation_type_selected": [
+      "Тип фундамента выбран инструментом",
+      "Foundation type selected by tool",
+      "工具已选定基础类型"
+    ],
+    "FX": [
+      "FX",
+      "FX",
+      "FX"
+    ],
+    "FY": [
+      "FY",
+      "FY",
+      "FY"
+    ],
+    "FZ": [
+      "FZ",
+      "FZ",
+      "FZ"
+    ],
+    "MX": [
+      "MX",
+      "MX",
+      "MX"
+    ],
+    "MY": [
+      "MY",
+      "MY",
+      "MY"
+    ],
+    "MZ": [
+      "MZ",
+      "MZ",
+      "MZ"
+    ],
+    "x": [
+      "x",
+      "x",
+      "x"
+    ],
+    "y": [
+      "y",
+      "y",
+      "y"
+    ],
+    "z": [
+      "z",
+      "z",
+      "z"
+    ]
+  },
+  "tokens": {}
+}

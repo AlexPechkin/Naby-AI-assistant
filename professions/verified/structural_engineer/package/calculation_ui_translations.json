@@ -1,0 +1,297 @@
+{
+  "performed_selected_comparisons": [
+    "Выполнены только выбранные сравнения",
+    "Only selected comparisons performed",
+    "仅执行选定比较"
+  ],
+  "selected_standard_chain_and_combination_completeness_not_established": [
+    "Редакционная цепочка норм и полнота сочетаний не установлены",
+    "Standard change chain and combination completeness are not established",
+    "规范修订链及组合完整性未确定"
+  ],
+  "load_effect_envelope_is_not_member_response": [
+    "Огибающая нагрузки не является огибающей усилий элемента",
+    "Load envelope is not a member-response envelope",
+    "荷载包络并非构件响应包络"
+  ],
+  "selected_standard_metadata_not_provided": [
+    "Метаданные выбранных нормативных документов не предоставлены",
+    "Selected standard metadata were not supplied",
+    "未提供所选规范元数据"
+  ],
+  "some_actions_not_in_selected_combinations": [
+    "Некоторые нагрузки не включены в выбранные сочетания",
+    "Some actions are absent from selected combinations",
+    "部分荷载未列入所选组合"
+  ],
+  "selected_standard_chain_and_model_applicability_not_established": [
+    "Редакционная цепочка норм и применимость модели не установлены",
+    "Standard change chain and model applicability are not established",
+    "规范修订链及模型适用性未确定"
+  ],
+  "equilibrium_does_not_establish_stiffness_or_stability": [
+    "Равновесие не доказывает жёсткость или устойчивость",
+    "Equilibrium does not establish stiffness or stability",
+    "平衡不证明刚度或稳定性"
+  ],
+  "connectivity_graph_ignores_unprovided_ties_contacts_and_releases": [
+    "Граф не учитывает не предоставленные связи контакты и освобождения",
+    "Graph does not include unprovided ties contacts or releases",
+    "图拓扑不包括未提供的连接、接触或释放"
+  ],
+  "mesh_refinement_results_not_provided": [
+    "Результаты исследования сгущения сетки не предоставлены",
+    "Mesh refinement study results were not supplied",
+    "未提供网格加密研究结果"
+  ],
+  "stiffness_records_not_provided": [
+    "Фактические записи жёсткостей не предоставлены",
+    "Actual stiffness records were not supplied",
+    "未提供实际刚度记录"
+  ],
+  "component_without_supplied_restrained_dof": [
+    "Компонента графа не имеет предоставленного закрепления; это не заключение об устойчивости",
+    "Graph component has no supplied restraint; this is not a stability verdict",
+    "图分量无已提供约束；这不是稳定性结论"
+  ],
+  "unknown_element_node_references": [
+    "Элементы ссылаются на отсутствующие узлы",
+    "Elements refer to missing nodes",
+    "单元引用缺失节点"
+  ],
+  "support_tension_candidate_requires_contact_review": [
+    "Проекция реакции требует проверки контакта и анкеровки",
+    "Reaction projection requires contact and anchorage review",
+    "反力投影须复核接触与锚固"
+  ],
+  "selected_equilibrium_tolerance_exceeded": [
+    "Превышен хотя бы один выбранный допуск невязки",
+    "At least one selected equilibrium tolerance is exceeded",
+    "至少一个选定平衡容差被超过"
+  ],
+  "relative_comparison_uses_unrounded_operands": [
+    "Сравнение относительного изменения выполнено по неокруглённым операндам; показанное отношение округлено",
+    "Relative-change comparison uses unrounded operands; the displayed ratio is rounded.",
+    "相对变化比较使用未舍入操作数；显示的比值已舍入。"
+  ],
+  "Euler_Bernoulli_beam_applicability_requires_separate_review": [
+    "Применимость модели балки Эйлера Бернулли требует отдельной проверки",
+    "Euler Bernoulli beam applicability requires separate review",
+    "欧拉伯努利梁模型适用性须单独复核"
+  ],
+  "intentional_release": [
+    "Ноль явно указан как намеренное освобождение; применимость не подтверждена",
+    "Zero explicitly supplied as intentional release; applicability is not established",
+    "零值明确表示有意释放；适用性未确定"
+  ],
+  "physical_zero": [
+    "Предоставлено физически нулевое свойство; требуется рассмотрение",
+    "Physically zero property supplied; review required",
+    "提供了物理零值属性；须复核"
+  ],
+  "requires_review": [
+    "Толкование нулевого значения требует рассмотрения",
+    "Zero-value interpretation requires review",
+    "零值解释须复核"
+  ],
+  "not_zero": [
+    "Предоставленное значение не равно нулю; достаточность не установлена",
+    "Supplied value is nonzero; adequacy is not established",
+    "提供值非零；充分性未确定"
+  ],
+  "static": [
+    "Статическое равновесие в явно выбранных глобальных осях",
+    "Static equilibrium in explicitly selected global axes",
+    "在明确选定的全局坐标系中进行静力平衡校核"
+  ],
+  "equivalent_static_inertia_included": [
+    "Предоставлены эквивалентные статические силы включая инерцию",
+    "Equivalent static forces including inertia supplied",
+    "已提供含惯性力的等效静力"
+  ],
+  "full_exported_model": [
+    "Предоставленный граф заявлен полным экспортом модели",
+    "Supplied graph described as full model export",
+    "所提供图拓扑声明为完整模型导出"
+  ],
+  "selected_submodel": [
+    "Предоставлен выбранный фрагмент модели",
+    "Selected submodel supplied",
+    "已提供选定子模型"
+  ],
+  "right_handed_global_cartesian_m_kN_kNm": [
+    "Правые глобальные декартовы оси координаты м силы кН моменты кН м",
+    "Right handed global Cartesian axes positions m forces kN moments kN m",
+    "右手全局笛卡尔坐标系；坐标m、力kN、力矩kN m"
+  ],
+  "absolute_only": [
+    "Только выбранный абсолютный допуск",
+    "Selected absolute tolerance only",
+    "仅选定绝对容差"
+  ],
+  "relative_only": [
+    "Только выбранный относительный допуск",
+    "Selected relative tolerance only",
+    "仅选定相对容差"
+  ],
+  "both": [
+    "Оба выбранных допуска должны выполняться",
+    "Both selected tolerances must hold",
+    "两个选定容差均须满足"
+  ],
+  "either": [
+    "Достаточно одного из выбранных допусков",
+    "At least one selected tolerance must hold",
+    "至少须满足一个选定容差"
+  ],
+  "simply_supported_prismatic_linear_Euler_Bernoulli_full_span_UDL": [
+    "Линейная призматическая шарнирно опёртая балка с равномерной нагрузкой по всему пролёту",
+    "Linear prismatic simply supported beam with full span uniform load",
+    "全跨均布荷载下的线弹性等截面简支梁"
+  ],
+  "load_and_displacement_positive_along_selected_global_axis_reactions_opposite_sagging_positive_for_negative_load": [
+    "Нагрузка и перемещение направлены по выбранной оси реакции противоположны нагрузке положительный пролётный момент соответствует отрицательной нагрузке",
+    "Load and displacement follow selected axis reactions oppose load positive sagging corresponds to negative load",
+    "荷载及位移沿选定轴；反力与荷载相反；负荷载对应跨中正弯矩"
+  ],
+  "wind_mean_selected_multiplier": [
+    "Среднее ветровое давление с явно выбранным эффективным множителем",
+    "Mean wind pressure with explicitly selected effective multiplier",
+    "采用明确选定有效乘数的平均风压"
+  ],
+  "permanent": [
+    "Постоянная нагрузка",
+    "Permanent action",
+    "永久荷载"
+  ],
+  "long": [
+    "Длительная нагрузка",
+    "Long duration action",
+    "长期荷载"
+  ],
+  "short": [
+    "Кратковременная нагрузка",
+    "Short duration action",
+    "短期荷载"
+  ],
+  "special": [
+    "Особая нагрузка или особое сочетание",
+    "Special action or combination",
+    "特殊荷载或组合"
+  ],
+  "gravity": [
+    "Собственный вес",
+    "Self weight",
+    "自重"
+  ],
+  "occupancy": [
+    "Эксплуатационная нагрузка",
+    "Occupancy action",
+    "使用荷载"
+  ],
+  "technology": [
+    "Технологическая нагрузка",
+    "Technology action",
+    "工艺荷载"
+  ],
+  "snow": [
+    "Снег",
+    "Snow",
+    "雪荷载"
+  ],
+  "wind": [
+    "Ветер",
+    "Wind",
+    "风荷载"
+  ],
+  "ice": [
+    "Гололёд",
+    "Ice",
+    "覆冰荷载"
+  ],
+  "seismic": [
+    "Сейсмическое воздействие",
+    "Seismic action",
+    "地震作用"
+  ],
+  "other": [
+    "Иная указанная категория",
+    "Other supplied category",
+    "其他已提供类别"
+  ],
+  "direct": [
+    "Прямо предоставленное значение",
+    "Directly supplied value",
+    "直接提供值"
+  ],
+  "layer": [
+    "Слой с предоставленной толщиной и удельным весом",
+    "Layer with supplied thickness and specific weight",
+    "具有已提供厚度与重度的材料层"
+  ],
+  "basic": [
+    "Основное сочетание",
+    "Basic combination",
+    "基本组合"
+  ],
+  "leading": [
+    "Ведущая переменная нагрузка",
+    "Leading variable action",
+    "主导可变荷载"
+  ],
+  "accompanying": [
+    "Сопутствующая нагрузка",
+    "Accompanying action",
+    "伴随荷载"
+  ],
+  "ULS": [
+    "Первая группа предельных состояний",
+    "Ultimate limit state",
+    "承载能力极限状态"
+  ],
+  "SLS": [
+    "Вторая группа предельных состояний",
+    "Serviceability limit state",
+    "正常使用极限状态"
+  ],
+  "model_review": [
+    "Проверка предоставленного экспорта модели",
+    "Supplied model export review",
+    "所提供模型导出核查"
+  ],
+  "beam_check": [
+    "Аналитическая проверка простой балки",
+    "Analytical simple beam check",
+    "简支梁解析校核"
+  ],
+  "beam": [
+    "Балочный конечный элемент",
+    "Beam finite element",
+    "梁有限元单元"
+  ],
+  "truss": [
+    "Стержневой шарнирный элемент",
+    "Truss finite element",
+    "桁架杆单元"
+  ],
+  "spring": [
+    "Пружинный элемент",
+    "Spring finite element",
+    "弹簧单元"
+  ],
+  "shell": [
+    "Оболочечный элемент",
+    "Shell finite element",
+    "壳单元"
+  ],
+  "solid": [
+    "Объёмный элемент",
+    "Solid finite element",
+    "实体单元"
+  ],
+  "provided_signed_value": [
+    "Прямо предоставленное значение со знаком",
+    "Directly supplied signed value",
+    "直接提供的带符号数值"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+ "schema": 1,
+ "profession_id": "climate_scientist",
+ "module": "naby_climate_scientist",
+ "entrypoint": "naby_climate_scientist.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "climate_data.py": "79a47d7c56c820d5ea918d8cb29c4618545e4dd19a6808f94165e65af29ddacf",
+  "artifact_ui.json": "2fe4c225828d584dde1e5a6b3ca6c96b929f30ec6d2418ed54861a1261e4555b",
+  "scenarios.py": "a546d48c2857a60405bda27960ecbe6646f95fda8fa15f1c3f43678ff1e40233",
+  "service.py": "8d05da2e24efa2e447b28da71d38d019870488b34b928f1d8a3c2b749841f725",
+  "emissions_projects.py": "cdf29c59ae32950656b5624f2d8d8c0f560723b39dc094707dae04cce6569470",
+  "artifact_subject_labels.json": "e9a65a5f06ead66b5562f69d3d6f6df527c266017d0bed06031f66de472e8b2a",
+  "evidence.py": "c02194042050a877b513d0b228139ef81655be5f76ee92fd7dc99f8299a52fe2",
+  "artifact_templates.json": "b277283ad31f71b8af5738792f972506f0268016dfe40634cf15a5cbcb768fb5",
+  "artifacts.py": "deb52afc88ebcc5683b9ad323f26367c3fbf770982f68da6b70752cceed5be37",
+  "__init__.py": "bcabe433482d266164df153d72adba600ddf7038af40fbd4e038fa5f17c64935",
+  "scenarios_ui_translations.json": "03c7aa004dc816743250a01840765fcd8fb7c81f4f3e33cc41995bad13b50633",
+  "core.py": "41d2643d7887416b2db6573430fb56b1843cc36fefd7cad8d88eab1870e1a058",
+  "emissions_ui_translations.json": "768e7b817a99054a62549478040287bf746be70af279c2a0f157954b2f55a0ae",
+  "binding.py": "7c8bb70dcaa631ad70737241ee56bc0fa4d85255a1fc8e91ae9117e18ed77584",
+  "climate_data_ui_translations.json": "2dcb9c57ceb56e4cd83eca7abd315dad489b72799b8b42858ff11be504f3a0e5",
+  "artifact_labels.py": "ad2abe593b161a4ace8f2102bf9a2f71e8d3c2087202ef506380282e1adf547d",
+  "artifact_formatting.py": "66f0b2174e2573ac4620f208e6b0bd25f598138ffb3eaa448ff3030db57b494b",
+  "prompts.json": "314a9ce0260779546b9817d2d7cd5a2e842b73a235f14bafab3b202a7bb78ebc"
+ }
+}

@@ -1,0 +1,332 @@
+{
+  "questions": [
+    "Вопросы к данным",
+    "Questions for missing data",
+    "待补充资料问题"
+  ],
+  "assessment": [
+    "Черновая оценка",
+    "Draft assessment",
+    "评估草稿"
+  ],
+  "selected_parameters": [
+    "Выбранные табличные параметры",
+    "Selected tabular parameters",
+    "已选表格参数"
+  ],
+  "draft": [
+    "Черновик",
+    "Draft",
+    "草稿"
+  ],
+  "selected_evidence": [
+    "По выбранным свидетельствам",
+    "Based on selected evidence",
+    "依据已选证据"
+  ],
+  "expert_judgement": [
+    "Экспертное суждение; не измерение",
+    "Expert judgement; not a measurement",
+    "专家判断，非测量"
+  ],
+  "ordinal_lookup": [
+    "Сопоставление выбранных порядковых категорий",
+    "Lookup of selected ordinal categories",
+    "已选有序类别匹配"
+  ],
+  "selected_ordinal_cell_matched": [
+    "Найдена выбранная ячейка порядковой матрицы",
+    "Selected ordinal matrix cell matched",
+    "已匹配所选有序矩阵单元"
+  ],
+  "selected_matrix_not_supplied": [
+    "Матрица не предоставлена",
+    "Selected matrix not supplied",
+    "未提供所选矩阵"
+  ],
+  "risk_categories_missing": [
+    "Не предоставлены категории оценки",
+    "Risk categories not supplied",
+    "未提供风险类别"
+  ],
+  "risk_category_not_in_selected_matrix": [
+    "Категория отсутствует в выбранной матрице",
+    "Category absent from selected matrix",
+    "类别不在所选矩阵中"
+  ],
+  "selected_matrix_cell_missing": [
+    "Нужная ячейка выбранной матрицы отсутствует",
+    "Required selected matrix cell is missing",
+    "所选矩阵缺少相应单元"
+  ],
+  "ordinal_lookup_not_probability_or_expected_loss": [
+    "Порядковая классификация; вероятность и математическое ожидание потерь не вычислены",
+    "Ordinal classification; probability and expected loss were not calculated",
+    "有序分类，未计算概率或预期损失"
+  ],
+  "applicability_date_not_supplied": [
+    "Дата выбранной применимости не предоставлена",
+    "Selected applicability date not supplied",
+    "未提供选定适用日期"
+  ],
+  "effective_start_unknown": [
+    "Начало действия в выбранных метаданных неизвестно",
+    "Effective start in selected metadata is unknown",
+    "所选元数据中的生效起日未知"
+  ],
+  "outside_selected_metadata_window": [
+    "Дата вне выбранного окна действия; требуется проверка",
+    "Date outside selected metadata window; review required",
+    "日期不在所选有效期内，需审核"
+  ],
+  "within_selected_metadata_window_only": [
+    "Дата внутри выбранного окна метаданных; правовая применимость не установлена",
+    "Date within selected metadata window; legal applicability not established",
+    "日期在所选元数据有效期内，尚未确定法律适用性"
+  ],
+  "selected_metadata_window_status": [
+    "Сопоставление даты с выбранными метаданными",
+    "Date comparison with selected metadata",
+    "日期与所选元数据的比较"
+  ],
+  "selected_table_value_not_semantically_certified": [
+    "Выбранное табличное значение; смысловое соответствие не удостоверено",
+    "Selected table value; semantic correspondence not certified",
+    "已选表格值，未认证语义对应关系"
+  ],
+  "selected_normative_table_values_only_no_automatic_station_substitution": [
+    "Только выбранные нормативные табличные значения; автоматической замены станции нет",
+    "Selected normative table values only; no automatic station substitution",
+    "仅使用所选规范表格值，不自动替换站点"
+  ],
+  "same_location": [
+    "Выбранная станция в месте объекта",
+    "Selected station at the object location",
+    "对象所在地的所选站点"
+  ],
+  "selected_representative": [
+    "Станция выбрана как репрезентативная; пригодность не удостоверена",
+    "Station selected as representative; suitability not certified",
+    "站点被选为代表站，未认证适用性"
+  ],
+  "observation": [
+    "Наблюдение",
+    "Observation",
+    "观测"
+  ],
+  "reanalysis": [
+    "Реанализ; дополнительный контекст",
+    "Reanalysis; supplementary context",
+    "再分析，补充背景"
+  ],
+  "projection": [
+    "Условная климатическая проекция",
+    "Conditional climate projection",
+    "条件性气候预估"
+  ],
+  "fact": [
+    "Факт из выбранного источника",
+    "Fact from selected source",
+    "所选来源中的事实"
+  ],
+  "inference": [
+    "Авторский вывод по выбранным данным",
+    "Authored inference from selected evidence",
+    "基于所选证据的作者推论"
+  ],
+  "selected_sources_only_not_independent_verification": [
+    "Только выбранные источники; независимая проверка не выполнена",
+    "Selected sources only; independent verification not performed",
+    "仅限所选来源，未进行独立核验"
+  ],
+  "proposed_not_approved": [
+    "Предложенный текст; не утверждён инструментом",
+    "Proposed text; not approved by the tool",
+    "建议文本，工具未予批准"
+  ],
+  "not_estimated": [
+    "Не оценено",
+    "Not estimated",
+    "未估算"
+  ],
+  "selected_estimate": [
+    "Выбранная оценка; не утверждённый бюджет",
+    "Selected estimate; not an approved budget",
+    "所选估算，非获批预算"
+  ],
+  "identified_source": [
+    "Указанный источник финансирования",
+    "Identified funding source",
+    "已列明的资金来源"
+  ],
+  "hazard_evidence_missing": [
+    "Не предоставлены свидетельства об опасностях",
+    "Hazard evidence not supplied",
+    "未提供危险证据"
+  ],
+  "exposure_vulnerability_missing": [
+    "Не предоставлены экспозиция и уязвимость",
+    "Exposure and vulnerability not supplied",
+    "未提供暴露度与脆弱性"
+  ],
+  "selected_risk_method_missing": [
+    "Не выбрана явная методика оценки риска",
+    "Explicit selected risk method is missing",
+    "未选择明确的风险方法"
+  ],
+  "evidence_missing": [
+    "Не предоставлены свидетельства об опасности",
+    "Hazard evidence not supplied",
+    "未提供危险证据"
+  ],
+  "exposure_missing": [
+    "Не предоставлены сведения об экспозиции",
+    "Exposure evidence not supplied",
+    "未提供暴露信息"
+  ],
+  "vulnerability_missing": [
+    "Не предоставлены сведения об уязвимости",
+    "Vulnerability evidence not supplied",
+    "未提供脆弱性信息"
+  ],
+  "scenario_context_missing": [
+    "Не предоставлен сценарный контекст",
+    "Scenario context not supplied",
+    "未提供情景背景"
+  ],
+  "expert_judgement_not_measurement": [
+    "Экспертная категория не является измерением",
+    "Expert category is not a measurement",
+    "专家类别并非测量"
+  ],
+  "measure_responsible_missing": [
+    "Ответственный за меру не указан",
+    "Measure owner not supplied",
+    "未指定措施负责人"
+  ],
+  "measure_deadline_missing": [
+    "Срок меры не указан",
+    "Measure deadline not supplied",
+    "未指定措施期限"
+  ],
+  "measure_indicator_missing": [
+    "Индикатор меры не указан",
+    "Measure indicator not supplied",
+    "未指定措施指标"
+  ],
+  "measure_funding_missing": [
+    "Финансирование меры не указано",
+    "Measure funding not supplied",
+    "未提供措施资金信息"
+  ],
+  "measure_monitoring_missing": [
+    "Мониторинг меры не указан",
+    "Measure monitoring not supplied",
+    "未提供措施监测信息"
+  ],
+  "adaptation_measure_missing": [
+    "Мера для риска не предложена",
+    "Adaptation measure not proposed for risk",
+    "尚未针对风险提出适应措施"
+  ],
+  "selected_applicability_date_missing": [
+    "Дата выбранной применимости не указана",
+    "Selected applicability date not supplied",
+    "未指定选定适用日期"
+  ],
+  "effective_end_unknown": [
+    "Окончание действия в выбранных метаданных неизвестно",
+    "Effective end in selected metadata is unknown",
+    "所选元数据中的失效日期未知"
+  ],
+  "station_representativeness_not_supplied": [
+    "Обоснование репрезентативности станции не предоставлено",
+    "Station representativeness evidence not supplied",
+    "未提供站点代表性依据"
+  ],
+  "station_not_supplied": [
+    "Станция не предоставлена; замена не выполнена",
+    "Station not supplied; no substitution performed",
+    "未提供站点，未执行替换"
+  ],
+  "selected_tabular_parameters_missing": [
+    "Выбранные табличные параметры не предоставлены",
+    "Selected tabular parameters not supplied",
+    "未提供所选表格参数"
+  ],
+  "selected_document_edition_missing": [
+    "Выбранная редакция документа не предоставлена",
+    "Selected document edition not supplied",
+    "未提供所选文件版本"
+  ],
+  "statement_source_missing": [
+    "Источник тезиса не предоставлен",
+    "Statement source not supplied",
+    "未提供论述来源"
+  ],
+  "uncertainty_missing": [
+    "Неопределённость тезиса не описана",
+    "Statement uncertainty not described",
+    "未描述论述的不确定性"
+  ],
+  "confidence_basis_missing": [
+    "Основание уверенности не предоставлено",
+    "Confidence basis not supplied",
+    "未提供置信度依据"
+  ],
+  "projection_scenario_context_missing": [
+    "Проекция без выбранного сценарного контекста",
+    "Projection lacks selected scenario context",
+    "预估缺少所选情景背景"
+  ],
+  "publication_sources_missing": [
+    "Источники для публикации не предоставлены",
+    "Publication sources not supplied",
+    "未提供发布内容来源"
+  ],
+  "typed_evidence_statements_missing": [
+    "Не предоставлены тезисы с типом свидетельства",
+    "Typed evidence statements not supplied",
+    "未提供带证据类型的论述"
+  ],
+  "section_evidence_links_missing": [
+    "Для раздела нет связанного тезиса из выбранных данных",
+    "Section lacks a linked selected-evidence statement",
+    "本节缺少关联的所选证据论述"
+  ],
+  "provide_hazard_exposure_vulnerability": [
+    "Предоставить сведения об опасностях, экспозиции и уязвимости",
+    "Supply hazard, exposure and vulnerability evidence",
+    "补充危险、暴露度与脆弱性证据"
+  ],
+  "select_explicit_risk_method": [
+    "Выбрать явную методику риска",
+    "Select an explicit risk method",
+    "选择明确的风险方法"
+  ],
+  "identify_measure_owner_dates_indicators_funding_monitoring": [
+    "Уточнить ответственных, сроки, индикаторы, финансирование и мониторинг мер",
+    "Specify measure owners, dates, indicators, funding and monitoring",
+    "明确措施负责人、期限、指标、资金与监测"
+  ],
+  "select_object_location_and_representative_station": [
+    "Уточнить место объекта и основание выбора станции",
+    "Specify object location and station selection basis",
+    "明确对象位置与站点选择依据"
+  ],
+  "supply_selected_edition_table_row_column_and_units": [
+    "Предоставить выбранную редакцию, таблицу, строку, столбец и единицы",
+    "Supply selected edition, table, row, column and units",
+    "提供所选版本、表格、行、列及单位"
+  ],
+  "select_actual_sources_and_classify_fact_inference_projection": [
+    "Выбрать реальные источники и различить факты, выводы и проекции",
+    "Select actual sources and distinguish facts, inferences and projections",
+    "选择实际来源并区分事实、推论与预估"
+  ],
+  "specify_audience_and_uncertainty_basis": [
+    "Уточнить аудиторию и основание неопределённости",
+    "Specify audience and uncertainty basis",
+    "明确受众与不确定性依据"
+  ]
+}

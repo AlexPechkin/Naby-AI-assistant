@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "profession_id": "embedded_engineer",
+ "module": "naby_embedded_engineer",
+ "entrypoint": "naby_embedded_engineer.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "artifact_ui.json": "58ef02b3a3d3bd295b972b2de14026f02bde3779fab179d4c73b8b9330c37bf2",
+  "lifecycle_ui_translations.json": "833d6d56f23205e8207919dcfb7f56ef352f549522d856fc6ccbda4edad6bf83",
+  "service.py": "783673870e0e00a4414057ef32f7e4afb339e49606b49eefe4a1e07a540c15f6",
+  "artifact_subject_labels.json": "c7c6db249d32424185aafaa04ec522afe45e2eab0fd61e9750c2eca4404919d5",
+  "privacy.py": "85d77ae8a603f104a580085752b99cc0d427f3877ab720d502ab901e85c786a7",
+  "debug_testing_ui_translations.json": "9ee0e1f9a7267628bcf7dae7546e173592506782278f538f698648b4caf7dc64",
+  "evidence.py": "118864fe618a6ffa79db4200d068aea42fbadce46944acaba3c920d15c511196",
+  "artifact_templates.json": "d1b99bdd1cb8f51504ebcee66dbe77f4154b0a4e01b8796bf9cc2c0dfba8edda",
+  "artifacts.py": "b1cdf863cc9c38708caaa6e118f5beb1fe55a276a01e9ddda58254a3d3bd5f9a",
+  "__init__.py": "8ff36f1cfb5e816f2c1e5de957e8033b8b90cca6289fb63139cdcefd953daa34",
+  "core.py": "f194b8ee38ab1c2f2549b064acb756eb81f06b95ed7ec1660e35e8f427604faf",
+  "architecture_code.py": "5ab30b4b6c7d720a6e1e05d6426bccdf82b221001800221c473d4dbf283677e5",
+  "binding.py": "d9e7d6602538a1fc8433ca60b5b3adbcbb5e0484fdea5122899a2c2f0f247811",
+  "architecture_code_ui_translations.json": "dc54b859d826a78fdbf0809ec7d1dad28044279bde1c1400637c1672e015914a",
+  "artifact_labels.py": "36d87607ee407bb98dba98de9f9c7b1810ffceef0006d7bf3539c2978ec634d6",
+  "debug_testing.py": "ac3e7598384ae4dcfaefc8f9a0429c8ddb9cecae38b452e691dd615629edb204",
+  "lifecycle.py": "0febb3fedbd4ff3acc394214d8c94671ea78a98fbd7c5a734ffdc1230077628f",
+  "artifact_formatting.py": "1d8aa6015f56c8c8bc8f20c242f40f19fcd18fd160ca27f84d779e63395c2123",
+  "prompts.json": "afa6456b70641fddd1c6407e1362efc756b2750f52c8b63f9d3d360b97cc5dd4"
+ }
+}

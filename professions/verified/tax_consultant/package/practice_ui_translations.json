@@ -1,0 +1,562 @@
+{
+  "questions": [
+    "Уточнение исходных данных",
+    "Input questions",
+    "补充资料问题"
+  ],
+  "draft": [
+    "Черновик",
+    "Draft",
+    "草案"
+  ],
+  "review": [
+    "Анализ выбранных материалов",
+    "Review of selected materials",
+    "所选材料分析"
+  ],
+  "norm": [
+    "Нормативный акт по выбранной классификации",
+    "Normative act by supplied classification",
+    "按所提供分类的规范性文件"
+  ],
+  "letter": [
+    "Ведомственное разъяснение",
+    "Department guidance letter",
+    "部门解释函"
+  ],
+  "court": [
+    "Судебный акт или обзор",
+    "Court decision or review",
+    "司法裁判或审判综述"
+  ],
+  "bill": [
+    "Законопроект",
+    "Proposed legislation",
+    "法律草案"
+  ],
+  "news": [
+    "Информационное сообщение",
+    "Information or news item",
+    "信息或新闻"
+  ],
+  "client_record": [
+    "Документ клиента",
+    "Client record",
+    "客户记录"
+  ],
+  "general": [
+    "Общие положения",
+    "General provisions",
+    "一般规定"
+  ],
+  "income_expenses": [
+    "Доходы и расходы",
+    "Income and expenses",
+    "收入和支出"
+  ],
+  "depreciation": [
+    "Амортизация",
+    "Depreciation",
+    "折旧"
+  ],
+  "reserves": [
+    "Резервы",
+    "Provisions",
+    "准备金"
+  ],
+  "vat": [
+    "НДС",
+    "VAT",
+    "增值税"
+  ],
+  "registers": [
+    "Регистры налогового учёта",
+    "Tax accounting registers",
+    "税务会计登记簿"
+  ],
+  "branches": [
+    "Обособленные подразделения",
+    "Separate divisions",
+    "分支机构"
+  ],
+  "usn_expenses": [
+    "Расходы при УСН",
+    "Expenses under the simplified tax system",
+    "简化税制下的支出"
+  ],
+  "subject": [
+    "Предмет услуг",
+    "Service scope",
+    "服务范围"
+  ],
+  "result": [
+    "Результат услуг",
+    "Deliverable",
+    "服务成果"
+  ],
+  "inputs": [
+    "Исходные данные",
+    "Input information",
+    "输入资料"
+  ],
+  "deadlines": [
+    "Сроки",
+    "Timing",
+    "期限"
+  ],
+  "price": [
+    "Цена",
+    "Price",
+    "价格"
+  ],
+  "confidentiality": [
+    "Конфиденциальность",
+    "Confidentiality",
+    "保密"
+  ],
+  "liability": [
+    "Ответственность",
+    "Liability",
+    "责任"
+  ],
+  "power_of_attorney": [
+    "Доверенность и полномочия",
+    "Power of attorney and powers",
+    "授权委托书及权限"
+  ],
+  "quality": [
+    "Контроль качества",
+    "Quality review",
+    "质量审查"
+  ],
+  "language": [
+    "Язык взаимодействия",
+    "Working language",
+    "工作语言"
+  ],
+  "document_exchange": [
+    "Передача документов",
+    "Document exchange",
+    "文件交接"
+  ],
+  "termination": [
+    "Прекращение договора",
+    "Termination",
+    "合同终止"
+  ],
+  "proposed_draft": [
+    "Предлагаемый черновик",
+    "Proposed draft",
+    "拟议草案"
+  ],
+  "selected_existing": [
+    "Выбранный существующий текст",
+    "Selected existing text",
+    "所选现有文本"
+  ],
+  "method_change": [
+    "Изменение применяемого метода",
+    "Change of accounting method",
+    "会计方法变更"
+  ],
+  "legislation_change": [
+    "Изменение законодательства",
+    "Legislative change",
+    "法律变更"
+  ],
+  "new_activity": [
+    "Новый вид деятельности",
+    "New activity",
+    "新增业务"
+  ],
+  "initial": [
+    "Первоначальное формирование",
+    "Initial preparation",
+    "首次编制"
+  ],
+  "unknown": [
+    "Не установлено по выбранным данным",
+    "Not established from selected data",
+    "根据所选资料尚未确定"
+  ],
+  "yes": [
+    "Да, по предоставленной классификации",
+    "Yes, by supplied classification",
+    "是，按所提供分类"
+  ],
+  "no": [
+    "Нет, по предоставленной классификации",
+    "No, by supplied classification",
+    "否，按所提供分类"
+  ],
+  "lt": [
+    "Строго меньше",
+    "Strictly less than",
+    "严格小于"
+  ],
+  "lte": [
+    "Не больше",
+    "Less than or equal to",
+    "小于或等于"
+  ],
+  "gt": [
+    "Строго больше",
+    "Strictly greater than",
+    "严格大于"
+  ],
+  "gte": [
+    "Не меньше",
+    "Greater than or equal to",
+    "大于或等于"
+  ],
+  "eq": [
+    "Точное равенство",
+    "Exact equality",
+    "精确相等"
+  ],
+  "in": [
+    "Входит в выбранный перечень",
+    "Membership in the selected set",
+    "属于所选集合"
+  ],
+  "prefix": [
+    "Точный код ОКВЭД или его подраздел",
+    "Exact OKVED code or its subcode",
+    "精确的OKVED代码或其下级代码"
+  ],
+  "not_before_date": [
+    "Не ранее выбранной даты",
+    "Not before the selected date",
+    "不早于所选日期"
+  ],
+  "period_start": [
+    "Выбранное начало налогового периода",
+    "Selected tax period start",
+    "所选纳税期起始日"
+  ],
+  "selected_date": [
+    "Точная выбранная дата",
+    "Exact selected date",
+    "精确的所选日期"
+  ],
+  "net": [
+    "Цена без НДС по выбранному условию",
+    "Net price by selected term",
+    "按所选条款的不含增值税价格"
+  ],
+  "gross": [
+    "Цена с НДС по выбранному условию",
+    "Gross price by selected term",
+    "按所选条款的含增值税价格"
+  ],
+  "not_selected": [
+    "Не выбрано",
+    "Not selected",
+    "未选择"
+  ],
+  "paper": [
+    "Бумажная доверенность по выбранной записи",
+    "Paper power of attorney by selected record",
+    "所选记录中的纸质授权委托书"
+  ],
+  "MChD": [
+    "Машиночитаемая доверенность",
+    "Machine-readable power of attorney",
+    "机器可读授权委托书"
+  ],
+  "active": [
+    "Действующий статус по выбранной записи",
+    "Active status in the selected record",
+    "所选记录中的有效状态"
+  ],
+  "revoked": [
+    "Отозванный статус по выбранной записи",
+    "Revoked status in the selected record",
+    "所选记录中的撤销状态"
+  ],
+  "client": [
+    "Клиент",
+    "Client",
+    "客户"
+  ],
+  "consultant": [
+    "Консультант",
+    "Consultant",
+    "顾问"
+  ],
+  "representative": [
+    "Представитель",
+    "Representative",
+    "代理人"
+  ],
+  "applicability_date_not_selected": [
+    "Дата применимости не выбрана",
+    "Applicability date not selected",
+    "未选择适用日期"
+  ],
+  "effective_start_unknown": [
+    "Дата начала действия по выбранной редакции неизвестна",
+    "Effective start is unknown for the selected edition",
+    "所选版本的生效起始日期未知"
+  ],
+  "before_selected_effective_start": [
+    "До предоставленной даты начала действия",
+    "Before the supplied effective start",
+    "早于所提供的生效起始日期"
+  ],
+  "after_selected_effective_end": [
+    "После предоставленной даты окончания действия",
+    "After the supplied effective end",
+    "晚于所提供的有效期结束日期"
+  ],
+  "within_declared_inclusive_window": [
+    "В пределах предоставленного периода, включая границы",
+    "Within the supplied inclusive date window",
+    "在所提供的含边界日期区间内"
+  ],
+  "after_start_end_unknown": [
+    "После предоставленного начала; окончание неизвестно",
+    "After supplied start; end unknown",
+    "晚于所提供起始日；结束日期未知"
+  ],
+  "selected_document_metadata_unknown": [
+    "Сведения о выбранной редакции не предоставлены полностью",
+    "Selected edition metadata is incomplete",
+    "所选版本元数据不完整"
+  ],
+  "history_reference_not_selected": [
+    "Связанная версия не выбрана",
+    "Linked version not selected",
+    "未选择关联版本"
+  ],
+  "cyclic_selected_version_history": [
+    "Цикл в предоставленных связях версий",
+    "Cycle in the supplied version links",
+    "所提供的版本关系存在循环"
+  ],
+  "client_conditions_not_established": [
+    "Совпадение условий клиента не установлено",
+    "Client-condition match is not established",
+    "尚未确定客户条件是否匹配"
+  ],
+  "no_selected_client_conditions": [
+    "Условия отбора для клиента не выбраны",
+    "Client selection conditions not selected",
+    "未选择客户筛选条件"
+  ],
+  "proposal_or_news_not_enacted_rule": [
+    "Законопроект или новость не являются принятой нормой",
+    "A bill or news item is not an enacted rule",
+    "法律草案或新闻不是已生效的法律规定"
+  ],
+  "department_letter_is_not_statutory_norm": [
+    "Письмо ведомства не является нормой закона",
+    "A department letter is not a statutory norm",
+    "部门函件不是法律规范"
+  ],
+  "unresolved_selected_source_conflict": [
+    "Противоречие выбранных источников не разрешено",
+    "Selected-source conflict remains unresolved",
+    "所选来源之间的冲突尚未解决"
+  ],
+  "multiple_selected_positions_need_comparison": [
+    "Несколько выбранных позиций требуют сопоставления",
+    "Multiple selected positions need comparison",
+    "多个所选立场需要比较"
+  ],
+  "change_records_not_selected": [
+    "Записи об изменениях не выбраны",
+    "Change records not selected",
+    "未选择变更记录"
+  ],
+  "host_check_receipt_not_supplied_to_pure_tool": [
+    "Подтверждение фактического обновления хостом этому инструменту не передано",
+    "No actual host update receipt was supplied to this pure tool",
+    "未向此纯分析工具提供主机实际更新凭据"
+  ],
+  "choice_rule_not_selected": [
+    "Основание выбора метода не выбрано",
+    "Method-choice rule not selected",
+    "未选择方法选择依据"
+  ],
+  "start_constraint_not_selected": [
+    "Условие даты начала не выбрано",
+    "Start-date constraint not selected",
+    "未选择起始日期条件"
+  ],
+  "proposed_start_not_selected": [
+    "Предлагаемая дата начала не выбрана",
+    "Proposed start date not selected",
+    "未选择拟议起始日期"
+  ],
+  "matches_selected_date_constraint": [
+    "Соответствует предоставленному условию даты",
+    "Matches the supplied date constraint",
+    "符合所提供的日期条件"
+  ],
+  "conflicts_with_selected_date_constraint": [
+    "Противоречит предоставленному условию даты",
+    "Conflicts with the supplied date constraint",
+    "与所提供的日期条件冲突"
+  ],
+  "rule_not_selected": [
+    "Основание не выбрано",
+    "Rule not selected",
+    "未选择依据"
+  ],
+  "proposed_not_approved": [
+    "Предложено; инструментом не утверждено",
+    "Proposed; not approved by this tool",
+    "已提出；未由本工具批准"
+  ],
+  "selected_required_policy_topic_missing": [
+    "Выбранный для проверки раздел политики отсутствует",
+    "A selected policy review topic is missing",
+    "缺少所选政策审查主题"
+  ],
+  "aggregate_expenses_for_selected_period": [
+    "Совокупные расходы за выбранный период",
+    "Aggregate expenses for the selected period",
+    "所选期间的总支出"
+  ],
+  "undefined_zero_selected_total": [
+    "Доля не определена: выбранная сумма расходов равна нулю",
+    "Share is undefined: selected total expenses are zero",
+    "比例未定义：所选总支出为零"
+  ],
+  "conditional_arithmetic_only": [
+    "Только условное арифметическое сравнение",
+    "Conditional arithmetic comparison only",
+    "仅为有条件的算术比较"
+  ],
+  "policy_choices_not_selected": [
+    "Положения учётной политики не выбраны",
+    "Policy choices not selected",
+    "未选择会计政策条款"
+  ],
+  "trigger_and_selected_rule_specific_not_blanket_new_year": [
+    "Срок изменения зависит от основания и выбранной нормы; единого правила нового года нет",
+    "Change timing depends on the trigger and selected rule; no blanket new-year rule",
+    "变更时间取决于触发原因和所选依据；不存在一律从新年起适用的规则"
+  ],
+  "proposed_wording_requires_review": [
+    "Предлагаемая формулировка требует проверки",
+    "Proposed wording requires review",
+    "拟议措辞需要审查"
+  ],
+  "selected_wording_only_not_legal_clearance": [
+    "Только выбранная формулировка; правовая оценка не подтверждена",
+    "Selected wording only; no legal clearance established",
+    "仅为所选措辞；尚未确认法律有效性"
+  ],
+  "selected_review_topic_not_documented": [
+    "Выбранное условие проверки не отражено в тексте",
+    "Selected review topic is not documented",
+    "文本中未体现所选审查条款"
+  ],
+  "multiple_clauses_on_topic_require_comparison": [
+    "Несколько условий по одной теме требуют сопоставления",
+    "Multiple clauses on one topic need comparison",
+    "同一主题的多项条款需要比较"
+  ],
+  "power_date_window_not_established": [
+    "Период действия доверенности для выбранной даты не установлен",
+    "Power validity window for the selected date is not established",
+    "尚未确定授权在所选日期的有效区间"
+  ],
+  "status_record_not_selected": [
+    "Запись о статусе не выбрана",
+    "Status record not selected",
+    "未选择状态记录"
+  ],
+  "power_registry_or_revocation_status_not_clear": [
+    "Статус доверенности или её отзыва по выбранным данным неясен",
+    "Selected power or revocation status is unclear",
+    "根据所选资料，授权或撤销状态不明确"
+  ],
+  "requested_power_ids_not_in_selected_record": [
+    "Запрошенные идентификаторы полномочий отсутствуют в выбранной записи",
+    "Requested power identifiers are absent from the selected record",
+    "所选记录中缺少所请求的权限标识符"
+  ],
+  "representation_outside_selected_power_window": [
+    "Дата представительства вне предоставленного срока доверенности",
+    "Representation date falls outside supplied power validity",
+    "代理日期超出所提供授权有效期"
+  ],
+  "exact_identifier_membership_not_legal_interpretation": [
+    "Точное совпадение идентификаторов; правовое толкование не выполнено",
+    "Exact identifier membership; legal interpretation not performed",
+    "仅精确匹配标识符；未进行法律解释"
+  ],
+  "power_record_not_selected": [
+    "Документ о полномочиях не выбран",
+    "Power record not selected",
+    "未选择授权记录"
+  ],
+  "power_issue_after_information_cutoff": [
+    "Предоставленная дата выдачи доверенности позже даты анализа",
+    "Supplied power issue date is after the information cutoff",
+    "所提供授权签发日期晚于分析截止日期"
+  ],
+  "selected_power_chronology_requires_review": [
+    "Хронология выбранных записей о доверенности требует проверки",
+    "Chronology of selected power records needs review",
+    "所选授权记录的时间顺序需要审查"
+  ],
+  "contractual_terms_not_automatic_tax_authority_secrecy_under_Article102": [
+    "Конфиденциальность по договору не равнозначна автоматическому применению режима налоговой тайны органов по статье 102 НК РФ",
+    "Contract confidentiality does not automatically establish tax-authority secrecy under Article 102",
+    "合同保密不会自动确立税法第102条规定的税务机关保密制度"
+  ],
+  "no_outcome_guarantee_does_not_excuse_unprofessional_services": [
+    "Отсутствие гарантии результата проверки не освобождает от профессионального качества услуг",
+    "No audit-outcome guarantee does not excuse unprofessional services",
+    "不保证税务检查结果并不免除专业服务质量责任"
+  ],
+  "select_client_scope": [
+    "Уточнить фактические условия клиента",
+    "Clarify the actual client scope",
+    "明确客户实际情况"
+  ],
+  "select_dated_source_chain": [
+    "Выбрать редакции и цепочку изменений источников",
+    "Select dated editions and amendment chain",
+    "选择带日期的版本及修订链"
+  ],
+  "select_applicability_date": [
+    "Уточнить дату применимости",
+    "Select the applicability date",
+    "明确适用日期"
+  ],
+  "select_actual_policy_scope": [
+    "Уточнить фактическую область учётной политики",
+    "Clarify actual policy scope",
+    "明确会计政策实际范围"
+  ],
+  "select_method_and_change_trigger": [
+    "Уточнить метод и основание изменения",
+    "Select method and change trigger",
+    "明确方法及变更原因"
+  ],
+  "select_source_and_start_constraint": [
+    "Выбрать источник и условие даты начала",
+    "Select source and start-date constraint",
+    "选择来源及起始日期条件"
+  ],
+  "select_subject_and_deliverable": [
+    "Уточнить предмет и результат услуг",
+    "Clarify service scope and deliverable",
+    "明确服务范围及成果"
+  ],
+  "select_inputs_deadlines_price": [
+    "Уточнить исходные данные, сроки и цену",
+    "Clarify inputs, timing and price",
+    "明确资料、期限及价格"
+  ],
+  "select_confidentiality_care_and_representation_scope": [
+    "Уточнить конфиденциальность, качество и объём представительства",
+    "Clarify confidentiality, care and representation scope",
+    "明确保密、专业质量及代理范围"
+  ]
+}

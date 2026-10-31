@@ -1,0 +1,747 @@
+{
+  "ENS_adjustment_unknown_entry": [
+    "Неизвестная операция для корректировки ЕНС",
+    "ENS adjustment unknown entry",
+    "调整引用了未知的统一税账户交易"
+  ],
+  "ENS_entry_outside_window": [
+    "Операция вне выбранного периода ЕНС",
+    "ENS entry outside window",
+    "交易超出所选统一税账户期间"
+  ],
+  "ENS_kind_signed_delta_conflict": [
+    "Знак суммы не соответствует выбранному виду операции",
+    "ENS kind signed delta conflict",
+    "金额符号与所选交易类型冲突"
+  ],
+  "ENS_ledger_not_live_FNS_balance_or_legal_refund_right": [
+    "Выбранный регистр не удостоверяет текущее сальдо ФНС или право на возврат",
+    "ENS ledger not live FNS balance or legal refund right",
+    "所选台账不证明税务局当前余额或退款权利"
+  ],
+  "ENS_posted_adjustment_outside_window": [
+    "Отражённая корректировка вне периода сверки",
+    "ENS posted adjustment outside window",
+    "已入账调整超出核对期间"
+  ],
+  "ENS_repeated_external_record_identity_no_automatic_dedup": [
+    "Повтор реквизита исходной записи; автоматического удаления нет",
+    "ENS repeated external record identity no automatic dedup",
+    "原始记录标识重复；未自动删除"
+  ],
+  "ENS_window_inverted": [
+    "Начало периода ЕНС позже окончания",
+    "ENS window inverted",
+    "统一税账户期间起点晚于终点"
+  ],
+  "ISO_date_required": [
+    "Во входе расчёта нужна каноническая дата YYYY-MM-DD",
+    "Canonical model input requires YYYY-MM-DD",
+    "计算输入需要规范YYYY-MM-DD日期"
+  ],
+  "RU_jurisdiction_required": [
+    "Нужна юрисдикция РФ",
+    "RU jurisdiction required",
+    "需要俄罗斯司法管辖区"
+  ],
+  "accrual_period_evidence_missing": [
+    "Данные периодов начисления не предоставлены",
+    "accrual period evidence missing",
+    "未提供计提期间数据"
+  ],
+  "accrual_period_outside_window": [
+    "Период начисления вне выбранного окна",
+    "accrual period outside window",
+    "计提期间超出所选窗口"
+  ],
+  "accrual_period_overlap_for_obligation": [
+    "Периоды одного обязательства перекрываются",
+    "accrual period overlap for obligation",
+    "同一义务的计提期间重叠"
+  ],
+  "accrual_window_has_unprovided_days_not_zero_accrual": [
+    "Есть дни без данных; это не нулевое начисление",
+    "accrual window has unprovided days not zero accrual",
+    "部分日期缺少数据；不能视为零计提"
+  ],
+  "accrual_window_invalid": [
+    "Недопустимое окно начисления",
+    "accrual window invalid",
+    "计提窗口无效"
+  ],
+  "actual_fact_after_information_cutoff": [
+    "Дата факта позже информационного среза",
+    "actual fact after information cutoff",
+    "事实日期晚于信息截止日"
+  ],
+  "actual_observation_after_selected_cutoff": [
+    "Наблюдение позже выбранного среза",
+    "actual observation after selected cutoff",
+    "观察日期晚于所选截止日"
+  ],
+  "actual_outstanding_exclusions_rate_schedule_and_allocation_not_legally_established": [
+    "Остаток долга, исключения, ставки и распределение юридически не удостоверены",
+    "actual outstanding exclusions rate schedule and allocation not legally established",
+    "债务余额、排除额、利率及分配未获法律确认"
+  ],
+  "audit_type_event_role_mismatch": [
+    "Вид проверки не соответствует роли события",
+    "audit type event role mismatch",
+    "检查类型与事件角色不一致"
+  ],
+  "bounded_array_required": [
+    "Нужен список в установленном пределе",
+    "bounded array required",
+    "需要符合大小限制的列表"
+  ],
+  "bounded_nonempty_text_required": [
+    "Нужен непустой текст в установленном пределе",
+    "bounded nonempty text required",
+    "需要符合长度限制的非空文本"
+  ],
+  "bounded_object_fields_required": [
+    "Поля объекта не соответствуют схеме",
+    "bounded object fields required",
+    "对象字段不符合结构要求"
+  ],
+  "calendar_must_classify_every_day_in_declared_window": [
+    "Календарь должен классифицировать каждый день окна",
+    "calendar must classify every day in declared window",
+    "日历必须分类窗口内的每一天"
+  ],
+  "claim_amount_or_positive_balance_unresolved_or_exceeded": [
+    "Сумма требования или положительное сальдо не определены либо предел превышен",
+    "claim amount or positive balance unresolved or exceeded",
+    "申请金额或正余额未确定，或金额超过余额"
+  ],
+  "duplicate_calendar_date": [
+    "Повтор даты календаря",
+    "duplicate calendar date",
+    "日历日期重复"
+  ],
+  "duplicate_identity": [
+    "Повтор идентификатора",
+    "duplicate identity",
+    "标识重复"
+  ],
+  "event_role_trigger_conflict": [
+    "Событие начала не соответствует выбранной процедуре",
+    "event role trigger conflict",
+    "起算事件与所选程序冲突"
+  ],
+  "exact_decimal_string_required": [
+    "Нужна точная десятичная строка",
+    "exact decimal string required",
+    "需要精确十进制字符串"
+  ],
+  "exemption_requires_separate_applicability_review_conditional_fine_only": [
+    "Освобождение требует отдельной оценки; штраф условный",
+    "exemption requires separate applicability review conditional fine only",
+    "免责需单独评估适用性；罚款仅为条件计算"
+  ],
+  "exemption_temporal_basis_unknown_not_automatic_zero": [
+    "Временное основание освобождения неизвестно; ноль не подставляется",
+    "exemption temporal basis unknown not automatic zero",
+    "免责的时间依据未知；不自动填零"
+  ],
+  "explicit_supported_unit_required": [
+    "Нужна явная поддерживаемая единица",
+    "explicit supported unit required",
+    "需要明确且受支持的单位"
+  ],
+  "mitigation_is_proposed_not_granted": [
+    "Снижение штрафа предлагается, решение не принято",
+    "mitigation is proposed not granted",
+    "仅提出减罚建议，尚无决定"
+  ],
+  "month_model_requires_event_corresponding_date_next_day_rule": [
+    "Месячная модель использует соответствующее число и начало со следующего дня",
+    "month model requires event corresponding date next day rule",
+    "月期限采用对应日期及次日起算规则"
+  ],
+  "numeric_budget_700": [
+    "Превышен предел 700 числовых величин",
+    "numeric budget 700",
+    "超过700项数值限制"
+  ],
+  "numeric_domain_bound": [
+    "Число вне области модели",
+    "numeric domain bound",
+    "数值超出模型范围"
+  ],
+  "numeric_exponent_bound": [
+    "Показатель степени вне предела",
+    "numeric exponent bound",
+    "指数超出限制"
+  ],
+  "numeric_literal_budget_900": [
+    "Превышен предел 900 чисел и исходных литералов",
+    "numeric literal budget 900",
+    "数值与原始文本合计超过900项限制"
+  ],
+  "numeric_precision_bound": [
+    "Точность или порядок числа вне предела",
+    "numeric precision bound",
+    "数值精度或数量级超出限制"
+  ],
+  "offence_and_mental_state_not_established": [
+    "Состав нарушения и форма вины не установлены",
+    "offence and mental state not established",
+    "违法构成及主观过错未确定"
+  ],
+  "pretrial_stage_service_case_identity_and_filing_format_require_selected_review": [
+    "Нужна оценка стадии, вручения, реквизитов дела и формата подачи",
+    "pretrial stage service case identity and filing format require selected review",
+    "需核查程序阶段、送达、案号及提交格式"
+  ],
+  "proposed_adjustment_has_actual_date": [
+    "Предложенная корректировка не является датированной записью проведения",
+    "proposed adjustment has actual date",
+    "拟议调整不能作为带日期的已入账记录"
+  ],
+  "questions_mode_has_unselected_calculations": [
+    "Режим вопросов не принимает расчётные разделы",
+    "questions mode has unselected calculations",
+    "提问模式不接受计算部分"
+  ],
+  "repeat_offence_qualification_not_established": [
+    "Повторность нарушения юридически не установлена",
+    "repeat offence qualification not established",
+    "再次违法的法律认定尚未确定"
+  ],
+  "rule_effective_window_inverted": [
+    "Окно действия основания задано в обратном порядке",
+    "rule effective window inverted",
+    "依据的有效期间起止顺序错误"
+  ],
+  "selected_p3_exemption_only_standard119": [
+    "Выбранное освобождение по пункту 3 относится к модели статьи 119",
+    "selected p3 exemption only standard119",
+    "所选第3款免责仅适用于第119条模型"
+  ],
+  "selected_rule_outside_declared_window": [
+    "Событие вне указанного окна действия основания",
+    "selected rule outside declared window",
+    "事件超出依据声明的有效期间"
+  ],
+  "selected_rule_published_after_event_manual_retroactivity_review": [
+    "Основание опубликовано после события; обратное действие требует оценки",
+    "selected rule published after event manual retroactivity review",
+    "依据晚于事件公布；需评估追溯适用"
+  ],
+  "selected_source_is_not_enacted_norm": [
+    "Выбранный источник не является принятой нормой",
+    "selected source is not enacted norm",
+    "所选来源不是已制定的法律规范"
+  ],
+  "selected_standard_fine_not_official_assessment": [
+    "Расчёт по выбранной формуле не является официальным начислением штрафа",
+    "selected standard fine not official assessment",
+    "所选公式计算不属于官方罚款核定"
+  ],
+  "service_date_differs_from_selected_trigger": [
+    "Дата вручения отличается от даты выбранного события",
+    "service date differs from selected trigger",
+    "送达日期与所选事件日期不同"
+  ],
+  "service_evidence_missing_or_unknown": [
+    "Доказательство вручения отсутствует или неизвестно",
+    "service evidence missing or unknown",
+    "送达证据缺失或未知"
+  ],
+  "suspension_chronology_invalid": [
+    "Нарушена хронология приостановления",
+    "suspension chronology invalid",
+    "暂停期间的时间顺序无效"
+  ],
+  "suspension_model_only_selected_field_calendar_deadline": [
+    "Приостановления поддержаны только для выбранного календарного срока выездной проверки",
+    "suspension model only selected field calendar deadline",
+    "暂停模型仅支持所选现场检查的日历期限"
+  ],
+  "suspensions_overlap": [
+    "Периоды приостановления перекрываются",
+    "suspensions overlap",
+    "暂停期间重叠"
+  ],
+  "unknown_tax_procedure_function": [
+    "Неизвестный налоговый сценарий",
+    "unknown tax procedure function",
+    "未知税务程序功能"
+  ],
+  "unsupported_selected_model_or_option": [
+    "Выбрана неподдерживаемая модель или опция",
+    "unsupported selected model or option",
+    "所选模型或选项不受支持"
+  ],
+  "working_calendar_missing_or_unknown": [
+    "Классификация нужного дня отсутствует или неизвестна",
+    "working calendar missing or unknown",
+    "所需日期的工作日分类缺失或未知"
+  ],
+  "deadline_calendar_resource_limit": [
+    "Достигнут предел календарного поиска",
+    "deadline calendar resource limit",
+    "已达到日历搜索限制"
+  ],
+  "malformed_or_unbounded_tax_procedure_input": [
+    "Некорректные вложенные данные или превышение предела",
+    "malformed or unbounded tax procedure input",
+    "嵌套输入无效或超出限制"
+  ],
+  "conditional_candidate": [
+    "Условная дата по выбранному правилу",
+    "conditional candidate",
+    "依据所选规则计算的条件日期"
+  ],
+  "unresolved_calendar": [
+    "Дата не определена из-за календаря",
+    "unresolved calendar",
+    "因日历数据不足无法确定日期"
+  ],
+  "unprovided_periods": [
+    "Есть непредоставленные периоды",
+    "unprovided periods",
+    "存在未提供数据的期间"
+  ],
+  "complete_per_supplied_obligations": [
+    "Окно покрыто для предоставленных обязательств",
+    "complete per supplied obligations",
+    "所提供义务已覆盖窗口"
+  ],
+  "conditional_exemption_under_selected_model": [
+    "Условное освобождение по выбранной модели",
+    "conditional exemption under selected model",
+    "所选模型下的条件免责"
+  ],
+  "criterion_not_met_declared_tax_payable_positive": [
+    "Критерий не выполнен: по декларации есть налог к уплате",
+    "criterion not met declared tax payable positive",
+    "条件未满足：申报表存在应缴税额"
+  ],
+  "temporal_basis_unknown_or_conflicted": [
+    "Временное основание неизвестно или противоречиво",
+    "temporal basis unknown or conflicted",
+    "时间依据未知或存在冲突"
+  ],
+  "selected_119_p3_no_declared_tax_due": [
+    "Выбранный критерий п. 3 ст. 119: нет налога к уплате по декларации",
+    "selected 119 p3 no declared tax due",
+    "所选第119条第3款条件：申报表无应缴税额"
+  ],
+  "selected_window": [
+    "Выбранное окно действия",
+    "selected window",
+    "所选有效期间"
+  ],
+  "unknown_or_conflicted": [
+    "Неизвестно или есть конфликт",
+    "unknown or conflicted",
+    "未知或存在冲突"
+  ],
+  "standard_119": [
+    "Выбранная общая формула статьи 119",
+    "standard 119",
+    "所选第119条一般公式"
+  ],
+  "selected_122_rate": [
+    "Выбранная ставка по модели статьи 122",
+    "selected 122 rate",
+    "第122条模型的所选税率"
+  ],
+  "standard_126_per_document": [
+    "Выбранная сумма за документ по модели статьи 126",
+    "standard 126 per document",
+    "第126条模型的所选每份文件金额"
+  ],
+  "provided_intentional": [
+    "Предоставлена квалификация умышленного нарушения",
+    "provided intentional",
+    "提供的定性为故意违法"
+  ],
+  "provided_negligent": [
+    "Предоставлена квалификация неосторожного нарушения",
+    "provided negligent",
+    "提供的定性为过失违法"
+  ],
+  "unknown": [
+    "Неизвестно",
+    "unknown",
+    "未知"
+  ],
+  "provided": [
+    "Предоставлена запись",
+    "provided",
+    "已提供记录"
+  ],
+  "missing": [
+    "Не предоставлено",
+    "missing",
+    "未提供"
+  ],
+  "not_selected": [
+    "Не выбрано",
+    "not selected",
+    "未选择"
+  ],
+  "potential": [
+    "Возможное основание требует оценки",
+    "potential",
+    "可能的依据需要评估"
+  ],
+  "selected_for_separate_review": [
+    "Выбрано для отдельной оценки",
+    "selected for separate review",
+    "已选作单独评估"
+  ],
+  "provided_posted": [
+    "Предоставлена запись проведения",
+    "provided posted",
+    "已提供入账记录"
+  ],
+  "proposed": [
+    "Предложено",
+    "proposed",
+    "拟议"
+  ],
+  "inquiry": [
+    "Запрос о сверке",
+    "inquiry",
+    "核对查询"
+  ],
+  "refund": [
+    "Возврат",
+    "refund",
+    "退款"
+  ],
+  "offset": [
+    "Зачёт",
+    "offset",
+    "抵扣"
+  ],
+  "statement_balance": [
+    "Сальдо в выбранной справке",
+    "statement balance",
+    "所选报表余额"
+  ],
+  "reconstructed_balance": [
+    "Сальдо по предоставленному регистру",
+    "reconstructed balance",
+    "根据所提供台账重建的余额"
+  ],
+  "candidate_after_proposed_adjustments": [
+    "Условное сальдо после предложенных корректировок",
+    "candidate after proposed adjustments",
+    "拟议调整后的条件余额"
+  ],
+  "payment_credit": [
+    "Поступление увеличивает сальдо",
+    "payment credit",
+    "入款增加余额"
+  ],
+  "obligation_debit": [
+    "Обязательство уменьшает сальдо",
+    "obligation debit",
+    "税务义务减少余额"
+  ],
+  "refund_debit": [
+    "Возврат уменьшает сальдо",
+    "refund debit",
+    "退款减少余额"
+  ],
+  "offset_debit": [
+    "Зачёт уменьшает сальдо",
+    "offset debit",
+    "抵扣减少余额"
+  ],
+  "other_selected_delta": [
+    "Другая выбранная знаковая операция",
+    "other selected delta",
+    "其他所选带符号交易"
+  ],
+  "ens_positive": [
+    "Выбранное исключение по положительному сальдо ЕНС",
+    "ens positive",
+    "按统一税账户正余额选定的排除额"
+  ],
+  "earmarked": [
+    "Выбранная сумма зачёта в предстоящую обязанность",
+    "earmarked",
+    "选定的预缴义务抵扣额"
+  ],
+  "selected_nonaccrual": [
+    "Выбранное основание неначисления",
+    "selected nonaccrual",
+    "所选不计提依据"
+  ],
+  "other_selected": [
+    "Другое выбранное основание",
+    "other selected",
+    "其他所选依据"
+  ],
+  "calendar_month": [
+    "Календарный месяц",
+    "calendar month",
+    "日历月"
+  ],
+  "calendar_day": [
+    "Календарный день",
+    "calendar day",
+    "日历日"
+  ],
+  "working_day": [
+    "Рабочий день",
+    "working day",
+    "工作日"
+  ],
+  "next_day": [
+    "Со следующего дня",
+    "next day",
+    "自次日起"
+  ],
+  "include_event": [
+    "Включая день события",
+    "include event",
+    "包括事件当日"
+  ],
+  "none": [
+    "Без переноса",
+    "none",
+    "不顺延"
+  ],
+  "next_working_day": [
+    "На следующий выбранный рабочий день",
+    "next working day",
+    "顺延至所选下一工作日"
+  ],
+  "working": [
+    "Рабочий по выбранному календарю",
+    "working",
+    "所选日历中的工作日"
+  ],
+  "nonworking": [
+    "Нерабочий по выбранному календарю",
+    "nonworking",
+    "所选日历中的非工作日"
+  ],
+  "half_up": [
+    "Округление половины вверх",
+    "half up",
+    "半入舍入"
+  ],
+  "floor": [
+    "Округление вниз",
+    "floor",
+    "向下舍入"
+  ],
+  "ceiling": [
+    "Округление вверх",
+    "ceiling",
+    "向上舍入"
+  ],
+  "desk_vat": [
+    "Камеральная проверка НДС",
+    "desk vat",
+    "增值税案头检查"
+  ],
+  "desk_other": [
+    "Иная камеральная проверка",
+    "desk other",
+    "其他案头检查"
+  ],
+  "field": [
+    "Выездная проверка",
+    "field",
+    "现场税务检查"
+  ],
+  "desk_vat_end": [
+    "Выбранное окончание камеральной проверки НДС",
+    "desk vat end",
+    "所选增值税案头检查结束期限"
+  ],
+  "desk_other_end": [
+    "Выбранное окончание иной камеральной проверки",
+    "desk other end",
+    "所选其他案头检查结束期限"
+  ],
+  "field_audit_end": [
+    "Выбранное окончание выездной проверки",
+    "field audit end",
+    "所选现场检查结束期限"
+  ],
+  "requirement_reply": [
+    "Ответ на требование",
+    "requirement reply",
+    "答复税务要求"
+  ],
+  "explanations": [
+    "Пояснения",
+    "explanations",
+    "说明"
+  ],
+  "objections": [
+    "Возражения на акт",
+    "objections",
+    "对检查报告的异议"
+  ],
+  "appeal": [
+    "Апелляционная жалоба",
+    "appeal",
+    "行政上诉"
+  ],
+  "other_selected_deadline": [
+    "Другой выбранный процессуальный срок",
+    "other selected deadline",
+    "其他所选程序期限"
+  ],
+  "declaration_filed": [
+    "Представление декларации",
+    "declaration filed",
+    "提交申报表"
+  ],
+  "decision_issued": [
+    "Вынесение решения",
+    "decision issued",
+    "作出决定"
+  ],
+  "requirement_received": [
+    "Получение требования",
+    "requirement received",
+    "收到税务要求"
+  ],
+  "act_received": [
+    "Получение акта",
+    "act received",
+    "收到检查报告"
+  ],
+  "decision_served": [
+    "Вручение решения",
+    "decision served",
+    "送达决定"
+  ],
+  "other_selected_event": [
+    "Другое выбранное событие",
+    "other selected event",
+    "其他所选事件"
+  ],
+  "administrative_appeal": [
+    "Апелляционное административное обжалование",
+    "administrative appeal",
+    "行政上诉程序"
+  ],
+  "ordinary_complaint": [
+    "Обычная административная жалоба",
+    "ordinary complaint",
+    "普通行政投诉"
+  ],
+  "court_preparation": [
+    "Подготовка к судебному спору",
+    "court preparation",
+    "诉讼准备"
+  ],
+  "enacted_norm": [
+    "Выбранный текст принятой нормы",
+    "enacted norm",
+    "所选已制定规范文本"
+  ],
+  "official_guidance": [
+    "Официальное разъяснение",
+    "official guidance",
+    "官方解释"
+  ],
+  "case_record": [
+    "Выбранный судебный акт",
+    "case record",
+    "所选裁判记录"
+  ],
+  "selected_method": [
+    "Выбранная условная методика",
+    "selected method",
+    "所选条件计算方法"
+  ],
+  "calendar": [
+    "Выбранный календарь",
+    "calendar",
+    "所选日历"
+  ],
+  "questions": [
+    "Вопросы при недостатке данных",
+    "questions",
+    "数据不足时的提问"
+  ],
+  "draft": [
+    "Проект",
+    "draft",
+    "草案"
+  ],
+  "review": [
+    "Анализ предоставленных данных",
+    "review",
+    "分析所提供数据"
+  ],
+  "tax_penalty": [
+    "Условный расчёт пеней",
+    "tax penalty",
+    "税务滞纳金条件计算"
+  ],
+  "selected_refund_interest": [
+    "Проценты по выбранным периодам возврата",
+    "selected refund interest",
+    "按所选退款期间计算的利息"
+  ],
+  "positive_credit_negative_debt_on_supplied_ledger": [
+    "Положительное значение — кредитовое сальдо; отрицательное — долг по выбранному регистру",
+    "positive credit negative debt on supplied ledger",
+    "所选台账中正数为贷方余额，负数为欠款"
+  ],
+  "selected_outstanding_period_ledger_not_official_ENS_accrual": [
+    "Только предоставленные периоды и остатки; не официальное начисление ЕНС",
+    "selected outstanding period ledger not official ENS accrual",
+    "仅限提供的期间及余额，不是统一税账户官方计提"
+  ],
+  "exact_rational_predicates_Decimal180_display": [
+    "Точные рациональные сравнения; Decimal180 только для отображения",
+    "exact rational predicates Decimal180 display",
+    "精确有理数比较，Decimal180仅用于显示"
+  ],
+  "select_audit_type_scope_declaration_decision_and_actual_service_records": [
+    "Выберите вид и предмет проверки, декларацию или решение и записи вручения",
+    "select audit type scope declaration decision and actual service records",
+    "请选择检查类型及范围、申报表或决定，以及实际送达记录"
+  ],
+  "select_event_rule_calendar_extension_suspension_and_responsible_person": [
+    "Выберите событие, правило, календарь, продление, приостановление и ответственного",
+    "select event rule calendar extension suspension and responsible person",
+    "请选择事件、规则、日历、延期、暂停及负责人"
+  ],
+  "select_act_decision_service_evidence_and_episodes": [
+    "Выберите акт, решение, доказательства вручения и эпизоды",
+    "select act decision service evidence and episodes",
+    "请选择检查报告、决定、送达证据及争议事项"
+  ],
+  "select_procedural_stage_rule_court_text_and_appendices": [
+    "Выберите стадию, норму, текст судебного акта и приложения",
+    "select procedural stage rule court text and appendices",
+    "请选择程序阶段、规则、裁判文本及附件"
+  ],
+  "select_offence_date_standard_or_exemption_rule_and_evidence": [
+    "Выберите дату нарушения, общую норму или освобождение и доказательства",
+    "select offence date standard or exemption rule and evidence",
+    "请选择违法日期、一般规则或免责规则及证据"
+  ],
+  "select_only_needed_fine_or_actual_outstanding_penalty_ledger": [
+    "Выберите только нужный штраф или регистр пеней по фактическим остаткам",
+    "select only needed fine or actual outstanding penalty ledger",
+    "仅选择所需罚款或按实际欠款余额计算的滞纳金台账"
+  ],
+  "select_ENS_statement_operations_own_obligations_and_cutoff": [
+    "Выберите справку ЕНС, операции, свои обязательства и срез",
+    "select ENS statement operations own obligations and cutoff",
+    "请选择统一税账户报表、交易、自有义务及截止日"
+  ],
+  "select_refund_offset_or_inquiry_and_bank_evidence_if_needed": [
+    "Выберите возврат, зачёт или запрос и при необходимости банковские документы",
+    "select refund offset or inquiry and bank evidence if needed",
+    "请选择退款、抵扣或查询，并按需提供银行文件"
+  ]
+}

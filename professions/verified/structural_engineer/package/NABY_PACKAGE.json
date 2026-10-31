@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "profession_id": "structural_engineer",
+ "module": "naby_structural_engineer",
+ "entrypoint": "naby_structural_engineer.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "scenarios.py": "53fdd5aeaa75a8b659b5e9eb0101d709a08cb60ecf685ab0aa91777bc917e355",
+  "service.py": "fde6da330cd8d82bc9e3985b93f1b695beb151c9e27304e7aaf25a9d43b0ca32",
+  "calculations.py": "c69c85d45d35c1745e2e3e46b85e9ebb561b29d4062771d20109bd462654ca6b",
+  "artifact_subject_labels.json": "e822e8734c2131174779171381db35f84ce73042f9f7b54c460efc1bb7cd8a22",
+  "evidence.py": "c02194042050a877b513d0b228139ef81655be5f76ee92fd7dc99f8299a52fe2",
+  "artifacts.py": "ae31bdd80b61419be7998cc36d7dcdea0b27c42710678444e47814d0af31289a",
+  "__init__.py": "487092c694c3ae6d4ed5472aa975495b8b988224d61214e139355691cd2bb1a1",
+  "scenarios_ui_translations.json": "155b464e4673841ae492e5a6154c29604bfbc0b1c0e1f9c1d0fa000cacc9ebf2",
+  "core.py": "4434838b752472fd38ab96a309bf2e9423afe5359502d85bdf092daa448dff9e",
+  "binding.py": "9f1785df5036eead3ca7d9ff5404a591b88b292b4b83ce866d79e4b040415d0e",
+  "artifact_labels.py": "979ce280c82424903bf2d9d69a446b3fae6f4ba50d4770489358c562076beef7",
+  "calculation_ui_translations.json": "2b3725a1a656ac9af76da7a1bf8be6d142cee737d6d499c13c90070b37e0a7bc",
+  "member_ui_translations.json": "d75ee1f0831aee121b304e05323f39fab6d54a280ff435dded90dbdfdd3bd84f",
+  "members_foundations.py": "49c58eeee6542029614ec6eb20302fe890c91ced6b53862fc1f8709cbb140c00",
+  "artifact_formatting.py": "fc611cdfada91d8d67ae3670af1cf26273a08027879c402795d5bf319c17ec43",
+  "prompts.json": "b0ec416a7d499da56600d722f11c006503da8e363ad4059880d6e3fde560d09d"
+ }
+}

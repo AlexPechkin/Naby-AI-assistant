@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "profession_id": "investment_analyst",
+ "module": "naby_investment",
+ "entrypoint": "naby_investment.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [
+  "investment_analyst: authority_aliases_V1 package/naby_investment/core.py 4bad6b017cc1→037043493c6f",
+  "investment_analyst: source_boundary_V1 package/naby_investment/binding.py 691c4ab31829→de380b3a1324"
+ ],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "scenarios.py": "d7e4a57f0ac4532df68d4db0e562c33d40bdd4aaf909f8b3880a518cc2faad8b",
+  "service.py": "f4528e505ca5b2e820c6f6a9f55e571e4ab12924fd0270a83978bba1639f3f86",
+  "calculations.py": "0169d174a9fc6a32c88b7823389aa0ffb7dbc256db9506d6c3fc7017f86f526d",
+  "artifact_labels_extra.py": "ef4b0c7166e9c93f42c3f4a5ea775a364bdc79fc3b8241485347825d56e892c6",
+  "artifacts.py": "736f58ed067b4c9afc6fe6d53056c812b6d212232000ef817af6c485bf98b1ab",
+  "__init__.py": "1e4380d21d0e6380c04ad980328edd76a59224d7dbafb8d094f3461b0c7f5561",
+  "scenarios_ui_translations.json": "70ce932efe5ec96cea111dfdf0d372c9689053f1ed46f130e85f18105785e45f",
+  "core.py": "abe08ec26154090f522b7de61b21479dbbc18e6e0c96937e8de68295f5cecdb9",
+  "binding.py": "de380b3a13241c1cbd3446ed0ad0701c7e8cc99b4e9947960da262af598aa1c6",
+  "artifact_labels.py": "9ba9bc22803e65161f6f6ad6223b8a1b80e48410e01bd4fc33d6d1e23ce743ad",
+  "artifact_formatting.py": "bd5e94b9286565f9a99b3899e32b6cff2f9876a841b25ef8b00a948994cadf0f",
+  "prompts.json": "2ff39b4a9ad070314201fde15bacf44603d0c9d55c7db9c98b58015a4648d96f"
+ }
+}

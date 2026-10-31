@@ -1,0 +1,342 @@
+{
+  "sw_requirements": {
+    "title": [
+      "Требования к встроенному ПО",
+      "Embedded software requirements",
+      "嵌入式软件需求"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Функции",
+        "Functions",
+        "功能"
+      ],
+      [
+        "Интерфейсы",
+        "Interfaces",
+        "接口"
+      ],
+      [
+        "Требования реального времени",
+        "Real time requirements",
+        "实时要求"
+      ],
+      [
+        "Надёжность и обработка ошибок",
+        "Reliability and error handling",
+        "可靠性与错误处理"
+      ],
+      [
+        "Безопасность",
+        "Security",
+        "安全"
+      ],
+      [
+        "Ограничения ресурсов",
+        "Resource constraints",
+        "资源约束"
+      ]
+    ]
+  },
+  "arch_doc": {
+    "title": [
+      "Описание архитектуры прошивки",
+      "Firmware architecture description",
+      "固件架构说明"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Структура модулей",
+        "Module structure",
+        "模块结构"
+      ],
+      [
+        "Задачи и приоритеты",
+        "Tasks and priorities",
+        "任务与优先级"
+      ],
+      [
+        "Прерывания",
+        "Interrupts",
+        "中断"
+      ],
+      [
+        "Память",
+        "Memory",
+        "内存"
+      ],
+      [
+        "Режимы питания",
+        "Power modes",
+        "电源模式"
+      ]
+    ]
+  },
+  "program_text": {
+    "title": [
+      "Текст программы",
+      "Program source text",
+      "程序源码"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Состав файлов",
+        "File inventory",
+        "文件组成"
+      ],
+      [
+        "Версия и контрольные суммы",
+        "Version and checksums",
+        "版本与校验值"
+      ],
+      [
+        "Исходный текст",
+        "Source text",
+        "源码"
+      ]
+    ]
+  },
+  "program_description": {
+    "title": [
+      "Описание программы",
+      "Program description",
+      "程序说明"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Общие сведения",
+        "General information",
+        "基本信息"
+      ],
+      [
+        "Функциональное назначение",
+        "Functional purpose",
+        "功能用途"
+      ],
+      [
+        "Логическая структура",
+        "Logical structure",
+        "逻辑结构"
+      ],
+      [
+        "Технические средства",
+        "Technical means",
+        "技术设备"
+      ],
+      [
+        "Входные и выходные данные",
+        "Input and output data",
+        "输入与输出数据"
+      ]
+    ]
+  },
+  "programmer_manual": {
+    "title": [
+      "Руководство программиста",
+      "Programmer manual",
+      "程序员手册"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Назначение",
+        "Purpose",
+        "用途"
+      ],
+      [
+        "Характеристики",
+        "Characteristics",
+        "特性"
+      ],
+      [
+        "Обращение к программе",
+        "Program invocation",
+        "程序调用"
+      ],
+      [
+        "Входные и выходные данные",
+        "Input and output data",
+        "输入与输出数据"
+      ],
+      [
+        "Сообщения",
+        "Messages",
+        "消息"
+      ]
+    ]
+  },
+  "test_program": {
+    "title": [
+      "Программа и методика испытаний ПО",
+      "Software test program and methods",
+      "软件测试方案与方法"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Объект",
+        "Object",
+        "对象"
+      ],
+      [
+        "Цель",
+        "Goal",
+        "目的"
+      ],
+      [
+        "Требования к программе",
+        "Program requirements",
+        "程序需求"
+      ],
+      [
+        "Средства и порядок испытаний",
+        "Test means and order",
+        "测试手段与顺序"
+      ],
+      [
+        "Методы",
+        "Methods",
+        "方法"
+      ]
+    ]
+  },
+  "test_report": {
+    "title": [
+      "Протокол испытаний и отладки",
+      "Test and debug record",
+      "测试与调试记录"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Версия ПО и платы",
+        "Software and board version",
+        "软件与电路板版本"
+      ],
+      [
+        "Тесты",
+        "Tests",
+        "测试"
+      ],
+      [
+        "Результат",
+        "Result",
+        "结果"
+      ],
+      [
+        "Дефекты",
+        "Defects",
+        "缺陷"
+      ]
+    ]
+  },
+  "sdl_pack": {
+    "title": [
+      "Материалы безопасной разработки",
+      "Secure development materials",
+      "安全开发材料"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Модель угроз",
+        "Threat model",
+        "威胁模型"
+      ],
+      [
+        "Перечень сторонних компонентов",
+        "Third party component inventory",
+        "第三方组件清单"
+      ],
+      [
+        "Статический анализ",
+        "Static analysis",
+        "静态分析"
+      ],
+      [
+        "Управление уязвимостями",
+        "Vulnerability management",
+        "漏洞管理"
+      ],
+      [
+        "Безопасное обновление",
+        "Secure update",
+        "安全更新"
+      ]
+    ]
+  },
+  "release_notes": {
+    "title": [
+      "Журнал изменений версии",
+      "Release notes",
+      "版本发布说明"
+    ],
+    "format": "md",
+    "sections": [
+      [
+        "Версия и дата",
+        "Version and date",
+        "版本与日期"
+      ],
+      [
+        "Изменения",
+        "Changes",
+        "变更"
+      ],
+      [
+        "Исправления",
+        "Fixes",
+        "修复"
+      ],
+      [
+        "Совместимость",
+        "Compatibility",
+        "兼容性"
+      ],
+      [
+        "Ограничения",
+        "Limitations",
+        "限制"
+      ],
+      [
+        "Обновление и откат",
+        "Update and rollback",
+        "更新与回滚"
+      ]
+    ]
+  },
+  "pr_registration": {
+    "title": [
+      "Заявка на регистрацию программы для ЭВМ",
+      "Computer program registration draft",
+      "计算机程序登记草稿"
+    ],
+    "format": "docx",
+    "sections": [
+      [
+        "Правообладатель",
+        "Rights holder",
+        "权利人"
+      ],
+      [
+        "Авторы",
+        "Authors",
+        "作者"
+      ],
+      [
+        "Реферат",
+        "Abstract",
+        "摘要"
+      ],
+      [
+        "Депонируемые материалы",
+        "Deposited materials",
+        "存档材料"
+      ]
+    ]
+  }
+}

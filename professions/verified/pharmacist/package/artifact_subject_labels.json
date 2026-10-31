@@ -1,0 +1,1961 @@
+{
+  "fields": {
+    "absolute_difference": [
+      "Абсолютное расхождение",
+      "Absolute difference",
+      "绝对差异"
+    ],
+    "accreditation": [
+      "Аккредитация по документам",
+      "Documented accreditation",
+      "文件所载认证"
+    ],
+    "action": [
+      "Действие",
+      "Action",
+      "措施"
+    ],
+    "activities": [
+      "Учебные мероприятия",
+      "Education activities",
+      "培训活动"
+    ],
+    "actual": [
+      "Фактические записи",
+      "Observed records",
+      "实际记录"
+    ],
+    "actual_excursion_duration_minutes": [
+      "Установленная длительность отклонения в минутах",
+      "Established excursion duration in minutes",
+      "已证实超限分钟数"
+    ],
+    "assisted_draft": [
+      "Вспомогательный черновик",
+      "Assisted draft",
+      "辅助草稿"
+    ],
+    "authenticity": [
+      "Подлинность",
+      "Authenticity",
+      "真实性"
+    ],
+    "awareness_date": [
+      "Дата получения сведений о реакции",
+      "Awareness date",
+      "获悉反应日期"
+    ],
+    "batch_released": [
+      "Серия допущена к выпуску",
+      "Batch released",
+      "已放行批次"
+    ],
+    "benefit": [
+      "Льготный рецепт по вводу",
+      "Supplied benefit prescription flag",
+      "输入优惠处方标志"
+    ],
+    "benefit_expected": [
+      "Льготная категория выбранного правила",
+      "Selected rule benefit category",
+      "所选规则优惠类别"
+    ],
+    "calendar_reference": [
+      "Источник календаря",
+      "Calendar reference",
+      "日历来源"
+    ],
+    "candidate_deadline": [
+      "Условная дата сообщения",
+      "Conditional reporting date",
+      "条件报告日期"
+    ],
+    "case_scope": [
+      "Категория случая в выбранном правиле",
+      "Selected rule case scope",
+      "所选规则病例范围"
+    ],
+    "category": [
+      "Категория",
+      "Category",
+      "类别"
+    ],
+    "category_max_net": [
+      "Верхняя граница категории без НДС",
+      "Category upper bound excluding VAT",
+      "类别未税上限"
+    ],
+    "category_min_net": [
+      "Нижняя граница категории без НДС",
+      "Category lower bound excluding VAT",
+      "类别未税下限"
+    ],
+    "causal_link": [
+      "Причинная связь",
+      "Causal link",
+      "因果关系"
+    ],
+    "channel": [
+      "Канал рецепта",
+      "Prescription channel",
+      "处方渠道"
+    ],
+    "channels": [
+      "Каналы выбранного правила",
+      "Selected rule channels",
+      "所选规则渠道"
+    ],
+    "checks": [
+      "Наблюдения контроля",
+      "Control observations",
+      "核查观察"
+    ],
+    "chronology": [
+      "Хронология",
+      "Chronology",
+      "时间线"
+    ],
+    "chronology_conflicts": [
+      "Противоречия хронологии",
+      "Chronology conflicts",
+      "时间线冲突"
+    ],
+    "clock": [
+      "Вид дней срока",
+      "Deadline day type",
+      "期限日历类型"
+    ],
+    "code": [
+      "Код признака",
+      "Finding code",
+      "发现代码"
+    ],
+    "code_display": [
+      "Код маркировки в безопасном отображении",
+      "Safely displayed marking code",
+      "安全显示的标识代码"
+    ],
+    "comparison_unit": [
+      "Единица сопоставления",
+      "Comparison unit",
+      "比较单位"
+    ],
+    "completeness_gaps": [
+      "Недостающие сведения случая",
+      "Case completeness gaps",
+      "病例资料缺口"
+    ],
+    "concentration": [
+      "Расчётная концентрация",
+      "Calculated concentration",
+      "计算浓度"
+    ],
+    "concomitants": [
+      "Сопутствующие препараты",
+      "Concomitant medicines",
+      "合并用药"
+    ],
+    "conditional_ceiling_display": [
+      "Условный предел с округлением для показа",
+      "Conditional ceiling rounded for display",
+      "显示用舍入条件上限"
+    ],
+    "conditional_ceiling_unrounded": [
+      "Условный предел без округления",
+      "Unrounded conditional ceiling",
+      "未舍入条件上限"
+    ],
+    "conditional_on_selected_rule_and_calendar": [
+      "Зависит от выбранного правила и календаря",
+      "Conditional on selected rule and calendar",
+      "取决于所选规则及日历"
+    ],
+    "conditional_submission_target": [
+      "Условная плановая дата подачи",
+      "Conditional submission planning date",
+      "条件计划提交日期"
+    ],
+    "conditional_valid_through": [
+      "Условная дата окончания срока",
+      "Conditional validity end date",
+      "条件有效期截止日期"
+    ],
+    "control_id": [
+      "Идентификатор требования",
+      "Control identifier",
+      "要求编号"
+    ],
+    "control_rule": [
+      "Выбранное правило контроля",
+      "Selected control rule",
+      "所选控制规则"
+    ],
+    "corrective_actions": [
+      "Корректирующие действия",
+      "Corrective actions",
+      "纠正措施"
+    ],
+    "count_start": [
+      "Начальный день включён",
+      "Start day included",
+      "计入起始日"
+    ],
+    "counted_dates": [
+      "Учтённые рабочие даты",
+      "Counted working dates",
+      "已计工作日期"
+    ],
+    "crypto_status": [
+      "Криптографическая проверка",
+      "Cryptographic check status",
+      "密码验证状态"
+    ],
+    "cycle_start": [
+      "Начало цикла",
+      "Cycle start",
+      "周期开始"
+    ],
+    "days": [
+      "Число дней",
+      "Day count",
+      "天数"
+    ],
+    "deadline": [
+      "Условная крайняя дата",
+      "Conditional deadline",
+      "条件截止日期"
+    ],
+    "deadline_basis": [
+      "Основание условного срока",
+      "Conditional deadline basis",
+      "条件期限依据"
+    ],
+    "deadline_overdue_at_as_of": [
+      "Условный срок прошёл на дату анализа",
+      "Conditional deadline passed on analysis date",
+      "分析日条件期限已过"
+    ],
+    "decision_date": [
+      "Дата решения источника",
+      "Source decision date",
+      "来源决定日期"
+    ],
+    "decision_scope": [
+      "Граница вывода инструмента",
+      "Tool conclusion scope",
+      "工具结论范围"
+    ],
+    "deferred": [
+      "Отсроченное обслуживание",
+      "Deferred service",
+      "延迟服务"
+    ],
+    "delivery_mode": [
+      "Форма обучения",
+      "Learning mode",
+      "教学方式"
+    ],
+    "derived_from_ingredient_and_final_quantity": [
+      "Рассчитано из ингредиента и итогового количества",
+      "Derived from ingredient and final quantity",
+      "根据成分及总量计算"
+    ],
+    "difference_from_final": [
+      "Расхождение с итогом",
+      "Difference from final total",
+      "与总量差异"
+    ],
+    "dimension_comparable": [
+      "Размерности сопоставимы",
+      "Dimensions comparable",
+      "量纲可比较"
+    ],
+    "discrepancies": [
+      "Расхождения",
+      "Discrepancies",
+      "差异"
+    ],
+    "discrepancy": [
+      "Несоответствие",
+      "Discrepancy",
+      "差异"
+    ],
+    "dispensing_performed": [
+      "Отпуск выполнен",
+      "Dispensing performed",
+      "已发药"
+    ],
+    "distance_mode_not_automatically_disqualified": [
+      "Дистанционная форма не исключена автоматически",
+      "Distance mode not automatically disqualified",
+      "不自动排除远程教学"
+    ],
+    "document_id": [
+      "Идентификатор документа",
+      "Document identifier",
+      "文件编号"
+    ],
+    "document_inventory": [
+      "Перечень документов",
+      "Document inventory",
+      "文件清单"
+    ],
+    "documented_interactions": [
+      "Взаимодействия в выбранных инструкциях",
+      "Interactions in selected instructions",
+      "所选说明书中的相互作用"
+    ],
+    "documented_other_nmo_hours": [
+      "Прочие документированные часы НМО",
+      "Other documented education hours",
+      "其他有证明继续教育学时"
+    ],
+    "documented_pk_hours": [
+      "Документированные часы повышения квалификации",
+      "Documented advanced training hours",
+      "有证明进修学时"
+    ],
+    "documented_total_hours": [
+      "Всего документированных часов",
+      "Total documented hours",
+      "有证明学时合计"
+    ],
+    "documented_zet": [
+      "ЗЕТ по выбранным документам",
+      "Credits in selected documents",
+      "所选文件学分"
+    ],
+    "draft_case": [
+      "Черновик сведений о случае",
+      "Draft case details",
+      "病例资料草稿"
+    ],
+    "draft_plan": [
+      "Черновик плана СОП",
+      "Draft procedure plan",
+      "程序计划草稿"
+    ],
+    "drug_start_date": [
+      "Дата начала применения",
+      "Medicine start date",
+      "开始用药日期"
+    ],
+    "due_date": [
+      "Плановый срок",
+      "Planned due date",
+      "计划截止日期"
+    ],
+    "education_level": [
+      "Уровень образования",
+      "Education level",
+      "教育层次"
+    ],
+    "elapsed_minutes": [
+      "Интервал между наблюдениями в минутах",
+      "Observation interval in minutes",
+      "观察间隔分钟数"
+    ],
+    "end": [
+      "Конец интервала",
+      "Interval end",
+      "间隔结束"
+    ],
+    "ended": [
+      "Дата окончания обучения",
+      "Training end date",
+      "培训结束日期"
+    ],
+    "endpoint_excursion_observed": [
+      "В конечных точках наблюдалось отклонение",
+      "Excursion observed at endpoints",
+      "端点观察到超限"
+    ],
+    "event": [
+      "Событие",
+      "Event",
+      "事件"
+    ],
+    "exceeds_selected_tolerance": [
+      "Превышение выбранного допуска",
+      "Selected tolerance exceeded",
+      "超过所选允差"
+    ],
+    "exclusive_expiry": [
+      "Момент окончания срока не включается",
+      "Exclusive expiry instant",
+      "不计入的到期时刻"
+    ],
+    "excursion_observed": [
+      "Отклонение наблюдалось",
+      "Excursion observed",
+      "观察到超限"
+    ],
+    "expected": [
+      "Ожидаемые записи",
+      "Expected records",
+      "预期记录"
+    ],
+    "experience_months": [
+      "Стаж в месяцах по вводу",
+      "Supplied experience in months",
+      "输入工作月数"
+    ],
+    "expired_at_observation": [
+      "Срок истёк к моменту наблюдения",
+      "Expired at observation",
+      "观察时已到期"
+    ],
+    "expired_on_analysis_date": [
+      "Срок истёк на дату анализа",
+      "Expired on analysis date",
+      "分析日已到期"
+    ],
+    "expiry_rows": [
+      "Проверка маркированных сроков годности",
+      "Labelled expiry review",
+      "标签有效期核查"
+    ],
+    "external_network_used": [
+      "Внешняя сеть использована",
+      "External network used",
+      "使用外部网络"
+    ],
+    "final_absolute_difference": [
+      "Абсолютное расхождение итога",
+      "Final absolute difference",
+      "总量绝对差异"
+    ],
+    "final_exceeds_selected_tolerance": [
+      "Итог превышает выбранный допуск",
+      "Final total exceeds selected tolerance",
+      "总量超过所选允差"
+    ],
+    "final_relative_difference": [
+      "Относительное расхождение итога",
+      "Final relative difference",
+      "总量相对差异"
+    ],
+    "final_unit": [
+      "Единица итога",
+      "Final unit",
+      "总量单位"
+    ],
+    "findings": [
+      "Обнаруженные расхождения и вопросы",
+      "Findings and review questions",
+      "发现及审核问题"
+    ],
+    "form": [
+      "Форма",
+      "Form",
+      "形式"
+    ],
+    "format": [
+      "Распознанный формат",
+      "Recognised format",
+      "识别格式"
+    ],
+    "forms": [
+      "Формы выбранного правила",
+      "Selected rule forms",
+      "所选规则形式"
+    ],
+    "formulation_changed": [
+      "Состав изменён",
+      "Formulation changed",
+      "已修改配方"
+    ],
+    "gtin": [
+      "GTIN",
+      "GTIN",
+      "GTIN"
+    ],
+    "gtin_check_digit": [
+      "Контрольная цифра GTIN",
+      "GTIN check digit",
+      "GTIN校验位"
+    ],
+    "hours": [
+      "Часы по документу",
+      "Documented hours",
+      "文件学时"
+    ],
+    "human_review_required": [
+      "Требуется проверка специалистом",
+      "Human review required",
+      "需要专业审核"
+    ],
+    "humidity": [
+      "Относительная влажность в процентах",
+      "Relative humidity percent",
+      "相对湿度百分数"
+    ],
+    "humidity_max": [
+      "Верхний предел влажности в процентах",
+      "Humidity upper bound percent",
+      "湿度百分数上限"
+    ],
+    "humidity_min": [
+      "Нижний предел влажности в процентах",
+      "Humidity lower bound percent",
+      "湿度百分数下限"
+    ],
+    "humidity_outside": [
+      "Влажность вне выбранных пределов",
+      "Humidity outside selected bounds",
+      "湿度超出所选范围"
+    ],
+    "included_in_documented_total": [
+      "Включено в документированный итог",
+      "Included in documented total",
+      "纳入有证明合计"
+    ],
+    "ingredient_checks": [
+      "Сопоставление ингредиентов",
+      "Ingredient comparisons",
+      "成分比较"
+    ],
+    "ingredient_duplicates": [
+      "Дублирование действующих веществ",
+      "Active ingredient duplication",
+      "活性成分重复"
+    ],
+    "ingredient_sum_checks": [
+      "Сопоставление суммы с итогом",
+      "Ingredient sum comparisons",
+      "成分之和比较"
+    ],
+    "ingredients": [
+      "Ингредиенты",
+      "Ingredients",
+      "成分"
+    ],
+    "inn": [
+      "МНН действующего вещества",
+      "International nonproprietary name",
+      "活性成分通用名"
+    ],
+    "inpatient_only": [
+      "Применение только в стационаре по вводу",
+      "Supplied inpatient only flag",
+      "输入仅住院使用标志"
+    ],
+    "instruction": [
+      "Выбранная инструкция",
+      "Selected instruction",
+      "所选说明书"
+    ],
+    "interpolation_used": [
+      "Интерполяция использована",
+      "Interpolation used",
+      "已使用插值"
+    ],
+    "inventory_topics_without_selected_requirement": [
+      "Темы без выбранного требования",
+      "Topics without a selected requirement",
+      "未选择要求的主题"
+    ],
+    "issue_date": [
+      "Дата выписки",
+      "Issue date",
+      "开具日期"
+    ],
+    "item_id": [
+      "Идентификатор позиции",
+      "Item identifier",
+      "品项编号"
+    ],
+    "items": [
+      "Позиции",
+      "Items",
+      "品项"
+    ],
+    "jurisdiction": [
+      "Юрисдикция",
+      "Jurisdiction",
+      "司法辖区"
+    ],
+    "label_value": [
+      "Срок как указан на маркировке",
+      "Expiry as labelled",
+      "标签所示有效期"
+    ],
+    "local_id": [
+      "Локальный идентификатор",
+      "Local identifier",
+      "本地编号"
+    ],
+    "lower": [
+      "Нижний предел",
+      "Lower bound",
+      "下限"
+    ],
+    "manufacturer_actual_net": [
+      "Фактическая цена производителя без НДС",
+      "Actual manufacturer price excluding VAT",
+      "实际未税出厂价"
+    ],
+    "marking": [
+      "Маркировка",
+      "Labelling",
+      "标签"
+    ],
+    "max_gap_minutes": [
+      "Выбранный допустимый интервал наблюдений в минутах",
+      "Selected maximum observation interval minutes",
+      "所选最大观察间隔分钟数"
+    ],
+    "max_quantity": [
+      "Выбранное предельное количество",
+      "Selected maximum quantity",
+      "所选最大数量"
+    ],
+    "maximum": [
+      "Наблюдаемый максимум",
+      "Observed maximum",
+      "观察最大值"
+    ],
+    "measurement_gap": [
+      "Пробел наблюдений",
+      "Observation gap",
+      "观察缺口"
+    ],
+    "medicine_ids": [
+      "Идентификаторы препаратов",
+      "Medicine identifiers",
+      "药品编号"
+    ],
+    "medicines": [
+      "Препараты",
+      "Medicines",
+      "药品"
+    ],
+    "min_experience_months": [
+      "Требуемый стаж в месяцах по выбранному правилу",
+      "Selected minimum experience months",
+      "所选最低工作月数"
+    ],
+    "minimum": [
+      "Наблюдаемый минимум",
+      "Observed minimum",
+      "观察最小值"
+    ],
+    "minimum_case_gaps": [
+      "Недостающие минимальные сведения случая",
+      "Minimum case gaps",
+      "最低病例要素缺口"
+    ],
+    "missing_control_documents": [
+      "Требования без подходящего документа",
+      "Controls without a matching document",
+      "无匹配文件的要求"
+    ],
+    "missing_corrective_actions": [
+      "Требования без корректирующего действия",
+      "Controls without corrective action",
+      "无纠正措施的要求"
+    ],
+    "missing_fields": [
+      "Недостающие реквизиты",
+      "Missing required fields",
+      "缺失必填项"
+    ],
+    "missing_topics": [
+      "Темы без выбранной выдержки",
+      "Topics without selected excerpts",
+      "无所选摘录的主题"
+    ],
+    "missing_training_specialties": [
+      "Недостающие направления обучения",
+      "Missing training specialties",
+      "缺少培训专业"
+    ],
+    "not_after": [
+      "Выбранный срок действия до",
+      "Selected valid through date",
+      "所选有效截止日期"
+    ],
+    "observation_interval_only": [
+      "Только интервал наблюдений",
+      "Observation interval only",
+      "仅观察间隔"
+    ],
+    "observation_at": [
+      "Момент оценки срока годности",
+      "Expiry observation timestamp",
+      "有效期观察时刻"
+    ],
+    "expiry": [
+      "Срок годности с выбранной семантикой",
+      "Expiry with selected semantics",
+      "含所选语义的有效期"
+    ],
+    "expiry_date": [
+      "Дата окончания срока по исходной записи",
+      "Expiry date in source record",
+      "来源记录截止日期"
+    ],
+    "expiry_text": [
+      "Исходный текст срока",
+      "Literal expiry text",
+      "到期原文"
+    ],
+    "observed_wholesale_delta_net": [
+      "Наблюдаемая оптовая разница без НДС",
+      "Observed wholesale difference excluding VAT",
+      "观察未税批发差额"
+    ],
+    "occurrence": [
+      "Присутствие текста в выбранном фрагменте",
+      "Text occurrence in selected excerpt",
+      "文本在所选片段出现"
+    ],
+    "ongoing": [
+      "Применение продолжается по вводу",
+      "Ongoing use as supplied",
+      "输入仍在用药"
+    ],
+    "onset_date": [
+      "Дата начала реакции",
+      "Reaction onset date",
+      "反应开始日期"
+    ],
+    "operation": [
+      "Операция",
+      "Operation",
+      "操作"
+    ],
+    "organization_scope": [
+      "Область деятельности организации",
+      "Organisation scope",
+      "机构活动范围"
+    ],
+    "outcome": [
+      "Исход по сообщению",
+      "Reported outcome",
+      "报告结局"
+    ],
+    "output_vat": [
+      "Расчётный исходящий НДС",
+      "Calculated output VAT",
+      "计算销项增值税"
+    ],
+    "output_vat_rate": [
+      "Выбранная ставка исходящего НДС",
+      "Selected output VAT rate",
+      "所选销项税率"
+    ],
+    "overdue_at_as_of": [
+      "Плановый срок прошёл к дате анализа",
+      "Planned date passed on analysis date",
+      "分析日计划日期已过"
+    ],
+    "owner": [
+      "Ответственный по вводу",
+      "Supplied owner",
+      "输入责任人"
+    ],
+    "packaging": [
+      "Упаковка",
+      "Packaging",
+      "包装"
+    ],
+    "pairs_without_selected_interaction": [
+      "Пары без выбранного сведения о взаимодействии",
+      "Pairs without selected interaction evidence",
+      "无所选相互作用证据的药品对"
+    ],
+    "parse_status": [
+      "Результат структурного разбора",
+      "Structure parsing status",
+      "结构解析状态"
+    ],
+    "patient": [
+      "Пациент по локальным данным",
+      "Local patient record",
+      "本地患者记录"
+    ],
+    "person": [
+      "Сведения о специалисте",
+      "Specialist information",
+      "专业人员信息"
+    ],
+    "pk_hours_gap": [
+      "Недостающие часы повышения квалификации",
+      "Advanced training hours gap",
+      "进修学时缺口"
+    ],
+    "pk_hours_min": [
+      "Минимум часов повышения квалификации по правилу",
+      "Selected minimum advanced training hours",
+      "所选进修最低学时"
+    ],
+    "pku": [
+      "ПКУ по вводу",
+      "Supplied controlled record flag",
+      "输入特殊登记标志"
+    ],
+    "pku_expected": [
+      "ПКУ по выбранному правилу",
+      "Selected rule controlled record flag",
+      "所选规则特殊登记标志"
+    ],
+    "ppk_text": [
+      "Исходная запись ППК",
+      "Original preparation control text",
+      "原配制控制记录"
+    ],
+    "prescribed": [
+      "По прописи",
+      "Prescribed quantity",
+      "处方量"
+    ],
+    "prescribed_total": [
+      "Итог по прописи",
+      "Prescribed total",
+      "处方总量"
+    ],
+    "prescription": [
+      "Рецепт по вводу",
+      "Supplied prescription",
+      "输入处方"
+    ],
+    "prescription_id": [
+      "Идентификатор рецепта",
+      "Prescription identifier",
+      "处方编号"
+    ],
+    "prescription_text": [
+      "Исходная пропись",
+      "Original prescription formulation",
+      "原处方配方"
+    ],
+    "present_fields": [
+      "Предоставленные реквизиты",
+      "Supplied fields",
+      "已提供字段"
+    ],
+    "price_components": [
+      "Компоненты расчёта цены",
+      "Price calculation components",
+      "价格计算组成"
+    ],
+    "prices": [
+      "Исходные цены",
+      "Input prices",
+      "输入价格"
+    ],
+    "private": [
+      "Локальные закрытые данные",
+      "Private local data",
+      "本地私密数据"
+    ],
+    "proposed_gross": [
+      "Предложенная цена с НДС",
+      "Proposed price including VAT",
+      "拟议含税价格"
+    ],
+    "proposed_minus_ceiling": [
+      "Предложенная цена минус условный предел",
+      "Proposed price minus conditional ceiling",
+      "拟议价减条件上限"
+    ],
+    "publication_date": [
+      "Дата публикации источника",
+      "Source publication date",
+      "来源发布日期"
+    ],
+    "purchase_base": [
+      "База закупки для выбранной модели",
+      "Purchase base in selected model",
+      "所选模型采购基数"
+    ],
+    "purchase_gross": [
+      "Закупочная цена с НДС",
+      "Purchase price including VAT",
+      "含税采购价"
+    ],
+    "purchase_net": [
+      "Закупочная цена без НДС",
+      "Purchase price excluding VAT",
+      "未税采购价"
+    ],
+    "purchase_vat": [
+      "НДС закупки",
+      "Purchase VAT",
+      "采购增值税"
+    ],
+    "qualification_granted": [
+      "Квалификационный статус присвоен",
+      "Qualification granted",
+      "已授予资格"
+    ],
+    "qualification_rule": [
+      "Выбранные квалификационные требования",
+      "Selected qualification requirements",
+      "所选资格要求"
+    ],
+    "quantity": [
+      "Количество",
+      "Quantity",
+      "数量"
+    ],
+    "quantity_unit": [
+      "Единица количества",
+      "Quantity unit",
+      "数量单位"
+    ],
+    "quarantine_review_required": [
+      "Требуется рассмотрение вопроса карантина",
+      "Quarantine review required",
+      "需要隔离审核"
+    ],
+    "reaction": [
+      "Сообщённая реакция",
+      "Reported reaction",
+      "报告反应"
+    ],
+    "readings": [
+      "Измерения",
+      "Readings",
+      "测量记录"
+    ],
+    "record": [
+      "Вид записи",
+      "Record kind",
+      "记录类型"
+    ],
+    "recorded": [
+      "По записи контроля",
+      "Recorded quantity",
+      "记录量"
+    ],
+    "recorded_total": [
+      "Итог по записи",
+      "Recorded total",
+      "记录总量"
+    ],
+    "records": [
+      "Регистры и записи",
+      "Records",
+      "日志与记录"
+    ],
+    "region": [
+      "Регион",
+      "Region",
+      "地区"
+    ],
+    "regional_rule": [
+      "Выбранное региональное правило",
+      "Selected regional rule",
+      "所选地区规则"
+    ],
+    "registered_cap_net": [
+      "Зарегистрированный предел без НДС",
+      "Registered ceiling excluding VAT",
+      "登记未税上限"
+    ],
+    "registration_number": [
+      "Регистрационный номер",
+      "Registration number",
+      "注册号"
+    ],
+    "relative_difference": [
+      "Относительное расхождение",
+      "Relative difference",
+      "相对差异"
+    ],
+    "relative_tolerance": [
+      "Выбранный относительный допуск",
+      "Selected relative tolerance",
+      "所选相对允差"
+    ],
+    "release_decision": [
+      "Решение о допуске серии",
+      "Batch release decision",
+      "批次放行决定"
+    ],
+    "report": [
+      "Сведения об отчёте",
+      "Report details",
+      "报告资料"
+    ],
+    "report_statuses": [
+      "Состояния отчёта по выбранному правилу",
+      "Selected rule report states",
+      "所选规则报告状态"
+    ],
+    "report_submitted": [
+      "Сообщение отправлено",
+      "Report submitted",
+      "已提交报告"
+    ],
+    "reporter": [
+      "Сообщивший по локальным данным",
+      "Local reporter record",
+      "本地报告人记录"
+    ],
+    "reporter_scope": [
+      "Роль сообщившего",
+      "Reporter scope",
+      "报告人范围"
+    ],
+    "requested_quantity": [
+      "Запрошенное количество",
+      "Requested quantity",
+      "申请数量"
+    ],
+    "required_controls": [
+      "Выбранные требования",
+      "Selected controls",
+      "所选要求"
+    ],
+    "required_fields": [
+      "Требуемые реквизиты",
+      "Required fields",
+      "必填项"
+    ],
+    "required_training_specialties": [
+      "Направления обучения по правилу",
+      "Selected required training specialties",
+      "所选必需培训专业"
+    ],
+    "retail_markup_base": [
+      "База розничной надбавки",
+      "Retail markup base",
+      "零售加价基数"
+    ],
+    "retail_rate": [
+      "Выбранная розничная надбавка доля",
+      "Selected retail markup ratio",
+      "所选零售加价比例"
+    ],
+    "review_date": [
+      "Дата пересмотра по вводу",
+      "Supplied review date",
+      "输入复核日期"
+    ],
+    "review_due": [
+      "Наступила дата пересмотра",
+      "Review date reached",
+      "已到复核日期"
+    ],
+    "role": [
+      "Роль или должность",
+      "Role or position",
+      "角色或岗位"
+    ],
+    "rule": [
+      "Выбранное правило",
+      "Selected rule",
+      "所选规则"
+    ],
+    "scope_match": [
+      "Области совпадают буквально",
+      "Scopes match literally",
+      "范围字面一致"
+    ],
+    "scope_semantics": [
+      "Смысловая применимость области",
+      "Scope semantic applicability",
+      "范围语义适用性"
+    ],
+    "segments": [
+      "Интервалы наблюдений",
+      "Observation intervals",
+      "观察间隔"
+    ],
+    "selected_claims": [
+      "Выбранные выдержки инструкции",
+      "Selected instruction excerpts",
+      "所选说明书摘录"
+    ],
+    "selected_controls": [
+      "Выбранные выдержки по требованиям",
+      "Selected control excerpts",
+      "所选要求摘录"
+    ],
+    "selected_form": [
+      "Выбранная форма сообщения",
+      "Selected reporting form",
+      "所选报告表格"
+    ],
+    "selected_reporting_rule": [
+      "Выбранное правило сообщения",
+      "Selected reporting rule",
+      "所选报告规则"
+    ],
+    "selected_retail_markup": [
+      "Розничная надбавка по выбранной модели",
+      "Retail markup in selected model",
+      "所选模型零售加价"
+    ],
+    "selected_rule": [
+      "Выбранное правило",
+      "Selected rule",
+      "所选规则"
+    ],
+    "selected_wholesale_limit": [
+      "Оптовый предел по выбранной модели",
+      "Wholesale limit in selected model",
+      "所选模型批发上限"
+    ],
+    "semantic_status": [
+      "Смысловая проверка",
+      "Semantic review status",
+      "语义审核状态"
+    ],
+    "semantics": [
+      "Выбранное толкование даты годности",
+      "Selected expiry semantics",
+      "所选到期日期语义"
+    ],
+    "serial_display": [
+      "Серийная часть кода в безопасном отображении",
+      "Safely displayed serial component",
+      "安全显示的序列部分"
+    ],
+    "series": [
+      "Серия",
+      "Batch",
+      "批号"
+    ],
+    "seriousness": [
+      "Сообщённые признаки серьёзности",
+      "Reported seriousness characteristics",
+      "报告严重性特征"
+    ],
+    "side": [
+      "Сторона сопоставления",
+      "Comparison side",
+      "比较侧"
+    ],
+    "signature_applied": [
+      "Подпись применена",
+      "Signature applied",
+      "已签名"
+    ],
+    "snapshot_age_days": [
+      "Возраст выбранного снимка в днях",
+      "Selected snapshot age in days",
+      "所选快照天数"
+    ],
+    "snapshot_coverage": [
+      "Заявленная область снимка",
+      "Declared snapshot coverage",
+      "声明快照范围"
+    ],
+    "snapshot_date": [
+      "Дата выбранного снимка",
+      "Selected snapshot date",
+      "所选快照日期"
+    ],
+    "specialty": [
+      "Специальность по вводу",
+      "Supplied specialty",
+      "输入专业"
+    ],
+    "start": [
+      "Начало интервала",
+      "Interval start",
+      "间隔开始"
+    ],
+    "state": [
+      "Состояние сведений",
+      "Information state",
+      "资料状态"
+    ],
+    "status_codes": [
+      "Коды служебного результата",
+      "Result status codes",
+      "结果状态代码"
+    ],
+    "status_reference": [
+      "Источник заявленного статуса",
+      "Declared status source",
+      "声明状态来源"
+    ],
+    "strength": [
+      "Дозировка готового препарата",
+      "Product strength",
+      "药品规格"
+    ],
+    "submission_lead_calendar_days": [
+      "Выбранное опережение подачи в календарных днях",
+      "Selected submission lead calendar days",
+      "所选提前提交日历天数"
+    ],
+    "submission_target_kind": [
+      "Вид плановой даты подачи",
+      "Submission target kind",
+      "提交计划日期类型"
+    ],
+    "sum_in_final_unit": [
+      "Сумма в единице итога",
+      "Sum in final unit",
+      "总量单位之和"
+    ],
+    "supplied_status": [
+      "Статус по предоставленной записи",
+      "Supplied status",
+      "所供记录状态"
+    ],
+    "suspected_drug": [
+      "Подозреваемый препарат",
+      "Suspected medicine",
+      "疑似药品"
+    ],
+    "tax_rule": [
+      "Выбранная налоговая модель",
+      "Selected tax model",
+      "所选税务模型"
+    ],
+    "taxable_base": [
+      "Расчётная база исходящего налога",
+      "Calculated output tax base",
+      "计算销项税基"
+    ],
+    "temperature": [
+      "Температура в градусах Цельсия",
+      "Temperature degrees Celsius",
+      "温度摄氏度"
+    ],
+    "temperature_max": [
+      "Верхний предел температуры Цельсий",
+      "Temperature upper bound Celsius",
+      "温度摄氏度上限"
+    ],
+    "temperature_min": [
+      "Нижний предел температуры Цельсий",
+      "Temperature lower bound Celsius",
+      "温度摄氏度下限"
+    ],
+    "temperature_outside": [
+      "Температура вне выбранных пределов",
+      "Temperature outside selected bounds",
+      "温度超出所选范围"
+    ],
+    "temperature_result": [
+      "Сопоставление температуры",
+      "Temperature comparison",
+      "温度比较"
+    ],
+    "timestamp": [
+      "Метка времени",
+      "Timestamp",
+      "时间戳"
+    ],
+    "timezone_offset": [
+      "Фиксированное смещение часового пояса",
+      "Fixed timezone offset",
+      "固定时区偏移"
+    ],
+    "title": [
+      "Наименование документа или требования",
+      "Document or requirement title",
+      "文件或要求名称"
+    ],
+    "total_hours_gap": [
+      "Недостающее число часов",
+      "Total hours gap",
+      "总学时缺口"
+    ],
+    "total_hours_min": [
+      "Выбранный минимум часов",
+      "Selected minimum hours",
+      "所选最低学时"
+    ],
+    "trade_name": [
+      "Торговое название",
+      "Trade name",
+      "商品名"
+    ],
+    "training_specialties": [
+      "Документированные направления обучения",
+      "Documented training specialties",
+      "有证明培训专业"
+    ],
+    "transport": [
+      "Перевозка по выбранным данным",
+      "Selected transport observations",
+      "所选运输观察"
+    ],
+    "trigger": [
+      "Начальное событие срока",
+      "Deadline trigger",
+      "期限触发事件"
+    ],
+    "upper": [
+      "Верхний предел",
+      "Upper bound",
+      "上限"
+    ],
+    "valid_days": [
+      "Выбранное число дней действия",
+      "Selected validity day count",
+      "所选有效天数"
+    ],
+    "valid_through": [
+      "Действует до по вводу",
+      "Supplied valid through date",
+      "输入有效截止日期"
+    ],
+    "validity_count_issue_day": [
+      "День выписки включён в срок",
+      "Issue day included in validity",
+      "有效期计入开具日"
+    ],
+    "version": [
+      "Версия по вводу",
+      "Supplied version",
+      "输入版本"
+    ],
+    "volume_additivity_not_established": [
+      "Аддитивность объёмов не установлена",
+      "Volume additivity not established",
+      "未确定体积可加性"
+    ],
+    "wholesale_rate": [
+      "Выбранная оптовая надбавка доля",
+      "Selected wholesale markup ratio",
+      "所选批发加价比例"
+    ],
+    "withdrawal_matches": [
+      "Совпадения в выбранном снимке изъятий",
+      "Matches in selected withdrawal snapshot",
+      "所选撤回快照匹配"
+    ],
+    "withdrawal_status": [
+      "Результат поиска в выбранном снимке",
+      "Selected snapshot search result",
+      "所选快照搜索结果"
+    ],
+    "within_alert_horizon": [
+      "В пределах выбранного горизонта предупреждения",
+      "Within selected warning horizon",
+      "在所选预警期间内"
+    ],
+    "workdays": [
+      "Выбранное число рабочих дней",
+      "Selected working day count",
+      "所选工作日数"
+    ],
+    "zet": [
+      "ЗЕТ по документу",
+      "Documented credits",
+      "文件学分"
+    ],
+    "zet_not_equated_to_hours": [
+      "ЗЕТ не приравнены к часам",
+      "Credits not equated to hours",
+      "学分未等同学时"
+    ],
+    "record_index": [
+      "Номер записи",
+      "Record number",
+      "记录序号"
+    ],
+    "selected_value": [
+      "Выбранное значение",
+      "Selected value",
+      "所选值"
+    ],
+    "responsible": [
+      "Ответственный",
+      "Responsible person",
+      "责任人"
+    ],
+    "amount": [
+      "Количество",
+      "Quantity",
+      "数量"
+    ],
+    "signature": [
+      "Фактическая подпись",
+      "Actual signature",
+      "实际签名"
+    ],
+    "signatures": [
+      "Фактические подписи",
+      "Actual signatures",
+      "实际签名"
+    ],
+    "location": [
+      "Место измерений",
+      "Measurement location",
+      "测量位置"
+    ],
+    "number": [
+      "Номер записи",
+      "Record number",
+      "记录号"
+    ],
+    "workplace": [
+      "Место работы",
+      "Workplace",
+      "工作单位"
+    ],
+    "dispensing_date": [
+      "Фактическая дата отпуска",
+      "Actual dispensing date",
+      "实际发药日期"
+    ],
+    "zones": [
+      "Зоны хранения",
+      "Storage zones",
+      "储存区"
+    ],
+    "start_date": [
+      "Дата начала отсчёта",
+      "Counting start date",
+      "计数起始日期"
+    ],
+    "contact_date": [
+      "Дата обращения",
+      "Request date",
+      "申请日期"
+    ],
+    "activity_description": [
+      "Описание профессиональной деятельности",
+      "Professional activity description",
+      "专业活动描述"
+    ],
+    "product": [
+      "Препарат по вводу",
+      "Supplied medicine",
+      "输入药品"
+    ],
+    "context_gaps": [
+      "Недостающие сведения контекста",
+      "Context information gaps",
+      "上下文资料缺口"
+    ],
+    "purpose": [
+      "Предлагаемая цель",
+      "Proposed purpose",
+      "拟议目的"
+    ],
+    "procedure": [
+      "Предлагаемый порядок",
+      "Proposed procedure",
+      "拟议程序"
+    ],
+    "authorship": [
+      "Статус авторского проекта",
+      "Authored proposal status",
+      "作者提议状态"
+    ],
+    "additional_rules": [
+      "Дополнительные выбранные нормы",
+      "Additional selected rules",
+      "额外所选规则"
+    ],
+    "active_basis": [
+      "Основа содержания действующего вещества",
+      "Active ingredient content basis",
+      "活性成分含量基础"
+    ],
+    "active_fraction": [
+      "Доля действующего вещества по вводу",
+      "Supplied active ingredient fraction",
+      "输入活性成分比例"
+    ],
+    "allowed_delivery_modes": [
+      "Формы обучения по выбранному правилу",
+      "Selected allowed learning modes",
+      "所选允许教学方式"
+    ],
+    "anniversary_policy": [
+      "Выбранное правило календарной годовщины",
+      "Selected calendar anniversary policy",
+      "所选日历周年规则"
+    ],
+    "category_max_inclusive": [
+      "Верхняя граница категории включена",
+      "Category upper bound included",
+      "计入类别上限"
+    ],
+    "category_min_inclusive": [
+      "Нижняя граница категории включена",
+      "Category lower bound included",
+      "计入类别下限"
+    ],
+    "delivery_mismatch_policy": [
+      "Обработка несоответствия формы обучения",
+      "Learning mode mismatch policy",
+      "教学方式不符处理策略"
+    ],
+    "delivery_mode_mismatch": [
+      "Форма обучения не соответствует выбранному правилу",
+      "Learning mode mismatches selected rule",
+      "教学方式不符所选规则"
+    ],
+    "delivery_modes_checked_against_selected_rule": [
+      "Формы обучения сопоставлены с выбранным правилом",
+      "Learning modes compared with selected rule",
+      "教学方式已与所选规则比较"
+    ],
+    "document_identity": [
+      "Наименование выбранного документа",
+      "Selected document identity",
+      "所选文件身份"
+    ],
+    "expiry_boundary": [
+      "Выбранное правило окончания срока",
+      "Selected expiry boundary",
+      "所选到期边界"
+    ],
+    "purchase_minus_manufacturer_net": [
+      "Закупка минус цена производителя без НДС",
+      "Purchase minus manufacturer price excluding VAT",
+      "未税采购价减出厂价"
+    ],
+    "reconciliation_gap_net": [
+      "Невязка протокола цены без НДС",
+      "Price protocol reconciliation gap excluding VAT",
+      "价格协议未税勾稽差额"
+    ],
+    "retrospective_policy": [
+      "Обработка ретроспективной применимости",
+      "Retrospective applicability policy",
+      "追溯适用性策略"
+    ],
+    "rule_review_gaps": [
+      "Вопросы применимости выбранных правил",
+      "Selected rule applicability gaps",
+      "所选规则适用性缺口"
+    ],
+    "selected_wholesale_markup_net": [
+      "Выбранная фактическая оптовая надбавка без НДС",
+      "Selected actual wholesale markup excluding VAT",
+      "所选实际未税批发加价"
+    ],
+    "strength_mg_mL": [
+      "Содержание действующего вещества в мг на мл",
+      "Active ingredient strength mg per mL",
+      "活性成分毫克每毫升"
+    ],
+    "valid_period": [
+      "Выбранная продолжительность действия",
+      "Selected validity period",
+      "所选有效期间"
+    ],
+    "validity_mode": [
+      "Способ отсчёта срока действия",
+      "Validity counting mode",
+      "有效期计数方式"
+    ],
+    "wholesale_markup_net": [
+      "Оптовая надбавка по протоколу без НДС",
+      "Price protocol wholesale markup excluding VAT",
+      "价格协议未税批发加价"
+    ],
+    "wholesale_reference": [
+      "Источник оптовой надбавки",
+      "Wholesale markup source",
+      "批发加价来源"
+    ],
+    "contraindications": [
+      "Противопоказания",
+      "Contraindications",
+      "禁忌"
+    ],
+    "interactions": [
+      "Взаимодействия",
+      "Interactions",
+      "相互作用"
+    ],
+    "dispensing": [
+      "Условия отпуска",
+      "Dispensing conditions",
+      "发药条件"
+    ]
+  },
+  "tokens": {
+    "analysis_only": [
+      "Только вспомогательный анализ",
+      "Assisted analysis only",
+      "仅辅助分析"
+    ],
+    "arithmetic_only_no_formula_dose_or_release_decision": [
+      "Только арифметика без решения о составе дозе или выпуске",
+      "Arithmetic only without formulation dose or release decision",
+      "仅算术不决定配方剂量或放行"
+    ],
+    "record_check_only_no_dispensing_or_substitution_decision": [
+      "Проверка записи без решения об отпуске или замене",
+      "Record review without dispensing or substitution decision",
+      "仅记录核查不决定发药或替换"
+    ],
+    "observations_only_no_batch_fitness_decision": [
+      "Только наблюдения без решения о пригодности серии",
+      "Observations only without batch fitness decision",
+      "仅观察不决定批次适用性"
+    ],
+    "conditional_calculation_only_no_price_approval": [
+      "Условный расчёт без утверждения цены",
+      "Conditional calculation without price approval",
+      "条件计算不批准价格"
+    ],
+    "portfolio_gap_draft_only_no_qualification_or_practice_right": [
+      "Пробелы портфолио без присвоения квалификации или права практики",
+      "Portfolio gaps without qualification or practice rights",
+      "仅材料缺口不授予资格或执业权"
+    ],
+    "comparison_uses_unrounded_decimal_display_half_up_2_places": [
+      "Сравнение без округления показ цены с округлением half up до двух знаков",
+      "Unrounded comparison price display half up to two decimal places",
+      "未舍入比较价格按半入舍入至两位显示"
+    ],
+    "deductible_vat": [
+      "Выбранная модель с вычетом НДС",
+      "Selected deductible VAT model",
+      "所选可抵扣增值税模型"
+    ],
+    "non_deductible_output_vat": [
+      "Выбранная модель без вычета с исходящим НДС",
+      "Selected non deductible model with output VAT",
+      "所选不可抵扣且有销项税模型"
+    ],
+    "non_deductible_no_output_vat": [
+      "Выбранная модель без вычета и без исходящего НДС",
+      "Selected non deductible model without output VAT",
+      "所选不可抵扣且无销项税模型"
+    ],
+    "end_of_day": [
+      "До конца указанного дня",
+      "Through the labelled day",
+      "至标签日期末"
+    ],
+    "end_of_month": [
+      "До конца указанного месяца",
+      "Through the labelled month",
+      "至标签月份末"
+    ],
+    "exclusive_instant": [
+      "Указанный момент не включается",
+      "Labelled instant excluded",
+      "不计标签时刻"
+    ],
+    "selected_calendar_day_planning_assumption": [
+      "Плановое допущение в выбранных календарных днях",
+      "Selected calendar day planning assumption",
+      "所选日历天计划假设"
+    ],
+    "active": [
+      "Действующее вещество",
+      "Active ingredient",
+      "活性成分"
+    ],
+    "excipient": [
+      "Вспомогательное вещество",
+      "Excipient",
+      "辅料"
+    ],
+    "prescription": [
+      "Пропись",
+      "Prescription formulation",
+      "处方配方"
+    ],
+    "ppk": [
+      "ППК",
+      "Preparation control record",
+      "配制控制记录"
+    ],
+    "percent_m_m": [
+      "Массовая доля в процентах",
+      "Mass fraction percent",
+      "质量百分比"
+    ],
+    "pk": [
+      "Повышение квалификации",
+      "Advanced training",
+      "进修"
+    ],
+    "nmo": [
+      "Другое мероприятие НМО",
+      "Other continuing education",
+      "其他继续教育"
+    ],
+    "not_established": [
+      "Не установлено",
+      "Not established",
+      "未确定"
+    ],
+    "not_calculated_without_selected_rule": [
+      "Не рассчитано без выбранного правила",
+      "Not calculated without a selected rule",
+      "无所选规则未计算"
+    ],
+    "dimensions_not_comparable": [
+      "Размерности не сопоставимы",
+      "Dimensions not comparable",
+      "量纲不可比较"
+    ],
+    "not_supplied_end_date": [
+      "Конечная дата не предоставлена",
+      "End date not supplied",
+      "未提供截止日期"
+    ],
+    "calendar_days": [
+      "Календарные дни",
+      "Calendar days",
+      "日历天"
+    ],
+    "calendar_months": [
+      "Календарные месяцы",
+      "Calendar months",
+      "日历月"
+    ],
+    "calendar_years": [
+      "Календарные годы",
+      "Calendar years",
+      "日历年"
+    ],
+    "explicit_date": [
+      "Явно выбранная дата",
+      "Explicit selected date",
+      "明确所选日期"
+    ],
+    "clamp_to_month_end": [
+      "Последний день месяца при отсутствии нужного дня",
+      "Clamp to month end when day is absent",
+      "无对应日时取月末"
+    ],
+    "day_before_anniversary": [
+      "День перед календарной годовщиной",
+      "Day before calendar anniversary",
+      "日历周年前一日"
+    ],
+    "in_person": [
+      "Очно",
+      "In person",
+      "面授"
+    ],
+    "distance": [
+      "Дистанционно",
+      "Distance learning",
+      "远程教学"
+    ],
+    "mixed": [
+      "Смешанная форма",
+      "Blended learning",
+      "混合教学"
+    ],
+    "review_gap": [
+      "Вопрос для проверки применимости",
+      "Applicability review gap",
+      "适用性待核查项"
+    ],
+    "pure_substance": [
+      "Субстанция с явно выбранной долей",
+      "Substance with explicit selected fraction",
+      "有明确所选比例的原料"
+    ],
+    "stock_mass_per_volume": [
+      "Исходный раствор с выбранным содержанием масса на объём",
+      "Stock solution with selected mass per volume strength",
+      "有质量体积浓度的原液"
+    ],
+    "exclude": [
+      "Исключить из условного итога",
+      "Exclude from conditional total",
+      "从条件合计剔除"
+    ],
+    "review": [
+      "Оставить для проверки",
+      "Retain for review",
+      "保留待核查"
+    ],
+    "below_selected_pk_hours": [
+      "Часы повышения квалификации ниже выбранного минимума",
+      "Advanced training hours below selected minimum",
+      "进修学时低于所选最低值"
+    ],
+    "below_selected_total_hours": [
+      "Общие часы ниже выбранного минимума",
+      "Total hours below selected minimum",
+      "总学时低于所选最低值"
+    ],
+    "benefit_classification_mismatch": [
+      "Льготная категория расходится с выбранным правилом",
+      "Benefit category differs from selected rule",
+      "优惠类别与所选规则不符"
+    ],
+    "pku_classification_mismatch": [
+      "Категория ПКУ расходится с выбранным правилом",
+      "Controlled record category differs from selected rule",
+      "特殊登记类别与所选规则不符"
+    ],
+    "missing_prescription_fields": [
+      "Отсутствуют реквизиты выбранного перечня",
+      "Fields from selected list are missing",
+      "缺少所选清单字段"
+    ],
+    "quantity_exceeds_selected_limit": [
+      "Количество выше выбранного предела",
+      "Quantity exceeds selected limit",
+      "数量超过所选上限"
+    ],
+    "inpatient_only_requires_retail_restriction_review": [
+      "Стационарное применение требует проверки ограничений розницы",
+      "Inpatient use requires retail restriction review",
+      "住院使用须核查零售限制"
+    ],
+    "manufacturer_price_outside_selected_category": [
+      "Цена производителя вне выбранной категории",
+      "Manufacturer price outside selected category",
+      "出厂价不在所选类别"
+    ],
+    "price_protocol_reconciliation_gap_requires_review": [
+      "Невязка ценового протокола требует проверки",
+      "Price protocol reconciliation gap requires review",
+      "价格协议勾稽差额需核查"
+    ],
+    "proposed_above_conditional_ceiling": [
+      "Предложенная цена выше условного предела",
+      "Proposed price exceeds conditional ceiling",
+      "拟议价超过条件上限"
+    ],
+    "duplicate_document_or_activity": [
+      "Повтор документа или мероприятия",
+      "Duplicate document or activity",
+      "重复文件或活动"
+    ],
+    "supporting_document_missing": [
+      "Подтверждающий документ не предоставлен",
+      "Supporting document not supplied",
+      "未提供证明文件"
+    ],
+    "selected_training_missing": [
+      "Недостаёт обучения по выбранному требованию",
+      "Selected required training missing",
+      "缺少所选要求培训"
+    ],
+    "delivery_mode_outside_selected_rule": [
+      "Форма обучения вне выбранного перечня",
+      "Learning mode outside selected list",
+      "教学方式不在所选清单"
+    ],
+    "delivery_modes_require_review": [
+      "Формы обучения требуют проверки",
+      "Learning modes require review",
+      "教学方式需核查"
+    ],
+    "flag_only": [
+      "Включить в условный итог с вопросом проверки",
+      "Include in conditional total with review flag",
+      "纳入条件合计并标记待核查"
+    ],
+    "selected_rule_published_after_event_requires_review": [
+      "Правило опубликовано после события требуется проверка",
+      "Rule published after event requires review",
+      "规则晚于事件发布须核查"
+    ],
+    "form_not_in_selected_rule": [
+      "Форма вне выбранного перечня",
+      "Form outside selected list",
+      "形式不在所选清单"
+    ],
+    "channel_not_in_selected_rule": [
+      "Канал вне выбранного перечня",
+      "Channel outside selected list",
+      "渠道不在所选清单"
+    ],
+    "category_mismatch": [
+      "Категория расходится с выбранным правилом",
+      "Category differs from selected rule",
+      "类别与所选规则不符"
+    ],
+    "outside_conditional_validity": [
+      "Обращение вне условного срока действия",
+      "Request outside conditional validity",
+      "申请不在条件有效期"
+    ],
+    "requested_exceeds_prescription_quantity": [
+      "Запрошенное количество выше указанного в рецепте",
+      "Requested quantity exceeds prescription quantity",
+      "申请数量超过处方量"
+    ],
+    "actual_manufacturer_above_registered_cap": [
+      "Фактическая цена производителя выше реестрового предела",
+      "Actual manufacturer price exceeds registered ceiling",
+      "实际出厂价超过登记上限"
+    ],
+    "selected_wholesale_markup_above_selected_limit": [
+      "Выбранная оптовая надбавка выше выбранного предела",
+      "Selected wholesale markup exceeds selected limit",
+      "所选批发加价超过所选上限"
+    ],
+    "outside_observed_accreditation_cycle": [
+      "Вне наблюдаемого цикла аккредитации",
+      "Outside observed accreditation cycle",
+      "不在观察认证周期"
+    ],
+    "specialty_mismatch": [
+      "Специальность расходится с выбранной",
+      "Specialty differs from selected specialty",
+      "专业与所选专业不符"
+    ],
+    "selected_role_mismatch": [
+      "Должность расходится с выбранным требованием",
+      "Role differs from selected requirement",
+      "岗位与所选要求不符"
+    ],
+    "selected_education_level_mismatch": [
+      "Уровень образования расходится с выбранным требованием",
+      "Education level differs from selected requirement",
+      "教育层次与所选要求不符"
+    ],
+    "selected_specialty_mismatch": [
+      "Специальность расходится с выбранным требованием",
+      "Specialty differs from selected requirement",
+      "专业与所选要求不符"
+    ],
+    "accreditation_specialty_mismatch": [
+      "Специальность аккредитации расходится с указанной",
+      "Accreditation specialty differs from supplied specialty",
+      "认证专业与输入专业不符"
+    ],
+    "below_selected_experience": [
+      "Стаж ниже выбранного минимума",
+      "Experience below selected minimum",
+      "经验低于所选最低值"
+    ],
+    "report_status_requires_review": [
+      "Состояние отчёта требует проверки",
+      "Report status requires review",
+      "报告状态须核查"
+    ],
+    "supplied_accreditation_date_passed": [
+      "Указанная дата аккредитации прошла",
+      "Supplied accreditation date passed",
+      "提供的认证日期已过"
+    ],
+    "selected_retroactive_interpretation": [
+      "Явно выбранное ретроспективное толкование",
+      "Explicit selected retrospective interpretation",
+      "明确所选追溯解释"
+    ],
+    "explicit_record_expiry": [
+      "Дата окончания из выбранной записи",
+      "Expiry from selected record",
+      "所选记录截止日期"
+    ],
+    "stock_mass_fraction": [
+      "Исходный препарат с выбранной массовой долей",
+      "Stock preparation with selected mass fraction",
+      "有质量分数的原药"
+    ],
+    "reject_invalid_anniversary": [
+      "Не рассчитывать отсутствующий день годовщины",
+      "Reject a nonexistent anniversary day",
+      "拒绝不存在的周年日"
+    ],
+    "anniversary_inclusive": [
+      "День календарной годовщины включён",
+      "Calendar anniversary day included",
+      "计入日历周年日"
+    ]
+  }
+}

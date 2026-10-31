@@ -1,0 +1,86 @@
+{
+ "schema": "naby-profession/1",
+ "id": "example_profession",
+ "version": "0.1",
+ "status": "community",
+ "license": "Naby Professions License 1.0",
+ "name": {
+  "ru": "Пример профессии",
+  "en": "Example profession",
+  "zh": "职业示例"
+ },
+ "tagline": {
+  "ru": "Коротко: чем помогает",
+  "en": "In short: how it helps",
+  "zh": "简述：能帮什么"
+ },
+ "icon": "🧩",
+ "group": "",
+ "authors": [
+  {
+   "name": "Your Name",
+   "github": "you"
+  }
+ ],
+ "profile": {
+  "system": "Ты — помощник специалиста … Правила: … Никогда не …",
+  "kinds": {
+   "report": "(отч[её]т|report|报告)",
+   "calc": "(расч[её]т|посчитай|calculate|计算)"
+  },
+  "default_kind": "general",
+  "kinds_ru": {
+   "report": "Отчёт",
+   "calc": "Расчёт",
+   "general": "Общий вопрос"
+  },
+  "routing": {
+   "report": [
+    {
+     "match": "anthropic/",
+     "label": "Claude"
+    },
+    {
+     "match": "deepseek",
+     "label": "DeepSeek"
+    }
+   ],
+   "calc": [
+    {
+     "match": "gpt-6",
+     "label": "GPT-6"
+    }
+   ]
+  },
+  "local_kinds": [
+   "calc"
+  ],
+  "quick_starts": [
+   {
+    "label": "Отчёт за месяц",
+    "text": "Составь отчёт за месяц по файлам: "
+   }
+  ],
+  "safety": [
+   "Не выдумывай числа и ссылки — только из документов человека и источников."
+  ],
+  "sources": [
+   {
+    "name": "Официальный источник",
+    "url": "https://example.org"
+   }
+  ],
+  "laws": {
+   "RU": "…",
+   "US": "…",
+   "CN": "…"
+  },
+  "programs": {
+   "list": [
+    {
+     "name": "Microsoft Excel"
+    }
+   ]
+  }
+ }
+}

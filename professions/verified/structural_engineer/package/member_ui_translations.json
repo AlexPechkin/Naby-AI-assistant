@@ -1,0 +1,517 @@
+{
+  "N_compression_positive_Mx_compresses_positive_y_My_compresses_positive_x_Vy_signed": [
+    "N положительно при сжатии Mx сжимает грань положительной y My грань положительной x Vy со знаком",
+    "N compression positive Mx compresses positive y My positive x Vy signed",
+    "N受压为正；Mx压缩正y侧，My压缩正x侧，Vy带符号"
+  ],
+  "downward_N_includes_selfweight_separate_upward_water_Mx_increases_positive_y_pressure_My_increases_positive_x_pressure": [
+    "Сила вниз включает вес вода вверх отдельно Mx повышает давление на положительной y стороне My на положительной x",
+    "Downward force includes self weight water upward separately Mx increases positive y pressure My positive x",
+    "向下力含自重；向上水力单列；Mx增大正y侧压力，My增大正x侧压力"
+  ],
+  "computed_conditional": [
+    "Вычислено по выбранной модели и данным; соответствие и безопасность не установлены",
+    "Computed on selected model and data; compliance and safety are not established",
+    "已按所选模型数据计算；符合性与安全性未确定"
+  ],
+  "missing_input": [
+    "Выбранная проверка не выполнена из-за недостающего ввода",
+    "Selected check not calculated because required input is missing",
+    "因缺少所需输入未执行选定校核"
+  ],
+  "not_supported": [
+    "Проверка за границами поддержанной модели",
+    "Check outside the supported model",
+    "校核超出支持模型范围"
+  ],
+  "not_supplied": [
+    "Исходная запись по этому вопросу не предоставлена",
+    "Source record for this topic was not supplied",
+    "未提供该问题的来源记录"
+  ],
+  "provided": [
+    "Запись предоставлена; достоверность и применимость не установлены",
+    "Record supplied; truth and applicability not established",
+    "已提供记录；真实性与适用性未确定"
+  ],
+  "not_applicable_to_selected_force": [
+    "Сжатая устойчивость не применяется к выбранной несжимающей силе",
+    "Compression buckling not applied to selected noncompressive force",
+    "未对所选非受压力应用受压屈曲校核"
+  ],
+  "not_used_for_selected_timber_model": [
+    "В выбранной модели дерева нормализация стали не используется",
+    "Steel normalisation is not used in selected timber model",
+    "选定木模型不使用钢构件正则化"
+  ],
+  "not_used_for_selected_non_RC_model": [
+    "Не используется в выбранной модели другого материала",
+    "Not used in the selected non-RC material model",
+    "未用于所选非钢筋混凝土材料模型"
+  ],
+  "reinforced_concrete": [
+    "Железобетон",
+    "Reinforced concrete",
+    "钢筋混凝土"
+  ],
+  "steel": [
+    "Сталь",
+    "Steel",
+    "钢"
+  ],
+  "timber": [
+    "Дерево",
+    "Timber",
+    "木材"
+  ],
+  "masonry": [
+    "Каменная кладка",
+    "Masonry",
+    "砌体"
+  ],
+  "rectangle": [
+    "Прямоугольное сечение",
+    "Rectangular section",
+    "矩形截面"
+  ],
+  "doubly_symmetric_I": [
+    "Двусимметричное двутавровое сечение",
+    "Doubly symmetric I section",
+    "双轴对称工字截面"
+  ],
+  "rc_rect_singly_reinforced_flexure": [
+    "Прямоугольное одиночно армированное ЖБ сечение при чистом изгибе",
+    "Rectangular singly reinforced RC pure-flexure section",
+    "纯弯矩形单筋钢筋混凝土截面"
+  ],
+  "steel_elastic_beam": [
+    "Упругая стальная балка без продольной силы",
+    "Elastic steel beam without axial force",
+    "无轴力弹性钢梁"
+  ],
+  "steel_central_axial": [
+    "Центрально нагруженный стальной элемент",
+    "Centrally loaded steel member",
+    "轴心受力钢构件"
+  ],
+  "timber_rect_beam": [
+    "Прямоугольная деревянная балка",
+    "Rectangular timber beam",
+    "矩形木梁"
+  ],
+  "timber_rect_central_axial": [
+    "Прямоугольный центрально нагруженный деревянный элемент",
+    "Rectangular centrally loaded timber member",
+    "矩形轴心受力木构件"
+  ],
+  "masonry_rect_eccentric_compression": [
+    "Одноосное внецентренное сжатие прямоугольной кладки",
+    "Uniaxial eccentric compression of rectangular masonry",
+    "矩形砌体单轴偏心受压"
+  ],
+  "RC_axial_second_order_and_global_stability_not_calculated": [
+    "Продольные силы второй порядок и общая устойчивость ЖБ не рассчитаны",
+    "RC axial second-order and global stability not calculated",
+    "未计算钢筋混凝土轴力二阶及整体稳定"
+  ],
+  "RC_inclined_sections_and_stirrups_not_calculated": [
+    "Наклонные сечения и хомуты ЖБ не рассчитаны",
+    "RC inclined sections and stirrups not calculated",
+    "未计算钢筋混凝土斜截面与箍筋"
+  ],
+  "lateral_torsional_buckling_local_plate_or_beam_stability_not_calculated": [
+    "Изгибно крутильная местная и общая устойчивость балки не рассчитаны",
+    "Lateral torsional local plate and beam stability not calculated",
+    "未计算梁侧扭、局部板件及整体稳定"
+  ],
+  "central_flexural_buckling_only": [
+    "Только изгибная потеря устойчивости центрально сжатого элемента",
+    "Central-compression flexural buckling only",
+    "仅轴心受压构件弯曲屈曲"
+  ],
+  "normalized_slenderness_below_0_6": [
+    "В выбранной формуле условная гибкость строго меньше 0.6; это не полная проверка устойчивости",
+    "Selected formula normalised slenderness is strictly below 0.6; not full stability verification",
+    "选定公式正则化长细比严格小于0.6；不是完整稳定验证"
+  ],
+  "selected_curve_not_above_tail_threshold": [
+    "Ветвь выбранной кривой без превышения её верхнего порога гибкости",
+    "Selected curve branch not above its tail threshold",
+    "所选曲线未超过其尾段阈值的分支"
+  ],
+  "selected_curve_above_tail_threshold": [
+    "Ветвь выбранной кривой выше её верхнего порога гибкости",
+    "Selected curve branch above its tail threshold",
+    "所选曲线超过其尾段阈值的分支"
+  ],
+  "geometric_slenderness_at_most_70": [
+    "В выбранной формуле дерева геометрическая гибкость не больше 70",
+    "Selected timber formula geometric slenderness is at most 70",
+    "选定木构件公式几何长细比不大于70"
+  ],
+  "geometric_slenderness_above_70": [
+    "В выбранной формуле дерева геометрическая гибкость больше 70",
+    "Selected timber formula geometric slenderness exceeds 70",
+    "选定木构件公式几何长细比大于70"
+  ],
+  "compressive_buckling_not_applied_to_noncompressive_force": [
+    "К нулевой или растягивающей силе не применяется сжатая устойчивость",
+    "Compression buckling not applied to zero or tensile force",
+    "不对零力或拉力应用受压屈曲"
+  ],
+  "masonry_tensile_crack_and_multilayer_wall_checks_not_calculated": [
+    "Растянутые трещины кладки и многослойные стены не рассчитаны",
+    "Masonry tensile cracks and multilayer walls not calculated",
+    "未计算砌体受拉裂缝与多层墙"
+  ],
+  "fire_seismic_fatigue_connections_and_detailing_not_calculated": [
+    "Огонь сейсмика усталость соединения и конструирование не рассчитаны",
+    "Fire seismic fatigue connections and detailing not calculated",
+    "未计算防火地震疲劳连接与构造"
+  ],
+  "combined_web_stress_and_member_bending_compression_interaction_not_calculated": [
+    "Совместные напряжения стенки и взаимодействие изгиба со сжатием не рассчитаны",
+    "Combined web stress and bending-compression interaction not calculated",
+    "未计算腹板组合应力及弯压相互作用"
+  ],
+  "no_full_member_or_structure_code_design": [
+    "Полный нормативный расчёт элемента или сооружения не выполнен",
+    "No full member or structure code design performed",
+    "未执行构件或结构完整规范设计"
+  ],
+  "no_automatic_section_selection": [
+    "Автоматический подбор сечения не выполняется",
+    "No automatic section selection",
+    "不自动选择截面"
+  ],
+  "selected_bounded_serviceability": [
+    "Рассмотрены только выбранные ограниченные эксплуатационные проверки",
+    "Only selected bounded serviceability checks reviewed",
+    "仅审查选定有限范围正常使用校核"
+  ],
+  "serviceability_not_requested": [
+    "Эксплуатационные проверки не запрошены",
+    "Serviceability checks not requested",
+    "未请求正常使用校核"
+  ],
+  "deflection_not_requested": [
+    "Прогиб не запрошен",
+    "Deflection not requested",
+    "未请求挠度校核"
+  ],
+  "crack_not_requested": [
+    "Трещины не запрошены",
+    "Crack check not requested",
+    "未请求裂缝校核"
+  ],
+  "simply_supported_uniform_load_immediate": [
+    "Мгновенный прогиб шарнирной балки под полной равномерной нагрузкой",
+    "Immediate simply supported full-span UDL deflection",
+    "全跨均布荷载简支梁即时挠度"
+  ],
+  "fully_cracked_transformed_elastic_immediate_no_creep_or_tension_stiffening": [
+    "Полностью треснувшее приведённое упругое сечение без ползучести и работы растянутого бетона",
+    "Fully cracked transformed elastic section without creep or tension stiffening",
+    "完全开裂换算弹性截面，不含徐变及受拉混凝土作用"
+  ],
+  "elastic_Euler_Bernoulli_no_shear_deformation": [
+    "Упругая балка Эйлера Бернулли без сдвиговых деформаций",
+    "Elastic Euler Bernoulli without shear deformation",
+    "无剪切变形的欧拉伯努利弹性梁"
+  ],
+  "selected_effective_modulus_no_independent_creep_or_shear_deformation": [
+    "Выбранный эффективный модуль без отдельного расчёта ползучести или сдвига",
+    "Selected effective modulus without separate creep or shear calculation",
+    "选定有效模量，无独立徐变或剪切计算"
+  ],
+  "one_selected_load_duration_component_not_long_short_aggregate_or_crack_formation_prediction": [
+    "Один выбранный компонент раскрытия трещины без полного длительного и кратковременного итога или прогноза образования",
+    "One selected crack-width component without full long/short aggregate or crack-formation prediction",
+    "单个选定裂缝宽度分量，不含完整长短期合计或裂缝形成预测"
+  ],
+  "one_selected_load_duration_component_using_reduced_concrete_modulus_not_aggregate_or_crack_formation_prediction": [
+    "Один компонент раскрытия по выбранному приведённому модулю бетона без полного итога или прогноза образования трещин",
+    "One crack-width component using selected reduced concrete modulus without full aggregate or crack-formation prediction",
+    "按选定混凝土折减模量计算的单项裂缝宽度，不含完整合计或裂缝形成预测"
+  ],
+  "selected_shear_strength_not_supplied": [
+    "Выбранное сопротивление срезу не предоставлено",
+    "Selected shear strength not supplied",
+    "未提供选定抗剪强度"
+  ],
+  "selected_model_source_period_ended": [
+    "Предоставленный период источника модели завершился; применимость требует проверки",
+    "Supplied model-source period ended; applicability requires review",
+    "提供的模型来源有效期已结束；适用性须复核"
+  ],
+  "survey_data_required": [
+    "Нет расчёта по ИГИ; нужны исходные изыскания",
+    "No survey-based calculation; survey inputs required",
+    "未按勘察计算；需要原始勘察资料"
+  ],
+  "selected_IGI_bounded_review": [
+    "Ограниченное рассмотрение выбранных ИГИ и моделей; тип не утверждён",
+    "Bounded review of selected survey and models; foundation type not approved",
+    "有限审查所选勘察与模型；未批准基础类型"
+  ],
+  "shallow_rect": [
+    "Прямоугольная подошва мелкого заложения",
+    "Rectangular shallow base",
+    "矩形浅基础底面"
+  ],
+  "pile_static_tests": [
+    "Осевая свая по выбранным данным статических испытаний",
+    "Axial pile from selected static-test data",
+    "按选定静载试验资料的轴向受力桩"
+  ],
+  "actual_foundation": [
+    "Указан действительный фундамент; идентичность отдельно не проверена",
+    "Supplied actual-foundation role; identity not independently verified",
+    "已注明实际基础角色；身份未独立验证"
+  ],
+  "alternative": [
+    "Альтернативный вариант фундамента",
+    "Alternative foundation option",
+    "备选基础方案"
+  ],
+  "full_compressive_contact": [
+    "Линейная модель имеет сжатие по всей подошве; безопасность не установлена",
+    "Linear model has compression over full base; safety not established",
+    "线性模型全底面受压；安全性未确定"
+  ],
+  "uniaxial_partial_compressive_contact": [
+    "Вычислена одноосная треугольная сжатая зона без растяжения грунта",
+    "Uniaxial triangular compression-only patch computed",
+    "已计算单轴三角形无拉力受压区"
+  ],
+  "biaxial_partial_contact_not_supported": [
+    "Двухосный частичный контакт не решён этой моделью",
+    "Biaxial partial contact not solved by this model",
+    "本模型未求解双轴部分接触"
+  ],
+  "resultant_outside_base": [
+    "Равнодействующая за пределами поддержанного контакта подошвы",
+    "Resultant outside supported base-contact region",
+    "合力位于支持的底面接触范围外"
+  ],
+  "no_compressive_contact_resultant": [
+    "Нет положительной сжимающей равнодействующей; контактное давление не вычислено",
+    "No positive compression resultant; contact pressure not computed",
+    "无正受压合力；未计算接触压力"
+  ],
+  "net_uplift_or_zero_vertical_resultant_moment_not_resolved_by_contact_model": [
+    "Отрыв или нулевая вертикальная сила с моментом не решаются моделью контакта",
+    "Uplift or zero vertical force with moment not solved by contact model",
+    "接触模型不求解上拔或零竖向力伴力矩"
+  ],
+  "compression_only_equilibrium_not_available": [
+    "Равновесие только на сжимающем контакте не получено",
+    "Compression-only contact equilibrium not available",
+    "未获得仅受压接触平衡"
+  ],
+  "rigid_base_linear_triangle_no_soil_tension": [
+    "Жёсткая подошва и линейный треугольник без растяжения грунта",
+    "Rigid base linear triangle without soil tension",
+    "刚性底面线性三角形无土拉力"
+  ],
+  "linear_tension_is_not_soil_contact_pressure": [
+    "Отрицательное линейное напряжение не является допустимой растягивающей реакцией грунта",
+    "Negative linear stress is not an admissible soil tension reaction",
+    "负线性应力不是允许土拉反力"
+  ],
+  "contact_model_not_available_for_bearing_comparison": [
+    "Сравнение с сопротивлением не выполнено из-за неподдержанного контакта",
+    "Bearing comparison not performed because contact is unsupported",
+    "因接触模型不支持未进行承载比较"
+  ],
+  "SP22_5_6_7_no_basement_no_preparation_extension": [
+    "Выбранная ограниченная формула СП22 без подвала и дополнительных расширений",
+    "Selected bounded SP22 formula without basement or extensions",
+    "选定有限范围SP22公式，不含地下室及扩展"
+  ],
+  "selected_coefficients_and_IGI_scope_not_legally_established": [
+    "Применимость выбранных коэффициентов и ИГИ нормативно не установлена",
+    "Normative applicability of selected coefficients and survey not established",
+    "所选系数及勘察规范适用性未确定"
+  ],
+  "bearing_not_requested": [
+    "Сопротивление основания не запрошено",
+    "Bearing resistance not requested",
+    "未请求地基承载值"
+  ],
+  "settlement_not_requested": [
+    "Осадка не запрошена",
+    "Settlement not requested",
+    "未请求沉降计算"
+  ],
+  "SP22_layer_sum_primary_reload_selected_stresses": [
+    "Выбранная послойная сумма первичного и повторного нагружения с предоставленными напряжениями",
+    "Selected layer sum of primary/reload settlement from supplied stresses",
+    "按提供应力进行选定初次及再加载分层求和"
+  ],
+  "provided_average_stresses_and_compressible_depth_no_stress_distribution_or_consolidation_solution": [
+    "Предоставлены средние напряжения и сжимаемая глубина; распределение и консолидация не решены",
+    "Average stresses and compressible depth supplied; distribution and consolidation not solved",
+    "已提供平均应力及压缩深度；未求解分布或固结"
+  ],
+  "compressible_depth_layer_stresses_and_history_applicability_require_geotechnical_review": [
+    "Сжимаемая глубина напряжения и история нагружения требуют геотехнической проверки",
+    "Compressible depth stresses and loading history require geotechnical review",
+    "压缩深度、应力及加载历史须岩土复核"
+  ],
+  "linear_settlement_resistance_applicability_not_checked": [
+    "Ветвь сопротивления не выбрана; применимость линейной осадки по напряжениям не проверена",
+    "Bearing branch not selected; linear-settlement stress applicability not checked",
+    "未选择承载分支；未校核线性沉降应力适用性"
+  ],
+  "linear_settlement_mean_pressure_exceeds_selected_R": [
+    "Среднее давление выше выбранного R; применимость линейной осадки требует проверки",
+    "Mean pressure exceeds selected R; linear-settlement applicability needs review",
+    "平均压力超过选定R；线性沉降适用性须复核"
+  ],
+  "two_point_relative_settlement_only_not_rigid_foundation_rotation_or_neighbour_model": [
+    "Только двухточечная относительная осадка без модели поворота или соседних зданий",
+    "Two-point relative settlement only without rotation or neighbour model",
+    "仅两点相对沉降，不含转动或邻建模型"
+  ],
+  "biaxial_partial_contact_requires_separate_solution": [
+    "Двухосный частичный контакт требует отдельного решения",
+    "Biaxial partial contact requires separate solution",
+    "双轴部分接触须另行求解"
+  ],
+  "sliding_overall_ground_stability_punching_and_footing_reinforcement_not_calculated": [
+    "Сдвиг общая устойчивость грунта продавливание и армирование фундамента не рассчитаны",
+    "Sliding overall ground stability punching and footing reinforcement not calculated",
+    "未计算滑移、地基整体稳定、冲切及基础配筋"
+  ],
+  "groundwater_frost_and_neighbour_effects_not_resolved_by_contact_arithmetic": [
+    "Контактная арифметика не решает влияние воды мороза и соседей",
+    "Contact arithmetic does not resolve water frost or neighbour effects",
+    "接触算术不解决地下水、冻胀及邻建影响"
+  ],
+  "compression": [
+    "Сжатие в выбранной конвенции",
+    "Compression in selected convention",
+    "选定约定中的受压"
+  ],
+  "uplift": [
+    "Выдёргивание в выбранной конвенции",
+    "Uplift in selected convention",
+    "选定约定中的上拔"
+  ],
+  "positive": [
+    "Положительная сторона или знак выбранной системы",
+    "Positive side or sign of selected convention",
+    "所选约定的正侧或正号"
+  ],
+  "negative": [
+    "Отрицательная сторона или знак выбранной системы",
+    "Negative side or sign of selected convention",
+    "所选约定的负侧或负号"
+  ],
+  "provided_not_established": [
+    "Характеристика предоставлена; статистическое определение по испытаниям не выполнено",
+    "Characteristic supplied; statistical derivation from tests not performed",
+    "已提供特征值；未根据试验统计推导"
+  ],
+  "selected_characteristic_resistance_and_test_population_not_statistically_established": [
+    "Выбранная характеристика и совокупность испытаний статистически не обоснованы инструментом",
+    "Selected characteristic and test population not statistically established by tool",
+    "工具未统计确定选定特征值及试验总体"
+  ],
+  "test_pile_geometry_and_actual_foundation_conditions_require_review": [
+    "Геометрия испытанной сваи и фактические условия фундамента требуют проверки",
+    "Test-pile geometry and actual foundation conditions require review",
+    "试验桩几何与实际基础条件须复核"
+  ],
+  "no_automatic_minimum_or_statistics_from_raw_test_steps": [
+    "Минимум или статистика сырых испытаний автоматически не выбираются",
+    "No automatic minimum or statistics from raw test steps",
+    "不自动从原始试验步骤选择最小值或统计量"
+  ],
+  "pile_group_settlement_lateral_load_negative_friction_and_structural_pile_capacity_not_calculated": [
+    "Осадка группы боковая нагрузка отрицательное трение и конструктивная прочность сваи не рассчитаны",
+    "Group settlement lateral load negative friction and structural pile capacity not calculated",
+    "未计算群桩沉降、水平荷载、负摩阻及桩结构承载力"
+  ],
+  "no_site_geotechnical_category_or_safety_assignment": [
+    "Геотехническая категория и безопасность участка не присваиваются",
+    "No site geotechnical category or safety assignment",
+    "不评定场地岩土类别或安全性"
+  ],
+  "no_automatic_soil_defaults_or_FEA": [
+    "Нет автоматических грунтовых параметров или МКЭ решения",
+    "No automatic soil defaults or finite-element solution",
+    "不自动采用土参数或有限元求解"
+  ],
+  "no_construction_permission_or_physical_remedy_authorization": [
+    "Разрешение строительства и физических мер не выдаётся",
+    "No construction or physical-remedy permission granted",
+    "不给予施工或现场处置许可"
+  ],
+  "survey_report_identity_date_and_site": [
+    "Нужны реквизиты дата и участок отчёта ИГИ",
+    "Survey report identity date and site needed",
+    "需要勘察报告标识日期及场地"
+  ],
+  "borehole_logs_and_depths": [
+    "Нужны колонки скважин и глубины",
+    "Borehole logs and depths needed",
+    "需要钻孔柱状图及深度"
+  ],
+  "soil_units_and_test_parameters": [
+    "Нужны ИГЭ и параметры испытаний",
+    "Soil units and test parameters needed",
+    "需要土单元及试验参数"
+  ],
+  "groundwater_levels_variation_and_buoyancy": [
+    "Нужны уровни воды изменение и подъёмная сила",
+    "Groundwater levels variation and buoyancy needed",
+    "需要地下水位变化及浮力"
+  ],
+  "specific_soils_and_frost": [
+    "Нужны сведения об особых грунтах и промерзании",
+    "Specific soils and frost information needed",
+    "需要特殊土及冻结资料"
+  ],
+  "site_seismicity_and_dynamic_actions": [
+    "Нужны сведения о сейсмике и динамике участка",
+    "Site seismic and dynamic information needed",
+    "需要场地地震及动力资料"
+  ],
+  "signed_foundation_level_combinations_including_selfweight_and_water": [
+    "Нужны сочетания на уровне фундамента со знаками весом и водой",
+    "Signed foundation combinations including self weight and water needed",
+    "需要基础层面含符号、自重及水作用的组合"
+  ],
+  "neighbouring_buildings_excavation_and_monitoring": [
+    "Нужны сведения о соседях выемке и мониторинге",
+    "Neighbour excavation and monitoring information needed",
+    "需要邻建、开挖及监测资料"
+  ],
+  "selected_foundation_scheme_and_applicable_model_sources": [
+    "Нужны схема фундамента и источники применимых моделей",
+    "Foundation scheme and applicable model sources needed",
+    "需要基础方案及适用模型来源"
+  ],
+  "table7_2_general": [
+    "Предоставлено общее семейство omega выбранной таблицы",
+    "Supplied general omega family of selected table",
+    "已提供所选表的一般omega系列"
+  ],
+  "table7_2_omega_one": [
+    "Предоставлено семейство выбранной таблицы с omega равным единице",
+    "Supplied selected-table family with omega equal to one",
+    "已提供所选表中omega为一的系列"
+  ],
+  "member_design": [
+    "Расчёт ограниченных моделей элементов",
+    "Bounded member model calculation",
+    "有限范围构件模型计算"
+  ],
+  "foundations": [
+    "Ограниченные проверки основания и фундамента",
+    "Bounded foundation checks",
+    "有限范围地基基础校核"
+  ]
+}

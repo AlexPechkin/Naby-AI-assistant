@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "profession_id": "customs_specialist",
+ "module": "naby_customs_specialist",
+ "entrypoint": "naby_customs_specialist.service.run",
+ "tool_names_to_preserve": null,
+ "jurisdiction": "RU",
+ "source": "Naby verified professions (release index 58)",
+ "patch_chain": [
+  "customs_specialist: customs_V4 package/naby_customs_specialist/core.py 0dd3fac0cc0a→ff9c83151d5c",
+  "customs_specialist: customs_V4 package/naby_customs_specialist/binding.py 6cc79dc0928d→f92ca13d46bb",
+  "customs_specialist: authority_aliases_V1 package/naby_customs_specialist/core.py ff9c83151d5c→5c16c58fb2e4",
+  "customs_specialist: source_boundary_V1 package/naby_customs_specialist/binding.py f92ca13d46bb→85aa140b6049"
+ ],
+ "integration_changes": [
+  "artifact_formatting.py: shared font fallback profpkgs/_shared/fonts (one copy for all packages)"
+ ],
+ "artifact_dependencies": null,
+ "files_sha256": {
+  "common.py": "edfa5a86bf67808d09f5ecbedeb6f0ce1d69e92a082ccea2db63f24fd5fb05b4",
+  "scenarios.py": "4c6444e1815313a2a0f41257312193a8d47328d69143651261f22c2bba9c2a54",
+  "service.py": "4f2d84daf1a99d3bae8520a0c4b7feb1c135f34e066d7c32c2e84df636714277",
+  "calculations.py": "c776ef4f2be72c1df7620acce67d971e12e1cb07b08f3a987d7bb52c65f449e9",
+  "artifacts.py": "ec847778aef886f423885643ab1ce5900a5e17eb0d4dd83e7279aac6c03b553c",
+  "__init__.py": "c4b53cb332e4bb63769592e89c99131994cc956867d6ed6c3fdab8defb33243e",
+  "core.py": "d737a0e905373c61ec85a7de9cfa5180dab621e23425ac4eb9ca58302e5e36f8",
+  "binding.py": "85aa140b6049544ea990976c414f8f1c299f4a31e60a4a72d2824049a27ee906",
+  "artifact_labels.py": "dca8ec4d12ef308a9f7150ce237233feb29b0795a9ed25032a05e8836335c607",
+  "artifact_formatting.py": "4ab614e1dbd84a1d9f0a405a3e710bf3c895575326f0b58c28bf92fbe692f339",
+  "prompts.json": "f5ebb39295c5490f335d1b8d645ed71c2c17da97e0d8f929afdb48c7d821449f"
+ }
+}

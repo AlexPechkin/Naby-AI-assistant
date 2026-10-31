@@ -1,0 +1,2476 @@
+{
+  "fields": {
+    "id": [
+      "Идентификатор",
+      "Identifier",
+      "标识符"
+    ],
+    "name": [
+      "Наименование",
+      "Name",
+      "名称"
+    ],
+    "value": [
+      "Значение",
+      "Value",
+      "数值"
+    ],
+    "unit": [
+      "Единица",
+      "Unit",
+      "单位"
+    ],
+    "mode": [
+      "Выбранная ветвь",
+      "Selected branch",
+      "所选分支"
+    ],
+    "status": [
+      "Состояние записи",
+      "Record status",
+      "记录状态"
+    ],
+    "kind": [
+      "Тип записи",
+      "Record type",
+      "记录类型"
+    ],
+    "as_of": [
+      "Дата информационного среза",
+      "Information cutoff date",
+      "信息截止日期"
+    ],
+    "jurisdiction": [
+      "Юрисдикция",
+      "Jurisdiction",
+      "司法辖区"
+    ],
+    "source_reference": [
+      "Выбранный источник",
+      "Selected source",
+      "所选来源"
+    ],
+    "source_references": [
+      "Выбранные источники",
+      "Selected sources",
+      "所选来源"
+    ],
+    "reference": [
+      "Ссылка на источник",
+      "Source reference",
+      "来源引用"
+    ],
+    "reference_ids": [
+      "Связанные записи библиографии",
+      "Linked bibliography records",
+      "关联的参考文献记录"
+    ],
+    "references": [
+      "Библиография из выбранных источников",
+      "Selected source bibliography",
+      "所选来源参考文献"
+    ],
+    "source_id": [
+      "Идентификатор исходного набора",
+      "Source dataset identifier",
+      "原始数据集标识符"
+    ],
+    "fact_id": [
+      "Идентификатор факта",
+      "Fact identifier",
+      "事实标识符"
+    ],
+    "source_sha256": [
+      "Контрольная сумма выбранного файла",
+      "Selected file checksum",
+      "所选文件校验和"
+    ],
+    "segment_id": [
+      "Идентификатор фрагмента",
+      "Segment identifier",
+      "片段标识符"
+    ],
+    "pointer": [
+      "Путь поля ввода",
+      "Input field path",
+      "输入字段路径"
+    ],
+    "quote": [
+      "Исходная цитата",
+      "Original quotation",
+      "原始引文"
+    ],
+    "excerpt": [
+      "Выбранный фрагмент",
+      "Selected excerpt",
+      "所选摘录"
+    ],
+    "text": [
+      "Исходный текст",
+      "Source text",
+      "来源文本"
+    ],
+    "description": [
+      "Описание",
+      "Description",
+      "说明"
+    ],
+    "rationale": [
+      "Основание допущения",
+      "Assumption rationale",
+      "假设依据"
+    ],
+    "basis": [
+      "Выбранное основание",
+      "Selected basis",
+      "所选依据"
+    ],
+    "date": [
+      "Дата записи",
+      "Record date",
+      "记录日期"
+    ],
+    "observed_at": [
+      "Дата исходного наблюдения",
+      "Source observation date",
+      "来源观测日期"
+    ],
+    "observed_date": [
+      "Дата исходного наблюдения",
+      "Source observation date",
+      "来源观测日期"
+    ],
+    "reference_date": [
+      "Дата исходного состояния данных",
+      "Source data reference date",
+      "来源数据参考日期"
+    ],
+    "publication_date": [
+      "Дата публикации источника",
+      "Source publication date",
+      "来源发布日期"
+    ],
+    "selection_date": [
+      "Выбранная дата рассмотрения основания",
+      "Selected basis review date",
+      "所选依据审查日期"
+    ],
+    "selected_applicability_date": [
+      "Выбранная дата применимости",
+      "Selected applicability date",
+      "选定适用日期"
+    ],
+    "effective_from": [
+      "Начало действия по выбранным метаданным",
+      "Effective start in selected metadata",
+      "所选元数据中的生效起日"
+    ],
+    "effective_to": [
+      "Окончание действия по выбранным метаданным",
+      "Effective end in selected metadata",
+      "所选元数据中的失效日期"
+    ],
+    "document_identity": [
+      "Наименование исходного документа",
+      "Source document identity",
+      "来源文件名称"
+    ],
+    "document_id": [
+      "Связанный исходный документ",
+      "Linked source document",
+      "关联的来源文件"
+    ],
+    "edition": [
+      "Выбранная редакция",
+      "Selected edition",
+      "所选版本"
+    ],
+    "version": [
+      "Версия",
+      "Version",
+      "版本"
+    ],
+    "clause": [
+      "Выбранный пункт",
+      "Selected clause",
+      "所选条款"
+    ],
+    "scope": [
+      "Область выбранной записи",
+      "Selected record scope",
+      "所选记录范围"
+    ],
+    "role": [
+      "Роль выбранного основания",
+      "Selected basis role",
+      "所选依据作用"
+    ],
+    "fields": [
+      "Поля записи",
+      "Record fields",
+      "记录字段"
+    ],
+    "path": [
+      "Путь записи",
+      "Record path",
+      "记录路径"
+    ],
+    "note": [
+      "Примечание",
+      "Note",
+      "备注"
+    ],
+    "limitations": [
+      "Ограничения",
+      "Limitations",
+      "限制"
+    ],
+    "evidence_gaps": [
+      "Пробелы выбранных данных и проверки",
+      "Selected data and review gaps",
+      "所选数据及审查缺项"
+    ],
+    "questions": [
+      "Вопросы для продолжения",
+      "Questions to proceed",
+      "后续问题"
+    ],
+    "evidence": [
+      "Выбранные свидетельства",
+      "Selected evidence",
+      "所选证据"
+    ],
+    "context": [
+      "Исходные условия",
+      "Input context",
+      "输入背景"
+    ],
+    "object": [
+      "Объект рассмотрения",
+      "Object under review",
+      "审查对象"
+    ],
+    "object_type": [
+      "Тип объекта",
+      "Object type",
+      "对象类型"
+    ],
+    "location": [
+      "Место объекта или данных",
+      "Object or dataset location",
+      "对象或数据位置"
+    ],
+    "horizon": [
+      "Горизонт рассмотрения",
+      "Review horizon",
+      "审查时段"
+    ],
+    "horizon_start": [
+      "Начало горизонта",
+      "Horizon start",
+      "时段开始"
+    ],
+    "horizon_end": [
+      "Окончание горизонта",
+      "Horizon end",
+      "时段结束"
+    ],
+    "start": [
+      "Начало выбранного периода",
+      "Selected period start",
+      "所选时段开始"
+    ],
+    "end": [
+      "Окончание выбранного периода",
+      "Selected period end",
+      "所选时段结束"
+    ],
+    "start_date": [
+      "Дата начала",
+      "Start date",
+      "开始日期"
+    ],
+    "end_date": [
+      "Дата окончания",
+      "End date",
+      "结束日期"
+    ],
+    "period": [
+      "Выбранный период",
+      "Selected period",
+      "所选时段"
+    ],
+    "period_start": [
+      "Начало периода",
+      "Period start",
+      "时段开始"
+    ],
+    "period_end": [
+      "Окончание периода",
+      "Period end",
+      "时段结束"
+    ],
+    "year": [
+      "Год",
+      "Year",
+      "年份"
+    ],
+    "start_year": [
+      "Первый год",
+      "First year",
+      "起始年"
+    ],
+    "end_year": [
+      "Последний год",
+      "Last year",
+      "结束年"
+    ],
+    "month": [
+      "Месяц",
+      "Month",
+      "月份"
+    ],
+    "months": [
+      "Месяцы",
+      "Months",
+      "月份集合"
+    ],
+    "day": [
+      "День",
+      "Day",
+      "日"
+    ],
+    "days": [
+      "Записи календаря",
+      "Calendar records",
+      "日历记录"
+    ],
+    "count": [
+      "Количество записей",
+      "Record count",
+      "记录数"
+    ],
+    "provided": [
+      "Предоставленная запись",
+      "Supplied record",
+      "所提供记录"
+    ],
+    "records": [
+      "Исходные записи",
+      "Source records",
+      "来源记录"
+    ],
+    "results": [
+      "Результаты выбранной ветви",
+      "Selected branch results",
+      "所选分支结果"
+    ],
+    "parameters": [
+      "Выбранные параметры",
+      "Selected parameters",
+      "所选参数"
+    ],
+    "quantity": [
+      "Величина и единица",
+      "Quantity and unit",
+      "量与单位"
+    ],
+    "quantities": [
+      "Величины с источниками",
+      "Quantities with sources",
+      "带来源的量"
+    ],
+    "amount": [
+      "Величина по выбранной записи",
+      "Amount in selected record",
+      "所选记录中的量"
+    ],
+    "amount_status": [
+      "Состояние исходной величины",
+      "Input amount status",
+      "输入量状态"
+    ],
+    "state": [
+      "Состояние предоставленных сведений",
+      "Supplied evidence state",
+      "所提供信息状态"
+    ],
+    "criterion": [
+      "Выбранный критерий",
+      "Selected criterion",
+      "所选准则"
+    ],
+    "label": [
+      "Исходная подпись",
+      "Source label",
+      "来源标签"
+    ],
+    "definition": [
+      "Выбранное определение категории",
+      "Selected category definition",
+      "所选类别定义"
+    ],
+    "selected_documents": [
+      "Выбранные документы и редакции",
+      "Selected documents and editions",
+      "所选文件及版本"
+    ],
+    "selected_metadata_window_status": [
+      "Сопоставление даты с выбранным окном метаданных",
+      "Date comparison with selected metadata window",
+      "日期与所选元数据有效期的比较"
+    ],
+    "selection_status": [
+      "Состояние выбранной записи",
+      "Selected record status",
+      "所选记录状态"
+    ],
+    "selection_basis": [
+      "Основание выбора станции",
+      "Station selection basis",
+      "站点选择依据"
+    ],
+    "selected_date_within_supplied_window": [
+      "Выбранная дата внутри предоставленного окна метаданных",
+      "Selected date within supplied metadata window",
+      "选定日期在所提供元数据有效期内"
+    ],
+    "publication_after_selected_date": [
+      "Публикация позже выбранной даты рассмотрения",
+      "Publication after selected review date",
+      "发布日期晚于选定审查日期"
+    ],
+    "station": [
+      "Выбранная станция",
+      "Selected station",
+      "所选站点"
+    ],
+    "representativeness": [
+      "Предоставленное обоснование репрезентативности",
+      "Supplied representativeness evidence",
+      "所提供代表性依据"
+    ],
+    "table": [
+      "Таблица источника",
+      "Source table",
+      "来源表格"
+    ],
+    "row": [
+      "Строка источника",
+      "Source row",
+      "来源行"
+    ],
+    "column": [
+      "Столбец источника",
+      "Source column",
+      "来源列"
+    ],
+    "statistic": [
+      "Выбранная климатическая характеристика",
+      "Selected climate statistic",
+      "所选气候统计量"
+    ],
+    "selected_probability": [
+      "Выбранная обеспеченность из источника",
+      "Selected source probability",
+      "所选来源概率"
+    ],
+    "use_limitation": [
+      "Ограничение использования параметра",
+      "Parameter use limitation",
+      "参数使用限制"
+    ],
+    "supplementary_context": [
+      "Дополнительные наблюдения реанализ или проекции",
+      "Supplementary observations reanalysis or projections",
+      "补充观测、再分析或预估"
+    ],
+    "parameter_scope": [
+      "Область выбранных проектных параметров",
+      "Selected design parameter scope",
+      "所选设计参数范围"
+    ],
+    "hazards": [
+      "Выбранные опасности",
+      "Selected hazards",
+      "所选危险"
+    ],
+    "hazard": [
+      "Климатическая опасность",
+      "Climate hazard",
+      "气候危险"
+    ],
+    "asset": [
+      "Подверженный объект",
+      "Exposed asset",
+      "暴露资产"
+    ],
+    "exposure": [
+      "Экспозиция",
+      "Exposure",
+      "暴露度"
+    ],
+    "vulnerability": [
+      "Уязвимость",
+      "Vulnerability",
+      "脆弱性"
+    ],
+    "evaluation_basis": [
+      "Основание присвоения категорий",
+      "Category assignment basis",
+      "类别划分依据"
+    ],
+    "scenario_context": [
+      "Выбранный сценарный контекст",
+      "Selected scenario context",
+      "所选情景背景"
+    ],
+    "likelihood_category": [
+      "Выбранная категория вероятности",
+      "Selected likelihood category",
+      "所选可能性类别"
+    ],
+    "consequence_category": [
+      "Выбранная категория последствий",
+      "Selected consequence category",
+      "所选后果类别"
+    ],
+    "likelihood_categories": [
+      "Определения категорий вероятности",
+      "Likelihood category definitions",
+      "可能性类别定义"
+    ],
+    "consequence_categories": [
+      "Определения категорий последствий",
+      "Consequence category definitions",
+      "后果类别定义"
+    ],
+    "likelihood_id": [
+      "Идентификатор категории вероятности",
+      "Likelihood category identifier",
+      "可能性类别标识符"
+    ],
+    "consequence_id": [
+      "Идентификатор категории последствий",
+      "Consequence category identifier",
+      "后果类别标识符"
+    ],
+    "selected_matrix": [
+      "Выбранная порядковая матрица",
+      "Selected ordinal matrix",
+      "所选有序矩阵"
+    ],
+    "cells": [
+      "Выбранные ячейки матрицы",
+      "Selected matrix cells",
+      "所选矩阵单元"
+    ],
+    "priority": [
+      "Приоритет из выбранной ячейки",
+      "Priority from selected cell",
+      "所选单元中的优先级"
+    ],
+    "priority_label": [
+      "Подпись выбранного приоритета",
+      "Selected priority label",
+      "所选优先级标签"
+    ],
+    "classification_status": [
+      "Результат сопоставления с выбранной матрицей",
+      "Selected matrix matching result",
+      "与所选矩阵的匹配结果"
+    ],
+    "physical_expected_loss": [
+      "Физическое математическое ожидание потерь",
+      "Physical expected loss",
+      "物理意义上的预期损失"
+    ],
+    "risk_interpretation": [
+      "Границы интерпретации риска",
+      "Risk interpretation scope",
+      "风险解释范围"
+    ],
+    "measures": [
+      "Предложенные меры адаптации",
+      "Proposed adaptation measures",
+      "建议适应措施"
+    ],
+    "hazard_ids": [
+      "Связанные опасности",
+      "Linked hazards",
+      "关联危险"
+    ],
+    "action": [
+      "Предложенная мера",
+      "Proposed action",
+      "建议措施"
+    ],
+    "responsible": [
+      "Указанный ответственный",
+      "Supplied owner",
+      "所指定负责人"
+    ],
+    "deadline": [
+      "Предложенный срок или выбранная календарная запись",
+      "Proposed date or selected deadline record",
+      "建议日期或所选期限记录"
+    ],
+    "indicator": [
+      "Предложенный индикатор",
+      "Proposed indicator",
+      "建议指标"
+    ],
+    "target": [
+      "Целевое значение",
+      "Target value",
+      "目标值"
+    ],
+    "funding": [
+      "Сведения о финансировании",
+      "Funding information",
+      "资金信息"
+    ],
+    "monitoring": [
+      "План и записи мониторинга",
+      "Monitoring plan and records",
+      "监测计划与记录"
+    ],
+    "procedure": [
+      "Предложенный порядок",
+      "Proposed procedure",
+      "建议程序"
+    ],
+    "frequency": [
+      "Выбранная частота",
+      "Selected frequency",
+      "所选频率"
+    ],
+    "tradeoffs": [
+      "Компромиссы и побочные последствия",
+      "Tradeoffs and side effects",
+      "权衡与间接影响"
+    ],
+    "audience": [
+      "Аудитория текста",
+      "Text audience",
+      "文本受众"
+    ],
+    "purpose": [
+      "Задача текста или анализа",
+      "Text or analysis purpose",
+      "文本或分析目的"
+    ],
+    "draft_sections": [
+      "Авторские разделы черновика",
+      "Authored draft sections",
+      "作者草稿章节"
+    ],
+    "main": [
+      "Главное",
+      "Main findings",
+      "主要内容"
+    ],
+    "temperature": [
+      "Температура",
+      "Temperature",
+      "气温"
+    ],
+    "precipitation": [
+      "Осадки",
+      "Precipitation",
+      "降水"
+    ],
+    "extremes": [
+      "Экстремальные явления",
+      "Extreme events",
+      "极端事件"
+    ],
+    "comparison": [
+      "Сравнение по выбранным данным",
+      "Comparison using selected data",
+      "基于所选数据的比较"
+    ],
+    "confidence": [
+      "Уверенность и её основание",
+      "Confidence and its basis",
+      "置信度及其依据"
+    ],
+    "authorship": [
+      "Статус авторства черновика",
+      "Draft authorship status",
+      "草稿作者状态"
+    ],
+    "statements": [
+      "Тезисы с типом свидетельства",
+      "Statements with evidence type",
+      "带证据类型的论述"
+    ],
+    "statement": [
+      "Текст тезиса",
+      "Statement text",
+      "论述文本"
+    ],
+    "topic": [
+      "Раздел тезиса",
+      "Statement topic",
+      "论述主题"
+    ],
+    "citation": [
+      "Предоставленная библиографическая запись",
+      "Supplied bibliographic citation",
+      "所提供参考文献条目"
+    ],
+    "url": [
+      "Адрес выбранного источника",
+      "Selected source URL",
+      "所选来源网址"
+    ],
+    "derived_from_ids": [
+      "Исходные тезисы для вывода",
+      "Statements supporting inference",
+      "推论所依据的论述"
+    ],
+    "uncertainty": [
+      "Неопределённость",
+      "Uncertainty",
+      "不确定性"
+    ],
+    "confidence_basis": [
+      "Основание уверенности",
+      "Confidence basis",
+      "置信度依据"
+    ],
+    "source_interpretation_status": [
+      "Граница проверки выбранного источника",
+      "Selected source review scope",
+      "所选来源审查范围"
+    ],
+    "metrics": [
+      "Выбранные числовые показатели",
+      "Selected numeric metrics",
+      "所选数值指标"
+    ],
+    "method": [
+      "Выбранный метод",
+      "Selected method",
+      "所选方法"
+    ],
+    "methods": [
+      "Выбранные методики",
+      "Selected methods",
+      "所选方法"
+    ],
+    "method_id": [
+      "Идентификатор выбранной методики",
+      "Selected method identifier",
+      "所选方法标识符"
+    ],
+    "model": [
+      "Выбранная модель расчёта",
+      "Selected calculation model",
+      "所选计算模型"
+    ],
+    "models": [
+      "Выбранные модели",
+      "Selected models",
+      "所选模型"
+    ],
+    "model_id": [
+      "Идентификатор модели",
+      "Model identifier",
+      "模型标识符"
+    ],
+    "scenario": [
+      "Выбранный сценарий",
+      "Selected scenario",
+      "所选情景"
+    ],
+    "scenario_id": [
+      "Идентификатор сценария",
+      "Scenario identifier",
+      "情景标识符"
+    ],
+    "engine": [
+      "Исходный расчётный инструмент",
+      "Source calculation engine",
+      "来源计算工具"
+    ],
+    "run_date": [
+      "Дата исходного расчёта",
+      "Source calculation date",
+      "来源计算日期"
+    ],
+    "configuration_sha256": [
+      "Контрольная сумма конфигурации источника",
+      "Source configuration checksum",
+      "来源配置校验和"
+    ],
+    "data_sha256": [
+      "Контрольная сумма исходных данных",
+      "Source data checksum",
+      "来源数据校验和"
+    ],
+    "input_sha256": [
+      "Контрольная сумма сохранённого ввода",
+      "Saved input checksum",
+      "已保存输入校验和"
+    ],
+    "datasets": [
+      "Проверенные записи наборов данных",
+      "Reviewed dataset records",
+      "已审查数据集记录"
+    ],
+    "variable": [
+      "Переменная исходного ряда",
+      "Source series variable",
+      "来源序列变量"
+    ],
+    "calendar": [
+      "Календарь исходного ряда",
+      "Source series calendar",
+      "来源序列日历"
+    ],
+    "license_reference": [
+      "Выбранная запись об условиях использования",
+      "Selected reuse terms record",
+      "所选使用条款记录"
+    ],
+    "homogeneity_evidence_reference": [
+      "Выбранные свидетельства об однородности",
+      "Selected homogeneity evidence",
+      "所选均一性证据"
+    ],
+    "expected_records": [
+      "Ожидаемые координаты выбранного периода",
+      "Expected coordinates in selected period",
+      "所选时段预期坐标数"
+    ],
+    "provided_records": [
+      "Предоставленные записи",
+      "Supplied records",
+      "所提供记录数"
+    ],
+    "usable_unique_records": [
+      "Уникальные пригодные по выбранным флагам записи",
+      "Unique records usable under selected flags",
+      "按所选标志可用的唯一记录数"
+    ],
+    "coverage_ratio": [
+      "Доля выбранного периода с пригодными записями",
+      "Usable record coverage of selected period",
+      "所选时段可用记录覆盖率"
+    ],
+    "missing_or_unusable_periods": [
+      "Отсутствующие или непригодные координаты",
+      "Missing or unusable coordinates",
+      "缺失或不可用坐标"
+    ],
+    "outside_periods": [
+      "Координаты вне выбранного периода",
+      "Coordinates outside selected period",
+      "所选时段外坐标"
+    ],
+    "quality_counts": [
+      "Количество записей по исходным флагам качества",
+      "Record counts by source quality flag",
+      "按来源质量标志统计的记录数"
+    ],
+    "valid": [
+      "Исходный флаг пригодной записи",
+      "Source valid record flag",
+      "来源有效记录标志"
+    ],
+    "suspect": [
+      "Исходный флаг сомнительной записи",
+      "Source suspect record flag",
+      "来源可疑记录标志"
+    ],
+    "missing": [
+      "Исходный флаг пропуска",
+      "Source missing record flag",
+      "来源缺失记录标志"
+    ],
+    "duplicate_groups": [
+      "Группы повторяющихся координат",
+      "Duplicate coordinate groups",
+      "重复坐标组"
+    ],
+    "range_flags": [
+      "Отклонения от выбранного диапазона",
+      "Selected range flags",
+      "所选范围异常标志"
+    ],
+    "station_changes": [
+      "Выбранные сведения об изменениях станции",
+      "Selected station change records",
+      "所选站点变更记录"
+    ],
+    "series": [
+      "Метаданные выбранного ряда",
+      "Selected series metadata",
+      "所选序列元数据"
+    ],
+    "baseline": [
+      "Выбранный базовый период",
+      "Selected baseline period",
+      "所选基准时段"
+    ],
+    "aggregation": [
+      "Правило агрегирования",
+      "Aggregation rule",
+      "聚合规则"
+    ],
+    "coverage_rule": [
+      "Выбранное правило полноты",
+      "Selected completeness rule",
+      "所选完整性规则"
+    ],
+    "minimum_year_fraction": [
+      "Выбранная минимальная доля лет",
+      "Selected minimum year fraction",
+      "所选最低年份比例"
+    ],
+    "monthly_normals": [
+      "Средние значения по месяцам базового периода",
+      "Baseline monthly averages",
+      "基准时段月均值"
+    ],
+    "normal": [
+      "Среднее выбранного базового периода",
+      "Selected baseline average",
+      "所选基准时段平均值"
+    ],
+    "valid_years": [
+      "Лет с пригодными значениями",
+      "Years with usable values",
+      "具有可用数值的年份数"
+    ],
+    "expected_years": [
+      "Ожидаемое количество лет",
+      "Expected year count",
+      "预期年份数"
+    ],
+    "targets": [
+      "Выбранные расчётные периоды",
+      "Selected target periods",
+      "所选计算时段"
+    ],
+    "selected_coordinates": [
+      "Координаты расчётного периода",
+      "Target period coordinates",
+      "计算时段坐标"
+    ],
+    "anomaly": [
+      "Знаковое отклонение от выбранного среднего",
+      "Signed anomaly from selected average",
+      "相对所选平均值的有符号距平"
+    ],
+    "percent_anomaly": [
+      "Процентная аномалия выбранной суммы осадков",
+      "Percentage anomaly of selected precipitation total",
+      "所选降水总量的百分比距平"
+    ],
+    "rank_descending_competition": [
+      "Место по убыванию в выбранном ряду с общими местами при равенстве",
+      "Descending competition rank in selected series",
+      "所选序列中的降序竞赛排名"
+    ],
+    "rank_population": [
+      "Количество пригодных сравниваемых лет",
+      "Usable comparison year count",
+      "可用比较年份数"
+    ],
+    "rank_tie_count": [
+      "Количество равных целевому значению записей",
+      "Count equal to target value",
+      "与目标值相等的记录数"
+    ],
+    "rank_scope": [
+      "Область ранжирования",
+      "Ranking scope",
+      "排名范围"
+    ],
+    "source_record_count": [
+      "Количество исходных записей",
+      "Source record count",
+      "来源记录数"
+    ],
+    "unusable_record_count": [
+      "Координат без пригодного уникального значения",
+      "Coordinates without a usable unique value",
+      "无可用唯一值的坐标数"
+    ],
+    "trend": [
+      "Выбранный анализ тренда",
+      "Selected trend analysis",
+      "所选趋势分析"
+    ],
+    "daily_indices": [
+      "Индексы по выбранному суточному окну",
+      "Indices for selected daily window",
+      "所选逐日窗口指数"
+    ],
+    "return_levels": [
+      "Уровни по выбранным периодам повторяемости",
+      "Levels for selected return periods",
+      "所选重现期水平"
+    ],
+    "external_results": [
+      "Выбранный экспорт внешнего расчёта",
+      "Selected external calculation export",
+      "所选外部计算导出"
+    ],
+    "selected_years": [
+      "Выбранные пригодные годы",
+      "Selected usable years",
+      "所选可用年份"
+    ],
+    "valid_count": [
+      "Количество пригодных значений",
+      "Usable value count",
+      "可用数值个数"
+    ],
+    "provided_count": [
+      "Количество предоставленных записей",
+      "Supplied record count",
+      "所提供记录数"
+    ],
+    "missing_or_unusable_years": [
+      "Отсутствующие или непригодные годы",
+      "Missing or unusable years",
+      "缺失或不可用年份"
+    ],
+    "sen_slope_per_year": [
+      "Оценка Сена за год",
+      "Sen slope per year",
+      "Sen年斜率估计"
+    ],
+    "sen_slope_per_decade": [
+      "Оценка Сена за десять лет",
+      "Sen slope per decade",
+      "Sen十年斜率估计"
+    ],
+    "intercept_at_first_year": [
+      "Медианный уровень в начале выбранного ряда",
+      "Median intercept at first selected year",
+      "所选序列首年的中位截距"
+    ],
+    "mann_kendall_s": [
+      "Статистика S Манна Кендалла",
+      "Mann Kendall S statistic",
+      "Mann Kendall S统计量"
+    ],
+    "kendall_tau": [
+      "Коэффициент тау Кендалла",
+      "Kendall tau",
+      "Kendall tau系数"
+    ],
+    "iid_variance_s": [
+      "Дисперсия S при выбранном предположении независимости",
+      "S variance under selected independence assumption",
+      "所选独立假设下的S方差"
+    ],
+    "dependence": [
+      "Выбранная модель временной зависимости",
+      "Selected temporal dependence model",
+      "所选时间依赖模型"
+    ],
+    "annual_spacing_regular": [
+      "Годы следуют с равным годовым шагом",
+      "Selected years have regular annual spacing",
+      "所选年份具有规则年间隔"
+    ],
+    "rank_autocorrelations": [
+      "Диагностика ранговой автокорреляции",
+      "Rank autocorrelation diagnostics",
+      "秩自相关诊断"
+    ],
+    "lag_years": [
+      "Лаг в годах",
+      "Lag in years",
+      "年滞后"
+    ],
+    "rank_autocorrelation": [
+      "Ранговая автокорреляция",
+      "Rank autocorrelation",
+      "秩自相关"
+    ],
+    "selected_by_critical_rule": [
+      "Лаг выбран по предоставленному критическому правилу",
+      "Lag selected by supplied critical rule",
+      "按所提供临界规则选定滞后"
+    ],
+    "variance_multiplier": [
+      "Множитель поправки дисперсии",
+      "Variance correction multiplier",
+      "方差修正乘数"
+    ],
+    "selected_variance_s": [
+      "Дисперсия S по выбранной модели",
+      "S variance under selected model",
+      "所选模型下的S方差"
+    ],
+    "critical_z": [
+      "Выбранное критическое значение z",
+      "Selected critical z",
+      "所选临界z值"
+    ],
+    "z": [
+      "Приближённая нормальная статистика z",
+      "Approximate normal z statistic",
+      "近似正态z统计量"
+    ],
+    "asymptotic_two_sided_p": [
+      "Приближённое асимптотическое двустороннее p",
+      "Approximate asymptotic two sided p",
+      "近似渐近双侧p值"
+    ],
+    "p_method": [
+      "Способ приближённого вычисления p",
+      "Approximate p calculation method",
+      "p值近似计算方法"
+    ],
+    "exceeds_selected_critical_value": [
+      "Превышен выбранный критический порог",
+      "Selected critical threshold exceeded",
+      "超过所选临界阈值"
+    ],
+    "slope_interval": [
+      "Приближённый порядковый интервал наклона",
+      "Approximate slope order statistic interval",
+      "近似斜率次序统计区间"
+    ],
+    "lower": [
+      "Нижняя граница выбранной диагностики",
+      "Lower diagnostic bound",
+      "诊断下界"
+    ],
+    "upper": [
+      "Верхняя граница выбранной диагностики",
+      "Upper diagnostic bound",
+      "诊断上界"
+    ],
+    "lower_zero_based_rank": [
+      "Нижний индекс порядка с отсчётом от нуля",
+      "Lower zero based order index",
+      "从零起算的下界次序索引"
+    ],
+    "upper_zero_based_rank": [
+      "Верхний индекс порядка с отсчётом от нуля",
+      "Upper zero based order index",
+      "从零起算的上界次序索引"
+    ],
+    "coverage": [
+      "Полнота выбранного окна",
+      "Selected window coverage",
+      "所选窗口完整性"
+    ],
+    "expected_days": [
+      "Ожидаемое количество дней",
+      "Expected day count",
+      "预期天数"
+    ],
+    "provided_valid_days": [
+      "Дней с пригодными записями",
+      "Days with usable records",
+      "具有可用记录的天数"
+    ],
+    "missing_dates": [
+      "Отсутствующие даты",
+      "Missing dates",
+      "缺失日期"
+    ],
+    "thresholds": [
+      "Выбранные пороги и определения индексов",
+      "Selected thresholds and index definitions",
+      "所选阈值及指数定义"
+    ],
+    "wet_day_mm": [
+      "Порог влажного дня в мм",
+      "Wet day threshold in mm",
+      "湿日阈值，毫米"
+    ],
+    "frost_degC": [
+      "Порог морозного дня в градусах Цельсия",
+      "Frost day threshold in degrees Celsius",
+      "霜日阈值，摄氏度"
+    ],
+    "summer_degC": [
+      "Порог летнего дня в градусах Цельсия",
+      "Summer day threshold in degrees Celsius",
+      "夏日阈值，摄氏度"
+    ],
+    "ice_degC": [
+      "Порог ледяного дня в градусах Цельсия",
+      "Ice day threshold in degrees Celsius",
+      "冰日阈值，摄氏度"
+    ],
+    "tropical_degC": [
+      "Порог тропической ночи в градусах Цельсия",
+      "Tropical night threshold in degrees Celsius",
+      "热夜阈值，摄氏度"
+    ],
+    "heavy_mm": [
+      "Порог сильных осадков в мм",
+      "Heavy precipitation threshold in mm",
+      "强降水阈值，毫米"
+    ],
+    "very_heavy_mm": [
+      "Порог очень сильных осадков в мм",
+      "Very heavy precipitation threshold in mm",
+      "极强降水阈值，毫米"
+    ],
+    "window_policy": [
+      "Правило пропусков выбранного окна",
+      "Selected window missing data policy",
+      "所选窗口缺失数据规则"
+    ],
+    "run_boundary": [
+      "Граница серий последовательных дней",
+      "Consecutive day run boundary",
+      "连续日序列边界"
+    ],
+    "indices": [
+      "Результаты выбранных индексов",
+      "Selected index results",
+      "所选指数结果"
+    ],
+    "index": [
+      "Обозначение выбранного индекса",
+      "Selected index identifier",
+      "所选指数标识"
+    ],
+    "observed_segment_statistic": [
+      "Диагностика только наблюдённых сегментов",
+      "Observed segment diagnostic only",
+      "仅观测片段诊断量"
+    ],
+    "annual_index_claim": [
+      "Выбранное окно содержит полный год для данного индекса",
+      "Selected window provides a complete year for this index",
+      "所选窗口为该指数提供完整年份"
+    ],
+    "channel": [
+      "Канал исходных суточных данных",
+      "Source daily data channel",
+      "来源逐日数据通道"
+    ],
+    "annual_block_years": [
+      "Годы выбранных годовых максимумов",
+      "Selected annual maximum years",
+      "所选年最大值年份"
+    ],
+    "selected_parameters": [
+      "Выбранные или оценённые параметры распределения",
+      "Selected or fitted distribution parameters",
+      "所选或拟合的分布参数"
+    ],
+    "scale": [
+      "Параметр масштаба",
+      "Scale parameter",
+      "尺度参数"
+    ],
+    "shape": [
+      "Параметр формы",
+      "Shape parameter",
+      "形状参数"
+    ],
+    "shape_convention": [
+      "Соглашение о знаке параметра формы",
+      "Shape sign convention",
+      "形状参数符号约定"
+    ],
+    "replicate_count": [
+      "Количество предоставленных или диагностических повторов",
+      "Provided or diagnostic replicate count",
+      "所提供或诊断重复次数"
+    ],
+    "return_period_years": [
+      "Выбранный период повторяемости в годах",
+      "Selected return period in years",
+      "所选重现期，年"
+    ],
+    "nonexceedance_probability": [
+      "Вероятность непревышения выбранной модели",
+      "Selected model nonexceedance probability",
+      "所选模型不超越概率"
+    ],
+    "return_level": [
+      "Уровень по выбранной модели распределения",
+      "Level under selected distribution model",
+      "所选分布模型下的水平"
+    ],
+    "uncertainty_method": [
+      "Способ диагностики неопределённости",
+      "Uncertainty diagnostic method",
+      "不确定性诊断方法"
+    ],
+    "extrapolation_ratio_to_record_length": [
+      "Отношение периода повторяемости к длине выбранного ряда",
+      "Return period to selected record length ratio",
+      "重现期与所选记录长度之比"
+    ],
+    "block_basis": [
+      "Происхождение годовых максимумов",
+      "Annual maximum basis",
+      "年最大值依据"
+    ],
+    "training_weighting": [
+      "Правило весов калибровочных месяцев",
+      "Training month weighting rule",
+      "训练月份权重规则"
+    ],
+    "variant_label": [
+      "Идентификатор варианта модели",
+      "Model variant label",
+      "模型变体标识"
+    ],
+    "grid_label": [
+      "Идентификатор сетки модели",
+      "Model grid label",
+      "模型网格标识"
+    ],
+    "observation_reference": [
+      "Источник калибровочных наблюдений",
+      "Calibration observation source",
+      "校准观测来源"
+    ],
+    "training_periods": [
+      "Периоды калибровки",
+      "Training periods",
+      "训练时段"
+    ],
+    "validation_periods": [
+      "Периоды независимой от калибровки проверки",
+      "Validation periods disjoint from training",
+      "与训练分离的验证时段"
+    ],
+    "training_count": [
+      "Количество выбранных калибровочных месяцев",
+      "Selected training month count",
+      "所选训练月份数"
+    ],
+    "validation_count": [
+      "Количество выбранных проверочных месяцев",
+      "Selected validation month count",
+      "所选验证月份数"
+    ],
+    "training_observed_mean": [
+      "Среднее выбранных калибровочных наблюдений",
+      "Selected training observation mean",
+      "所选训练观测均值"
+    ],
+    "training_model_mean": [
+      "Среднее выбранной калибровочной модели",
+      "Selected training model mean",
+      "所选训练模型均值"
+    ],
+    "correction_parameter": [
+      "Параметр выбранной коррекции смещения",
+      "Selected bias adjustment parameter",
+      "所选偏差订正参数"
+    ],
+    "parameter_unit": [
+      "Единица параметра коррекции",
+      "Adjustment parameter unit",
+      "订正参数单位"
+    ],
+    "weight": [
+      "Предоставленный описательный вес",
+      "Supplied descriptive weight",
+      "所提供描述性权重"
+    ],
+    "validation_before": [
+      "Диагностика до коррекции на проверочной выборке",
+      "Validation diagnostics before adjustment",
+      "订正前验证诊断"
+    ],
+    "validation_after": [
+      "Диагностика после коррекции на проверочной выборке",
+      "Validation diagnostics after adjustment",
+      "订正后验证诊断"
+    ],
+    "bias": [
+      "Среднее знаковое смещение",
+      "Mean signed bias",
+      "平均有符号偏差"
+    ],
+    "mae": [
+      "Средняя абсолютная ошибка",
+      "Mean absolute error",
+      "平均绝对误差"
+    ],
+    "rmse": [
+      "Среднеквадратическая ошибка",
+      "Root mean square error",
+      "均方根误差"
+    ],
+    "projections": [
+      "Выбранные условные проекции",
+      "Selected conditional projections",
+      "所选条件性预估"
+    ],
+    "raw_value": [
+      "Исходное значение проекции",
+      "Original projection value",
+      "原始预估值"
+    ],
+    "adjusted_value": [
+      "Значение после выбранной коррекции",
+      "Value after selected adjustment",
+      "所选订正后的数值"
+    ],
+    "reference_value": [
+      "Выбранное базовое значение",
+      "Selected reference value",
+      "所选参考值"
+    ],
+    "change": [
+      "Изменение относительно выбранного базового значения",
+      "Change from selected reference",
+      "相对所选参考值的变化"
+    ],
+    "percent_change": [
+      "Процентное изменение выбранной величины",
+      "Percentage change of selected quantity",
+      "所选量的百分比变化"
+    ],
+    "internal_standard_deviation": [
+      "Предоставленное внутреннее стандартное отклонение",
+      "Supplied internal standard deviation",
+      "所提供内部标准差"
+    ],
+    "ensemble": [
+      "Описательные сводки выбранной панели моделей",
+      "Descriptive summaries of selected model panel",
+      "所选模型集合的描述性汇总"
+    ],
+    "panel_policy": [
+      "Правило неполной панели моделей",
+      "Incomplete model panel policy",
+      "不完整模型集合规则"
+    ],
+    "weighted_change": [
+      "Изменение с выбранными описательными весами",
+      "Change with selected descriptive weights",
+      "按所选描述性权重计算的变化"
+    ],
+    "scenario_variance": [
+      "Описательный межсценарный разброс",
+      "Descriptive scenario variance",
+      "描述性情景间方差"
+    ],
+    "conditional_model_variance": [
+      "Условный межмодельный разброс",
+      "Conditional model variance",
+      "条件性模型间方差"
+    ],
+    "model_variance": [
+      "Описательный межмодельный разброс",
+      "Descriptive model variance",
+      "描述性模型间方差"
+    ],
+    "internal_variance": [
+      "Предоставленная внутренняя вариабельность",
+      "Supplied internal variance",
+      "所提供内部方差"
+    ],
+    "total_descriptive_variance": [
+      "Суммарный описательный разброс выбранных компонентов",
+      "Total descriptive variance of selected components",
+      "所选分量的总描述性方差"
+    ],
+    "variance_unit": [
+      "Единица дисперсии",
+      "Variance unit",
+      "方差单位"
+    ],
+    "scenario_summaries": [
+      "Условные сводки по сценариям",
+      "Conditional scenario summaries",
+      "条件性情景汇总"
+    ],
+    "normalized_scenario_weight": [
+      "Нормированный описательный вес сценария",
+      "Normalized descriptive scenario weight",
+      "归一化情景描述性权重"
+    ],
+    "missing_model_ids": [
+      "Модели без записи в выбранной панели",
+      "Model identifiers missing from selected panel",
+      "所选集合中缺少记录的模型标识"
+    ],
+    "normalized_model_weights": [
+      "Нормированные описательные веса моделей",
+      "Normalized descriptive model weights",
+      "归一化模型描述性权重"
+    ],
+    "spread_interpretation": [
+      "Границы интерпретации разброса",
+      "Spread interpretation scope",
+      "离散程度解释范围"
+    ],
+    "weather_forecast": [
+      "Инструмент формирует прогноз погоды",
+      "Tool produces a weather forecast",
+      "工具生成天气预报"
+    ],
+    "RU_direct": [
+      "Выбранная граница прямых выбросов для российского черновика",
+      "Selected Russian direct emission draft boundary",
+      "俄罗斯直接排放草稿的所选边界"
+    ],
+    "RU_direct_gross_candidate_tCO2e": [
+      "Условный валовый итог прямых выбросов российского контура по известному столетнему основанию",
+      "Conditional gross Russian direct emission total on a known one hundred year basis",
+      "已知百年依据下俄罗斯直接排放边界的条件性总量"
+    ],
+    "activity": [
+      "Исходная деятельность",
+      "Source activity",
+      "来源活动"
+    ],
+    "activity_id": [
+      "Идентификатор деятельности",
+      "Activity identifier",
+      "活动标识符"
+    ],
+    "factor": [
+      "Выбранный коэффициент выброса",
+      "Selected emission factor",
+      "所选排放因子"
+    ],
+    "net_calorific_value": [
+      "Выбранная низшая теплота сгорания",
+      "Selected net calorific value",
+      "所选低位热值"
+    ],
+    "oxidation": [
+      "Выбранный коэффициент окисления",
+      "Selected oxidation factor",
+      "所选氧化因子"
+    ],
+    "oxidation_mode": [
+      "Выбранный способ учёта окисления",
+      "Selected oxidation treatment",
+      "所选氧化处理方式"
+    ],
+    "gas": [
+      "Химический вид газа",
+      "Gas species",
+      "气体种类"
+    ],
+    "mass": [
+      "Предоставленная масса газа",
+      "Supplied gas mass",
+      "所提供气体质量"
+    ],
+    "mass_t_gas": [
+      "Масса конкретного газа в тоннах",
+      "Species gas mass in tonnes",
+      "具体气体质量，吨"
+    ],
+    "gross_mass_t_gas": [
+      "Валовая масса конкретного газа в тоннах",
+      "Gross species gas mass in tonnes",
+      "具体气体总质量，吨"
+    ],
+    "attributed_mass_t_gas": [
+      "Отнесённая к выбранной границе масса газа в тоннах",
+      "Gas mass attributed to selected boundary in tonnes",
+      "归属于所选边界的气体质量，吨"
+    ],
+    "co2e_tonnes": [
+      "Выбранный эквивалент CO2 в тоннах",
+      "Selected CO2 equivalent in tonnes",
+      "所选二氧化碳当量，吨"
+    ],
+    "gwp": [
+      "Выбранный набор потенциалов глобального потепления",
+      "Selected global warming potential set",
+      "所选全球增温潜势集合"
+    ],
+    "gwp_set_id": [
+      "Идентификатор выбранного набора потенциалов",
+      "Selected GWP set identifier",
+      "所选增温潜势集合标识符"
+    ],
+    "set_id": [
+      "Идентификатор набора",
+      "Set identifier",
+      "集合标识符"
+    ],
+    "selected_GWP100": [
+      "Выбранный потенциал для горизонта сто лет",
+      "Selected one hundred year global warming potential",
+      "所选百年全球增温潜势"
+    ],
+    "gas_totals_by_scope": [
+      "Итоги по видам газов отдельно в каждом контуре",
+      "Species gas totals separately in each scope",
+      "各边界分别按气体种类汇总"
+    ],
+    "scope_totals_tCO2e": [
+      "Итоги CO2 эквивалента отдельно по контурам",
+      "CO2 equivalent totals separately by scope",
+      "各边界分别汇总二氧化碳当量"
+    ],
+    "separate_fluxes_tCO2e": [
+      "Потоки показанные отдельно от валовых итогов",
+      "Fluxes shown separately from gross totals",
+      "与总量分列的通量"
+    ],
+    "biogenic_CO2": [
+      "Биогенный CO2 показанный отдельно",
+      "Biogenic CO2 shown separately",
+      "单独列示的生物源二氧化碳"
+    ],
+    "removal": [
+      "Поглощение показанное отдельно",
+      "Removal shown separately",
+      "单独列示的清除量"
+    ],
+    "flow": [
+      "Направление потока",
+      "Flux direction",
+      "通量方向"
+    ],
+    "carbon_origin": [
+      "Предоставленное происхождение углерода",
+      "Supplied carbon origin",
+      "所提供碳来源"
+    ],
+    "category": [
+      "Исходная категория деятельности",
+      "Source activity category",
+      "来源活动类别"
+    ],
+    "framework": [
+      "Выбранная система составления черновика",
+      "Selected draft reporting framework",
+      "所选草稿报告框架"
+    ],
+    "boundary": [
+      "Выбранная граница учёта",
+      "Selected accounting boundary",
+      "所选核算边界"
+    ],
+    "boundary_description": [
+      "Авторское описание границы",
+      "Authored boundary description",
+      "作者边界说明"
+    ],
+    "consolidation": [
+      "Выбранный принцип консолидации",
+      "Selected consolidation principle",
+      "所选合并原则"
+    ],
+    "covered_categories": [
+      "Предоставленные категории внутри границы",
+      "Supplied categories within boundary",
+      "边界内所提供类别"
+    ],
+    "site": [
+      "Место проекта",
+      "Project site",
+      "项目地点"
+    ],
+    "site_id": [
+      "Идентификатор площадки",
+      "Site identifier",
+      "地点标识符"
+    ],
+    "site_ids": [
+      "Выбранные площадки",
+      "Selected sites",
+      "所选地点"
+    ],
+    "perimeter_id": [
+      "Идентификатор выбранного контура",
+      "Selected perimeter identifier",
+      "所选边界标识符"
+    ],
+    "reporting_bucket": [
+      "Отдельный контур представления результата",
+      "Separate result reporting scope",
+      "独立结果报告边界"
+    ],
+    "scope1": [
+      "Выбранный контур Scope 1",
+      "Selected Scope 1",
+      "所选范围一"
+    ],
+    "scope2_location": [
+      "Выбранный Scope 2 по территориальному подходу",
+      "Selected location based Scope 2",
+      "所选基于位置的范围二"
+    ],
+    "scope2_market": [
+      "Выбранный Scope 2 по рыночному подходу",
+      "Selected market based Scope 2",
+      "所选基于市场的范围二"
+    ],
+    "scope3": [
+      "Выбранный контур Scope 3",
+      "Selected Scope 3",
+      "所选范围三"
+    ],
+    "organization": [
+      "Организация по выбранной записи",
+      "Organisation in selected record",
+      "所选记录中的组织"
+    ],
+    "reporting_year": [
+      "Год выбранного отчётного периода",
+      "Selected reporting year",
+      "所选报告年份"
+    ],
+    "source_reviews": [
+      "Проверка предоставленных записей источников выбросов",
+      "Review of supplied emission source records",
+      "所提供排放来源记录审查"
+    ],
+    "quality_record": [
+      "Выбранная запись контроля качества",
+      "Selected quality control record",
+      "所选质量控制记录"
+    ],
+    "quality_reviews": [
+      "Проверка предоставленных записей качества",
+      "Review of supplied quality records",
+      "所提供质量记录审查"
+    ],
+    "exclusion_reviews": [
+      "Предоставленные исключения из выбранной границы",
+      "Supplied selected boundary exclusions",
+      "所提供所选边界排除项"
+    ],
+    "eligibility_review": [
+      "Условное сопоставление с выбранными критериями отчётности",
+      "Conditional comparison with selected reporting criteria",
+      "与所选报告准则的条件性比较"
+    ],
+    "annual_reviews": [
+      "Сопоставления годовых сведений",
+      "Annual record comparisons",
+      "年度记录比较"
+    ],
+    "threshold": [
+      "Выбранный порог",
+      "Selected threshold",
+      "所选阈值"
+    ],
+    "at_or_above_selected_threshold": [
+      "Предоставленная величина не ниже выбранного порога",
+      "Supplied amount at or above selected threshold",
+      "所提供数量达到或超过所选阈值"
+    ],
+    "regulated_status": [
+      "Условный результат выбранного порогового сравнения",
+      "Conditional selected threshold comparison result",
+      "所选阈值比较的条件性结果"
+    ],
+    "comparability_gaps": [
+      "Пробелы сопоставления исходных сведений",
+      "Source record comparability gaps",
+      "来源记录可比性缺项"
+    ],
+    "comparable_on_supplied_identifiers": [
+      "Совпали предоставленные идентификаторы для сравнения",
+      "Supplied comparison identifiers match",
+      "所提供比较标识相符"
+    ],
+    "corporate_aggregate_tCO2e": [
+      "Общий корпоративный итог при альтернативных контурах",
+      "Corporate aggregate across alternative scopes",
+      "跨替代边界的企业合计"
+    ],
+    "corporate_aggregate_status": [
+      "Граница суммирования корпоративных контуров",
+      "Corporate scope aggregation limitation",
+      "企业边界合计限制"
+    ],
+    "candidate_deadline": [
+      "Условная дата по выбранному правилу",
+      "Conditional date under selected rule",
+      "按所选规则得到的条件性日期"
+    ],
+    "nominal_date": [
+      "Дата до выбранного переноса",
+      "Date before selected roll",
+      "所选顺延前日期"
+    ],
+    "last_included_before_roll": [
+      "Последний включённый день до переноса",
+      "Last included day before roll",
+      "顺延前最后计入日期"
+    ],
+    "days_until_candidate": [
+      "Дней до условной даты от информационного среза",
+      "Days from information cutoff to conditional date",
+      "信息截止日至条件性日期的天数"
+    ],
+    "roll": [
+      "Выбранное правило переноса даты",
+      "Selected date roll rule",
+      "所选日期顺延规则"
+    ],
+    "project": [
+      "Авторская карточка проекта",
+      "Authored project record",
+      "作者项目记录"
+    ],
+    "project_type": [
+      "Предоставленный тип проекта",
+      "Supplied project type",
+      "所提供项目类型"
+    ],
+    "baseline_description": [
+      "Авторское описание базовой линии",
+      "Authored baseline description",
+      "作者基准线说明"
+    ],
+    "baseline_procedure": [
+      "Предложенный порядок формирования базовой линии",
+      "Proposed baseline procedure",
+      "建议基准线程序"
+    ],
+    "project_scenario": [
+      "Авторское описание проектного сценария",
+      "Authored project scenario description",
+      "作者项目情景说明"
+    ],
+    "quantification": [
+      "Арифметика выбранных потоков проекта",
+      "Selected project flux arithmetic",
+      "所选项目通量算术"
+    ],
+    "period_reviews": [
+      "Результаты по выбранным непересекающимся периодам",
+      "Results for selected nonoverlapping periods",
+      "所选不重叠时段结果"
+    ],
+    "components": [
+      "Выбранные компоненты потоков",
+      "Selected flux components",
+      "所选通量分量"
+    ],
+    "component_values": [
+      "Числовые значения выбранных компонентов",
+      "Selected component numeric values",
+      "所选分量数值"
+    ],
+    "baseline_emissions": [
+      "Выбранные выбросы базовой линии",
+      "Selected baseline emissions",
+      "所选基准线排放"
+    ],
+    "baseline_removals": [
+      "Выбранные поглощения базовой линии",
+      "Selected baseline removals",
+      "所选基准线清除量"
+    ],
+    "project_emissions": [
+      "Выбранные выбросы проектного сценария",
+      "Selected project emissions",
+      "所选项目排放"
+    ],
+    "project_removals": [
+      "Выбранные поглощения проектного сценария",
+      "Selected project removals",
+      "所选项目清除量"
+    ],
+    "leakage": [
+      "Предоставленная утечка",
+      "Supplied leakage",
+      "所提供泄漏量"
+    ],
+    "reversal_mode": [
+      "Выбранный способ учёта обратного высвобождения",
+      "Selected reversal treatment",
+      "所选逆转处理方式"
+    ],
+    "reversal": [
+      "Предоставленное обратное высвобождение",
+      "Supplied reversal",
+      "所提供逆转量"
+    ],
+    "separate_reversal_adjustment": [
+      "Отдельная выбранная поправка обратного высвобождения",
+      "Selected separate reversal adjustment",
+      "所选单独逆转调整"
+    ],
+    "net_benefit_tCO2e": [
+      "Чистое арифметическое изменение выбранных потоков в тоннах CO2 эквивалента",
+      "Net arithmetic change of selected fluxes in tonnes CO2 equivalent",
+      "所选通量净算术变化，吨二氧化碳当量"
+    ],
+    "total_net_benefit_tCO2e": [
+      "Сумма чистых изменений выбранных периодов",
+      "Sum of selected period net changes",
+      "所选时段净变化总和"
+    ],
+    "carbon_units_quantity": [
+      "Количество углеродных единиц не определяемое этим инструментом",
+      "Carbon unit quantity not determined by this tool",
+      "本工具不确定的碳单位数量"
+    ],
+    "carbon_units_status": [
+      "Граница вывода о количестве углеродных единиц",
+      "Carbon unit quantity conclusion scope",
+      "碳单位数量结论范围"
+    ],
+    "creditable_units": [
+      "Количество единиц допустимых к зачёту не определяемое арифметикой",
+      "Creditable unit quantity not determined by arithmetic",
+      "算术不确定的可记入单位数量"
+    ],
+    "creditable_status": [
+      "Граница вывода о допустимости зачёта",
+      "Crediting conclusion scope",
+      "可记入性结论范围"
+    ],
+    "additionality_reviews": [
+      "Выбранные критерии и свидетельства дополнительности",
+      "Selected additionality criteria and evidence",
+      "所选额外性准则及证据"
+    ],
+    "double_counting_review": [
+      "Сопоставление предоставленных записей на совпадения",
+      "Supplied record overlap comparison",
+      "所提供记录重叠比较"
+    ],
+    "provided_claims": [
+      "Предоставленные сведения о реестровых заявлениях",
+      "Supplied registry claim records",
+      "所提供登记声明记录"
+    ],
+    "claim_id": [
+      "Идентификатор заявления из исходной записи",
+      "Source claim identifier",
+      "来源声明标识符"
+    ],
+    "registry": [
+      "Реестр по выбранной записи",
+      "Registry in selected record",
+      "所选记录中的登记系统"
+    ],
+    "supplied_record_matches": [
+      "Совпадения предоставленных записей",
+      "Supplied record matches",
+      "所提供记录匹配项"
+    ],
+    "conflicting": [
+      "Противоречащие предоставленные записи",
+      "Conflicting supplied records",
+      "相互冲突的所提供记录"
+    ],
+    "first_id": [
+      "Первая сопоставленная запись",
+      "First compared record",
+      "第一条比较记录"
+    ],
+    "second_id": [
+      "Вторая сопоставленная запись",
+      "Second compared record",
+      "第二条比较记录"
+    ],
+    "assurance_record_reviews": [
+      "Выбранные записи о валидации верификации или реестре",
+      "Selected validation verification or registry records",
+      "所选审定核查或登记记录"
+    ],
+    "selected_status_record": [
+      "Предоставленная запись о статусе",
+      "Supplied status record",
+      "所提供状态记录"
+    ],
+    "condition_reviews": [
+      "Сопоставления выбранных условий",
+      "Selected condition comparisons",
+      "所选条件比较"
+    ],
+    "owner": [
+      "Указанный ответственный",
+      "Supplied owner",
+      "所指定负责人"
+    ],
+    "parameter": [
+      "Выбранный параметр мониторинга",
+      "Selected monitoring parameter",
+      "所选监测参数"
+    ],
+    "risk_reviews": [
+      "Предложенные проектные риски и меры",
+      "Proposed project risks and mitigations",
+      "建议项目风险与应对措施"
+    ],
+    "proposed_mitigation": [
+      "Предложенная мера снижения риска",
+      "Proposed risk mitigation",
+      "建议风险降低措施"
+    ],
+    "review_date": [
+      "Предложенная дата рассмотрения",
+      "Proposed review date",
+      "建议审查日期"
+    ],
+    "economics": [
+      "Условная экономика выбранных денежных потоков",
+      "Conditional economics of selected cash flows",
+      "所选现金流的条件性经济分析"
+    ],
+    "currency": [
+      "Валюта выбранных денежных потоков",
+      "Selected cash flow currency",
+      "所选现金流币种"
+    ],
+    "discount_rate": [
+      "Выбранная ставка дисконтирования на период",
+      "Selected per period discount rate",
+      "所选每期贴现率"
+    ],
+    "cashflows": [
+      "Предоставленные денежные потоки",
+      "Supplied cash flows",
+      "所提供现金流"
+    ],
+    "aggregated_period_cashflows": [
+      "Денежные потоки сгруппированные по периодам",
+      "Cash flows aggregated by period",
+      "按期汇总现金流"
+    ],
+    "year_offset": [
+      "Количество лет от начального периода",
+      "Years from initial period",
+      "距初始期的年数"
+    ],
+    "npv": [
+      "Чистая приведённая стоимость выбранных потоков",
+      "Net present value of selected cash flows",
+      "所选现金流净现值"
+    ],
+    "irr": [
+      "Условная внутренняя норма доходности",
+      "Conditional internal rate of return",
+      "条件性内部收益率"
+    ],
+    "irr_interval": [
+      "Вычисленный интервал корня выбранного уравнения",
+      "Computed root interval of selected equation",
+      "所选方程计算根区间"
+    ],
+    "irr_mode": [
+      "Выбранная ветвь внутренней нормы доходности",
+      "Selected internal rate of return branch",
+      "所选内部收益率分支"
+    ],
+    "irr_status": [
+      "Состояние расчёта внутренней нормы доходности",
+      "Internal rate of return calculation status",
+      "内部收益率计算状态"
+    ],
+    "irr_period_unit": [
+      "Период внутренней нормы доходности",
+      "Internal rate of return period",
+      "内部收益率期间"
+    ],
+    "values": [
+      "Предоставленные значения",
+      "Supplied values",
+      "所提供数值"
+    ],
+    "analysis_only": [
+      "Только аналитический черновик",
+      "Analysis draft only",
+      "仅分析草稿"
+    ],
+    "assisted_draft": [
+      "Результат подготовлен как вспомогательный черновик",
+      "Result prepared as assisted draft",
+      "结果作为辅助草稿编制"
+    ],
+    "external_actions": [
+      "Внешние действия выполнены инструментом",
+      "External actions performed by tool",
+      "工具已执行外部操作"
+    ],
+    "source_semantics_verified": [
+      "Смысл источника удостоверен инструментом",
+      "Source semantics certified by tool",
+      "工具已认证来源语义"
+    ],
+    "source_semantics_established": [
+      "Смысл источника установлен инструментом",
+      "Source semantics established by tool",
+      "工具已确定来源语义"
+    ],
+    "current_legal_applicability_verified": [
+      "Текущая правовая применимость удостоверена инструментом",
+      "Current legal applicability certified by tool",
+      "工具已认证现行法律适用性"
+    ],
+    "current_normative_chain_established": [
+      "Полная актуальная цепочка норм установлена инструментом",
+      "Current full normative chain established by tool",
+      "工具已确定完整现行规范链"
+    ],
+    "methodology_approved": [
+      "Методика утверждена инструментом",
+      "Methodology approved by tool",
+      "工具已批准方法学"
+    ],
+    "model_certified": [
+      "Модель удостоверена инструментом",
+      "Model certified by tool",
+      "工具已认证模型"
+    ],
+    "report_certified": [
+      "Отчёт удостоверен инструментом",
+      "Report certified by tool",
+      "工具已认证报告"
+    ],
+    "carbon_units_issued": [
+      "Углеродные единицы выпущены инструментом",
+      "Carbon units issued by tool",
+      "工具已签发碳单位"
+    ],
+    "project_registered": [
+      "Проект зарегистрирован инструментом",
+      "Project registered by tool",
+      "工具已登记项目"
+    ],
+    "signature_applied": [
+      "Подпись поставлена инструментом",
+      "Signature applied by tool",
+      "工具已签署"
+    ],
+    "submission_performed": [
+      "Подача выполнена инструментом",
+      "Submission performed by tool",
+      "工具已提交"
+    ],
+    "physical_work_authorized": [
+      "Физические работы разрешены инструментом",
+      "Physical work authorised by tool",
+      "工具已授权实际作业"
+    ],
+    "publication_cleared": [
+      "Публикация разрешена инструментом",
+      "Publication cleared by tool",
+      "工具已许可发布"
+    ],
+    "independent_reference_verification_performed": [
+      "Независимая проверка ссылок выполнена инструментом",
+      "Independent reference verification performed by tool",
+      "工具已执行独立引文核验"
+    ],
+    "fact_inference_projection_distinction_preserved": [
+      "Типы факт вывод и проекция сохранены отдельно",
+      "Fact inference and projection types retained separately",
+      "事实推论与预估类型分别保留"
+    ],
+    "effectiveness_established": [
+      "Эффективность мер установлена инструментом",
+      "Measure effectiveness established by tool",
+      "工具已确定措施有效性"
+    ],
+    "representativeness_established": [
+      "Репрезентативность установлена инструментом",
+      "Representativeness established by tool",
+      "工具已确定代表性"
+    ],
+    "legal_applicability_established": [
+      "Правовая применимость установлена инструментом",
+      "Legal applicability established by tool",
+      "工具已确定法律适用性"
+    ],
+    "normative_applicability_established": [
+      "Нормативная применимость установлена инструментом",
+      "Normative applicability established by tool",
+      "工具已确定规范适用性"
+    ],
+    "load_conversion_performed": [
+      "Преобразование в строительные нагрузки выполнено инструментом",
+      "Structural load conversion performed by tool",
+      "工具已执行结构荷载换算"
+    ],
+    "automatic_imputation_performed": [
+      "Автоматическое заполнение пропусков выполнено инструментом",
+      "Automatic imputation performed by tool",
+      "工具已执行自动缺失值填补"
+    ],
+    "imputation_performed": [
+      "Заполнение пропусков выполнено инструментом",
+      "Imputation performed by tool",
+      "工具已填补缺失值"
+    ],
+    "homogenization_performed": [
+      "Гомогенизация выполнена инструментом",
+      "Homogenisation performed by tool",
+      "工具已执行均一化"
+    ],
+    "official_standard_status_established": [
+      "Официальный статус климатической нормы установлен инструментом",
+      "Official climate normal status established by tool",
+      "工具已确定官方气候常态地位"
+    ],
+    "causal_attribution_established": [
+      "Причинная атрибуция установлена инструментом",
+      "Causal attribution established by tool",
+      "工具已确定因果归因"
+    ],
+    "all_27_ETCCDI_computed": [
+      "Все двадцать семь индексов ETCCDI вычислены инструментом",
+      "All twenty seven ETCCDI indices computed by tool",
+      "工具已计算全部二十七项ETCCDI指数"
+    ],
+    "coverage_established": [
+      "Статистическое покрытие интервала установлено инструментом",
+      "Statistical interval coverage established by tool",
+      "工具已确定统计区间覆盖率"
+    ],
+    "nominal_coverage_established": [
+      "Номинальное покрытие интервала установлено инструментом",
+      "Nominal interval coverage established by tool",
+      "工具已确定名义区间覆盖率"
+    ],
+    "block_completeness_recomputed": [
+      "Полнота годовых максимумов пересчитана по исходным суточным данным",
+      "Annual maximum completeness recomputed from raw daily data",
+      "已根据原始逐日数据重算年最大值完整性"
+    ],
+    "calibration_validation_disjoint": [
+      "Месяцы калибровки и проверки не пересекаются",
+      "Training and validation months are disjoint",
+      "训练与验证月份不重叠"
+    ],
+    "engine_executed": [
+      "Внешний расчётный инструмент запущен здесь",
+      "External calculation engine executed here",
+      "已在此运行外部计算工具"
+    ],
+    "engine_executed_here": [
+      "Внешний расчётный инструмент запущен здесь",
+      "External calculation engine executed here",
+      "已在此运行外部计算工具"
+    ],
+    "arithmetic_precision": [
+      "Характер числового представления и вычислений",
+      "Numeric representation and computation scope",
+      "数值表示与计算范围"
+    ],
+    "interpretation": [
+      "Граница интерпретации результата",
+      "Result interpretation scope",
+      "结果解释范围"
+    ],
+    "inventory_calculation_performed": [
+      "Арифметика выбранной инвентаризации выполнена",
+      "Selected inventory arithmetic performed",
+      "已执行所选清单算术"
+    ],
+    "classifications_semantically_established": [
+      "Смысл классификаций установлен инструментом",
+      "Classification semantics established by tool",
+      "工具已确定分类语义"
+    ],
+    "applicability_established": [
+      "Применимость выбранного основания установлена инструментом",
+      "Selected basis applicability established by tool",
+      "工具已确定所选依据适用性"
+    ],
+    "legal_deadline_established": [
+      "Юридический срок установлен инструментом",
+      "Legal deadline established by tool",
+      "工具已确定法律期限"
+    ],
+    "filing_performed": [
+      "Подача отчётности выполнена инструментом",
+      "Report filing performed by tool",
+      "工具已提交报告"
+    ],
+    "official_inventory_or_project_conclusion_made": [
+      "Официальный вывод по инвентаризации или проекту сделан инструментом",
+      "Official inventory or project conclusion made by tool",
+      "工具已作出正式清单或项目结论"
+    ],
+    "registry_accessed": [
+      "Реестр запрошен инструментом",
+      "Registry accessed by tool",
+      "工具已访问登记系统"
+    ],
+    "registry_submission_performed": [
+      "Подача в реестр выполнена инструментом",
+      "Registry submission performed by tool",
+      "工具已向登记系统提交"
+    ],
+    "global_registry_search_performed": [
+      "Поиск по внешним реестрам выполнен инструментом",
+      "Global registry search performed by tool",
+      "工具已搜索外部登记系统"
+    ],
+    "additionality_established": [
+      "Дополнительность установлена инструментом",
+      "Additionality established by tool",
+      "工具已确定额外性"
+    ],
+    "double_counting_absence_established": [
+      "Отсутствие двойного учёта установлено инструментом",
+      "Absence of double counting established by tool",
+      "工具已确定不存在重复计算"
+    ],
+    "record_semantics_established": [
+      "Смысл предоставленной записи установлен инструментом",
+      "Supplied record semantics established by tool",
+      "工具已确定所提供记录语义"
+    ],
+    "measurement_or_calibration_performed": [
+      "Измерение или калибровка выполнены инструментом",
+      "Measurement or calibration performed by tool",
+      "工具已执行测量或校准"
+    ],
+    "mitigation_performed": [
+      "Мера снижения риска выполнена инструментом",
+      "Risk mitigation performed by tool",
+      "工具已执行风险降低措施"
+    ],
+    "validation_or_verification_performed": [
+      "Валидация или верификация выполнены инструментом",
+      "Validation or verification performed by tool",
+      "工具已执行审定或核查"
+    ],
+    "economics_does_not_establish_additionality": [
+      "Экономическая арифметика не устанавливает дополнительность",
+      "Economic arithmetic does not establish additionality",
+      "经济算术不能确定额外性"
+    ],
+    "carbon_unit_revenues_or_prices_not_generated": [
+      "Цена и выручка от углеродных единиц не сформированы инструментом",
+      "Carbon unit prices or revenues not generated by tool",
+      "工具未生成碳单位价格或收入"
+    ],
+    "selected_range_check": [
+      "Предоставленный диапазон контроля значений",
+      "Supplied value range check",
+      "所提供数值范围检查"
+    ],
+    "minimum": [
+      "Выбранная нижняя граница",
+      "Selected minimum",
+      "所选下限"
+    ],
+    "maximum": [
+      "Выбранная верхняя граница",
+      "Selected maximum",
+      "所选上限"
+    ],
+    "definition_reference": [
+      "Источник определения показателя",
+      "Indicator definition source",
+      "指标定义来源"
+    ],
+    "fit_provenance": [
+      "Происхождение выбранной оценки распределения",
+      "Selected distribution fit provenance",
+      "所选分布拟合来源"
+    ],
+    "observation_dataset_reference_date": [
+      "Дата состояния набора калибровочных наблюдений",
+      "Calibration observation dataset reference date",
+      "校准观测数据集参考日期"
+    ],
+    "tau_definition": [
+      "Определение выбранного коэффициента тау",
+      "Selected tau definition",
+      "所选tau系数定义"
+    ],
+    "test_rule_reference": [
+      "Источник выбранного правила теста",
+      "Selected test rule source",
+      "所选检验规则来源"
+    ],
+    "uncertainty_rule_reference": [
+      "Источник выбранного правила неопределённости",
+      "Selected uncertainty rule source",
+      "所选不确定性规则来源"
+    ],
+    "GWP_applied_again": [
+      "Потенциал GWP повторно применён инструментом",
+      "GWP applied again by tool",
+      "工具已再次应用GWP"
+    ],
+    "basis_group_id": [
+      "Идентификатор группы выбранного основания",
+      "Selected basis group identifier",
+      "所选依据分组标识符"
+    ],
+    "co2e_basis": [
+      "Предоставленное основание готового CO2 эквивалента",
+      "Supplied preaggregated CO2 equivalent basis",
+      "所提供已汇总二氧化碳当量依据"
+    ],
+    "co2e_basis_metadata": [
+      "Метаданные основания CO2 эквивалента",
+      "CO2 equivalent basis metadata",
+      "二氧化碳当量依据元数据"
+    ],
+    "gas_disaggregation_status": [
+      "Наличие разбивки предоставленных данных по газам",
+      "Gas breakdown status of supplied records",
+      "所提供记录的气体分解状态"
+    ],
+    "horizon_years": [
+      "Горизонт выбранного потенциала в годах",
+      "Selected GWP horizon in years",
+      "所选增温潜势时段，年"
+    ],
+    "metadata_status": [
+      "Состояние предоставленных метаданных основания",
+      "Supplied basis metadata status",
+      "所提供依据元数据状态"
+    ],
+    "scope_totals_by_basis": [
+      "Итоги раздельно по выбранным основаниям",
+      "Totals separately by selected basis",
+      "按所选依据分别汇总"
+    ],
+    "scope_totals_status": [
+      "Состояние объединения выбранных оснований",
+      "Selected basis combination status",
+      "所选依据合并状态"
+    ],
+    "source_anchors": [
+      "Связи с выбранными исходными документами",
+      "Selected source document anchors",
+      "所选来源文件锚点"
+    ],
+    "source_record_ids": [
+      "Связанные исходные записи",
+      "Linked source records",
+      "关联来源记录"
+    ]
+  },
+  "tokens": {
+    "pr": [
+      "Канал суточных осадков pr",
+      "Daily precipitation channel pr",
+      "逐日降水通道pr"
+    ],
+    "tx": [
+      "Канал суточной максимальной температуры tx",
+      "Daily maximum temperature channel tx",
+      "逐日最高气温通道tx"
+    ],
+    "tn": [
+      "Канал суточной минимальной температуры tn",
+      "Daily minimum temperature channel tn",
+      "逐日最低气温通道tn"
+    ],
+    "RU": [
+      "Российская Федерация",
+      "Russian Federation",
+      "俄罗斯联邦"
+    ]
+  }
+}

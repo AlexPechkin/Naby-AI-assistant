@@ -1,0 +1,487 @@
+{
+  "P": [
+    "Проектная документация (выбранная стадия)",
+    "Design documentation (selected stage)",
+    "设计文件（所选阶段）"
+  ],
+  "R": [
+    "Рабочая документация (выбранная стадия)",
+    "Working documentation (selected stage)",
+    "施工图文件（所选阶段）"
+  ],
+  "surveys": [
+    "Исходные данные и изыскания",
+    "Initial data and surveys",
+    "基础资料与勘察"
+  ],
+  "loads": [
+    "Нагрузки",
+    "Loads",
+    "荷载"
+  ],
+  "schemes": [
+    "Принятые конструктивные схемы",
+    "Selected structural schemes",
+    "选定结构方案"
+  ],
+  "materials": [
+    "Материалы",
+    "Materials",
+    "材料"
+  ],
+  "reliability": [
+    "Обоснование надёжности и устойчивости",
+    "Reliability and stability justification",
+    "可靠性与稳定性论证"
+  ],
+  "protection": [
+    "Защита конструкций",
+    "Structural protection",
+    "结构防护"
+  ],
+  "graphics": [
+    "Графическая часть",
+    "Graphical part",
+    "图纸部分"
+  ],
+  "general_data": [
+    "Общие данные",
+    "General data",
+    "总说明"
+  ],
+  "reference_documents": [
+    "Ссылочные документы",
+    "Referenced documents",
+    "引用文件"
+  ],
+  "specifications": [
+    "Спецификации",
+    "Specifications",
+    "材料与构件明细"
+  ],
+  "details": [
+    "Узлы",
+    "Details",
+    "节点详图"
+  ],
+  "stamps_signatures": [
+    "Штампы и сведения о подписях",
+    "Title blocks and signature records",
+    "图签与签署记录"
+  ],
+  "changes": [
+    "Изменения",
+    "Changes",
+    "变更"
+  ],
+  "applicable": [
+    "Применимость выбрана пользователем",
+    "Applicability selected by caller",
+    "调用方选定适用"
+  ],
+  "not_applicable": [
+    "Указана неприменимость; основание требует проверки",
+    "Nonapplicability supplied; basis requires review",
+    "已提供不适用说明；依据须复核"
+  ],
+  "unknown": [
+    "Не установлено",
+    "Not established",
+    "尚未确定"
+  ],
+  "requirement_applicability_date_missing": [
+    "Не указана дата применимости выбранного требования",
+    "Applicability date for the selected requirement is missing",
+    "未提供选定要求的适用日期"
+  ],
+  "requirement_effective_start_unknown": [
+    "Начало действия выбранного требования неизвестно",
+    "Effective start of the selected requirement is unknown",
+    "选定要求的生效起始日期未知"
+  ],
+  "requirement_selected_date_outside_window": [
+    "Выбранная дата вне предоставленного периода действия",
+    "Selected date is outside the supplied effective window",
+    "所选日期不在提供的有效期内"
+  ],
+  "requirement_effective_end_unknown": [
+    "Окончание действия не установлено; полнота цепочки не подтверждена",
+    "Effective end is unknown; change-chain completeness is not established",
+    "有效期终止日期未知；修订链完整性未确定"
+  ],
+  "requirement_published_after_selected_date_review_needed": [
+    "Требование опубликовано после выбранной даты; нужна проверка основания применения",
+    "Requirement was published after the selected date; applicability basis needs review",
+    "要求在所选日期之后发布；须复核适用依据"
+  ],
+  "selected_requirements_missing": [
+    "Выбранные датированные требования не предоставлены",
+    "Selected dated requirements were not supplied",
+    "未提供选定的有日期要求"
+  ],
+  "requirement_id_not_supplied": [
+    "Идентификатор требования отсутствует в выбранном наборе",
+    "Requirement identifier is absent from the selected set",
+    "要求标识不在所选集合中"
+  ],
+  "selected_requirement_unmapped": [
+    "Для выбранного требования не указаны материалы или пункты проверки",
+    "No content or checklist mapping was supplied for the selected requirement",
+    "选定要求未关联材料或检查项"
+  ],
+  "section_content_missing": [
+    "Материалы раздела не предоставлены",
+    "Section content was not supplied",
+    "未提供该节材料"
+  ],
+  "stamp_record_missing": [
+    "Сведения основной надписи не предоставлены",
+    "Title-block record was not supplied",
+    "未提供图签记录"
+  ],
+  "conflicting_sheet_identity": [
+    "Идентификатор листа неоднозначен: несколько записей",
+    "Sheet identifier is ambiguous: multiple records",
+    "图纸标识不明确：存在多条记录"
+  ],
+  "target_missing": [
+    "Целевая запись отсутствует",
+    "Target record is missing",
+    "缺少目标记录"
+  ],
+  "target_ambiguous": [
+    "Целевая запись неоднозначна",
+    "Target record is ambiguous",
+    "目标记录不明确"
+  ],
+  "bare_evidence_id_ambiguous": [
+    "Идентификатор неоднозначен между записями; тип не выбран автоматически",
+    "Identifier is ambiguous across records; record type was not guessed",
+    "记录之间的标识不明确；未自动猜测记录类型"
+  ],
+  "revision_matches": [
+    "Предоставленная метка редакции совпадает",
+    "Supplied revision label matches",
+    "提供的修订标识一致"
+  ],
+  "revision_mismatch": [
+    "Предоставленная метка редакции отличается",
+    "Supplied revision label differs",
+    "提供的修订标识不同"
+  ],
+  "linked_record_missing": [
+    "Связанная запись не предоставлена",
+    "Linked record was not supplied",
+    "未提供关联记录"
+  ],
+  "revision_document_missing": [
+    "Документ изменения не предоставлен",
+    "Revision document was not supplied",
+    "未提供变更文件"
+  ],
+  "superseded_revision_missing": [
+    "Предыдущая запись изменения не предоставлена",
+    "Superseded revision record was not supplied",
+    "未提供被替代的变更记录"
+  ],
+  "revision_chain_cycle": [
+    "В цепочке изменений обнаружен цикл идентификаторов",
+    "Revision chain contains an identity cycle",
+    "变更链中存在标识循环"
+  ],
+  "selected_nonapplicability_requires_review": [
+    "Предоставленная неприменимость требует проверки основания",
+    "Supplied nonapplicability requires basis review",
+    "已提供的不适用说明须复核依据"
+  ],
+  "evidence_missing": [
+    "Выбранные подтверждающие материалы отсутствуют",
+    "Selected supporting records are missing",
+    "缺少选定支持材料"
+  ],
+  "selected_evidence_linked_not_compliance": [
+    "Выбранные записи связаны; соответствие норме не установлено",
+    "Selected records are linked; compliance is not established",
+    "选定记录已关联；规范符合性未确定"
+  ],
+  "selected_record": [
+    "Предоставленная исходная запись",
+    "Supplied source record",
+    "提供的来源记录"
+  ],
+  "proposed_draft": [
+    "Предложенный текст черновика; не существующая запись источника",
+    "Proposed draft text; not an existing source record",
+    "建议草稿文本；并非现有来源记录"
+  ],
+  "proposed_content_linked_requires_review": [
+    "Связан предложенный текст; исходные подтверждения и содержание требуют проверки",
+    "Proposed content linked; source support and content require review",
+    "已关联建议文本；须复核来源支持与内容"
+  ],
+  "checklist_evidence_missing": [
+    "Материалы выбранного пункта проверки не предоставлены",
+    "Supporting records for the selected checklist item are missing",
+    "缺少所选检查项的支持记录"
+  ],
+  "checklist_applicability_unknown": [
+    "Применимость пункта проверки не установлена",
+    "Checklist item applicability is not established",
+    "检查项适用性未确定"
+  ],
+  "checklist_category_not_reviewed": [
+    "Категория оформления не включена в проверку",
+    "Documentation checklist category was not reviewed",
+    "未审查该文件检查类别"
+  ],
+  "drawing_inventory_missing": [
+    "Перечень листов не предоставлен",
+    "Drawing inventory was not supplied",
+    "未提供图纸清单"
+  ],
+  "visual": [
+    "Визуальное обследование (предложение)",
+    "Visual inspection (proposed)",
+    "目视检查（建议）"
+  ],
+  "instrumental": [
+    "Инструментальное обследование (предложение)",
+    "Instrumental inspection (proposed)",
+    "仪器检测（建议）"
+  ],
+  "opening": [
+    "Вскрытия (предложение)",
+    "Investigative openings (proposed)",
+    "局部开凿检查（建议）"
+  ],
+  "laboratory": [
+    "Лабораторные испытания (предложение)",
+    "Laboratory tests (proposed)",
+    "实验室试验（建议）"
+  ],
+  "inspection_program_missing": [
+    "Программа обследования не предоставлена",
+    "Inspection program was not supplied",
+    "未提供检查方案"
+  ],
+  "reported_urgent": [
+    "Срочные признаки явно указаны в предоставленных данных",
+    "Urgent signs explicitly reported in supplied data",
+    "提供的数据明确报告紧急迹象"
+  ],
+  "not_reported_urgent": [
+    "Срочные признаки не заявлены; безопасность не установлена",
+    "Urgent signs not reported; safety is not established",
+    "未报告紧急迹象；安全性未确定"
+  ],
+  "defect_structure_missing": [
+    "Для дефекта не предоставлена запись конструкции",
+    "Structure record for the defect was not supplied",
+    "未提供缺陷对应的结构记录"
+  ],
+  "defect_photo_metadata_missing": [
+    "Для дефекта не предоставлены метаданные фото",
+    "Photo metadata for the defect was not supplied",
+    "未提供缺陷照片元数据"
+  ],
+  "defect_photo_id_not_supplied": [
+    "Указанные метаданные фото отсутствуют",
+    "Referenced photo metadata is missing",
+    "缺少所引用的照片元数据"
+  ],
+  "defect_urgency_not_established": [
+    "Срочность по дефекту не установлена",
+    "Defect urgency is not established",
+    "缺陷紧急程度未确定"
+  ],
+  "risk_owner_missing": [
+    "Ответственный за рассмотрение риска не указан",
+    "Responsible risk-review owner is missing",
+    "未指定风险复核负责人"
+  ],
+  "escalate_to_responsible_person_now_do_not_wait_for_report": [
+    "Немедленно передать ответственному человеку; не ждать завершения отчёта",
+    "Escalate to the responsible person immediately; do not wait for the report",
+    "立即告知负责人；不要等待报告完成"
+  ],
+  "responsible_specialist_determines_measures_no_tool_permission": [
+    "Меры определяет ответственный специалист; инструмент не разрешает физические работы",
+    "Responsible specialist determines measures; tool grants no physical-work permission",
+    "措施由负责专业人员确定；工具不授权现场作业"
+  ],
+  "verification_calculation_not_supplied": [
+    "Поверочный расчёт не предоставлен и инструментом не выполнялся",
+    "Verification calculation was not supplied and was not performed by the tool",
+    "未提供复核计算，工具亦未执行"
+  ],
+  "human_specialist_category_only": [
+    "Категорию определяет специалист; инструмент её не присваивает",
+    "Category is determined by a specialist; tool does not assign it",
+    "类别由专业人员确定；工具不予评定"
+  ],
+  "decision_issue_not_supplied": [
+    "Запись решения ссылается на отсутствующий вопрос",
+    "Decision record refers to a missing issue",
+    "决策记录引用了缺失问题"
+  ],
+  "proposed": [
+    "Предложено; полномочия и принятие не установлены",
+    "Proposed; authority and acceptance are not established",
+    "建议内容；权限与采纳情况未确定"
+  ],
+  "recorded": [
+    "Предоставленная запись; полномочия не установлены",
+    "Supplied record; authority is not established",
+    "已提供记录；权限未确定"
+  ],
+  "provided_date_legal_applicability_not_established": [
+    "Указанная дата; правовая применимость не установлена",
+    "Provided date; legal applicability is not established",
+    "提供的日期；法律适用性未确定"
+  ],
+  "scope_mismatch": [
+    "Области сравнения различаются",
+    "Comparison scopes differ",
+    "比较范围不同"
+  ],
+  "comparison_units_differ": [
+    "Единицы сравниваемых величин различаются",
+    "Compared quantities use different units",
+    "比较量的单位不同"
+  ],
+  "tolerance_unit_differs": [
+    "Единица выбранного допуска отличается",
+    "Selected tolerance unit differs",
+    "选定容差单位不同"
+  ],
+  "proposed_change": [
+    "Предлагаемое изменение",
+    "Proposed change",
+    "建议变更"
+  ],
+  "proposed_disagreement": [
+    "Предлагаемое возражение; требуется обоснование",
+    "Proposed disagreement; substantiation is required",
+    "建议异议；须提供论证"
+  ],
+  "needs_clarification": [
+    "Нужно уточнение",
+    "Clarification required",
+    "需要澄清"
+  ],
+  "comment_requirement_basis_missing": [
+    "Нормативное основание замечания не предоставлено",
+    "Selected requirement basis for comment is missing",
+    "未提供意见所依据的选定要求"
+  ],
+  "changed_document_revision_not_supplied": [
+    "Изменённая редакция документа не предоставлена",
+    "Changed document revision was not supplied",
+    "未提供变更后的文件版本"
+  ],
+  "disagreement_requires_responsible_calculation_review": [
+    "Возражение требует проверки расчётного обоснования ответственным",
+    "Disagreement requires responsible review of calculation justification",
+    "异议须由负责人复核计算论证"
+  ],
+  "comment_owner_missing": [
+    "Ответственный по замечанию не указан",
+    "Comment owner is missing",
+    "未指定意见处理负责人"
+  ],
+  "proposed_not_signed_or_submitted": [
+    "Предложенный черновик; не подписан и не отправлен инструментом",
+    "Proposed draft; not signed or submitted by the tool",
+    "建议草稿；工具未签署或提交"
+  ],
+  "comparison_not_performed": [
+    "Числовое сравнение не выполнено из-за несопоставимости",
+    "Numerical comparison was not performed because inputs are not comparable",
+    "因输入不可比，未执行数值比较"
+  ],
+  "not_requested": [
+    "Ветвь не запрошена",
+    "Branch not requested",
+    "未请求该分支"
+  ],
+  "supplied_exports_compared_only": [
+    "Проверены только предоставленные экспорты результатов",
+    "Only supplied result exports were compared",
+    "仅比较所提供的结果导出记录"
+  ],
+  "supplied_exports_no_comparisons": [
+    "Предоставлены сведения о расчётах без числовых сравнений",
+    "Run records supplied without numerical comparisons",
+    "已提供计算记录但无数值比较"
+  ],
+  "second_run_comparisons_missing": [
+    "Числовые сравнения второго расчёта не предоставлены",
+    "Second-run numerical comparisons were not supplied",
+    "未提供第二次计算的数值比较"
+  ],
+  "reported_deviation": [
+    "Отклонение указано в предоставленных данных",
+    "Deviation reported in supplied data",
+    "提供的数据报告偏差"
+  ],
+  "reported_match": [
+    "Совпадение заявлено; инструментом не подтверждено",
+    "Match reported; not verified by the tool",
+    "已报告一致；工具未予验证"
+  ],
+  "observation_design_record_missing": [
+    "Проектная запись для наблюдения отсутствует",
+    "Design record for the observation is missing",
+    "缺少观察对应的设计记录"
+  ],
+  "As_times_selected_Rs_only_not_substitution_equivalence": [
+    "Только As×выбранное Rs; равнопрочность замены не установлена",
+    "Only As×selected Rs; substitution equivalence is not established",
+    "仅为As×选定Rs；替代等效性未确定"
+  ],
+  "single_indicator_only": [
+    "Рассчитан один ограниченный показатель",
+    "One bounded indicator calculated",
+    "仅计算一个有限指标"
+  ],
+  "substitution_full_structural_checks_not_performed": [
+    "Полные расчёты допустимости замены не выполнены",
+    "Full structural checks for substitution were not performed",
+    "未执行替代方案的完整结构校核"
+  ],
+  "proposed_substitution_requires_full_review": [
+    "Предложенная замена требует полной проверки ответственным",
+    "Proposed substitution requires full responsible review",
+    "建议替代方案须由负责人全面复核"
+  ],
+  "history_issue_mismatch": [
+    "Запись истории относится к другому вопросу",
+    "History record refers to a different issue",
+    "历史记录属于其他问题"
+  ],
+  "rd_change_document_missing": [
+    "Исходный документ для изменения РД не предоставлен",
+    "Original working document for proposed change is missing",
+    "未提供拟变更的原施工图文件"
+  ],
+  "rd_change_current_revision_mismatch": [
+    "Указанная текущая редакция отличается от выбранной записи того же документа",
+    "Stated current revision differs from selected record of the same document",
+    "所述当前修订版不同于同一文件的选定记录"
+  ],
+  "design_records_missing": [
+    "Проектные записи не предоставлены",
+    "Design records were not supplied",
+    "未提供设计记录"
+  ],
+  "site_observations_missing": [
+    "Фактические наблюдения со стройки не предоставлены",
+    "Actual site observations were not supplied",
+    "未提供现场实际观察记录"
+  ],
+  "not_applied_tool_draft": [
+    "Подпись инструментом не выполнена; черновик",
+    "Signature not applied by the tool; draft",
+    "工具未签署；草稿"
+  ]
+}
