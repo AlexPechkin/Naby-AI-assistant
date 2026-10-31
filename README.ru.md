@@ -29,7 +29,7 @@
 | 🍎 **macOS 11+** | [**Naby_mac.zip**](https://neuralaibaby.tech/naby/dl.php?f=mac) | Распакуйте и перетащите *Naby.app* в «Программы» |
 | 🐧 **Linux** | [**Naby_Install_Linux.sh**](https://neuralaibaby.tech/naby/dl.php?f=linux) | `bash Naby_Install_Linux.sh` |
 
-Все сборки подписаны автором; Наби проверяет подпись каждого обновления и обновляется сам. Также на сайте: **[neuralaibaby.tech](https://neuralaibaby.tech/download.html)**.
+Все сборки подписаны автором; Наби проверяет подпись каждого обновления и обновляется сам. Также на сайте: **[neuralaibaby.tech](https://neuralaibaby.tech/download.html)**. · GitHub: **[Releases](../../releases)**
 
 ## Первые пять минут
 

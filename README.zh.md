@@ -29,7 +29,7 @@
 | 🍎 **macOS 11+** | [**Naby_mac.zip**](https://neuralaibaby.tech/naby/dl.php?f=mac) | 解压后将 *Naby.app* 拖入“应用程序” |
 | 🐧 **Linux** | [**Naby_Install_Linux.sh**](https://neuralaibaby.tech/naby/dl.php?f=linux) | `bash Naby_Install_Linux.sh` |
 
-所有版本均由作者签名；Naby 会校验每次更新的签名并自动更新。网站下载：**[neuralaibaby.tech](https://neuralaibaby.tech/download.html)**。
+所有版本均由作者签名；Naby 会校验每次更新的签名并自动更新。网站下载：**[neuralaibaby.tech](https://neuralaibaby.tech/download.html)**。 · GitHub：**[Releases](../../releases)**
 
 ## 职业——向所有人开放
 
