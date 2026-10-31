@@ -81,4 +81,4 @@ Naby（程序本身、其核心与外壳、安装包和更新）是 **Aleksei Vl
 
 ---
 
-© 2026 Aleksei Vladislavovich Pechkin · Печкин Алексей Владиславович · innovate21@mail.ru
+© 2026 Aleksei Vladislavovich Pechkin · Печкин Алексей Владиславович · solpvo.tech@gmail.com (English · 中文) · innovate21@mail.ru (русский)

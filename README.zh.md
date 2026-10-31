@@ -52,4 +52,8 @@ Naby 本身是作者的作品，而**职业是开放的**：你可以按照 [Nab
 - **Naby（程序）**——个人使用免费；工作和商业用途需要[商业许可](https://neuralaibaby.tech/commercial.html)。全文：[许可协议](https://neuralaibaby.tech/license-en.html)。
 - **职业**（`professions/`、`docs/`、`tools/`）——[Naby 职业许可 1.0](LICENSE.md#part-b--naby-professions-license-10)：可自由修改、新建和分享，但须保留署名。
 
+## 链接
+
+🌐 [网站](https://neuralaibaby.tech) · 💼 [商业许可](https://neuralaibaby.tech/commercial.html) · ❤️ [支持项目](https://neuralaibaby.tech/donate.html) · 📜 [专利](https://neuralaibaby.tech/patents.html) · ✉️ solpvo.tech@gmail.com
+
 <p align="center"><sub>© 2026 Aleksei Pechkin · Naby——NeyroAIBaby 的简称</sub></p>

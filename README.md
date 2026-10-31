@@ -60,6 +60,6 @@ The best submissions are checked by the author and shipped in the next Naby rele
 
 ## Links
 
-🌐 [Website](https://neuralaibaby.tech) · 💼 [Commercial license](https://neuralaibaby.tech/commercial.html) · ❤️ [Support the project](https://neuralaibaby.tech/donate.html) · 📜 [Patents](https://neuralaibaby.tech/patents.html) · ✉️ innovate21@mail.ru
+🌐 [Website](https://neuralaibaby.tech) · 💼 [Commercial license](https://neuralaibaby.tech/commercial.html) · ❤️ [Support the project](https://neuralaibaby.tech/donate.html) · 📜 [Patents](https://neuralaibaby.tech/patents.html) · ✉️ solpvo.tech@gmail.com
 
 <p align="center"><sub>© 2026 Aleksei Pechkin · Naby — short for NeyroAIBaby</sub></p>
