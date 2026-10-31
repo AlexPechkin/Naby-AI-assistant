@@ -4,7 +4,7 @@
   <a href="https://neuralaibaby.tech/download.html"><img alt="最新版本" src="https://img.shields.io/badge/版本-2026.10.31.11%20·%2050-7c6cf0"></a>
   <img alt="Windows · macOS · Linux" src="https://img.shields.io/badge/Windows%20·%20macOS%20·%20Linux-支持-2bb3a3">
   <a href="professions"><img alt="140 个职业" src="https://img.shields.io/badge/职业-140-e8a33d"></a>
-  <a href="https://boosty.to/neuroaibaby/donate"><img alt="在 Boosty 上支持" src="https://img.shields.io/badge/在%20Boosty%20上支持-Boosty-f15f2c"></a>
+  <a href="https://boosty.to/neuroaibaby/donate"><img alt="在 Boosty 上支持" src="https://img.shields.io/badge/❤%20支持-Boosty-f15f2c"></a>
   <a href="LICENSE.md"><img alt="许可" src="https://img.shields.io/badge/许可-Naby%20%2B%20NPL--1.0-555"></a>
 </p>
 
