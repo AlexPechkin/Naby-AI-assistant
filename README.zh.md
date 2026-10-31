@@ -55,6 +55,6 @@ Naby 本身是作者的作品，而**职业是开放的**：你可以按照 [Nab
 
 ## 链接
 
-🌐 [网站](https://neuralaibaby.tech) · 💼 [商业许可](https://neuralaibaby.tech/commercial.html) · ❤️ [支持项目](https://boosty.to/neuroaibaby/donate) · 📜 [专利](https://neuralaibaby.tech/patents.html) · ✉️ solpvo.tech@gmail.com
+📖 [维基](../../wiki/Home-ZH) · 🌐 [网站](https://neuralaibaby.tech) · 💼 [商业许可](https://neuralaibaby.tech/commercial.html) · ❤️ [支持项目](https://boosty.to/neuroaibaby/donate) · 📜 [专利](https://neuralaibaby.tech/patents.html) · ✉️ solpvo.tech@gmail.com
 
 <p align="center"><sub>© 2026 Aleksei Pechkin · Naby——NeyroAIBaby 的简称</sub></p>

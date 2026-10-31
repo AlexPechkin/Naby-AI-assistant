@@ -61,6 +61,6 @@
 
 ## Ссылки
 
-🌐 [Сайт](https://neuralaibaby.tech) · 💼 [Коммерческая лицензия](https://neuralaibaby.tech/commercial.html) · ❤️ [Поддержать проект](https://boosty.to/neuroaibaby/donate) · 📜 [Патенты](https://neuralaibaby.tech/patents.html) · ✉️ innovate21@mail.ru
+📖 [Вики](../../wiki/Home-RU) · 🌐 [Сайт](https://neuralaibaby.tech) · 💼 [Коммерческая лицензия](https://neuralaibaby.tech/commercial.html) · ❤️ [Поддержать проект](https://boosty.to/neuroaibaby/donate) · 📜 [Патенты](https://neuralaibaby.tech/patents.html) · ✉️ innovate21@mail.ru
 
 <p align="center"><sub>© 2026 Печкин Алексей Владиславович · Наби (Naby) — от NeyroAIBaby</sub></p>
