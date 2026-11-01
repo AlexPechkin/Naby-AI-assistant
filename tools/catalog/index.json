@@ -21,7 +21,11 @@
    ],
    "risks": "Research prototype ('for reference only'); runs an autonomous agent that clones repos, executes shell commands and pushes PRs under a bot account; needs GitHub credentials; persistent daemon; strips KEY/PASSWORD/SECRET/TOKEN env vars from setup subprocess; auto-merge off by default.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Проактивный агент-программист для одного репозитория GitHub в виде пакета DeepSeek Harness (DSH): следит за GitHub/Feishu, превращает разрешённые просьбы в задачи, выполняет каждую в своей сессии и отвечает PR; веб-панель для того, что требует человека.",
+   "purpose_zh": "面向单个 GitHub 仓库的主动编码代理（DeepSeek Harness 包）：监听 GitHub/Feishu，把授权请求变成任务，各自在独立会话中执行并以 PR 回复；需要人工的事项在网页面板中处理。",
+   "risks_ru": "Исследовательский прототип («только для справки»); автономный агент клонирует репозитории, выполняет команды оболочки и отправляет PR от бот-аккаунта; нужны учётные данные GitHub; постоянный демон; из переменных окружения вырезает KEY/PASSWORD/SECRET/TOKEN; автослияние выключено по умолчанию.",
+   "risks_zh": "研究原型（“仅供参考”）；自主代理会克隆仓库、执行 shell 命令并以机器人账号推送 PR；需要 GitHub 凭据；常驻守护进程；默认关闭自动合并。"
   },
   {
    "id": "stablegen",
@@ -43,7 +47,11 @@
    ],
    "risks": "Downloads multi-GB model weights; needs Blender 'Allow Online Access'; local network calls to ComfyUI; GPU OOM possible; non-commercial licenses on some model paths.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Дополнение Blender: создание 3D-сеток по картинке/тексту (TRELLIS.2), текстурирование и доводка сеток через SDXL/FLUX/Qwen на бэкенде ComfyUI; PBR, запекание, экспорт glTF/FBX/3MF, очередь пакетов.",
+   "purpose_zh": "Blender 插件：由图片/文字生成 3D 网格（TRELLIS.2），用 SDXL/FLUX/Qwen 经 ComfyUI 后端为网格贴图和细化；PBR、烘焙、glTF/FBX/3MF 导出、批量队列。",
+   "risks_ru": "Скачивает веса моделей на несколько ГБ; в Blender нужно разрешить сетевой доступ; локальные вызовы к ComfyUI; возможна нехватка видеопамяти; у части моделей некоммерческие лицензии.",
+   "risks_zh": "下载数 GB 模型权重；需在 Blender 中允许联网；本地调用 ComfyUI；可能显存不足；部分模型为非商业许可。"
   },
   {
    "id": "trellis2",
@@ -64,7 +72,11 @@
    ],
    "risks": "Downloads ~GBs of weights from HF; compiles CUDA extensions; nvdiffrast/nvdiffrec are NVIDIA non-commercial; heavy GPU.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Модель «картинка → 3D» на 4 млрд параметров, выдаёт текстурированные PBR-объекты (представление O-Voxel); конвейер Python, демо Gradio, скрипт текстурирования.",
+   "purpose_zh": "40 亿参数的图生 3D 模型，输出带 PBR 贴图的资产（O-Voxel 表示）；Python 流水线、Gradio 演示、贴图脚本。",
+   "risks_ru": "Скачивает гигабайты весов с HF; компилирует расширения CUDA; nvdiffrast/nvdiffrec — некоммерческая лицензия NVIDIA; тяжёлая нагрузка на видеокарту.",
+   "risks_zh": "从 HF 下载数 GB 权重；编译 CUDA 扩展；nvdiffrast/nvdiffrec 为 NVIDIA 非商业许可；显卡负载高。"
   },
   {
    "id": "hunyuan3d_2",
@@ -86,7 +98,11 @@
    ],
    "risks": "Large weight downloads; compiles C++/CUDA; API server binds 0.0.0.0 by default in docs; restrictive community license.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Генерация формы и текстуры 3D по картинке (DiT flow-matching), варианты mini/turbo, приложение Gradio и HTTP-сервер API.",
+   "purpose_zh": "由图片生成 3D 形状与贴图（DiT flow-matching），含 mini/turbo 变体、Gradio 应用和 HTTP API 服务器。",
+   "risks_ru": "Большие загрузки весов; компилирует C++/CUDA; в документации сервер API слушает 0.0.0.0; ограничивающая общественная лицензия.",
+   "risks_zh": "大量权重下载；编译 C++/CUDA；文档中 API 服务器默认监听 0.0.0.0；许可较严格。"
   },
   {
    "id": "hunyuan3d_2_1",
@@ -107,7 +123,11 @@
    ],
    "risks": "Very high VRAM; compiles native code; weights download; restrictive license.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Картинка → 3D-объект высокой точности с готовыми к продакшену PBR-материалами (форма 3,3 млрд + окраска 2 млрд).",
+   "purpose_zh": "图片生成高保真 3D 资产，带可直接投产的 PBR 材质（形状 3.3B + 上色 2B）。",
+   "risks_ru": "Очень много видеопамяти; компилирует нативный код; скачивание весов; ограничивающая лицензия.",
+   "risks_zh": "显存需求极高；编译原生代码；下载权重；许可较严格。"
   },
   {
    "id": "mcpbytes_image_to_3d",
@@ -128,7 +148,11 @@
    ],
    "risks": "Tiny project (3 stars, 2 commits) - low trust; compiles extensions; 19GB download; optional cloud upload of images.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "CLI одной командой + MCP-сервер поверх Hunyuan3D 2.1: картинка → текстурированный GLB на своей видеокарте (или в облаке по ключу API).",
+   "purpose_zh": "一条命令的 CLI + MCP 服务器，封装 Hunyuan3D 2.1：图片→带贴图的 GLB，用自己的显卡（或凭 API 密钥用云端）。",
+   "risks_ru": "Крошечный проект (3 звезды, 2 коммита) — низкое доверие; компилирует расширения; загрузка 19 ГБ; необязательная отправка картинок в облако.",
+   "risks_zh": "极小项目（3 星、2 次提交）——可信度低；编译扩展；下载 19GB；可选把图片上传云端。"
   },
   {
    "id": "mcp_for_blender",
@@ -151,7 +175,11 @@
    ],
    "risks": "execute_blender_code runs arbitrary Python in Blender (set BLENDER_MCP_SAFE_MODE=1); socket has no auth - keep on localhost; telemetry on by default (DISABLE_TELEMETRY=true); downloads assets.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер + дополнение Blender: любая LLM управляет Blender — осмотр сцены, создание объектов, выполнение произвольного Python, ассеты Poly Haven/Poly Pizza, генерация Hyper3D/Hunyuan3D.",
+   "purpose_zh": "MCP 服务器 + Blender 插件，让任意 LLM 控制 Blender：查看场景、创建对象、执行任意 Python、Poly Haven/Poly Pizza 资产、Hyper3D/Hunyuan3D 生成。",
+   "risks_ru": "execute_blender_code выполняет произвольный Python в Blender (ставьте BLENDER_MCP_SAFE_MODE=1); сокет без авторизации — только localhost; телеметрия включена по умолчанию (DISABLE_TELEMETRY=true); скачивает ассеты.",
+   "risks_zh": "execute_blender_code 在 Blender 中执行任意 Python（设置 BLENDER_MCP_SAFE_MODE=1）；套接字无鉴权——仅限 localhost；默认开启遥测（DISABLE_TELEMETRY=true）；下载资产。"
   },
   {
    "id": "comfyui",
@@ -175,7 +203,11 @@
    ],
    "risks": "Custom nodes are arbitrary Python (ComfyUI-Manager installs from GitHub) - scan before install; API unauthenticated - bind to localhost; large model downloads; GPU.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Графический редактор узлов, HTTP API и бэкенд для диффузионных моделей (картинки, видео, звук, 3D); на него опираются StableGen и плагин Krita.",
+   "purpose_zh": "节点图 GUI、HTTP API 和扩散模型后端（图像、视频、音频、3D）；StableGen 与 Krita 插件依赖它。",
+   "risks_ru": "Пользовательские узлы — произвольный Python (ComfyUI-Manager ставит их с GitHub) — проверяйте перед установкой; API без авторизации — только localhost; большие загрузки моделей; видеокарта.",
+   "risks_zh": "自定义节点是任意 Python（ComfyUI-Manager 从 GitHub 安装）——安装前检查；API 无鉴权——仅限 localhost；大量模型下载；需要显卡。"
   },
   {
    "id": "sd_webui_forge",
@@ -197,7 +229,11 @@
    ],
    "risks": "Extensions are arbitrary Python; large downloads; stale maintenance -> prefer ComfyUI.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Оптимизированная ветка AUTOMATIC1111 WebUI для генерации картинок Stable Diffusion/FLUX с интерфейсом Gradio и REST API.",
+   "purpose_zh": "AUTOMATIC1111 WebUI 的优化分支，用于 Stable Diffusion/FLUX 图像生成，带 Gradio 界面和 REST API。",
+   "risks_ru": "Расширения — произвольный Python; большие загрузки; поддержка затихла — лучше ComfyUI.",
+   "risks_zh": "扩展是任意 Python；大量下载；维护放缓——建议改用 ComfyUI。"
   },
   {
    "id": "invokeai",
@@ -219,7 +255,11 @@
    ],
    "risks": "Model downloads; local HTTP server without auth.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Профессиональный творческий движок и веб-интерфейс для Stable Diffusion и FLUX с холстом, рабочими процессами и галереей; локальный сервер с REST API.",
+   "purpose_zh": "面向 Stable Diffusion 与 FLUX 的专业创作引擎/网页界面，含画布、工作流和图库；本地服务器带 REST API。",
+   "risks_ru": "Загрузки моделей; локальный HTTP-сервер без авторизации.",
+   "risks_zh": "模型下载；本地 HTTP 服务器无鉴权。"
   },
   {
    "id": "krita_ai_diffusion",
@@ -240,7 +280,11 @@
    ],
    "risks": "Downloads ComfyUI + models (GBs); optional paid cloud generation.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Плагин Krita: ИИ-дорисовка (inpaint/outpaint) и генерация прямо в программе рисования, на управляемом локальном ComfyUI или удалённом сервере.",
+   "purpose_zh": "Krita 插件：在绘画软件内进行 AI 补绘/扩绘/生成，由托管的本地 ComfyUI 或远程服务器驱动。",
+   "risks_ru": "Скачивает ComfyUI и модели (гигабайты); необязательная платная облачная генерация.",
+   "risks_zh": "下载 ComfyUI 与模型（数 GB）；可选付费云端生成。"
   },
   {
    "id": "wan2_2",
@@ -262,7 +306,11 @@
    ],
    "risks": "Tens of GB weights; heavy GPU; long runtimes. Also usable via ComfyUI nodes.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытые модели генерации видео: текст → видео, картинка → видео, речь → видео, анимация персонажей; CLI generate.py.",
+   "purpose_zh": "开源视频生成模型：文生视频、图生视频、语音生视频、角色动画；CLI generate.py。",
+   "risks_ru": "Десятки ГБ весов; тяжёлая видеокарта; долгая работа. Доступно и через узлы ComfyUI.",
+   "risks_zh": "数十 GB 权重；显卡负载高；运行时间长。也可通过 ComfyUI 节点使用。"
   },
   {
    "id": "ltx_2",
@@ -284,7 +332,11 @@
    ],
    "risks": "Huge downloads; HF login; heavy GPU; license unclear - verify before commercial use.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Официальный вывод и тренер LoRA для LTX-2 — совместной генерации звука и видео; конвейеры CLI (distilled, DFR), FP8 и выгрузка на CPU/диск.",
+   "purpose_zh": "LTX-2 音视频联合生成的官方推理与 LoRA 训练器；CLI 流水线（distilled、DFR）、FP8 及 CPU/磁盘卸载选项。",
+   "risks_ru": "Огромные загрузки; вход в HF; тяжёлая видеокарта; лицензия неясна — проверьте перед коммерческим использованием.",
+   "risks_zh": "下载量巨大；需登录 HF；显卡负载高；许可不明——商用前请核实。"
   },
   {
    "id": "auto_editor",
@@ -307,7 +359,11 @@
    ],
    "risks": "Low risk; local file processing only. Also ships an agent skill (npx skills add WyattBlue/auto-editor).",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "CLI, который сам вырезает тишину и статичные куски из видео и звука и экспортирует в редакторы (Premiere, Resolve, FCP, ShotCut) или в mp4.",
+   "purpose_zh": "自动剪掉视频/音频中的静音和静止片段，并导出到剪辑软件（Premiere、Resolve、FCP、ShotCut）或 mp4 的命令行工具。",
+   "risks_ru": "Низкий риск; только локальная обработка файлов. Есть и навык агента (npx skills add WyattBlue/auto-editor).",
+   "risks_zh": "风险低；仅本地处理文件。另附代理技能（npx skills add WyattBlue/auto-editor）。"
   },
   {
    "id": "faster_whisper",
@@ -332,7 +388,11 @@
    ],
    "risks": "Downloads model weights; otherwise offline.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Распознавание речи Whisper на CTranslate2: до 4 раз быстрее, int8 на CPU или FP16 на видеокарте, метки времени по словам, VAD.",
+   "purpose_zh": "基于 CTranslate2 重写的 Whisper 语音转文字：最快提速 4 倍，CPU int8 或 GPU FP16，逐词时间戳，VAD。",
+   "risks_ru": "Скачивает веса модели; дальше работает без сети.",
+   "risks_zh": "下载模型权重；之后离线运行。"
   },
   {
    "id": "whisper_cpp",
@@ -355,7 +415,11 @@
    ],
    "risks": "Compiles native code or downloads binaries; model downloads; server unauthenticated.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Whisper на C/C++ без зависимостей (GGML) с CLI и HTTP-сервером; ускорение Metal/CUDA/Vulkan/OpenVINO — тот же стек, что llama.cpp в Наби.",
+   "purpose_zh": "无依赖的 C/C++ Whisper 推理（GGML），带 CLI 和 HTTP 服务器；Metal/CUDA/Vulkan/OpenVINO 加速——与 Naby 的 llama.cpp 栈一致。",
+   "risks_ru": "Компилирует нативный код или скачивает бинарники; загрузки моделей; сервер без авторизации.",
+   "risks_zh": "编译原生代码或下载二进制；模型下载；服务器无鉴权。"
   },
   {
    "id": "kokoro_tts",
@@ -379,7 +443,11 @@
    ],
    "risks": "Downloads 82M weights from HF; needs system espeak-ng (admin on Windows MSI). No Russian voice.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Библиотека для синтеза речи Kokoro-82M с открытыми весами (9 языков, быстро на CPU).",
+   "purpose_zh": "Kokoro-82M 开源权重 TTS 的推理库（9 种语言，CPU 上也快）。",
+   "risks_ru": "Скачивает веса 82M с HF; нужен системный espeak-ng (на Windows — установщик с правами администратора). Русского голоса нет.",
+   "risks_zh": "从 HF 下载 82M 权重；需要系统 espeak-ng（Windows 上需管理员安装）。无俄语语音。"
   },
   {
    "id": "f5_tts",
@@ -402,7 +470,11 @@
    ],
    "risks": "Voice cloning = impersonation risk; model weights non-commercial; downloads weights.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Синтез речи с клонированием голоса без обучения (flow matching); CLI, интерфейс Gradio, дообучение.",
+   "purpose_zh": "零样本声音克隆 TTS（flow matching）；CLI、Gradio 界面、微调。",
+   "risks_ru": "Клонирование голоса — риск выдачи себя за другого; веса некоммерческие; скачивает веса.",
+   "risks_zh": "声音克隆存在冒充风险；模型权重非商业；下载权重。"
   },
   {
    "id": "chatterbox_tts",
@@ -426,7 +498,11 @@
    ],
    "risks": "Voice cloning; downloads weights from HF; outputs carry Perth watermark.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Семейство открытых моделей синтеза речи (Turbo 350M, Nano 110M для CPU, Multilingual V3 — 23+ языков, включая русский) с клонированием голоса и паралингвистическими тегами.",
+   "purpose_zh": "开源 TTS 系列（Turbo 350M、Nano 110M CPU 版、Multilingual V3 支持 23+ 种语言含俄语），带声音克隆和副语言标签。",
+   "risks_ru": "Клонирование голоса; скачивает веса с HF; в вывод вшит водяной знак Perth.",
+   "risks_zh": "声音克隆；从 HF 下载权重；输出带 Perth 水印。"
   },
   {
    "id": "ace_step_1_5",
@@ -449,7 +525,11 @@
    ],
    "risks": "Downloads models on first run; local servers unauthenticated.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Локальная модель генерации музыки (текст → песня, кавер, перерисовка) с интерфейсом Gradio, REST API и CLI; работает на CUDA/Mac/AMD/Intel/CPU.",
+   "purpose_zh": "本地音乐生成基础模型（文生歌、翻唱、重绘），带 Gradio 界面、REST API 和 CLI；支持 CUDA/Mac/AMD/Intel/CPU。",
+   "risks_ru": "Скачивает модели при первом запуске; локальные серверы без авторизации.",
+   "risks_zh": "首次运行下载模型；本地服务器无鉴权。"
   },
   {
    "id": "aider",
@@ -471,7 +551,11 @@
    ],
    "risks": "Edits files and commits to git; can run shell/test commands; sends code to the LLM provider.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "ИИ-напарник для программирования в терминале; правит git-репозитории с облачными или локальными LLM; скриптуется (--message, Python API).",
+   "purpose_zh": "终端里的 AI 结对编程；用云端或本地 LLM 修改 git 仓库；可脚本化（--message、Python API）。",
+   "risks_ru": "Правит файлы и делает коммиты в git; может запускать команды оболочки и тесты; отправляет код провайдеру LLM.",
+   "risks_zh": "修改文件并提交到 git；可运行 shell/测试命令；把代码发送给 LLM 提供商。"
   },
   {
    "id": "mini_swe_agent",
@@ -492,7 +576,11 @@
    ],
    "risks": "Executes arbitrary shell commands - run in sandbox; sends code to LLM.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Агент-разработчик на 100 строк, только bash (>74% SWE-bench Verified); CLI `mini`; рекомендуемый преемник SWE-agent.",
+   "purpose_zh": "仅用 bash 的 100 行软件工程代理（SWE-bench Verified >74%）；CLI `mini`；推荐作为 SWE-agent 的后继。",
+   "risks_ru": "Выполняет произвольные команды оболочки — запускайте в песочнице; отправляет код LLM.",
+   "risks_zh": "执行任意 shell 命令——请在沙箱中运行；把代码发给 LLM。"
   },
   {
    "id": "swe_agent",
@@ -513,7 +601,11 @@
    ],
    "risks": "Runs code in Docker containers; heavy; maintenance shifting to mini-swe-agent.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Агент, который берёт задачу (issue) с GitHub и пытается исправить её сам; настраиваемый интерфейс агент–компьютер (NeurIPS 2024).",
+   "purpose_zh": "接收 GitHub issue 并尝试自动修复的代理；可配置的代理-计算机接口（NeurIPS 2024）。",
+   "risks_ru": "Выполняет код в контейнерах Docker; тяжёлый; поддержка переходит к mini-swe-agent.",
+   "risks_zh": "在 Docker 容器中运行代码；较重；维护重心转向 mini-swe-agent。"
   },
   {
    "id": "openhands",
@@ -534,7 +626,11 @@
    ],
    "risks": "Autonomous code execution (sandboxed in Docker); network access; large images.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытая платформа автономного агента-разработчика: CLI, локальный интерфейс с REST API, Python Agent SDK, среда выполнения Docker.",
+   "purpose_zh": "开源自主软件开发代理平台：CLI、带 REST API 的本地 GUI、Python Agent SDK、Docker 运行时。",
+   "risks_ru": "Автономное выполнение кода (в песочнице Docker); доступ в сеть; большие образы.",
+   "risks_zh": "自主执行代码（Docker 沙箱）；访问网络；镜像较大。"
   },
   {
    "id": "cline",
@@ -555,7 +651,11 @@
    ],
    "risks": "Executes commands/edits files with per-step approval; Node toolchain; sends code to provider.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Автономный агент-программист как расширение VS Code/JetBrains, CLI и SDK; клиент MCP; поддерживает локальные модели Ollama/LM Studio.",
+   "purpose_zh": "作为 VS Code/JetBrains 扩展、CLI 和 SDK 的自主编码代理；MCP 客户端；支持 Ollama/LM Studio 本地模型。",
+   "risks_ru": "Выполняет команды и правит файлы с подтверждением каждого шага; инструменты Node; отправляет код провайдеру.",
+   "risks_zh": "逐步确认后执行命令/修改文件；Node 工具链；把代码发给提供商。"
   },
   {
    "id": "marker",
@@ -581,7 +681,11 @@
    ],
    "risks": "Downloads weights; weights license restricts larger companies; --use_llm sends pages to cloud LLM unless Ollama/OpenAI-compatible local endpoint.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Перевод PDF, картинок и документов Office в Markdown/JSON/HTML с сохранением вёрстки, таблиц, формул; необязательное усиление LLM; CLI, Python API, сервер FastAPI.",
+   "purpose_zh": "把 PDF/图片/Office 文档转为 Markdown/JSON/HTML，保留版式、表格、公式；可选 LLM 增强；CLI、Python API、FastAPI 服务器。",
+   "risks_ru": "Скачивает веса; лицензия весов ограничивает крупные компании; --use_llm отправляет страницы в облачную LLM, если не настроен Ollama или локальный OpenAI-совместимый сервер.",
+   "risks_zh": "下载权重；权重许可限制大型公司；--use_llm 会把页面发给云端 LLM，除非配置 Ollama 或本地 OpenAI 兼容端点。"
   },
   {
    "id": "docling",
@@ -607,7 +711,11 @@
    ],
    "risks": "Downloads layout/OCR models on first use; otherwise offline.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Разбор PDF, DOCX, PPTX, XLSX, HTML, картинок и звука в единый DoclingDocument; экспорт Markdown/JSON; CLI, Python API, MCP-сервер.",
+   "purpose_zh": "把 PDF、DOCX、PPTX、XLSX、HTML、图片、音频解析为统一的 DoclingDocument；导出 Markdown/JSON；CLI、Python API、MCP 服务器。",
+   "risks_ru": "При первом использовании скачивает модели разметки/OCR; дальше без сети.",
+   "risks_zh": "首次使用下载版式/OCR 模型；之后离线。"
   },
   {
    "id": "paddleocr",
@@ -631,7 +739,11 @@
    ],
    "risks": "Model downloads; PaddlePaddle wheel is large.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "OCR и разбор документов (PP-OCRv6, PaddleOCR-VL, PP-StructureV3) для 100+ языков, включая русский; CLI, Python API, MCP-сервер.",
+   "purpose_zh": "OCR 与文档解析工具包（PP-OCRv6、PaddleOCR-VL、PP-StructureV3），支持 100+ 种语言含俄语；CLI、Python API、MCP 服务器。",
+   "risks_ru": "Загрузки моделей; пакет PaddlePaddle большой.",
+   "risks_zh": "模型下载；PaddlePaddle 安装包较大。"
   },
   {
    "id": "surya",
@@ -654,7 +766,11 @@
    ],
    "risks": "Weights license; downloads; spawns local inference server.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "OCR, анализ разметки, порядок чтения и распознавание таблиц для 90+ языков; CLI и Python API.",
+   "purpose_zh": "OCR、版面分析、阅读顺序和表格识别，支持 90+ 种语言；CLI 和 Python API。",
+   "risks_ru": "Лицензия весов; загрузки; запускает локальный сервер вывода.",
+   "risks_zh": "权重许可；下载；启动本地推理服务器。"
   },
   {
    "id": "pandasai",
@@ -678,7 +794,11 @@
    ],
    "risks": "Executes LLM-generated Python - use its Docker sandbox; data may be sent to cloud LLM.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Разговор с данными CSV/SQL/parquet на естественном языке; LLM пишет и выполняет код pandas, возвращает графики и таблицы.",
+   "purpose_zh": "用自然语言与 CSV/SQL/parquet 数据对话；LLM 编写并执行 pandas 代码，返回图表/表格。",
+   "risks_ru": "Выполняет Python, написанный LLM — используйте её песочницу Docker; данные могут уходить в облачную LLM.",
+   "risks_zh": "执行 LLM 生成的 Python——请用其 Docker 沙箱；数据可能发送到云端 LLM。"
   },
   {
    "id": "jupyter_mcp_server",
@@ -701,7 +821,11 @@
    ],
    "risks": "Executes arbitrary code in the kernel; token in config.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер для создания, правки и запуска блокнотов и ячеек Jupyter в живом JupyterLab, с мультимодальным выводом.",
+   "purpose_zh": "在运行中的 JupyterLab 里创建/编辑/运行 Jupyter 笔记本和单元格的 MCP 服务器，支持多模态输出。",
+   "risks_ru": "Выполняет произвольный код в ядре; токен в конфиге.",
+   "risks_zh": "在内核中执行任意代码；配置中含令牌。"
   },
   {
    "id": "paper_qa",
@@ -726,7 +850,13 @@
    "risks": "Sends paper text to LLM provider unless local models configured; network calls to Crossref/S2.",
    "source": "tools",
    "value": "Grounded answers with page-level citations from the user's own paper library instead of hallucinated references.",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Точный RAG-агент, отвечающий на вопросы по локальным научным PDF с цитатами в тексте; CLI `pqa` и Python API.",
+   "purpose_zh": "高精度 RAG 代理，基于本地科研 PDF 回答问题并给出文内引用；CLI `pqa` 和 Python API。",
+   "value_ru": "Обоснованные ответы с цитатами до страницы из собственной библиотеки статей вместо выдуманных ссылок.",
+   "value_zh": "基于用户自己的论文库给出页级引用的可靠回答，而非凭空编造的参考文献。",
+   "risks_ru": "Отправляет текст статей провайдеру LLM, если не настроены локальные модели; сетевые запросы к Crossref/S2.",
+   "risks_zh": "除非配置本地模型，否则把论文文本发给 LLM 提供商；联网访问 Crossref/S2。"
   },
   {
    "id": "cadquery",
@@ -750,7 +880,13 @@
    "risks": "Low: executes Python the LLM writes - sandbox it; no network.",
    "source": "tools",
    "value": "LLM-written code yields exact, re-editable geometry files.",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Параметрический CAD на Python поверх OCCT: STEP/STL/DXF из кода — идеальная цель для «LLM → CAD».",
+   "purpose_zh": "基于 OCCT 的 Python 参数化 CAD 脚本：用代码生成 STEP/STL/DXF——理想的 LLM 到 CAD 目标。",
+   "value_ru": "Код, написанный LLM, даёт точные и редактируемые файлы геометрии.",
+   "value_zh": "LLM 编写的代码产出精确、可再编辑的几何文件。",
+   "risks_ru": "Низкий: выполняет Python, написанный LLM — в песочнице; без сети.",
+   "risks_zh": "低：执行 LLM 编写的 Python——请沙箱化；不联网。"
   },
   {
    "id": "build123d",
@@ -773,7 +909,13 @@
    "risks": "Low; executes generated Python.",
    "source": "tools",
    "value": "Parametric parts/assemblies as code; STEP/STL/3MF export.",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Современный Python-DSL для CAD на OCCT (наследник CadQuery): детали, эскизы, сборки; экспорт STEP/STL.",
+   "purpose_zh": "基于 OCCT 的现代 Python CAD DSL（CadQuery 风格的后继者），用于零件、草图、装配；STEP/STL 导出。",
+   "value_ru": "Параметрические детали и сборки как код; экспорт STEP/STL/3MF.",
+   "value_zh": "参数化零件/装配即代码；STEP/STL/3MF 导出。",
+   "risks_ru": "Низкий; выполняет сгенерированный Python.",
+   "risks_zh": "低；执行生成的 Python。"
   },
   {
    "id": "freecad_mcp",
@@ -796,7 +938,13 @@
    "risks": "Runs arbitrary Python inside FreeCAD; RPC on localhost without auth by default.",
    "source": "tools",
    "value": "Drives the real FreeCAD document (TechDraw, FEM, Part) interactively.",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер + дополнение FreeCAD: создание и правка моделей, Python внутри FreeCAD, осмотр документов, снимки, расчёты FEM.",
+   "purpose_zh": "MCP 服务器 + FreeCAD 工作台插件：创建/编辑模型、在 FreeCAD 内运行 Python、查看文档、截图、FEM 分析。",
+   "value_ru": "Интерактивно управляет настоящим документом FreeCAD (TechDraw, FEM, Part).",
+   "value_zh": "交互式驱动真实的 FreeCAD 文档（TechDraw、FEM、Part）。",
+   "risks_ru": "Выполняет произвольный Python внутри FreeCAD; RPC на localhost по умолчанию без авторизации.",
+   "risks_zh": "在 FreeCAD 内执行任意 Python；localhost 上的 RPC 默认无鉴权。"
   },
   {
    "id": "openbb",
@@ -821,7 +969,13 @@
    "risks": "Network access to data providers; API keys stored locally.",
    "source": "tools",
    "value": "Live, standardized market/macro data pulled into DataFrames; unified across providers.",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Открытая платформа данных для аналитиков, квантов и ИИ-агентов: единый Python API к 100+ поставщикам финансовых данных, REST API и MCP-сервер.",
+   "purpose_zh": "面向分析师/量化/AI 代理的开放数据平台：统一 Python API 接入 100+ 金融数据源，REST API 和 MCP 服务器。",
+   "value_ru": "Живые стандартизированные рыночные и макроданные в DataFrame, единые для всех поставщиков.",
+   "value_zh": "实时、标准化的市场/宏观数据直接进入 DataFrame，跨数据源统一。",
+   "risks_ru": "Доступ в сеть к поставщикам данных; ключи API хранятся локально.",
+   "risks_zh": "联网访问数据源；API 密钥本地保存。"
   },
   {
    "id": "fingpt",
@@ -842,7 +996,11 @@
    ],
    "risks": "Stale; heavy GPU; research-grade - low priority for catalog.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытые финансовые LLM: адаптеры LoRA (тональность, прогноз) на Llama/ChatGLM плюс блокноты обучения и вывода.",
+   "purpose_zh": "开源金融 LLM：Llama/ChatGLM 上的 LoRA 适配器（情绪、预测）及训练/推理笔记本。",
+   "risks_ru": "Устарел; тяжёлая видеокарта; исследовательский уровень — низкий приоритет.",
+   "risks_zh": "已过时；显卡负载高；研究级——目录中优先级低。"
   },
   {
    "id": "excel_mcp_server",
@@ -868,7 +1026,13 @@
    "risks": "Low; writes files on disk.",
    "source": "tools",
    "value": "Agent writes real formulas/charts into workbooks instead of pasting numbers.",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер для создания, чтения и правки книг .xlsx (формулы, графики, сводные таблицы, форматирование, CSV, подбор параметра) без установленного Excel.",
+   "purpose_zh": "无需安装 Excel 即可创建/读取/编辑 .xlsx 工作簿（公式、图表、数据透视表、格式、CSV、单变量求解）的 MCP 服务器。",
+   "value_ru": "Агент пишет в книги настоящие формулы и графики, а не вставляет числа.",
+   "value_zh": "代理在工作簿中写入真实公式/图表，而不是粘贴数字。",
+   "risks_ru": "Низкий; пишет файлы на диск.",
+   "risks_zh": "低；向磁盘写文件。"
   },
   {
    "id": "medgemma",
@@ -891,7 +1055,13 @@
    "risks": "Not for clinical decisions without validation (see Intended Use); gated weights; medical liability.",
    "source": "tools",
    "value": "Local medical VLM for radiology/derm/report drafting without sending PHI to cloud.",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Варианты Gemma 3, обученные на медицинских текстах и снимках (4B мультимодальная, 27B текстовая); блокноты для развёртывания HF/Vertex.",
+   "purpose_zh": "在医学文本和图像上训练的 Gemma 3 变体（4B 多模态、27B 文本）；HF/Vertex 部署笔记本。",
+   "value_ru": "Локальная медицинская VLM для радиологии, дерматологии и черновиков заключений без отправки персональных данных в облако.",
+   "value_zh": "本地医学 VLM，用于放射、皮肤科和报告起草，无需把病患数据发到云端。",
+   "risks_ru": "Не для клинических решений без валидации (см. Intended Use); веса с ограниченным доступом; медицинская ответственность.",
+   "risks_zh": "未经验证不可用于临床决策（见 Intended Use）；权重需申请；涉及医疗责任。"
   },
   {
    "id": "mcp_seo",
@@ -912,7 +1082,11 @@
    ],
    "risks": "Very small project (1 star) - review code before trust; crawls external sites (network).",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытый SEO-набор для агентов: 21 команда CLI и 18 инструментов MCP (обход, мета/заголовки/ссылки/картинки, sitemap, robots, структурированные данные, Lighthouse, полный отчёт); без ключей API.",
+   "purpose_zh": "面向代理的开源 SEO 工具包：21 条 CLI 命令和 18 个 MCP 工具（爬取、meta/标题/链接/图片、sitemap、robots、结构化数据、Lighthouse、完整报告）；无需 API 密钥。",
+   "risks_ru": "Очень маленький проект (1 звезда) — просмотрите код перед доверием; обходит внешние сайты (сеть).",
+   "risks_zh": "极小项目（1 星）——信任前请审阅代码；爬取外部网站（联网）。"
   },
   {
    "id": "qgis_mcp",
@@ -936,7 +1110,13 @@
    "risks": "execute_code runs arbitrary PyQGIS; no auth unless QGIS_MCP_TOKEN set; destructive tools skip confirmation by default (QGIS_MCP_AUTO_CONFIRM).",
    "source": "tools",
    "value": "Drives real GIS analysis and map rendering.",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Плагин QGIS + MCP-сервер со 118 точными инструментами (слои, объекты, стили, обработка, PostGIS, макеты, рендеринг) или 27 составными.",
+   "purpose_zh": "QGIS 插件 + MCP 服务器，提供 118 个细粒度工具（图层、要素、样式、处理、PostGIS、布局、渲染）或 27 个复合工具。",
+   "value_ru": "Выполняет настоящий ГИС-анализ и отрисовку карт.",
+   "value_zh": "驱动真实的 GIS 分析和地图渲染。",
+   "risks_ru": "execute_code выполняет произвольный PyQGIS; без авторизации, если не задан QGIS_MCP_TOKEN; разрушающие инструменты по умолчанию без подтверждения (QGIS_MCP_AUTO_CONFIRM).",
+   "risks_zh": "execute_code 执行任意 PyQGIS；未设置 QGIS_MCP_TOKEN 则无鉴权；破坏性工具默认不确认（QGIS_MCP_AUTO_CONFIRM）。"
   },
   {
    "id": "browser_use",
@@ -961,7 +1141,11 @@
    ],
    "risks": "Acts on live websites with user's session; prompt injection from web pages; may send page content to cloud LLM.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Библиотека Python для браузерных агентов на LLM (локальный Chrome или облако), плюс CLI «Browser Harness» и навык для агентов-программистов.",
+   "purpose_zh": "面向 LLM 浏览器代理的 Python 库（本地 Chrome 或云端），附 CLI“Browser Harness”和编码代理技能。",
+   "risks_ru": "Действует на живых сайтах с сессией пользователя; инъекции из веб-страниц; может отправлять содержимое страниц облачной LLM.",
+   "risks_zh": "以用户会话在真实网站上操作；网页提示注入风险；可能把页面内容发给云端 LLM。"
   },
   {
    "id": "playwright_mcp",
@@ -984,7 +1168,11 @@
    ],
    "risks": "'Not a security boundary'; browser_run_code_unsafe is RCE-equivalent (opt-in); never bind to 0.0.0.0.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер автоматизации браузера через снимки доступности (без зрения): переходы, клики, заполнение, вкладки, PDF, devtools, подмена сети.",
+   "purpose_zh": "通过无障碍快照（无需视觉）自动化浏览器的 MCP 服务器：导航、点击、填表、标签页、PDF、devtools、网络模拟。",
+   "risks_ru": "«Не граница безопасности»; browser_run_code_unsafe равносилен удалённому выполнению кода (по выбору); никогда не слушать 0.0.0.0.",
+   "risks_zh": "“不是安全边界”；browser_run_code_unsafe 等同远程代码执行（需手动开启）；切勿监听 0.0.0.0。"
   },
   {
    "id": "ui_tars_desktop",
@@ -1007,7 +1195,11 @@
    ],
    "risks": "Full GUI control of the computer (clicks/typing); screenshots sent to model provider.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытый мультимодальный стек агентов: Agent TARS CLI/Web UI (на MCP, браузер + терминал) и UI-TARS Desktop — GUI-агент, управляющий компьютером через модель зрения.",
+   "purpose_zh": "开源多模态代理栈：Agent TARS CLI/Web UI（基于 MCP，浏览器 + 终端）和 UI-TARS Desktop——通过视觉模型控制本机的 GUI 代理。",
+   "risks_ru": "Полное управление компьютером (клики, ввод); снимки экрана отправляются провайдеру модели.",
+   "risks_zh": "完全控制电脑（点击/输入）；截图发送给模型提供商。"
   },
   {
    "id": "openclaw",
@@ -1030,7 +1222,11 @@
    ],
    "risks": "Daemon with chat-channel exposure; tools run on host unless sandboxed; treat inbound messages as untrusted; daily version check network call.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Самостоятельно размещаемый личный ИИ-ассистент/шлюз, доступный через Discord/Slack/Telegram/WhatsApp с инструментами, навыками и плагинами (ClawHub); CLI, TUI и приложения-спутники.",
+   "purpose_zh": "自托管的个人 AI 助手/网关，可通过 Discord/Slack/Telegram/WhatsApp 访问，带工具、技能和插件（ClawHub）；CLI、TUI 和配套应用。",
+   "risks_ru": "Демон, открытый в чат-каналы; инструменты работают на хосте, если не в песочнице; входящие сообщения считать недоверенными; ежедневная проверка версии в сети.",
+   "risks_zh": "暴露在聊天渠道的守护进程；工具在主机上运行（除非沙箱）；入站消息应视为不可信；每日联网检查版本。"
   },
   {
    "id": "open_interpreter",
@@ -1051,7 +1247,11 @@
    ],
    "risks": "Executes arbitrary code on host; project appears inactive since 2024 - low priority.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Интерфейс на естественном языке, позволяющий LLM запускать Python/JS/оболочку локально (агент выполнения кода); Python API и CLI.",
+   "purpose_zh": "让 LLM 在本地运行 Python/JS/shell 的自然语言接口（代码执行代理）；Python API 和 CLI。",
+   "risks_ru": "Выполняет произвольный код на хосте; проект, похоже, неактивен с 2024 — низкий приоритет.",
+   "risks_zh": "在主机上执行任意代码；项目自 2024 年似已停更——优先级低。"
   },
   {
    "id": "mcp_reference_servers",
@@ -1073,7 +1273,11 @@
    ],
    "risks": "Filesystem/Git servers grant file access - restrict roots; Fetch makes network requests.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Официальные эталонные MCP-серверы (Filesystem, Git, Fetch, Memory, Sequential Thinking, Time, Everything) + ссылки на реестр сообщества.",
+   "purpose_zh": "官方参考 MCP 服务器（Filesystem、Git、Fetch、Memory、Sequential Thinking、Time、Everything）及社区注册表链接。",
+   "risks_ru": "Серверы Filesystem/Git дают доступ к файлам — ограничьте корни; Fetch делает сетевые запросы.",
+   "risks_zh": "Filesystem/Git 服务器授予文件访问——请限制根目录；Fetch 会发起网络请求。"
   },
   {
    "id": "awesome_mcp_servers",
@@ -1091,7 +1295,11 @@
    "professions": [],
    "risks": "Unvetted community links; treat as leads, not trusted entries.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Крупнейший отобранный список MCP-серверов по категориям (с легендой язык/область/ОС) — источник для еженедельного обхода каталога Наби.",
+   "purpose_zh": "按类别整理的最大 MCP 服务器列表（含语言/范围/系统图例）——Naby 每周目录任务的爬取来源。",
+   "risks_ru": "Непроверенные ссылки сообщества; считать подсказками, а не доверенными записями.",
+   "risks_zh": "未经审核的社区链接；只作线索，不作可信条目。"
   },
   {
    "id": "anthropic_skills",
@@ -1117,7 +1325,11 @@
    ],
    "risks": "Skills may bundle scripts - scan before executing; spec at ./spec defines the format Naby should follow.",
    "source": "tools",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Публичный репозиторий Agent Skills: папки SKILL.md (навыки документов docx/pdf/pptx/xlsx, творчество, разработка, корпоративные) плюс спецификация и шаблон Agent Skills.",
+   "purpose_zh": "公开的 Agent Skills 仓库：SKILL.md 文件夹（docx/pdf/pptx/xlsx 文档技能、创意、开发、企业）及 Agent Skills 规范和模板。",
+   "risks_ru": "Навыки могут содержать скрипты — проверяйте перед запуском; спецификация в ./spec задаёт формат, которому следует Наби.",
+   "risks_zh": "技能可能附带脚本——执行前检查；./spec 中的规范定义了 Naby 遵循的格式。"
   },
   {
    "id": "awesome_agent_skills",
@@ -1135,7 +1347,11 @@
    "professions": [],
    "risks": "Community content of varying quality; scan each skill folder before install.",
    "source": "tools",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Отобранная коллекция из 1 497+ навыков агентов от официальных команд и сообщества, совместимых с Claude Code, Codex, Gemini CLI, Cursor; хороший источник для записей вида «навык».",
+   "purpose_zh": "精选 1,497+ 个来自官方团队和社区的智能体技能，兼容 Claude Code、Codex、Gemini CLI、Cursor；“技能”类条目的好来源。",
+   "risks_ru": "Контент сообщества разного качества; проверяйте каждую папку навыка перед установкой.",
+   "risks_zh": "社区内容质量参差；安装前检查每个技能文件夹。"
   },
   {
    "id": "gpt_researcher",
@@ -1160,7 +1376,13 @@
    "value": "Multi-source web research with source list and report export (PDF/DOCX) rather than a single chat answer.",
    "risks": "network (web scraping, LLM API); API cost",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Автономный агент глубокого исследования: ходит по сети и локальным документам и пишет отчёты с источниками.",
+   "purpose_zh": "自主深度研究代理：浏览网络和本地文档，撰写带引用的报告。",
+   "value_ru": "Исследование по многим источникам со списком ссылок и экспортом отчёта (PDF/DOCX) вместо одного ответа в чате.",
+   "value_zh": "多来源网络研究，附来源列表并可导出报告（PDF/DOCX），而非单条聊天回答。",
+   "risks_ru": "сеть (сбор страниц, API LLM); расходы на API",
+   "risks_zh": "联网（网页抓取、LLM API）；API 费用"
   },
   {
    "id": "storm",
@@ -1185,7 +1407,13 @@
    "value": "Produces outlined long-form articles with references; retrieval-grounded, not from memory.",
    "risks": "network (search + LLM APIs); maintenance slowed (last commit ~1 yr)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Система на LLM: исследует тему вопросами с разных точек зрения и пишет статью в духе Википедии с цитатами.",
+   "purpose_zh": "LLM 系统：通过多视角提问研究主题，撰写带引用的维基百科式文章。",
+   "value_ru": "Длинные статьи с планом и ссылками, опирающиеся на найденное, а не на память модели.",
+   "value_zh": "产出带大纲和参考文献的长文，基于检索而非模型记忆。",
+   "risks_ru": "сеть (поиск + API LLM); поддержка замедлилась (последний коммит ~год назад)",
+   "risks_zh": "联网（搜索 + LLM API）；维护放缓（最近提交约一年前）"
   },
   {
    "id": "zotero_mcp",
@@ -1210,7 +1438,13 @@
    "value": "Agent can read and cite the user's actual reference manager library and annotations.",
    "risks": "reads local Zotero DB; optional network (Zotero API, embeddings)",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер, открывающий библиотеку Zotero (поиск, PDF, пометки, семантический поиск) ИИ-агентам.",
+   "purpose_zh": "把 Zotero 文库（搜索、PDF、批注、语义搜索）开放给 AI 代理的 MCP 服务器。",
+   "value_ru": "Агент читает и цитирует настоящую библиотеку и пометки пользователя.",
+   "value_zh": "代理可读取并引用用户真实的文献库和批注。",
+   "risks_ru": "читает локальную базу Zotero; необязательная сеть (API Zotero, эмбеддинги)",
+   "risks_zh": "读取本地 Zotero 数据库；可选联网（Zotero API、向量）"
   },
   {
    "id": "scite_zotero_plugin",
@@ -1233,7 +1467,13 @@
    "value": "Evidence-direction citation context per paper (open-source scite-like client).",
    "risks": "network (scite API)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Дополнение Zotero, показывающее число подтверждающих/опровергающих/упоминающих цитирований (scite Smart Citations) для сохранённых статей.",
+   "purpose_zh": "Zotero 插件，显示已保存论文的支持/反驳/提及引用数（scite Smart Citations）。",
+   "value_ru": "Контекст цитирований по направлению доказательств для каждой статьи.",
+   "value_zh": "每篇论文的证据方向引用上下文。",
+   "risks_ru": "сеть (API scite)",
+   "risks_zh": "联网（scite API）"
   },
   {
    "id": "arxiv_mcp_server",
@@ -1256,7 +1496,13 @@
    "value": "Live arXiv search + full text ingestion instead of stale training knowledge.",
    "risks": "network; writes PDFs to disk",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "MCP-сервер для поиска по arXiv, скачивания статей и чтения их текстом.",
+   "purpose_zh": "搜索 arXiv、下载论文并以文本读取的 MCP 服务器。",
+   "value_ru": "Живой поиск по arXiv и полный текст вместо устаревших знаний модели.",
+   "value_zh": "实时 arXiv 搜索与全文读取，而非过时的训练知识。",
+   "risks_ru": "сеть; пишет PDF на диск",
+   "risks_zh": "联网；向磁盘写 PDF"
   },
   {
    "id": "biomni",
@@ -1280,7 +1526,13 @@
    "value": "Executes real bioinformatics pipelines and DB queries (not just describes them).",
    "risks": "executes generated code; large downloads; network (LLM + bio APIs)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Универсальный биомедицинский ИИ-агент со 100+ биоинструментами, базами и программами (ADMET, дизайн CRISPR, scRNA и др.).",
+   "purpose_zh": "通用生物医学 AI 代理，含 100+ 生物工具、数据库和软件（ADMET、CRISPR 设计、scRNA 等）。",
+   "value_ru": "Выполняет настоящие биоинформатические конвейеры и запросы к базам, а не только описывает их.",
+   "value_zh": "真正执行生物信息流水线和数据库查询，而不只是描述。",
+   "risks_ru": "выполняет сгенерированный код; большие загрузки; сеть (LLM + био-API)",
+   "risks_zh": "执行生成的代码；大量下载；联网（LLM + 生物 API）"
   },
   {
    "id": "boltz",
@@ -1304,7 +1556,13 @@
    "value": "Actual 3D complex structures and affinity estimates for drug-target hypotheses.",
    "risks": "downloads weights (GBs); heavy GPU compute; optional network MSA server sends sequences out",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытая модель предсказания структуры биомолекул и аффинности связывания (класс AlphaFold 3).",
+   "purpose_zh": "开源生物分子结构与结合亲和力预测模型（AlphaFold-3 级）。",
+   "value_ru": "Настоящие 3D-структуры комплексов и оценки аффинности для гипотез «лекарство–мишень».",
+   "value_zh": "为药物-靶点假设提供真实 3D 复合物结构和亲和力估计。",
+   "risks_ru": "скачивает веса (ГБ); тяжёлые вычисления на видеокарте; необязательный сетевой MSA-сервер отправляет последовательности наружу",
+   "risks_zh": "下载权重（GB 级）；显卡重负载；可选的联网 MSA 服务器会把序列发出"
   },
   {
    "id": "chemcrow",
@@ -1327,7 +1585,13 @@
    "value": "Computes molecular properties and reaction plans with real cheminformatics tools.",
    "risks": "network (APIs); stale dependencies (LangChain versions)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Химический агент на LLM, подключённый к RDKit, PubChem, ретросинтезу и инструментам безопасности.",
+   "purpose_zh": "连接 RDKit、PubChem、逆合成和安全工具的 LLM 化学代理。",
+   "value_ru": "Считает свойства молекул и планы реакций настоящими хемоинформатическими инструментами.",
+   "value_zh": "用真实的化学信息学工具计算分子性质和反应方案。",
+   "risks_ru": "сеть (API); устаревшие зависимости (версии LangChain)",
+   "risks_zh": "联网（API）；依赖过时（LangChain 版本）"
   },
   {
    "id": "chembl_client",
@@ -1350,7 +1614,13 @@
    "value": "Authoritative compound/target/bioactivity data with IDs instead of recalled values.",
    "risks": "network",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Официальный клиент Python к API базы биоактивности и лекарств ChEMBL.",
+   "purpose_zh": "ChEMBL 生物活性/药物数据库 API 的官方 Python 客户端。",
+   "value_ru": "Авторитетные данные о соединениях, мишенях и активности с идентификаторами вместо значений «по памяти».",
+   "value_zh": "带标识符的权威化合物/靶点/活性数据，而非凭记忆回忆。",
+   "risks_ru": "сеть",
+   "risks_zh": "联网"
   },
   {
    "id": "pandas_ai",
@@ -1375,7 +1645,13 @@
    "value": "Runs real computations/plots on the user's dataset; answers are reproducible code.",
    "risks": "executes LLM-generated code (use docker sandbox); network (LLM)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Разговор с данными CSV/Parquet/SQL через код pandas, который пишет LLM, с необязательной песочницей.",
+   "purpose_zh": "通过 LLM 生成的 pandas 代码与 CSV/Parquet/SQL 数据对话，可选沙箱。",
+   "value_ru": "Настоящие расчёты и графики по данным пользователя; ответы — воспроизводимый код.",
+   "value_zh": "在用户数据上执行真实计算/绘图；回答是可复现的代码。",
+   "risks_ru": "выполняет код, написанный LLM (используйте песочницу docker); сеть (LLM)",
+   "risks_zh": "执行 LLM 生成的代码（请用 docker 沙箱）；联网（LLM）"
   },
   {
    "id": "jupyter_ai",
@@ -1400,7 +1676,13 @@
    "value": "Agent edits/runs cells in the live notebook kernel with user permissions.",
    "risks": "executes code in kernel; network (LLM)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Расширение JupyterLab, подключающее агентов-программистов (ACP) к блокнотам; включает MCP-сервер Jupyter.",
+   "purpose_zh": "把编码代理（ACP）接入笔记本的 JupyterLab 扩展；附带 Jupyter MCP 服务器。",
+   "value_ru": "Агент правит и запускает ячейки в живом ядре блокнота с правами пользователя.",
+   "value_zh": "代理以用户权限在运行中的笔记本内核中编辑/运行单元格。",
+   "risks_ru": "выполняет код в ядре; сеть (LLM)",
+   "risks_zh": "在内核中执行代码；联网（LLM）"
   },
   {
    "id": "vanna",
@@ -1424,7 +1706,13 @@
    "value": "Generates and executes SQL against the real database and returns tables/plots.",
    "risks": "executes SQL (use read-only creds); network (LLM)",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Текст → SQL с агентным поиском (RAG по схеме/DDL/прошлым запросам) для многих баз данных.",
+   "purpose_zh": "基于代理检索（对模式/DDL/历史查询做 RAG）的文本转 SQL，支持多种数据库。",
+   "value_ru": "Генерирует и выполняет SQL к настоящей базе и возвращает таблицы и графики.",
+   "value_zh": "对真实数据库生成并执行 SQL，返回表格/图表。",
+   "risks_ru": "выполняет SQL (используйте учётку только для чтения); сеть (LLM)",
+   "risks_zh": "执行 SQL（请用只读凭据）；联网（LLM）"
   },
   {
    "id": "leandojo",
@@ -1447,7 +1735,13 @@
    "value": "Machine-checked proofs: every step is verified by Lean rather than asserted by the LLM.",
    "risks": "network (GitHub clone); builds Lean projects (CPU/disk heavy)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Набор Python для трассировки репозиториев Lean 4 и пошагового взаимодействия LLM-прувера с Lean.",
+   "purpose_zh": "追踪 Lean 4 仓库并让 LLM 证明器与 Lean 逐步交互的 Python 工具包。",
+   "value_ru": "Машинно проверенные доказательства: каждый шаг проверяет Lean, а не утверждает LLM.",
+   "value_zh": "机器验证的证明：每一步由 Lean 校验，而非 LLM 断言。",
+   "risks_ru": "сеть (клонирование GitHub); сборка проектов Lean (нагрузка на CPU и диск)",
+   "risks_zh": "联网（克隆 GitHub）；构建 Lean 项目（占用 CPU/磁盘）"
   },
   {
    "id": "paperai",
@@ -1470,7 +1764,13 @@
    "value": "Local, offline semantic index of thousands of papers with structured reports.",
    "risks": "downloads models; CPU/RAM heavy",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Семантический поиск и генерация отчётов по корпусам медицинских и научных статей (на txtai).",
+   "purpose_zh": "基于 txtai 的医学/科学论文语料语义搜索与报告生成。",
+   "value_ru": "Локальный офлайн-индекс тысяч статей со структурированными отчётами.",
+   "value_zh": "数千篇论文的本地离线语义索引与结构化报告。",
+   "risks_ru": "скачивает модели; нагрузка на CPU и память",
+   "risks_zh": "下载模型；占用 CPU/内存"
   },
   {
    "id": "finrobot",
@@ -1492,7 +1792,13 @@
    "value": "End-to-end equity report (filings + data + charts) generated from live sources.",
    "risks": "network; API cost",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Многоагентная платформа для отчётов по акциям, прогнозов и финансового анализа.",
+   "purpose_zh": "生成股票研究报告、预测和财务分析的多代理平台。",
+   "value_ru": "Полный отчёт по эмитенту (отчётность + данные + графики) из живых источников.",
+   "value_zh": "由实时来源生成完整的股票研究报告（财报 + 数据 + 图表）。",
+   "risks_ru": "сеть; расходы на API",
+   "risks_zh": "联网；API 费用"
   },
   {
    "id": "ai_hedge_fund",
@@ -1514,7 +1820,13 @@
    "value": "Reproducible backtests and structured multi-analyst signals on real price/fundamental data.",
    "risks": "network; API cost; educational, no real trades",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Многоагентный (персоны инвесторов) анализ акций, бумажная торговля и бэктесты в терминальном приложении.",
+   "purpose_zh": "多代理（投资者人格）股票分析、模拟交易和回测的终端应用。",
+   "value_ru": "Воспроизводимые бэктесты и структурированные сигналы нескольких аналитиков на реальных ценах и фундаментале.",
+   "value_zh": "基于真实价格/基本面数据的可复现回测和多分析师结构化信号。",
+   "risks_ru": "сеть; расходы на API; учебный, реальных сделок нет",
+   "risks_zh": "联网；API 费用；仅教学，不做真实交易"
   },
   {
    "id": "tradingagents",
@@ -1536,7 +1848,13 @@
    "value": "Structured debate-based analysis with data tools; auditable decision trace.",
    "risks": "network; API cost; financial-advice caveat",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Многоагентная LLM-платформа исследования торговли (аналитики, исследователи, трейдер, риск).",
+   "purpose_zh": "多代理 LLM 金融交易研究框架（分析师、研究员、交易员、风控）。",
+   "value_ru": "Структурированный анализ-дебаты с инструментами данных; проверяемый след решений.",
+   "value_zh": "带数据工具的结构化辩论式分析；可审计的决策轨迹。",
+   "risks_ru": "сеть; расходы на API; оговорка о финансовых советах",
+   "risks_zh": "联网；API 费用；投资建议免责"
   },
   {
    "id": "invoice2data",
@@ -1559,7 +1877,13 @@
    "value": "Deterministic, template-verified field extraction for bulk bookkeeping (no hallucinated totals).",
    "risks": "local only; template maintenance",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Извлечение структурированных полей из PDF-счетов по шаблонам в CSV/JSON/XML.",
+   "purpose_zh": "基于模板从 PDF 发票提取结构化字段到 CSV/JSON/XML。",
+   "value_ru": "Детерминированное, проверенное шаблоном извлечение полей для массовой бухгалтерии (без выдуманных сумм).",
+   "value_zh": "确定性的、模板校验的字段提取，适合批量记账（不会编造金额）。",
+   "risks_ru": "только локально; поддержка шаблонов",
+   "risks_zh": "仅本地；需维护模板"
   },
   {
    "id": "chronos",
@@ -1584,7 +1908,13 @@
    "value": "Calibrated quantile forecasts (demand, cash-flow, load) from raw series.",
    "risks": "downloads weights",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Предобученные модели вероятностного прогноза временных рядов без дообучения.",
+   "purpose_zh": "预训练的零样本概率时间序列预测模型。",
+   "value_ru": "Калиброванные квантильные прогнозы (спрос, денежный поток, нагрузка) по сырым рядам.",
+   "value_zh": "从原始序列得到校准的分位数预测（需求、现金流、负荷）。",
+   "risks_ru": "скачивает веса",
+   "risks_zh": "下载权重"
   },
   {
    "id": "timesfm",
@@ -1608,7 +1938,13 @@
    "value": "Strong zero-shot forecasts with quantiles; no training needed.",
    "risks": "downloads weights; GPU; 3.0 license restrictions",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Фундаментальная модель Google для прогноза временных рядов без обучения (v3.0, август 2026).",
+   "purpose_zh": "Google 的时间序列基础模型，零样本预测（v3.0，2026 年 8 月）。",
+   "value_ru": "Сильные прогнозы с квантилями без обучения.",
+   "value_zh": "无需训练的高质量分位数预测。",
+   "risks_ru": "скачивает веса; видеокарта; ограничения лицензии 3.0",
+   "risks_zh": "下载权重；需显卡；3.0 许可限制"
   },
   {
    "id": "prophet",
@@ -1633,7 +1969,13 @@
    "value": "Explainable trend/seasonality decomposition of the user's actual sales/cash series.",
    "risks": "none notable (local)",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Аддитивный прогноз временных рядов с сезонностью и праздниками для бизнес-данных.",
+   "purpose_zh": "面向业务数据的加性时间序列预测，含季节性和节假日。",
+   "value_ru": "Объяснимое разложение тренда и сезонности реальных продаж и денежных потоков.",
+   "value_zh": "对真实销售/现金流序列进行可解释的趋势/季节分解。",
+   "risks_ru": "ничего заметного (локально)",
+   "risks_zh": "无明显风险（本地）"
   },
   {
    "id": "beancount",
@@ -1656,7 +1998,13 @@
    "value": "Validated, balanced ledger with SQL-like queries; LLM can generate entries the engine checks.",
    "risks": "local only",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Текстовая двойная бухгалтерия с языком запросов; веб-интерфейс Fava (beancount/fava).",
+   "purpose_zh": "纯文本复式记账引擎，带查询语言；Fava 网页界面（beancount/fava）。",
+   "value_ru": "Проверенная сбалансированная книга с SQL-подобными запросами; LLM может писать проводки, которые движок проверяет.",
+   "value_zh": "经校验的平衡账本和类 SQL 查询；LLM 生成的分录由引擎检查。",
+   "risks_ru": "только локально",
+   "risks_zh": "仅本地"
   },
   {
    "id": "policyengine_us",
@@ -1679,7 +2027,13 @@
    "value": "Exact statutory tax/benefit computations (EITC, CTC, state taxes) with versioned parameters.",
    "risks": "none notable (local)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Движок правил федерального и штатного налогового и социального законодательства США для расчётов по домохозяйствам и микросимуляции.",
+   "purpose_zh": "美国联邦与州税收和福利法规引擎，用于家庭计算和微观模拟。",
+   "value_ru": "Точные расчёты налогов и льгот по закону (EITC, CTC, налоги штатов) с версионированными параметрами.",
+   "value_zh": "精确的法定税收/福利计算（EITC、CTC、州税），参数带版本。",
+   "risks_ru": "ничего заметного (локально)",
+   "risks_zh": "无明显风险（本地）"
   },
   {
    "id": "tax_calculator",
@@ -1702,7 +2056,13 @@
    "value": "Reform scoring and liability calculation under current/alternative law.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Микросимуляционная модель федерального подоходного и зарплатного налога США.",
+   "purpose_zh": "美国联邦个人所得税和工资税的微观模拟模型。",
+   "value_ru": "Оценка реформ и расчёт обязательств по действующему и альтернативному закону.",
+   "value_zh": "按现行/替代法律进行改革评估和税负计算。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "chainladder",
@@ -1725,7 +2085,13 @@
    "value": "Standard reserving methods computed on real triangles, sklearn-style.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Актуарное резервирование убытков P&C (треугольники, chain-ladder, Борнхьюттер–Фергюсон, Мак, бутстрап).",
+   "purpose_zh": "财产险精算准备金评估（三角形、链梯法、Bornhuetter-Ferguson、Mack、自助法）。",
+   "value_ru": "Стандартные методы резервирования на реальных треугольниках в стиле sklearn.",
+   "value_zh": "在真实三角形上以 sklearn 风格计算标准准备金方法。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "lifelib",
@@ -1746,7 +2112,13 @@
    "value": "Transparent cash-flow projection models that can be audited and modified.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Актуарные модели страхования жизни и аннуитетов на Python (на modelx).",
+   "purpose_zh": "基于 modelx 的 Python 人寿保险/年金精算投影模型。",
+   "value_ru": "Прозрачные модели денежных потоков, которые можно проверить и изменить.",
+   "value_zh": "可审计、可修改的透明现金流投影模型。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "contextgem",
@@ -1770,7 +2142,13 @@
    "value": "Extracted clauses carry justification + exact sentence references; DOCX converter built in.",
    "risks": "network (LLM) unless local model",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "LLM-фреймворк структурированного извлечения (условия, понятия, аспекты) из договоров и документов со ссылками на источник.",
+   "purpose_zh": "从合同和文档中结构化提取（条款、概念、方面）并带来源引用的 LLM 框架。",
+   "value_ru": "Извлечённые условия с обоснованием и точной ссылкой на предложение; встроенный конвертер DOCX.",
+   "value_zh": "提取的条款附带理由和精确句子引用；内置 DOCX 转换器。",
+   "risks_ru": "сеть (LLM), если не локальная модель",
+   "risks_zh": "联网（LLM），除非用本地模型"
   },
   {
    "id": "claude_legal_skill",
@@ -1793,7 +2171,13 @@
    "value": "Produces real tracked-changes Word redlines, not prose suggestions.",
    "risks": "writes documents; verify legal output",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Навык агента для проверки договоров: поиск рисков, сверка с плейбуком и подготовка правок.",
+   "purpose_zh": "合同审查的代理技能：风险检测、剧本核对和修订稿生成。",
+   "value_ru": "Настоящие правки Word с отслеживанием изменений, а не советы прозой.",
+   "value_zh": "产出真实的 Word 修订痕迹，而非文字建议。",
+   "risks_ru": "пишет документы; проверяйте юридический результат",
+   "risks_zh": "写入文档；请核实法律结论"
   },
   {
    "id": "legal_skills_open",
@@ -1816,7 +2200,13 @@
    "value": "Jurisdiction-specific workflows and checklists encoded for agents.",
    "risks": "content accuracy; verify",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытая библиотека юридических навыков SKILL.md (39 юрисдикций) для агентов, совместимых с MCP.",
+   "purpose_zh": "面向 MCP 兼容代理的开源法律 SKILL.md 技能库（39 个司法辖区）。",
+   "value_ru": "Рабочие процессы и чек-листы по юрисдикциям, закодированные для агентов.",
+   "value_zh": "按司法辖区编码的工作流和检查清单。",
+   "risks_ru": "точность содержимого; проверяйте",
+   "risks_zh": "内容准确性；请核实"
   },
   {
    "id": "casecite",
@@ -1837,7 +2227,13 @@
    "value": "Private, citation-grounded search over the firm's own case files.",
    "risks": "service exposure; data privacy",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Самостоятельно размещаемая юридическая RAG-платформа для поиска по судебной практике и анализа документов.",
+   "purpose_zh": "自托管的法律 RAG 平台，用于判例研究和文档分析。",
+   "value_ru": "Приватный поиск с цитатами по собственным делам фирмы.",
+   "value_zh": "在事务所自有案卷上进行私密、带引用的检索。",
+   "risks_ru": "открытый сервис; конфиденциальность данных",
+   "risks_zh": "服务暴露；数据隐私"
   },
   {
    "id": "korean_law_mcp",
@@ -1858,7 +2254,13 @@
    "value": "Verified statute text and citations from official source (example of national law MCP).",
    "risks": "network",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "MCP-сервер по корейским законам, прецедентам и постановлениям с проверкой цитат.",
+   "purpose_zh": "韩国法规、判例和条例的 MCP 服务器，带引用核验。",
+   "value_ru": "Проверенный текст закона и цитаты из официального источника (пример национального правового MCP).",
+   "value_zh": "来自官方来源的核验法条和引用（国家法律 MCP 的范例）。",
+   "risks_ru": "сеть",
+   "risks_zh": "联网"
   },
   {
    "id": "courtlistener",
@@ -1880,7 +2282,13 @@
    "value": "Real case law and docket retrieval with citations.",
    "risks": "network; rate limits",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Архив Free Law Project: решения судов США, дела (RECAP), судьи, устные слушания; REST API v4.",
+   "purpose_zh": "Free Law Project 档案：美国判决、案卷（RECAP）、法官、口头辩论；REST API v4。",
+   "value_ru": "Настоящая судебная практика и материалы дел с цитатами.",
+   "value_zh": "真实判例和案卷检索，带引用。",
+   "risks_ru": "сеть; ограничения частоты",
+   "risks_zh": "联网；速率限制"
   },
   {
    "id": "openstates_scrapers",
@@ -1903,7 +2311,13 @@
    "value": "Structured, current legislative data rather than summaries.",
    "risks": "network scraping; Docker",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Сборщики законопроектов, голосований и законодателей всех легислатур штатов США (плюс API Open States).",
+   "purpose_zh": "采集美国所有州议会法案、投票和议员的爬虫（含 Open States API）。",
+   "value_ru": "Структурированные актуальные законодательные данные, а не пересказы.",
+   "value_zh": "结构化、最新的立法数据，而非摘要。",
+   "risks_ru": "сетевой сбор; Docker",
+   "risks_zh": "联网抓取；Docker"
   },
   {
    "id": "docassemble",
@@ -1927,7 +2341,13 @@
    "value": "Deterministic, templated legal/government documents from validated inputs.",
    "risks": "admin (server); PII handling",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Экспертная система для анкет-интервью и сборки документов (DOCX/PDF) с REST API.",
+   "purpose_zh": "引导式访谈和文档组装（DOCX/PDF）的专家系统，带 REST API。",
+   "value_ru": "Детерминированные шаблонные юридические и государственные документы из проверенных данных.",
+   "value_zh": "由校验后的输入生成确定性的模板化法律/政务文档。",
+   "risks_ru": "администрирование (сервер); работа с персональными данными",
+   "risks_zh": "需管理（服务器）；处理个人信息"
   },
   {
    "id": "lexnlp",
@@ -1949,7 +2369,13 @@
    "value": "Rule-based legal entity extraction (deterministic).",
    "risks": "unmaintained since 2024",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "NLP-набор для извлечения дат, сумм, сторон, определений, ссылок из юридических текстов.",
+   "purpose_zh": "从法律文本提取日期、金额、当事方、定义、引用的 NLP 工具包。",
+   "value_ru": "Извлечение юридических сущностей по правилам (детерминированно).",
+   "value_zh": "基于规则的法律实体提取（确定性）。",
+   "risks_ru": "не поддерживается с 2024",
+   "risks_zh": "自 2024 年未维护"
   },
   {
    "id": "scispacy",
@@ -1973,7 +2399,13 @@
    "value": "Fast deterministic biomedical NER + UMLS CUIs for coding clinical text.",
    "risks": "downloads models; UMLS licence for linker data",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Конвейеры и модели spaCy для биомедицинского NER, раскрытия сокращений и привязки сущностей к UMLS.",
+   "purpose_zh": "用于生物医学 NER、缩写识别和 UMLS 实体链接的 spaCy 流水线/模型。",
+   "value_ru": "Быстрое детерминированное биомедицинское NER и коды UMLS для кодирования клинических текстов.",
+   "value_zh": "快速确定性的生物医学 NER 和 UMLS CUI，用于临床文本编码。",
+   "risks_ru": "скачивает модели; лицензия UMLS на данные линкера",
+   "risks_zh": "下载模型；链接器数据需 UMLS 许可"
   },
   {
    "id": "monai",
@@ -1996,7 +2428,13 @@
    "value": "Runs validated segmentation models on DICOM/NIfTI volumes.",
    "risks": "downloads weights; GPU",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Фреймворк PyTorch для глубокого обучения в медицинской визуализации (сегментация, классификация, зоопарк моделей).",
+   "purpose_zh": "医学影像深度学习的 PyTorch 框架（分割、分类、模型库）。",
+   "value_ru": "Запуск проверенных моделей сегментации на объёмах DICOM/NIfTI.",
+   "value_zh": "在 DICOM/NIfTI 体数据上运行经验证的分割模型。",
+   "risks_ru": "скачивает веса; видеокарта",
+   "risks_zh": "下载权重；需显卡"
   },
   {
    "id": "pydicom_deid",
@@ -2018,7 +2456,13 @@
    "value": "Strips PHI before images are shared with an LLM/vision model.",
    "risks": "verify anonymisation completeness",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Деидентификация заголовков и пикселей DICOM по рецептам (по мере возможности).",
+   "purpose_zh": "按配方对 DICOM 头和像素做尽力去标识。",
+   "value_ru": "Убирает персональные данные до передачи снимков LLM или модели зрения.",
+   "value_zh": "在图像交给 LLM/视觉模型前去除患者信息。",
+   "risks_ru": "проверяйте полноту анонимизации",
+   "risks_zh": "请核实匿名化是否完整"
   },
   {
    "id": "openfda_mcp",
@@ -2041,7 +2485,13 @@
    "value": "Official FDA label/interaction text and FAERS counts, not recalled pharmacology.",
    "risks": "network",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "MCP-сервер поверх openFDA: инструкции к лекарствам, разделы предупреждений и взаимодействий, отчёты о побочных эффектах, поиск NDC.",
+   "purpose_zh": "基于 openFDA 的 MCP 服务器：药品说明书、警告/相互作用章节、不良事件报告、NDC 查询。",
+   "value_ru": "Официальный текст FDA и счётчики FAERS вместо фармакологии «по памяти».",
+   "value_zh": "官方 FDA 说明书/相互作用文本和 FAERS 统计，而非凭记忆的药理。",
+   "risks_ru": "сеть",
+   "risks_zh": "联网"
   },
   {
    "id": "openclaw_medical_skills",
@@ -2064,7 +2514,13 @@
    "value": "Curated step-by-step clinical procedures and scoring tools.",
    "risks": "clinical accuracy; verify",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Библиотека медицинских навыков агента (клинические процессы, калькуляторы, поиск по рекомендациям) для агентов в стиле OpenClaw.",
+   "purpose_zh": "面向 OpenClaw 风格代理的医学技能库（临床流程、计算器、指南查询）。",
+   "value_ru": "Отобранные пошаговые клинические процедуры и шкалы.",
+   "value_zh": "精选的分步临床流程和评分工具。",
+   "risks_ru": "клиническая точность; проверяйте",
+   "risks_zh": "临床准确性；请核实"
   },
   {
    "id": "medical_research_skills",
@@ -2087,7 +2543,13 @@
    "value": "Structured research methodology checklists (CONSORT/PRISMA-style) embedded in agent workflow.",
    "risks": "verify content",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Навыки агента для медицинских исследований (литература, дизайн испытаний, статистика, отчётность).",
+   "purpose_zh": "医学研究任务的代理技能（文献、试验设计、统计、报告）。",
+   "value_ru": "Структурированные чек-листы методологии (в духе CONSORT/PRISMA) внутри процесса агента.",
+   "value_zh": "嵌入代理工作流的结构化研究方法清单（CONSORT/PRISMA 风格）。",
+   "risks_ru": "проверяйте содержимое",
+   "risks_zh": "请核实内容"
   },
   {
    "id": "medrax",
@@ -2108,7 +2570,13 @@
    "value": "Tool-grounded CXR findings with localization rather than free-text guesses.",
    "risks": "downloads weights; GPU; research only",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Медицинский агент рассуждения для анализа рентгена грудной клетки с инструментами CXR (классификация, сегментация, генерация заключения).",
+   "purpose_zh": "胸片分析的医学推理代理，整合 CXR 工具（分类、分割、报告生成）。",
+   "value_ru": "Находки по снимку с локализацией на основе инструментов, а не догадки в свободном тексте.",
+   "value_zh": "基于工具的胸片发现和定位，而非自由文本猜测。",
+   "risks_ru": "скачивает веса; видеокарта; только для исследований",
+   "risks_zh": "下载权重；需显卡；仅供研究"
   },
   {
    "id": "ohif_viewers",
@@ -2129,7 +2597,13 @@
    "value": "Agent can open specific studies/series for the clinician.",
    "risks": "PHI; service",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Веб-просмотрщик DICOM без установки, с расширениями и режимами, бэкенд DICOMweb.",
+   "purpose_zh": "零安装的网页 DICOM 查看器，含扩展/模式和 DICOMweb 后端。",
+   "value_ru": "Агент может открыть нужные исследования и серии для врача.",
+   "value_zh": "代理可为临床医生打开指定检查/序列。",
+   "risks_ru": "персональные медданные; сервис",
+   "risks_zh": "患者信息；服务"
   },
   {
    "id": "medplum",
@@ -2152,7 +2626,13 @@
    "value": "Agent reads/writes structured FHIR records with audit instead of free text.",
    "risks": "PHI; admin",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "FHIR-сервер без интерфейса + SDK для соответствующих требованиям медицинских приложений (боты, подписки).",
+   "purpose_zh": "无头 FHIR 服务器 + SDK，用于合规医疗应用（机器人、订阅）。",
+   "value_ru": "Агент читает и пишет структурированные записи FHIR с аудитом вместо свободного текста.",
+   "value_zh": "代理带审计地读写结构化 FHIR 记录，而非自由文本。",
+   "risks_ru": "персональные медданные; администрирование",
+   "risks_zh": "患者信息；需管理"
   },
   {
    "id": "agentcad",
@@ -2173,7 +2653,13 @@
    "value": "Agent-first CAD operations with validation and screenshots.",
    "risks": "executes code",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "CAD CLI и MCP-сервер для ИИ-агентов (моделирование на CadQuery, экспорт, осмотр).",
+   "purpose_zh": "为 AI 代理构建的 CAD CLI 和 MCP 服务器（基于 CadQuery 建模、导出、检查）。",
+   "value_ru": "CAD-операции для агентов с проверкой и снимками.",
+   "value_zh": "面向代理的 CAD 操作，带校验和截图。",
+   "risks_ru": "выполняет код",
+   "risks_zh": "执行代码"
   },
   {
    "id": "kicad_mcp",
@@ -2195,7 +2681,13 @@
    "value": "Runs actual DRC and BOM generation on the user's board files.",
    "risks": "reads project files; runs kicad-cli",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "MCP-сервер для чтения и анализа проектов KiCad: DRC, список цепей, экспорт BOM, миниатюры, распознавание шаблонов.",
+   "purpose_zh": "读取/分析 KiCad 项目的 MCP 服务器：DRC、网表、BOM 导出、缩略图、模式识别。",
+   "value_ru": "Настоящий DRC и генерация BOM по файлам платы пользователя.",
+   "value_zh": "在用户的板文件上运行真实 DRC 和 BOM 生成。",
+   "risks_ru": "читает файлы проекта; запускает kicad-cli",
+   "risks_zh": "读取项目文件；运行 kicad-cli"
   },
   {
    "id": "mcp_kicad",
@@ -2217,7 +2709,13 @@
    "value": "Live board manipulation (place/move footprints, query nets).",
    "risks": "modifies open design",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "MCP-сервер к живому редактору плат KiCad через IPC API KiCad 9 (правка открытой платы).",
+   "purpose_zh": "通过 KiCad 9 IPC API 连接运行中的 KiCad PCB 编辑器的 MCP 服务器（编辑已打开的电路板）。",
+   "value_ru": "Живая работа с платой (ставить и двигать посадочные места, запрашивать цепи).",
+   "value_zh": "实时操作电路板（放置/移动封装、查询网络）。",
+   "risks_ru": "меняет открытый проект",
+   "risks_zh": "修改已打开的设计"
   },
   {
    "id": "spicelib",
@@ -2240,7 +2738,13 @@
    "value": "Real circuit simulation sweeps instead of hand-wavy analysis.",
    "risks": "runs external simulator binaries",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Автоматизация SPICE-симуляций (ngspice, LTspice, QSPICE, Xyce): правка netlist, запуск, разбор результатов .raw.",
+   "purpose_zh": "自动化 SPICE 仿真（ngspice、LTspice、QSPICE、Xyce）：编辑网表、运行、解析 .raw 结果。",
+   "value_ru": "Настоящие прогоны симуляции схем вместо прикидок.",
+   "value_zh": "真实的电路仿真扫描，而非粗略分析。",
+   "risks_ru": "запускает внешние бинарники симуляторов",
+   "risks_zh": "运行外部仿真器程序"
   },
   {
    "id": "platformio",
@@ -2262,7 +2766,13 @@
    "value": "Agent compiles, flashes and reads serial output from real hardware.",
    "risks": "downloads toolchains; hardware access",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "CLI-система сборки и менеджер пакетов для встроенного ПО (1500+ плат), прошивка и монитор порта.",
+   "purpose_zh": "嵌入式固件的 CLI 构建系统/包管理器（1500+ 开发板），烧录和串口监视。",
+   "value_ru": "Агент компилирует, прошивает и читает вывод порта с настоящего железа.",
+   "value_zh": "代理可编译、烧录并读取真实硬件的串口输出。",
+   "risks_ru": "скачивает тулчейны; доступ к железу",
+   "risks_zh": "下载工具链；访问硬件"
   },
   {
    "id": "ifcopenshell",
@@ -2286,7 +2796,13 @@
    "value": "Query/modify real BIM models (quantities, properties, clash prep).",
    "risks": "none notable",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Открытая библиотека IFC (BIM) и геометрический движок; Python API ifcopenshell + инструменты ifcpatch/ifccsv.",
+   "purpose_zh": "开源 IFC（BIM）库和几何引擎；Python API ifcopenshell 及 ifcpatch/ifccsv 工具。",
+   "value_ru": "Запросы и правка настоящих BIM-моделей (объёмы, свойства, подготовка к коллизиям).",
+   "value_zh": "查询/修改真实 BIM 模型（工程量、属性、碰撞准备）。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "pynite",
@@ -2309,7 +2825,13 @@
    "value": "Verified member forces/deflections for sizing checks.",
    "risks": "none notable",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Библиотека 3D-конечных элементов для строительных конструкций (рамы, плиты, P-Delta, сочетания нагрузок) на Python.",
+   "purpose_zh": "Python 的 3D 结构有限元库（框架、板、P-Delta、荷载组合）。",
+   "value_ru": "Проверенные усилия и прогибы для подбора сечений.",
+   "value_zh": "用于截面校核的可靠杆件内力/变形。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "openseespy",
@@ -2331,7 +2853,13 @@
    "value": "Nonlinear time-history and pushover analyses.",
    "risks": "licence restrictions",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Интерфейс Python к OpenSees — нелинейному расчёту конструкций и сейсмике.",
+   "purpose_zh": "OpenSees 非线性结构/地震分析框架的 Python 接口。",
+   "value_ru": "Нелинейные расчёты во времени и pushover.",
+   "value_zh": "非线性时程和推覆分析。",
+   "risks_ru": "ограничения лицензии",
+   "risks_zh": "许可限制"
   },
   {
    "id": "qgis_agent_mcp",
@@ -2354,7 +2882,13 @@
    "value": "One-click, maintained alternative to qgis_mcp.",
    "risks": "executes code in QGIS",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Плагин QGIS из официального репозитория (plugins.qgis.org), связывающий ИИ-агентов с QGIS: 100+ инструментов и возобновляемые процессы.",
+   "purpose_zh": "官方仓库（plugins.qgis.org）的 QGIS 插件，把 AI 代理接入 QGIS：100+ 工具和可恢复工作流。",
+   "value_ru": "Поддерживаемая альтернатива qgis_mcp в один щелчок.",
+   "value_zh": "一键安装、持续维护的 qgis_mcp 替代。",
+   "risks_ru": "выполняет код в QGIS",
+   "risks_zh": "在 QGIS 中执行代码"
   },
   {
    "id": "geopandas",
@@ -2378,7 +2912,13 @@
    "value": "Exact spatial computations (areas, buffers, joins).",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Расширение pandas для векторных геоданных (shapefile/GeoJSON/GPKG), пространственные соединения, CRS, графики.",
+   "purpose_zh": "pandas 的矢量地理数据扩展（shapefile/GeoJSON/GPKG），空间连接、CRS、绘图。",
+   "value_ru": "Точные пространственные расчёты (площади, буферы, соединения).",
+   "value_zh": "精确的空间计算（面积、缓冲、连接）。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "pvlib",
@@ -2401,7 +2941,13 @@
    "value": "Hourly yield simulations from TMY/PVGIS data for real designs.",
    "risks": "network for weather APIs (optional)",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Моделирование работы фотоэлектрических систем (облучённость, температура, модели инверторов и модулей).",
+   "purpose_zh": "光伏系统性能建模（辐照、温度、逆变器/组件模型）。",
+   "value_ru": "Почасовая симуляция выработки по данным TMY/PVGIS для реальных проектов.",
+   "value_zh": "基于 TMY/PVGIS 数据对真实设计做逐小时发电模拟。",
+   "risks_ru": "сеть для погодных API (необязательно)",
+   "risks_zh": "可选联网访问气象 API"
   },
   {
    "id": "pypsa",
@@ -2424,7 +2970,13 @@
    "value": "Optimised dispatch/expansion plans with LP solvers.",
    "risks": "CPU heavy",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Оптимизация и симуляция энергосистем (загрузка блоков, расширение мощностей, сети).",
+   "purpose_zh": "电力系统优化与仿真（机组组合、容量扩展、网络）。",
+   "value_ru": "Оптимальные планы диспетчеризации и расширения с LP-решателями.",
+   "value_zh": "用 LP 求解器得到优化的调度/扩展方案。",
+   "risks_ru": "нагрузка на CPU",
+   "risks_zh": "CPU 负载高"
   },
   {
    "id": "emhass",
@@ -2446,7 +2998,13 @@
    "value": "Real MPC/LP optimisation of household energy flows.",
    "risks": "network; controls devices via HA",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Управление энергией для Home Assistant: оптимизирует графики солнечных панелей, батареи и нагрузки по прогнозам и тарифам.",
+   "purpose_zh": "Home Assistant 的能源管理：根据预测和电价优化光伏/电池/负荷计划。",
+   "value_ru": "Настоящая MPC/LP-оптимизация энергопотоков дома.",
+   "value_zh": "对家庭能量流进行真实的 MPC/LP 优化。",
+   "risks_ru": "сеть; управляет устройствами через HA",
+   "risks_zh": "联网；通过 HA 控制设备"
   },
   {
    "id": "home_assistant",
@@ -2468,7 +3026,13 @@
    "value": "Agent reads sensors and actuates real devices.",
    "risks": "controls physical devices; admin",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытая платформа умного дома с разговорными агентами на LLM и интеграцией MCP-сервера.",
+   "purpose_zh": "开源家庭自动化平台，带 LLM 对话代理和 MCP 服务器集成。",
+   "value_ru": "Агент читает датчики и управляет настоящими устройствами.",
+   "value_zh": "代理读取传感器并控制真实设备。",
+   "risks_ru": "управляет физическими устройствами; администрирование",
+   "risks_zh": "控制物理设备；需管理"
   },
   {
    "id": "plantcv",
@@ -2490,7 +3054,13 @@
    "value": "Quantitative traits from field/greenhouse images.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Анализ изображений для фенотипирования растений (сегментация, морфология, цвет, NIR/гиперспектр).",
+   "purpose_zh": "植物表型图像分析（分割、形态、颜色、近红外/高光谱）。",
+   "value_ru": "Количественные признаки по снимкам с поля и из теплицы.",
+   "value_zh": "从田间/温室图像得到定量性状。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "pcse",
@@ -2512,7 +3082,13 @@
    "value": "Yield/phenology scenarios under real weather and management.",
    "risks": "network for weather provider",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Python Crop Simulation Environment: модели роста культур WOFOST/LINTUL с погодой и почвой.",
+   "purpose_zh": "Python 作物模拟环境：WOFOST/LINTUL 作物生长模型，输入气象/土壤。",
+   "value_ru": "Сценарии урожая и фенологии при реальной погоде и агротехнике.",
+   "value_zh": "在真实气象和管理条件下的产量/物候情景。",
+   "risks_ru": "сеть для поставщика погоды",
+   "risks_zh": "联网访问气象数据源"
   },
   {
    "id": "xclim",
@@ -2535,7 +3111,13 @@
    "value": "Standardised, unit-aware climate indicators from model/obs data.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Климатические индексы и коррекция смещения на xarray (ETCCDI, градусо-дни, индексы засухи).",
+   "purpose_zh": "基于 xarray 的气候指数和偏差校正库（ETCCDI、度日、干旱指数）。",
+   "value_ru": "Стандартизированные индикаторы климата с учётом единиц по данным моделей и наблюдений.",
+   "value_zh": "由模式/观测数据得到标准化、单位感知的气候指标。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "lighthouse",
@@ -2557,7 +3139,13 @@
    "value": "Measured Core Web Vitals and SEO audits on the live page.",
    "risks": "network; launches Chrome",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Автоматический аудит веб-страниц (скорость, SEO, доступность, лучшие практики) из CLI/Node.",
+   "purpose_zh": "从 CLI/Node 自动审计网页（性能、SEO、无障碍、最佳实践）。",
+   "value_ru": "Измеренные Core Web Vitals и SEO-аудит живой страницы.",
+   "value_zh": "对在线页面实测 Core Web Vitals 和 SEO 审计。",
+   "risks_ru": "сеть; запускает Chrome",
+   "risks_zh": "联网；启动 Chrome"
   },
   {
    "id": "unlighthouse",
@@ -2579,7 +3167,13 @@
    "value": "Whole-site scores in one run with exportable JSON.",
    "risks": "network crawl",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Обход всего сайта Lighthouse с панелью и режимом CI.",
+   "purpose_zh": "整站 Lighthouse 爬取，带仪表盘和 CI 模式。",
+   "value_ru": "Оценки по всему сайту за один прогон с экспортом JSON.",
+   "value_zh": "一次运行得到全站评分，可导出 JSON。",
+   "risks_ru": "сетевой обход",
+   "risks_zh": "联网爬取"
   },
   {
    "id": "librecrawl",
@@ -2601,7 +3195,13 @@
    "value": "Full technical crawl data (status codes, titles, canonicals) locally.",
    "risks": "network crawl",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Бесплатный настольный SEO-краулер (альтернатива Screaming Frog): обход, анализ ссылок, экспорт.",
+   "purpose_zh": "免费桌面 SEO 爬虫（Screaming Frog 替代）：爬取、链接分析、导出。",
+   "value_ru": "Полные технические данные обхода (коды ответов, заголовки, canonical) локально.",
+   "value_zh": "本地获得完整技术爬取数据（状态码、标题、canonical）。",
+   "risks_ru": "сетевой обход",
+   "risks_zh": "联网爬取"
   },
   {
    "id": "rankme_fast",
@@ -2623,7 +3223,13 @@
    "value": "Own historical rank data instead of SaaS.",
    "risks": "network; service",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Самостоятельно размещаемая SEO-платформа (отслеживание позиций, аудиты, ключевые слова).",
+   "purpose_zh": "自托管 SEO 平台（排名跟踪、审计、关键词工具）。",
+   "value_ru": "Собственная история позиций вместо SaaS.",
+   "value_zh": "自有的历史排名数据，而非 SaaS。",
+   "risks_ru": "сеть; сервис",
+   "risks_zh": "联网；服务"
   },
   {
    "id": "search_solved_seo",
@@ -2645,7 +3251,13 @@
    "value": "Ready analyses on exported GSC/crawl data (clustering, cannibalisation).",
    "risks": "network; API cost",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "40+ скриптов и приложений Streamlit для SEO-автоматизации (кластеризация ключей через sentence-transformers, анализ GSC, перелинковка, прогноз).",
+   "purpose_zh": "40+ 个 SEO 自动化脚本/Streamlit 应用（sentence-transformers 关键词聚类、GSC 分析、内链、预测）。",
+   "value_ru": "Готовые анализы по выгрузкам GSC и обхода (кластеризация, каннибализация).",
+   "value_zh": "基于导出的 GSC/爬取数据的现成分析（聚类、关键词蚕食）。",
+   "risks_ru": "сеть; расходы на API",
+   "risks_zh": "联网；API 费用"
   },
   {
    "id": "postiz",
@@ -2668,7 +3280,13 @@
    "value": "Agent actually schedules/publishes across networks.",
    "risks": "posts publicly; credentials",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытый планировщик соцсетей (X, LinkedIn, Instagram, TikTok и др.) с ИИ-помощником и публичным API.",
+   "purpose_zh": "开源社媒排期工具（X、LinkedIn、Instagram、TikTok 等），带 AI 辅助和公开 API。",
+   "value_ru": "Агент действительно планирует и публикует в сетях.",
+   "value_zh": "代理可真正跨平台排期/发布。",
+   "risks_ru": "публикует публично; учётные данные",
+   "risks_zh": "公开发布；涉及凭据"
   },
   {
    "id": "twenty_crm",
@@ -2691,7 +3309,13 @@
    "value": "Agent creates/updates leads, notes and tasks in the real pipeline.",
    "risks": "data write; service",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Современная открытая CRM (альтернатива Salesforce) с REST/GraphQL API и процессами.",
+   "purpose_zh": "现代开源 CRM（Salesforce 替代），带 REST/GraphQL API 和工作流。",
+   "value_ru": "Агент создаёт и обновляет лиды, заметки и задачи в настоящей воронке.",
+   "value_zh": "代理在真实销售管道中创建/更新线索、备注和任务。",
+   "risks_ru": "запись данных; сервис",
+   "risks_zh": "写入数据；服务"
   },
   {
    "id": "espocrm",
@@ -2713,7 +3337,13 @@
    "value": "Low-resource CRM backend an agent can query/update.",
    "risks": "service",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Зрелая CRM на PHP с REST API, процессами и интеграцией почты.",
+   "purpose_zh": "成熟的 PHP CRM，带 REST API、工作流和邮件集成。",
+   "value_ru": "Нетребовательный CRM-бэкенд, который агент может читать и обновлять.",
+   "value_zh": "低资源 CRM 后端，代理可查询/更新。",
+   "risks_ru": "сервис",
+   "risks_zh": "服务"
   },
   {
    "id": "resume_matcher",
@@ -2734,7 +3364,13 @@
    "value": "Quantified match scores on real resume/JD text, locally.",
    "risks": "runs local LLM",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Локальный ИИ-инструмент оценки и подгонки резюме под вакансии (совпадение ключевых слов ATS).",
+   "purpose_zh": "本地 AI 工具，按职位描述评分/优化简历（ATS 关键词匹配）。",
+   "value_ru": "Количественные оценки совпадения по реальному тексту резюме и вакансии, локально.",
+   "value_zh": "在真实简历/职位文本上本地给出量化匹配分。",
+   "risks_ru": "запускает локальную LLM",
+   "risks_zh": "运行本地 LLM"
   },
   {
    "id": "open_resume",
@@ -2755,7 +3391,13 @@
    "value": "Deterministic PDF resume -> JSON fields.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Конструктор резюме и парсер PDF-резюме (Next.js), полезен для извлечения структурированных данных кандидатов.",
+   "purpose_zh": "简历生成器和 PDF 简历解析器（Next.js），可提取结构化候选人数据。",
+   "value_ru": "Детерминированный разбор PDF-резюме в поля JSON.",
+   "value_zh": "确定性地把 PDF 简历解析为 JSON 字段。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "plane",
@@ -2776,7 +3418,13 @@
    "value": "Agent files/updates issues and reads sprint state.",
    "risks": "data write",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытое управление проектами (задачи, циклы, модули) с REST API и MCP-сервером.",
+   "purpose_zh": "开源项目管理（问题、周期、模块），带 REST API 和 MCP 服务器。",
+   "value_ru": "Агент заводит и обновляет задачи и читает состояние спринта.",
+   "value_zh": "代理可创建/更新问题并读取迭代状态。",
+   "risks_ru": "запись данных",
+   "risks_zh": "写入数据"
   },
   {
    "id": "openproject",
@@ -2798,7 +3446,13 @@
    "value": "Schedule/baseline data pulled from the live plan.",
    "risks": "data write",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Классический пакет управления проектами (Гант, пакеты работ, учёт времени) с API v3.",
+   "purpose_zh": "经典项目管理套件（甘特图、工作包、工时），API v3。",
+   "value_ru": "Данные графика и базового плана из живого плана.",
+   "value_zh": "从实时计划中获取进度/基线数据。",
+   "risks_ru": "запись данных",
+   "risks_zh": "写入数据"
   },
   {
    "id": "or_tools",
@@ -2821,7 +3475,13 @@
    "value": "Provably good routes/schedules under constraints.",
    "risks": "CPU heavy",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Набор оптимизации Google: маршруты (VRP/TSP), расписания, CP-SAT, LP/MIP.",
+   "purpose_zh": "Google 优化套件：路径（VRP/TSP）、排程、CP-SAT、LP/MIP。",
+   "value_ru": "Доказуемо хорошие маршруты и расписания при ограничениях.",
+   "value_zh": "约束条件下可证明优良的路径/排程。",
+   "risks_ru": "нагрузка на CPU",
+   "risks_zh": "CPU 负载高"
   },
   {
    "id": "vroom",
@@ -2842,7 +3502,13 @@
    "value": "Fast multi-vehicle routes with time windows on real road network.",
    "risks": "network to routing engine",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Движок оптимизации маршрутов транспорта (TSP/VRP/PDPTW) с HTTP-обёрткой vroom-express.",
+   "purpose_zh": "车辆路径优化引擎（TSP/VRP/PDPTW），带 HTTP 封装 vroom-express。",
+   "value_ru": "Быстрые маршруты для нескольких машин с временными окнами на реальной дорожной сети.",
+   "value_zh": "基于真实路网、带时间窗的快速多车路径。",
+   "risks_ru": "сеть к движку маршрутизации",
+   "risks_zh": "联网访问路由引擎"
   },
   {
    "id": "openrouteservice",
@@ -2865,7 +3531,13 @@
    "value": "Travel times, isochrones and distance matrices for planning.",
    "risks": "network; heavy RAM for graph build",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Самостоятельно размещаемый API маршрутов, изохрон и матриц на OSM (Java) с клиентом Python.",
+   "purpose_zh": "基于 OSM 的可自托管路径/等时线/矩阵 API（Java），带 Python 客户端。",
+   "value_ru": "Время в пути, изохроны и матрицы расстояний для планирования.",
+   "value_zh": "用于规划的行程时间、等时线和距离矩阵。",
+   "risks_ru": "сеть; много памяти для сборки графа",
+   "risks_zh": "联网；构建路网图需大量内存"
   },
   {
    "id": "darts",
@@ -2889,7 +3561,13 @@
    "value": "Backtested demand forecasts with error metrics.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Единая библиотека прогноза и аномалий временных рядов (от ARIMA до TFT/N-BEATS), бэктесты.",
+   "purpose_zh": "统一的时间序列预测/异常检测库（从 ARIMA 到 TFT/N-BEATS），支持回测。",
+   "value_ru": "Прогнозы спроса с бэктестом и метриками ошибок.",
+   "value_zh": "带回测和误差指标的需求预测。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "anki_mcp_server_nailuogg",
@@ -2912,7 +3590,13 @@
    "value": "Flashcards land directly in the learner's Anki collection.",
    "risks": "writes to Anki DB",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "MCP-сервер для Anki через AnkiConnect: колоды, карточки, поиск, статистика повторений.",
+   "purpose_zh": "通过 AnkiConnect 连接 Anki 的 MCP 服务器：创建牌组/笔记、搜索、复习统计。",
+   "value_ru": "Карточки попадают прямо в коллекцию Anki ученика.",
+   "value_zh": "闪卡直接进入学习者的 Anki 收藏。",
+   "risks_ru": "пишет в базу Anki",
+   "risks_zh": "写入 Anki 数据库"
   },
   {
    "id": "anki_mcp_server_ankimcp",
@@ -2934,7 +3618,13 @@
    "value": "Same as above; more active.",
    "risks": "writes to Anki DB",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Альтернативный MCP-сервер Anki на TypeScript (ankimcp.ai) с более широким набором инструментов.",
+   "purpose_zh": "另一个 TypeScript 的 Anki MCP 服务器（ankimcp.ai），工具更丰富。",
+   "value_ru": "То же, что выше; активнее развивается.",
+   "value_zh": "同上；更活跃。",
+   "risks_ru": "пишет в базу Anki",
+   "risks_zh": "写入 Anki 数据库"
   },
   {
    "id": "educhain",
@@ -2955,7 +3645,13 @@
    "value": "Schema-validated question banks exportable to CSV/PDF.",
    "risks": "network (LLM)",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Библиотека Python для генерации тестов, планов уроков, карточек и учебных пособий через LLM со структурированным выводом.",
+   "purpose_zh": "用 LLM 生成选择题、教案、闪卡和学习指南的 Python 库，输出结构化。",
+   "value_ru": "Банки вопросов по схеме с экспортом в CSV/PDF.",
+   "value_zh": "经模式校验的题库，可导出 CSV/PDF。",
+   "risks_ru": "сеть (LLM)",
+   "risks_zh": "联网（LLM）"
   },
   {
    "id": "libretranslate",
@@ -2978,7 +3674,13 @@
    "value": "Offline bulk translation with no data leaving the machine.",
    "risks": "downloads models",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Самостоятельно размещаемый REST API машинного перевода (модели Argos/CTranslate2, 40+ языков).",
+   "purpose_zh": "自托管机器翻译 REST API（Argos/CTranslate2 模型，40+ 种语言）。",
+   "value_ru": "Офлайн-перевод больших объёмов без утечки данных с компьютера.",
+   "value_zh": "离线批量翻译，数据不离开本机。",
+   "risks_ru": "скачивает модели",
+   "risks_zh": "下载模型"
   },
   {
    "id": "argos_translate",
@@ -2999,7 +3701,13 @@
    "value": "Local, scriptable translation of files/subtitles.",
    "risks": "downloads models",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Офлайн-библиотека и CLI нейроперевода (OpenNMT/CTranslate2), основа LibreTranslate.",
+   "purpose_zh": "离线神经翻译库/CLI（OpenNMT/CTranslate2），LibreTranslate 的底层。",
+   "value_ru": "Локальный скриптуемый перевод файлов и субтитров.",
+   "value_zh": "本地、可脚本化地翻译文件/字幕。",
+   "risks_ru": "скачивает модели",
+   "risks_zh": "下载模型"
   },
   {
    "id": "nllb200",
@@ -3020,7 +3728,13 @@
    "value": "High-quality low-resource language pairs offline.",
    "risks": "non-commercial licence; downloads weights",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Модель машинного перевода Meta на 200 языков (дистиллированные 600M/1.3B, 3.3B) через transformers Hugging Face.",
+   "purpose_zh": "Meta 的 200 语言机器翻译模型（蒸馏版 600M/1.3B、3.3B），通过 Hugging Face transformers 使用。",
+   "value_ru": "Качественные пары редких языков офлайн.",
+   "value_zh": "离线的高质量低资源语言对。",
+   "risks_ru": "некоммерческая лицензия; скачивает веса",
+   "risks_zh": "非商业许可；下载权重"
   },
   {
    "id": "languagetool",
@@ -3044,7 +3758,13 @@
    "value": "Rule-based, explainable corrections with offsets for programmatic fixes.",
    "risks": "downloads server JAR",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Открытая проверка грамматики и стиля для 30+ языков; локальный HTTP-сервер; обёртка Python jxmorris12/language_tool_python.",
+   "purpose_zh": "开源语法/风格检查器，支持 30+ 种语言；本地 HTTP 服务器；Python 封装 jxmorris12/language_tool_python。",
+   "value_ru": "Объяснимые правки по правилам со смещениями для программных исправлений.",
+   "value_zh": "基于规则、可解释的修正，带偏移量便于程序化修复。",
+   "risks_ru": "скачивает JAR сервера",
+   "risks_zh": "下载服务器 JAR"
   },
   {
    "id": "aistorywriter",
@@ -3065,7 +3785,13 @@
    "value": "Long-form consistency via outline/edit loop beyond context window.",
    "risks": "network or local LLM load",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Конвейер генерации полноразмерных романов (план → главы → правка) с локальными или облачными LLM.",
+   "purpose_zh": "用本地或云端 LLM 生成长篇小说的流水线（大纲→章节→修订）。",
+   "value_ru": "Связность длинного текста через цикл план/правка за пределами контекстного окна.",
+   "value_zh": "通过大纲/修订循环保持超出上下文窗口的长文一致性。",
+   "risks_ru": "сеть или нагрузка локальной LLM",
+   "risks_zh": "联网或本地 LLM 负载"
   },
   {
    "id": "openfactcheck",
@@ -3088,7 +3814,13 @@
    "value": "Claim-level verdicts with retrieved evidence links.",
    "risks": "network; API cost",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Фреймворк разбора утверждений, поиска доказательств и проверки фактов в текстах LLM и новостях.",
+   "purpose_zh": "分解论断、检索证据并核验 LLM/新闻文本真实性的框架。",
+   "value_ru": "Вердикты по каждому утверждению со ссылками на найденные доказательства.",
+   "value_zh": "逐条论断的判定，附检索到的证据链接。",
+   "risks_ru": "сеть; расходы на API",
+   "risks_zh": "联网；API 费用"
   },
   {
    "id": "whisperx",
@@ -3112,7 +3844,13 @@
    "value": "Accurate, aligned transcripts/subtitles with speakers.",
    "risks": "downloads weights; GPU",
    "source": "prof",
-   "verified": true
+   "verified": true,
+   "purpose_ru": "Быстрое распознавание Whisper с метками времени по словам, выравниванием и разделением говорящих; вывод SRT/VTT.",
+   "purpose_zh": "快速 Whisper 语音识别，逐词时间戳、对齐和说话人分离；输出 SRT/VTT。",
+   "value_ru": "Точные выровненные расшифровки и субтитры с говорящими.",
+   "value_zh": "准确、对齐、带说话人的转写/字幕。",
+   "risks_ru": "скачивает веса; видеокарта",
+   "risks_zh": "下载权重；需显卡"
   },
   {
    "id": "subtitle_edit",
@@ -3135,7 +3873,13 @@
    "value": "Batch format conversion/retiming of subtitle files.",
    "risks": "Windows-centric",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Редактор субтитров с 300+ форматами, синхронизацией, OCR, интеграцией Whisper и конвертацией из командной строки.",
+   "purpose_zh": "字幕编辑器，支持 300+ 格式、同步、OCR、Whisper 集成和命令行转换。",
+   "value_ru": "Пакетная конвертация форматов и перетайминг субтитров.",
+   "value_zh": "批量字幕格式转换/重新定时。",
+   "risks_ru": "ориентирован на Windows",
+   "risks_zh": "以 Windows 为主"
   },
   {
    "id": "podcastfy",
@@ -3158,7 +3902,13 @@
    "value": "Produces actual audio files from sources.",
    "risks": "network; API cost",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Превращает документы и ссылки в аудиоразговор нескольких голосов (открытая альтернатива NotebookLM).",
+   "purpose_zh": "把文档/链接变成多人对话音频（NotebookLM 的开源替代）。",
+   "value_ru": "Делает настоящие аудиофайлы из источников.",
+   "value_zh": "由来源生成真实音频文件。",
+   "risks_ru": "сеть; расходы на API",
+   "risks_zh": "联网；API 费用"
   },
   {
    "id": "trafilatura",
@@ -3182,7 +3932,13 @@
    "value": "Clean article text + metadata at scale for monitoring.",
    "risks": "network scraping",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Сбор и извлечение текста из веба (основной текст, метаданные, комментарии) для новостных корпусов; CLI + Python.",
+   "purpose_zh": "网页抓取/正文提取（正文、元数据、评论），用于新闻/网络语料；CLI + Python。",
+   "value_ru": "Чистый текст статей с метаданными в масштабе для мониторинга.",
+   "value_zh": "大规模获取干净的文章正文和元数据，用于监测。",
+   "risks_ru": "сетевой сбор",
+   "risks_zh": "联网抓取"
   },
   {
    "id": "news_please",
@@ -3204,7 +3960,13 @@
    "value": "Structured newsroom monitoring feeds.",
    "risks": "network crawl",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Краулер и извлекатель новостей (заголовок, авторы, дата, текст) для сайтов и CommonCrawl.",
+   "purpose_zh": "新闻爬虫/提取器（标题、作者、日期、正文），支持网站和 CommonCrawl。",
+   "value_ru": "Структурированные ленты для мониторинга новостей.",
+   "value_zh": "结构化的新闻监测数据流。",
+   "risks_ru": "сетевой обход",
+   "risks_zh": "联网爬取"
   },
   {
    "id": "openfisca",
@@ -3227,7 +3989,13 @@
    "value": "Legally traceable benefit/tax computations.",
    "risks": "none notable",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Движок «правила как код» для налогово-социального законодательства (Франция, Тунис и др.) с Web API.",
+   "purpose_zh": "税收-福利立法的“规则即代码”引擎（法国、突尼斯等），带 Web API。",
+   "value_ru": "Юридически прослеживаемые расчёты льгот и налогов.",
+   "value_zh": "法律上可追溯的福利/税收计算。",
+   "risks_ru": "ничего заметного",
+   "risks_zh": "无明显风险"
   },
   {
    "id": "rasa",
@@ -3250,7 +4018,13 @@
    "value": "Deterministic business flows with slot filling and handoff.",
    "risks": "service",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Фреймворк контекстных ассистентов (NLU + диалог, потоки CALM на LLM) для поддержки клиентов.",
+   "purpose_zh": "面向客服的上下文助手框架（NLU + 对话、CALM LLM 流程）。",
+   "value_ru": "Детерминированные бизнес-сценарии с заполнением слотов и передачей оператору.",
+   "value_zh": "确定性的业务流程，带槽位填充和人工转接。",
+   "risks_ru": "сервис",
+   "risks_zh": "服务"
   },
   {
    "id": "chatwoot",
@@ -3273,7 +4047,13 @@
    "value": "Agent reads/replies in real customer conversations.",
    "risks": "customer data; service",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Омниканальный центр поддержки (веб, WhatsApp, почта) с ИИ-агентом Captain и REST API.",
+   "purpose_zh": "全渠道客服收件箱（网页、WhatsApp、邮件），带 Captain AI 代理和 REST API。",
+   "value_ru": "Агент читает и отвечает в настоящих разговорах с клиентами.",
+   "value_zh": "代理可在真实客户对话中读取/回复。",
+   "risks_ru": "данные клиентов; сервис",
+   "risks_zh": "客户数据；服务"
   },
   {
    "id": "docassemble_assemblyline",
@@ -3295,7 +4075,13 @@
    "value": "Rapid e-government form digitisation with validated fields.",
    "risks": "PII",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Фреймворк + ALWeaver для превращения бумажных судебных и государственных форм (PDF/DOCX) в анкеты docassemble.",
+   "purpose_zh": "框架 + ALWeaver，把纸质法院/政务表单（PDF/DOCX）转为 docassemble 引导式访谈。",
+   "value_ru": "Быстрая цифровизация государственных форм с проверкой полей.",
+   "value_zh": "快速数字化电子政务表单，带字段校验。",
+   "risks_ru": "персональные данные",
+   "risks_zh": "个人信息"
   },
   {
    "id": "openemr",
@@ -3317,7 +4103,798 @@
    "value": "Agent accesses scheduling/records via standard APIs.",
    "risks": "PHI; admin",
    "source": "prof",
-   "verified": false
+   "verified": false,
+   "purpose_ru": "Открытая медицинская информационная система и управление практикой с FHIR R4 и REST API.",
+   "purpose_zh": "开源电子病历和诊所管理系统，支持 FHIR R4 和 REST API。",
+   "value_ru": "Агент работает с расписанием и записями через стандартные API.",
+   "value_zh": "代理通过标准 API 访问排班/病历。",
+   "risks_ru": "персональные медданные; администрирование",
+   "risks_zh": "患者信息；需管理"
+  },
+  {
+   "id": "agent-browser",
+   "name": "agent-browser (Vercel Labs)",
+   "url": "https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser",
+   "purpose": "Browser automation CLI for agents: open pages, fill forms, click, screenshots, extract data, test web apps via Chrome/CDP with accessibility-tree snapshots and compact element refs.",
+   "purpose_ru": "CLI автоматизации браузера для агентов: открыть страницу, заполнить форму, нажать, снимок, вытащить данные, проверить веб-приложение — через Chrome/CDP со снимками дерева доступности и короткими ссылками на элементы.",
+   "purpose_zh": "面向智能体的浏览器自动化 CLI：打开页面、填表、点击、截图、提取数据、测试网页应用——基于 Chrome/CDP 与无障碍树快照和简短元素引用。",
+   "license": "Apache-2.0",
+   "stars": "1.3M installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Node.js 18+; `npm i -g agent-browser && agent-browser install` (downloads Chromium)",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "qa_engineer",
+    "marketer",
+    "seo_specialist"
+   ],
+   "risks": "Acts on live websites with whatever session the browser has; page text can carry injected instructions; downloads Chromium.",
+   "risks_ru": "Действует на живых сайтах с той сессией, что есть в браузере; текст страниц может содержать подброшенные указания; скачивает Chromium.",
+   "risks_zh": "在真实网站上以当前浏览器会话操作；网页文本可能包含注入指令；下载 Chromium。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "agent-browser"
+  },
+  {
+   "id": "find-skills",
+   "name": "find-skills (Vercel Labs)",
+   "url": "https://github.com/vercel-labs/skills/tree/main/skills/find-skills",
+   "purpose": "Teaches the agent to search skills.sh for a skill when the user asks for something a skill could cover, and to offer installing it.",
+   "purpose_ru": "Учит агента искать навык на skills.sh, когда человек просит то, что может закрыть навык, и предлагать его установить.",
+   "purpose_zh": "教智能体在用户提出可由技能完成的请求时去 skills.sh 搜索技能并建议安装。",
+   "license": "MIT",
+   "stars": "4.1M installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/vercel-labs/skills --skill find-skills",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "ai_agent_engineer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "Pairs with Naby's own tools catalog: a second place to look for a skill.",
+   "value_ru": "Дополняет каталог инструментов Наби: второе место, где искать навык.",
+   "value_zh": "补充 Naby 的工具目录：另一个寻找技能的地方。",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "find-skills"
+  },
+  {
+   "id": "skill-creator",
+   "name": "skill-creator (Anthropic)",
+   "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+   "purpose": "Guide for writing new SKILL.md skills: structure, description that triggers correctly, progressive disclosure, scripts and references.",
+   "purpose_ru": "Руководство по написанию новых навыков SKILL.md: структура, описание, по которому навык срабатывает, раскрытие по шагам, скрипты и справочники.",
+   "purpose_zh": "编写新 SKILL.md 技能的指南：结构、能正确触发的描述、渐进披露、脚本与参考资料。",
+   "license": "Apache-2.0",
+   "stars": "421k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/anthropics/skills --skill skill-creator",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "prompt_engineer",
+    "ai_agent_engineer",
+    "teacher"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "Lets a profession pack author produce skills in the format Naby and other agents read.",
+   "value_ru": "Автор пакета профессии пишет навыки в формате, который читают Наби и другие агенты.",
+   "value_zh": "让职业包作者以 Naby 和其他智能体可读的格式编写技能。",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "skill-creator"
+  },
+  {
+   "id": "grilling",
+   "name": "grilling / grill-me (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling",
+   "purpose": "A relentless interview that sharpens a plan or design before any work starts: the agent keeps asking until every gap and assumption is covered.",
+   "purpose_ru": "Безжалостное интервью, которое доводит план или проект до ясности до начала работы: агент спрашивает, пока не закрыты все пробелы и допущения.",
+   "purpose_zh": "在开工前通过不断追问把计划或设计打磨清楚：智能体持续提问直到所有空白和假设都被覆盖。",
+   "license": "MIT",
+   "stars": "1.5M installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill grilling",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "product_manager",
+    "project_manager",
+    "business_analyst",
+    "designer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "Good for any profession before an expensive job: a spec, a contract, an estimate.",
+   "value_ru": "Полезно любой профессии перед дорогой работой: ТЗ, договор, смета.",
+   "value_zh": "任何职业在昂贵工作前都适用：需求、合同、预算。",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "grilling"
+  },
+  {
+   "id": "tdd",
+   "name": "tdd (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd",
+   "purpose": "Test-driven development loop for agents: write the failing test, make it pass, refactor; rules on test size and naming.",
+   "purpose_ru": "Цикл разработки через тесты для агентов: падающий тест → проходит → рефакторинг; правила размера и имён тестов.",
+   "purpose_zh": "面向智能体的测试驱动开发循环：先写失败的测试，再让它通过，再重构；含测试粒度与命名规则。",
+   "license": "MIT",
+   "stars": "700k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill tdd",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "qa_engineer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "tdd"
+  },
+  {
+   "id": "code-review",
+   "name": "code-review (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/code-review",
+   "purpose": "Structured code review: correctness first, then design, then style; concrete findings with file and line, no nitpick noise.",
+   "purpose_ru": "Структурное ревью кода: сначала корректность, потом архитектура, потом стиль; находки с файлом и строкой, без шума из мелочей.",
+   "purpose_zh": "结构化代码评审：先正确性、再设计、再风格；给出文件和行号的具体发现，不堆砌琐碎意见。",
+   "license": "MIT",
+   "stars": "500k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill code-review",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "qa_engineer",
+    "devops"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "code-review"
+  },
+  {
+   "id": "diagnosing-bugs",
+   "name": "diagnosing-bugs (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs",
+   "purpose": "Bug diagnosis method: reproduce, narrow, form a hypothesis, prove it before fixing; keeps the agent from guessing fixes.",
+   "purpose_ru": "Метод поиска ошибок: воспроизвести, сузить, выдвинуть гипотезу, доказать её до исправления; не даёт агенту чинить наугад.",
+   "purpose_zh": "缺陷诊断方法：复现、缩小范围、提出假设、修复前先证明；防止智能体瞎猜。",
+   "license": "MIT",
+   "stars": "500k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill diagnosing-bugs",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "qa_engineer",
+    "embedded_engineer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "diagnosing-bugs"
+  },
+  {
+   "id": "to-spec",
+   "name": "to-spec (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-spec",
+   "purpose": "Turns a conversation or rough idea into a written spec with scope, acceptance criteria and open questions.",
+   "purpose_ru": "Превращает разговор или сырую идею в написанное ТЗ: объём, критерии приёмки, открытые вопросы.",
+   "purpose_zh": "把对话或粗略想法转化为书面规格：范围、验收标准、待定问题。",
+   "license": "MIT",
+   "stars": "400k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill to-spec",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "product_manager",
+    "project_manager",
+    "business_analyst"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "to-spec"
+  },
+  {
+   "id": "research",
+   "name": "research (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/research",
+   "purpose": "Research a question against primary sources (official docs, source code, specs) and write findings to a Markdown file with a source per claim.",
+   "purpose_ru": "Исследовать вопрос по первичным источникам (официальная документация, исходный код, спецификации) и записать выводы в Markdown с источником у каждого утверждения.",
+   "purpose_zh": "依据一手来源（官方文档、源代码、规范）研究问题，并把结论写入 Markdown，每条论断附来源。",
+   "license": "MIT",
+   "stars": "400k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill research",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "scientist",
+    "journalist",
+    "author",
+    "analyst"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "research"
+  },
+  {
+   "id": "teach",
+   "name": "teach (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/teach",
+   "purpose": "Multi-session teaching workspace: lessons, exercises and progress files in the current folder so the agent tutors a topic over time.",
+   "purpose_ru": "Учебное пространство на много сессий: уроки, упражнения и файлы прогресса в текущей папке — агент ведёт тему шаг за шагом.",
+   "purpose_zh": "跨会话的教学工作区：当前文件夹中的课程、练习和进度文件，让智能体持续辅导一个主题。",
+   "license": "MIT",
+   "stars": "400k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill teach",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "teacher",
+    "tutor",
+    "corporate_trainer",
+    "instructional_designer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "A ready structure for a tutor's lesson plan that persists between sessions.",
+   "value_ru": "Готовая структура плана занятий репетитора, которая сохраняется между сессиями.",
+   "value_zh": "为导师提供可跨会话保存的课程结构。",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "teach"
+  },
+  {
+   "id": "handoff",
+   "name": "handoff (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff",
+   "purpose": "Writes a handoff note so another agent or person can continue the work: state, decisions, next steps, open risks.",
+   "purpose_ru": "Пишет записку-передачу, чтобы другой агент или человек продолжил работу: состояние, решения, следующие шаги, риски.",
+   "purpose_zh": "编写交接说明，让另一位智能体或人接续工作：现状、决定、下一步、风险。",
+   "license": "MIT",
+   "stars": "1.1M installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill handoff",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "project_manager",
+    "office_manager",
+    "personal_assistant"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "handoff"
+  },
+  {
+   "id": "writing-for-agents",
+   "name": "writing-for-agents (Matt Pocock)",
+   "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents",
+   "purpose": "How to write instructions, skills and docs that agents follow reliably: short, concrete, with triggers and examples.",
+   "purpose_ru": "Как писать инструкции, навыки и документацию, которым агенты следуют надёжно: коротко, конкретно, с условиями срабатывания и примерами.",
+   "purpose_zh": "如何编写智能体能可靠遵循的指令、技能和文档：简短、具体、带触发条件和示例。",
+   "license": "MIT",
+   "stars": "300k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/mattpocock/skills --skill writing-for-agents",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "prompt_engineer",
+    "coder",
+    "author",
+    "instructional_designer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "writing-for-agents"
+  },
+  {
+   "id": "web-design-guidelines",
+   "name": "web-design-guidelines (Vercel Labs)",
+   "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines",
+   "purpose": "Audits a UI against Vercel's web interface guidelines: accessibility, focus, forms, animation, typography, layout, performance.",
+   "purpose_ru": "Проверяет интерфейс по рекомендациям Vercel: доступность, фокус, формы, анимация, типографика, раскладка, скорость.",
+   "purpose_zh": "按 Vercel 网页界面指南审查 UI：无障碍、焦点、表单、动画、排版、布局、性能。",
+   "license": "MIT",
+   "stars": "809k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "designer",
+    "coder",
+    "ux_researcher"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "web-design-guidelines"
+  },
+  {
+   "id": "react-best-practices",
+   "name": "react-best-practices (Vercel Labs)",
+   "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
+   "purpose": "React/Next.js performance and correctness rules (rendering, data fetching, bundles) distilled from Vercel engineering.",
+   "purpose_ru": "Правила производительности и корректности React/Next.js (рендеринг, загрузка данных, сборки) от инженеров Vercel.",
+   "purpose_zh": "来自 Vercel 工程团队的 React/Next.js 性能与正确性规则（渲染、数据获取、打包）。",
+   "license": "MIT",
+   "stars": "859k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "mobile_developer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "vercel-react-best-practices"
+  },
+  {
+   "id": "deploy-to-vercel",
+   "name": "deploy-to-vercel (Vercel Labs)",
+   "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel",
+   "purpose": "Deploys a project to Vercel with the CLI: preview and production, env vars, domains; explains what each step does.",
+   "purpose_ru": "Выкладывает проект на Vercel через CLI: превью и продакшен, переменные окружения, домены; объясняет каждый шаг.",
+   "purpose_zh": "用 CLI 把项目部署到 Vercel：预览与生产、环境变量、域名；解释每一步。",
+   "license": "MIT",
+   "stars": "200k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/vercel-labs/agent-skills --skill deploy-to-vercel",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "devops"
+   ],
+   "risks": "Runs the Vercel CLI with the user's account; deployments are public by default.",
+   "risks_ru": "Запускает Vercel CLI под аккаунтом человека; развёртывания по умолчанию публичны.",
+   "risks_zh": "以用户账号运行 Vercel CLI；部署默认公开。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "deploy-to-vercel"
+  },
+  {
+   "id": "remotion-best-practices",
+   "name": "remotion-best-practices (Remotion)",
+   "url": "https://github.com/remotion-dev/skills/tree/main/skills/remotion-best-practices",
+   "purpose": "Make videos programmatically in React with Remotion: compositions, timing, assets, audio, rendering rules.",
+   "purpose_ru": "Делать видео кодом на React с Remotion: композиции, тайминг, ассеты, звук, правила рендеринга.",
+   "purpose_zh": "用 Remotion 在 React 中以代码制作视频：合成、时间轴、素材、音频、渲染规则。",
+   "license": "Remotion license (free for individuals/small teams)",
+   "stars": "722k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "video",
+    "motion_designer",
+    "coder",
+    "smm_manager"
+   ],
+   "risks": "Remotion company license applies to companies with 4+ employees; renders need Node and Chrome.",
+   "risks_ru": "Для компаний от 4 сотрудников нужна лицензия Remotion; рендер требует Node и Chrome.",
+   "risks_zh": "4 人以上公司需 Remotion 商业许可；渲染需要 Node 和 Chrome。",
+   "value": "Template-driven video (captions, charts, product demos) rendered locally without an editor.",
+   "value_ru": "Видео по шаблону (титры, графики, демо продукта) рендерится локально без видеоредактора.",
+   "value_zh": "模板化视频（字幕、图表、产品演示）本地渲染，无需剪辑软件。",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "remotion-best-practices"
+  },
+  {
+   "id": "remotion-captions",
+   "name": "remotion-captions (Remotion)",
+   "url": "https://github.com/remotion-dev/skills/tree/main/skills/remotion-captions",
+   "purpose": "Transcribe with Whisper and render word-timed captions (TikTok-style) into a Remotion video.",
+   "purpose_ru": "Расшифровать речь Whisper и наложить титры с таймингом по словам (в стиле TikTok) на видео Remotion.",
+   "purpose_zh": "用 Whisper 转写并把逐词时间轴字幕（TikTok 风格）渲染进 Remotion 视频。",
+   "license": "Remotion license",
+   "stars": "246k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/remotion-dev/skills --skill remotion-captions",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "video",
+    "smm_manager",
+    "motion_designer"
+   ],
+   "risks": "Downloads Whisper weights; Remotion license terms for companies.",
+   "risks_ru": "Скачивает веса Whisper; условия лицензии Remotion для компаний.",
+   "risks_zh": "下载 Whisper 权重；公司需遵守 Remotion 许可。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "remotion-captions"
+  },
+  {
+   "id": "hyperframes",
+   "name": "hyperframes (HeyGen)",
+   "url": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes",
+   "purpose": "Open motion-graphics stack: describe a video in HTML/CSS-like frames and render it; includes slideshow, captions and media-use skills.",
+   "purpose_ru": "Открытый стек моушн-графики: видео описывается кадрами в духе HTML/CSS и рендерится; есть навыки слайд-шоу, титров и работы с медиа.",
+   "purpose_zh": "开源动态图形栈：用类 HTML/CSS 的帧描述视频并渲染；含幻灯片、字幕和媒体处理技能。",
+   "license": "Apache-2.0",
+   "stars": "1.3M installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Node.js; `npx hyperframes` CLI; Chrome for rendering",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/heygen-com/hyperframes --skill hyperframes",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "video",
+    "motion_designer",
+    "designer",
+    "smm_manager"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "hyperframes"
+  },
+  {
+   "id": "design-mobile-apps",
+   "name": "design-mobile-apps (designed-by-ai)",
+   "url": "https://github.com/designed-by-ai/skills/tree/main/skills/design-mobile-apps",
+   "purpose": "Mobile app design guidance: platform conventions (iOS/Android), navigation, spacing, type, states, accessibility; produces screens an engineer can build.",
+   "purpose_ru": "Дизайн мобильных приложений: правила платформ (iOS/Android), навигация, отступы, шрифты, состояния, доступность; экраны, которые инженер может собрать.",
+   "purpose_zh": "移动应用设计指南：平台规范（iOS/Android）、导航、间距、字体、状态、无障碍；产出工程师可实现的界面。",
+   "license": "MIT",
+   "stars": "150k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/designed-by-ai/skills --skill design-mobile-apps",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "designer",
+    "mobile_developer",
+    "ux_researcher"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "design-mobile-apps"
+  },
+  {
+   "id": "taste-skill",
+   "name": "design-taste-frontend (leonxlnx)",
+   "url": "https://github.com/leonxlnx/taste-skill/tree/main/skills/taste-skill",
+   "purpose": "Frontend taste rules: avoids generic AI-looking interfaces — palette, spacing, type and motion choices that read as designed.",
+   "purpose_ru": "Правила «вкуса» для фронтенда: избегает типового ИИ-вида — палитра, отступы, шрифты и движение, которые выглядят продуманно.",
+   "purpose_zh": "前端审美规则：避免千篇一律的 AI 风格——色板、间距、字体和动效显得经过设计。",
+   "license": "MIT",
+   "stars": "100k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/leonxlnx/taste-skill --skill design-taste-frontend",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "designer",
+    "coder"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "design-taste-frontend"
+  },
+  {
+   "id": "playwright-cli",
+   "name": "playwright-cli (Microsoft)",
+   "url": "https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli",
+   "purpose": "Drive a browser from the command line with Playwright: open, click, fill, assert, screenshots, traces — for testing and scraping by agents.",
+   "purpose_ru": "Управлять браузером из командной строки через Playwright: открыть, нажать, заполнить, проверить, снимки, трассы — для тестов и сбора данных агентами.",
+   "purpose_zh": "用 Playwright 从命令行驱动浏览器：打开、点击、填写、断言、截图、追踪——供智能体测试与采集。",
+   "license": "Apache-2.0",
+   "stars": "300k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Node.js; `npm i -g @playwright/cli` and browsers",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/microsoft/playwright-cli --skill playwright-cli",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "qa_engineer",
+    "coder",
+    "seo_specialist"
+   ],
+   "risks": "Acts on live sites; downloads browsers.",
+   "risks_ru": "Действует на живых сайтах; скачивает браузеры.",
+   "risks_zh": "在真实网站上操作；下载浏览器。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "playwright-cli"
+  },
+  {
+   "id": "supabase-postgres-best-practices",
+   "name": "supabase-postgres-best-practices (Supabase)",
+   "url": "https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices",
+   "purpose": "Postgres schema, index, RLS and query rules for Supabase projects; applies to plain Postgres too.",
+   "purpose_ru": "Правила схем, индексов, RLS и запросов Postgres для проектов Supabase; подходят и обычному Postgres.",
+   "purpose_zh": "Supabase 项目的 Postgres 模式、索引、RLS 和查询规则；也适用于普通 Postgres。",
+   "license": "MIT",
+   "stars": "469k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/supabase/agent-skills --skill supabase-postgres-best-practices",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "database_admin",
+    "data_engineer"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "supabase-postgres-best-practices"
+  },
+  {
+   "id": "prisma-client-api",
+   "name": "prisma-client-api (Prisma)",
+   "url": "https://github.com/prisma/skills/tree/main/prisma-client-api",
+   "purpose": "Prisma ORM client API reference for agents: queries, relations, transactions, typed results.",
+   "purpose_ru": "Справочник API клиента Prisma ORM для агентов: запросы, связи, транзакции, типизированные результаты.",
+   "purpose_zh": "面向智能体的 Prisma ORM 客户端 API 参考：查询、关系、事务、类型化结果。",
+   "license": "MIT",
+   "stars": "404k installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/prisma/skills --skill prisma-client-api",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "database_admin"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "prisma-client-api"
+  },
+  {
+   "id": "neon-postgres",
+   "name": "neon-postgres (Neon)",
+   "url": "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres",
+   "purpose": "Serverless Postgres on Neon: branches per PR, connection pooling, migrations, cost-aware queries.",
+   "purpose_ru": "Serverless Postgres на Neon: ветки базы на каждый PR, пул соединений, миграции, экономные запросы.",
+   "purpose_zh": "Neon 上的无服务器 Postgres：每个 PR 一个数据库分支、连接池、迁移、省成本查询。",
+   "license": "Apache-2.0",
+   "stars": "200k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/neondatabase/agent-skills --skill neon-postgres",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "database_admin",
+    "devops"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "neon-postgres"
+  },
+  {
+   "id": "cloudflare-workers",
+   "name": "cloudflare / workers-best-practices (Cloudflare)",
+   "url": "https://github.com/cloudflare/skills/tree/main/skills/workers-best-practices",
+   "purpose": "Build and deploy on Cloudflare Workers: wrangler, bindings (KV, D1, R2, Durable Objects), performance and security rules.",
+   "purpose_ru": "Сборка и деплой на Cloudflare Workers: wrangler, привязки (KV, D1, R2, Durable Objects), правила скорости и безопасности.",
+   "purpose_zh": "在 Cloudflare Workers 上构建与部署：wrangler、绑定（KV、D1、R2、Durable Objects）、性能与安全规则。",
+   "license": "Apache-2.0",
+   "stars": "100k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/cloudflare/skills --skill workers-best-practices",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "coder",
+    "devops",
+    "cloud_architect"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "workers-best-practices"
+  },
+  {
+   "id": "webapp-testing",
+   "name": "webapp-testing (Anthropic)",
+   "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+   "purpose": "Test a local web app with Playwright from Python: start server, drive pages, assert, screenshot; already bundled in Naby as anthropic-webapp-testing.",
+   "purpose_ru": "Тестирование локального веб-приложения через Playwright на Python: поднять сервер, пройти страницы, проверить, снять экран; уже встроено в Наби как anthropic-webapp-testing.",
+   "purpose_zh": "用 Python 的 Playwright 测试本地网页应用：启动服务器、操作页面、断言、截图；已作为 anthropic-webapp-testing 内置于 Naby。",
+   "license": "Apache-2.0",
+   "stars": "100k+ installs",
+   "updated": "2026-10",
+   "platforms": "any",
+   "requires": "Any agent that reads SKILL.md; some skills call a CLI named inside",
+   "integration_kind": "skill",
+   "install": "npx skills add https://github.com/anthropics/skills --skill webapp-testing",
+   "invoke": "Naby uses the skill when the task matches its description",
+   "professions": [
+    "qa_engineer",
+    "coder"
+   ],
+   "risks": "Skill text (SKILL.md), no code runs; Naby scans the folder and keeps a draft until you approve it.",
+   "risks_ru": "Текст навыка (SKILL.md), код не запускается; Наби проверяет папку и держит черновик до вашего «одобри навык».",
+   "risks_zh": "技能文本（SKILL.md），不运行代码；Naby 检查文件夹并保留草稿直到你批准。",
+   "value": "",
+   "value_ru": "",
+   "value_zh": "",
+   "source": "linkly.ai/skills best-100 (2026-11-01)",
+   "verified": true,
+   "skill_name": "webapp-testing"
   }
  ]
 }
