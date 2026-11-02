@@ -6,6 +6,7 @@ on:
 jobs:
   compat:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     strategy:
       fail-fast: false
       matrix:
@@ -36,9 +37,16 @@ jobs:
         if: steps.img.outputs.image != ''
         run: |
           mkdir -p out
-          docker run --rm -v "$PWD:/w" "${{ steps.img.outputs.image }}" bash -c 'cd /w && bash tools/compat/check.sh ${{ matrix.name }}'
-          echo "### ${{ matrix.title }} — $(jq -r .os out/${{ matrix.name }}.json)" >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"; jq -r '.results | to_entries[] | "\(.key): \(.value)"' out/${{ matrix.name }}.json >> "$GITHUB_STEP_SUMMARY"; echo '```' >> "$GITHUB_STEP_SUMMARY"
+          rc=0; timeout 40m docker run --rm -v "$PWD:/w" "${{ steps.img.outputs.image }}" bash -c 'cd /w && bash tools/compat/check.sh ${{ matrix.name }}' || rc=$?
+          sudo chown -R "$(id -u)" out || true; ls -la out
+          J=out/${{ matrix.name }}.json
+          if [ -s "$J" ]; then
+            echo "### ${{ matrix.title }} — $(jq -r .os "$J"), Python $(jq -r .python "$J")" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"; jq -r '.results | to_entries[] | "\(.key): \(.value)"' "$J" >> "$GITHUB_STEP_SUMMARY"; echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### ${{ matrix.title }} — проверка не завершилась (код $rc), см. лог" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          exit $rc
       - name: Образ недоступен
         if: steps.img.outputs.image == ''
         run: echo "### ${{ matrix.title }} — образ ОС недоступен публично, проверка на виртуальной машине" >> "$GITHUB_STEP_SUMMARY"

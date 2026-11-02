@@ -10,10 +10,13 @@ step "ОС: ${PRETTY_NAME:-unknown}"; uname -a
 step "пакеты для проверки"
 if command -v apt-get >/dev/null; then
   export DEBIAN_FRONTEND=noninteractive
-  apt-get update -qq >/dev/null 2>&1 || true
-  apt-get install -y -qq curl tar unzip ca-certificates xvfb xauth libx11-6 libxext6 libxrender1 libxft2 fontconfig procps >/dev/null 2>&1 \
-   || apt-get install -y curl tar unzip ca-certificates xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps >/dev/null 2>&1 || true
-  apt-get install -y -qq chromium >/dev/null 2>&1 || apt-get install -y -qq chromium-browser >/dev/null 2>&1 || echo "(chromium не поставлен — окно проверяется в Tk)"
+  timeout 300 apt-get update -qq >/dev/null 2>&1 || true
+  if grep -qi "^ID=altlinux" /etc/os-release 2>/dev/null; then   # ALT: apt-rpm, имена пакетов как в RPM
+    timeout 600 apt-get install -y curl tar unzip ca-certificates xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps >/dev/null 2>&1 || true
+  else
+    timeout 600 apt-get install -y -qq curl tar unzip ca-certificates xvfb xauth libx11-6 libxext6 libxrender1 libxft2 fontconfig procps >/dev/null 2>&1 || true
+    timeout 600 apt-get install -y -qq chromium >/dev/null 2>&1 || timeout 600 apt-get install -y -qq chromium-browser >/dev/null 2>&1 || echo "(chromium не поставлен — окно проверяется в Tk)"
+  fi
 elif command -v dnf >/dev/null; then
   dnf install -y -q curl tar unzip ca-certificates xorg-x11-server-Xvfb xorg-x11-xauth libX11 libXext libXrender libXft fontconfig procps-ng >/dev/null 2>&1 || true
   dnf install -y -q chromium >/dev/null 2>&1 || echo "(chromium не поставлен — окно проверяется в Tk)"
@@ -58,9 +61,13 @@ if [ -n "$PY" ]; then
   APP=$!; sleep 25
   if kill -0 $APP 2>/dev/null; then ok "app_running_25s"; else bad "app_running_25s" "процесс завершился"; fi
   if [ -f start_error.txt ]; then bad "start_error" "$(head -c 200 start_error.txt)"; else ok "start_error"; fi
-  if grep -q "Traceback" "$OUT/$NAME.app.out" log.txt 2>/dev/null; then bad "no_traceback" "см. лог"; else ok "no_traceback"; fi
+  # значок в трее: на виртуальном дисплее нет системного трея — сообщение pystray «Failed to dock icon» ожидаемо и не считается ошибкой
+  if grep -v -E "pystray|_xorg.py|AssertionError|Failed to dock|_assert_docked|\^+$" "$OUT/$NAME.app.out" log.txt 2>/dev/null | grep -q "Traceback\|Error:"; then bad "no_traceback" "см. лог"; else ok "no_traceback"; fi
+  grep -q "Failed to dock" "$OUT/$NAME.app.out" 2>/dev/null && echo "(трей недоступен на виртуальном дисплее — ожидаемо)"
   echo "--- log.txt (хвост) ---"; tail -n 20 log.txt 2>/dev/null; echo "--- stdout (хвост) ---"; tail -n 20 "$OUT/$NAME.app.out"
   kill $APP 2>/dev/null; sleep 1; kill -9 $APP 2>/dev/null || true
 fi
 step "итог"
 printf '{"os": "%s", "kernel": "%s", "date": "%s", "python": "%s", "results": {%s}}\n' "${PRETTY_NAME:-unknown}" "$(uname -r)" "$(date -u +%FT%TZ)" "$([ -n "$PY" ] && "$PY" -c 'import sys;print(sys.version.split()[0])')" "$(IFS=,; echo "${R[*]}")" | tee "$OUT/$NAME.json"
+sync; ls -la "$OUT"
+case " ${R[*]} " in *fail:*) exit 1;; *) exit 0;; esac
