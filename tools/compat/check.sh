@@ -13,7 +13,9 @@ if command -v apt-get >/dev/null; then
   timeout 300 apt-get update -qq >/dev/null 2>&1 || true
   if grep -qi "^ID=altlinux" /etc/os-release 2>/dev/null; then   # ALT: apt-rpm, имена пакетов как в RPM
     cat /etc/apt/sources.list.d/*.list 2>/dev/null | grep -v "^#" | head -5
-    timeout 300 apt-get update 2>&1 | tail -5
+    timeout 300 apt-get update 2>&1 | tail -3
+    # базовый образ ALT отстаёт от ветки p11 — без dist-upgrade зависимости «Broken packages»
+    timeout 1200 apt-get dist-upgrade -y >/tmp/apt.upgrade.log 2>&1 && echo "+ dist-upgrade" || { echo "- dist-upgrade:"; tail -4 /tmp/apt.upgrade.log | sed 's/^/    /'; }
     for pk in curl tar unzip ca-certificates ca-trust xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps; do
       if timeout 300 apt-get install -y "$pk" >/tmp/apt.$pk.log 2>&1; then echo "+ $pk"; else echo "- $pk:"; tail -4 /tmp/apt.$pk.log | sed 's/^/    /'; fi
     done
