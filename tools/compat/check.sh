@@ -12,7 +12,9 @@ if command -v apt-get >/dev/null; then
   export DEBIAN_FRONTEND=noninteractive
   timeout 300 apt-get update -qq >/dev/null 2>&1 || true
   if grep -qi "^ID=altlinux" /etc/os-release 2>/dev/null; then   # ALT: apt-rpm, имена пакетов как в RPM
-    timeout 600 apt-get install -y curl tar unzip ca-certificates xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps >/dev/null 2>&1 || true
+    cat /etc/apt/sources.list.d/*.list 2>/dev/null | grep -v "^#" | head -5
+    timeout 300 apt-get update 2>&1 | tail -5
+    timeout 600 apt-get install -y curl tar unzip ca-certificates xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps 2>&1 | tail -8
   else
     timeout 600 apt-get install -y -qq curl tar unzip ca-certificates xvfb xauth libx11-6 libxext6 libxrender1 libxft2 fontconfig procps >/dev/null 2>&1 || true
     timeout 600 apt-get install -y -qq chromium >/dev/null 2>&1 || timeout 600 apt-get install -y -qq chromium-browser >/dev/null 2>&1 || echo "(chromium не поставлен — окно проверяется в Tk)"
@@ -62,7 +64,12 @@ if [ -n "$PY" ]; then
   if kill -0 $APP 2>/dev/null; then ok "app_running_25s"; else bad "app_running_25s" "процесс завершился"; fi
   if [ -f start_error.txt ]; then bad "start_error" "$(head -c 200 start_error.txt)"; else ok "start_error"; fi
   # значок в трее: на виртуальном дисплее нет системного трея — сообщение pystray «Failed to dock icon» ожидаемо и не считается ошибкой
-  if grep -v -E "pystray|_xorg.py|AssertionError|Failed to dock|_assert_docked|\^+$" "$OUT/$NAME.app.out" log.txt 2>/dev/null | grep -q "Traceback\|Error:"; then bad "no_traceback" "см. лог"; else ok "no_traceback"; fi
+  if cat "$OUT/$NAME.app.out" log.txt 2>/dev/null | awk '
+      /^Traceback/ {intb=1; tb=""; next}
+      intb && /^[ \t]/ {tb=tb $0 "\n"; next}
+      intb {intb=0; if (tb !~ /pystray/) {print "REAL TRACEBACK:\n" tb $0; found=1}; next}
+      /Error:/ && !/pystray|dock/ {print "ERROR LINE: " $0; found=1}
+      END {exit !found}'; then bad "no_traceback" "см. лог"; else ok "no_traceback"; fi
   grep -q "Failed to dock" "$OUT/$NAME.app.out" 2>/dev/null && echo "(трей недоступен на виртуальном дисплее — ожидаемо)"
   echo "--- log.txt (хвост) ---"; tail -n 20 log.txt 2>/dev/null; echo "--- stdout (хвост) ---"; tail -n 20 "$OUT/$NAME.app.out"
   kill $APP 2>/dev/null; sleep 1; kill -9 $APP 2>/dev/null || true
