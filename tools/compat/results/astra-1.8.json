@@ -1,0 +1,25 @@
+{
+ "os": "Astra Linux",
+ "kernel": "7.0.0-1017-azure",
+ "date": "2026-11-02T09:51:48Z",
+ "python": "3.12.15",
+ "results": {
+  "tool_curl": "ok",
+  "tool_tar": "ok",
+  "tool_Xvfb": "ok",
+  "tool_xvfb-run": "ok",
+  "download": "ok",
+  "install": "ok",
+  "python": "ok",
+  "version": "ok",
+  "core": "ok",
+  "imports": "ok",
+  "tkinter": "ok",
+  "profession_packages": "ok",
+  "app_running_25s": "ok",
+  "start_error": "ok",
+  "no_traceback": "ok"
+ },
+ "run": "https://github.com/AlexPechkin/Naby-AI-assistant/actions/runs/41423693863",
+ "build": "52"
+}
