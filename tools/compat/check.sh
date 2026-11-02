@@ -12,8 +12,10 @@ if command -v apt-get >/dev/null; then
   export DEBIAN_FRONTEND=noninteractive
   timeout 300 apt-get update -qq >/dev/null 2>&1 || true
   if grep -qi "^ID=altlinux" /etc/os-release 2>/dev/null; then   # ALT: apt-rpm, имена пакетов как в RPM
-    cat /etc/apt/sources.list.d/*.list 2>/dev/null | grep -v "^#" | head -5
-    timeout 300 apt-get update 2>&1 | tail -3
+    # зеркало Яндекса быстрее ftp.altlinux.org из облака; списки пакетов должны скачаться целиком (иначе «Broken packages»)
+    rm -f /etc/apt/sources.list.d/*.list
+    printf 'rpm [p11] http://mirror.yandex.ru/altlinux p11/branch/x86_64 classic\nrpm [p11] http://mirror.yandex.ru/altlinux p11/branch/noarch classic\n' > /etc/apt/sources.list.d/yandex.list
+    timeout 900 apt-get update 2>&1 | tail -6
     # базовый образ ALT отстаёт от ветки p11 — без dist-upgrade зависимости «Broken packages»
     timeout 1200 apt-get dist-upgrade -y >/tmp/apt.upgrade.log 2>&1 && echo "+ dist-upgrade" || { echo "- dist-upgrade:"; tail -4 /tmp/apt.upgrade.log | sed 's/^/    /'; }
     for pk in curl tar unzip ca-certificates ca-trust xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps; do
