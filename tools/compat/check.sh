@@ -15,7 +15,7 @@ if command -v apt-get >/dev/null; then
     cat /etc/apt/sources.list.d/*.list 2>/dev/null | grep -v "^#" | head -5
     timeout 300 apt-get update 2>&1 | tail -5
     for pk in curl tar unzip ca-certificates ca-trust xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps; do
-      timeout 300 apt-get install -y "$pk" >/dev/null 2>&1 && echo "+ $pk" || echo "- $pk (нет в репозитории или не поставился)"
+      if timeout 300 apt-get install -y "$pk" >/tmp/apt.$pk.log 2>&1; then echo "+ $pk"; else echo "- $pk:"; tail -4 /tmp/apt.$pk.log | sed 's/^/    /'; fi
     done
   else
     timeout 600 apt-get install -y -qq curl tar unzip ca-certificates xvfb xauth libx11-6 libxext6 libxrender1 libxft2 fontconfig procps >/dev/null 2>&1 || true
