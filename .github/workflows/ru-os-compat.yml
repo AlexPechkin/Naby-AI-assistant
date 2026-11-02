@@ -1,0 +1,50 @@
+name: Совместимость с российскими ОС
+
+on:
+  workflow_dispatch:
+
+jobs:
+  compat:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: alt-p11
+            title: "ALT Linux p11 (Salvia)"
+            images: "registry.altlinux.org/p11/base:latest alt:p11"
+          - name: astra-1.8
+            title: "Astra Linux 1.8"
+            images: "registry.astralinux.ru/library/alse:1.8 vatanov/alse:1.8 vatanov/alse:latest"
+          - name: redos-7.3
+            title: "РЕД ОС 7.3"
+            images: "registry.red-soft.ru/ubi7/ubi:7.3 registry.red-soft.ru/ubi7/ubi:latest unixsystem32/redos-7.3:latest"
+          - name: redos-8
+            title: "РЕД ОС 8"
+            images: "registry.red-soft.ru/ubi8/ubi:8 registry.red-soft.ru/ubi8/ubi:latest"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Образ ОС
+        id: img
+        run: |
+          for i in ${{ matrix.images }}; do
+            if docker pull "$i" >/dev/null 2>&1; then echo "image=$i" >> "$GITHUB_OUTPUT"; echo "pulled $i"; exit 0; fi
+            echo "no: $i"
+          done
+          echo "image=" >> "$GITHUB_OUTPUT"
+      - name: Проверка
+        if: steps.img.outputs.image != ''
+        run: |
+          mkdir -p out
+          docker run --rm -v "$PWD:/w" "${{ steps.img.outputs.image }}" bash -c 'cd /w && bash tools/compat/check.sh ${{ matrix.name }}'
+          echo "### ${{ matrix.title }} — $(jq -r .os out/${{ matrix.name }}.json)" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"; jq -r '.results | to_entries[] | "\(.key): \(.value)"' out/${{ matrix.name }}.json >> "$GITHUB_STEP_SUMMARY"; echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Образ недоступен
+        if: steps.img.outputs.image == ''
+        run: echo "### ${{ matrix.title }} — образ ОС недоступен публично, проверка на виртуальной машине" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: compat-${{ matrix.name }}
+          path: out/
+          if-no-files-found: ignore
