@@ -22,7 +22,7 @@ if command -v apt-get >/dev/null; then
     # базовый образ ALT отстаёт от ветки p11 — без dist-upgrade зависимости «Broken packages»
     timeout 1200 apt-get dist-upgrade -y >/tmp/apt.upgrade.log 2>&1 && echo "+ dist-upgrade" || { echo "- dist-upgrade:"; tail -4 /tmp/apt.upgrade.log | sed 's/^/    /'; }
     for pk in curl tar unzip ca-certificates ca-trust xorg-xvfb xvfb-run xauth libX11 libXext libXrender libXft fontconfig procps; do
-      if timeout 300 apt-get install -y "$pk" >/tmp/apt.$pk.log 2>&1; then echo "+ $pk"; else echo "- $pk:"; tail -4 /tmp/apt.$pk.log | sed 's/^/    /'; fi
+      if timeout 1500 apt-get install -y "$pk" >/tmp/apt.$pk.log 2>&1; then echo "+ $pk"; else echo "- $pk:"; tail -4 /tmp/apt.$pk.log | sed 's/^/    /'; fi
     done
   else
     timeout 600 apt-get install -y -qq curl tar unzip ca-certificates xvfb xauth libx11-6 libxext6 libxrender1 libxft2 fontconfig procps >/dev/null 2>&1 || true
