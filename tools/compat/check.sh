@@ -14,7 +14,9 @@ if command -v apt-get >/dev/null; then
   if grep -qi "^ID=altlinux" /etc/os-release 2>/dev/null; then   # ALT: apt-rpm, имена пакетов как в RPM
     cat /etc/apt/sources.list.d/*.list 2>/dev/null | grep -v "^#" | head -5
     timeout 300 apt-get update 2>&1 | tail -5
-    timeout 600 apt-get install -y curl tar unzip ca-certificates xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps 2>&1 | tail -8
+    for pk in curl tar unzip ca-certificates ca-trust xorg-xvfb xauth libX11 libXext libXrender libXft fontconfig procps; do
+      timeout 300 apt-get install -y "$pk" >/dev/null 2>&1 && echo "+ $pk" || echo "- $pk (нет в репозитории или не поставился)"
+    done
   else
     timeout 600 apt-get install -y -qq curl tar unzip ca-certificates xvfb xauth libx11-6 libxext6 libxrender1 libxft2 fontconfig procps >/dev/null 2>&1 || true
     timeout 600 apt-get install -y -qq chromium >/dev/null 2>&1 || timeout 600 apt-get install -y -qq chromium-browser >/dev/null 2>&1 || echo "(chromium не поставлен — окно проверяется в Tk)"
